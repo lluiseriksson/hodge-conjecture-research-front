@@ -13,7 +13,7 @@ hodge_type: the canonical full-support coordinate must be rational type (0,0) af
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B081-B084, B092-B093, G046-G055, NG068-NG069
+dependencies: B009-B010, B022, B081-B084, B092-B094, G046-G055, NG068-NG070
 claim: For the actual special lift of the B058 detector, prove its canonical E_infinity^(-1,0) associated grade has a nonzero full-support component in H^(-1)(i_H^*P)=R(H)_1^(0,0), independent of lift ambiguity after both B022 quotients and retaining nonzero prescribed pairing.
 falsifier: zero associated grade, confinement to divisor support, dependence on lift ambiguity, death in a B022 kernel, or orthogonality to the prescribed Hodge class
 ---
@@ -34,9 +34,9 @@ G055 collision. Apply only canonical operations:
    H^{-1}(i_H^*P)=R(H)_1^{(0,0)}.
    \]
 
-Call the resulting coordinate $r_H$. The gate requires proof that changes of
-$\beta$ allowed by B083 have zero image after the two B022 quotient maps and
-the prescribed pairing, while
+Call the resulting coordinate $r_H$. The original stronger form asks that
+changes of $\beta$ allowed by B083 have zero image after the two B022 quotient
+maps and the prescribed pairing, while
 
 \[
  r_H\ne0,
@@ -45,4 +45,5 @@ the prescribed pairing, while
 \]
 
 No derived splitting may be chosen. The class-specific nonvanishing remains
-terminal-level content.
+terminal-level content. NG070 records that ambiguity-independence is not
+necessary. G058 replaces it by B094's exact affine-torsor disjunction.

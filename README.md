@@ -196,7 +196,12 @@ $H^{-1}(i_H^*j_{!*}L[2])$, while NG069 closes G056's proposed direct map from
 the total derived stalk because that would require a noncanonical splitting.
 G057 is the smallest gate: prove nonzero landing in the canonical perverse
 associated grade and full-support summand, with lift ambiguity, both B022
-quotients, and prescribed pairing controlled. The
+quotients, and prescribed pairing controlled. B094/NG070 remove one final
+overconstraint: the ambiguity need not be invisible, because an ambiguity
+direction can itself produce a detecting lift. G058 is the exact active gate:
+for the affine type-$(0,0)$ lift torsor $\beta_0+A$, compute the canonical
+scalar detector functional $F$ and prove
+$F(\beta_0)\ne0$ or $F(A)\ne0$. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
@@ -421,6 +426,7 @@ python verification/verify_B089_marked_plane_slice.py
 python verification/verify_B090_local_boundary_vanishing.py
 python verification/verify_B092_special_lift_countermodel.py
 python verification/verify_B093_relation_shift.py
+python verification/verify_B094_affine_lift_criterion.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -498,6 +504,8 @@ identical exact and type-(0,0) lift data admit zero or nonzero local-relation
 coordinates.
 The B093 check verifies the plane-base shift
 $H^1(j_{!*}L)_H=H^{-1}(i_H^*j_{!*}L[2])$.
+The B094 check verifies the exact affine-torsor disjunction for existence of
+at least one lift with nonzero quotient-level pairing.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

@@ -1333,3 +1333,18 @@
   perverse cohomology object are canonical.
 - **Re-entry condition:** G057 must first take the canonical associated grade,
   then full strict support, and prove the specified class remains nonzero.
+
+## NG-070 - Lift ambiguity must be killed
+
+- **Label:** NO-GO
+- **Route:** require every B083 ambiguity direction to vanish after canonical
+  relation landing, both B022 quotients, and prescribed pairing.
+- **Valid input:** this condition would make the detector value independent of
+  the selected special lift.
+- **Invalid inference:** such independence is necessary for existence of a
+  detecting lift.
+- **Precise obstruction:** B094 shows that if $F(A)\ne0$, an ambiguity
+  adjustment itself supplies a lift with nonzero pairing, even when the base
+  lift has value zero.
+- **Re-entry condition:** G058 must compute $F(\beta_0)$ and $F(A)$ and prove
+  that they do not vanish simultaneously.

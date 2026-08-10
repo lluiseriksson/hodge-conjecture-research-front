@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 86% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 87% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -142,7 +142,9 @@ Date: 2026-08-10
   that invariant-cycle liftability and type $(0,0)$ still do not select the
   local-relation coordinate. B093 identifies that relation canonically with
   the full-support perverse stalk. NG069 closes G056's noncanonical direct
-  total-stalk projection; G057 is the corrected associated-grade landing gate.
+  total-stalk projection. B094/NG070 then show that G057's demand for
+  ambiguity-independence is stronger than necessary. G058 is the exact affine
+  lift-torsor pairing gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -526,9 +528,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   pushdown through $E_\infty^{-1,0}$ and full strict support.
 - G056 / NG069 - NO-GO: no canonical morphism runs directly from the total
   derived special stalk to that relation group via a chosen decomposition.
-- G057 - EXPLORATORY, active smallest gate: prove the actual lift has a
+- G057 - EXPLORATORY, stronger sufficient gate: prove the actual lift has a
   nonzero canonical associated-grade/full-support coordinate, independent of
   lift ambiguity after both B022 quotients and nonzero prescribed pairing.
+- B094 - PROVED: for a nonempty type-(0,0) lift torsor $\beta_0+A$, a
+  detecting lift exists exactly when $F(\beta_0)\ne0$ or $F(A)\ne0$.
+- NG070 - NO-GO: detection does not require the ambiguity space to lie in
+  the kernel of the detector functional; ambiguity can create a good lift.
+- G058 - EXPLORATORY, active smallest gate: construct the type-(0,0) lift
+  torsor and canonical scalar functional for the actual collision and verify
+  B094's exact disjunction.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

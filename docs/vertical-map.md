@@ -272,7 +272,7 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G055: nonzero topology-changing correction}
 \Longleftarrow
-\text{G057: canonical relation-grade landing}.
+\text{G058: affine detector functional nonzero}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -340,6 +340,16 @@ $H^{-1}(i_H^*j_{!*}L[2])$. B081/NG069 prohibit G056's direct projection from
 the total derived stalk. G057 is now the smallest endpoint: pass through the
 canonical perverse associated grade, then full strict support, and calculate
 the nonzero quotient-level paired coordinate.
+B094/NG070 refine this endpoint. Requiring the detector value to be
+independent of B083's lift ambiguity is unnecessary. If the type-$(0,0)$
+lift torsor is $\beta_0+A$ and $F$ is the canonical scalar detector
+functional, existence is exactly
+
+\[
+ F(\beta_0)\ne0\quad\text{or}\quad F(A)\ne0.
+\]
+
+G058 is the resulting minimal endpoint.
 
 An externally claimed shortcut is closed separately:
 
