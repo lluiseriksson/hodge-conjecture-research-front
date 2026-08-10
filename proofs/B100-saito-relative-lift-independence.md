@@ -56,4 +56,5 @@ boundary with the canonical local relation.
 
 B100 does not construct the comparison from B057's moving-hyperplane
 extension to $H_{2n}(Y_c,Z_c)$ or identify its boundary. G064 is that minimal
-chain-level gate.
+comparison gate; B101/NG077 reduce its genuinely geometric content to G065's
+boundary-marked map of pairs.

@@ -447,6 +447,10 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   relative lifts of the same boundary relation have identical primitive
   ambient images. Literal equality of the relative representatives is not
   required; identifying B057's local boundary remains the open comparison.
+- For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
+  thimble pair. Naturality proves the boundary square only after a map of
+  pairs is supplied. S022 does not construct such a map from an arbitrary
+  distributed B057 word or identify the individual marked boundary spheres.
 - Rechecked Section 1.4, especially formula (1.4.1) and Proposition 1.7, for
   B040. In a normal-crossing polydisk, the degree-one IC stalk is computed by
   Saito's image-of-monodromy subcomplex in mixed Hodge modules. If
@@ -682,6 +686,10 @@ Computation* 93 (2024), 2985-3025.
   preserve the relative extension attached to the same composite path and
   input class. Nothing in this source identifies that extension with a
   topology-changing special-fiber relation. G055 records the missing map.
+- Rechecked the pair boundary in §2.1.4 for B101/NG077: S029 computes the
+  total boundary in the smooth reference fiber. This does not canonically
+  determine the pre-gluing vector in S022's disjoint local group. A marked
+  collision map remains necessary.
 - Scope guard: these are exact topological statements despite the paper's
   computational goal. Numerical period calculations are not used as
   evidence of algebraicity. The theorem is for generic pencils in the

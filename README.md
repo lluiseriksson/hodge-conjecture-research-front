@@ -230,9 +230,12 @@ B100 sharpens Saito's construction further: any two relative lifts of the
 same boundary relation have the same primitive ambient image because their
 difference comes from nonprimitive nearby-fiber homology. NG076 therefore
 closes literal same-chain equality as an unnecessary requirement. G064 is the
-active minimal gate: place the B057 detector in Saito's relative group,
-identify its boundary with the canonical local relation, and retain its
-primitive ambient value $c$.
+parent boundary-comparison gate. B101 proves that its boundary and ambient
+equalities follow formally from a boundary-marked map of pairs and
+chain-homotopy-compatible ambient realization maps. NG077 blocks recovering the marked local
+coordinate from global boundary zero. G065 is the active minimal gate:
+construct that marked collision map and verify its action on each local
+vanishing sphere.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -465,6 +468,7 @@ python verification/verify_B097_constant_target_square.py
 python verification/verify_B098_two_quotient_map.py
 python verification/verify_B099_same_relative_chain.py
 python verification/verify_B100_relative_lift_independence.py
+python verification/verify_B101_marked_boundary_naturality.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -557,6 +561,9 @@ general result follows from Saito §2.5's good-retraction construction.
 The B100 check verifies a finite model in which different relative
 representatives with one boundary have the same primitive ambient image;
 Saito §2.4 proves the general nonprimitive-ambiguity statement.
+The B101 check separates a marked local boundary vector from its zero global
+image and verifies the finite naturality square; the general result is
+naturality of the long exact sequence of a pair and homotopy invariance.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

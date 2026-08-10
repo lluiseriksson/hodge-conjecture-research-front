@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 93% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 94% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -162,6 +162,9 @@ Date: 2026-08-10
   B100 proves literal representative equality is unnecessary because
   relative-lift ambiguity has nonprimitive ambient image. NG076/G064 reduce
   the gate to local boundary identification plus primitive pushforward.
+  B101 makes both equalities formal from a boundary-marked map of pairs and
+  chain-homotopy-compatible ambient realization maps. NG077/G065 isolate construction of that marked
+  collision map as the remaining geometric obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -599,6 +602,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G064 - EXPLORATORY, active smallest gate: map the B057 detector into
   Saito's relative group, identify its canonical local boundary, and verify
   primitive ambient pushforward $c$.
+- B101 - PROVED: a boundary-marked map of pairs makes the relative-boundary
+  square commute, and compatible ambient realization chain maps preserve
+  B058's class $c$.
+- NG077 - NO-GO: zero total boundary in the smooth reference fiber does not
+  determine a vector in the marked local relation kernel.
+- G065 - EXPLORATORY, active smallest gate: construct the actual marked map
+  of pairs, send every oriented boundary sphere to the canonical Saito local
+  coordinate, and prove chain-level compatibility of the two ambient
+  realizations.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

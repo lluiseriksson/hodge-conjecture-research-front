@@ -1431,3 +1431,19 @@
   boundary differ by nearby homology whose image in $X$ is nonprimitive.
 - **Re-entry condition:** G064 must identify the local boundary and primitive
   pushforward; representative equality is not required.
+
+## NG-077 - Global boundary zero identifies the local relation coordinate
+
+- **Label:** NO-GO
+- **Route:** use B057's equation $\sum_i c_i\delta_i=0$ in the smooth
+  reference fiber as the canonical Saito relation in $H_{2n-1}(Z_c)$.
+- **Valid input:** the distributed thimble coefficients give a genuine
+  zero-boundary relative class before collision.
+- **Invalid inference:** the zero global image determines its marked vector
+  in the direct sum of local Milnor homology groups after collision.
+- **Precise obstruction:** the local-to-global boundary map may have a
+  multidimensional kernel; distinct marked local vectors then have the same
+  zero image.
+- **Re-entry condition:** G065 must construct a map of pairs and identify its
+  restriction on every oriented boundary sphere. B101 then supplies
+  naturality automatically.

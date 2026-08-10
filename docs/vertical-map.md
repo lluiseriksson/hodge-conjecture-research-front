@@ -284,7 +284,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G063: good-retraction same-chain identity}
 \Longleftarrow
-\text{G064: local relative-boundary identification}.
+\text{G064: local relative-boundary identification}
+\Longleftarrow
+\text{G065: boundary-marked collision map}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -403,8 +405,12 @@ quotients.
 B100 uses Saito §2.4 to remove literal representative equality: the
 difference between two lifts of one boundary has nonprimitive ambient image.
 NG076 closes G063's stronger requirement as unnecessary. G064 is the current
-smallest endpoint: construct the relative comparison, prove its boundary is
+parent endpoint: construct the relative comparison, prove its boundary is
 the canonical full-support relation, and retain primitive ambient value $c$.
+B101 proves those two equalities by naturality once a boundary-marked map of
+pairs and chain-homotopy-compatible ambient realization maps exist. NG077 blocks inferring the marked
+local coordinate from total boundary zero. G065 is the current smallest
+endpoint: construct that marked comparison in the actual collision.
 
 An externally claimed shortcut is closed separately:
 
