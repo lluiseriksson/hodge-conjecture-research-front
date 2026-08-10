@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 81% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 82% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -131,8 +131,10 @@ Date: 2026-08-10
   component to $[Nt]\in\operatorname{coker}N_J$. G051 is the resulting
   nilpotent-residue gate. B088 proves that a marked collision acting purely
   by Hurwitz moves and returning $(g,\alpha)$ has $Nt=0$. NG064 separates
-  Hurwitz-equivalent unmarked data from exact marked return. G052 is the
-  resulting marked-collision construction gate.
+  Hurwitz-equivalent unmarked data from exact marked return. B089 constructs
+  the marked plane-net geometry through any supplied independent-node target.
+  NG065 shows that marking alone does not localize B058's global detector.
+  G053 is the remaining class-specific local-detector replacement gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -482,9 +484,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   chain, hence give $Nt=0$.
 - NG064 - NO-GO: Hurwitz equivalence and rank preservation do not by
   themselves fix the marked detector datum $(g,\alpha)$.
-- G052 - EXPLORATORY, active smallest gate: construct a topology-changing
+- G052 - EXPLORATORY, marked-collision parent: construct a topology-changing
   collision with a fixed marked reference fiber and exact return of
   $(g,\alpha)$, so B088 kills the residue obstruction.
+- B089 - PROVED: through any independent-node target and a general fixed
+  smooth reference point, a general plane cuts the local discriminant in
+  distinct branches and has a braid-fixed marked boundary loop.
+- NG065 - NO-GO: this marked geometry does not identify the local boundary
+  loop with B058's global detector or preserve its specified pairing.
+- G053 - EXPLORATORY, active smallest gate: construct on the B089 disk a
+  loop-fixed rational detector that survives both B022 quotients and pairs
+  nontrivially with the prescribed primitive rational Hodge class.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

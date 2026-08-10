@@ -1258,3 +1258,18 @@
   exact marked return, not only Hurwitz equivalence.
 - **Re-entry condition:** construct G052's marked topology-changing family
   and verify exact return of $(g,\alpha)$ plus both B022 quotient maps.
+
+## NG-065 - Marked collision geometry localizes the global detector
+
+- **Label:** NO-GO
+- **Route:** combine B089's fixed-reference collision disk with B058's global
+  detector and identify their loop-fixed classes without an additional map.
+- **Valid input:** B089 supplies a locally braid-invariant boundary loop, and
+  B058 supplies some global loop-fixed tube pairing nontrivially with the
+  prescribed primitive Hodge class.
+- **Invalid inference:** the B089 boundary loop carries a fixed rational class
+  whose B022 ambient image equals, or merely pairs as, the B058 detector.
+- **Precise obstruction:** the two loop-fixed pairs are unrelated; the local
+  relation image may be zero after B022 or orthogonal to the prescribed class.
+- **Re-entry condition:** prove G053 by constructing the local fixed class and
+  checking both quotient maps and its nonzero prescribed pairing.

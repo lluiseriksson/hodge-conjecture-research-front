@@ -178,8 +178,12 @@ this residue class and kill it explicitly. B088 supplies a zero-residue
 mechanism: pure Hurwitz motion fixes the geometric B057 composite chain if
 the collision returns the marked loop $g$, reference fiber, and class
 $\alpha$. NG064 blocks deducing those marked conditions from Hurwitz rank
-invariance. G052 is now the smallest gate: construct such a marked
-topology-changing collision. Only then can G048 choose and audit the lift
+invariance. B089 now constructs a fixed-reference marked plane slice through
+any already-supplied independent-node target. NG065 proves that this geometric
+marking does not localize B058's global detector or preserve its pairing.
+G053 is the smallest gate: construct a local loop-fixed detector on that
+marked slice which survives both B022 quotients and pairs nontrivially with
+the prescribed Hodge class. Only then can G048 choose and audit the lift
 and G046 analyze its perverse grade. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -401,6 +405,7 @@ python verification/verify_B065_a2_cusp_resolution.py
 python verification/verify_B066_pulledback_total_space.py
 python verification/verify_B067_a2_weyl_cover.py
 python verification/verify_B073_a2_weyl_trace.py
+python verification/verify_B089_marked_plane_slice.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -468,6 +473,9 @@ The B058 check illustrates the perfect-pairing choice and exact lift through
 a surjective rational tube matrix; the theorem uses B011 and B016.
 The B059 check verifies the strict countermodel separating a nonzero
 detector pairing from containment of a preselected nonorthogonal class.
+The B089 check verifies a finite tangent-form instance of the generic
+two-plane avoidance argument; the general statement is B089's linear
+avoidance proof.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

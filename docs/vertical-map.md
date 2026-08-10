@@ -266,7 +266,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G051: }[Nt]=0\text{ in }\operatorname{coker}N_J
 \Longleftarrow
-\text{G052: marked Hurwitz collision fixing }(g,\alpha).
+\text{G052: marked Hurwitz collision fixing }(g,\alpha)
+\Longleftarrow
+\text{G053: class-specific marked local detector}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -312,7 +314,12 @@ B088 supplies a direct vanishing criterion: the B057 chain is the geometric
 extension $\tau_g(\alpha)$, so a collision acting only by Hurwitz moves and
 returning the marked composite loop, reference fiber, and class fixes the
 chain and gives $Nt=0$. NG064 blocks obtaining these marked conditions from
-rank invariance alone. G052 is therefore the smallest current endpoint.
+rank invariance alone. B089 proves that, once an independent-node target is
+given, a general plane through it and a fixed smooth reference fiber supplies
+the required marked boundary-loop geometry. NG065 blocks identifying that
+local loop with the unrelated B058 detector. G053 is therefore the smallest
+current endpoint: it must construct a local fixed class whose extension
+survives both B022 quotients and retains nonzero prescribed pairing.
 
 An externally claimed shortcut is closed separately:
 
