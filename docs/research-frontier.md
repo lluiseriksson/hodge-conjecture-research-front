@@ -104,9 +104,11 @@ NG035 records the failure of the stronger raw-exceptional-coordinate claim.
 B050 closes G022: the origin residue anchors the arbitrary-SNC quotient,
 giving the branch and flat coefficient sheaves with no higher sheaves and
 with rational type \((0,0)\). G019 remains the general arrangement gate, with
-G023 now active. The immediate bricks are a normal-fiber formula for an
-arbitrary nested support, exact ambient/support shift bookkeeping, and either
-a proof that ordinary degree one is impossible or a concrete counterexample.
+B051 closes G023: the coefficient-sensitive normal-fiber amplitude and its
+dual force every lower support to begin in ordinary degree two. G024 is now
+active. The immediate bricks are the global sections of every coefficient
+support, exclusion of other total-degree-one spectral-sequence arrows, and
+identification of the transgression with B049's divisor classes.
 
 ## Sufficient parent: G014
 

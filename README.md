@@ -198,7 +198,8 @@ child orders. B049 proves G021's universal intrinsic divisor matrix for all
 building sets and permissible orders. NG035 records why raw exceptional
 coordinates are not order invariant. B050 proves G022's universal rational
 coefficient-sheaf formula and higher-sheaf vanishing by an anchored SNC
-quotient. G023 now isolates lower strict-support descent.
+quotient. B051 proves G023's universal lower strict-support bound. G024 now
+isolates the global residue-hypercohomology calculation.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -259,6 +260,7 @@ python verification/verify_B047_three_level_nested_chain.py
 python verification/verify_B048_forked_building_set.py
 python verification/verify_B049_wonderful_divisor_matrix.py
 python verification/verify_B050_coefficient_sheaf.py
+python verification/verify_B051_strict_support_bound.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -301,6 +303,9 @@ is the geometric argument in B049, not the finite computation.
 The B050 check tests the anchored SNC quotient with independent, repeated,
 and dependent vanishing cycles. Its general proof is the rational
 Picard-Lefschetz and intermediate-extension argument in B050.
+The B051 check verifies the exact normal-fiber, perverse-amplitude, and
+ordinary-degree shifts through codimension twenty; the theorem is B051's
+duality and strict-support argument.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

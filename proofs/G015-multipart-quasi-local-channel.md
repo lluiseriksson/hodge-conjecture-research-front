@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B050, G012-G014, G016-G023, Green-Griffiths S021, Saito S022/S037, and Li S038
+dependencies: B009-B010, B028, B034-B051, G012-G014, G016-G024, Green-Griffiths S021, Saito S022/S037, and Li S038
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -362,6 +362,14 @@ vanish, eliminating higher coefficient sheaves, and the splitting commutes
 with generization. G023 now isolates the remaining proper-direct-image
 strict-support bound; the global residue differential must then be assembled
 from B049's divisor matrix and B050's coefficient sheaf.
+
+## Attempt 18 - Universal lower-support exclusion
+
+B051 proves G023. On every codimension-\(c\) normal slice, B050 bounds the
+normal-fiber hypercohomology by (2c-2); Verdier duality gives perverse
+amplitude \([-(c-2),c-2]\), so a proper support begins in ordinary degree
+two. G024 now isolates the last local-arrangement obligation: assemble the
+global degree-one residue hypercohomology from B049-B050.
 
 ## Propagation
 

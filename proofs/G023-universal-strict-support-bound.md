@@ -1,6 +1,6 @@
 ---
 brick_id: G023
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: the wonderful resolution of an arbitrary central representable nodal discriminant arrangement and all strata over its origin
 smoothness: the parameter slice and wonderful resolution are smooth and the resolved boundary is simple normal crossing
@@ -13,7 +13,7 @@ hodge_type: any surviving ordinary-degree-one full-support group must be pure ty
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B039-B050, G019-G022, Saito S037, and Li S038
+dependencies: B039-B051, G019-G022, Saito S037, and Li S038
 claim: In the proper direct image from every wonderful resolution, every non-full-support strict-support summand begins in ordinary stalk degree at least two, so B050's resolved degree-one group descends canonically to the downstairs IC stalk.
 falsifier: a building-flat or nested-set support carrying a nonzero strict-support summand in ordinary stalk degree one after all dimension and perverse shifts are restored
 ---
@@ -26,9 +26,9 @@ compute the normal wonderful fiber and its shifted hypercohomology, then prove
 that the corresponding strict-support summands occur only in ordinary stalk
 degrees at least two.
 
-The finite uniform, chain, and fork bricks obtain this bound from explicit
-fiber dimensions and Saito's decomposition theorem. A general proof must
-handle arbitrary nested products and must track the ambient shift separately
-from the support dimension; codimension alone is not a proof. A single
-ordinary-degree-one lower-support summand falsifies G023 and would have to be
-included in G019's downstairs relation channel.
+B051 proves the bound uniformly. On a normal codimension-\(c\) slice, B050
+bounds the central-fiber hypercohomology by (2c-2); duality gives perverse
+amplitude \([-(c-2),c-2]\). Undoing the ambient shift puts every proper
+support first in ordinary degree (c-(c-2)=2). Thus no lower support alters
+the degree-one group. The remaining G019 obligation is the global residue
+hypercohomology, isolated next as G024.

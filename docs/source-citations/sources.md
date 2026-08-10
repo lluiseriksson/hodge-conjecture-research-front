@@ -862,6 +862,10 @@ American Mathematical Society* 46 (2009), 535-633,
 - B046 separately audits the codimension-two flat, codimension-three flat,
   and origin for one nested-center model. It does not infer a uniform
   strict-support theorem for arbitrary wonderful building sets from S037.
+- B051 first derives the coefficient-sensitive normal-fiber amplitude from
+  B050, then uses Saito's projective direct image, Verdier duality, and
+  strict-support decomposition. It does not infer the amplitude from the
+  constant-coefficient semismall theorem.
 - Scope guard: the theorem separates the downstairs full-support IC summand
   from point-supported summands. It does not calculate the latter's Hodge
   structures and does not prove that the degree-one relation group has type

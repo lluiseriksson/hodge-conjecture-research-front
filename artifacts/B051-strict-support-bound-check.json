@@ -1,0 +1,24 @@
+{
+  "codimensions": [
+    {"codimension": 2, "fiber_dimension": 1, "constant_row_top": 2, "coefficient_row_top": 1, "perverse_interval": [0, 0], "first_lower_support_degree": 2},
+    {"codimension": 3, "fiber_dimension": 2, "constant_row_top": 4, "coefficient_row_top": 3, "perverse_interval": [-1, 1], "first_lower_support_degree": 2},
+    {"codimension": 4, "fiber_dimension": 3, "constant_row_top": 6, "coefficient_row_top": 5, "perverse_interval": [-2, 2], "first_lower_support_degree": 2},
+    {"codimension": 5, "fiber_dimension": 4, "constant_row_top": 8, "coefficient_row_top": 7, "perverse_interval": [-3, 3], "first_lower_support_degree": 2},
+    {"codimension": 6, "fiber_dimension": 5, "constant_row_top": 10, "coefficient_row_top": 9, "perverse_interval": [-4, 4], "first_lower_support_degree": 2},
+    {"codimension": 7, "fiber_dimension": 6, "constant_row_top": 12, "coefficient_row_top": 11, "perverse_interval": [-5, 5], "first_lower_support_degree": 2},
+    {"codimension": 8, "fiber_dimension": 7, "constant_row_top": 14, "coefficient_row_top": 13, "perverse_interval": [-6, 6], "first_lower_support_degree": 2},
+    {"codimension": 9, "fiber_dimension": 8, "constant_row_top": 16, "coefficient_row_top": 15, "perverse_interval": [-7, 7], "first_lower_support_degree": 2},
+    {"codimension": 10, "fiber_dimension": 9, "constant_row_top": 18, "coefficient_row_top": 17, "perverse_interval": [-8, 8], "first_lower_support_degree": 2},
+    {"codimension": 11, "fiber_dimension": 10, "constant_row_top": 20, "coefficient_row_top": 19, "perverse_interval": [-9, 9], "first_lower_support_degree": 2},
+    {"codimension": 12, "fiber_dimension": 11, "constant_row_top": 22, "coefficient_row_top": 21, "perverse_interval": [-10, 10], "first_lower_support_degree": 2},
+    {"codimension": 13, "fiber_dimension": 12, "constant_row_top": 24, "coefficient_row_top": 23, "perverse_interval": [-11, 11], "first_lower_support_degree": 2},
+    {"codimension": 14, "fiber_dimension": 13, "constant_row_top": 26, "coefficient_row_top": 25, "perverse_interval": [-12, 12], "first_lower_support_degree": 2},
+    {"codimension": 15, "fiber_dimension": 14, "constant_row_top": 28, "coefficient_row_top": 27, "perverse_interval": [-13, 13], "first_lower_support_degree": 2},
+    {"codimension": 16, "fiber_dimension": 15, "constant_row_top": 30, "coefficient_row_top": 29, "perverse_interval": [-14, 14], "first_lower_support_degree": 2},
+    {"codimension": 17, "fiber_dimension": 16, "constant_row_top": 32, "coefficient_row_top": 31, "perverse_interval": [-15, 15], "first_lower_support_degree": 2},
+    {"codimension": 18, "fiber_dimension": 17, "constant_row_top": 34, "coefficient_row_top": 33, "perverse_interval": [-16, 16], "first_lower_support_degree": 2},
+    {"codimension": 19, "fiber_dimension": 18, "constant_row_top": 36, "coefficient_row_top": 35, "perverse_interval": [-17, 17], "first_lower_support_degree": 2},
+    {"codimension": 20, "fiber_dimension": 19, "constant_row_top": 38, "coefficient_row_top": 37, "perverse_interval": [-18, 18], "first_lower_support_degree": 2}
+  ],
+  "scope": "shift arithmetic only"
+}
