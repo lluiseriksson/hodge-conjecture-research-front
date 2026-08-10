@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 85% - independent Git repository, mandatory topology,
+- **Infrastructure:** 86% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 64% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 65% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -62,9 +62,10 @@ Date: 2026-08-10
   NG035 records the failed raw-coordinate induction. B050 proves the
   universal rational coefficient-sheaf formula on their SNC strata. B051
   excludes all ordinary-degree-one lower strict supports uniformly. B052
-  closes the full central representable building-set relation channel. None is
-  proof-assistant formalized, and the
-  multipart local-channel gate is open.
+  closes the full central representable building-set relation channel, and
+  B054 extends it to nonlinear Li-clean germs. None is proof-assistant
+  formalized. The remaining gate is class-specific incidence, not the local
+  multipart calculation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -227,9 +228,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   class.
 - NG038 - NO-GO: the total equator of one complete pencil lies in
   \(\operatorname{im}\tau_\infty\) and vanishes in the first B022 quotient.
-- G030 - EXPLORATORY, active gate: collide the actual non-equator plane-net
-  detector chain to one clean multipart nodal relation while preserving its
-  exact primitive ambient class and rational type \((0,0)\).
+- B059 - PROVED: detection requires only a local ambient class outside
+  \(\zeta^\perp\); exact recovery of a preselected nonorthogonal tube class
+  is a strictly stronger linear-algebra obligation.
+- NG039 - NO-GO: G030's exact target equality is not a necessary or
+  terminal-equivalent formulation of the local detection criterion.
+- G031 - EXPLORATORY, active gate: find a Li-clean multipart nodal relation
+  whose ambient class pairs nontrivially with the specified Hodge class.
+- G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
+  plane-net detector chain while preserving its exact primitive ambient
+  class and rational type \((0,0)\).
 - G029 - EXPLORATORY parent: construct a topology-changing boundary
   specialization from a chosen global tube or thimble detector to one clean
   multipart nodal relation while preserving the B022 quotient class,

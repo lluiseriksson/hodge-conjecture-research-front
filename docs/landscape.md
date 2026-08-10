@@ -85,7 +85,9 @@ boundary, not an induction mechanism.
 | tube/thimble chain identity | B057 proves B013's distributed coefficients are the coefficients in the ordered thimble-extension expression and retain the Schnell ambient class | the chain is still distributed among separate meridians and has no local Hodge type |
 | Hodge-targeted tube selection | B058 chooses a rational type-(0,0) primitive homology class pairing with the specified Hodge class and lifts it through the surjective tube map into the plane net | the resulting Hodge homology class is topological and not known algebraic or locally nodal |
 | total-equator NO-GO | NG038 proves the total-equator vector of one complete pencil is in \(\operatorname{im}\tau_\infty\) and vanishes in \(\mathcal T(Y)\) | the actual detector must remain a non-equator loop in the plane net |
-| plane-net collision gate | G030 asks for a topology-changing specialization of B057's chain to one clean nodal relation with identical primitive ambient class and rational type (0,0) | no audited nearby-cycle or incidence theorem gives the required commutative square |
+| pairing versus exact class | B059 proves that a detector outside \(\zeta^\perp\) suffices, while containing a preselected nonorthogonal class is strictly stronger; NG039 closes exact recovery as a necessary gate | the linear correction constructs no local relation or support point |
+| clean-nodal support gate | G031 asks that the class-specific support meet the Li-clean multipart nodal locus, equivalently that one clean relation pair nontrivially with \(\zeta\) | support nonemptiness is terminal-hard and no theorem forces intersection with the controlled locus |
+| exact plane-net collision mechanism | G030 asks for a topology-changing specialization of B057's chain to one clean nodal relation with identical primitive ambient class and rational type (0,0) | sufficient but stronger than G031; no audited nearby-cycle theorem gives the square |
 | arbitrary building-set channel | B049-B052 prove G019: every representable wonderful arrangement has the full residue kernel, strict-support bound, and rational type-(0,0) comparison | central linear geometry only; B054 is needed for nonlinear clean germs |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
@@ -265,8 +267,9 @@ class-paired incidence parent. B055/NG037 show that monodromy on one
 equisingular component cannot enlarge its fixed ambient image. B056-B057
 reduce the chosen detector to an explicit extension chain in a generic plane
 net, while NG038 excludes the total-pencil equator. G030 is the current
-class-preserving collision gate.
-B035 makes that gate finite and explicit at its first new instance: compute
+stronger exact-class collision proposal; B059/NG039 replace it as a necessary
+gate by G031's clean-nodal nonzero-pairing incidence.
+B035 makes the multipart local channel finite and explicit at its first new instance: compute
 the intermediate extension for the Picard-Lefschetz local system on the
 five-marked exceptional \(\mathbf P^1\) resolving \(U_{2,5}\). NG-033
 prevents substituting the five pairwise crossing calculations for this

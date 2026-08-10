@@ -25,7 +25,8 @@ Two sufficient attacks feed G008:
 \qquad
 \text{G008}\Longleftarrow\text{tube-to-local concentration G007}
 \Longleftarrow\text{topology-changing transport G029}
-\Longleftarrow\text{plane-net collision G030}.
+\Longleftarrow\text{clean-nodal support intersection G031}
+\Longleftarrow\text{exact plane-net collision G030}.
 \]
 
 The fixed-carrier branch now has an additional necessary local gate:
@@ -147,9 +148,21 @@ For all singular members, the equality is terminal-equivalent through B007
 and B010. Restricting to fully independent-node members was the stronger
 proposal G009, now disproved by B027.
 
-## Current smallest attackable brick
+## Current active geometric gate
 
-**G030: plane-net class-preserving collision.** B011 supplies a global
+**G031: clean-nodal intersection with class-specific support.** Construct a
+Li-clean multipart nodal member and a rational local relation \(\beta\) with
+
+\[
+ \langle\zeta,\Phi_{Y_p}(\beta)\rangle\ne0.
+\]
+
+B010 and B007 propagate this to HC. The attempt remains terminal-hard:
+B012 does not prove that \(\operatorname{Sing}(\zeta)\) is nonempty, and
+B054 computes the clean local channel without forcing its intersection with
+that support.
+
+G030 is a stronger proposed mechanism. B011 supplies a global
 tube detector for every nonzero primitive class, B022 identifies the two
 quotients before an ambient class is obtained, and B054 proves the clean
 multipart local relation channel once a nodal target is supplied. B056
@@ -159,7 +172,9 @@ chain and primitive ambient class. B058 chooses that ambient class inside
 rational type-\((0,0)\) primitive homology while retaining the specified
 pairing. G030 asks for a topology-changing
 specialization of that chain to a rational type-\((0,0)\) nodal relation
-whose Saito ambient image is exactly the same class.
+whose Saito ambient image is exactly the same class. B059 proves that exact
+recovery is sufficient but is strictly stronger than the needed nonzero
+pairing; NG039 closes its use as the smallest necessary gate.
 
 B055 proves that transport inside one connected equisingular incidence
 stratum cannot achieve this: a relation-to-constant-ambient morphism of local
@@ -305,8 +320,9 @@ clean-arrangement hypothesis. G028 is the unresolved class-paired incidence
 parent. B055 proves ambient-image rigidity on each connected equisingular
 component, and NG037 closes monodromy generation as a NO-GO. B056-B057
 localize and identify the global detector chain; NG038 closes the total
-equator as a NO-GO; B058 makes its ambient target Hodge; and G030 is now the smallest class-preserving collision
-gate. The fixed-carrier branch may use
+equator as a NO-GO; B058 makes its ambient target Hodge; B059/NG039 remove
+exact target recovery as a necessary condition; and G031 is now the active
+clean-nodal pairing gate. The fixed-carrier branch may use
 the dimension-scaled inequality \(|S|\le q r_A(S)\), but no theorem yet
 connects a specified global detector to such a nodal relation.
 

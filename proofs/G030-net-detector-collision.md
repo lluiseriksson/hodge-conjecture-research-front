@@ -92,3 +92,18 @@ B054 makes every relation in the clean target channel type \((0,0)\).
 Accordingly, the only unresolved decisive statement in the square is the
 geometric equality \(\Phi_{Y_p}(\beta)=c\); neither a new Hodge-type
 conversion nor a dimension argument can replace it.
+
+## Minimality audit
+
+B059 shows that the final sentence is correct only as an account of this
+particular square, not as a statement of the terminal minimum. B010 requires
+only
+
+\[
+ \langle\zeta,\Phi_{Y_p}(\beta)\rangle\ne0.
+\]
+
+Exact recovery of the independently selected \(c\) is sufficient but
+strictly stronger in linear algebra. NG039 therefore closes the use of G030
+as the smallest necessary gate. G030 remains a valid exploratory geometric
+theorem, but G031 is the active pairing-preserving formulation.

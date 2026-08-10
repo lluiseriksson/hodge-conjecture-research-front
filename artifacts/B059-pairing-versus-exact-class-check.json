@@ -1,0 +1,11 @@
+{
+  "specified_functional": [1, 0],
+  "preselected_class": [1, 0],
+  "detector_generator": [1, 1],
+  "preselected_pairing": 1,
+  "detector_pairing": 1,
+  "detector_rank": 1,
+  "augmented_rank": 2,
+  "preselected_class_in_detector_span": false,
+  "scope": "finite rational type-(0,0) linear-algebra countermodel only"
+}

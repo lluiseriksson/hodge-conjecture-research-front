@@ -800,3 +800,21 @@
   in a generic plane net by B056. Track its B057 extension chain through a
   topology-changing collision and prove equality with a local Saito ambient
   class. This is G030.
+
+## NG-039 - Exact recovery of a selected tube target is necessary
+
+- **Label:** NO-GO
+- **Route:** choose a nonorthogonal Hodge homology target \(c\) by B058 and
+  treat equality \(\Phi_{Y_p}(\beta)=c\) as the smallest
+  terminal-equivalent collision obligation.
+- **Valid input:** such a \(c\) exists, and exact recovery would imply the
+  required nonzero pairing.
+- **Invalid inference:** every local detector subspace that pairs
+  nontrivially with \(\zeta\) contains the independently preselected \(c\).
+- **Precise obstruction:** B059 gives the type-\((0,0)\) rational model
+  \(\zeta(x,y)=x\), \(c=(1,0)\), and
+  \(D=\mathbf Q(1,1)\). The subspace \(D\) detects \(\zeta\), but
+  \(c\notin D\).
+- **Re-entry condition:** retain exact equality only as the stronger G030
+  mechanism. The active G031 gate requires the geometrically necessary
+  condition \(\langle\zeta,\Phi_{Y_p}(\beta)\rangle\ne0\).

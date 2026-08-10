@@ -1,13 +1,12 @@
 # Research frontier
 
-## Active gate: G030
+## Active gate: G031
 
-Starting with a B056 detector loop in a generic projective plane net and its
-explicit B057 thimble extension chain, construct a topology-changing
-algebraic specialization to one clean \(q\)-block nodal member. The
-specialized rational relation must have type \((0,0)\) after
-\(\mathbf Q(n)\) and its Saito ambient image must equal the original
-primitive tube class, not merely span a positive-dimensional subspace.
+For a specified nonzero primitive rational Hodge class \(\zeta\), construct
+one Li-clean multipart nodal member and a rational type-\((0,0)\) relation
+\(\beta\) whose Saito ambient class satisfies
+\(\langle\zeta,\Phi(\beta)\rangle\ne0\). Equivalently, force the
+class-specific local support to meet the controlled clean nodal locus.
 
 B055 proves why an equisingular monodromy argument cannot supply this
 specialization. Whenever the relation spaces and Saito ambient maps form a
@@ -20,8 +19,13 @@ pencil's total equator kills the class in the first B022 quotient. G030 must
 retain the genuine non-equator loop or construct a transverse defect class.
 B058 also removes the ambient Hodge-type ambiguity: choose a rational
 type-\((0,0)\) primitive homology target pairing with \(\zeta\), then lift
-that exact target through B011's surjective tube map. The sole decisive
-unknown is now the collision equality with a local clean relation.
+that exact target through B011's surjective tube map. G030 asked that a
+collision recover this particular target exactly. B059 proves that exact
+recovery is sufficient but strictly stronger than B010's required nonzero
+pairing, and NG039 prevents treating it as the terminal minimum. G030 remains
+a possible stronger mechanism; G031 records the actual clean-nodal pairing
+obligation. Its decisive unknown is still class-controlled incidence, not
+linear algebra.
 
 ## Closed local gate: G015
 
@@ -131,8 +135,9 @@ survives. G028-G029 are the class-paired incidence and transport parents.
 B055/NG037 exclude equisingular monodromy. B056-B057 put the actual detector
 and its extension chain in one plane net, while NG038 excludes the total
 pencil equator. B058 lets the ambient tube target itself be chosen rational
-type \((0,0)\). G030 is now active: collide that non-equator chain while
-preserving its exact ambient class.
+type \((0,0)\). B059/NG039 show that preserving that exact target is stronger
+than necessary. G031 is now active: reach the clean nodal channel while
+preserving the specified nonzero pairing.
 
 ## Sufficient parent: G014
 
@@ -189,8 +194,9 @@ Attack ledger:
 4. Use B056-B058 to keep a Hodge-targeted detector loop and its extension
    chain in a generic plane net; NG038 forbids replacing it by a total
    pencil equator.
-5. Construct G030's topology-changing specialization square into G015's
-   proved clean multipart target, preserving the exact ambient class.
+5. Construct G031's topology-changing specialization into G015's proved
+   clean multipart target, preserving nonzero pairing with \(\zeta\). Exact
+   recovery of the B058 target is optional stronger mechanism G030.
 6. Audit boundary/intersection constructions that define a global incidence
    class without using an algebraic representative of \(\zeta\); NG-013
    excludes the HC-dependent Green-Griffiths construction.
@@ -290,7 +296,8 @@ explicit clean-arrangement hypothesis. B055/NG037 then show that
 equisingular monodromy cannot enlarge one fixed ambient image. B056-B057
 localize and identify the detector chain, NG038 kills the total-equator
 shortcut, and B058 chooses its ambient target in rational Hodge homology;
-G030 is the active class-preserving collision gate. B029/NG-026 test the
+G031 is the active clean-nodal pairing gate. B059/NG039 show that G030's
+exact class recovery is an optional stronger mechanism. B029/NG-026 test the
 first collinear positive-defect configuration and show that it is singular
 along its carrier line. The next construction must obtain adjoint dependence
 from distributed or genuinely zero-dimensional incidence while preserving
