@@ -938,6 +938,12 @@ American Mathematical Society* 46 (2009), 535-633,
   unique strict-support decomposition inside the grade supplies a projection
   from the entire stalk. Thus G070 must first prove liftability inside that
   filtration step before forming its dual detector certificate.
+- Rechecked Theorem 1.7.1(2) and the filtration discussion for B108/NG084:
+  local invariant cycles give surjectivity from the unfiltered special-fiber
+  group to local monodromy invariants. The theorem does not state strictness
+  for the perverse filtration or surjectivity from one chosen filtration
+  step. Thus B084 cannot by itself kill
+  $[t_\psi]\in\operatorname{im}u/u(S_0)$.
 - Checked Section 5.5, Remark 5.5.1, triangle (39), and Theorem 5.5.3: the
   natural arrow is $i^*K\to\Psi_fK$, followed by the canonical arrow to the
   shifted vanishing-cycle term. The stalk long exact sequence makes a nearby

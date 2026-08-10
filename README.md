@@ -255,7 +255,12 @@ canonical filtration step $S_0$, not on the entire special stalk. G070 is the
 active collision gate: prove $t_\psi\in\operatorname{im}(u|_{S_0})$ and then
 prove either the filtered dual-cokernel branch or, only in its zero branch, a
 nonzero descended evaluation. G060-G068 remain sufficient attacks on the
-latter branch after this filtration-compatible lift is supplied.
+latter branch after this filtration-compatible lift is supplied. B108 turns
+the new lift condition into the exact coset
+$\omega_{\mathrm{fil}}(t_\psi)=[t_\psi]$ in
+$\operatorname{im}u/u(S_0)$. NG084 shows that ordinary local-invariant-cycle
+surjectivity and Hodge strictness do not kill it. G071 is the active smallest
+gate: compute this coset in the actual collision and prove it vanishes.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -496,6 +501,7 @@ python verification/verify_B104_bordism_obstruction_coset.py
 python verification/verify_B105_scalar_discrepancy.py
 python verification/verify_B106_detector_cancellation.py
 python verification/verify_B107_filtered_dual_certificate.py
+python verification/verify_B108_filtered_lift_obstruction.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -610,6 +616,9 @@ certificate: nonzero dual cokernel, or nonzero descended evaluation.
 The B107/NG083 check verifies that this certificate must be formed on the
 canonical perverse-filtration step, exhibits a fully liftable nearby class
 with no filtered lift, and checks G070's corrected two branches.
+The B108/NG084 check packages filtered liftability as one quotient coset and
+gives a pure-Tate model where ordinary liftability and Hodge strictness hold
+but the coset is nonzero. G071 must compute the geometric coset.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

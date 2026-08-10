@@ -13,7 +13,7 @@ hodge_type: S_0, t_psi, F_0, relation coordinates, and all maps restricted to ra
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B058, B081-B084, B093-B107, G048-G059, NG068-NG083, S022-S023, S037
+dependencies: B009-B010, B022, B058, B081-B084, B093-B108, G048-G059, G071, NG068-NG084, S022-S023, S037
 claim: For the actual collision, identify the canonical relevant filtration step S_0, prove t_psi lies in the image of u_0=u|_(S_0), construct the canonical functional F_0 on S_0, and prove either [F_0] is nonzero in coker(u_0^*) or it vanishes and the descended functional evaluates nontrivially on t_psi.
 falsifier: undefined filtration step or relation-grade map, t_psi outside im(u_0), wrong coefficient field or Hodge type, or simultaneous failure of both filtered dual branches
 ---
@@ -41,6 +41,11 @@ proved geometrically:
  \bigl(u_0:S_0\to P_\psi\bigr).
 \]
 
+B108 identifies its exact obstruction as
+$\omega_{\mathrm{fil}}(t_\psi)=[t_\psi]$ in
+$\operatorname{im}u/u(S_0)$. G071 is the active subgate proving that coset
+vanishes; NG084 blocks replacing this calculation by Hodge strictness.
+
 Next construct the canonical relation-grade functional
 
 \[
@@ -66,7 +71,7 @@ Either branch produces an admissible filtered special lift whose canonical
 Saito relation coordinate detects $\zeta$. No splitting of the total special
 stalk is permitted.
 
-This is the smallest current gate. It separates a new filtration-compatible
-lift obstruction from the subsequent scalar computation and retains the
-official rational coefficients and arbitrary smooth-projective scope.
-
+This is the exact parent gate. G071 is its smallest current subgate: kill the
+filtration-compatible lift obstruction before the subsequent scalar
+computation, retaining the official rational coefficients and arbitrary
+smooth-projective scope.

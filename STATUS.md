@@ -178,8 +178,9 @@ Date: 2026-08-10
   then show that the auxiliary detector cancels from that inequality, so
   G069 is only B010 in new notation. B107/NG083 correct G059's domain: its
   detector functional exists canonically only on the relevant perverse
-  filtration step. G070 is the exact collision-provenance gate; G060-G068
-  are sufficient attacks on its descended branch after filtered liftability.
+  filtration step. B108/NG084 isolate filtered liftability as one quotient
+  coset not killed by ordinary invariant cycles or Hodge strictness. G071 is
+  the active subgate; G070 resumes its dual certificate after coset vanishing.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -675,9 +676,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   exact dual certificate uses this restricted map.
 - NG083 - NO-GO: a canonical associated grade does not canonically split the
   total stalk or define a total-stalk detector functional.
-- G070 - EXPLORATORY, active smallest gate: prove filtered liftability of
-  $t_\psi$, construct $F_0$ on $S_0$, and compute the filtered
-  cokernel/evaluation alternative.
+- G070 - EXPLORATORY, exact parent: after filtered liftability, construct
+  $F_0$ on $S_0$ and compute the filtered cokernel/evaluation alternative.
+- B108 - PROVED: filtered liftability of an ordinarily liftable detector is
+  equivalent to vanishing of
+  $\omega_{\mathrm{fil}}(t_\psi)=[t_\psi]$ in
+  $\operatorname{im}u/u(S_0)$.
+- NG084 - NO-GO: B084 local-invariant-cycle surjectivity and strictness for
+  Hodge filtrations do not imply strictness for the independent perverse
+  filtration; a pure-Tate countermodel has nonzero filtered obstruction.
+- G071 - EXPLORATORY, active smallest gate: construct the actual collision
+  coset $\omega_{\mathrm{fil}}(t_\psi)$ and prove it vanishes.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -1554,3 +1554,20 @@
 - **Re-entry condition:** G070 must prove
   $t_\psi\in\operatorname{im}(u|_{S_0})$ and apply the dual certificate to
   $u_0:S_0\to P_\psi$ and $F_0$.
+
+## NG-084 - Hodge strictness forces perverse-filtered liftability
+
+- **Label:** NO-GO
+- **Route:** combine B084 ordinary local-invariant-cycle surjectivity with
+  purity or strictness of Hodge morphisms and infer a lift in $S_0$.
+- **Valid input:** $t_\psi$ has an ordinary rational special lift, and all
+  relevant maps respect their Hodge structures.
+- **Invalid inference:** the map is strict for the independent perverse
+  filtration.
+- **Precise obstruction:** B108's pure-Tate example has an ordinary lift and
+  a Hodge morphism, while
+  $\omega_{\mathrm{fil}}(t)=[t]\ne0$ in
+  $\operatorname{im}u/u(S_0)$. B084 asserts no perverse-filtration equality.
+- **Re-entry condition:** G071 must compute the actual quotient class and
+  kill it by an explicit filtered lift or a theorem proving perverse
+  strictness for the precise collision map.
