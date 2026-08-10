@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; the sought local relation has type (0,0) afte
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B010 and B011
+dependencies: B008, B010, B011, B012, and B013
 claim: Every nonzero primitive rational Hodge class detected by a global Schnell tube is also detected by a type-(0,0) Saito relation concentrated at one singular hyperplane member.
 falsifier: a polarized smooth projective 2n-fold and primitive rational Hodge class with a nonzero global tube detector but orthogonal to every Saito local relation class for every singular member of every polarization power
 ---
@@ -39,8 +39,7 @@ proved weakening of HC.
 ## Attempt: fill and concentrate the tube loop
 
 1. Express \(g\) as a product of Picard-Lefschetz meridians around the
-   discriminant. The equation \(g\alpha=\alpha\) records a global cancellation
-   after transporting \(\alpha\) around the entire loop.
+   discriminant. B013 computes the resulting distributed relation exactly.
 2. Fill the loop in the full projective parameter space. A generic filling
    meets the discriminant at several smooth points.
 3. Try to collide those intersections into one higher discriminant stratum,
@@ -54,6 +53,12 @@ generic filling sees only smooth discriminant points, whose rational local
 intersection-cohomology groups vanish by B008. No audited theorem permits
 coalescing the meridians into one algebraic hyperplane section while
 preserving the tube class and its Hodge type.
+
+B012 sharpens the dimension obstruction: the class-specific local support has
+complex codimension at least two. Thus a generic real filling disk for the
+loop misses it. Passing to a complex two-parameter net creates enough
+dimension to meet a nonempty codimension-two component but does not prove
+that the component exists.
 
 ## Exact kernel mismatch
 
@@ -83,3 +88,5 @@ higher-codimension point; then prove, through the vanishing-cycle exact
 sequence, that the specialized relation maps to a Saito class with the same
 nonzero \(\zeta\)-pairing. Ordinary double points would make the type
 \((0,0)\) condition automatic by B010.
+
+This is now a proposed geometric mechanism for the exact support gate G008.

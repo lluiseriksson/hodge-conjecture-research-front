@@ -44,6 +44,20 @@ that the invalid coercion in NG-010 is impossible. The geometric
 global-to-local concentration required by G007 must not be introduced as an
 axiom under a generic “monodromy relation” name.
 
+B012 adds a second type separation:
+
+\[
+ s(\zeta):IH^1(\mathbf P^d,IC(V))
+ \qquad\text{versus}\qquad
+ s(\zeta)_p:\mathcal H^{-d+1}(IC(V))_p.
+\]
+
+A formal interface must not coerce global hypercohomology nonvanishing into
+local-stalk nonvanishing. B013's telescoping relation is realistic finite
+linear algebra to formalize, but its output type must remain a distributed
+relation indexed by distinct meridians, not Saito's one-fiber relation type.
+The open G008 support realization must never enter as a generic sheaf lemma.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

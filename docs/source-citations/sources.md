@@ -355,6 +355,33 @@ Christian Schnell, “Primitive cohomology and the tube mapping,”
 - Local retrieval SHA-256:
   38AF760A171C9373EFA0232768D8C24D5FB2F5409DFEE63646DD5CB3E55310EE.
 
+## S024 - Global and local singularities of primitive classes
+
+Mark Andrea de Cataldo and Luca Migliorini, “A remark on singularities of
+primitive cohomology classes,” *Proceedings of the American Mathematical
+Society* 137 (2009), 3593-3600.
+[Author PDF](https://www.math.stonybrook.edu/~mde/MyPublishedPapers/SingularitiesOfPrimitiveClasses.pdf),
+[DOI](https://doi.org/10.1090/S0002-9939-09-10014-X).
+
+- Checked p. 5, Definition 3.3 and Remark 3.4: the global class
+  \(s(\zeta)\) lies in
+  \(IH^1(\mathbf P^d,IC(R^{2n-1}))\), the local class \(s(\zeta)_p\) lies in
+  the corresponding perverse stalk, and its nonzero locus has codimension at
+  least two.
+- Checked pp. 5-6, Propositions 3.6 and 3.8: a primitive class is zero if and
+  only if its global Green-Griffiths invariant is zero; after embedding by
+  \(mL\), \(m\gg0\), the local invariant detects the canonical local
+  restriction component.
+- Checked pp. 6-7, Corollaries 3.10 and 3.12: for a primitive Hodge class the
+  local invariant vanishes exactly when its restriction to the singular
+  hyperplane vanishes in intersection cohomology; it can also be tested on
+  the smooth part over a contractible punctured neighborhood.
+- Scope guard: nonzero global invariant does not in the paper imply a
+  nonzero local invariant. Nonemptiness of the local singularity locus for
+  every primitive Hodge class is the Thomas/Hodge-conjecture condition.
+- Local retrieval SHA-256:
+  `A3801E1017A87B747DE2F7053D4EDCDB035B07F14382B48F5096B6C6950DA5DC`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

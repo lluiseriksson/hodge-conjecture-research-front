@@ -188,3 +188,30 @@
   that realizes the tube on its boundary, concentrates the discriminant
   intersections at one singular member, and proves via the vanishing-cycle
   sequence that the resulting Saito class retains the nonzero pairing.
+
+## NG-011 - Global invariant does not automatically produce local support
+
+- **Label:** NO-GO
+- **Route:** use the nonzero global Green-Griffiths invariant of every nonzero
+  primitive class, restrict it to a pencil or net, and conclude that a local
+  singularity occurs at some hyperplane.
+- **Valid input:** B012 proves \(s(\zeta)\ne0\) whenever \(\zeta\ne0\), and
+  identifies \(s(\zeta)_p\ne0\) with nonzero restriction to \(X_p\) after a
+  sufficiently high embedding. It also proves that the possible local
+  support has codimension at least two.
+- **Invalid inference:** a nonzero global intersection-cohomology class must
+  force one of the associated local invariants to be nonzero, or a generic
+  one-parameter pencil must
+  encounter the class-specific singular support.
+- **Precise obstruction:** global hypercohomology and local perverse stalks
+  are different functors. A generic complex curve avoids a fixed
+  codimension-at-least-two locus. A generic projective plane can meet a
+  nonempty codimension-two component, but it cannot prove that the component
+  exists. Selecting a curve through a detecting point presupposes that point.
+  For primitive Hodge classes, universal nonemptiness of this support is
+  terminal-equivalent to the rational Hodge Conjecture by B007 and B012.
+- **Re-entry condition:** prove that a nonzero global class of the specific
+  geometric form \(s(\zeta)\) forces \(s(\zeta)_p\ne0\) somewhere, or
+  construct a Hodge-adapted higher-dimensional slice together with a direct
+  proof of local stalk nonvanishing, without assuming an algebraic
+  representative of \(\zeta\).

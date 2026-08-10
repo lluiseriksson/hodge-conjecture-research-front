@@ -2,23 +2,24 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 35% - independent Git repository, mandatory topology,
+- **Infrastructure:** 37% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 13% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 15% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
-  relation-pairing channel; B011 supplies global tube detection; B001-B004
+  relation-pairing channel; B011 supplies global tube detection; B012
+  separates global Green-Griffiths nonvanishing from codimension-two local
+  support; B013 computes the distributed Picard-Lefschetz relation; B001-B004
   close separate reduction and semiregular propagation implications. None is
-  proof-assistant formalized, and the global-to-local concentration gate is
-  open.
+  proof-assistant formalized, and the global-to-local support gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
-Strongest honest headline: **global monodromy tubes detect every primitive
-class, and Saito's local relation pairing is now explicit; the unresolved
-content is to concentrate a global tube at one higher discriminant stratum
-without losing Hodge type or the nonzero pairing.**
+Strongest honest headline: **every nonzero primitive class has a nonzero
+global Green-Griffiths invariant, but its class-specific local support can
+only occur in codimension at least two; forcing that support to be nonempty is
+the unresolved terminal-equivalent gate.**
 
 ## Active frontier
 
@@ -34,14 +35,23 @@ without losing Hodge type or the nonzero pairing.**
   \(\zeta\).
 - B011 - PROVED: global monodromy tubes surject onto rational primitive
   middle cohomology when vanishing homology is nonzero.
-- G007 - EXPLORATORY, active: concentrate a global tube detector into a Saito
-  relation at one singular member.
+- B012 - PROVED: the global Green-Griffiths invariant detects every primitive
+  class, while the high-power local invariant detects fiber restriction and
+  has support of codimension at least two.
+- B013 - PROVED: a fixed monodromy class gives a distributed telescoping
+  Picard-Lefschetz relation, not a local Saito relation.
+- G008 - EXPLORATORY, active: force a class with nonzero global invariant to
+  have a nonzero associated local invariant somewhere.
+- G007 - EXPLORATORY mechanism: concentrate a global tube detector into a
+  Saito relation at one singular member.
 - NG-008 - NO-GO: high degree and nontrivial ambient vanishing cycles do not
   force this specified class to have a singularity.
 - NG-009 - NO-GO: a nonzero nodal defect/relation space does not force the
   specified class's pairing functional to be nonzero.
 - NG-010 - NO-GO: global tube surjectivity does not identify
   \(\ker(g-1)\) with the local relation kernel at one singular fiber.
+- NG-011 - NO-GO: nonzero global hypercohomology and a generic pencil or net
+  do not by themselves prove nonempty local support.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

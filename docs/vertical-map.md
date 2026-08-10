@@ -13,6 +13,8 @@ Date: 2026-08-10. Overall status: **EXPLORATORY**.
 \Longleftrightarrow
 \text{class-specific nodal relation G006}
 \Longleftarrow
+\text{codimension-two support realization G008}
+\Longleftarrow
 \text{tube-to-local concentration G007}.
 \]
 
@@ -70,38 +72,73 @@ This does not yet give a local singularity. The global kernel
 \(\ker(g-1)\) and Saito's relation kernel at one singular fiber are different
 objects.
 
+## Exact global/local separation
+
+B012 proves that the Green-Griffiths global invariant
+
+\[
+ s(\zeta)\in IH^1(\mathbf P^d,IC(R^{2n-1}))
+\]
+
+is nonzero for every nonzero primitive class. For \(m\gg0\), the associated
+local class \(s(\zeta)_p\) is nonzero exactly when the singular hyperplane \(X_p\)
+detects \(\zeta\). The possible local support
+\(\operatorname{Sing}(\zeta)\) has codimension at least two.
+
+This identifies the precise missing implication between two invariants of the
+same primitive class:
+
+\[
+ s(\zeta)\ne0
+ \quad\not\Rightarrow\quad
+ \exists p\;s(\zeta)_p\ne0
+\]
+
+without a new support theorem. A generic pencil avoids a fixed
+codimension-at-least-two support. A generic net can meet such a component if
+it is nonempty, but cannot establish nonemptiness.
+
 ## Current smallest attackable brick
 
-**G007: tube-to-local-relation bridge.** Start with a Schnell tube detector for
-\(\zeta\). Construct an algebraic two-parameter degeneration that fills its
-monodromy loop and concentrates the discriminant intersections into one
-higher-codimension point \(p\), producing
+**G008: codimension-two support realization.** Starting from the already
+nonzero global class \(s(\zeta)\), construct a discriminant point \(p\) with
+
+\[
+ s(\zeta)_p\ne0.
+\]
+
+Equivalently, construct an algebraic two-parameter degeneration that
+concentrates the global data at one higher-codimension point and produces
 \(\beta\in R(X_p)_1^{(0,0)}\) such that
 
 \[
  \langle\zeta,\gamma_\beta\rangle\ne0.
 \]
 
-This is falsifiable by a triple \((X,L,\zeta)\) with a global tube detector
-but no local Saito relation detector in any power. It implies G006 and
-propagates upward through B010 and B007.
+This is falsifiable by a triple \((X,L,\zeta)\) whose global invariant is
+nonzero but every high-power local stalk vanishes. It is terminal-equivalent
+after universal quantification. G007 is retained as one concrete geometric
+mechanism proposed for closing G008.
 
 ## Attempt audit
 
 1. Pass to \(m\gg0\) and use B011 to choose a loop-fixed vanishing class whose
    tube detects \(\zeta\) - valid global topology.
-2. Factor the loop into Picard-Lefschetz meridians - valid monodromy data.
-3. Fill the loop in the full projective parameter space - topologically
-   possible, but a generic filling meets several separate smooth
-   discriminant points.
-4. Declare the resulting cancellation to be a relation at one singular
+2. Factor the loop into Picard-Lefschetz meridians. B013 proves the exact
+   telescoping distributed relation among the transported vanishing cycles.
+3. Fill the loop in the full projective parameter space. A generic real
+   two-disk meets several separate smooth discriminant points and generically
+   misses the real-codimension-four class-specific support of B012.
+4. Declare the distributed cancellation to be a relation at one singular
    member - **invalid**. B008 kills every smooth-point local channel, and no
    theorem coalesces the intersections while preserving the tube and its
    Hodge type.
 
-Step 4 is NG-010. The open construction must create a higher discriminant
-stratum and verify the specialization through Saito's exact sequence; merely
-factoring the global monodromy does not do so.
+Step 4 is NG-010. Inferring a nonzero local class merely from global
+nonvanishing or a generic slice is NG-011. The open construction must create
+a higher discriminant stratum and verify the specialization through Saito's
+exact sequence; merely factoring the global monodromy or increasing slice
+dimension does not do so.
 
 ## Secondary anchored route
 

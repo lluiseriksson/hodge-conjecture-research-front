@@ -2,11 +2,11 @@
   "as_of": "2026-08-10",
   "terminal_problem": "standard rational Hodge Conjecture",
   "terminal_status": "OPEN",
-  "strongest_result": "B007 terminal equivalence; B010 exact Saito local pairing; B011 global tube surjectivity; B008-B009 local-channel reductions; B001-B004 reductions and propagation",
-  "active_gate": "G007",
+  "strongest_result": "B007 terminal equivalence; B010 exact Saito local pairing; B011 global tube surjectivity; B012 global/local Green-Griffiths separation; B013 distributed Picard-Lefschetz relation; B008-B009 local-channel reductions; B001-B004 reductions and propagation",
+  "active_gate": "G008",
   "estimates_percent": {
-    "infrastructure": 35,
-    "formal_proof_chain_closure": 13,
+    "infrastructure": 37,
+    "formal_proof_chain_closure": 15,
     "actual_general_hodge_progress": 0
   },
   "allowed_labels": [
