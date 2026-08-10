@@ -107,3 +107,32 @@
   summand and prove injectivity, impose and propagate
   \(H^1(\mathcal O_Z)=0\), or construct a genuinely different presentation of
   the product class.
+
+## NG-008 - Ambient vanishing cycles do not detect a specified class
+
+- **Label:** NO-GO
+- **Route:** replace \(L\) by a high power, use the existence and monodromy
+  orbit of nontrivial vanishing cycles in a Lefschetz pencil, and conclude
+  that the admissible normal function of every nonzero primitive Hodge class
+  has a singularity.
+- **Valid input:** BFNP Proposition 5.11 proves that vanishing cycles are
+  nontrivial for \(L^m\) with \(m\gg0\). Corollary 5.15 computes the local
+  singularity of the normal function as
+  \(\sigma_p=\zeta|_{X_{m,p}}\).
+- **Invalid inference:** a nonzero ambient vanishing-cycle representation
+  forces \(\zeta|_{X_{m,p}}\ne0\) for this specified \(\zeta\) at some
+  discriminant point.
+- **Precise obstruction:** monodromy controls the available local
+  intersection-cohomology directions, not the projection of an arbitrary
+  fixed Hodge tensor into them. Universal class-specific nonvanishing is
+  equivalent to HC by B007, so it cannot be inserted as an automatic
+  Lefschetz consequence. In Thomas's nodal construction the detecting
+  hypersurface is built only after choosing an algebraic representative; his
+  Section 5 further gives
+  \(H^1(N_{Z/X})\hookrightarrow H^1(I_{\{p_i\}}(NH))\), showing that high
+  degree does not remove the original embedded-cycle obstruction.
+- **Re-entry condition:** prove a class-specific local nonvanishing theorem
+  producing \(p\) with
+  \(0\ne\sigma_p(\operatorname{pr}_m^*\zeta)\) directly from
+  \((X,L,\zeta)\), without assuming an algebraic representative and without a
+  numerical dimension argument.

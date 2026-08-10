@@ -28,7 +28,7 @@ boundary, not an induction mechanism.
 | algebraic correspondences | functorial construction once a correspondence exists | constructing the decisive correspondence is often another Hodge problem |
 | variation of Hodge structure and monodromy | controls how classes vary and identifies invariants | Hodge/invariant does not imply algebraic |
 | Cattani-Deligne-Kaplan | Hodge loci are algebraic | no dominating relative Chow/Hilbert component follows |
-| normal functions | refined invariants of homologically trivial algebraic cycles | starts with cycles; does not create a cycle for a nonzero cohomology class |
+| admissible normal functions | BFNP attach one to a primitive Hodge class via a Deligne/absolute-Hodge lift; a nonzero boundary singularity is terminal-equivalent to HC | no theorem forces a class-specific singularity; ambient vanishing cycles do not suffice |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
 | reduction modulo primes | Frobenius and etale/Tate information | needs comparison, Tate-type algebraicity, and cycle lifting back to characteristic zero |
@@ -56,8 +56,10 @@ boundary, not an induction mechanism.
    does not identify the image of the rational Betti cycle-class map.
 7. **Product fallacy:** the conjecture for factors does not automatically
    cover new cross-factor Hodge tensors.
-8. **Normal-function circularity:** a normal function attached to a family of
-   cycles cannot be used as the missing construction of that same family.
+8. **Normal-function overreach:** cycle-induced normal functions presuppose
+   cycles, while BFNP's class-induced normal function does not; in the latter
+   route the missing statement is nonzero boundary singularity, which is
+   equivalent to HC rather than an automatic consequence of admissibility.
 9. **Generic-to-every-fiber fallacy:** a theorem on a very general fiber misses
    the special Hodge loci where new classes occur.
 10. **Kahler overreach:** projectivity is essential in the official target.
@@ -68,4 +70,7 @@ By brick B001, it is enough and necessary to solve the following still-global
 problem: for every smooth projective complex variety of even dimension
 \(2m\), construct codimension-\(m\) rational cycles for all rational classes in
 \(H^{2m}\cap H^{m,m}\). No known mechanism in the table supplies this for
-arbitrary varieties.
+arbitrary varieties. Brick B007 gives a second exact formulation: every
+nonzero primitive middle class must restrict nontrivially to some
+high-degree singular hyperplane section. This removes the algebraic-anchor
+assumption but does not weaken the open content.

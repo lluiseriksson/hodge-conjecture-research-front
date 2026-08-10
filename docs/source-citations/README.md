@@ -13,7 +13,7 @@ source does **not** prove. Web retrieval date: 2026-08-10.
 | S006 | Griffiths (1969) | periods/Abel-Jacobi/normal functions | bibliographic scope seeded |
 | S007 | Schmid (1973) | VHS, monodromy, degeneration | theorem scope seeded |
 | S008 | Bloch (1972) | semiregularity/deformation of cycles | active-gate source seeded |
-| S009 | Brosnan-Fang-Nie-Pearlstein (2007/2010) | admissible normal functions | equivalence claim checked at paper level |
+| S009 | Brosnan-Fang-Nie-Pearlstein (2007/2009) | admissible normal functions | Theorem 1.3, Corollary 5.15, and Section 6 proof checked |
 | S010 | Tate (1965) | reduction mod primes/Tate classes | conjectural scope seeded |
 | S011 | Andre (1996) | motivated cycles | substitute-vs-algebraic distinction checked |
 | S012 | Zucker (1977) | cubic fourfold special case | paper theorem checked |
@@ -23,6 +23,7 @@ source does **not** prove. Web retrieval date: 2026-08-10.
 | S016 | Dan-Kaur (2018 preprint) | semiregular special embeddings/VHC | pages 1-3 and Remark 3.5 checked |
 | S017 | Buchweitz-Flenner (2003; revised text) | VHC and Hilbert smoothness from semiregularity | Theorems 5.1-5.2 and 7.8-7.10 checked |
 | S018 | Ran (1999) | all Artin-local relative obstruction kernel | Theorem 0, pp. 809-810 checked |
+| S019 | Thomas (2005) | nodal hypersurfaces and deformation obstruction | Theorem 1.1 and Sections 4-5 checked |
 
 “Seeded” means the citation is identified but no theorem depending decisively
 on it may be promoted until the exact statement and proof context are checked.

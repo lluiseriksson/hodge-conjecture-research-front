@@ -7,13 +7,14 @@ standard **rational** Hodge Conjecture for arbitrary smooth projective complex
 varieties. Its terminal target is an unconditional, complete, non-circular,
 auditable proof or disproof.
 
-The strongest results are a proved reduction and three deformation lemmas: the
-universal conjecture is equivalent to its middle-degree form after products
-with projective spaces; a smooth Hilbert anchor with surjective tangent map
-forces cycle-space dominance; and semiregularity closes the corresponding
-first-order and higher Artin-local obstructions for an injectively combined
-lci presentation. The middle-degree cycle-construction problem remains
-completely open in general. See [STATUS.md](STATUS.md).
+The strongest result is now an exact, primary-source-audited vertical
+equivalence: the universal rational conjecture holds if and only if every
+nonzero primitive rational middle Hodge class restricts nontrivially to some
+high-degree singular hyperplane section, equivalently its admissible normal
+function has a nonzero boundary singularity. The repository also contains a
+proved middle-degree reduction and semiregular deformation lemmas. The
+class-specific nonvanishing and the general cycle construction remain
+completely open. See [STATUS.md](STATUS.md).
 
 ## Official target
 
@@ -59,17 +60,21 @@ brick carries the metadata required by [docs/brick-schema.md](docs/brick-schema.
 
 ```text
 standard rational Hodge Conjecture
-  <=> universal middle-degree cycle construction                [B001, PROVED]
+  <=> primitive singular-hyperplane detection                    [B007, PROVED]
+  <= class-specific local nonvanishing                           [G005, OPEN]
+
+secondary route:
+  <=> universal middle-degree cycle construction                 [B001, PROVED]
   <= algebraic-anchor access + semiregular presentation          [G001/G004, OPEN]
-  <= combined semiregularity kills all relative obstructions     [B004, PROVED]
-  <= smooth anchor + surjective Hilbert tangent map              [B002, PROVED]
+  <= all-order semiregular propagation                           [B004, PROVED]
 ```
 
-The current narrow unresolved gate is **G004**: present every algebraic anchor
-class by finitely many lci cycles whose *combined* semiregularity map is
-injective. B004 proves that this condition propagates the class along the
-whole connected Hodge-locus base. No theorem makes such presentations
-universal, and anchor access itself remains the separate G001 gate.
+The active gate is **G005**: given arbitrary
+\((X,L,\zeta)\), construct a discriminant point \(p\) at which the local
+intersection-cohomology singularity of \(\zeta\)'s normal function is nonzero,
+without assuming an algebraic representative. High degree provides
+nontrivial ambient vanishing cycles but not this class-specific projection.
+The anchored G001/G004 route remains open as an independent secondary route.
 
 ## Repository map
 

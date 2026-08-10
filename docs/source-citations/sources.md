@@ -102,12 +102,28 @@ Patrick Brosnan, Hao Fang, Zhaohu Nie, Gregory Pearlstein, “Singularities of
 admissible normal functions,” *Inventiones Mathematicae* 177 (2009), 599-629.
 [arXiv](https://arxiv.org/abs/0711.0964)
 
-- Checked at abstract/theorem-summary level: the paper relates the existence
-  of specified singularities of admissible normal functions to the Hodge
-  Conjecture, building on Green-Griffiths and Thomas.
-- Does not provide: an unconditional construction of those singularities.
-- Audit warning: the equivalence is a reformulation/criterion, not closure of
-  the terminal cycle-construction obligation.
+- Checked p. 2, Conjecture 1.2 and Theorem 1.3: for every even-dimensional
+  smooth projective \(X\), universal non-torsion singularity of the admissible
+  normal functions attached to primitive middle Hodge classes is equivalent
+  to HC for all smooth projective varieties.
+- Checked pp. 13-15, Proposition 5.11 and the perverse weak-Lefschetz setup:
+  sufficiently high powers have nontrivial vanishing cycles. This is ambient
+  information only.
+- Checked pp. 15-16, Corollary 5.15: when vanishing cycles are nontrivial, the
+  local singularity is exactly the restriction
+  \(\sigma_p(\nu)=\zeta|_{X_p}\) in rational cohomology.
+- Checked pp. 16-18, Lemma 6.2 and Theorems 6.5-6.6: the proof treats rational
+  coefficients, reduces arbitrary HC to middle-dimensional
+  perpendicularity, and proves the converse by resolving a detecting
+  singular hyperplane, using mixed-Hodge strictness, and inducting on
+  dimension.
+- Coefficient guard: the integral non-torsion formulation in the introduction
+  and the rational formulation in Section 6 agree for the official target
+  after clearing denominators; no integral HC is asserted.
+- Does not provide: an unconditional class-specific nonzero restriction or
+  singularity. The equivalence is a terminal reformulation, not a solution.
+- Local retrieval SHA-256:
+  `B71C1EFBBBCB46BF639749D5384E7768FE557FA0E622E9D0667FAB3B84352668`.
 
 ## S010 - Reduction modulo primes and Tate classes
 
@@ -227,6 +243,34 @@ Ziv Ran, “Semiregularity, obstructions and deformations of Hodge classes,”
   vanishing, and the theorem starts with an existing submanifold/cycle.
 - Local retrieval SHA-256:
   `25A9CD82E38F5E32DCDEEB62DCDB49E85444D6138659C83B36D213353C65EB81`.
+
+## S019 - Nodal-hypersurface equivalence and deformation obstruction
+
+R. P. Thomas, “Nodes and the Hodge conjecture,” *Journal of Algebraic
+Geometry* 14 (2005), 177-185.
+[arXiv](https://arxiv.org/abs/math/0212216)
+
+- Checked p. 1, Theorem 1.1: standard rational HC is equivalent to the
+  statement that for every even-dimensional smooth projective \(X^{2n}\) and
+  rational middle Hodge class \(A\), some high-degree nodal hypersurface
+  \(D\subset X\) carries a middle homology class pushing forward to the
+  Poincare dual of \(A\).
+- Checked pp. 2-5: arbitrary codimension reduces to the middle statement, and
+  a detecting nodal divisor implies HC by resolution and induction.
+- Checked p. 6, Theorem 4.2: the converse construction assumes an algebraic
+  representative, smooths it, and embeds the resulting \(Z^n\) in a
+  high-degree hypersurface having only ordinary double points on \(Z\).
+  Therefore this construction cannot be reused to produce \(D\) before
+  algebraicity is known.
+- Checked pp. 6-8, Section 5: the attempted nodal deformation route has
+  obstruction in \(H^1(I_{\{p_i\}}(NH))\), with
+  \(H^1(N_{Z/X})\) injecting into it via the displayed Koszul resolution.
+  Raising the degree does not automatically kill the original cycle
+  obstruction.
+- Does not provide: a construction of a detecting nodal divisor directly
+  from an arbitrary Hodge class.
+- Local retrieval SHA-256:
+  `D10590F93E62D31DCF3FAE4571CB8C2E167666D7A141FC57FB8D3C57B1551D86`.
 
 ## Citation policy for incompletely audited mechanisms
 

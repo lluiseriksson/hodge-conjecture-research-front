@@ -12,15 +12,18 @@
 | B004 | injectively combined semiregular lci presentations propagate over an irreducible Hodge base | PROVED | Ran Theorem 0(ii), BF 5.2/7.8-7.10, B002; `proofs/B004-semiregular-presentation-propagation.md` | conventional proof only; tuple-linearity not formalized |
 | B005 | direct-sum augmentation cannot repair a noninjective combined semiregularity map | PROVED | exact linear-algebra proof in `proofs/B005-no-augmentation-repair.md` | applies only to appending, not replacing a presentation |
 | B006 | B001 point products acquire the extra obstruction space H^1(O_Z)^r | PROVED | product normal bundle and Kunneth calculation in `proofs/B006-projective-product-obstruction.md` | product semiregularity map on the new summand not computed |
+| B007 | universal HC iff every nonzero primitive rational middle Hodge class has a nonzero singular-hyperplane restriction | PROVED | BFNP Theorem 1.3, Corollary 5.15, Lemma 6.2, Theorems 6.5-6.6; `proofs/B007-normal-function-equivalence.md` | imported conventional proof; mixed-Hodge-module machinery not formalized |
 | G001 | every middle class has an algebraic anchor in a connected Hodge locus | EXPLORATORY | no proof | may be as hard as HC |
 | G002 | anchored Hodge locus is dominated by relative cycle space | CONDITIONAL | sufficient theorem formulated; proof only when dominance is assumed | dominance is the open content |
 | G003 | every anchored class has a B002-good cycle representative | EXPLORATORY | no proof; semiregularity source seeded | likely fails without strong lci/obstruction hypotheses |
 | G004 | every algebraic anchor has an injectively combined semiregular lci presentation | EXPLORATORY | no proof; precise falsifier recorded | moving and K-theory generation do not control injectivity |
+| G005 | every primitive rational middle Hodge class is detected on a singular hyperplane section | EXPLORATORY | exact terminal-equivalent theorem formulated; BFNP computes singularity as restriction | class-specific nonvanishing is exactly the open content |
 | NG-001 | CDK algebraicity alone implies G002 | NO-GO | logical audit in `no-go-ledger.md` | none; route requires a new input |
 | NG-004 | Bloch semiregularity is automatic for arbitrary anchor cycles | NO-GO | hypothesis audit in `no-go-ledger.md` | exact positive scope still needs deep source audit |
 | NG-005 | moving/K-theory generation supplies a G004 presentation | NO-GO | logical obstruction in `no-go-ledger.md` | requires a new stabilization theorem |
 | NG-006 | add cancelling positive/rationally trivial cycles to force G004 injectivity | NO-GO | B005 restriction argument | replacement operations remain untested |
 | NG-007 | semiregularity automatically survives B001 projective-space products | NO-GO | B006 extra-summand calculation | may survive under H^1(O_Z)=0 or a different presentation |
+| NG-008 | high degree and nontrivial ambient vanishing cycles force a singularity for a specified Hodge class | NO-GO | BFNP Proposition 5.11 versus Corollary 5.15; Thomas Section 5 | requires a new class-specific local nonvanishing theorem |
 
 ## Promotion rule
 
