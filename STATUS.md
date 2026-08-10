@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 67% - independent Git repository, mandatory topology,
+- **Infrastructure:** 68% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 45% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 46% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -50,7 +50,8 @@ Date: 2026-08-10
   it as the vanishing-cycle map, and B039 proves that point-supported
   direct-image summands cannot alter degree one, closing the downstairs
   \(U_{2,5}\) topological IC calculation. B040 proves that this group is pure
-  type \((0,0)\) after the explicit Tate twist. None is
+  type \((0,0)\) after the explicit Tate twist, and B041 extends the result
+  to every \(U_{2,r}\). None is
   proof-assistant formalized, and the
   multipart local-channel gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -157,6 +158,8 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B040 - PROVED: Saito's normal-crossing MHS calculation makes the five
   crossing groups \(\mathbf Q(0)\), hence their relation kernel and the
   downstairs IC stalk are pure of type \((0,0)\).
+- B041 - PROVED: the blow-up, residue, strict-support, and Tate arguments are
+  uniform for every \(U_{2,r}\); the next unresolved model is \(U_{3,7}\).
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.

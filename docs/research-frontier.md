@@ -62,8 +62,10 @@ The rational type-\((0,0)\) and Tate-twist comparison for this group is
 closed by B040 using Saito's normal-crossing
 mixed-Hodge calculation: the five crossing groups are \(\mathbf Q(0)\), and
 the exceptional relation kernel is their type-\((0,0)\) sub-Hodge structure.
-The next falsifiable subgate is the same statement for every \(U_{2,r}\)
-central line arrangement. Higher-rank multipart resolution remains a later,
+B041 proves the same statement for every \(U_{2,r}\) central line
+arrangement. The next falsifiable subgate is \(U_{3,7}\): blowing up the
+origin gives an exceptional \(\mathbf P^2\) with seven lines and their
+pair-intersection strata. Higher-rank multipart resolution remains a later,
 separate obligation.
 
 ## Sufficient parent: G014
@@ -110,10 +112,12 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Extend B035-B040 uniformly from \(U_{2,5}\) to \(U_{2,r}\), including
-   residue, strict-support descent, and type \((0,0)\).
-2. Extend the calculation to higher-rank multipart arrangements, including
-   higher-dimensional exceptional strata and all additional differentials.
+1. Compute the exceptional incidence spectral sequence for \(U_{3,7}\),
+   including every line and pair-intersection stratum, and test whether its
+   degree-one group is the full relation kernel of pure type \((0,0)\).
+2. Extend the calculation to general higher-rank multipart arrangements,
+   including higher-dimensional exceptional strata and all additional
+   differentials.
 3. If G015 holds, replace the two-block constraint by Edmonds'
    \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
    fixed-carrier constructions.

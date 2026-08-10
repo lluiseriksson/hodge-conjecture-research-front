@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B040, G012-G014, Green-Griffiths S021, and Saito S022/S037
+dependencies: B009-B010, B028, B034-B041, G012-G014, Green-Griffiths S021, and Saito S022/S037
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -199,6 +199,25 @@ arrangements or their additional exceptional-stratum differentials. The
 next falsifiable subgate is to generalize first to \(U_{2,r}\), where the
 exceptional locus is still a single marked \(\mathbf P^1\), before allowing
 higher arrangement rank.
+
+## Attempt 8 - Uniform rank-two generalization
+
+B041 checks that no step in B035-B040 depends on \(r=5\). For every
+\(U_{2,r}\), one blow-up produces a marked exceptional \(\mathbf P^1\), the
+residue transgression is
+
+\[
+ (a_i)\longmapsto\sum_i a_i\delta_i,
+\]
+
+point-supported direct-image summands occur only in ordinary degree two,
+and the source is \(\mathbf Q(0)^r\). Hence the downstairs degree-one IC
+stalk is the full type-\((0,0)\) relation kernel for every \(r\ge3\).
+
+The narrowest unresolved higher-rank gate is \(U_{3,7}\). Its exceptional
+\(\mathbf P^2\) contains seven pairwise-transverse lines and their
+pair-intersection strata, so the marked-curve two-row argument no longer
+applies without a new incidence spectral-sequence computation.
 
 ## Propagation
 

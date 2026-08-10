@@ -1,0 +1,10 @@
+{
+  "arrangements": "U_(2,r)",
+  "tested_branch_range": [3, 30],
+  "residue_map": "d2(a_i) = sum_i a_i delta_i",
+  "tested_rank_cases": 462,
+  "crossing_source": "Q(0)^r",
+  "relation_dimension": "r-s",
+  "point_summand_H1_contribution": 0,
+  "scope": "finite rank, shift, and Hodge-number bookkeeping only"
+}

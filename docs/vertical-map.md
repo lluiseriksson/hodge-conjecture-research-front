@@ -259,7 +259,8 @@ the blow-up are point-supported in ordinary degree two, so this group is
 the downstairs degree-one IC stalk. NG-034 prevents using a complex
 face-quiver calculation alone for the rational Hodge-type step; B040 instead
 uses Saito's mixed-Hodge-module calculation to prove pure type \((0,0)\)
-after \(\mathbf Q(n)\). The next subgate is \(U_{2,r}\), followed by
+after \(\mathbf Q(n)\). B041 extends all four steps uniformly to
+\(U_{2,r}\). The next subgate is \(U_{3,7}\), followed by general
 higher-rank multipart arrangements. Only after that general calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
