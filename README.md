@@ -7,11 +7,12 @@ standard **rational** Hodge Conjecture for arbitrary smooth projective complex
 varieties. Its terminal target is an unconditional, complete, non-circular,
 auditable proof or disproof.
 
-The strongest results are a proved reduction and two deformation lemmas: the
+The strongest results are a proved reduction and three deformation lemmas: the
 universal conjecture is equivalent to its middle-degree form after products
 with projective spaces; a smooth Hilbert anchor with surjective tangent map
 forces cycle-space dominance; and semiregularity closes the corresponding
-first-order obstruction. The middle-degree cycle-construction problem remains
+first-order and higher Artin-local obstructions for an injectively combined
+lci presentation. The middle-degree cycle-construction problem remains
 completely open in general. See [STATUS.md](STATUS.md).
 
 ## Official target
@@ -59,15 +60,16 @@ brick carries the metadata required by [docs/brick-schema.md](docs/brick-schema.
 ```text
 standard rational Hodge Conjecture
   <=> universal middle-degree cycle construction                [B001, PROVED]
-  <= anchor access + variational algebraicity along Hodge loci  [G001/G002, OPEN]
-  <= smooth anchor + surjective Hilbert tangent map              [B002 criterion; G003, OPEN]
+  <= algebraic-anchor access + semiregular presentation          [G001/G004, OPEN]
+  <= combined semiregularity kills all relative obstructions     [B004, PROVED]
+  <= smooth anchor + surjective Hilbert tangent map              [B002, PROVED]
 ```
 
-The current narrow unresolved gate is **G003**: for an anchored middle Hodge
-class, find a cycle representative whose relative Hilbert component is smooth
-at the anchor and whose tangent map surjects onto the Hodge locus. B002 proves
-that these concrete conditions force cycle-space dominance. No theorem makes
-them universal. The failed CDK-only inference is recorded as NG-001.
+The current narrow unresolved gate is **G004**: present every algebraic anchor
+class by finitely many lci cycles whose *combined* semiregularity map is
+injective. B004 proves that this condition propagates the class along the
+whole connected Hodge-locus base. No theorem makes such presentations
+universal, and anchor access itself remains the separate G001 gate.
 
 ## Repository map
 

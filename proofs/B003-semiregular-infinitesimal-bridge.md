@@ -13,7 +13,7 @@ hodge_type: cycle class [Z] of type (q,q)
 cycle_class_map: CH^q(X)_Q -> H^{2q}(X,Q(q))
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: Bloch semiregularity theorem 7.1; semiregularity map H^1(N_Z/X)->H^{q+1}(X,Omega_X^{q-1}) (S008, S016)
+dependencies: Bloch semiregularity theorem 7.1; semiregularity map H^1(N_Z/X)->H^{q+1}(X,Omega_X^{q-1}) (S008, S016-S018)
 claim: For a semiregular lci anchor, a first-order deformation of X preserves the Hodge type of [Z] if and only if Z lifts to that first-order deformation.
 falsifier: a first-order Hodge-preserving deformation with nonzero embedded obstruction despite injectivity of the semiregularity map, or a lifted cycle whose flat class ceases to be Hodge
 ---
@@ -49,11 +49,10 @@ reported as Bloch [1972, Theorem 7.1] in Dan-Kaur, pp. 1-2 and Remark 3.5.
 ## Scope audit
 
 - This is first-order/infinitesimal and begins with an existing lci cycle.
-- It does not prove that the relative Hilbert scheme is globally smooth or
-  that a component dominates the full Hodge locus.
+- This brick alone is first-order. Ran's all-Artin extension plus proper
+  Hilbert globalization is recorded separately in B004.
 - It does not supply a semiregular representative for an arbitrary algebraic
   class, much less an algebraic anchor for an arbitrary Hodge class.
 - Dan-Kaur's Theorem 1.1 constructs special semiregular embeddings inside
   high-degree hypersurfaces; that is a special-family mechanism, not a
   reduction of arbitrary \((X,\alpha)\).
-

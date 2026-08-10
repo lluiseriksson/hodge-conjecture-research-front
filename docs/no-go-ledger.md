@@ -60,3 +60,21 @@
   deformation implication for a class of representatives, followed by an
   independent theorem that every required anchor class has such a
   representative.
+
+## NG-005 - Cycle generation does not control combined semiregularity
+
+- **Label:** NO-GO
+- **Route:** use a moving lemma, resolution/alteration, or rational
+  Chern-character generation to write an algebraic anchor as a combination of
+  nicer cycles, then declare the presentation semiregular.
+- **Precise obstruction:** these tools concern generation of Chow or
+  \(K\)-theory classes. G004 requires injectivity of a specific map from the
+  direct sum of embedded obstruction groups into
+  \(H^{q+1}(X,\Omega_X^{q-1})\). Smoothness or lci-ness of the components does
+  not force injectivity, separate injectivity of the individual maps does not
+  prevent cancellation in their weighted sum, and pushforward from an
+  alteration does not identify the source normal bundle with the target's
+  embedded deformation theory.
+- **Re-entry condition:** prove a stabilization operation that preserves the
+  Chow class while explicitly killing the kernel of the combined
+  semiregularity map.

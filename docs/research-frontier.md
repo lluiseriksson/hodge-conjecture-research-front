@@ -1,30 +1,28 @@
 # Research frontier
 
-## Active gate: G003
+## Active gate: G004
 
-Test deformation-theoretic conditions under which a codimension-\(m\) cycle
-\(Z_{t_0}\subset Y_{t_0}\) with class \(\alpha_{t_0}\) deforms along the full
-Hodge locus of \(\alpha\).
+Test whether arbitrary algebraic anchor classes admit finite lci
+presentations with injective *combined* semiregularity map. B004 has closed the
+deformation and globalization implications once such a presentation exists.
 
 Immediate bricks:
 
-1. Identify the tangent map from the Hilbert/Chow deformation space of \(Z\)
-   to the infinitesimal Hodge locus, with every lci assumption explicit.
-2. Deep-audit Bloch's semiregularity theorem and later extensions, separating
-   results that annihilate obstructions from statements
-   that merely bound the tangent image.
-3. Test known favorable cycles (divisors, complete intersections, linear
-   spaces on hypersurfaces) and label them special-family only.
-4. Audit whether any hypothesis can be made stable under the B001 product
-   construction and arbitrary smooth projective input.
+1. Test stabilization by adding rationally trivial lci pairs.
+2. Test smooth alterations plus pushforward, without confusing the altered
+   normal bundle with the embedded obstruction theory on the target.
+3. Test sufficiently positive complete intersections with cancelling
+   coefficients; dimension growth is not injectivity.
+4. Check stability under B001's products with projective space.
+5. If G004 fails, return to G001 and alternative propagation mechanisms such
+   as normal-function singularities, keeping anchor existence explicit.
 
 If universal stability fails, record the exact normal-bundle or obstruction
 group and move to the next mechanism; do not promote a favorable family.
 
 ## Latest brick
 
-B003 closes the first-order bridge for semiregular lci anchors. The next
-question is not the already-settled tangent obstruction calculation; it is
-whether all higher obstructions vanish strongly enough to meet B002, and then
-whether every required anchor class has such a representative. These two
-quantifiers remain separate.
+B004 closes all Artin-local obstruction and proper-Hilbert globalization for
+an injectively combined semiregular presentation. The remaining issue is not
+deformation theory but universal existence of that presentation. G001 anchor
+existence remains a second, independent universal quantifier.

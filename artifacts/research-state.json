@@ -2,11 +2,11 @@
   "as_of": "2026-08-10",
   "terminal_problem": "standard rational Hodge Conjecture",
   "terminal_status": "OPEN",
-  "strongest_result": "B001 middle-degree equivalence; B002 Hilbert dominance; B003 semiregular first-order bridge",
-  "active_gate": "G003",
+  "strongest_result": "B001 middle-degree equivalence; B002 Hilbert dominance; B003-B004 semiregular obstruction and propagation",
+  "active_gate": "G004",
   "estimates_percent": {
     "infrastructure": 28,
-    "formal_proof_chain_closure": 4,
+    "formal_proof_chain_closure": 6,
     "actual_general_hodge_progress": 0
   },
   "allowed_labels": [

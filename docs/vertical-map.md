@@ -11,19 +11,15 @@ HC  Standard rational Hodge Conjecture
  |
 MHC Universal middle-degree Hodge Conjecture
  ^
- | G001 + G002 (CONDITIONAL sufficient route)
+ | G001 + G004 + B004 (CONDITIONAL sufficient route)
  |
 AA   every middle class reaches an algebraic anchor in its Hodge locus
  +
-CD   an anchored Hodge-locus component is dominated by a relative cycle space
+SP   every anchor has an injectively combined semiregular lci presentation
  ^
- | B002 (PROVED local deformation criterion)
+ | B004 (PROVED all-order propagation from such a presentation)
  |
-smooth Hilbert point + tangent surjectivity at an anchor
- ^
- | B003 (PROVED first-order bridge under semiregularity)
- |
-semiregular lci anchor + higher-obstruction/globalization control [G003]
+Ran all-order obstruction-kernel theorem + B002 proper Hilbert dominance
 ```
 
 ## Terminal sufficient theorem
@@ -60,8 +56,10 @@ component.
    anchor - **invalid**. A point on a countable union of cycle loci gives no
    dominance, and the Hodge locus may be larger than every cycle component.
 
-Step 3 is NG-001. B002 now proves a precise replacement: smoothness of the
-relative Hilbert scheme at the anchor plus surjectivity of its tangent map to
-the Hodge locus forces dominance. G003 asks whether a representative with
-those properties exists universally. Bloch semiregularity is a mechanism to
-audit, but assuming it automatically is NG-004.
+Step 3 is NG-001. B002 gives a precise replacement: smoothness of the relative
+Hilbert scheme at the anchor plus tangent surjectivity forces dominance. Ran's
+all-order theorem and B004 prove both conditions from an injectively combined
+semiregular presentation. G004 asks whether every algebraic anchor admits such
+a presentation; assuming this from moving lemmas or Chern-character
+generation is NG-005. G001, existence of an anchor on every required Hodge
+locus, remains logically separate.

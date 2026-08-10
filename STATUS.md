@@ -4,16 +4,16 @@ Date: 2026-08-10
 
 - **Infrastructure:** 28% - independent Git repository, mandatory topology,
   metadata contract, source-audit format, verification script, and CI seed exist.
-- **Formal proof-chain closure:** 4% - B001-B003 close the degree reduction,
-  Hilbert dominance criterion, and semiregular first-order bridge on paper,
-  but are not proof-assistant formalized; the decisive universal deformation
-  and anchor hypotheses are open.
+- **Formal proof-chain closure:** 6% - B001-B004 close the degree reduction,
+  Hilbert dominance criterion, and semiregular first-order/higher-obstruction
+  propagation on paper, but are not proof-assistant formalized; universal
+  semiregular presentations and anchor access are open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
 Strongest honest headline: **an auditable research front with a proved scope
-reduction, two deformation lemmas, and a precisely isolated open universal
-good-anchor gate.**
+reduction, a full semiregular propagation lemma, and two precisely isolated
+universal gates: anchor access and semiregular presentation.**
 
 ## Active frontier
 
@@ -24,10 +24,16 @@ good-anchor gate.**
 - B002: smooth Hilbert point plus tangent surjectivity forces dominance -
   `PROVED`.
 - B003: semiregular lci first-order Hodge/deformation bridge - `PROVED`.
+- B004: injectively combined semiregular lci presentations propagate across a
+  connected Hodge-locus base - `PROVED`.
 - G003: existence of such a representative for every anchored class -
-  `EXPLORATORY`.
+  `EXPLORATORY`; superseded as active gate by the more flexible G004.
+- G004: every algebraic anchor admits an injectively combined semiregular lci
+  presentation - `EXPLORATORY`.
 - NG-001: deriving G002 from algebraicity of Hodge loci alone - `NO-GO`.
 - NG-004: treating semiregularity as automatic/universal - `NO-GO`.
+- NG-005: deriving combined semiregularity from moving/K-theory generation -
+  `NO-GO`.
 
 No line in this file is a claim that the standard rational Hodge Conjecture is
 resolved.

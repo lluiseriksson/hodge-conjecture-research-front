@@ -14,7 +14,7 @@ not a claim of bibliographic completeness.
 | \(\dim X\le3\) | PROVED | the preceding codimensions exhaust all cases | no |
 | varieties with an algebraic cellular decomposition | PROVED | cycle classes of cells generate cohomology | no blanket reduction |
 | selected abelian varieties, hypersurfaces, complete intersections, products, and fibrations | PROVED only case-by-case | special geometry or group constraints | never counted globally without an explicit reduction |
-| semiregular lci anchors in suitable families | PROVED infinitesimally | Bloch obstruction map; B003 | no universal representative theorem |
+| injectively combined semiregular lci anchors in suitable families | PROVED, including all Artin-local obstructions | Ran/Buchweitz-Flenner; B003-B004 | no universal presentation or anchor theorem |
 
 The general problem is already genuinely open for codimension-two classes on
 smooth projective fourfolds. “Known below dimension four” is therefore a scope

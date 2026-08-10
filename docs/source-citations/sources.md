@@ -192,6 +192,42 @@ conjecture,” arXiv:1612.00754 (version dated 2018).
 - Local retrieval SHA-256:
   `26C14D8DB3710D8905172901648D7DE19034565DD2DBEF41A39A2A3A46E33AAC`.
 
+## S017 - General semiregularity, VHC, and Hilbert smoothness
+
+Ragnar-Olaf Buchweitz and Hubert Flenner, “A semiregularity map for modules
+and applications to deformations,” *Compositio Mathematica* 137 (2003),
+135-210; author-revised arXiv text.
+[arXiv record](https://arxiv.org/abs/math/9912245)
+
+- Checked p. 36, Theorems 5.1-5.2: a horizontal Hodge class whose anchor is a
+  relevant Chern-character component of an injectively semiregular sheaf or
+  subspace remains algebraic on nearby fibers.
+- Checked pp. 50-51, Theorems 7.8-7.9 and Corollary 7.10: injectivity of the
+  semiregularity map yields smoothness of the appropriate Douady/Hilbert germ;
+  the lci obstruction group specializes to \(H^1(N_{Z/X})\).
+- Scope guard: the paper assumes the semiregular sheaf/subspace exists. It
+  does not give such a representative for every algebraic or Hodge class.
+- Local retrieval SHA-256:
+  `C753D3C553F591ACB81172096B5FC68CAC2D6CC0CF5916E970419965BE9A5C79`.
+
+## S018 - All-order relative obstruction theorem
+
+Ziv Ran, “Semiregularity, obstructions and deformations of Hodge classes,”
+*Annali della Scuola Normale Superiore di Pisa* 28 (1999), 809-820.
+[NUMDAM article](https://www.numdam.org/item/ASNSP_1999_4_28_4_809_0/)
+
+- Checked Theorem 0, pp. 809-810: for a connected codimension-\(p\)
+  submanifold of a compact complex manifold, embedded obstructions lie in the
+  kernel of the semiregularity map; in the Kahler case this also holds for
+  obstructions relative to deformations of the ambient manifold along which
+  the fundamental class remains of Hodge level \(p\).
+- Checked quantifier: the detailed statement covers arbitrary Artin-local
+  small extensions, not only first order or curvilinear extensions.
+- Scope guard: injectivity is an extra hypothesis if one wants obstruction
+  vanishing, and the theorem starts with an existing submanifold/cycle.
+- Local retrieval SHA-256:
+  `25A9CD82E38F5E32DCDEEB62DCDB49E85444D6138659C83B36D213353C65EB81`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded
