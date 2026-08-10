@@ -818,3 +818,22 @@
 - **Re-entry condition:** retain exact equality only as the stronger G030
   mechanism. The active G031 gate requires the geometrically necessary
   condition \(\langle\zeta,\Phi_{Y_p}(\beta)\rangle\ne0\).
+
+## NG-040 - Generic morsification preserves local detection
+
+- **Label:** NO-GO
+- **Route:** morsify a detecting isolated singularity into ordinary double
+  points and infer a clean nodal Saito detector from conservation of Milnor
+  number.
+- **Valid input:** morsification preserves total Milnor rank and produces a
+  distinguished collection of Morse vanishing cycles.
+- **Invalid inference:** this collection supplies a relation at one singular
+  fiber and retains the primitive ambient pairing with \(\zeta\).
+- **Precise obstruction:** B025 proves that the distinguished cycles form an
+  integral basis of the local Milnor lattice, so there is no internal
+  relation. Their separate Morse values are smooth points of the
+  discriminant, where B008 gives zero rational degree-one local IC channel.
+- **Re-entry condition:** deliberately recollide the Morse data and compute a
+  topology-changing map on the full nearby-cycle complex, proving survival
+  through the B022 quotients, rational type \((0,0)\), and nonzero specified
+  pairing. This is G032.

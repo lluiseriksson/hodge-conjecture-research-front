@@ -27,6 +27,15 @@ a possible stronger mechanism; G031 records the actual clean-nodal pairing
 obligation. Its decisive unknown is still class-controlled incidence, not
 linear algebra.
 
+G032 separates the extra cleanup content from terminal support nonemptiness:
+starting with any detecting singular member, deform it to the Li-clean nodal
+locus while preserving a nonzero pairing. The first attempt fails. By B025,
+generic morsification yields a basis of the local Milnor lattice rather than
+a relation, and B008 makes every separate Morse discriminant point locally
+invisible in the required degree. NG040 records this NO-GO. A viable cleanup
+must deliberately recollide the Morse data and compute the global
+local-to-nearby kernel and ambient pairing.
+
 ## Closed local gate: G015
 
 G015 extended B009's quasi-local identification of degree-one local

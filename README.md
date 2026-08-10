@@ -84,7 +84,10 @@ class. B059 proves that G030's demand to recover one preselected global tube
 class exactly is sufficient but strictly stronger than the terminal pairing
 criterion; NG039 prevents counting that equality as necessary. G031 remains
 terminal-hard: neither nonempty class-specific support nor its intersection
-with the clean nodal locus is known. G014 remains a sufficient unanchored
+with the clean nodal locus is known. G032 isolates the latter cleanup step,
+and NG040 proves that generic morsification does not supply it: its local
+cycles are a basis and its separate Morse values have zero required stalk
+channel. G014 remains a sufficient unanchored
 two-block spanning theorem, but B034 proves that the standard fixed-carrier
 route cannot satisfy two blocks in middle dimensions \(n\ge3\).
 B012 proves

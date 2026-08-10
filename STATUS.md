@@ -235,6 +235,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   terminal-equivalent formulation of the local detection criterion.
 - G031 - EXPLORATORY, active gate: find a Li-clean multipart nodal relation
   whose ambient class pairs nontrivially with the specified Hodge class.
+- G032 - EXPLORATORY cleanup subgate: upgrade an arbitrary detecting singular
+  member to the Li-clean nodal locus while preserving the specified pairing.
+- NG040 - NO-GO: generic morsification and Milnor-number conservation do not
+  supply that upgrade; the local Morse cycles form a basis and their separate
+  discriminant points have zero required local channel.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

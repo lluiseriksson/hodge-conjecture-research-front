@@ -29,6 +29,19 @@ Two sufficient attacks feed G008:
 \Longleftarrow\text{exact plane-net collision G030}.
 \]
 
+The alternative cleanup factorization is
+
+\[
+ \text{G031}
+ \Longleftarrow
+ \bigl(\text{arbitrary support nonemptiness G008}
+ +\text{ pairing-preserving nodalization G032}\bigr).
+\]
+
+NG040 proves that generic morsification plus Milnor-number conservation does
+not establish G032: the distinguished local cycles form a basis and the
+separate Morse values have zero degree-one local channel.
+
 The fixed-carrier branch now has an additional necessary local gate:
 
 \[
@@ -160,7 +173,9 @@ Li-clean multipart nodal member and a rational local relation \(\beta\) with
 B010 and B007 propagate this to HC. The attempt remains terminal-hard:
 B012 does not prove that \(\operatorname{Sing}(\zeta)\) is nonempty, and
 B054 computes the clean local channel without forcing its intersection with
-that support.
+that support. G032 isolates the additional cleanup theorem that would
+upgrade an arbitrary detecting singular member to this controlled locus.
+NG040 eliminates generic morsification as its proof.
 
 G030 is a stronger proposed mechanism. B011 supplies a global
 tube detector for every nonzero primitive class, B022 identifies the two
