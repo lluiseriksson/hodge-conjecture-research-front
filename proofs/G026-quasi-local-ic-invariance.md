@@ -26,7 +26,7 @@ one-step SNC resolution whose exceptional normal fiber is the uniform
 tangent arrangement. The divisor incidences, monodromy residues, coefficient
 sheaves, transgression, and degree-one support bound depend only on the
 normal covectors. Both the curved germ and tangent model are canonically the
-same rational type-((0,0)) relation kernel.
+same rational type-\((0,0)\) relation kernel.
 
 This closes the exact Green-Griffiths quasi-local case. It does not yet cover
 the nonuniform cross-block dependencies allowed by G015's proposed

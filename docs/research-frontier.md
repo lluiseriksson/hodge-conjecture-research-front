@@ -108,11 +108,13 @@ G019: the only total-degree-one
 arrow is B049's divisor-class residue map, whose kernel is the full rational
 type-\((0,0)\) relation space. NG036 disproves G025's analytic-linearization
 claim using five quasi-local curved branches with a quadratic modulus. B053
-proves G026 by the common-stratum blow-up: the exceptional restriction and
-residues are exactly the uniform tangent model. G027 is now active. The
-immediate bricks are compatibility of successive normal cones, preservation
-of the labelled building-set poset, and transport of B049-B052 through a
-nonlinear wonderful resolution.
+proves G026 by the common-stratum blow-up. B054 then proves G027 and G015:
+Li's clean-transform induction identifies every nonlinear central fiber with
+its labelled tangent wonderful model, so the full multipart relation channel
+survives. G028 is now active. The immediate bricks are the general
+q-matroid partition inequalities, clean projective nodal realization with
+positive adjoint and ambient rank, and preservation of a specified nonzero
+Hodge pairing.
 
 ## Sufficient parent: G014
 

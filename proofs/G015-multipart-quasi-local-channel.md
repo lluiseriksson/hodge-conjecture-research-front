@@ -1,9 +1,9 @@
 ---
 brick_id: G015
-status: EXPLORATORY
+status: PROVED
 base_field: C
-variety: a local family of hyperplane sections of a smooth projective complex 2n-fold with a central nodal fiber and a node partition into q independently smoothable blocks
-smoothness: the ambient variety and nearby fibers are smooth; the central fiber has only ordinary double points; each block satisfies the audited independent-smoothing hypotheses
+variety: a local family of hyperplane sections of a smooth projective complex 2n-fold with a central nodal fiber, a node partition into q independently smoothable blocks, and Li-clean discriminant branches and intersections
+smoothness: the ambient variety and nearby fibers are smooth; the central fiber has only ordinary double points; each block satisfies the audited independent-smoothing hypotheses; all relevant discriminant strata and building centers are smooth and intersect cleanly
 projectivity: the ambient family is projective, although the channel calculation is local on its parameter space
 dimension: ambient dimension 2n, fiber dimension 2n-1, and q at least 3 in the new case
 codimension: middle codimension n on the ambient variety; nodes have codimension 2n
@@ -13,9 +13,9 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B053, G012-G014, G016-G027, NG036, Green-Griffiths S021, Saito S022/S037, and Li S038
-claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
-falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
+dependencies: B009-B010, B028, B034-B054, NG036, Green-Griffiths S021, Saito S022/S037, and Li S038
+claim: Under the explicit Li clean-arrangement hypothesis, the B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
+falsifier: a q-block transverse nodal local model satisfying the stated clean-arrangement and independent-smoothing hypotheses whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
 
 # G015 - Multipart quasi-local relation channel
@@ -43,6 +43,11 @@ hypotheses, prove a canonical rational isomorphism
 \]
 
 compatible with the limit mixed Hodge structure and Saito's ambient map.
+
+Here the multipart analogue means that the smooth branch divisors and all
+relevant intersections form a Li clean subvariety arrangement; separate
+block independence alone is not silently promoted to this cross-block
+condition.
 
 The number \(q\) must be allowed to depend on \(n\). B034 proves that the
 fixed-carrier high-power construction requires asymptotically at least
@@ -386,15 +391,23 @@ for invariance of the rational IC/MHS channel under tangent degeneration.
 B053 proves G026 without analytic linearization. The exact
 Green-Griffiths coordinate-subset condition makes the normal covectors
 uniform; blowing up the common stratum produces B043's projectivized tangent
-arrangement, with the same residues and degree-one type-((0,0)) relation
+arrangement, with the same residues and degree-one type-\((0,0)\) relation
 kernel. G027 is the remaining nonlinear multipart gate because cross-block
 dependencies require several compatible wonderful centers rather than this
 single uniform blow-up.
 
+## Attempt 21 - Nonlinear clean wonderful comparison
+
+B054 proves G027 and closes G015. Li's exceptional normal-bundle formula and
+induced-building-set theorem identify every iterated nonlinear central fiber
+with the labelled wonderful model of its tangent arrangement. Higher jets do
+not change the multiplicity-one residues. B049-B052 therefore give the full
+rational type-\((0,0)\) relation kernel for any number of blocks.
+
 ## Propagation
 
-G015 alone proves no Hodge class algebraic. If it holds, the fixed-carrier
-and unanchored incidence programs may replace the dimensionally impossible
+G015 alone proves no Hodge class algebraic. Its proof allows the fixed-carrier
+and unanchored incidence programs to replace the dimensionally impossible
 two-block constraint by Edmonds' \(q\)-block inequalities
 
 \[

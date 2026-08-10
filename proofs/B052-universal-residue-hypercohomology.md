@@ -100,8 +100,8 @@ coordinates therefore gives the canonical isomorphism
 ## Descent, Hodge type, and scope
 
 B051 proves that no lower strict support contributes in ordinary degree one,
-so this is canonically (H^1(IC_B(L_{\mathbf Q})_0)). All coefficient
-spaces are sums of (mathbf Q(0)) after (mathbf Q(n)), and the residue
+so this is canonically \(H^1(IC_B(L_{\mathbf Q})_0)\). All coefficient
+spaces are sums of \(\mathbf Q(0)\) after \(\mathbf Q(n)\), and the residue
 map is a morphism of rational mixed Hodge structures. Its kernel is therefore
 pure type ((0,0)).
 

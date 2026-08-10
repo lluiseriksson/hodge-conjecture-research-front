@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 81% - independent Git repository, mandatory topology,
+- **Infrastructure:** 82% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 58% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 60% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -209,12 +209,12 @@ generation from the controlled partitioned nodal locus is not proved.**
   explicit five-branch quadratic invariant survives in a projective family.
 - B053/G026 - PROVED: the common blow-up canonically identifies the exact
   quasi-local degree-one IC/MHS channel with its uniform tangent arrangement.
-- G027 - EXPLORATORY, active subgate: extend the comparison to nonlinear
-  clean arrangements with nonuniform cross-block dependencies and iterated
-  wonderful centers.
-- G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
-  calculation from two independently smoothable blocks to a
-  dimension-scaled number of blocks.
+- B054/G027/G015 - PROVED: iterated clean nonlinear wonderful fibers equal
+  their labelled tangent wonderful models, closing the rational
+  type-\((0,0)\) multipart relation channel for any number of blocks.
+- G028 - EXPLORATORY, active gate: construct a clean dimension-scaled
+  q-block nodal incidence with positive defect, positive ambient rank, and a
+  relation pairing nontrivially with a specified primitive Hodge class.
 - G014 - EXPLORATORY sufficient parent: prove that canonical primitive images from
   unanchored high-power two-part nodal relations span primitive rational
   Hodge homology.

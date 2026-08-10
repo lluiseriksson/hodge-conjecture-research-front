@@ -202,8 +202,9 @@ quotient. B051 proves G023's universal lower strict-support bound, and B052
 proves G024 and the full G019 channel for every central representable
 arrangement. NG036 disproves G025's stronger analytic-linearization route,
 while B053 proves G026's exact quasi-local IC/MHS invariance by the common
-blow-up. G027 now isolates the nonuniform clean-arrangement comparison needed
-for G015.
+blow-up. B054 proves G027's nonlinear nonuniform clean-arrangement comparison
+and closes the local multipart gate G015. G028 now returns to the genuinely
+upstream class-paired nodal-incidence problem.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -268,6 +269,7 @@ python verification/verify_B051_strict_support_bound.py
 python verification/verify_B052_residue_hypercohomology.py
 python verification/verify_NG036_analytic_linearization.py
 python verification/verify_B053_quasi_local_tangent.py
+python verification/verify_B054_clean_tangent_wonderful.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -322,6 +324,8 @@ simultaneous analytic linearization.
 The B053 check verifies separation and transversality of the curved branches
 on the common blow-up, a rank-three uniform tangent sample, and the resulting
 relation-nullity bookkeeping.
+The B054 check verifies a nonlinear clean dependent triple, its labelled
+projectivized tangent flat, divisor vectors, and residue-kernel dimension.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

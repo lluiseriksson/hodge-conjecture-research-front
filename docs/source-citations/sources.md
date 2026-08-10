@@ -913,6 +913,12 @@ Li Li, “Wonderful compactification of an arrangement of subvarieties,”
   intersections; incomparable transforms become disjoint when their
   intersection is the blown center. This supports the inclusion-order
   induction, not the false arbitrary-order avoidance claim in NG035.
+- Rechecked the proof of Lemma 2.9(iii) for B054: inside the exceptional
+  divisor, transformed intersections are explicitly
+  \(\mathbf P(N_F A_1)\cap\mathbf P(N_F A_2)
+  =\mathbf P(N_F(A_1\cap A_2))\); the clean tangent-space equality is the
+  stated reason. Together with Proposition 2.8, this supplies the iterated
+  tangent-normal-fiber induction for nonlinear clean arrangements.
 - Checked Definition 2.12 and Proposition 2.13: the inclusion-compatible
   iterated blow-up construction yields the wonderful compactification.
 - Checked pp. 4-7, Definitions 2.1-2.3: arrangements use clean
@@ -931,6 +937,11 @@ Li Li, “Wonderful compactification of an arrangement of subvarieties,”
   labelled divisors through Theorems 1.2-1.3. Li does not itself state the
   explicit formula. NG035 records why raw exceptional coordinates from a
   reverse nested order cannot replace this intrinsic comparison.
+- B054 uses Proposition 2.8 and Lemma 2.9 to identify each restricted
+  nonlinear blow-up with the corresponding blow-up of the projectivized
+  tangent arrangement. Li supplies the clean/building-set geometry only;
+  B049-B052 supply the residues, IC hypercohomology, support bounds, and
+  rational Hodge type.
 - Scope guard: wonderful compactification resolves the arrangement boundary.
   It does not identify a Picard-Lefschetz intermediate-extension stalk,
   supply a rational type-\((0,0)\) relation, or construct an algebraic cycle.

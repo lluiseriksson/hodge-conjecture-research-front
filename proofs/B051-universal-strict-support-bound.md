@@ -71,8 +71,8 @@ perverse cohomology capable of having strict support (S) lies only in
 \]
 
 Saito's projective direct-image and strict-support decomposition applies
-over (mathbf Q). A summand with strict support of codimension (c) in
-perverse degree (j) occurs, after undoing the ambient shift, first in
+over \(\mathbf Q\). A summand with strict support of codimension \(c\) in
+perverse degree \(j\) occurs, after undoing the ambient shift, first in
 ordinary degree
 
 \[

@@ -116,11 +116,11 @@ of the unshifted restriction (A|_{E_{\mathcal B}}) are therefore
 
 ## Rationality, Hodge type, and order
 
-Every map used above is defined over (mathbf Q). Saito's Proposition 1.7
+Every map used above is defined over \(\mathbf Q\). Saito's Proposition 1.7
 applies because the residue products vanish. Each nodal image is
-(mathbf Q(-n)); after the stipulated (mathbf Q(n)) normalization, every
-branch line and every (W_F) is a sum of (mathbf Q(0)). Consequently
-(mathcal H^1) is pure type ((0,0)) coefficientwise.
+\(\mathbf Q(-n)\); after the stipulated \(\mathbf Q(n)\) normalization, every
+branch line and every \(W_F\) is a sum of \(\mathbf Q(0)\). Consequently
+\(\mathcal H^1\) is pure type \((0,0)\) coefficientwise.
 
 Li's canonical model and the intrinsic valuations (D_F) identify the same
 residues and supports in every permissible order. NG035's raw divisor basis

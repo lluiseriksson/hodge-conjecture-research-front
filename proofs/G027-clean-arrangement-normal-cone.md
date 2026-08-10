@@ -1,6 +1,6 @@
 ---
 brick_id: G027
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: a nonlinear nodal discriminant germ whose smooth branch intersections form a clean subvariety arrangement, compared with its representable tangent hyperplane arrangement and wonderful model
 smoothness: the base, branches, all clean intersection strata, and wonderful blow-up centers are smooth; the resolved boundary is required to be simple normal crossing
@@ -13,7 +13,7 @@ hodge_type: the comparison must preserve the pure type-(0,0) degree-one channel 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B052-B053, G015, G019, G026, Li S038, and Saito S022/S037
+dependencies: B052-B054, G019, G026, Li S038, and Saito S022/S037
 claim: For every clean nonlinear discriminant arrangement with representable tangent matroid, the wonderful resolution has the same degree-one rational IC/MHS channel as the tangent central arrangement, canonically equal to the full vanishing-cycle relation kernel.
 falsifier: a clean stratum whose normal cone or dominant transform changes the labelled wonderful fiber, a higher-jet-dependent residue, a new degree-one coefficient or strict-support term, or failure of rational Hodge compatibility
 ---
@@ -30,8 +30,10 @@ tangent flat, and that subsequent dominant transforms have the same labelled
 normal wonderful fiber as the linear arrangement. It must then transport
 B049-B052's divisor, coefficient, residue, and strict-support calculations.
 
-Clean intersection alone may be insufficient for simultaneous compatibility
-of every normal cone. The proof must either derive the required compatibility
-from Li's subvariety-arrangement axioms or exhibit a curved clean arrangement
-where the iterated normal data differs; such an example would be the precise
-NO-GO for this route.
+B054 derives the compatibility from Li's subvariety-arrangement axioms.
+Lemma 2.9 identifies exceptional intersections with projectivized normal
+bundles, and Proposition 2.8 preserves the arrangement and building set after
+each minimal blow-up. Restricting each transverse ambient blow-up to the
+central fiber reproduces the next tangent wonderful blow-up. Boundary
+valuations are multiplicity-one and therefore independent of higher jets;
+B049-B052 transport the full rational type-\((0,0)\) channel.

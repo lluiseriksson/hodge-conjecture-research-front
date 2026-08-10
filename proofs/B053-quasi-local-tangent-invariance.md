@@ -96,9 +96,9 @@ degree-one groups with
  \operatorname{span}\{\delta_i\}\right).
 \]
 
-All branch images are (mathbf Q(0)) after the (mathbf Q(n)) twist and
+All branch images are \(\mathbf Q(0)\) after the \(\mathbf Q(n)\) twist and
 the residue differential is a rational mixed-Hodge morphism. Hence this
-comparison preserves the pure type-((0,0)) structure. No Whitney
+comparison preserves the pure type-\((0,0)\) structure. No Whitney
 trivialization or simultaneous analytic coordinate change is needed.
 
 ## Scope guard
