@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B063, B071-B076, G031-G032, G041, NG050-NG053
+dependencies: B022, B057-B058, B063, B071-B077, G031-G032, G041, G043, NG050-NG054
 claim: The equivariant boundary image of the lifted B058 non-equator thimble class has nonzero projection to B074's invariant full-support intermediate-extension summand after the equator-extension and base-locus quotients, and its trace retains nonzero Saito pairing with the prescribed Hodge class.
 falsifier: boundary image confined to the A2 standard constituent, projection into either B022 kernel, support on a proper stabilizer stratum, or vanishing prescribed pairing
 ---
@@ -57,11 +57,14 @@ nontrivially with the prescribed primitive rational Hodge class.
 - B076 proves that finite-cover trace remains a split retract after iterated
   nearby cycles. NG053 therefore excludes descent itself as a source of
   boundary nonvanishing.
+- B077 proves the pure strict-support decomposition exists. NG054/G043
+  isolate the nonzero full-support projection of the specified class.
 
 ## Smallest next calculation
 
-Construct the original/canonical nearby-specialization morphism of the B058
-tube, compute its boundary vector, and project it support by support before
-and after the two B022 kernel maps. B076 then transports any proved nonzero
-class through the root cover and back. The calculation must use the actual
-non-equator coefficients; the total-equator vector is already zero by NG038.
+Prove G043 by constructing the original/canonical nearby-specialization
+morphism of the B058 tube, computing its exceptional-support components, and
+showing the residual full-support projection is nonzero. Then apply the two
+B022 kernel maps. B076 transports any proved nonzero class through the root
+cover and back. The calculation must use the actual non-equator coefficients;
+the total-equator vector is already zero by NG038.

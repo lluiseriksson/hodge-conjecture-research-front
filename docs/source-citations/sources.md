@@ -1286,6 +1286,12 @@ Sigma* 13 (2025), e175;
 - Checked Proposition 3.39, pp. 26-27: on a quotient stack ([X/G]), the
   homotopy category agrees with Achar's equivariant mixed-Hodge-module
   category; the six operations agree as well.
+- Checked Proposition 3.22, Corollary 3.23, and Corollary 3.24, pp. 18-20:
+  \(f_!\) preserves upper weight bounds, \(f_*\) preserves lower weight
+  bounds, and on stacks with affine stabilizers every pure object splits into
+  its perverse cohomology while pure perverse objects are semisimple. Together
+  with proper \(f_!=f_*\), B077 obtains the strict-support decomposition of
+  the semistable pushdown.
 - Scope guard: the source constructs the stack/equivariant formalism. It does
   not compute the (S_3)-character of the A2 detector, identify the required
   invariant full-support summand, prove the B063 multi-(V)-filtration

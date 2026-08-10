@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B063, B067, B069, B071-B076, G032, G037, G039-G042, NG047, NG049-NG053
+dependencies: B022, B063, B067, B069, B071-B077, G032, G037, G039-G043, NG047, NG049-NG054
 claim: Weak semistable reduction can be refined equivariantly over the S3 root cover so that the rational full-support detector admits a trace to the original family preserving the B022 class and nonzero pairing.
 falsifier: unavoidable non-equivariance, loss of weak semistability under resolution, detector support confined to exceptional strata, or trace annihilation of the nonzero pairing
 ---
@@ -61,6 +61,9 @@ NG052 shows that only its nearby specialization and quotient survival remain.
 
 B076 proves finite trace is still a retract after nearby cycles. NG053
 therefore returns the residual nonvanishing problem to G042/G032.
+
+B077 proves the strict-support decomposition exists; NG054/G043 isolate the
+specified class's full-support projection.
 
 ## Smallest next audit
 

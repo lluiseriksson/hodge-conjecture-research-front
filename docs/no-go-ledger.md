@@ -1064,3 +1064,19 @@
   B058 tube is nonzero on full support, survives both B022 kernels, and keeps
   the prescribed pairing. This is G042's residual content and returns to
   G032/G031.
+
+## NG-054 - Decomposition forces full-support landing
+
+- **Label:** NO-GO
+- **Route:** invoke the pure decomposition theorem for the semistable stack
+  pushdown and infer that the specified nonzero specialized class has a
+  nonzero full-support component.
+- **Valid input:** B077 proves the pushdown is pure, semisimple, and decomposes
+  into a full-support summand plus proper-support summands.
+- **Invalid inference:** every nonzero class projects nontrivially to the
+  full-support summand.
+- **Precise obstruction:** a nonzero vector can lie entirely in the direct
+  sum of exceptional/proper-support constituents. Semistable modifications
+  create exactly such supports.
+- **Re-entry condition:** compute the strict-support projection of the actual
+  B058 nearby specialization and prove it is nonzero, as required by G043.

@@ -130,7 +130,11 @@ two-quotient calculation remains open. B076 further proves that finite-cover
 unit and trace remain a split retract after nearby cycles. NG053 therefore
 blocks treating the root cover as a source of new boundary nonvanishing: the
 residual G042 problem is the original G032/G031 pairing-preserving
-specialization and quotient calculation. The
+specialization and quotient calculation. B077 proves that the pure
+semistable pushdown has a semisimple strict-support decomposition. NG054
+prevents treating the existence of its full-support summand as class-level
+nonvanishing. G043 is now the smallest gate: compute the specialized tube's
+projection after subtracting every exceptional-support component. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

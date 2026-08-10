@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 72% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 73% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -98,7 +98,9 @@ Date: 2026-08-10
   quotient-controlled nearby specialization open. B076 proves the finite
   trace remains a split retract after nearby cycles; NG053 shows that descent
   cannot create the original boundary nonvanishing, returning the residual
-  gate to G042/G032/G031.
+  gate to G042/G032/G031. B077 proves the pure stack pushdown has a
+  semisimple strict-support decomposition; NG054/G043 isolate the still-open
+  full-support projection of the specified specialized tube.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -368,6 +370,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   retract after nearby cycles, including iterated cycles under B063.
 - NG053 - NO-GO: root-cover semistability and averaging cannot create a
   nonzero original boundary class; they only preserve one already proved.
+- B077 - PROVED: proper pushdown of the pure constant object from the smooth
+  semistable finite-stabilizer stack is pure, semisimple, and decomposes by
+  strict support.
+- NG054 - NO-GO: existence of a full-support summand does not force the
+  specified specialized class to project nontrivially to it.
+- G043 - EXPLORATORY, active smallest support subgate: compute the actual
+  specialization and prove its projection after exceptional-support
+  subtraction is nonzero and retains the prescribed pairing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

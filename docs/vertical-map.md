@@ -191,6 +191,20 @@ nonvanishing. Consequently G042 is not an independent route around G032; its
 residual content is precisely the original/canonical pairing-preserving
 specialization, strict-support projection, and B022 quotient calculation.
 
+B077 closes existence of the strict-support decomposition for the pure
+semistable pushdown: proper pushforward preserves purity, pure stack Hodge
+objects split and are semisimple, and the target-variety object decomposes by
+support. NG054 blocks object-to-class promotion. The smallest residual gate
+is now G043:
+
+\[
+\text{G042/G032}
+\Longleftarrow
+\text{nonzero full-support projection G043}
+\Longleftarrow
+\text{explicit specialization and exceptional-support subtraction}.
+\]
+
 An externally claimed shortcut is closed separately:
 
 \[
