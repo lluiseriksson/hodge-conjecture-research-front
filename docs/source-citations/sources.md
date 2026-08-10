@@ -382,6 +382,33 @@ Society* 137 (2009), 3593-3600.
 - Local retrieval SHA-256:
   `A3801E1017A87B747DE2F7053D4EDCDB035B07F14382B48F5096B6C6950DA5DC`.
 
+## S025 - Intersection cohomology on independent-node Severi strata
+
+Vincenzo Di Gennaro and Davide Franco, “Intersection cohomology and Severi's
+varieties,” arXiv:2011.14854 (2020); revised as “Intersection Cohomology and
+Severi Varieties,” in *The Art of Doing Algebraic Geometry*, Trends in
+Mathematics, Birkhäuser, 2023, 145-160.
+[arXiv record](https://arxiv.org/abs/2011.14854),
+[published chapter DOI](https://doi.org/10.1007/978-3-031-11938-5_6).
+
+- Checked p. 5, Theorem 3.2: if the \(\delta\) nodes of a hyperplane section
+  impose independent conditions, the local dual discriminant has
+  normal-crossing branches and every \(r\)-node partial-smoothing stratum is
+  nonempty, smooth, and of dimension \(N-r\).
+- Checked pp. 7-8, Theorem 4.3: the local intersection complex is computed by
+  the normal-crossing monodromy complex, is concentrated in degrees zero and
+  one, and its degree-one term fits into the stated exact sequence with
+  \(R^{2n}\pi_*\mathbf Q\).
+- Checked p. 9, Corollary 4.5 and Remark 4.6: the degree-one term is the
+  primitive local restriction channel; for projective-space ambient variety
+  its dimension is the nodal defect.
+- Scope guard: every result begins with a chosen nodal hyperplane whose nodes
+  impose independent conditions. The paper does not construct a hyperplane
+  detecting a specified primitive Hodge class and does not prove that a
+  nonzero possible channel receives that class nontrivially.
+- Local retrieval SHA-256:
+  7F74A3068E8DFC9D8CF8C2261314EEE18433E3140B00BE4B842AC57CB4E32374.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

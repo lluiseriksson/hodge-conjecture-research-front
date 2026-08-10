@@ -2,17 +2,19 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 37% - independent Git repository, mandatory topology,
+- **Infrastructure:** 39% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 15% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 16% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
   separates global Green-Griffiths nonvanishing from codimension-two local
-  support; B013 computes the distributed Picard-Lefschetz relation; B001-B004
-  close separate reduction and semiregular propagation implications. None is
-  proof-assistant formalized, and the global-to-local support gate is open.
+  support; B013 computes the distributed Picard-Lefschetz relation; B014
+  excludes a formal hypercohomology shortcut; B015 proves the
+  independent-node collision model; B001-B004 close separate reduction and
+  semiregular propagation implications. None is proof-assistant formalized,
+  and the class-directed global-to-local support gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -40,6 +42,10 @@ the unresolved terminal-equivalent gate.**
   has support of codimension at least two.
 - B013 - PROVED: a fixed monodromy class gives a distributed telescoping
   Picard-Lefschetz relation, not a local Saito relation.
+- B014 - PROVED: abstract degree-one intersection hypercohomology need not
+  appear in the relevant local cohomology-sheaf degree.
+- B015 - PROVED: independent nodes give the needed normal-crossing collision
+  geometry and exact local IC channel, once the nodal member is supplied.
 - G008 - EXPLORATORY, active: force a class with nonzero global invariant to
   have a nonzero associated local invariant somewhere.
 - G007 - EXPLORATORY mechanism: concentrate a global tube detector into a
@@ -52,6 +58,8 @@ the unresolved terminal-equivalent gate.**
   \(\ker(g-1)\) with the local relation kernel at one singular fiber.
 - NG-011 - NO-GO: nonzero global hypercohomology and a generic pencil or net
   do not by themselves prove nonempty local support.
+- NG-012 - NO-GO: no abstract perverse-sheaf implication can replace the
+  missing special geometry of the hyperplane family.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

@@ -58,6 +58,14 @@ linear algebra to formalize, but its output type must remain a distributed
 relation indexed by distinct meridians, not Saito's one-fiber relation type.
 The open G008 support realization must never enter as a generic sheaf lemma.
 
+B014 makes this guard executable at the specification level: an elliptic
+curve has nonzero \(IH^1\) for its constant intersection complex while the
+degree-\((-\dim+1)\) ordinary cohomology sheaf vanishes everywhere. A typed
+formalization can prove this countermodel using shifts and
+\(H^1(E,\mathbf Q)\ne0\). B015 can be exposed only as a conditional geometric
+interface whose input includes a chosen nodal hyperplane and the explicit
+independence condition \(H^1(I_{\Delta,X}(1))=0\).
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

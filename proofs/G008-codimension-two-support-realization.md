@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; local Green-Griffiths invariant and Saito rel
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B007, B010, B012, and the attempted mechanisms B011 and B013
+dependencies: B007, B010, B012, B014, B015, and the attempted mechanisms B011 and B013
 claim: For every nonzero primitive rational Hodge class zeta, there is a sufficiently high embedding for which the associated local Green-Griffiths invariant is nonzero at some discriminant point, equivalently Sing(zeta) is nonempty for that embedding.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class whose local Green-Griffiths invariant vanishes at every parameter point for every sufficiently high power
 ---
@@ -58,7 +58,9 @@ a net is the first generic slice capable of seeing such support. It does not
 prove nonemptiness: the global intersection-cohomology class \(s(\zeta)\) may
 be nonzero while every associated local class \(s(\zeta)_p\) is zero
 unless a new global-to-local support theorem is supplied. Merely increasing
-the parameter dimension therefore does not close the implication.
+the parameter dimension therefore does not close the implication. B014
+proves with an elliptic-curve intersection complex that no theorem of this
+form follows from abstract perversity and hypercohomology alone.
 
 ## Attempt 3 - Use the boundary of a tube filling
 
@@ -68,7 +70,9 @@ points, while B008 says that every such point has zero rational local
 intersection-cohomology channel. Colliding them into a codimension-two
 stratum would require a geometric incidence theorem plus a specialization
 argument preserving the nonzero pairing and Hodge type. Neither B011 nor
-B013 provides it.
+B013 provides it. B015 supplies the normal-crossing and partial-smoothing
+geometry after an independent-node hyperplane is already chosen, but does not
+construct that hyperplane from \(\zeta\) or the tube.
 
 ## Smallest concrete obligation
 

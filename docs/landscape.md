@@ -33,6 +33,7 @@ boundary, not an induction mechanism.
 | Saito relation pairing | a type-\((0,0)\) unipotent local relation gives a primitive Hodge class \(\gamma_\beta\), and its pairing exactly detects restriction to the chosen singular fiber | does not construct a suitable singular fiber or relation for a specified class |
 | Schnell tube mapping | global monodromy tubes generate all rational primitive middle cohomology when vanishing homology is nonzero | a global loop-fixed tube is not supported on one singular fiber and is not automatically a local Saito relation |
 | global/local Green-Griffiths invariants | B012 proves global detection of every primitive class and high-power local detection of restriction; possible local support has codimension at least two | nonzero global hypercohomology does not force a nonzero local stalk; support nonemptiness is terminal-equivalent for Hodge classes |
+| independent-node Severi geometry | B015 gives normal-crossing discriminant branches, expected-codimension partial smoothings, and the exact local IC channel once such a nodal member is fixed | does not construct the member from a specified Hodge class or force the class-specific restriction to be nonzero |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
 | reduction modulo primes | Frobenius and etale/Tate information | needs comparison, Tate-type algebraicity, and cycle lifting back to characteristic zero |
@@ -77,6 +78,13 @@ boundary, not an induction mechanism.
     need not have a nonzero local edge image by formal sheaf theory alone. A
     generic pencil avoids codimension-at-least-two support, and a net does not
     prove that the support is nonempty.
+14. **Abstract-perversity fallacy:** B014 gives a smooth projective
+    intersection-complex countermodel in which degree-one intersection
+    hypercohomology is nonzero while every proposed local target group
+    vanishes. G008 requires special hyperplane-family geometry.
+15. **Incidence-after-selection fallacy:** B015 controls the deformation
+    space around a chosen independent-node hyperplane. It does not select
+    that hyperplane from \(\zeta\) or prove nonzero class-specific pairing.
 
 ## Open universal core
 
@@ -99,4 +107,6 @@ Green-Griffiths invariant is always nonzero but separates this from the local
 stalk problem. B013 extracts the distributed Picard-Lefschetz relation from a
 fixed loop. G008 asks for a global-to-local support theorem, while G007 is its
 geometric tube-concentration mechanism; both remain terminal-equivalent and
-open after universal quantification.
+open after universal quantification. B014 excludes a purely formal
+hypercohomology proof, and B015 proves the desired local collision geometry
+only after the class-directed nodal member is supplied.

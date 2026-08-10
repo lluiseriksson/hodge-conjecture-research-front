@@ -96,7 +96,10 @@ same primitive class:
 
 without a new support theorem. A generic pencil avoids a fixed
 codimension-at-least-two support. A generic net can meet such a component if
-it is nonempty, but cannot establish nonemptiness.
+it is nonempty, but cannot establish nonemptiness. B014 shows that the missing
+implication is false for intersection complexes in general, so a proof must
+use the special geometric origin of the universal hyperplane variation and
+the class \(s(\zeta)\).
 
 ## Current smallest attackable brick
 
@@ -130,15 +133,28 @@ mechanism proposed for closing G008.
    two-disk meets several separate smooth discriminant points and generically
    misses the real-codimension-four class-specific support of B012.
 4. Declare the distributed cancellation to be a relation at one singular
-   member - **invalid**. B008 kills every smooth-point local channel, and no
-   theorem coalesces the intersections while preserving the tube and its
-   Hodge type.
+   member - **invalid without more input**. B008 kills every smooth-point
+   local channel. B015 proves the coalesced normal-crossing geometry and exact
+   local IC channel when an independent-node member is already supplied, but
+   it neither constructs that member from the tube nor preserves the
+   class-specific pairing.
 
 Step 4 is NG-010. Inferring a nonzero local class merely from global
 nonvanishing or a generic slice is NG-011. The open construction must create
 a higher discriminant stratum and verify the specialization through Saito's
 exact sequence; merely factoring the global monodromy or increasing slice
 dimension does not do so.
+
+The now-exact geometric sub-obligation is:
+
+\[
+\text{tube detector for }\zeta
+\longrightarrow
+\text{independent-node }H\text{ with }\zeta|_{X_H}\ne0.
+\]
+
+B015 controls everything local to the right-hand object. The arrow remains
+terminal-equivalent because its nonzero restriction is precisely G005.
 
 ## Secondary anchored route
 

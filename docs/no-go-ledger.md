@@ -215,3 +215,26 @@
   construct a Hodge-adapted higher-dimensional slice together with a direct
   proof of local stalk nonvanishing, without assuming an algebraic
   representative of \(\zeta\).
+
+## NG-012 - Abstract perversity cannot force the missing local invariant
+
+- **Label:** NO-GO
+- **Route:** argue solely from
+  \(s(\zeta)\in IH^1(B,IC(V))\ne0\) that
+  \(\mathcal H^{-\dim B+1}(IC(V))_p\ne0\) for some \(p\), then declare the
+  associated local invariant nonzero.
+- **Valid input:** B012 places the global and local Green-Griffiths invariants
+  in groups with these degrees.
+- **Invalid inference:** nonzero degree-one intersection hypercohomology
+  formally forces nonzero ordinary cohomology sheaves in the local target
+  degree.
+- **Precise obstruction:** B014 takes a smooth projective elliptic curve
+  \(E\) with \(IC_E(\mathbf Q)=\mathbf Q_E[1]\). Then
+  \(IH^1(E,\mathbf Q)=H^1(E,\mathbf Q)\ne0\), while
+  \(\mathcal H^0(\mathbf Q_E[1])_p=0\) for every \(p\). Hypercohomology can
+  be global even when the proposed local-degree sheaf vanishes everywhere.
+- **Re-entry condition:** use the special geometric origin of
+  \(IC(R^{2n-1}\pi_*\mathbf Q)\) and of the class \(s(\zeta)\). B015 gives a
+  usable local model after an independent-node hyperplane is supplied, but a
+  class-directed incidence theorem must still produce that hyperplane and
+  prove nonzero restriction.

@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; the sought local relation has type (0,0) afte
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B008, B010, B011, B012, and B013
+dependencies: B008, B010, B011, B012, B013, and B015
 claim: Every nonzero primitive rational Hodge class detected by a global Schnell tube is also detected by a type-(0,0) Saito relation concentrated at one singular hyperplane member.
 falsifier: a polarized smooth projective 2n-fold and primitive rational Hodge class with a nonzero global tube detector but orthogonal to every Saito local relation class for every singular member of every polarization power
 ---
@@ -50,9 +50,11 @@ proved weakening of HC.
 
 Steps 3-4 are not consequences of the Picard-Lefschetz factorization. A
 generic filling sees only smooth discriminant points, whose rational local
-intersection-cohomology groups vanish by B008. No audited theorem permits
-coalescing the meridians into one algebraic hyperplane section while
-preserving the tube class and its Hodge type.
+intersection-cohomology groups vanish by B008. B015 proves that a nodal
+member with independently imposed nodes has exactly the required
+normal-crossing collision geometry, but it starts with that member. No
+audited theorem constructs it from the tube while preserving the tube class,
+its nonzero pairing, and its Hodge type.
 
 B012 sharpens the dimension obstruction: the class-specific local support has
 complex codimension at least two. Thus a generic real filling disk for the
@@ -87,6 +89,7 @@ tube detector and whose discriminant intersections specialize to one
 higher-codimension point; then prove, through the vanishing-cycle exact
 sequence, that the specialized relation maps to a Saito class with the same
 nonzero \(\zeta\)-pairing. Ordinary double points would make the type
-\((0,0)\) condition automatic by B010.
+\((0,0)\) condition automatic by B010, while B015 supplies the local
+normal-crossing geometry if their independent-incidence hypothesis is met.
 
 This is now a proposed geometric mechanism for the exact support gate G008.
