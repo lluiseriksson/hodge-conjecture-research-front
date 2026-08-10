@@ -944,6 +944,11 @@ American Mathematical Society* 46 (2009), 535-633,
   for the perverse filtration or surjectivity from one chosen filtration
   step. Thus B084 cannot by itself kill
   $[t_\psi]\in\operatorname{im}u/u(S_0)$.
+- Rechecked Theorem 1.6.1, Remark 1.6.2, and Theorem 1.7.1 for B109/NG085:
+  degeneration supplies associated-graded information, while the derived
+  splitting is noncanonical and local invariant cycles are stated on the
+  total cohomology sheaf. No cited statement reconstructs the off-diagonal
+  extension between perverse grades. G072 must retain that extension data.
 - Checked Section 5.5, Remark 5.5.1, triangle (39), and Theorem 5.5.3: the
   natural arrow is $i^*K\to\Psi_fK$, followed by the canonical arrow to the
   shifted vanishing-cycle term. The stalk long exact sequence makes a nearby

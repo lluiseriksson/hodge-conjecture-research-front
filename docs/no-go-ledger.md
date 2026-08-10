@@ -1571,3 +1571,19 @@
 - **Re-entry condition:** G071 must compute the actual quotient class and
   kill it by an explicit filtered lift or a theorem proving perverse
   strictness for the precise collision map.
+
+## NG-085 - Associated-graded maps determine the filtered lift
+
+- **Label:** NO-GO
+- **Route:** compute all $E_\infty$ dimensions, support summands, and induced
+  maps, then infer the filtered-lift obstruction vanishes.
+- **Valid input:** these graded objects and maps are canonical.
+- **Invalid inference:** they recover the extensions between filtration
+  grades.
+- **Precise obstruction:** B109 constructs $u_0$ and $u_1$ with identical
+  maps on every associated grade. The fixed class $t$ has a lift in $S_0$
+  for $u_0$, but for $u_1$ its ordinary lift represents a nonzero class in
+  $S/(S_0+\ker u_1)$.
+- **Re-entry condition:** G072 must compute the actual ordinary-lift class
+  including its off-diagonal filtration extension, or rule out a dual
+  functional separating $t_\psi$ from $u(S_0)$.

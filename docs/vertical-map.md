@@ -280,6 +280,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G071: filtered-lift obstruction coset}
 \Longleftarrow
+\text{G072: off-diagonal filtered extension class}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -302,9 +304,11 @@ arbitrary derived splitting. The corrected vertical endpoint is
 The chain from G060 through G068 is a sufficient attack on G070's descended
 branch after G071 closes filtered liftability. B107/NG083 insert G070 because
 G059's original total-stalk functional was not canonical; B108/NG084 insert
-G071 because ordinary liftability is not perverse-filtered liftability. B106
-proves that G069 does not extend this chain: after cancellation of its
-auxiliary $c$, G069 is identical to B010's terminal pairing condition.
+G071 because ordinary liftability is not perverse-filtered liftability;
+B109/NG085 insert G072 because associated-graded data omit the decisive
+off-diagonal extension. B106 proves that G069 does not extend this chain:
+after cancellation of its auxiliary $c$, G069 is identical to B010's
+terminal pairing condition.
 
 G045 remains the multiplicity audit, but the point term is a separate
 filtration grade rather than a component to subtract from the full-support
@@ -453,8 +457,11 @@ stalk. G070 is the exact parent. B108 packages its first condition as
 $\omega_{\mathrm{fil}}(t_\psi)=[t_\psi]$ in
 $\operatorname{im}u/u(S_0)$, and NG084 shows Hodge strictness does not
 annihilate this perverse-filtered class. The current smallest endpoint is
-G071: compute the actual coset and prove it vanishes. G060-G068 remain
-optional sufficient mechanisms for G070's second branch afterward.
+not a graded rank calculation: B109/NG085 prove the coset is the class of an
+ordinary lift in $S/(S_0+\ker u)$ and can vary while every associated-graded
+map stays fixed. G072 is the current smallest endpoint: compute that actual
+off-diagonal lift class and prove it vanishes. G060-G068 remain optional
+sufficient mechanisms for G070's second branch afterward.
 
 An externally claimed shortcut is closed separately:
 

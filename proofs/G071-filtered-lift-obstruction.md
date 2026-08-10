@@ -13,7 +13,7 @@ hodge_type: S, S_0, P_psi, t_psi, and u restricted to rational type (0,0) after 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B081-B084, B107-B108, G048-G070, NG059-NG084, S023, S037
+dependencies: B022, B057-B058, B081-B084, B107-B109, G048-G070, G072, NG059-NG085, S023, S037
 claim: For the actual class-specific collision, construct the canonical relation-grade step S_0 and the ordinarily liftable t_psi, compute omega_fil(t_psi)=[t_psi] in im(u)/u(S_0), and prove omega_fil(t_psi)=0.
 falsifier: undefined collision map or filtration step, t_psi not in im(u), nonzero quotient class, wrong rational Hodge type, or reliance on unproved perverse strictness
 ---
@@ -61,5 +61,6 @@ the Hodge filtration alone do not prove the box by NG084.
 
 Vanishing supplies the filtered lift required by G070. Only then should the
 restricted dual-cokernel/evaluation certificate be computed. G071 is the
-smallest current geometric gate.
-
+exact parent. B109/NG085 show that associated-graded data cannot decide its
+coset; G072 is the smallest current gate and must compute the off-diagonal
+filtered extension class.

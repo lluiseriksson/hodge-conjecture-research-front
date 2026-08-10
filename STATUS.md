@@ -180,7 +180,9 @@ Date: 2026-08-10
   detector functional exists canonically only on the relevant perverse
   filtration step. B108/NG084 isolate filtered liftability as one quotient
   coset not killed by ordinary invariant cycles or Hodge strictness. G071 is
-  the active subgate; G070 resumes its dual certificate after coset vanishing.
+  the exact parent. B109/NG085 show the coset depends on off-diagonal
+  filtration-extension data invisible in every associated grade. G072 is the
+  active subgate; G070 resumes its dual certificate after coset vanishing.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -685,8 +687,16 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG084 - NO-GO: B084 local-invariant-cycle surjectivity and strictness for
   Hodge filtrations do not imply strictness for the independent perverse
   filtration; a pure-Tate countermodel has nonzero filtered obstruction.
-- G071 - EXPLORATORY, active smallest gate: construct the actual collision
-  coset $\omega_{\mathrm{fil}}(t_\psi)$ and prove it vanishes.
+- G071 - EXPLORATORY, exact parent: construct the actual collision coset
+  $\omega_{\mathrm{fil}}(t_\psi)$ and prove it vanishes.
+- B109 - PROVED: for any ordinary lift $s$, the filtered obstruction is
+  $[s]\in S/(S_0+\ker u)$; a dual separating functional detects nonvanishing,
+  and identical associated-graded maps can have different obstruction.
+- NG085 - NO-GO: dimensions and maps on every perverse associated grade do
+  not recover the off-diagonal extension needed for filtered liftability.
+- G072 - EXPLORATORY, active smallest gate: retain one actual ordinary lift
+  with its full filtration-extension data and prove
+  $[s]=0$ in $S/(S_0+\ker u)$.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

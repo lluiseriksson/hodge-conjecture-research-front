@@ -252,15 +252,21 @@ cancels identically. It is therefore a terminal restatement, not a reduced
 collision gate. B107/NG083 then correct the domain of the surviving dual
 certificate: the perverse associated grade defines a functional only on its
 canonical filtration step $S_0$, not on the entire special stalk. G070 is the
-active collision gate: prove $t_\psi\in\operatorname{im}(u|_{S_0})$ and then
+exact parent collision gate: prove $t_\psi\in\operatorname{im}(u|_{S_0})$ and then
 prove either the filtered dual-cokernel branch or, only in its zero branch, a
 nonzero descended evaluation. G060-G068 remain sufficient attacks on the
 latter branch after this filtration-compatible lift is supplied. B108 turns
 the new lift condition into the exact coset
 $\omega_{\mathrm{fil}}(t_\psi)=[t_\psi]$ in
 $\operatorname{im}u/u(S_0)$. NG084 shows that ordinary local-invariant-cycle
-surjectivity and Hodge strictness do not kill it. G071 is the active smallest
-gate: compute this coset in the actual collision and prove it vanishes.
+surjectivity and Hodge strictness do not kill it. G071 is the exact parent:
+compute this coset in the actual collision and prove it vanishes.
+B109 identifies the lift-side class in $S/(S_0+\ker u)$ and proves that the
+associated-graded maps do not determine it: identical $E_\infty$ data can
+have opposite filtered-lift answers. NG085 blocks dimension or graded-map
+shortcuts. G072 is the active smallest gate: compute the off-diagonal
+extension class of one actual ordinary lift and kill it modulo
+$S_0+\ker u$.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -502,6 +508,7 @@ python verification/verify_B105_scalar_discrepancy.py
 python verification/verify_B106_detector_cancellation.py
 python verification/verify_B107_filtered_dual_certificate.py
 python verification/verify_B108_filtered_lift_obstruction.py
+python verification/verify_B109_filtered_extension_class.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -619,6 +626,9 @@ with no filtered lift, and checks G070's corrected two branches.
 The B108/NG084 check packages filtered liftability as one quotient coset and
 gives a pure-Tate model where ordinary liftability and Hodge strictness hold
 but the coset is nonzero. G071 must compute the geometric coset.
+The B109/NG085 check gives the lift-side quotient and dual witness and shows
+that identical associated-graded maps can carry different filtered
+obstructions. G072 must retain and compute the off-diagonal extension.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
