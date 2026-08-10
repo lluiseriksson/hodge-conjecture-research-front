@@ -174,7 +174,11 @@ Date: 2026-08-10
   lift-independent obstruction coset; NG080 removes the unnecessary
   full-complex map. B105/NG081 correct the remaining overconstraint: Saito's
   terminal theorem only needs a nonzero scalar pairing, so G069 replaces
-  coset vanishing by the exact class-specific scalar inequality.
+  coset vanishing by the exact class-specific scalar inequality. B106/NG082
+  then show that the auxiliary detector cancels from that inequality, so
+  G069 is only B010 in new notation. G059 is reactivated as the exact
+  collision-provenance gate; G060-G068 are sufficient attacks on its
+  descended branch.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -574,8 +578,10 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG071 - NO-GO: the special-stalk detector functional does not automatically
   descend through the special-to-nearby map; failure to descend is itself a
   success branch.
-- G059 - EXPLORATORY, dual-certificate parent: compute the dual map, cokernel
-  class, and—only in the zero-cokernel branch—the descended detector value.
+- G059 - EXPLORATORY, active exact collision gate: compute the dual map,
+  cokernel class, and—only in the zero-cokernel branch—the descended detector
+  value. B106 shows this is the exhaustive certificate that retains the
+  actual special-to-nearby provenance.
 - B096 - PROVED: $[F]\ne0$ is equivalent to $F\circ d\ne0$ on the preceding
   long-exact boundary; if it vanishes, a square identifying
   $\lambda(t_\psi)$ with B058's nonzero pairing closes the other branch.
@@ -654,9 +660,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG081 - NO-GO: vanishing of B104's relative-bordism coset is sufficient
   but not necessary; its primitive ambient image or its scalar pairing may
   vanish while the coset remains nonzero.
-- G069 - EXPLORATORY, active smallest gate: construct the actual canonical
-  nodal relation and prove B105's exact scalar inequality. G068 remains a
-  stronger optional mechanism.
+- G069 - EXPLORATORY, terminal restatement: construct a nodal relation and
+  prove B105's scalar inequality. B106 shows the auxiliary detector cancels,
+  so this is exactly B010 rather than a reduced collision gate.
+- B106 - PROVED: B105's inequality is independent of $c$ and equals Saito's
+  terminal pairing condition; B095/G059's cokernel/evaluation alternative is
+  the exact collision certificate that survives the audit.
+- NG082 - NO-GO: inserting B058's detector into a scalar discrepancy does
+  not prove that the local relation descends from it or make the terminal
+  condition easier.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

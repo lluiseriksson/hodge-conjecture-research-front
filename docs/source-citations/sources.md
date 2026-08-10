@@ -460,6 +460,11 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   separately chosen tube class, equality of relative representatives, or
   vanishing of a relative-bordism obstruction. Those are sufficient
   comparison mechanisms only.
+- Rechecked the same statements against B106/NG082: $\gamma_\beta$ is
+  constructed from the local relation $\beta$ and the terminal formula only
+  pairs $\gamma_\beta$ with the prescribed primitive class. No auxiliary
+  global tube detector appears in Saito's criterion, confirming that the
+  $c$ in B105 cancels rather than encoding provenance.
 - For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
   thimble pair. Naturality proves the boundary square only after a map of
   pairs is supplied. S022 does not construct such a map from an arbitrary
@@ -526,6 +531,10 @@ Christian Schnell, “Primitive cohomology and the tube mapping,”
   smooth hyperplane sections. The theorem does not support them on a single
   singular hyperplane, make them algebraic, or identify
   \(\ker(g-1)\) with Saito's local relation kernel.
+- Rechecked Theorem 1 and the scope guard for B106/NG082: surjectivity gives
+  the global class $c$ but no topology-changing map to a chosen Saito
+  relation. Any use of $c$ in a local scalar formula must therefore be
+  justified by additional collision data, not by the tube theorem itself.
 - Local retrieval SHA-256:
   38AF760A171C9373EFA0232768D8C24D5FB2F5409DFEE63646DD5CB3E55310EE.
 

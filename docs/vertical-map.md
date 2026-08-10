@@ -292,10 +292,13 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G067: single-fiber detector realization}
 \Longleftarrow
-\text{G068: selected-detector bordism obstruction}
-\Longleftarrow
-\text{G069: exact scalar collision inequality}.
+\text{G068: selected-detector bordism obstruction}.
 \]
+
+The chain from G060 through G068 is a sufficient attack on G059's descended
+branch. G059 itself remains the exact branch point. B106 proves that G069
+does not extend this chain: after cancellation of its auxiliary $c$, G069 is
+identical to B010's terminal pairing condition.
 
 G045 remains the multiplicity audit, but the point term is a separate
 filtration grade rather than a component to subtract from the full-support
@@ -435,10 +438,13 @@ detector and local relation, a sufficient obstruction is the difference class
 in the collision pair modulo the image of absolute nearby-fiber homology.
 NG080 closes the full-map requirement. B105/NG081 then show that zero in this
 quotient is itself stronger than the terminal theorem: after primitive
-ambient realization only the scalar discrepancy paired with the specified
-Hodge class matters. G069 is the current smallest endpoint: construct the
-canonical nodal relation and prove that this scalar differs from the nonzero
-B058 detector pairing. G068 remains an optional stronger route.
+ambient realization only a scalar pairing matters. B106/NG082 expose the
+final cancellation: G069's scalar inequality forgets $c$ entirely and is
+just B010. It cannot certify collision provenance. The current exact
+operational endpoint is therefore G059: compute the dual cokernel class on
+the actual special-to-nearby object, or, if it vanishes, compute the descended
+evaluation on $t_\psi$. G060-G068 remain optional sufficient mechanisms for
+the second branch.
 
 An externally claimed shortcut is closed separately:
 

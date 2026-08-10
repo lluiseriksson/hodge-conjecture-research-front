@@ -1514,5 +1514,25 @@
 - **Countermodel:** in $\mathbf Q^2$, the nonzero coset $(0,1)$ is killed by
   the ambient map $(x,y)\mapsto x$; the full ambient discrepancy is already
   zero without a relative bordism.
-- **Re-entry condition:** G069 must construct the actual canonical nodal
-  relation and prove B105's exact scalar inequality.
+- **Re-entry condition:** B106/NG082 show G069 is only the terminal
+  restatement. To retain collision provenance, compute G059's exact dual
+  cokernel/evaluation alternative.
+
+## NG-082 - An auxiliary global detector makes the terminal scalar a collision gate
+
+- **Label:** NO-GO
+- **Route:** write B010's local pairing using B058's class $c$ through
+  $D_\zeta(c,\beta)$ and infer that the resulting inequality records a
+  topology-changing specialization of $c$.
+- **Valid input:** $\langle\zeta,c\rangle\ne0$, and B105's discrepancy
+  inequality is equivalent to detection by $\beta$.
+- **Invalid inference:** the notation supplies a map or correlation between
+  the global tube and the local relation.
+- **Precise obstruction:** B106 gives the identity
+  $D_\zeta(c,\beta)\ne\langle\zeta,c\rangle$ if and only if
+  $\langle\zeta,\Phi_{Y_0}(\beta)\rangle\ne0$; $c$ cancels. S022 and S023
+  prove the local and global endpoint mechanisms separately, not the missing
+  comparison.
+- **Re-entry condition:** on the actual collision coefficient object,
+  compute G059's class $[F]\in\operatorname{coker}(u^*)$; if it is zero,
+  compute the descended value $\lambda(t_\psi)$ instead.

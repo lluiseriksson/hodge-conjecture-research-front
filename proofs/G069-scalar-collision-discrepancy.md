@@ -13,7 +13,7 @@ hodge_type: zeta, c, the local relation beta, and its ambient image rational typ
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B057-B058, B081, B093-B105, G047-G068, NG069-NG081, S022
+dependencies: B009-B010, B057-B058, B081, B093-B106, G047-G068, NG069-NG082, S022-S023
 claim: For the specified zeta and detector c, construct an actual isolated clean nodal collision and its canonical rational type-(0,0) local relation beta, compute D_zeta(c,beta)=<zeta,c-Phi_(Y_0)(beta)>, and prove D_zeta(c,beta) differs from <zeta,c>.
 falsifier: failure to construct the collision or canonical relation, wrong coefficient field or Hodge type, an undefined Saito ambient image, or equality D_zeta(c,beta)=<zeta,c>
 ---
@@ -62,3 +62,12 @@ its B104 coset. The coset itself need not vanish.
 
 This gate is falsifiable class by class and contains no assumption that the
 desired Hodge class or relation is algebraic.
+
+## Endpoint audit
+
+B106/NG082 show that the displayed inequality cancels $c$ and is exactly
+B010's terminal pairing condition. G069 remains a correct terminal
+restatement, but it is not an independently reduced collision gate and is no
+longer the active operational brick. G059 is the exact collision-provenance
+gate: compute its cokernel/evaluation alternative on the actual
+special-to-nearby object.
