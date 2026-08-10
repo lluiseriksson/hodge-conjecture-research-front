@@ -268,6 +268,12 @@ Geometry* 14 (2005), 177-185.
   invokes the local criterion that a simple zero of the differential gives
   an ordinary double point. B032 verifies this normal-jet mechanism directly
   for the diagonal in \(\mathbf P^2\times\mathbf P^2\).
+- Rechecked the displayed Theorem 4.2 proof for B034: it states that the
+  number of nodes of the generic fixed-carrier hypersurface is exactly
+  \(c_n(N^*_{Z/X}(NH))\). B034 combines this primary statement with
+  asymptotic Riemann-Roch to obtain the \(n!\) block-capacity obstruction.
+  Thomas makes no claim that these nodes split into two independently
+  smoothable blocks.
 - Checked pp. 6-8, Section 5: the attempted nodal deformation route has
   obstruction in \(H^1(I_{\{p_i\}}(NH))\), with
   \(H^1(N_{Z/X})\) injecting into it via the displayed Koszul resolution.
@@ -314,6 +320,13 @@ Society Lecture Note Series 343 (2007), 206-263.
   impose independent smoothing conditions, \(H^1(B^\bullet)\) is the rational
   relation space among the vanishing cycles. The stated partition variant
   permits \(I=J\sqcup K\) with each part independent.
+- Rechecked pp. 20-22 for G015. The displayed local complex includes
+  degree-two pairwise terms
+  \(\bigoplus_{i<j}N_iN_jV\), while the final “general result” is stated only
+  for the bipartition \(I=J\sqcup K\). No multipart theorem or induction is
+  stated. The preceding blow-up example changes the boundary monodromy
+  operators, so a \(q\)-block extension must recompute the resolved local
+  complex rather than count relations before resolution.
 - Checked p. 22 visually: the partition statement follows the universal
   local-deformation discussion in which nodes are independently smoothed and
   the parameter slice meets the partial-node strata. Thus “independent” here
@@ -694,6 +707,27 @@ Journal* 46 (1979), 685-724.
 - Scope guard: full symmetric monodromy controls uniform postulation of a
   general point scheme. It supplies neither a Hodge type nor an algebraic
   cycle and cannot select a direction paired with an arbitrary Hodge class.
+
+## S035 - Hyperplane-arrangement perverse-sheaf frameworks
+
+Mikhail Kapranov and Vadim Schechtman, “Perverse sheaves over real
+hyperplane arrangements,” [arXiv:1403.5800](https://arxiv.org/abs/1403.5800);
+Asilata Bapat, “Recollement for perverse sheaves on real hyperplane
+arrangements,” [arXiv:1810.13126](https://arxiv.org/abs/1810.13126).
+
+- Checked the primary abstracts and stated scopes. Kapranov–Schechtman give
+  an explicit quiver-with-relations description indexed by faces of a real
+  arrangement; Bapat identifies modules for intermediate extensions of
+  local systems and gives recollement in that framework.
+- These are candidate tools for G015 because the node-smoothing parameters
+  define a central hyperplane arrangement and the required object is an
+  intermediate extension. No theorem from either paper has yet been matched
+  to the higher-rank Picard–Lefschetz local system, the quasi-local blow-up,
+  or Saito's type-\((0,0)\) comparison.
+- Scope guard: an arrangement-quiver model by itself does not imply that the
+  degree-one stalk equals the full vanishing-cycle relation kernel. A
+  dependent \(q\)-block example must be computed explicitly before any
+  promotion.
 
 ## Citation policy for incompletely audited mechanisms
 

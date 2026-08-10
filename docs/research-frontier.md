@@ -1,6 +1,21 @@
 # Research frontier
 
-## Active gate: G014
+## Active gate: G015
+
+Extend B009's quasi-local identification of degree-one local intersection
+cohomology with the full vanishing-cycle relation kernel from a bipartition
+\(\Delta=J\sqcup K\) to a partition
+\(\Delta=J_1\sqcup\cdots\sqcup J_q\), \(q\ge3\), with each block
+independently smoothable. The calculation must include higher block
+intersections and preserve the rational type-\((0,0)\) comparison.
+
+B034 makes this extension necessary for the fixed-carrier route: in middle
+dimension \(n\), the number of Thomas nodes divided by the capacity of one
+independent block tends to \(n!\). Two blocks are eventually impossible for
+\(n\ge3\). NG-032 shows why the bipartite theorem cannot simply be iterated:
+the union of \(q-1\) independent blocks need not be independent.
+
+## Sufficient parent: G014
 
 For each smooth projective complex variety in the middle-degree reduction,
 prove that the canonical primitive images of unanchored high-power nodal
@@ -38,71 +53,80 @@ diagonal-containing \((m,m)\) family with \(m\ge3\), using full symmetric
 monodromy to obtain a uniform smoothing matroid and two-block partition.
 NG-029 forbids using the preselected diagonal for the arbitrary-class step;
 NG-030 forbids replacing B033's full monodromy by double transitivity alone.
+G014 is sufficient for rational HC, but no reverse implication is proved.
+B034 blocks the standard attempt to obtain that reverse arrow from an
+algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Construct an algebraic incidence component satisfying all subset
-   inequalities \(|S|\le2r_A(S)\) and the independent condition
-   \(r_F(\Delta)<|\Delta|\); then prove it actually occurs as the node set of
-   a hypersurface member.
-2. Compare its cross-part defect local system with the global coinvariant
+1. Compute the multipart local monodromy/Čech/Koszul complex and determine
+   whether its degree-one cohomology is the full relation kernel.
+2. Verify the rational limit-MHS and Saito comparison for that multipart
+   channel; a dimension equality alone is insufficient.
+3. If G015 holds, replace the two-block constraint by Edmonds'
+   \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
+   fixed-carrier constructions.
+4. Construct an algebraic incidence component satisfying the multipart
+   inequalities and the independent condition \(r_F(\Delta)<|\Delta|\);
+   then prove it actually occurs as the node set of a hypersurface member.
+5. Compare its cross-part defect local system with the global coinvariant
    maps in B011, without coercing global tubes into local relations.
-3. Use B009's quasi-local partition model as the target for G007 and identify
+6. Use B009/G015's quasi-local partition model as the target for G007 and identify
    the exact class-preserving specialization datum still absent.
-4. Audit boundary/intersection constructions that define a global incidence
+7. Audit boundary/intersection constructions that define a global incidence
    class without using an algebraic representative of \(\zeta\); NG-013
    excludes the HC-dependent Green-Griffiths construction.
-5. Require every proposed incidence source to have a non-tautological
+8. Require every proposed incidence source to have a non-tautological
    primitive ambient class; B018/NG-015 exclude complete intersections of
    polarization divisors as detectors.
-6. Test an algebraic collision bridge from distinct-fiber matching thimbles
+9. Test an algebraic collision bridge from distinct-fiber matching thimbles
    to one partitioned nodal Saito relation; B019/NG-016 show that the
    symplectic matching-path theorem does not provide this bridge.
-7. Do not treat intersection-one pairs as relations; B020/NG-017 prove the
+10. Do not treat intersection-one pairs as relations; B020/NG-017 prove the
    opposite for Schnell's pair and leave the two-ODP relation computation
    open.
-8. Compute any collision on the full vanishing-cycle complex. B021/NG-018
+11. Compute any collision on the full vanishing-cycle complex. B021/NG-018
    rule out preserving a matching pair class by class through the cusp
    lattice; only basis change, extra cycles, or ambient-class preservation
    remain possible.
-9. Track the class through the two exact quotients in B022. A kernel relation
+12. Track the class through the two exact quotients in B022. A kernel relation
    can die as an equator extension or in the pencil base-locus kernel;
    NG-019 forbids calling it an ambient detector earlier.
-10. Require a non-invertible topology-changing comparison. B023/NG-020 show
+13. Require a non-invertible topology-changing comparison. B023/NG-020 show
     that Hurwitz moves inside a fixed fibration preserve the relation kernel
     and cannot close the matching/cusp gap.
-11. Use B024 as a positive source-side checkpoint for complete intersections:
+14. Use B024 as a positive source-side checkpoint for complete intersections:
     global quotient-level thimble detectors exist, but NG-021 forbids
     counting them as local or algebraic.
-12. Do not seek the required relation inside one isolated singularity's
+15. Do not seek the required relation inside one isolated singularity's
     Milnor lattice. B025 proves its morsification cycles form a basis;
     NG-022 forces the relation into the global local-to-nearby-fiber kernel.
-13. Use B026's equality of relation, extra-homology, coherent, and local
+16. Use B026's equality of relation, extra-homology, coherent, and local
     defect dimensions only as a consistency test. B031/NG-027 forbid
     coercing a nonzero extra space into a nonzero primitive ambient image;
     NG-023 separately forbids promoting a nonzero image to a prescribed
     pairing.
-14. Enforce B027/NG-024: full independence is fatal in dimension at least
+17. Enforce B027/NG-024: full independence is fatal in dimension at least
     four at high power; only partwise independence may be imposed.
-15. Enforce B028/NG-025: a circuit for \(A\)-evaluation may remain independent
+18. Enforce B028/NG-025: a circuit for \(A\)-evaluation may remain independent
     for adjoint \(F\)-evaluation, so smoothing dependence is not defect.
-16. Enforce B029/NG-026: adjoint dependence obtained by overloading one
+19. Enforce B029/NG-026: adjoint dependence obtained by overloading one
     low-degree line forces a nonisolated singular locus; first-jet nodal
     realizability is independent of both evaluation-rank conditions.
-17. Use B030 only as a compatibility witness: its plane-containing quintic
+20. Use B030 only as a compatibility witness: its plane-containing quintic
     realizes isolated nodes and both matroid conditions, but has no primitive
     ambient class and begins with an algebraic anchor.
-18. Carry \(\operatorname{rank}\Phi_Y>0\) as a third independent incidence
+21. Carry \(\operatorname{rank}\Phi_Y>0\) as a third independent incidence
     condition. B031 proves it does not follow from the two evaluation ranks.
     NG-028 also forbids recovering it from the literal printed
     Green–Griffiths \(\rho(ii)\) equality without a documented resolution of
     that source conflict.
-19. Use B032 as the positive compatibility test for all three ranks and the
+22. Use B032 as the positive compatibility test for all three ranks and the
     pairing, but enforce NG-029: its diagonal is an algebraic anchor and
     cannot be used in the class-selection step.
-20. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+23. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-21. Keep the semiregularity gate G004 as an independent secondary route.
+24. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -140,9 +164,11 @@ B028 applies Edmonds' matroid-partition theorem to make that model exact:
 partwise smoothing independence is equivalent to all inequalities
 \(|S|\le2r_A(S)\), but adjoint dependence is a second rank condition. Its
 explicit \(\mathbf P^2\times\mathbf P^2\) configuration shows that a smoothing
-circuit need not have adjoint defect (NG-025). G013 is the geometric parent;
-G014 is now the narrowest gate: span primitive rational Hodge homology by
-canonical images from unanchored two-part nodal relations. B029/NG-026 test the
+circuit need not have adjoint defect (NG-025). G013 is the geometric parent,
+and G014 is a sufficient unanchored two-block span theorem. B034 shows that
+the standard fixed-carrier route needs asymptotically at least \(n!\)
+blocks. G015 is now the narrowest active local gate: compute the multipart
+relation channel before changing the incidence target. B029/NG-026 test the
 first collinear positive-defect configuration and show that it is singular
 along its carrier line. The next construction must obtain adjoint dependence
 from distributed or genuinely zero-dimensional incidence while preserving

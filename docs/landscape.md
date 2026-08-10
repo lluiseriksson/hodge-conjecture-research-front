@@ -52,6 +52,8 @@ boundary, not an induction mechanism.
 | extra-to-primitive map | B031 proves in every degree d at least 3 that the plane-containing relation and extra-homology spaces are one-dimensional while Saito's canonical map to primitive ambient homology is zero | positive defect does not imply a nonzero ambient detector; the literal Green-Griffiths rho(ii) equality is also quarantined |
 | positive ambient-rank witness | B032 realizes defining-system-independent nodes, adjoint defect one, rank-one extra-to-primitive map, and nonzero primitive pairing on a diagonal-containing (2,2) divisor in P^2 x P^2 | the diagonal is a preselected algebraic anchor; compatibility does not supply non-circular class selection |
 | high-power positive-rank witness | B033 proves that every diagonal-containing (m,m) family for m at least 3 has a uniform smoothing matroid, a two-block partition, adjoint defect one, and ambient rank one | full symmetric monodromy closes postulation, but the primitive direction remains the preselected algebraic diagonal |
+| fixed-carrier block growth | B034 proves that Thomas' node count divided by one defining-system-independent block capacity tends to n! | two blocks cannot scale through a fixed carrier for n at least 3; a multipart local theorem or a lower-node unanchored incidence is required |
+| multipart quasi-local channel | G015 asks whether B009's relation-kernel identification survives q separately independent blocks | the bipartite source theorem cannot be iterated when unions of blocks are dependent |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -167,6 +169,12 @@ boundary, not an induction mechanism.
 33. **Double-transitivity uniformity fallacy:** a doubly transitive node
     monodromy group controls pairs but need not be transitive on larger
     subsets. NG-030 requires the simple-transposition upgrade used in B033.
+34. **Fixed-carrier two-block scaling fallacy:** B034 proves that the
+    asymptotic number of required independent blocks is at least \(n!\).
+    B033's two-block behavior is special to middle dimension two.
+35. **Bipartite-induction fallacy:** separate independence of
+    \(J_1,\ldots,J_q\) does not make
+    \(J_2\cup\cdots\cup J_q\) independent, so B009 cannot be iterated.
 
 ## Open universal core
 
@@ -214,9 +222,10 @@ can vanish before the further NG-023 class-pairing obstruction is reached.
 B027/NG-024 close G009-G011 and
 force G012's partitioned quasi-local nodal target. B028/NG-025 separate the
 smoothing and adjoint evaluation matroids and exclude a smoothing circuit as
-a sufficient replacement. G013 is the exact geometric parent. G014 is the
-narrowest active gate: prove that canonical primitive images from unanchored
-high-power two-part nodal members span primitive rational Hodge homology.
+a sufficient replacement. G013 is the exact geometric parent, and G014 is a
+sufficient unanchored two-block span theorem. B034 shows that the
+fixed-carrier route cannot scale that bipartite target for \(n\ge3\);
+G015 is the narrowest active local gate.
 B029/NG-026 further require isolated first-jet realizability and exclude the
 first line-supported positive-defect construction. B030 proves the three
 geometric conditions are compatible in a plane-containing quintic, while
@@ -232,4 +241,8 @@ smoothing matroid, a two-part independent partition, adjoint defect one,
 and ambient rank one. The proof requires full symmetric monodromy; NG-030
 records why double transitivity alone is insufficient. This strengthens the
 compatibility evidence but leaves G014 wholly open because the detector
-direction is still the preselected diagonal.
+direction is still the preselected diagonal. B034 also shows that this
+two-block sufficient theorem is not recovered from HC by the standard
+fixed-carrier construction when \(n\ge3\). The active local gate G015 is to
+compute the corresponding multipart relation channel before replacing
+\(|S|\le2r_A(S)\) by dimension-scaled Edmonds inequalities.

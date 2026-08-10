@@ -26,6 +26,19 @@ Two sufficient attacks feed G008:
 \text{G008}\Longleftarrow\text{tube-to-local concentration G007}.
 \]
 
+The fixed-carrier branch now has an additional necessary local gate:
+
+\[
+\text{dimension-scaled multipart incidence}
+\Longleftarrow
+\text{multipart quasi-local channel G015}.
+\]
+
+G014 remains sufficient for HC but is not known equivalent to it. B034
+shows that HC plus Thomas' fixed-carrier construction cannot recover G014's
+two-block condition in middle dimensions \(n\ge3\): the required number of
+independent blocks is asymptotically at least \(n!\).
+
 The former fully independent-node chain G009-G011 is closed as NG-024 by
 B027: its high-power relation spaces vanish for \(n\ge2\).
 
@@ -218,13 +231,23 @@ package from \(\zeta\) or a global detector without an algebraic anchor.
 B033 proves the same package throughout the high-power diagonal family.
 For \(k=2m\ge6\), the zeros of a general section of
 \(\Omega^1_{\mathbf P^2}(k)\) have full symmetric monodromy and uniform
-degree-(k) evaluation rank
+degree-\(k\) evaluation rank
 \((k^2+3k-14)/2\). They therefore partition into two independent blocks,
 while the adjoint defect and ambient rank remain one. This closes the
 postulation/high-power compatibility subproblem but strengthens NG-029: the
 ambient direction is still computed from the forced algebraic diagonal.
-The active formulation G014 asks whether canonical images from **unanchored**
+The sufficient formulation G014 asks whether canonical images from **unanchored**
 two-part nodal members span primitive rational Hodge homology.
+
+B034 prevents treating that two-block formulation as dimension-neutral.
+For a fixed smooth carrier \(W^n\subset X^{2n}\), Thomas' node count is
+\(d m^n+O(m^{n-1})\), while one \(L^m\)-independent block has capacity at
+most \(d m^n/n!+O(m^{n-1})\). Thus two blocks are eventually impossible for
+\(n\ge3\). G014 remains sufficient but is not proved equivalent to HC.
+The active smallest local gate is G015: extend B009's bipartite
+quasi-local relation calculation to \(q\) separately independent blocks.
+Only after that calculation is proved may the fixed-carrier branch replace
+the two-block inequality by \(|S|\le q r_A(S)\).
 
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a

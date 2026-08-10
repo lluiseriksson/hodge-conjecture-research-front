@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 60% - independent Git repository, mandatory topology,
+- **Infrastructure:** 61% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 38% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 39% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -38,9 +38,11 @@ Date: 2026-08-10
   trivially to primitive ambient homology. B032 gives an anchored special
   family where the same ambient rank is one. B033 extends this compatibility
   to every diagonal-containing high-power family and proves the exact
-  two-part smoothing partition by full symmetric monodromy. None is
+  two-part smoothing partition by full symmetric monodromy. B034 proves the
+  fixed-carrier node/block ratio tends to \(n!\), excluding two-block
+  scaling in middle dimensions at least three. None is
   proof-assistant formalized, and the
-  unanchored detector-spanning gate is open.
+  multipart local-channel gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -122,7 +124,13 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B033 - PROVED: for every \(m\ge3\), the general diagonal-containing
   \((m,m)\) divisor has a uniform smoothing evaluation matroid, a two-block
   independent partition, adjoint defect one, and ambient rank one.
-- G014 - EXPLORATORY, active: prove that canonical primitive images from
+- B034 - PROVED: a high-power fixed middle-dimensional carrier requires at
+  least \(n!\) defining-system-independent node blocks asymptotically; two
+  blocks are eventually impossible for \(n\ge3\).
+- G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
+  calculation from two independently smoothable blocks to a
+  dimension-scaled number of blocks.
+- G014 - EXPLORATORY sufficient parent: prove that canonical primitive images from
   unanchored high-power two-part nodal relations span primitive rational
   Hodge homology.
 - G013 - EXPLORATORY parent: realize the prescribed pairing on a nodal node
@@ -187,6 +195,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   algebraic diagonal and cannot be counted as non-circular class selection.
 - NG-030 - NO-GO: double transitivity alone does not give uniform position
   for subsets of size at least three; B033 requires full symmetric monodromy.
+- NG-031 - NO-GO: Thomas' fixed-carrier construction cannot retain two
+  independent node blocks in middle dimensions \(n\ge3\) at high power.
+- NG-032 - NO-GO: B009's bipartite theorem cannot be iterated over
+  separately independent blocks when their unions are dependent.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

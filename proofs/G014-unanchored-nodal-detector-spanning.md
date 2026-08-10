@@ -13,7 +13,7 @@ hodge_type: primitive middle type (n,n), equivalently type (0,0) after Tate twis
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B001, B007, B009-B010, B016-B017, B026-B028, B031-B033, and G013
+dependencies: B001, B007, B009-B010, B016-B017, B026-B028, B031-B034, and G013
 claim: Canonical primitive images of unanchored high-power two-part nodal relations span primitive rational Hodge homology for every X.
 falsifier: a smooth projective X and a nonzero primitive rational middle Hodge class zeta pairing trivially with every canonical image from every unanchored high-power nodal member satisfying the B028 two-part conditions
 ---
@@ -67,8 +67,11 @@ nonzero primitive rational Hodge class exactly when its canonical images
 span primitive rational Hodge homology. B010 turns such a nonzero pairing
 into singular-hyperplane detection. B007 identifies universal detection with
 the standard rational Hodge Conjecture after B001's middle-degree reduction.
-Thus G014 is sufficient, and its universal content is still
-terminal-equivalent rather than an easier known theorem.
+Thus G014 is sufficient. The converse has not been proved: rational HC
+supplies algebraic representatives, but B034 shows that the standard
+high-power fixed-carrier construction does not preserve the two-block
+condition in middle dimensions \(n\ge3\). G014 must therefore be carried as
+a potentially stronger sufficient theorem, not labeled terminal-equivalent.
 
 ## First proof attempt: scale the diagonal witness
 
@@ -120,3 +123,15 @@ representation on nodes. A successful brick must prove that its invariant
 span is the full primitive rational Hodge substructure or exhibit a
 specific nonzero annihilator. Numerical node configurations, defect
 dimensions, and special-family monodromy do not decide this gate.
+
+## Dimension-scaling audit
+
+B034 blocks the direct extension of B033 through Thomas' fixed-carrier
+construction. A smooth middle-dimensional carrier produces asymptotically
+\(n!\) times as many nodes as one defining-system-independent block can
+hold. Thus two blocks are eventually impossible when \(n\ge3\).
+
+This does not falsify the intrinsic G014 collection, because an unanchored
+member may have fewer nodes. It does force a second route: extend B009's
+quasi-local relation calculation from two independently smoothable blocks
+to a dimension-scaled number of blocks. That local extension is G015.

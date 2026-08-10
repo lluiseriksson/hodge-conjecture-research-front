@@ -639,3 +639,42 @@
   transposition, which together with 2-transitivity gives the full symmetric
   group. This repairs the postulation step but not the algebraic-anchor
   obstruction NG-029.
+
+## NG-031 - Fixed-carrier two-block scaling
+
+- **Label:** NO-GO
+- **Route:** start from an algebraic middle-dimensional carrier
+  \(W^n\subset X^{2n}\), apply Thomas' high-power construction, and expect
+  the resulting nodes to split into the same two independent blocks used by
+  B009 and B033 in every dimension.
+- **Valid input:** the nodes are the regular zeros of
+  \(N^*_{W/X}\otimes L^m|_W\), and B033 realizes the two-block package when
+  \(n=2\).
+- **Invalid inference:** the number of blocks is dimension-independent.
+- **Precise obstruction:** B034 proves
+  \[
+  \#Z_m=d\,m^n+O(m^{n-1}),\qquad
+  h^0(W,L^m|_W)=\frac d{n!}m^n+O(m^{n-1}).
+  \]
+  Each independent block has size at most the second quantity. Hence every
+  fixed \(q<n!\), in particular \(q=2\) for \(n\ge3\), is eventually
+  impossible.
+- **Re-entry condition:** either construct unanchored two-block members with
+  fewer nodes, as G014 demands, or prove a multipart local channel and use
+  dimension-scaled Edmonds inequalities.
+
+## NG-032 - Inducting the bipartite local theorem
+
+- **Label:** NO-GO
+- **Route:** for
+  \(\Delta=J_1\sqcup\cdots\sqcup J_q\), repeatedly apply B009 to
+  \(J_1\) and \(J_2\cup\cdots\cup J_q\).
+- **Valid input:** each individual \(J_a\) is independently smoothable.
+- **Invalid inference:** the complement of one block is independently
+  smoothable.
+- **Precise obstruction:** separate independence is not closed under union;
+  in the B034 density regime, a large union must be dependent. Therefore
+  B009's bipartite hypotheses fail before the induction begins.
+- **Re-entry condition:** compute the genuine multipart monodromy and local
+  intersection-cohomology complex, including higher block intersections.
+  This is G015.

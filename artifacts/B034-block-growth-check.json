@@ -1,0 +1,56 @@
+{
+  "exact_formula": "[H^n](1+(k-1)H)^(n+1)/(1+kH)",
+  "asymptotic_node_to_capacity_ratio": "n!",
+  "samples": [
+    {
+      "n": 2,
+      "m": 50,
+      "k": 100,
+      "nodes": 9703,
+      "block_capacity_upper_bound": 5151,
+      "minimum_blocks_lower_bound": 2,
+      "two_blocks_cardinality_impossible": false,
+      "asymptotic_ratio_target": 2
+    },
+    {
+      "n": 3,
+      "m": 5,
+      "k": 10,
+      "nodes": 656,
+      "block_capacity_upper_bound": 286,
+      "minimum_blocks_lower_bound": 3,
+      "two_blocks_cardinality_impossible": true,
+      "asymptotic_ratio_target": 6
+    },
+    {
+      "n": 3,
+      "m": 50,
+      "k": 100,
+      "nodes": 960596,
+      "block_capacity_upper_bound": 176851,
+      "minimum_blocks_lower_bound": 6,
+      "two_blocks_cardinality_impossible": true,
+      "asymptotic_ratio_target": 6
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "k": 6,
+      "nodes": 521,
+      "block_capacity_upper_bound": 210,
+      "minimum_blocks_lower_bound": 3,
+      "two_blocks_cardinality_impossible": true,
+      "asymptotic_ratio_target": 24
+    },
+    {
+      "n": 4,
+      "m": 50,
+      "k": 100,
+      "nodes": 95099005,
+      "block_capacity_upper_bound": 4598126,
+      "minimum_blocks_lower_bound": 21,
+      "two_blocks_cardinality_impossible": true,
+      "asymptotic_ratio_target": 24
+    }
+  ]
+}
