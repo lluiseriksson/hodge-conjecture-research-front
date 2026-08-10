@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 89% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 90% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -150,7 +150,10 @@ Date: 2026-08-10
   branch with the preceding ambiguity-boundary functional and reduces its
   second branch to one comparison square with B058's nonzero pairing. NG072
   prevents deriving boundary annihilation from liftability. G060 is the exact
-  geometric square gate.
+  geometric square gate. B097 proves a quotient-compatible morphism to the
+  constant ambient target forces that square and preserves B058's nonzero
+  pairing. NG073 isolates the unproved descent through both B022 kernels;
+  G061 is the resulting morphism-construction gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -557,8 +560,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   $\lambda(t_\psi)$ with B058's nonzero pairing closes the other branch.
 - NG072 - NO-GO: liftability $\mathrm{can}(t_\psi)=0$ does not imply
   $F\circ d=0$.
-- G060 - EXPLORATORY, active smallest gate: compute $F\circ d$, or in its
+- G060 - EXPLORATORY, pairing-square parent: compute $F\circ d$, or in its
   zero branch prove the quotient- and Hodge-compatible B058 pairing square.
+- B097 - PROVED: a commutative special/nearby square to constant primitive
+  ambient homology forces $F\circ d=0$ and preserves B058's nonzero pairing.
+- NG073 - NO-GO: proper-pushforward naturality before quotient does not
+  automatically realize the detector or descend through both B022 kernels.
+- G061 - EXPLORATORY, active smallest gate: construct the rational
+  quotient-compatible constant-target morphism and prove $q_P(t_\psi)=c$.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

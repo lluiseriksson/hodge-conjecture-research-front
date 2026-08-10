@@ -1375,3 +1375,18 @@
   liftable $t_\psi$ and $F\circ d\ne0$.
 - **Re-entry condition:** G060 must compute $F\circ d$ and invoke the pairing
   square only if that computation vanishes.
+
+## NG-073 - Proper pushforward automatically descends through B022
+
+- **Label:** NO-GO
+- **Route:** invoke functoriality of proper pushforward and nearby cycles to
+  declare the B097 square before constructing the detector coefficient map.
+- **Valid input:** proper pushforward is natural for an already-defined
+  morphism of coefficient objects.
+- **Invalid inference:** the B057 relative class has been realized in that
+  object and the morphism kills both the equator-extension image and the
+  base-locus kernel.
+- **Precise obstruction:** B022/B082 retain nontrivial kernels and only
+  forward maps; functoriality cannot supply an undefined quotient morphism.
+- **Re-entry condition:** G061 must construct the maps, audit both kernels,
+  prove commutativity, and verify the value on $t_\psi$.

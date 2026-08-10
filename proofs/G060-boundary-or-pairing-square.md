@@ -13,7 +13,7 @@ hodge_type: every term restricted to rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B058, B081-B084, B093-B096, G048-G055, G059, NG068-NG072
+dependencies: B009-B010, B022, B058, B081-B084, B093-B097, G048-G055, G059, NG068-NG073
 claim: For the actual collision exact segment W->S->P and canonical detector functional F, prove F composed with d is nonzero, or prove it is zero and construct a quotient- and Hodge-compatible descended pairing square with lambda(t_psi)=<zeta,c> nonzero.
 falsifier: simultaneous vanishing of F composed with d and failure or zero value of every descended pairing square for every admissible collision
 ---
@@ -44,4 +44,6 @@ There are exactly two tasks:
 
 The right side is already nonzero by B058. B096 proves that either completed
 branch closes G059. The unresolved content is the actual topology-changing
-comparison square, not linear algebra.
+comparison square, not linear algebra. B097 shows that G061's
+quotient-compatible constant-target morphism would force the square and close
+this gate.

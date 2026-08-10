@@ -276,7 +276,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G059: dual cokernel/evaluation certificate}
 \Longleftarrow
-\text{G060: ambiguity boundary or pairing square}.
+\text{G060: ambiguity boundary or pairing square}
+\Longleftarrow
+\text{G061: quotient-compatible ambient morphism}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -375,6 +377,11 @@ single identity
 
 NG072 shows liftability does not decide which branch occurs. G060 is the
 current smallest endpoint.
+B097 proves that a commutative special/nearby morphism to the constant
+primitive ambient target forces the zero-boundary branch and the desired
+pairing identity. NG073 blocks invoking raw proper pushforward before the
+B022 kernels and B057 realization are checked. G061 is the current smallest
+endpoint.
 
 An externally claimed shortcut is closed separately:
 

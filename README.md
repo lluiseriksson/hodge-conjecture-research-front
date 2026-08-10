@@ -210,7 +210,12 @@ obligation: either the detector
 functional is nonzero on the preceding ambiguity-boundary map, or it descends
 and a comparison square must identify its value with B058's already nonzero
 ambient pairing. NG072 blocks inferring boundary annihilation from mere
-liftability. G060 is the active gate. The
+liftability. B097's naturality lemma shows exactly what closes G060: a
+special/nearby morphism
+to constant primitive ambient homology that commutes after both B022
+quotients and sends $t_\psi$ to B058's class $c$. NG073 blocks obtaining this
+from a raw proper-pushforward slogan. G061 is the active construction gate.
+The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
@@ -438,6 +443,7 @@ python verification/verify_B093_relation_shift.py
 python verification/verify_B094_affine_lift_criterion.py
 python verification/verify_B095_dual_lift_obstruction.py
 python verification/verify_B096_boundary_pairing_dichotomy.py
+python verification/verify_B097_constant_target_square.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -521,6 +527,8 @@ The B095 check verifies the equivalent dual cokernel/descended-evaluation
 dichotomy.
 The B096 check verifies the ambiguity-boundary/descended-pairing reformulation
 and NG072's separation from liftability.
+The B097 check verifies that a quotient-compatible constant-target square
+annihilates ambiguity and preserves B058's nonzero pairing.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
