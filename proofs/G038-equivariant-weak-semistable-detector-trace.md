@@ -38,7 +38,13 @@ For a projective algebraization of B067's family, prove all of the following:
 
 B069 supplies only the non-equivariant weakly semistable existence theorem. NG047 shows why this is insufficient. No step above is inferred merely from rational coefficients: dividing a defined trace by \(|\Gamma|\) is legitimate, but it does not prove that the relevant class lies in the invariant full-support summand or has nonzero trace.
 
+B070 supplies a smooth finite-group-equivariant **absolute** resolution.
+NG048 shows why composing it with B069 does not establish a smooth weakly
+semistable morphism. G039 now isolates the relative toroidal refinement.
+
 ## Smallest next audit
 
-Audit functorial/equivariant resolution and toroidal alteration theorems for whether they preserve the weakly semistable morphism, not merely the abstract total space. Then formulate the exact trace square on rational MHM objects before making any pairing claim.
-
+Prove G039 by auditing projective equivariant subdivisions of the toroidal
+cone map for preservation of equidimensionality and saturation. Then
+formulate the exact trace square on rational MHM objects before making any
+pairing claim.

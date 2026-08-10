@@ -967,3 +967,18 @@
   full-support pushdown, B022 quotients, or the Saito pairing.
 - **Re-entry condition:** prove the six-part equivariant refinement and trace
   theorem G038.
+
+## NG-048 - Absolute equivariant resolution preserves weak semistability
+
+- **Label:** NO-GO
+- **Route:** apply Temkin's canonical resolution to the total space from
+  B069 and treat the result as a smooth weakly semistable family.
+- **Valid input:** B070 proves that the absolute resolution is projective,
+  regular, and equivariant under a finite group action.
+- **Invalid inference:** the resolved map remains toroidal, equidimensional,
+  saturated, and reduced-fiber and carries the same nearby-cycle detector.
+- **Precise obstruction:** S045 chooses centers from absolute singularities
+  and contains no relative statement about the morphism. These properties
+  can be changed by arbitrary source blowups.
+- **Re-entry condition:** prove G039 through equivariant subdivisions of the
+  toroidal cone/lattice map and then establish the rational MHM trace square.

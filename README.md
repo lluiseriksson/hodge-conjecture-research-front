@@ -105,7 +105,9 @@ double points. NG046 blocks that dimension jump, leaving G037 as the
 dimension-uniform equivariant semistable-descent gate. B069 supplies arbitrary-
 dimensional weak semistability after alteration, but NG047 prevents counting
 it as a smooth equivariant detector descent. G038 is now the trace-and-support
-gate. The
+gate. B070 supplies equivariant absolute desingularization, but NG048 shows
+that it does not preserve weak semistability automatically. G039 isolates the
+required relative toroidal refinement. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

@@ -1182,6 +1182,30 @@ characteristic 0,” *Inventiones Mathematicae* 139 (2000), 241-273;
 - Local retrieval SHA-256:
   `D8EA2413D02D52091B06AAB4581F42628A3678F082C20784C204961FFBBED8D3`.
 
+## S045 - Functorial absolute desingularization
+
+Michael Temkin, “Functorial desingularization of quasi-excellent schemes in
+characteristic zero: the non-embedded case,” *Duke Mathematical Journal* 161
+(2012), 2207-2254; [arXiv:0904.1592](https://arxiv.org/abs/0904.1592),
+[versioned PDF](https://arxiv.org/pdf/0904.1592v2).
+
+- Checked Theorem 1.2.1, pp. 3-4: every noetherian quasi-excellent
+  generically reduced scheme over \(\operatorname{Spec}\mathbf Q\) has a
+  blowup sequence with regular centers, avoiding the original regular locus,
+  with regular output, functorial for all regular morphisms.
+- Checked the definition of functorial desingularization and Lemma 2.3.1,
+  pp. 11-12: pullbacks of the functorial sequence agree for morphisms in the
+  category, with empty blowups inserted compatibly.
+- B070's equivariance is a formal consequence: every finite-group
+  automorphism is an isomorphism, hence a regular morphism, so it preserves
+  the canonical sequence and lifts to the output.
+- Scope guard: this is an absolute desingularization theorem. It does not
+  state that resolution of the source of a weakly semistable morphism
+  preserves toroidality, equidimensionality, saturation/reduced fibers,
+  nearby cycles, or detector trace. NG048 and G039 isolate the relative gap.
+- Local retrieval SHA-256:
+  `0C5E2F27FF35A48D605AB1573B9ACB027B4FD550574855417E643D24336B5CC3`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

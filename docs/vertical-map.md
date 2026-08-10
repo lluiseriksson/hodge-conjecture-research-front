@@ -109,6 +109,14 @@ is now the smallest gate: equivariant refinement, strict MHM comparison,
 full-support identification, and a nonzero rational trace through the B022
 and Saito maps.
 
+B070 closes one part of G038: canonical characteristic-zero resolution is
+equivariant for finite group actions because it is functorial for
+automorphisms. It is only an absolute resolution. NG048 blocks composing it
+naively with B069, since no theorem then preserves toroidality,
+equidimensionality, saturated monoid maps, reduced fibers, or nearby-cycle
+detectors. G039 is the new smallest geometric gate: a projective equivariant
+relative toroidal resolution preserving all those properties.
+
 An externally claimed shortcut is closed separately:
 
 \[

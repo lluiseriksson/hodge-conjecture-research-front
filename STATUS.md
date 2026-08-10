@@ -82,7 +82,9 @@ Date: 2026-08-10
   and NG046 leaves the dimension-uniform extension G037 open. B069 closes
   bare weak-semistable existence in arbitrary dimension, while NG047/G038
   isolate equivariance, smoothness or quotient-MHM control, strict support,
-  and nonzero rational detector trace.
+  and nonzero rational detector trace. B070 supplies equivariant absolute
+  resolution; NG048/G039 isolate the still-missing relative toroidal
+  resolution preserving weak semistability and nearby-cycle data.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -309,9 +311,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   exists after a base alteration and total-space modification.
 - NG047 - NO-GO: weak semistability alone is neither a smooth equivariant
   model nor a detector-compatible rational descent theorem.
-- G038 - EXPLORATORY, active smallest subgate: refine equivariantly, prove
+- G038 - EXPLORATORY parent subgate: refine equivariantly, prove
   MHM strictness and full-support identification, and construct a nonzero
   rational trace through the B022 and Saito maps.
+- B070 - PROVED: functorial characteristic-zero resolution is equivariant
+  under finite group actions.
+- NG048 - NO-GO: absolute equivariant resolution does not automatically
+  preserve a weakly semistable morphism or its detector.
+- G039 - EXPLORATORY, active smallest geometric subgate: construct a
+  projective equivariant toroidal refinement preserving equidimensionality,
+  saturation, reduced fibers, and the rational nearby-cycle trace square.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
