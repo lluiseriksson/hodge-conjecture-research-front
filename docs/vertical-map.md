@@ -100,6 +100,15 @@ points. NG046 blocks the dimension jump: middle-degree hyperplane fibers
 have dimension \(2n-1\), never two, and no audited theorem transports the
 surface resolution and detector pairing through arbitrary suspension.
 
+B069 changes the existence boundary: Abramovich–Karu weak semistable
+reduction works in arbitrary dimension after a projective alteration and
+modification. Thus an all-dimensional toroidal, equidimensional,
+reduced-fiber model exists. It is not automatically smooth, \(S_3\)-
+equivariant, or detector-compatible. NG047 rejects that promotion, and G038
+is now the smallest gate: equivariant refinement, strict MHM comparison,
+full-support identification, and a nonzero rational trace through the B022
+and Saito maps.
+
 An externally claimed shortcut is closed separately:
 
 \[

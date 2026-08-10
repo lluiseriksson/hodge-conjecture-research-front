@@ -952,3 +952,18 @@
 - **Re-entry condition:** prove G037 for every odd fiber dimension, including
   an \(S_3\)-equivariant semistable model, support-by-support rational
   pushdown, and survival of the quotient-level detector pairing.
+
+## NG-047 - Weak semistable reduction closes detector descent
+
+- **Label:** NO-GO
+- **Route:** cite Abramovich–Karu Theorem 0.3 and declare G037 complete.
+- **Valid input:** after a projective base alteration and projective
+  modification, a dimension-uniform weakly semistable model exists.
+- **Invalid inference:** this is a smooth \(S_3\)-equivariant model whose
+  rational detector traces nontrivially to the original family.
+- **Precise obstruction:** S044's definition permits singular total space;
+  the alteration is not identified with the root cover, equivariance is not
+  asserted, and no theorem there identifies rational MHM strictness,
+  full-support pushdown, B022 quotients, or the Saito pairing.
+- **Re-entry condition:** prove the six-part equivariant refinement and trace
+  theorem G038.

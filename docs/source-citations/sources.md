@@ -1151,6 +1151,37 @@ in all characteristics and the integral cohomology of \(G/P\),”
 - Local retrieval SHA-256:
   `5144A5F56FE7CE4BCE841D83B07B471147B88BCF8A254C7626CA346D1FA71DDD`.
 
+## S044 - Weak semistable reduction in arbitrary dimension
+
+Dan Abramovich and Kalle Karu, “Weak semistable reduction in
+characteristic 0,” *Inventiones Mathematicae* 139 (2000), 241-273;
+[arXiv:alg-geom/9707012](https://arxiv.org/abs/alg-geom/9707012),
+[versioned PDF](https://arxiv.org/pdf/alg-geom/9707012v1).
+
+- Checked Definition 0.1, p. 2: weak semistability means toroidal,
+  equidimensional, with reduced fibers and nonsingular base. “Semistable”
+  additionally requires the total space to be nonsingular.
+- Checked Conjecture 0.2, p. 2: in the audited version, obtaining a
+  nonsingular semistable total space by a base alteration and a modification
+  is stated as the stronger goal, not as the main theorem.
+- Checked Theorem 0.3, p. 2: for a surjective morphism of complex projective
+  varieties with geometrically integral generic fiber, there is a projective
+  alteration of the base and a projective modification of the pullback that
+  is weakly semistable.
+- Checked the immediately following scope statement: the theorem does not
+  initially assert the total space smooth; the authors indicate quotient
+  singularities after further work.
+- The introduction's summary of de Jong allows alteration of the total space
+  to obtain a nonsingular semistable model. That is generically finite, not
+  the birational modification required to identify the original detector
+  without a separate trace/descent argument.
+- Scope guard: the theorem is dimension-uniform and projective, but does not
+  specify the \(S_3\) root cover, equivariance, rational MHM strictness,
+  direct-image supports, or preservation of the B022/Saito pairing. B069,
+  NG047, and G038 record these boundaries.
+- Local retrieval SHA-256:
+  `D8EA2413D02D52091B06AAB4581F42628A3678F082C20784C204961FFBBED8D3`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

@@ -41,7 +41,16 @@ Construct a proper algebraic modification, with any finite base change stated ex
 
 B067 proves the root-cover algebra and shows that the raw total space is still singular along three collision sections. B068 supplies simultaneous resolution only for surface rational double points. NG046 proves the dimension mismatch with every hyperplane fiber in the middle-degree reduction.
 
+B069 supplies a dimension-uniform **weakly** semistable model after an
+unspecified alteration and modification. This closes bare toroidal existence,
+but not items 2-5: the total space may be singular, and equivariance, MHM
+strictness, support decomposition, and detector trace are absent. NG047 and
+G038 isolate the remaining bridge.
+
 ## Smallest next obligation
 
-Determine whether an explicit weighted blowup or semistable-reduction theorem applies uniformly to the quadratic suspension, and whether it is functorial under the \(S_3\)-action. A non-equivariant resolution is insufficient because the descent in item 4 would then be undefined on a chosen resolved object.
-
+Determine whether functorial/equivariant resolution and toroidal refinement
+can be combined with B069 while preserving weak semistability. Then construct
+the rational MHM trace square in G038. A non-equivariant abstract resolution
+is insufficient because the descent in item 4 would be undefined on a chosen
+resolved object.

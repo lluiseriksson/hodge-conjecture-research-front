@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 66% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 67% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -79,7 +79,10 @@ Date: 2026-08-10
   G036's total-space semistable model and rational detector descent prior.
   B067 computes the canonical \(S_3\) root cover; B068 verifies the
   simultaneous-resolution theorem only for surface rational double points,
-  and NG046 leaves the dimension-uniform extension G037 open.
+  and NG046 leaves the dimension-uniform extension G037 open. B069 closes
+  bare weak-semistable existence in arbitrary dimension, while NG047/G038
+  isolate equivariance, smoothness or quotient-MHM control, strict support,
+  and nonzero rational detector trace.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -280,7 +283,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   multispecialisability, descend the comparison, and prove pairing survival.
 - B065 - PROVED: three point blowups resolve the A2 cusp to an SNC divisor
   with exceptional multiplicities \((2,3,6)\) and a trivalent last component.
-- G035 - EXPLORATORY, active smallest subgate: prove chartwise
+- G035 - EXPLORATORY parent subgate: prove chartwise
   \((F,V_1,V_2)\)-compatibility for the resolved family Hodge module, glue,
   and push down the detector.
 - NG044 - NO-GO: S042's quasi-ordinary cusp result is one-coordinate when the
@@ -289,7 +292,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   over the E3 and E2 sections, while generic E1 is smooth.
 - NG045 - NO-GO: resolving the base discriminant alone does not produce a
   smooth or semistable total family.
-- G036 - EXPLORATORY, active smallest subgate: build a proper semistable
+- G036 - EXPLORATORY parent subgate: build a proper semistable
   total-space model, label pushdown supports, and preserve the rational
   quotient-level detector pairing.
 - B067 - PROVED: the A2 ordered-root map is a degree-six S3 cover, pulls the
@@ -299,9 +302,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   surface A2 rational double points.
 - NG046 - NO-GO: that surface theorem does not cover the odd-dimensional
   suspended A2 fibers arising in the middle-degree Hodge reduction.
-- G037 - EXPLORATORY, active smallest subgate: construct an S3-equivariant
+- G037 - EXPLORATORY parent subgate: construct an S3-equivariant
   semistable model uniformly in odd fiber dimension and descend the rational
   full-support detector pairing.
+- B069 - PROVED: arbitrary-dimensional projective weak semistable reduction
+  exists after a base alteration and total-space modification.
+- NG047 - NO-GO: weak semistability alone is neither a smooth equivariant
+  model nor a detector-compatible rational descent theorem.
+- G038 - EXPLORATORY, active smallest subgate: refine equivariantly, prove
+  MHM strictness and full-support identification, and construct a nonzero
+  rational trace through the B022 and Saito maps.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
