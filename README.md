@@ -58,13 +58,14 @@ brick carries the metadata required by [docs/brick-schema.md](docs/brick-schema.
 standard rational Hodge Conjecture
   <=> universal middle-degree cycle construction                [B001, PROVED]
   <= anchor access + variational algebraicity along Hodge loci  [G001/G002, OPEN]
-  <= dominance of a relative Chow/Hilbert component             [G002, OPEN]
+  <= smooth anchor + surjective Hilbert tangent map              [B002 criterion; G003, OPEN]
 ```
 
-The current narrow unresolved gate is **G002**: turn a Hodge-locus component
-with one algebraic anchor into a component of the relative cycle space that
-dominates the Hodge locus. Cattani-Deligne-Kaplan proves algebraicity of the
-Hodge locus, not this dominance. The failed inference is recorded as NG-001.
+The current narrow unresolved gate is **G003**: for an anchored middle Hodge
+class, find a cycle representative whose relative Hilbert component is smooth
+at the anchor and whose tangent map surjects onto the Hodge locus. B002 proves
+that these concrete conditions force cycle-space dominance. No theorem makes
+them universal. The failed CDK-only inference is recorded as NG-001.
 
 ## Repository map
 
@@ -92,4 +93,3 @@ The verifier checks the required directory topology, result labels, metadata
 keys on proof bricks, ledger identifiers, and the explicit non-claim banner.
 A green check certifies repository consistency only; it is not evidence for
 the conjecture.
-

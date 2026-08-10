@@ -14,7 +14,7 @@ cycle_class_map: relative codimension-m Chow cycles to fiberwise H^{2m}(-,Q(m))
 cycle_equivalence: rational equivalence on fibers
 scope: relative and fiberwise
 dependencies: existence of an algebraic anchor; dominance of a relative Chow/Hilbert component
-claim: If a relative cycle component with the prescribed class dominates the Hodge locus after generically finite base change, the class is algebraic on every fiber reached by that base change.
+claim: If a relative cycle component with the prescribed class dominates the Hodge locus after surjective proper base change, the class is algebraic on every fiber reached by that base change.
 falsifier: a fiber over the dominated locus at which specialization/refined pullback of the relative cycle lacks the prescribed Betti class
 ---
 
@@ -23,7 +23,7 @@ falsifier: a fiber over the dominated locus at which specialization/refined pull
 ## Conditional theorem
 
 Let \(f:\mathcal Y\to T\) and \(\widetilde\alpha\) be as in the metadata. Assume
-there is a generically finite surjective map \(T'\to T\) and a relative
+there is a surjective proper map \(T'\to T\) and a relative
 codimension-\(m\) rational cycle \(\mathcal Z\) on
 \(\mathcal Y\times_T T'\) whose fiberwise Betti class equals the pullback of
 \(\widetilde\alpha\). Then every fiber class covered by \(T'\to T\) is
@@ -41,4 +41,3 @@ compatibility of the cycle-class map.
 
 Therefore the conditional theorem is valid, but its decisive dominance
 hypothesis is not proved. The invalid CDK-only route is NG-001.
-

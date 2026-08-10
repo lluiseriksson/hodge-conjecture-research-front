@@ -17,9 +17,9 @@ AA   every middle class reaches an algebraic anchor in its Hodge locus
  +
 CD   an anchored Hodge-locus component is dominated by a relative cycle space
  ^
- | RC0 (PROVED once dominance is explicitly assumed)
+ | B002 (PROVED local deformation criterion)
  |
-relative cycle with fixed Betti class over a dominating base change
+smooth Hilbert point + tangent surjectivity at an anchor
 ```
 
 ## Terminal sufficient theorem
@@ -39,7 +39,7 @@ cycle on \(X\).
 projective family of relative dimension \(2m\), and let \(\alpha\) be a flat
 rational section of \(R^{2m}f_*\mathbf Q\) of type \((m,m)\) at every point of
 connected \(T\). If \(\alpha_{t_0}\) is algebraic at one point, then after a
-generically finite base change \(T'\to T\), some relative rational cycle has
+surjective proper base change \(T'\to T\), some relative rational cycle has
 fiberwise Betti class \(\alpha\).
 
 This is falsifiable: a family and anchored flat class for which every relevant
@@ -56,7 +56,8 @@ component.
    anchor - **invalid**. A point on a countable union of cycle loci gives no
    dominance, and the Hodge locus may be larger than every cycle component.
 
-Step 3 is NG-001. The next justified work is to seek additional geometric
-hypotheses forcing deformation-obstruction vanishing for the anchor cycle and
-then audit whether those hypotheses can ever be universal.
-
+Step 3 is NG-001. B002 now proves a precise replacement: smoothness of the
+relative Hilbert scheme at the anchor plus surjectivity of its tangent map to
+the Hodge locus forces dominance. G003 asks whether a representative with
+those properties exists universally. Bloch semiregularity is a mechanism to
+audit, but assuming it automatically is NG-004.

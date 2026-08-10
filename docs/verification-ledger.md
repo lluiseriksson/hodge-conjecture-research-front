@@ -7,9 +7,12 @@
 | K001 | \(p=1\), \(p=n-1\), and \(n\le3\) cases | PROVED | Lefschetz (1,1), hard Lefschetz | primary-source audit can be expanded |
 | B001 | universal HC iff universal middle HC | PROVED | `proofs/B001-middle-degree-reduction.md` | proof-assistant formalization absent |
 | RC0 | a dominating relative cycle with fixed class gives fiberwise algebraicity | PROVED | functoriality/proper base change; encoded in G002 attempt | family singularities/base change must stay explicit |
+| B002 | smooth Hilbert point plus tangent surjectivity forces component dominance and fiberwise cycles | PROVED | `proofs/B002-hilbert-dominance-criterion.md` | exact formalization absent |
 | G001 | every middle class has an algebraic anchor in a connected Hodge locus | EXPLORATORY | no proof | may be as hard as HC |
 | G002 | anchored Hodge locus is dominated by relative cycle space | CONDITIONAL | sufficient theorem formulated; proof only when dominance is assumed | dominance is the open content |
+| G003 | every anchored class has a B002-good cycle representative | EXPLORATORY | no proof; semiregularity source seeded | likely fails without strong lci/obstruction hypotheses |
 | NG-001 | CDK algebraicity alone implies G002 | NO-GO | logical audit in `no-go-ledger.md` | none; route requires a new input |
+| NG-004 | Bloch semiregularity is automatic for arbitrary anchor cycles | NO-GO | hypothesis audit in `no-go-ledger.md` | exact positive scope still needs deep source audit |
 
 ## Promotion rule
 
@@ -17,4 +20,3 @@ A claim moves to `PROVED` only when all dependencies are theorems with matching
 fields, coefficients, cohomology, and scope. It moves to `FORMALLY VERIFIED`
 only with a reproducible kernel-checked theorem and no project-local axiom for
 the decisive content.
-

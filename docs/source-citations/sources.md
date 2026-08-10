@@ -152,6 +152,27 @@ Sergei G. Tankeev, “Cycles on simple Abelian varieties of prime dimension,”
 - Scope guard: not all abelian varieties, not arbitrary varieties, and not a
   global reduction mechanism.
 
+## S014 - Relative Hilbert schemes
+
+Alexander Grothendieck, “Techniques de construction et theoremes d'existence
+en geometrie algebrique IV: les schemas de Hilbert,” *Seminaire Bourbaki*,
+Expose 221 (1961), 249-276.
+[NUMDAM article](https://numdam.org/book-part/SB_1960-1961__6__249_0/)
+
+- Seeded use: representability and projectivity/properness of the relative
+  Hilbert scheme for a projective family and fixed Hilbert polynomial.
+- Does not prove: smoothness of the Hilbert scheme at an arbitrary cycle, or
+  dominance over a Hodge locus.
+
+## S015 - Intersection-theoretic functoriality
+
+William Fulton, *Intersection Theory*, 2nd ed., Springer, 1998.
+[Publisher record](https://doi.org/10.1007/978-1-4612-1700-8)
+
+- Seeded use: proper pushforward, refined Gysin maps for regular embeddings,
+  rational equivalence, and compatibility used in B001/G002.
+- Does not prove: surjectivity of a cycle-class map for an arbitrary variety.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

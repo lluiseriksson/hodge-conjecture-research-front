@@ -13,7 +13,7 @@ hodge_type: (p,p), shifted to middle type (N/2,N/2)
 cycle_class_map: CH^p(X)_Q -> H^{2p}(X^an,Q(p))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: projective bundle Kunneth formula; functoriality of Chow pullback/pushforward and Betti cycle classes
+dependencies: projective bundle Kunneth formula; functoriality of Chow pullback/pushforward and Betti cycle classes (S015)
 claim: Universal rational HC is equivalent to universal middle-degree rational HC.
 falsifier: a failure of either projective-space construction to return the original Betti class under the stated Chow operation
 ---
@@ -84,4 +84,3 @@ on every \(X\) is algebraic. QED.
 - MHC remains universal over all even-dimensional smooth projective varieties,
   including the products constructed here; this is a reduction in degree, not
   a claim that a special-family case suffices.
-

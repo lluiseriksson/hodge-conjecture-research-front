@@ -45,3 +45,18 @@
 - **Re-entry condition:** a verified lifting theorem for the actual cycle or a
   relative cycle-space component dominating the mixed-characteristic base.
 
+## NG-004 - Semiregularity is not a universal free input
+
+- **Label:** NO-GO
+- **Route:** choose any anchor cycle and invoke semiregularity to conclude that
+  it deforms along the entire Hodge locus.
+- **Precise obstruction:** semiregularity theorems have geometric hypotheses
+  on the embedded cycle and control specified obstruction maps. An arbitrary
+  rational cycle may be reducible, singular, non-lci, or obstructed, and no
+  theorem currently supplies a semiregular representative for every algebraic
+  cohomology class. Before the anchor is found, invoking a representative is
+  circular; after an anchor is found, semiregularity still is not automatic.
+- **Re-entry condition:** a page/theorem-level audit proving the exact
+  deformation implication for a class of representatives, followed by an
+  independent theorem that every required anchor class has such a
+  representative.
