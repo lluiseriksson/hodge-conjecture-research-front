@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B058, B063, B071-B073, G040, NG050
+dependencies: B022, B058, B063, B071-B074, G040, G042, NG050-NG051
 claim: The full-support nearby-cycle detector associated with the B058 non-equator tube has a nonzero S3-invariant projection whose trace survives both B022 quotients and has nonzero Saito pairing with the prescribed Hodge class.
 falsifier: the full-support representation contains no trivial constituent, the average lies in an equator or base-locus kernel, or the traced class is orthogonal to the prescribed Hodge class
 ---
@@ -39,21 +39,22 @@ specified primitive rational Hodge class.
 
 ## Current obstruction
 
-B072 supplies the stack MHM and nearby-cycle operations, but not the
-representation carried by \(M_{\mathrm{fs}}\). B073/NG050 prove that the
-local \(A_2\) root-lattice constituent contributes no invariants. Therefore
-any positive result must identify an additional trivial constituent coming
-from the global thimble-extension or boundary/full-support data and must
-track it through both quotients.
+B072 supplies the stack MHM and nearby-cycle operations. B074 proves that the
+full-support pushdown contains a canonical invariant intermediate-extension
+summand recovering the original local system. B073/NG050 prove that the
+local \(A_2\) root-lattice constituent contributes no invariants, and NG051
+shows that existence of the invariant object does not force the candidate
+class to land in it. Therefore the remaining issue is class-level landing.
 
 ## Smallest next calculation
 
-Construct the \(S_3\)-character of the full-support summand in the explicit
-root-covered plane-net model, separating:
+Prove G042 by constructing the equivariant boundary vector of the B057-B058
+non-equator thimble chain and separating:
 
 1. the local \(A_2\) standard constituent;
 2. global thimble-extension classes;
 3. equator-extension and base-locus kernels; and
 4. the target primitive ambient representation.
 
-Then test the trivial-isotypic multiplicity and the restricted Saito pairing.
+Then test its projection to B074's known trivial summand and the restricted
+Saito pairing.

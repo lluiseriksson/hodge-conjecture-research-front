@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 69% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 70% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -90,7 +90,10 @@ Date: 2026-08-10
   quotient, and nonzero-pairing obligations. B072 supplies the stack MHM,
   six-operation, nearby-cycle, and proper-pushdown formalism. B073/NG050 show
   that the local A2 standard representation has zero normalized trace, so
-  G041 must find an invariant global full-support constituent.
+  G041 must find an invariant global full-support constituent. B074 proves
+  that the original intermediate extension is present as an invariant
+  object-level summand; NG051/G042 isolate the still-missing class-level
+  landing after both B022 quotients.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -342,9 +345,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   S3 representation, with zero invariant subspace and zero average projector.
 - NG050 - NO-GO: normalized averaging of a nonzero local A2 vanishing class
   cannot produce a descended detector.
-- G041 - EXPLORATORY, active smallest representation subgate: locate a
-  nonzero trivial constituent in the global full-support detector outside
-  both B022 kernels and retain the prescribed Saito pairing.
+- B074 - PROVED: finite-Galois pushdown followed by rational invariants
+  recovers the original intermediate-extension object.
+- NG051 - NO-GO: existence of that trivial summand does not force the
+  specified boundary class to project nontrivially to it.
+- G041 - EXPLORATORY parent representation subgate: prove nonzero invariant
+  full-support detector trace.
+- G042 - EXPLORATORY, active smallest class-level subgate: compute the
+  six-sheet boundary of the non-equator thimble and prove its invariant
+  projection survives both B022 kernels and the prescribed Saito pairing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

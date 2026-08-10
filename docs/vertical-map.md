@@ -157,6 +157,24 @@ normalized trace is zero. Any positive G041 proof must obtain a trivial
 constituent from global thimble-extension or other full-support data, not
 from a single local vanishing root.
 
+B074 now proves that such a trivial **object-level** constituent is present:
+finite-Galois pushdown followed by rational invariants recovers the original
+intermediate extension. NG051 blocks the next automatic inference, since a
+candidate class may still lie wholly in the standard constituent. Hence the
+new smallest arrow is
+
+\[
+\text{G041}
+\Longleftarrow
+\text{equivariant boundary-class landing G042}
+\Longleftarrow
+\text{six-sheet B057 thimble boundary computation}.
+\]
+
+G042 must show that the actual non-equator class, not merely the ambient
+object, has nonzero projection to B074's invariant summand after both B022
+kernels and before the prescribed pairing.
+
 An externally claimed shortcut is closed separately:
 
 \[

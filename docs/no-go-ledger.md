@@ -1015,3 +1015,18 @@
 - **Re-entry condition:** prove G041 by locating a trivial constituent in the
   larger global full-support nearby-cycle object and tracking it through both
   B022 quotients and the prescribed pairing.
+
+## NG-051 - A trivial full-support summand forces nonzero trace
+
+- **Label:** NO-GO
+- **Route:** use B074's canonical invariant intermediate-extension summand to
+  infer that any nonzero lifted boundary detector projects nontrivially to it.
+- **Valid input:** finite-Galois intermediate-extension pushdown does contain
+  the original full-support object as its rational invariant direct summand.
+- **Invalid inference:** a specified nonzero vector has a nonzero component
+  in that summand.
+- **Precise obstruction:** in (mathbf1\oplus V_{\rm std}), the trivial
+  summand exists but all vectors in (V_{\rm std}) average to zero. B073
+  identifies (V_{\rm std}) as the local A2 root constituent.
+- **Re-entry condition:** compute the actual equivariant boundary image and
+  its two quotient projections as G042 requires.
