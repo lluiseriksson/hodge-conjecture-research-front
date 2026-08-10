@@ -154,10 +154,15 @@ collision boundary class has a nonzero full-support component in that grade
 and retains the prescribed pairing. B082/NG059 then expose a logically prior
 directionality gate: B022 maps local relations toward ambient homology, but
 B058's ambient class does not canonically map back to a collision stalk.
-G047 is therefore the active smallest gate: construct an algebraic
-chain-level collision lift of the B057 extension chain, obtain its rational
-special boundary class, and preserve nonzero pairing through both B022
-quotients. Only then can G046 analyze its perverse grade. The
+G047 is therefore the governing collision gate: construct an algebraic
+chain-level collision lift of the B057 extension chain, obtain a rational
+special-stalk lift, and preserve nonzero pairing through both B022
+quotients. B083/NG060 correct the direction of that comparison: the
+canonical arrow is special-to-nearby, so the B057 nearby class lifts exactly
+when its vanishing-cycle obstruction vanishes, with a further lift
+ambiguity. G048 is the active exact subgate: construct the nearby class,
+kill that obstruction, and choose a pairing-compatible rational special
+lift. Only then can G046 analyze its perverse grade. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

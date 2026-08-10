@@ -13,7 +13,7 @@ hodge_type: the target component must be rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B058, B071-B082, G043-G045, G047, NG053-NG059
+dependencies: B057-B058, B071-B083, G043-G045, G047-G048, NG053-NG060
 claim: The G047 collision boundary class has nonzero canonical associated-graded component in E_infinity^(-1,0), and its strict-support projection inside pH^0(K) to the full-support summand is nonzero and retains the prescribed pairing.
 falsifier: the class lies entirely in the point-support grade E_infinity^(0,-1), lies in divisor support inside E_infinity^(-1,0), or its full-support grade is orthogonal to the prescribed Hodge class
 ---
@@ -24,8 +24,8 @@ falsifier: the class lies entirely in the point-support grade E_infinity^(0,-1),
 **Parent gates:** G043 / G045
 
 Let $K=f_*\mathbf Q_{\mathcal Y}[2n+1]$ and let
-$\beta=\partial_0(\widetilde t)\in H^{-1}(i_p^*K)$ be the boundary class
-constructed by G047 from the B057 extension chain.
+$\beta\in H^{-1}(i_p^*K)$ be the special-stalk lift constructed by G048
+from the B057 nearby class.
 Use the canonical perverse filtration, not a chosen decomposition of $K$.
 
 The falsifiable target is:

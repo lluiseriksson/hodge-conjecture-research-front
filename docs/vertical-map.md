@@ -254,7 +254,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G046: nonzero full-support part of }E_\infty^{-1,0}
 \Longleftarrow
-\text{G047: construct the B057 chain-to-stalk collision lift}.
+\text{G047: construct the B057 chain-to-stalk collision lift}
+\Longleftarrow
+\text{G048: }\mathrm{can}(t_\psi)=0\text{ and choose a special lift}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -269,10 +271,13 @@ B082/NG059 make the final leftward arrow mandatory. B022 supplies
 \]
 
 not a reverse map from B058's ambient target $c$ to a local stalk. G047 must
-construct a collision family and a relative B057 extension-chain class
-$\widetilde t$ before its special boundary $\beta$ can enter B081's
-perverse filtration. Exact recovery of $c$ is unnecessary; preservation of
-nonzero pairing is the minimal obligation by B059.
+construct a collision family and realize the B057 extension chain as a
+nearby class $t_\psi$. B083/NG060 correct the arrow direction: the natural map
+is $i^*K\to\Psi K$, so the nearby B057 class must lie in the kernel of the
+canonical map to shifted vanishing cycles before a special lift $\beta$
+exists and can enter B081's perverse filtration.
+Exact recovery of $c$ is unnecessary; preservation of nonzero pairing is
+the minimal obligation by B059.
 
 An externally claimed shortcut is closed separately:
 

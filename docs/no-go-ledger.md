@@ -1173,6 +1173,23 @@
   reverse lifts nonunique, and a fixed collision relation space need not
   contain any lift of $c$. No collision family carrying the B057 chain has
   yet been constructed.
-- **Re-entry condition:** prove G047 by constructing the topology-changing
-  family and a relative extension-chain class, then apply the family-specific
-  boundary map and test the resulting $\beta$ in G046.
+- **Re-entry condition:** prove G047-G048 by constructing the
+  topology-changing family and nearby extension-chain class, killing its
+  vanishing-cycle obstruction, and testing a special lift $\beta$ in G046.
+
+## NG-060 - Nearby cycles canonically map back to the special stalk
+
+- **Label:** NO-GO
+- **Route:** after choosing a collision family, regard every nearby B057
+  detector class as having a canonical special-stalk value.
+- **Valid input:** nearby and vanishing cycles are defined functorially, and
+  B083 gives their distinguished triangle.
+- **Invalid inference:** the triangle provides an unconditional reverse map
+  $\Psi_fK\to i^*K$ selecting a lift.
+- **Precise obstruction:** the natural arrow is $i^*K\to\Psi_fK$. Exactness
+  says a nearby class $t_\psi$ lifts only if
+  $\mathrm{can}(t_\psi)=0$ in $\Phi_fK[1]$; when it lifts, the preceding
+  term can make the lift nonunique.
+- **Re-entry condition:** prove G048 by constructing the specified nearby
+  class, computing and killing its vanishing-cycle obstruction, and
+  controlling the lift ambiguity under both B022 quotients and the pairing.

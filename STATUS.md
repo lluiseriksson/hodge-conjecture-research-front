@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 77% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 78% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -116,7 +116,10 @@ Date: 2026-08-10
   itself define a collision-stalk class: all audited B022 arrows point from
   local/thimble data toward ambient homology. G047 is now prior to G046 and
   asks for the missing chain-level collision lift and rational special
-  boundary class.
+  boundary class. B083/NG060 identify the exact direction and obstruction:
+  $i^*K\to\Psi K$ is canonical, while a B057 nearby class has a
+  special-stalk lift precisely when its image in shifted vanishing cycles is
+  zero. G048 is the resulting kernel-and-lift gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -425,9 +428,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   collision-stalk lift.
 - NG059 - NO-GO: the notation $\operatorname{sp}(c)$ is undefined without a
   collision family and a relative chain class lifting the B057 detector.
-- G047 - EXPLORATORY, active smallest gate: construct that chain-level
-  algebraic collision lift, its rational special boundary class, and its
+- G047 - EXPLORATORY, governing collision gate: construct that chain-level
+  algebraic collision lift, its rational special-stalk class, and its
   pairing-compatible passage through both B022 quotients.
+- B083 - PROVED: the nearby/vanishing-cycle triangle makes special-to-nearby
+  canonical; nearby-to-special is a lift problem with obstruction
+  $\mathrm{can}(t_\psi)$ and possible nonuniqueness.
+- NG060 - NO-GO: a collision family does not canonically send every nearby
+  detector class back to the special stalk.
+- G048 - EXPLORATORY, active smallest exact subgate: realize the B057 chain
+  as $t_\psi$, prove $\mathrm{can}(t_\psi)=0$, and choose a rational
+  pairing-compatible special lift.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

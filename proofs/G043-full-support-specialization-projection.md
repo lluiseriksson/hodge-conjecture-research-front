@@ -13,8 +13,8 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B058, B063, B071-B082, G032, G042, NG053-NG059
-claim: A G047 collision lift of the B058 non-equator extension chain has a special boundary class with nonzero canonical perverse associated-graded component whose strict-support projection inside pH^0 to full support is nonzero before the two B022 quotient tests and remains paired nontrivially with the prescribed Hodge class.
+dependencies: B057-B058, B063, B071-B083, G032, G042, NG053-NG060
+claim: A G047-G048 collision lift of the B058 non-equator extension chain has a special-stalk class with nonzero canonical perverse associated-graded component whose strict-support projection inside pH^0 to full support is nonzero before the two B022 quotient tests and remains paired nontrivially with the prescribed Hodge class.
 falsifier: specialization zero, confinement to the point-support perverse grade, confinement to divisor support inside pH^0, or orthogonality of the full-support graded class
 ---
 
@@ -25,8 +25,8 @@ falsifier: specialization zero, confinement to the point-support perverse grade,
 
 ## Falsifiable theorem target
 
-Let $\beta=\partial_0(\widetilde t)$ be the special boundary of the
-chain-level collision lift required by G047. B082/NG059 show that $\beta$
+Let $\beta$ be the special-stalk lift required by G047-G048.
+B082/NG059 show that $\beta$
 cannot be defined directly from the ambient B058 class $c$. B081/NG058 show
 that a total derived projection supplied by a
 chosen decomposition-theorem splitting is not canonical. Replace it by
@@ -58,7 +58,7 @@ primitive rational Hodge class.
 
 ## Smallest next calculation
 
-First prove G047, which constructs the special stalk class. Then prove G046
+First prove G047-G048, which construct the special stalk class. Then prove G046
 by computing its two canonical perverse-filtration edge components. The
 point term is the separate
 \(E_\infty^{0,-1}\) grade; only the divisor term shares

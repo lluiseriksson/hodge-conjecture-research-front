@@ -887,6 +887,12 @@ American Mathematical Society* 46 (2009), 535-633,
   perverse truncation induces a canonical perverse filtration on cohomology.
   B081 therefore moves the B058 class test to an associated-graded perverse
   piece before projecting by strict support.
+- Checked Section 5.5, Remark 5.5.1, triangle (39), and Theorem 5.5.3: the
+  natural arrow is $i^*K\to\Psi_fK$, followed by the canonical arrow to the
+  shifted vanishing-cycle term. The stalk long exact sequence makes a nearby
+  class liftable from the special stalk exactly when its canonical
+  vanishing-cycle obstruction is zero. It supplies no unconditional or
+  preferred reverse lift. B083/G048 use precisely this criterion.
 - Coefficient guard: the displayed de Cataldo-Migliorini theorem is stated
   for the constant source sheaf. B039 does not extrapolate it to arbitrary
   coefficients. Instead, it proves the necessary perverse stalk/costalk
