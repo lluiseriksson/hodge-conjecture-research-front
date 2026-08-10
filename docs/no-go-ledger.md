@@ -699,3 +699,23 @@
   intermediate-extension quiver for the Picard-Lefschetz representation,
   isolate the downstairs IC summand, and compare its rational degree-one
   group and Hodge type with the five-cycle relation kernel.
+
+## NG-034 - Complex arrangement quiver as a Hodge-type proof
+
+- **Label:** NO-GO
+- **Route:** compute the \(U_{2,5}\) intermediate extension with S035's
+  arrangement face algebra and infer the rational type-\((0,0)\) statement
+  required by G015.
+- **Valid input:** Bapat's Definition 4.3 and Corollary 5.8 identify the
+  complex perverse IC extension as the image of induction in coinduction.
+- **Invalid inference:** this complex-linear module calculation preserves a
+  rational lattice, weight filtration, or Hodge filtration.
+- **Precise obstruction:** S035 defines its face algebra over \(\mathbf C\)
+  and proves an equivalence of complex perverse-sheaf categories. No
+  mixed-Hodge-module enhancement or comparison with Saito's rational
+  type-\((0,0)\) class is supplied. The missing information is invisible to
+  the cited category.
+- **Re-entry condition:** after computing B037's rational transgression,
+  construct the corresponding rational mixed Hodge module or compare it
+  directly with Saito's local class, including the Tate twist, weights, and
+  Hodge filtration.

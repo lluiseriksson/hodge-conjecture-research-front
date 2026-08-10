@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 63% - independent Git repository, mandatory topology,
+- **Infrastructure:** 64% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 41% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 42% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -45,7 +45,8 @@ Date: 2026-08-10
   exceptional \(\mathbf P^1\), and isolates the remaining global IC-gluing
   calculation. B036 proves that the five crossing cokernels overcount the
   relation space by exactly the vanishing-cycle span rank and identifies the
-  only possible global differential up to target isomorphism. None is
+  only possible global differential up to target isomorphism. B037 locates
+  it as the sole exceptional hypercohomology transgression. None is
   proof-assistant formalized, and the
   multipart local-channel gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -139,6 +140,10 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B036 - PROVED: the five resolved crossing cokernels form \(\mathbf Q^5\);
   recovering the relation kernel requires exactly the canonical quotient
   \(e_i\mapsto\delta_i\), whose derivation from the IC module remains open.
+- B037 - PROVED: the resolved exceptional degree-one group is the kernel of
+  the unique transgression
+  \(d_2:\mathbf Q^5\to H^2(\mathbf P^1,\ker N_E)\); its residue value is the
+  current smallest topological gate.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.
@@ -214,6 +219,9 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG-033 - NO-GO: crossingwise Koszul calculations on the resolution do not
   compute the original IC stalk; the exceptional \(\mathbf P^1\)
   hypercohomology and downstairs summand must be computed globally.
+- NG-034 - NO-GO: S035's complex face algebra alone cannot prove the
+  rational type-\((0,0)\) comparison because it carries no mixed-Hodge-module
+  data.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

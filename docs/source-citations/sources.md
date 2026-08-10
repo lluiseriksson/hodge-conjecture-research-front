@@ -724,6 +724,11 @@ arrangements,” [arXiv:1810.13126](https://arxiv.org/abs/1810.13126).
   from induction \(Re\otimes_{eRe}M\) to coinduction
   \(\operatorname{Hom}_{eRe}(eR,M)\); Corollary 5.8 identifies that module
   with the IC extension of the corresponding open-stratum local system.
+- Rechecked Bapat Section 2.2: the algebra \(R_0\) is explicitly generated
+  freely over \(\mathbf C\), and the subsequent equivalence is stated for
+  complex perverse sheaves. No weight or Hodge filtration appears. NG-034
+  therefore forbids using this source alone for G015's rational
+  type-\((0,0)\) comparison.
 - These are candidate tools for G015 because the node-smoothing parameters
   define a central hyperplane arrangement and the required object is an
   intermediate extension. B036 now fixes the target calculation for

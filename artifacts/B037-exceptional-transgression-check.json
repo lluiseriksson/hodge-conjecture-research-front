@@ -1,0 +1,16 @@
+{
+  "exceptional_curve": "P1",
+  "cohomology_sheaves": {
+    "H0": "constant K=ker(N_E)",
+    "H1": "five rank-one skyscrapers"
+  },
+  "only_total_degree_one_differential": "d2: Q^5 -> H^2(P1,K)=K",
+  "cases": [
+    {"cycle_span_rank": 1, "E2_0_1_dimension": 5, "required_d2_rank": 1, "H1_if_d2_is_cycle_map": 4, "relation_dimension": 4},
+    {"cycle_span_rank": 2, "E2_0_1_dimension": 5, "required_d2_rank": 2, "H1_if_d2_is_cycle_map": 3, "relation_dimension": 3},
+    {"cycle_span_rank": 3, "E2_0_1_dimension": 5, "required_d2_rank": 3, "H1_if_d2_is_cycle_map": 2, "relation_dimension": 2},
+    {"cycle_span_rank": 4, "E2_0_1_dimension": 5, "required_d2_rank": 4, "H1_if_d2_is_cycle_map": 1, "relation_dimension": 1},
+    {"cycle_span_rank": 5, "E2_0_1_dimension": 5, "required_d2_rank": 5, "H1_if_d2_is_cycle_map": 0, "relation_dimension": 0}
+  ],
+  "scope": "spectral-sequence dimension bookkeeping only"
+}

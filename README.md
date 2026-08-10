@@ -174,6 +174,11 @@ B036 determines the exact missing rank: the five crossing cokernels form
 \(e_i\mapsto\delta_i\). The active task is to derive this canonical gluing
 map from the actual arrangement intermediate extension and verify its Hodge
 type, not to infer it from the desired answer.
+B037 identifies the map as the only possible spectral-sequence
+transgression \(d_2:\mathbf Q^5\to H^2(\mathbf P^1,\ker N_E)\). Its residue
+class has not been computed. NG-034 separately prevents a complex
+face-quiver answer from being counted as the required rational
+type-\((0,0)\) comparison.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -220,6 +225,7 @@ python verification/verify_B033_high_power_diagonal.py
 python verification/verify_B034_block_growth.py
 python verification/verify_B035_multipart_arrangement.py
 python verification/verify_B036_exceptional_gluing_rank.py
+python verification/verify_B037_exceptional_transgression.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -233,6 +239,7 @@ exact higher-dimensional diagonal Chern counts and block-capacity lower
 bounds. The B035 check verifies the finite \(U_{2,r}\) block numbers and the
 exceptional-star incidence graph. The B036 check verifies the exact
 Picard-Lefschetz ranks for all possible five-cycle span dimensions. Green
-checks certify consistency and those
+The B037 check audits the resulting two-row spectral-sequence dimensions.
+Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

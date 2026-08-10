@@ -56,6 +56,7 @@ boundary, not an induction mechanism.
 | multipart quasi-local channel | G015 asks whether B009's relation-kernel identification survives q separately independent blocks | the bipartite source theorem cannot be iterated when unions of blocks are dependent |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | the IC/quiver construction has not yet been shown to produce this differential or its required Hodge type |
+| exceptional transgression | B037 proves that the resolved degree-one group is the kernel of the sole d_2:Q^5 -> H^2(P^1,ker N_E) | the residue class d_2(e_i)=delta_i, the downstairs IC summand, and rational type (0,0) remain open |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -237,6 +238,10 @@ B036 further identifies the missing map: the five crossing generators must
 map to their five vanishing cycles. The remaining proof obligation is to
 derive that differential from the intermediate-extension quiver and then
 audit its rational type \((0,0)\).
+B037 locates that differential as the unique hypercohomology transgression
+from the five skyscraper groups to \(H^2(\mathbf P^1,\ker N_E)\). NG-034
+separates the subsequent Hodge problem: the complex arrangement quiver does
+not retain the rational mixed-Hodge data needed by B010.
 B029/NG-026 further require isolated first-jet realizability and exclude the
 first line-supported positive-defect construction. B030 proves the three
 geometric conditions are compatible in a plane-containing quintic, while

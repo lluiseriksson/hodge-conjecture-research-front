@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009, B028, B034-B036, G012-G014, and Green-Griffiths S021
+dependencies: B009, B028, B034-B037, G012-G014, and Green-Griffiths S021
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -121,6 +121,25 @@ has to be the vanishing-cycle map \(e_i\mapsto\delta_i\). What remains is no
 longer a dimension guess: derive this map from the Bapat
 induction-to-coinduction intermediate-extension module (S035), then compare
 its rational mixed-Hodge structure with B010.
+
+## Attempt 4 - Locate the exceptional Postnikov class
+
+B037 computes the cohomology sheaves of the resolved complex on
+\(E\simeq\mathbf P^1\): the constant sheaf
+\(K=\ker N_E\) in degree zero and five rank-one skyscrapers in degree one.
+Therefore
+
+\[
+ \mathbb H^1(E,\mathcal B_E^\bullet)
+ =\ker\!\left(d_2:\mathbf Q^5\to H^2(E,K)\simeq K\right).
+\]
+
+The topological subgate is now the residue calculation
+\(d_2(e_i)=\delta_i\). Even if this is proved, B035's downstairs IC-summand
+identification remains. In addition, S035's face algebra is formulated over
+\(\mathbf C\) and carries no mixed-Hodge-module structure, so the quiver
+calculation alone cannot establish rationality or type \((0,0)\). This
+separate mismatch is NG-034.
 
 ## Propagation
 

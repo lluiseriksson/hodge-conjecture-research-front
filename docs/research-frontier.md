@@ -36,6 +36,18 @@ up to target isomorphism. The active calculation is to derive that map from
 the arrangement intermediate-extension module, not merely postulate the
 kernel demanded by G015.
 
+B037 locates the map as the sole transgression
+
+\[
+ d_2:\mathbf Q^5\to H^2(\mathbf P^1,\ker N_E)\simeq\ker N_E
+\]
+
+in the exceptional hypercohomology spectral sequence. The resolved
+contribution is the relation kernel precisely if this transgression is the
+vanishing-cycle map followed by an injection of its span. NG-034 records a
+separate type obstruction: S035's complex face algebra can compute the
+perverse extension but cannot by itself prove rational type \((0,0)\).
+
 ## Sufficient parent: G014
 
 For each smooth projective complex variety in the middle-degree reduction,
@@ -80,9 +92,8 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Instantiate S035's induction-to-coinduction intermediate-extension module
-   for B035's \(U_{2,5}\) arrangement and prove that its exceptional gluing
-   differential is B036's canonical map \(e_i\mapsto\delta_i\).
+1. Compute B037's Postnikov/residue transgression and prove
+   \(d_2(e_i)=\delta_i\) with a common orientation convention.
 2. Verify the rational limit-MHS and Saito comparison for that multipart
    channel; a dimension equality alone is insufficient.
 3. If G015 holds, replace the two-block constraint by Edmonds'
