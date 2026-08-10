@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; the sought local relation has type (0,0) afte
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B008, B010-B013, B015, and B019-B023
+dependencies: B008, B010-B013, B015, and B019-B024
 claim: Every nonzero primitive rational Hodge class detected by a global Schnell tube is also detected by a type-(0,0) Saito relation concentrated at one singular hyperplane member.
 falsifier: a polarized smooth projective 2n-fold and primitive rational Hodge class with a nonzero global tube detector but orthogonal to every Saito local relation class for every singular member of every polarization power
 ---
@@ -108,6 +108,26 @@ boundary map (whose kernel is nonzero) with the rank-two cusp boundary map
 (whose kernel is zero). Any viable collision must change the
 complex non-invertibly or introduce additional vanishing directions; this is
 NG-020.
+
+## Complete-intersection checkpoint
+
+B024 proves that for a smooth projective complete intersection, every
+nonzero primitive class has a nonzero detector already at the final
+quotient level \(\mathcal T(Y)/K\simeq PH_n(X)\). Thus the global thimble
+construction and both quotient nonvanishing tests can be passed in that
+special setting.
+
+The remaining arrow is still exactly the open one:
+
+\[
+ \text{nonzero global quotient-level thimble detector}
+ \dashrightarrow
+ \text{one-fiber type-}(0,0)\text{ Saito detector}.
+\]
+
+B024 gives no concentration, Hodge-type, or algebraicity theorem, and its
+complete-intersection scope has no proved reduction from arbitrary smooth
+projective varieties. Promoting the topological surjection to HC is NG-021.
 
 ## Re-entry condition
 

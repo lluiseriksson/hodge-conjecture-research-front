@@ -40,9 +40,12 @@ Immediate bricks:
 10. Require a non-invertible topology-changing comparison. B023/NG-020 show
     that Hurwitz moves inside a fixed fibration preserve the relation kernel
     and cannot close the matching/cusp gap.
-11. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+11. Use B024 as a positive source-side checkpoint for complete intersections:
+    global quotient-level thimble detectors exist, but NG-021 forbids
+    counting them as local or algebraic.
+12. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-12. Keep the semiregularity gate G004 as an independent secondary route.
+13. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -65,6 +68,9 @@ intersection-one pair is independent rather than relational. B021/NG-018
 add a rank obstruction to the direct matching-pair-to-cusp specialization.
 B022/NG-019 identify the two quotient kernels between a thimble relation and
 ambient homology. B023/NG-020 exclude pure Hurwitz basis change as a repair.
+B024/NG-021 show that complete-intersection primitive homology is globally
+detected by the quotiented thimble group without providing local Hodge
+detectors or algebraicity.
 G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

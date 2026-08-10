@@ -192,6 +192,18 @@ must preserve a nonzero class after both arrows. B023 proves that pure
 Hurwitz moves cannot supply the missing non-invertible step: within a fixed
 fibration they preserve boundary rank and relation-kernel dimension.
 
+For smooth projective complete intersections, B024 uses the exact sequence
+
+\[
+ 0\to K\to\mathcal T(Y)\to PH_n(X)\to0
+\]
+
+to show that every nonzero primitive cohomology class has a nonzero global
+quotient-level thimble detector. This verifies the source of the proposed
+collision in that special setting. It does not localize the detector, give it
+Saito type \((0,0)\), make it algebraic, or reduce arbitrary varieties to
+complete intersections.
+
 The parent gate G008 remains: starting from the already nonzero global class
 \(s(\zeta)\), construct a discriminant point \(p\) with
 
@@ -241,9 +253,12 @@ the B015 independent-node locus for a spanning set, it would close G009.
 8. Repair the mismatch by Hurwitz moves alone - **invariance error**. B023
    shows that invertible moves in a fixed fibration preserve the relation
    kernel.
+9. Use complete-intersection thimble surjectivity as algebraicity -
+   **category error**. B024 generates primitive homology topologically, not
+   local Hodge detectors or algebraic cycles.
 
 Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018;
-steps 7-8 are NG-019 and NG-020.
+steps 7-8 are NG-019 and NG-020; step 9 is NG-021.
 Inferring a nonzero local class merely from global
 nonvanishing or a generic slice is NG-011. The open construction must create
 a higher discriminant stratum and verify the specialization through Saito's

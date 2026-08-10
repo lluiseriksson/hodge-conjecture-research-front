@@ -511,6 +511,11 @@ Computation* 93 (2024), 2985-3025.
   \(\mathcal T(Y)\). The two exact sequences then identify a further kernel
   \(K=\ker(H_{n-2}(X')\to H_{n-2}(X_b))\) before projection to ambient
   middle homology modulo the reference-fiber image.
+- Checked p. 10, equation (19) and Theorem 4: for a smooth projective
+  complete intersection, the second exact sequence becomes
+  \(0\to K\to\mathcal T(Y)\to PH_n(X)\to0\), and the middle homology of the
+  blowup splits noncanonically into the thimble, reference-fiber, and
+  lower-fiber summands.
 - Scope guard: these are exact topological statements despite the paper's
   computational goal. Numerical period calculations are not used as
   evidence of algebraicity. The theorem is for generic pencils in the

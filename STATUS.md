@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 48% - independent Git repository, mandatory topology,
+- **Infrastructure:** 49% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 24% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 25% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -22,7 +22,8 @@ Date: 2026-08-10
   obstruction to a class-by-class matching-to-cusp comparison in the audited
   surface setting; B022 identifies the equator-extension and base-locus
   quotients before ambient homology; B023 proves Hurwitz kernel invariance.
-  None is proof-assistant formalized, and the
+  B024 proves complete-intersection global thimble detection. None is
+  proof-assistant formalized, and the
   independent-node generation gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
@@ -77,6 +78,9 @@ generation from the controlled independent-node locus is not proved.**
   kernel.
 - B023 - PROVED: Hurwitz moves in a fixed exact Morse fibration preserve
   boundary rank and relation-kernel dimension.
+- B024 - PROVED: for a smooth projective complete intersection, the
+  quotiented thimble group supplies a nonzero global detector for every
+  nonzero primitive class; it is not local or algebraic.
 - G009 - EXPLORATORY, active: prove detector generation using all
   independent-node members across high powers.
 - G008 - EXPLORATORY parent gate: force a class with nonzero global invariant
@@ -111,6 +115,8 @@ generation from the controlled independent-node locus is not proved.**
   homology and is not automatically a detector.
 - NG-020 - NO-GO: invertible Hurwitz moves cannot repair the matching/cusp
   relation-rank mismatch.
+- NG-021 - NO-GO: complete-intersection thimble surjectivity is topological
+  generation, not algebraicity or a local Saito detector theorem.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

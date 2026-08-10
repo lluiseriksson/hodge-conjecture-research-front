@@ -42,6 +42,7 @@ boundary, not an induction mechanism.
 | matching-to-cusp collision | B021 compares the two audited local lattices in the projective-surface setting | a class-by-class comparison is rank-incompatible; with B023, any viable bridge needs topology change, extra cycles, or later ambient-quotient preservation |
 | thimble reconstruction | B022 gives a relative thimble basis, its vanishing-cycle boundary, and the exact quotients leading to ambient homology for generic hypersurface pencils | a relation may die as an equator extension or in the base-locus kernel before it becomes an ambient detector |
 | Hurwitz equivalence | B023 shows distinguished bases in a fixed exact Morse fibration are related by invertible moves preserving boundary rank and relation-kernel dimension | cannot model a topology-changing collision or repair the matching/cusp rank mismatch |
+| complete-intersection thimble detection | B024 lifts a nonzero detector for every primitive class through the surjection from the quotiented thimble group | special-family global topology only; no one-fiber Saito class, algebraic cycle, or general reduction follows |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -120,6 +121,9 @@ boundary, not an induction mechanism.
 23. **Hurwitz-repair fallacy:** an invertible change of distinguished basis
     preserves boundary rank and relation-kernel dimension. It cannot replace
     the non-invertible topology change required by collision.
+24. **Topological-generation fallacy:** surjectivity from a thimble quotient
+    to primitive homology produces global topological classes, not algebraic
+    cycles or rational type-\((0,0)\) relations at one singular fiber.
 
 ## Open universal core
 
@@ -159,3 +163,5 @@ collision theorem preserving the detector class and rational Hodge type.
 B022 specifies that the preserved datum must be nonzero after the
 equator-extension and base-locus quotients. B023 shows that pure Hurwitz
 mutation cannot supply the required topology change.
+B024 verifies global quotient-level detection for complete intersections,
+but NG-021 prevents treating this special topological generation as HC.

@@ -75,6 +75,17 @@ where
 
 comes from the pencil base locus.
 
+When \(X\) is a smooth projective complete intersection, the reference-fiber
+image is precisely the nonprimitive linear-section summand. Equation (19) of
+the cited paper therefore reads
+
+\[
+ 0\to K\to\mathcal T(Y)\to PH_n(X)\to0.
+\]
+
+Thus \(\mathcal T(Y)\) surjects onto primitive middle homology, while its
+kernel is still the base-locus contribution \(K\).
+
 ## Consequence for G007
 
 There are two independent ways for a thimble relation to fail as an ambient
@@ -97,4 +108,3 @@ smooth projective hypersurfaces. It is not a cycle-construction theorem and
 does not prove that a surviving ambient class is Hodge or algebraic. It is
 used here as an auditable model of the data any proposed general
 specialization must control.
-

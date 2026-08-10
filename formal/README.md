@@ -123,6 +123,13 @@ geometric assertion that Hurwitz moves yield the required isomorphisms
 remains an imported theorem. A topology-changing collision must have a
 different, explicitly non-invertible interface.
 
+B024 is another finite-dimensional consequence once the imported exact
+sequence \(\mathcal T(Y)\twoheadrightarrow PH_n(X)\) is exposed: a nonzero
+functional on primitive homology pulls back to a nonzero functional on the
+thimble quotient. The formal conclusion type must remain “global topological
+detector”; it cannot be coerced to an algebraic cycle or local Saito
+detector.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

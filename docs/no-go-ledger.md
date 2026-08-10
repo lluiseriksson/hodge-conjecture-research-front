@@ -417,3 +417,28 @@
   map or add further vanishing directions, then compute the induced
   non-invertible map on the full quotiented thimble complex. Calling that
   operation a Hurwitz move is insufficient.
+
+## NG-021 - Global thimble generation is not algebraicity
+
+- **Label:** NO-GO
+- **Route:** use the surjection
+  \(\mathcal T(Y)\twoheadrightarrow PH_n(X)\) for a smooth projective
+  complete intersection and conclude that primitive Hodge classes are
+  algebraic or already have local normal-function singularities.
+- **Valid input:** B024 proves that every nonzero primitive cohomology class
+  pairs nontrivially with the ambient image of some global quotiented
+  thimble class.
+- **Invalid inference:** the thimble image is represented by an algebraic
+  cycle, or the global thimble combination is a rational type-\((0,0)\)
+  relation at one singular hyperplane.
+- **Precise obstruction:** the surjection reconstructs singular homology
+  topologically. It carries no algebraic-cycle-class assertion and combines
+  thimbles over multiple critical values. B010 requires a one-fiber Saito
+  relation with the correct Hodge type and pairing. The complete-intersection
+  hypothesis is also a special family with no reduction from arbitrary
+  smooth projective varieties.
+- **Re-entry condition:** construct a class-preserving algebraic collision
+  from the chosen quotient-level thimble detector to one independent-node
+  Saito relation, then prove its type \((0,0)\), nonzero pairing, and a
+  mechanism reducing arbitrary smooth projective varieties if global scope
+  is claimed.

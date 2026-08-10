@@ -29,6 +29,7 @@
 | B021 | a class-by-class preserving specialization cannot send a rank-at-most-one matching pair to Schnell's rank-two cusp pair | PROVED | B019-B020 and the rank argument in proofs/B021-matching-cusp-rank-obstruction.md | with B023, only topology change, extra cycles, or later ambient-quotient comparison remain |
 | B022 | a zero-boundary thimble combination reaches ambient homology only after quotienting equator extensions and the base-locus kernel | PROVED | Lairez-Pichon-Pharabod-Vanhove Lemma 1 and Theorem 2; proofs/B022-thimble-quotient-ambient-class.md | audited for generic pencils on smooth projective hypersurfaces; no Hodge-type conclusion |
 | B023 | Hurwitz moves in a fixed exact Morse fibration preserve boundary rank and relation-kernel dimension | PROVED | Seidel Definition 2.1 plus the commutative boundary-map argument in proofs/B023-hurwitz-kernel-invariance.md | does not cover non-invertible topology change at a collision |
+| B024 | every nonzero primitive class on a smooth complete intersection has a nonzero global detector lifted from the quotiented thimble group | PROVED | B022, equation (19), and primitive pairing nondegeneracy; proofs/B024-complete-intersection-thimble-detection.md | special complete-intersection topology only; detector is neither local nor algebraic |
 | G001 | every middle class has an algebraic anchor in a connected Hodge locus | EXPLORATORY | no proof | may be as hard as HC |
 | G002 | anchored Hodge locus is dominated by relative cycle space | CONDITIONAL | sufficient theorem formulated; proof only when dominance is assumed | dominance is the open content |
 | G003 | every anchored class has a B002-good cycle representative | EXPLORATORY | no proof; semiregularity source seeded | likely fails without strong lci/obstruction hypotheses |
@@ -56,6 +57,7 @@
 | NG-018 | collide a matching pair through the cusp model while preserving the two individual cycle classes | NO-GO | B021 and G009 attempt 7 | source span has rank at most one while the cusp pair spans rank two |
 | NG-019 | a nonzero thimble relation is automatically a nonzero ambient detector class | NO-GO | B022 and the two quotient kernels in its exact sequences | must survive equator-extension and base-locus quotients before Hodge type and pairing are tested |
 | NG-020 | Hurwitz or braid basis change alone repairs the matching/cusp relation-rank mismatch | NO-GO | B023 and Seidel Definition 2.1 | invertible changes preserve boundary rank and kernel dimension; a topology-changing comparison is required |
+| NG-021 | thimble surjectivity onto primitive homology proves algebraicity or the Hodge Conjecture | NO-GO | B024 and its scope guard | the lift is a global topological cycle, not an algebraic cycle or one-fiber type-(0,0) relation |
 
 ## Promotion rule
 

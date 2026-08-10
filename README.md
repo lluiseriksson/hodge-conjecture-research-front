@@ -98,6 +98,9 @@ B022 then identifies the exact two quotients separating a zero-boundary
 thimble combination from ambient homology, and B023 proves that invertible
 Hurwitz changes in a fixed fibration cannot repair the relation-rank
 mismatch.
+B024 supplies a positive checkpoint for smooth complete intersections: the
+quotiented thimble group detects every primitive class globally. This remains
+topological and special-family only.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -113,7 +116,8 @@ class while producing a rational type-\((0,0)\) relation on one
 independent-node member. The comparison must be computed on the full
 specialization complex rather than imposed cycle by cycle, and the class
 must survive both the equator-extension quotient and the pencil base-locus
-kernel.
+kernel. Complete-intersection surjectivity verifies that global source in one
+special setting, but the local class-preserving collision remains open.
 The anchored G001/G004 route remains open as an independent secondary route.
 
 ## Repository map

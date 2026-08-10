@@ -13,7 +13,7 @@ hodge_type: primitive type (0,0) after Tate twist; only type-(0,0) Saito relatio
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B010, B015-B023; boundary attempt audited in S026, matching paths in S027, and thimble/Hurwitz models in S028-S029
+dependencies: B010, B015-B024; boundary attempt audited in S026, matching paths in S027, and thimble/Hurwitz models in S028-S029
 claim: The rational span of Saito detector classes from all independent-node hyperplane members in all sufficiently high powers equals the primitive rational Hodge homology of X.
 falsifier: a polarized smooth projective 2n-fold with a nonzero primitive rational Hodge cohomology class orthogonal to every Saito detector class arising from every independent-node member in every sufficiently high power
 ---
@@ -158,6 +158,19 @@ The surviving target is consequently a morphism of the **quotiented**
 thimble complexes that carries a class nontrivially through
 \(\mathcal T(Y)/K\), then identifies it with a rational type-\((0,0)\) local
 Saito class. No audited collision theorem supplies this map.
+
+## Attempt 9 - Use complete-intersection thimble surjectivity
+
+B024 proves that the quotiented thimble group surjects onto primitive middle
+homology for smooth projective complete intersections, and hence supplies a
+global detector for every nonzero primitive class in that special setting.
+This verifies the source side of the proposed quotient-level collision.
+
+It does not show that any basis of the detector space comes from
+independent-node Saito classes, and it supplies no reduction from arbitrary
+smooth projective varieties to complete intersections. The step from global
+topological thimble generation to local Hodge detector generation remains
+G009 itself. Counting the surjection as algebraicity is NG-021.
 
 ## Re-entry condition
 
