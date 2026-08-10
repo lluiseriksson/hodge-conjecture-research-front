@@ -242,7 +242,12 @@ retraction is already global and identifies the relevant relative groups;
 NG079 removes a second collapse-gluing construction as redundant. G067 is
 the active minimal gate: realize the distributed detector in the single
 nearby-fiber pair $(Y_c,Z_c)$ with the canonical marked boundary and ambient
-value $c$.
+value $c$. B104 then reduces the required comparison to one
+lift-independent obstruction coset in a collision total-space pair. NG080
+closes a full map on every distributed thimble as unnecessary. G068 is the
+active minimal gate: construct that pair for the selected detector and prove
+the relative-bordism obstruction coset vanishes, with compatible ambient
+realization.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -479,6 +484,7 @@ python verification/verify_B100_relative_lift_independence.py
 python verification/verify_B101_marked_boundary_naturality.py
 python verification/verify_B102_local_collapse_scope.py
 python verification/verify_B103_good_retraction_scope.py
+python verification/verify_B104_bordism_obstruction_coset.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -580,6 +586,9 @@ primary-source vanishing-polyhedron theorem, not the finite model.
 The B103/NG079 check separates the already-global Saito good retraction from
 the still-missing map that realizes a distributed detector in one nearby
 relative pair.
+The B104/NG080 check verifies lift-independence and exact vanishing of the
+relative-bordism obstruction coset in a finite model; the general result is
+the relative-chain argument in B104.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

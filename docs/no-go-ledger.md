@@ -1480,3 +1480,18 @@
   chain into those groups.
 - **Re-entry condition:** G067 must construct the preceding collision-induced
   single-fiber realization and prove its marked boundary and ambient value.
+
+## NG-080 - A full map on the distributed thimble complex is required
+
+- **Label:** NO-GO
+- **Route:** construct a natural chain map from every distributed thimble to
+  the Saito nearby-fiber relative complex before comparing the chosen class.
+- **Valid input:** such a map would send the selected detector to a target
+  relative cycle and would be sufficient.
+- **Invalid inference:** it is necessary for the terminal class-specific
+  comparison.
+- **Precise obstruction:** B104 shows the selected detector only requires one
+  target lift to be relatively bordant to it. The exact invariant is a
+  difference coset modulo the absolute nearby-fiber lift ambiguity.
+- **Re-entry condition:** G068 must construct the collision total-space pair,
+  prove that coset vanishes, and verify the ambient realization.

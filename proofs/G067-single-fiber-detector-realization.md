@@ -13,7 +13,7 @@ hodge_type: the resulting local relation and primitive ambient class must be rat
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B081-B083, B093-B103, G047-G063, NG069-NG079, S022, S049-S050
+dependencies: B022, B057-B058, B081-B083, B093-B104, G047-G063, G068, NG069-NG080, S022, S049-S050
 claim: Construct from the actual topology-changing collision a chain map that sends the specified B057 distributed thimble representative to gamma_t in H_(2n)(Y_c,Z_c;Z), sends its marked boundary to r_H(beta_sp), and makes Saito's good-retraction ambient realization of gamma_t equal B098's class c after extension to Q and primitive projection.
 falsifier: no single-fiber realization, wrong marked boundary or orientation, failure of integrality/rationality, death in a B022 kernel, or mismatch of the two primitive ambient values
 ---
@@ -51,3 +51,8 @@ This is narrower than G066: no second construction of the local/exterior
 collapse is needed. It is stronger than an abstract map on homology because
 the marked boundary and the closed ambient realization must arise from the
 same collision-induced chain map.
+
+B104/NG080 show that even this full chain map is stronger than necessary.
+G068 retains the minimal class-specific content: construct one collision
+pair and kill the detector's lift-independent relative-bordism obstruction
+coset.

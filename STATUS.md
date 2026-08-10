@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 88% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 96% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 97% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -169,7 +169,10 @@ Date: 2026-08-10
   still-missing localization of the distributed detector and gluing to the
   exterior family. B103 proves Saito's good retraction already performs the
   global gluing and identifies the relative groups; NG079/G067 reduce the
-  active gate to the single-fiber realization of the distributed chain.
+  gate to the single-fiber realization of the distributed chain. B104 proves
+  one class-specific relative bordism is enough and packages its exact
+  lift-independent obstruction coset; NG080/G068 remove the unnecessary
+  full-complex map.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -630,10 +633,18 @@ generation from the controlled partitioned nodal locus is not proved.**
   relative groups used for the ambient class.
 - NG079 - NO-GO: after fixing that good retraction, separately rebuilding and
   gluing local collapse maps is not the remaining detector obstruction.
-- G067 - EXPLORATORY, active smallest gate: construct the collision-induced
+- G067 - EXPLORATORY, full-map parent: construct the collision-induced
   chain map from the distributed B057 thimble complex into
   $C_*(Y_c,Z_c)$, with canonical marked boundary and primitive ambient value
   $c$.
+- B104 - PROVED: for a fixed detector and local boundary, the difference
+  with a Saito lift defines a lift-independent coset modulo absolute
+  nearby-fiber ambiguity; it vanishes exactly when a relative bordism exists.
+- NG080 - NO-GO: a chain map on the entire distributed thimble complex is
+  sufficient but unnecessary for the selected detector.
+- G068 - EXPLORATORY, active smallest gate: construct the collision pair,
+  define and kill B104's obstruction coset for the selected detector, and
+  make its ambient realization restrict to B098 and Saito.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

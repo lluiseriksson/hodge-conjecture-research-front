@@ -290,7 +290,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G066: detector localization and collapse gluing}
 \Longleftarrow
-\text{G067: single-fiber detector realization}.
+\text{G067: single-fiber detector realization}
+\Longleftarrow
+\text{G068: selected-detector bordism obstruction}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -426,6 +428,12 @@ the relative groups. NG079 closes a second local/exterior gluing construction
 as unnecessary. G067 is the current smallest endpoint: map the distributed
 B057 chain into $H_{2n}(Y_c,Z_c)$ and prove its marked boundary and primitive
 ambient value simultaneously.
+B104 shows a map on the whole distributed complex is unnecessary: for one
+detector and local relation, the exact obstruction is the difference class
+in the collision pair modulo the image of absolute nearby-fiber homology.
+NG080 closes the full-map requirement. G068 is the current smallest endpoint:
+construct the collision pair and prove this lift-independent obstruction
+coset vanishes with compatible ambient realization.
 
 An externally claimed shortcut is closed separately:
 
