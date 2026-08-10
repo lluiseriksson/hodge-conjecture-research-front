@@ -33,6 +33,6 @@ space may map into the orthogonal complement of the prescribed Hodge class.
 B008 also shows why replacing the target by a generic smooth-discriminant
 point cannot help.
 
-The re-entry condition is G053: construct a local boundary detector in the
-B089 disk and prove its B022 ambient image retains nonzero prescribed
-pairing.
+B090/NG066 prove that the positive total local boundary is not a viable
+re-entry. G054 must instead retain the nonlocal B058 word and prove that its
+special value in the B089 disk has nonzero prescribed pairing.

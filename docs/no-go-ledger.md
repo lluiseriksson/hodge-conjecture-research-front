@@ -1271,5 +1271,20 @@
   whose B022 ambient image equals, or merely pairs as, the B058 detector.
 - **Precise obstruction:** the two loop-fixed pairs are unrelated; the local
   relation image may be zero after B022 or orthogonal to the prescribed class.
-- **Re-entry condition:** prove G053 by constructing the local fixed class and
-  checking both quotient maps and its nonzero prescribed pairing.
+- **Re-entry condition:** B090/NG066 exclude the positive total boundary;
+  G054 must retain the nonlocal word and check its specialization, both
+  quotient maps, and nonzero prescribed pairing.
+
+## NG-066 - The positive total local boundary carries the detector
+
+- **Label:** NO-GO
+- **Route:** choose a class fixed by the positive boundary of B089's local
+  nodal disk and use its B057 extension as the local detector.
+- **Valid input:** the boundary factors into commuting positive
+  Picard-Lefschetz meridians and a fixed class gives a formal relation.
+- **Invalid inference:** that relation can have nonzero coefficients.
+- **Precise obstruction:** B090 pairs the fixedness relation with the input
+  class and obtains $\sum_i c_i^2=0$, hence every rational coefficient and
+  the full ordered thimble extension vanish.
+- **Re-entry condition:** G054 must retain a nonlocal distributed detector
+  word and prove its nonzero specialization to the local relation channel.

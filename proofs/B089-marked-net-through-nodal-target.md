@@ -68,6 +68,6 @@ $\alpha_H$ fixed by $g_H$.
 B089 constructs the marked collision geometry only after $H$ and a local
 detector class are supplied. It does not turn the arbitrary global B058
 pair $(g,\alpha)$ into $(g_H,\alpha_H)$ or preserve its prescribed Hodge
-pairing. NG065 closes that inference; G053 is the class-specific localization
-gate. The disk must also remain a proper local cluster inside the global net:
+pairing. NG065 closes that inference; B090/NG066 also close the positive
+total-boundary replacement. The disk must remain a proper local cluster inside the global net:
 B089 does not prove that its extension survives either B022 quotient.

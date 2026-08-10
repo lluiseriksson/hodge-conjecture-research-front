@@ -268,7 +268,7 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G052: marked Hurwitz collision fixing }(g,\alpha)
 \Longleftarrow
-\text{G053: class-specific marked local detector}.
+\text{G054: nonlocal detector word to local relation}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -317,9 +317,12 @@ chain and gives $Nt=0$. NG064 blocks obtaining these marked conditions from
 rank invariance alone. B089 proves that, once an independent-node target is
 given, a general plane through it and a fixed smooth reference fiber supplies
 the required marked boundary-loop geometry. NG065 blocks identifying that
-local loop with the unrelated B058 detector. G053 is therefore the smallest
-current endpoint: it must construct a local fixed class whose extension
-survives both B022 quotients and retains nonzero prescribed pairing.
+local loop with the unrelated B058 detector. B090 then proves that the
+apparently minimal replacement G053 is impossible: if a class is fixed by
+the positive total local boundary, its B057 coefficient vector is zero.
+G054 is therefore the smallest current endpoint. It must retain the nonlocal
+B058 distributed word and specialize it to a nonzero local relation while
+preserving both quotients, rational type, and nonzero prescribed pairing.
 
 An externally claimed shortcut is closed separately:
 
