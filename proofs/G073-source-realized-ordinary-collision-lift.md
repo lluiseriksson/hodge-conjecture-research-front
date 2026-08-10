@@ -13,7 +13,7 @@ hodge_type: the source class, nearby class, ordinary lift, and ambient image rat
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B081-B084, B088-B091, B110-B111, G047-G055, NG059-NG067, NG080, NG086-NG087, S023
+dependencies: B022, B057-B059, B081-B084, B088-B091, B110-B112, G047-G055, G074, NG059-NG067, NG080, NG086-NG088, S023
 claim: Construct an actual class-specific collision certificate carrying the selected B057 distributed class t to a nearby class t_psi in the proper IC model, prove can(t_psi)=0 and choose a rational ordinary lift s, and prove the induced ambient image still pairs nontrivially with the prescribed zeta through both B022 quotients; no map on unrelated distributed classes is required.
 falsifier: no collision-certified realization of the selected class, t_psi outside ker(can), loss in either B022 quotient, wrong rational Hodge type, or zero prescribed pairing for every admissible topology-changing comparison
 ---
@@ -60,9 +60,10 @@ typing gap were supplied, B091 proves that the pure-Hurwitz positive
 local-boundary realization of the nonzero B058 detector is zero. The route
 therefore loses the required detector channel.
 
-This failed attempt is NG086. The next admissible construction must compute
-the genuinely topology-changing excess map isolated in G055; it cannot be a
-pure change of Hurwitz basis.
+This failed attempt is NG086. B112/NG088 show that even equality of every
+marked boundary does not determine the missing excess class. G074 is the
+current subgate: construct and compute the selected topology-changing excess
+isolated in G055; it cannot be a pure change of Hurwitz basis.
 
 ## Propagation
 

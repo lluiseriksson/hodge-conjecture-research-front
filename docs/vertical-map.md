@@ -284,6 +284,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G073: source-realized ordinary collision lift}
 \Longleftarrow
+\text{G074: selected topology-changing excess class}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -312,7 +314,9 @@ off-diagonal extension. B110/NG086 correct the dependency order: G073 must
 first construct an actual collision-certified realization of the selected
 detector as a nearby class in $\operatorname{im}u$ while retaining its
 nonzero pairing. B111/NG087 remove the stronger demand for a map on all
-distributed classes. Only then is G072's quotient class defined. B106 proves
+distributed classes. B112/NG088 then show that a common fully marked boundary
+defines an excess cycle but does not determine its homology class. G074 must
+construct and evaluate that selected excess. Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
 terminal pairing condition.
@@ -471,9 +475,10 @@ ambient B058 quotient, even with exact recovery, does not determine a nearby
 class or ordinary lift, and a pure-Hurwitz comparison kills the positive
 local detector by B091. B111/NG087 further reduce the source obligation to a
 certificate for the selected detector; no global map on the thimble complex
-is necessary. G073 is the current smallest endpoint: construct that
-class-specific topology-changing realization, prove ordinary liftability,
-and retain the prescribed pairing. G072 is the next filtered calculation once that
+is necessary. G073 is the exact source-realization parent. B112/NG088
+identify G074 as its smallest subgate: compute the actual selected excess
+rather than infer it from the marked boundary, then prove ordinary
+liftability and retain the prescribed pairing. G072 is the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.
 

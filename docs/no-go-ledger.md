@@ -1626,3 +1626,21 @@
   realization of the selected class, not a global map; it must still prove
   ordinary liftability, rational type, both quotient survivals, and nonzero
   prescribed pairing.
+
+## NG-088 - The marked boundary determines the excess
+
+- **Label:** NO-GO
+- **Route:** construct the same marked local boundary for the actual selected
+  collision chain and the pure-Hurwitz reference, then infer the desired
+  nonzero topology-changing correction.
+- **Valid input:** equal boundaries make the difference a cycle in the
+  relative target complex.
+- **Invalid inference:** the boundary determines the homology class of that
+  cycle, its Hodge type, quotient image, or pairing.
+- **Precise obstruction:** in B112's exact model, $a$ and $a+\lambda z$ have
+  the same boundary for every rational $\lambda$, while the excess is the
+  arbitrary class $\lambda[z]$.
+- **Re-entry condition:** G074 must construct the actual selected collision
+  chain and compute its excess against the Hurwitz reference, including
+  ordinary liftability, rational type, both B022 quotients, and nonzero
+  prescribed pairing.

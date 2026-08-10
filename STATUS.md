@@ -703,7 +703,7 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG086 - NO-GO: neither B058's ambient detector nor a Hurwitz-fixed word
   automatically supplies an ordinarily liftable nearby class; the
   pure-Hurwitz positive local detector also vanishes by B091.
-- G073 - EXPLORATORY, active smallest gate: construct the actual
+- G073 - EXPLORATORY parent: construct the actual
   class-specific topology-changing realization certificate, prove
   $\operatorname{can}(t_\psi)=0$, choose a rational ordinary lift, and retain
   nonzero prescribed pairing through both B022 quotients. G072 is the next
@@ -712,6 +712,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   B104 confirms that one detector-specific comparison suffices downstream.
 - NG087 - NO-GO: a map on the entire distributed thimble complex is useful
   but is not necessary for G073's class-specific vertical chain.
+- B112 - PROVED: two selected chains with one marked boundary define an
+  excess cycle, but that boundary permits every excess homology class.
+- NG088 - NO-GO: marked boundary equality cannot supply nonvanishing, Hodge
+  type, B022 survival, or the prescribed pairing of the excess.
+- G074 - EXPLORATORY, active smallest gate: construct the actual selected
+  topology-changing chain and compute its excess over the pure-Hurwitz
+  reference with ordinary liftability, rational type, both quotient
+  survivals, and nonzero prescribed pairing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

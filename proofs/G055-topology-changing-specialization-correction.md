@@ -59,3 +59,9 @@ B102 proves that isolated target singularities separately admit local
 vanishing-polyhedron collapses. NG078 shows this does not construct
 $\operatorname{sp}_C$: the distributed detector must first be localized and
 the local maps glued to the exterior family. G066 isolates that realization.
+
+B111/NG087 later remove the need to construct $\operatorname{sp}_C$ on the
+entire distributed complex for the terminal class-specific argument. B112
+defines the selected excess from two chains with the same marked boundary,
+and G074 is the resulting minimal selected-class subgate. G055 remains a
+useful stronger natural-map mechanism.

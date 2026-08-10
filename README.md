@@ -269,9 +269,13 @@ the ambient B058 class nor a Hurwitz-fixed word constructs an ordinarily
 liftable nearby class, and the pure-Hurwitz positive local realization is
 zero by B091. B111/NG087 remove a remaining overconstraint: the selected
 detector needs a collision-certified realization, but no map on every
-distributed thimble class is necessary. G073 is the active smallest gate:
-construct that class-specific topology-changing certificate, prove ordinary
-liftability, and preserve the nonzero prescribed pairing through both B022 quotients. G072 follows by
+distributed thimble class is necessary. B112/NG088 then isolate its selected
+excess cycle and prove that even a fully marked common boundary leaves its
+homology class arbitrary. G074 is the active smallest gate: construct the
+actual selected topology-changing chain, compute its excess over the
+pure-Hurwitz reference, prove ordinary liftability, and preserve the nonzero
+prescribed pairing through both B022 quotients. G073 then closes the source
+certificate, and G072 follows by
 computing the off-diagonal extension class of that actual lift.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
@@ -516,6 +520,7 @@ python verification/verify_B107_filtered_dual_certificate.py
 python verification/verify_B108_filtered_lift_obstruction.py
 python verification/verify_B109_filtered_extension_class.py
 python verification/verify_B110_source_realization.py
+python verification/verify_B112_selected_excess.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -642,6 +647,9 @@ lift. G073 must construct a collision-certified realization of the selected
 detector before G072 is defined for it.
 B111/NG087 then reduce that requirement to one class-specific realization
 certificate; a natural map on the full distributed complex is optional.
+The B112/NG088 check proves that equal marked boundaries define an excess
+cycle but permit arbitrary excess homology. G074 must construct and evaluate
+the actual selected topology-changing chain.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
