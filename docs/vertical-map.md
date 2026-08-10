@@ -253,9 +253,11 @@ pairwise crossing complexes. B036 proves that those five local cokernels
 form \(\mathbf Q^5\) and that the required global differential can only be
 \(e_i\mapsto\delta_i\), up to target isomorphism; deriving that map from the
 actual IC extension remains open. B037 locates it as the sole transgression
-\(d_2:\mathbf Q^5\to H^2(\mathbf P^1,\ker N_E)\). NG-034 prevents using a
-complex face-quiver calculation alone for the rational Hodge-type step. Only
-after those calculations are proved may the
+\(d_2:\mathbf Q^5\to H^2(\mathbf P^1,\ker N_E)\), and B038 proves that
+\(d_2(e_i)=\delta_i\). The resolved contribution is therefore the full
+relation kernel. Its identification with the downstairs IC summand remains
+open. NG-034 prevents using a complex face-quiver calculation alone for the
+rational Hodge-type step. Only after those calculations are proved may the
 fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 

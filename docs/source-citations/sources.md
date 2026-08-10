@@ -332,6 +332,13 @@ Society Lecture Note Series 343 (2007), 206-263.
   the parameter slice meets the partial-node strata. Thus “independent” here
   is a condition on accessible node-smoothing directions, not merely linear
   independence of the resulting vanishing cycles.
+- Rechecked Section 4.3.2, pp. 23-24 for B038. The paper writes the
+  logarithmic subcomplex with differential
+  \(\sum_i(df_i/f_i)N_i\), displays its residue map to the monodromy complex,
+  and states that the infinitesimal invariant maps to the singularity class
+  under this residue morphism. B038 combines this explicit primary formula
+  with the standard logarithmic residue sequence on the exceptional
+  \(\mathbf P^1\); it does not import a multipart theorem from the paper.
 - Checked pp. 18-19 visually and against OCR: the paper explicitly defines
   \(\rho(ii)\) as the dimension of the image of
   \(H_{2n}(X_{s_0})\to H_{2n}(X)_{\mathrm{prim}}\), alongside relations,

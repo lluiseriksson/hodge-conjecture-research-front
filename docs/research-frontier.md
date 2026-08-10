@@ -48,6 +48,19 @@ vanishing-cycle map followed by an injection of its span. NG-034 records a
 separate type obstruction: S035's complex face algebra can compute the
 perverse extension but cannot by itself prove rational type \((0,0)\).
 
+B038 computes the transgression using the logarithmic residue sequence:
+
+\[
+ d_2(a_1,\ldots,a_5)=\sum_i a_i\delta_i.
+\]
+
+Therefore the resolved \(U_{2,5}\) exceptional contribution is the full
+rational relation kernel. The active gate has moved one layer downward: use
+the decomposition theorem/intermediate-extension characterization to prove
+that this group is the downstairs IC stalk rather than a point-supported
+summand of the proper direct image. The rational type-\((0,0)\) comparison
+and general multipart resolution still follow after that.
+
 ## Sufficient parent: G014
 
 For each smooth projective complex variety in the middle-degree reduction,
@@ -92,8 +105,9 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Compute B037's Postnikov/residue transgression and prove
-   \(d_2(e_i)=\delta_i\) with a common orientation convention.
+1. Identify B038's resolved relation group with the downstairs
+   intermediate-extension stalk and exclude point-supported proper-direct-
+   image summands in degree one.
 2. Verify the rational limit-MHS and Saito comparison for that multipart
    channel; a dimension equality alone is insufficient.
 3. If G015 holds, replace the two-block constraint by Edmonds'

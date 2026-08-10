@@ -1,0 +1,14 @@
+{
+  "branches": 5,
+  "residue_connecting_map": "(k_i) -> sum_i k_i",
+  "local_residues": "e_i -> delta_i",
+  "transgression": "d2(a_i) = sum_i a_i delta_i",
+  "cases": [
+    {"cycle_span_rank": 1, "d2_rank": 1, "d2_kernel_dimension": 4, "relation_dimension": 4},
+    {"cycle_span_rank": 2, "d2_rank": 2, "d2_kernel_dimension": 3, "relation_dimension": 3},
+    {"cycle_span_rank": 3, "d2_rank": 3, "d2_kernel_dimension": 2, "relation_dimension": 2},
+    {"cycle_span_rank": 4, "d2_rank": 4, "d2_kernel_dimension": 1, "relation_dimension": 1},
+    {"cycle_span_rank": 5, "d2_rank": 5, "d2_kernel_dimension": 0, "relation_dimension": 0}
+  ],
+  "scope": "exact rational residue-matrix checks only"
+}

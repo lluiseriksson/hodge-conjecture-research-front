@@ -179,6 +179,11 @@ transgression \(d_2:\mathbf Q^5\to H^2(\mathbf P^1,\ker N_E)\). Its residue
 class has not been computed. NG-034 separately prevents a complex
 face-quiver answer from being counted as the required rational
 type-\((0,0)\) comparison.
+B038 computes the transgression on the rational Betti side:
+\(d_2(a_i)=\sum_i a_i\delta_i\). Hence the resolved first three-block model
+does retain the full relation kernel. The active subgate is now to identify
+that resolved group with the downstairs IC stalk and exclude
+point-supported direct-image summands.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -226,6 +231,7 @@ python verification/verify_B034_block_growth.py
 python verification/verify_B035_multipart_arrangement.py
 python verification/verify_B036_exceptional_gluing_rank.py
 python verification/verify_B037_exceptional_transgression.py
+python verification/verify_B038_exceptional_residue.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -240,6 +246,7 @@ bounds. The B035 check verifies the finite \(U_{2,r}\) block numbers and the
 exceptional-star incidence graph. The B036 check verifies the exact
 Picard-Lefschetz ranks for all possible five-cycle span dimensions. Green
 The B037 check audits the resulting two-row spectral-sequence dimensions.
+The B038 check verifies the exact residue-map ranks and kernels.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
