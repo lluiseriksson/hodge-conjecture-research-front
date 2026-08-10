@@ -526,3 +526,23 @@
   \(|S|\le2r_A(S)\) and the independent strict condition
   \(r_F(\Delta)<|\Delta|\), then construct the nodal member and the
   class-paired rational relation. This is G013.
+
+## NG-026 - Overloading one line destroys isolated nodality
+
+- **Label:** NO-GO
+- **Route:** on \(\mathbf P^2\times\mathbf P^2\), put enough candidate nodes
+  on one line to satisfy Edmonds' two-part inequalities and force positive
+  adjoint evaluation defect.
+- **Valid input:** for \(A=\mathcal O(m,m)\), the smallest collinear sets
+  dependent for \(F=K_X\otimes A^2=\mathcal O(2m-3,2m-3)\) remain
+  partitionable into two \(A\)-independent subsets.
+- **Invalid inference:** every finite configuration satisfying the two rank
+  systems can occur as the isolated node scheme of a member of \(|A|\).
+- **Precise obstruction:** B029 proves that a section of \(A\) singular at
+  more than \(m\) points of \(C=\mathbf P^1\times\{q\}\) vanishes to second
+  order along \(C\). Positive collinear \(F\)-defect requires more than
+  \(2m-2\) points, so \(C\) lies in the singular locus and the member is not
+  nodal.
+- **Re-entry condition:** seek distributed support or a genuinely
+  zero-dimensional Cayley-Bacharach-type adjoint dependence, and verify the
+  first-jet incidence has an isolated nodal member before invoking B026.

@@ -13,7 +13,7 @@ hodge_type: the specified class and sought Saito relation have rational type (0,
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B009-B013, B016, and B022-B028
+dependencies: B009-B013, B016, and B022-B029
 claim: Every specified primitive rational Hodge class with a nonzero global detector admits a high-degree nodal member whose node scheme satisfies the two-part smoothing-matroid inequalities, has positive adjoint evaluation defect, and contains a rational Saito relation whose ambient class retains nonzero pairing with the specified class.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class for which every nodal node scheme satisfying the two-part matroid inequalities either has zero adjoint defect or has detector image contained in the class annihilator
 ---
@@ -54,12 +54,27 @@ two-part partition. B028 gives an explicit high-power configuration on
 the adjoint evaluation matroid. Thus a smoothing circuit does not force the
 strict inequality \(r_F(\Delta)<|\Delta|\). This shortcut is NG-025.
 
+## Attempt 2 - Force adjoint dependence on one line
+
+On the line \(C=\mathbf P^1\times\{q\}\subset\mathbf P^2\times\mathbf P^2\),
+choose enough points to exceed the rank \(2m-2\) of
+\(F|_C=\mathcal O_C(2m-3)\). Their \(A|_C=\mathcal O_C(m)\) matroid still
+partitions into two independent sets for the smallest such cardinalities, so
+the configuration satisfies the two abstract rank requirements.
+
+B029 proves that it cannot be a nodal node scheme. A section of
+\(\mathcal O(m,m)\) singular at more than \(m\) points of \(C\) vanishes to
+second order along \(C\); the whole line lies in its singular locus. Thus
+overloading this low-degree carrier trades adjoint dependence for
+nonisolated singularities. This route is NG-026.
+
 ## Re-entry condition
 
 Construct an algebraic incidence component on which the Edmonds inequalities
-hold fiberwise and the adjoint corank is positive; then build a rational
-comparison from its adjoint cokernel to the Saito relation local system and
-prove that the global detector gives a section not everywhere annihilated by
-\(\zeta\). The incidence must be defined without an algebraic representative
-of \(\zeta\).
-
+hold fiberwise, the adjoint corank is positive, and the first-jet conditions
+still have isolated nodal solutions. The support must be distributed or use
+a genuinely zero-dimensional Cayley-Bacharach mechanism rather than
+overloading one low-degree carrier. Then build a rational comparison from its
+adjoint cokernel to the Saito relation local system and prove that the global
+detector gives a section not everywhere annihilated by \(\zeta\). The
+incidence must be defined without an algebraic representative of \(\zeta\).

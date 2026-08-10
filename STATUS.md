@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 53% - independent Git repository, mandatory topology,
+- **Infrastructure:** 54% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 31% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 32% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -29,7 +29,8 @@ Date: 2026-08-10
   node independence forces zero high-power defect in dimension at least four,
   closing G009-G011 and forcing the partitioned target G012. B028 gives the
   exact Edmonds rank inequalities and separates the smoothing and adjoint
-  evaluation matroids, yielding G013. None is
+  evaluation matroids, yielding G013. B029 proves that the first collinear
+  positive-defect configuration forces a nonisolated singular line. None is
   proof-assistant formalized, and the
   partitioned nodal realization gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -98,6 +99,9 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B028 - PROVED: the two-part smoothing condition is exactly
   \(|S|\le2r_A(S)\) for every subset, while adjoint rank dominates smoothing
   rank at high power.
+- B029 - PROVED: on \(\mathbf P^2\times\mathbf P^2\), more than \(m\)
+  prescribed singular points of a line for \(\mathcal O(m,m)\) force the
+  entire line into the singular locus.
 - G013 - EXPLORATORY, active: realize the prescribed pairing on a nodal node
   scheme satisfying the smoothing-rank inequalities and positive adjoint
   corank.
@@ -148,6 +152,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   and vanishing-cycle relation space for \(n\ge2\).
 - NG-025 - NO-GO: a circuit in the smoothing evaluation matroid may become
   independent in the adjoint evaluation matroid and yield zero defect.
+- NG-026 - NO-GO: forcing adjoint dependence by overloading one line produces
+  a positive-dimensional singular locus, not a nodal member.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

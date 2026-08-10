@@ -47,6 +47,7 @@ boundary, not an induction mechanism.
 | nodal defect-number equivalence | B026 equates relation dimension, primitive ambient image, adjoint node-evaluation defect, desingularization defects, and local IC dimension | numerical equality does not select the direction pairing with a specified Hodge class |
 | full node independence | B027 propagates defining-system interpolation to adjoint interpolation in dimension at least four at high power | the adjoint defect and relation space vanish; a viable locus must use partwise rather than full independence |
 | two-matroid nodal window | B028 uses Edmonds' theorem to characterize two independently controlled blocks by \(|S|\le2r_A(S)\), while adjoint defect is \(r_F(\Delta)<|\Delta|\) | the two rank systems need not agree; G013 must realize both and select a defect direction pairing with the specified Hodge class |
+| first-jet nodal realizability | B029 proves that too many prescribed singular points on one line force second-order vanishing along that line | abstract evaluation-rank conditions do not ensure an isolated nodal member; dependence must be supported without creating a singular carrier |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -143,6 +144,10 @@ boundary, not an induction mechanism.
     matroid. B028 gives an explicit configuration on
     \(\mathbf P^2\times\mathbf P^2\) with the first property and zero adjoint
     defect.
+29. **Collinear-defect fallacy:** enough points on a low-degree line to force
+    adjoint dependence may also force the defining section and every first
+    normal derivative to vanish along that line, producing nonisolated
+    singularities rather than nodes.
 
 ## Open universal core
 
@@ -191,3 +196,5 @@ smoothing and adjoint evaluation matroids and exclude a smoothing circuit as
 a sufficient replacement. G013 is the narrowest active gate: construct a
 nodal incidence component satisfying Edmonds' subset inequalities together
 with positive adjoint corank and the prescribed nonzero Saito pairing.
+B029/NG-026 further require isolated first-jet realizability and exclude the
+first line-supported positive-defect construction.

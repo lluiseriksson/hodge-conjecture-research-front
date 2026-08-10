@@ -171,6 +171,14 @@ must be engineered simultaneously. B010 propagates a successful G013 pairing
 through G012 and G008, then B007 to HC. A falsifier is a nonzero primitive
 rational Hodge class orthogonal to every such two-matroid detector.
 
+B029 tests the most direct positive-defect realization of that window. On
+\(\mathbf P^2\times\mathbf P^2\), enough collinear points to make the adjoint
+evaluation dependent force every section singular at those points to vanish
+to second order along the carrier line. Hence the singular locus is not
+isolated. The remaining incidence must produce adjoint dependence through
+distributed support or a zero-dimensional Cayley-Bacharach mechanism while
+retaining isolated first jets.
+
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a
 finite certificate form, not an effective construction: it neither bounds the
@@ -306,10 +314,14 @@ into the B028 two-matroid window required by G013.
     \(\mathbf P^2\times\mathbf P^2\) configuration that is minimally dependent
     for \(A\) but independent for the adjoint system \(F\), hence has no
     defect. G013 must impose both rank systems.
+13. Force the second rank condition by putting enough points on one line -
+    **isolation error**. B029 shows that the first normal jet then vanishes
+    along the line, producing a positive-dimensional singular locus rather
+    than a nodal member.
 
 Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018;
 steps 7-8 are NG-019 and NG-020; step 9 is NG-021; step 10 is NG-022;
-step 11 is NG-024; and step 12 is NG-025.
+step 11 is NG-024; step 12 is NG-025; and step 13 is NG-026.
 Inferring a nonzero local class merely from global
 nonvanishing or a generic slice is NG-011. The open construction must create
 a higher discriminant stratum and verify the specialization through Saito's

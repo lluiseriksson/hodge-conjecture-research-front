@@ -66,9 +66,12 @@ Immediate bricks:
     four at high power; only partwise independence may be imposed.
 15. Enforce B028/NG-025: a circuit for \(A\)-evaluation may remain independent
     for adjoint \(F\)-evaluation, so smoothing dependence is not defect.
-16. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+16. Enforce B029/NG-026: adjoint dependence obtained by overloading one
+    low-degree line forces a nonisolated singular locus; first-jet nodal
+    realizability is independent of both evaluation-rank conditions.
+17. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-17. Keep the semiregularity gate G004 as an independent secondary route.
+18. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -106,7 +109,11 @@ partwise smoothing independence is equivalent to all inequalities
 explicit \(\mathbf P^2\times\mathbf P^2\) configuration shows that a smoothing
 circuit need not have adjoint defect (NG-025). G013 is now the narrowest gate:
 realize both rank conditions on a nodal incidence component and select a
-defect direction pairing with the prescribed class.
+defect direction pairing with the prescribed class. B029/NG-026 test the
+first collinear positive-defect configuration and show that it is singular
+along its carrier line. The next construction must obtain adjoint dependence
+from distributed or genuinely zero-dimensional incidence while preserving
+isolated first jets.
 G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

@@ -63,7 +63,7 @@ standard rational Hodge Conjecture
   <=> primitive singular-hyperplane detection                    [B007, PROVED]
   <=> class-specific nodal vanishing-cycle relation              [B010/G006]
   <=> nonempty codimension-two local support                     [B012/G008]
-      <= class-paired two-matroid nodal incidence                [B026-B028/G013]
+      <= class-paired two-matroid nodal incidence                [B026-B029/G013]
       <= tube-to-local relation concentration                    [G007, OPEN]
 
 global input:
@@ -117,6 +117,10 @@ matroid and proves that a two-part decomposition exists exactly when
 \(|S|\le2r_A(S)\) for every subset. It also separates this smoothing matroid
 from the adjoint evaluation matroid: dependence may disappear in the larger
 system, so a smoothing circuit alone gives no defect.
+B029 tests the first positive-defect line configuration and proves that it
+cannot be nodal: enough prescribed singular points force the section to
+vanish to second order along the whole line. The next incidence must obtain
+adjoint dependence without creating a positive-dimensional singular locus.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational

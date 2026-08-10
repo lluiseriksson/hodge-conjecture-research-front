@@ -170,6 +170,15 @@ adjoint evaluation matroids as different types: an \(A\)-circuit cannot be
 coerced into a nonzero \(F\)-defect. The geometric realization and
 class-specific pairing in G013 remain explicit open hypotheses.
 
+B029 adds a first-jet guard independent of the two matroid ranks. Restriction
+to \(C\simeq\mathbf P^1\), the splitting
+\(N_{C/X}^{\vee}\otimes A|_C\simeq
+\mathcal O(m-1)\oplus\mathcal O(m)^{\oplus2}\), and the root bound for a
+section of \(\mathcal O(d)\) give a small formalizable proof that more than
+\(m\) singular points force \(C\subseteq\operatorname{Sing}(Y)\). A formal
+incidence type must therefore carry isolated-nodality data separately from
+the smoothing and adjoint rank predicates.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

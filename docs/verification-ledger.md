@@ -34,6 +34,7 @@
 | B026 | the vanishing-cycle, primitive-image, adjoint-evaluation, desingularization, and local-IC nodal defect invariants have equal dimensions under the high-ampleness hypotheses | PROVED | Green-Griffiths Section 4.2.4 (S021); proofs/B026-nodal-defect-number-equivalence.md | equality is numerical and does not select a detector pairing with a prescribed class |
 | B027 | in dimension at least four, full node independence at sufficiently high power forces zero adjoint defect and zero vanishing-cycle relation space | PROVED | evaluation-map multiplication argument plus B026; proofs/B027-independent-nodes-kill-high-power-defect.md | excludes the fully independent-node locus, not quasi-local partitioned configurations |
 | B028 | two-part node independence is equivalent to Edmonds' subset-rank inequalities, and high-power adjoint evaluation rank dominates smoothing evaluation rank | PROVED | Edmonds Theorem 1 (S031) and the nonvanishing-multiplier argument; proofs/B028-two-matroid-window.md | makes the combinatorial window exact but constructs no nodal incidence or class-paired relation |
+| B029 | on P^2 x P^2, a section of O(m,m) singular at more than m points of a line is singular along the whole line | PROVED | restriction and conormal first-jet calculation; proofs/B029-collinear-node-isolation-obstruction.md | excludes only the collinear positive-defect realization, not distributed or zero-dimensional configurations |
 | G001 | every middle class has an algebraic anchor in a connected Hodge locus | EXPLORATORY | no proof | may be as hard as HC |
 | G002 | anchored Hodge locus is dominated by relative cycle space | CONDITIONAL | sufficient theorem formulated; proof only when dominance is assumed | dominance is the open content |
 | G003 | every anchored class has a B002-good cycle representative | EXPLORATORY | no proof; semiregularity source seeded | likely fails without strong lci/obstruction hypotheses |
@@ -70,6 +71,7 @@
 | NG-023 | positivity of the adjoint node-evaluation defect forces detection of the specified Hodge class | NO-GO | B026 and the annihilator argument | requires a vector-level comparison and a proof of nonzero class-specific pairing |
 | NG-024 | fully independent nodes can carry the required high-power relation in dimension at least four | NO-GO | B027 and B026 | replace full independence by the quasi-local partition model of G012 |
 | NG-025 | a circuit in the smoothing evaluation matroid automatically gives a nonzero adjoint defect and Saito relation | NO-GO | B028 and its P^2 x P^2 line configuration | dependence can disappear in the larger adjoint evaluation system; both matroid conditions must be imposed separately |
+| NG-026 | enough collinear candidate nodes to force adjoint defect can be realized as isolated nodes | NO-GO | B029 | the first normal jet vanishes along the carrier, producing a positive-dimensional singular locus |
 
 ## Promotion rule
 
