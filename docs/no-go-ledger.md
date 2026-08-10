@@ -862,3 +862,23 @@
 - **Re-entry condition:** construct a representative over a finite algebraic
   extension of \(k\), with the same p-adic class, before applying trace or
   averaging. The replacement must not assume the Tate or Hodge conjecture.
+
+## NG-042 - Iterated nearby cycles commute automatically
+
+- **Label:** NO-GO
+- **Route:** identify the two orders of nearby cycles in a recollision as a
+  formal identity, or infer commutation from clean intersection of the
+  reduced boundary divisors alone.
+- **Valid input:** natural lax comparison maps among multivariable and
+  iterated nearby-cycle objects do exist.
+- **Invalid inference:** those maps are equivalences for an arbitrary
+  coefficient object at a critical two-parameter collision.
+- **Precise obstruction:** Kochersperger S041 states that nearby-cycle
+  functors do not commute in general and obtains commutation only under a
+  without-slopes hypothesis. Nadler gives a separate non-characteristic plus
+  Thom criterion. B062 proves that graph embedding into a submersive ambient
+  projection retains the original map's critical conormal obstruction.
+- **Re-entry condition:** for the exact recollision chart and coefficient
+  object, verify a published sufficient package and then prove the additional
+  rational mixed-Hodge, B022-quotient, and Saito-pairing compatibilities in
+  G033.

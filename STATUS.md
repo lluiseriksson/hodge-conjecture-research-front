@@ -65,7 +65,10 @@ Date: 2026-08-10
   closes the full central representable building-set relation channel, and
   B054 extends it to nonlinear Li-clean germs. None is proof-assistant
   formalized. The remaining gate is class-specific incidence, not the local
-  multipart calculation.
+  multipart calculation. B061-B062 now isolate the exact conditional
+  nearby-cycle commutation boundary and prove that graph embedding retains
+  the critical conormal obstruction; G033 records the missing rational
+  Hodge-module and pairing-compatible recollision theorem.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -246,6 +249,16 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG041 - NO-GO: the claimed general proof in arXiv:2401.03465v13 depends on
   exactly such an undefined completion-to-algebraic averaging step in its
   claimed Tate theorem; S040 records the page-level dependency audit.
+- B061 - PROVED: multi-parameter nearby cycles admit comparison maps, but
+  audited order independence requires without-slopes or non-characteristic
+  plus Thom hypotheses.
+- B062 - PROVED: the graph trick leaves a critical conormal exactly when the
+  original family map fails to be a submersion.
+- G033 - EXPLORATORY, active technical subgate: verify one sufficient
+  comparison package for the actual recollision object and prove rational
+  mixed-Hodge, quotient, and pairing compatibility.
+- NG042 - NO-GO: clean boundary incidence or a submersive graph projection
+  does not make iterated nearby cycles commute automatically.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

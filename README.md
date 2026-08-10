@@ -87,7 +87,11 @@ terminal-hard: neither nonempty class-specific support nor its intersection
 with the clean nodal locus is known. G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
 cycles are a basis and its separate Morse values have zero required stalk
-channel. The adversarial audit S040 also quarantines a 2024 claimed general
+channel. G033 is the first recollision comparison subgate. B061 audits the
+available conditional commutation theorems; B062 and NG042 show that neither
+graph embedding nor clean boundary incidence makes iterated nearby cycles
+commute automatically, and rational Hodge/pairing compatibility remains
+unproved. The adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
 two-block spanning theorem, but B034 proves that the standard fixed-carrier

@@ -1042,6 +1042,47 @@ Audit findings:
   - arXiv:2312.09268v1:
     `0BFF688E96BFA5DB860F818233C5F55F196D2D39A371FC0C83426B00B0E39E82`.
 
+## S041 - Iterated nearby cycles: lax comparison and conditional commutation
+
+Matthieu Kochersperger, “Comparison theorem for nearby cycles of a morphism
+without slopes,” *Journal of Singularities* 16 (2017), 52-72;
+[arXiv:1612.07473](https://arxiv.org/abs/1612.07473),
+[versioned PDF](https://arxiv.org/pdf/1612.07473v2).
+
+- Checked the introduction: nearby-cycle functors associated to several
+  functions do not commute in general. The without-slopes condition is the
+  additional hypothesis used to obtain order-independent iteration.
+- Checked Theorem 3.6 and Corollary 3.7: for a regular holonomic
+  \(\mathcal D\)-module whose graph pair is without slopes, algebraic and
+  topological nearby cycles compare, iterated nearby cycles are independent
+  of coordinate order, and the identifications respect monodromy.
+- Local retrieval SHA-256:
+  `1A9764FD467BD9BBE0D9DF010E74AF54247D17416E7D6D5FD8EE3291E50AC533`.
+
+David Nadler, “A microlocal criterion for commuting nearby cycles,”
+[arXiv:2003.11477](https://arxiv.org/abs/2003.11477),
+[versioned PDF](https://arxiv.org/pdf/2003.11477v4).
+
+- Checked Proposition 3.2.10 and the introduction: an arbitrary weakly
+  constructible complex has a natural lax diagram from the multivariable
+  nearby-cycle object to the different iterated orders; the arrows are not
+  asserted to be equivalences without extra hypotheses.
+- Checked Definitions 4.1.2 and 4.1.6 and Theorem 4.2.1: if the ambient map
+  to a polydisk is a submersion and the singular-support Lagrangian is both
+  non-characteristic and Thom at the origin, all flag-comparison maps are
+  equivalences, compatibly with monodromy.
+- Checked Remark 4.1.3: a conormal \(T_Z^*X\) is non-characteristic relative
+  to \(f\) exactly when \(f|_Z\) is a submersion. B062 applies this to a
+  graph and proves the elementary differential calculation explicitly.
+- Local retrieval SHA-256:
+  `AFD86207E77537D31A7E21E3F4AC77C3726F056C73E5059742952526F05372FD`.
+
+Scope guard: these sources establish complex constructible-sheaf or regular
+holonomic \(\mathcal D\)-module comparison under explicit hypotheses. They do
+not verify those hypotheses for G032's collision family, give a rational
+mixed-Hodge-module lift, preserve the B022 quotients or Saito pairing, or
+construct an algebraic cycle.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

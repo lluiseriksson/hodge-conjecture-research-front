@@ -42,6 +42,25 @@ NG040 proves that generic morsification plus Milnor-number conservation does
 not establish G032: the distinguished local cycles form a basis and the
 separate Morse values have zero degree-one local channel.
 
+The first comparison subgate is now explicit:
+
+\[
+\text{G032}
+\Longleftarrow
+\text{Hodge-compatible recollision comparison G033}
+\Longleftarrow
+\begin{cases}
+\text{verified without-slopes, or}\\
+\text{verified non-characteristic + Thom,}
+\end{cases}
+\quad+\quad\text{rational Hodge/pairing compatibility}.
+\]
+
+B061 proves the conditional comparison boundary and NG042 rejects automatic
+commutation. B062 shows that graph embedding does not evade the collision's
+critical conormal: non-characteristicity for the graph conormal is equivalent
+to submersivity of the original family map.
+
 An externally claimed shortcut is closed separately:
 
 \[
@@ -190,7 +209,9 @@ B012 does not prove that \(\operatorname{Sing}(\zeta)\) is nonempty, and
 B054 computes the clean local channel without forcing its intersection with
 that support. G032 isolates the additional cleanup theorem that would
 upgrade an arbitrary detecting singular member to this controlled locus.
-NG040 eliminates generic morsification as its proof.
+NG040 eliminates generic morsification as its proof. G033 isolates the first
+falsifiable nearby-cycle comparison obligation; B061-B062 and NG042 show why
+neither clean boundary equations nor the graph trick discharge it formally.
 
 G030 is a stronger proposed mechanism. B011 supplies a global
 tube detector for every nonzero primitive class, B022 identifies the two
