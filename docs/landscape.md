@@ -94,6 +94,7 @@ boundary, not an induction mechanism.
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
 | reduction modulo primes | Frobenius and etale/Tate information | needs comparison, Tate-type algebraicity, and cycle lifting back to characteristic zero |
+| claimed degeneration proof audit | S040/NG041 audit Bouali's 2023-2024 preprint chain; B060 proves its completion-valued cycle cannot be Galois-averaged without finite algebraic descent | the decisive Tate theorem constructs a cycle only over a p-adic completion and supplies no descent to kbar; the claimed general Hodge conclusion is not established |
 | motives/absolute Hodge classes | packages realizations and correspondences | absolute Hodge is weaker than known algebraicity in general |
 | abelian varieties/Mumford-Tate groups | representation-theoretic description of Hodge tensors | exceptional Hodge tensors need actual algebraic cycles |
 | hypersurface Jacobian rings/Noether-Lefschetz theory | computes infinitesimal Hodge loci and primitive variation | tangent-space or locus information is not cycle existence |

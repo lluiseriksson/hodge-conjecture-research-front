@@ -87,7 +87,9 @@ terminal-hard: neither nonempty class-specific support nor its intersection
 with the clean nodal locus is known. G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
 cycles are a basis and its separate Morse values have zero required stalk
-channel. G014 remains a sufficient unanchored
+channel. The adversarial audit S040 also quarantines a 2024 claimed general
+proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
+completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
 two-block spanning theorem, but B034 proves that the standard fixed-carrier
 route cannot satisfy two blocks in middle dimensions \(n\ge3\).
 B012 proves

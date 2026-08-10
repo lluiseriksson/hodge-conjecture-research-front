@@ -42,6 +42,21 @@ NG040 proves that generic morsification plus Milnor-number conservation does
 not establish G032: the distinguished local cycles form a basis and the
 separate Morse values have zero degree-one local channel.
 
+An externally claimed shortcut is closed separately:
+
+\[
+ \text{Bouali degeneration claim}
+ \Longleftarrow
+ \text{claimed universal Tate theorem}
+ \mathrel{\not\Longleftarrow}
+ \text{cycle over a p-adic completion}.
+\]
+
+S040 and B060 locate the missing arrow: the completion-valued cycle is not
+proved to descend to \(\bar k\), so the Galois average used in the claimed
+Tate theorem is undefined. NG041 therefore prevents importing that chain as
+a resolution.
+
 The fixed-carrier branch now has an additional necessary local gate:
 
 \[

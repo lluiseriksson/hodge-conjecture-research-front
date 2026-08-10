@@ -837,3 +837,28 @@
   topology-changing map on the full nearby-cycle complex, proving survival
   through the B022 quotients, rational type \((0,0)\), and nonzero specified
   pairing. This is G032.
+
+## NG-041 - Bouali's preprint chain closes the general Hodge Conjecture
+
+- **Label:** NO-GO
+- **Route:** import arXiv:2401.03465v13 as a general proof via its claimed
+  hypersurface theorem, nearby-cycle degeneration, and arithmetic
+  Hodge-locus criterion.
+- **Valid input:** the final paper explicitly states a universal Hodge
+  theorem and identifies arXiv:2303.09932 Theorem 4 as its decisive
+  algebraicity input.
+- **Invalid inference:** a cycle constructed over the p-adic completion
+  \(\widehat{k}_{\sigma_p}\) can be averaged under
+  \(G_k=\operatorname{Gal}(\bar k/k)\) merely because its cohomology class is
+  invariant.
+- **Precise obstruction:** S040 locates the step on pp. 34-35 of
+  arXiv:2303.09932v16. No descent of the constructed cycle to \(\bar k\) or
+  a finite extension is proved, so its \(G_k\)-orbit and the displayed finite
+  average are undefined. B060 gives the exact field-of-definition
+  countermodel.
+- **Propagation:** the gap invalidates the written proof of its Theorem 3;
+  Corollary 2(ii), Theorem 4, and the pp. 14-15 conclusion of
+  arXiv:2401.03465v13 depend on that theorem.
+- **Re-entry condition:** construct a representative over a finite algebraic
+  extension of \(k\), with the same p-adic class, before applying trace or
+  averaging. The replacement must not assume the Tate or Hodge conjecture.

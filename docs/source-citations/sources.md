@@ -992,6 +992,56 @@ arXiv:alg-geom/9711033 (1997).
 - Local retrieval SHA-256:
   A647D8043EF7548CFE77BD8D3523E01479619B20F380AFD1C5AE4D17076E909E.
 
+## S040 - Claimed degeneration proof and its arithmetic dependencies
+
+Johann Bouali, “Degeneration of families of projective hypersurfaces and
+Hodge conjecture,” arXiv:2401.03465v13 (7 October 2024),
+[arXiv record](https://arxiv.org/abs/2401.03465),
+[versioned PDF](https://arxiv.org/pdf/2401.03465v13).
+
+Dependency audit:
+
+- Johann Bouali, “De Rham logarithmic classes and Tate conjecture,”
+  arXiv:2303.09932v16 (24 September 2024),
+  [versioned PDF](https://arxiv.org/pdf/2303.09932v16).
+- Johann Bouali, “Hodge conjecture for projective hypersurface,”
+  arXiv:2312.09268v1 (14 December 2023),
+  [versioned PDF](https://arxiv.org/pdf/2312.09268v1).
+
+Audit findings:
+
+- Checked arXiv:2401.03465v13, pp. 14-15. The final algebraicity step invokes
+  Theorem 4 of arXiv:2303.09932 after proving that certain Hodge-locus
+  components and their conjugates are defined over
+  \(\bar{\mathbf Q}\). This dependency is decisive for both summands of the
+  arbitrary Hodge class.
+- Checked arXiv:2303.09932v16, pp. 34-35, Theorem 3(i). Its proof constructs
+  \(Z\in Z^d(X_{\widehat{k}_{\sigma_p}})\otimes\mathbf Q_p\), then writes an
+  average of \(gZ\) over \(G_k/G_Z\) to produce a cycle over \(k\).
+- No intervening argument proves that \(Z\) is defined over \(\bar k\) or a
+  finite algebraic extension of \(k\). A cycle over the completion
+  \(\widehat{k}_{\sigma_p}\) has no automatic \(G_k\)-orbit. B060 gives the
+  explicit field-of-definition type check.
+- Checked pp. 36-38 of the same version. Corollary 2(ii) derives algebraicity
+  of absolute Hodge classes from Theorem 3, and Theorem 4 derives its
+  Hodge-locus algebraicity criterion from Corollary 2(ii). The invalid
+  descent therefore propagates directly to the theorem used on p. 14 of the
+  degeneration paper.
+- Checked arXiv:2312.09268v1, pp. 1-2 and 16, Theorem 1. Its hypersurface
+  claim uses a separate logarithmic-de-Rham argument and the same earlier
+  preprint, but even granting it does not repair the arithmetic descent gap
+  in the general induction.
+- Scope guard: NG041 identifies a gap in the written proof chain. It does
+  not prove the claimed theorem statements false, and it is not evidence
+  against the Hodge Conjecture.
+- Local retrieval SHA-256 values:
+  - arXiv:2401.03465v13:
+    `33E0D01DC5B96B7A26A9C1B5150A7F0E918B71B58318BAFA644880B750CAD808`;
+  - arXiv:2303.09932v16:
+    `F3D565576D1C84C61B3C02CF6A2069A000135079B66A0BA498B3A6D9ACCB5E55`;
+  - arXiv:2312.09268v1:
+    `0BFF688E96BFA5DB860F818233C5F55F196D2D39A371FC0C83426B00B0E39E82`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

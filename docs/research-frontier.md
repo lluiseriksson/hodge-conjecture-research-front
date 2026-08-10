@@ -36,6 +36,19 @@ invisible in the required degree. NG040 records this NO-GO. A viable cleanup
 must deliberately recollide the Morse data and compute the global
 local-to-nearby kernel and ambient pairing.
 
+## Adversarial audit: claimed general proof
+
+S040 audits Bouali's arXiv:2401.03465v13 and its decisive dependencies.
+The final degeneration argument invokes an arithmetic Hodge-locus theorem
+whose proof runs through a claimed universal Tate theorem. On pp. 34-35 of
+arXiv:2303.09932v16, that proof constructs a cycle only over a p-adic
+completion \(\widehat{k}_{\sigma_p}\), then averages \(gZ\) under
+\(\operatorname{Gal}(\bar k/k)\) without proving that \(Z\) is defined over
+\(\bar k\) or a finite extension. B060 proves the field-of-definition guard
+with a transcendental \(\mathbf Q_p\)-point of \(\mathbf P^1\), and NG041
+quarantines the claimed proof. This audit changes no estimate of actual
+general-Hodge progress.
+
 ## Closed local gate: G015
 
 G015 extended B009's quasi-local identification of degree-one local

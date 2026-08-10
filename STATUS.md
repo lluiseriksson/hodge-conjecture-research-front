@@ -2,7 +2,7 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 86% - independent Git repository, mandatory topology,
+- **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
 - **Formal proof-chain closure:** 65% - B007 provides a fully quantified
@@ -240,6 +240,12 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG040 - NO-GO: generic morsification and Milnor-number conservation do not
   supply that upgrade; the local Morse cycles form a basis and their separate
   discriminant points have zero required local channel.
+- B060 - PROVED: an invariant class represented by a cycle over a p-adic
+  completion does not make that particular cycle descend to a finite
+  algebraic extension or acquire a finite Galois orbit.
+- NG041 - NO-GO: the claimed general proof in arXiv:2401.03465v13 depends on
+  exactly such an undefined completion-to-algebraic averaging step in its
+  claimed Tate theorem; S040 records the page-level dependency audit.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
