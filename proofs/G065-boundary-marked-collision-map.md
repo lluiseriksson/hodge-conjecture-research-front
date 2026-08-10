@@ -13,7 +13,7 @@ hodge_type: target relation and ambient class rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B081-B083, B093-B101, G047-G063, NG069-NG077
+dependencies: B022, B057-B058, B081-B083, B093-B102, G047-G063, G066, NG069-NG078, S049-S050
 claim: Construct in the actual collision a map of pairs F:(A,B)->(Y_c,Z_c) carrying a marked relative representative of the B057 detector to Saito's nearby pair, send its marked boundary vector to r_H(beta_sp), and construct a chain homotopy between the B057 closure/quotient realization and Saito's good-retraction ambient realization on that class.
 falsifier: no continuous comparison of pairs compatible with the collision, collision of marked boundary components with the wrong local vanishing spheres or signs, or failure of chain-homotopy compatibility between the two ambient realizations
 ---
@@ -49,3 +49,9 @@ B101 then proves both conclusions of G064, and B100 removes all remaining
 dependence on the choice of Saito relative lift. The unresolved content is
 now a concrete geometric construction, not an equality inside an abstract
 quotient.
+
+B102 supplies the local collapsing map at each isolated singularity, but
+NG078 blocks treating those separate local maps as a globalization of the
+distributed detector. G066 is the remaining constructive subgate: localize
+the detector into the Milnor tubes, glue the local collapses to the exterior
+trivialization, and compare the two closed ambient chains.

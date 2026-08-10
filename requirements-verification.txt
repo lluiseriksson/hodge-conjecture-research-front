@@ -1,0 +1,2 @@
+# Exact non-stdlib dependency used by the verification scripts.
+sympy==1.12

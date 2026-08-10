@@ -1447,3 +1447,20 @@
 - **Re-entry condition:** G065 must construct a map of pairs and identify its
   restriction on every oriented boundary sphere. B101 then supplies
   naturality automatically.
+
+## NG-078 - Local collapsing maps globalize the distributed detector
+
+- **Label:** NO-GO
+- **Route:** apply the isolated-singularity collapse independently at every
+  node and compose it with local boundary specialization to obtain G065.
+- **Valid input:** S049 gives each local Milnor-fiber collapse, and S050 gives
+  a local boundary-homology specialization under its Whitney hypotheses.
+- **Invalid inference:** these local maps accept B057's arbitrary distributed
+  global detector and preserve its marked relation and ambient closure.
+- **Precise obstruction:** both sources begin with cycles already in local
+  Milnor spaces. They provide no localization map from the distributed
+  thimble complex, no collar-compatible global gluing, and no B022 or
+  primitive ambient comparison.
+- **Re-entry condition:** G066 must construct the class-specific localization,
+  glue the local collapses to the exterior trivialization, and compare the
+  two closed ambient chains.

@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 87% - independent Git repository, mandatory topology,
+- **Infrastructure:** 88% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 94% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 95% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -164,7 +164,10 @@ Date: 2026-08-10
   the gate to local boundary identification plus primitive pushforward.
   B101 makes both equalities formal from a boundary-marked map of pairs and
   chain-homotopy-compatible ambient realization maps. NG077/G065 isolate construction of that marked
-  collision map as the remaining geometric obligation.
+  collision map as the remaining geometric obligation. B102 supplies the
+  local collapse at every isolated singularity; NG078/G066 isolate the
+  still-missing localization of the distributed detector and gluing to the
+  exterior family.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -607,10 +610,19 @@ generation from the controlled partitioned nodal locus is not proved.**
   B058's class $c$.
 - NG077 - NO-GO: zero total boundary in the smooth reference fiber does not
   determine a vector in the marked local relation kernel.
-- G065 - EXPLORATORY, active smallest gate: construct the actual marked map
+- G065 - EXPLORATORY, parent marked-map gate: construct the actual marked map
   of pairs, send every oriented boundary sphere to the canonical Saito local
   coordinate, and prove chain-level compatibility of the two ambient
   realizations.
+- B102 - PROVED: every isolated analytic singularity in the target has a
+  vanishing-polyhedron collapse, homeomorphic off the vanishing polyhedron,
+  under S049's exact local hypotheses.
+- NG078 - NO-GO: separate local collapse and boundary-specialization maps do
+  not place an arbitrary distributed B057 detector inside the local Milnor
+  zones or preserve its ambient closure.
+- G066 - EXPLORATORY, active smallest gate: localize the marked detector into
+  the disjoint Milnor tubes, glue the local collapses to a stratified exterior
+  trivialization, and compare the B098 and Saito closed ambient chains.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

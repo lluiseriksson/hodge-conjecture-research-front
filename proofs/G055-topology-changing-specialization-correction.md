@@ -54,3 +54,8 @@ The displayed difference is not asserted to be canonical before the
 collision and reference comparison are constructed. Treating it as an
 already-defined specialization map would repeat NG059-NG060. Universally
 quantified, the nonzero pairing remains terminal-level content.
+
+B102 proves that isolated target singularities separately admit local
+vanishing-polyhedron collapses. NG078 shows this does not construct
+$\operatorname{sp}_C$: the distributed detector must first be localized and
+the local maps glued to the exterior family. G066 isolates that realization.

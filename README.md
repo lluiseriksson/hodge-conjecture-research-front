@@ -233,9 +233,12 @@ closes literal same-chain equality as an unnecessary requirement. G064 is the
 parent boundary-comparison gate. B101 proves that its boundary and ambient
 equalities follow formally from a boundary-marked map of pairs and
 chain-homotopy-compatible ambient realization maps. NG077 blocks recovering the marked local
-coordinate from global boundary zero. G065 is the active minimal gate:
-construct that marked collision map and verify its action on each local
-vanishing sphere.
+coordinate from global boundary zero. G065 is the parent marked-map gate.
+B102 imports Lê-Menegon Neto's local vanishing-polyhedron collapse for each
+isolated singularity. NG078 blocks globalizing those local maps before the
+distributed detector has been localized into the Milnor tubes. G066 is the
+active minimal gate: construct that localization, glue the local collapses to
+the exterior trivialization, and compare the two closed ambient chains.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -422,6 +425,7 @@ The anchored G001/G004 route remains open as an independent secondary route.
 ## Verify
 
 ```bash
+python -m pip install -r requirements-verification.txt
 python verification/verify_repository.py
 python verification/verify_B031_plane_family.py
 python verification/verify_B032_diagonal.py
@@ -469,6 +473,7 @@ python verification/verify_B098_two_quotient_map.py
 python verification/verify_B099_same_relative_chain.py
 python verification/verify_B100_relative_lift_independence.py
 python verification/verify_B101_marked_boundary_naturality.py
+python verification/verify_B102_local_collapse_scope.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -564,6 +569,9 @@ Saito §2.4 proves the general nonprimitive-ambiguity statement.
 The B101 check separates a marked local boundary vector from its zero global
 image and verifies the finite naturality square; the general result is
 naturality of the long exact sequence of a pair and homotopy invariance.
+The B102/NG078 check shows that fixed local collapse maps do not choose the
+preceding localization of a distributed detector; B102 itself is the
+primary-source vanishing-polyhedron theorem, not the finite model.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

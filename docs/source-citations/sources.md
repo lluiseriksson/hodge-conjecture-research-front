@@ -1392,6 +1392,58 @@ angewandte Mathematik* 744 (2018), 133-163;
 - Local retrieval SHA-256:
   `E769D3C50F9499507F05A7E0E67441FD371BD874BB4AA9726923F5A5CC35FEF6`.
 
+## S049 - Vanishing polyhedron and local collapsing map
+
+Lê Dũng Tráng and Aurélio Menegon Neto, “Vanishing polyhedron and collapsing
+map,” *Mathematische Zeitschrift* 286 (2017), 1003-1040;
+[arXiv:1511.06812](https://arxiv.org/abs/1511.06812),
+[DOI](https://doi.org/10.1007/s00209-016-1793-8).
+
+- Checked Theorem 1: for a holomorphic function with an isolated singularity
+  on a reduced equidimensional complex analytic germ, a sufficiently small
+  Milnor fiber $X_t$ is a regular neighborhood of a real
+  $(n-1)$-dimensional vanishing polyhedron $P_t$.
+- Checked the conclusion of Theorem 1 and its proof: for a simple path from
+  $t$ to $0$, a continuous map $\Psi_t:X_t\to X_0$ sends $P_t$ to the
+  singular point and restricts to a homeomorphism
+  $X_t\setminus P_t\to X_0\setminus\{0\}$.
+- Checked Propositions 14-16 and the proof around the global vector field:
+  the vanishing polyhedra and integrable stratified vector fields are
+  constructed along a path, and Proposition 16 gives a collapsing cone over
+  a closed semidisk.
+- Scope guard: this is a local analytic theorem for one isolated
+  singularity. It does not localize an arbitrary global B057 detector in the
+  Milnor fiber, identify its marked local relation vector, glue several
+  disjoint local collapses to the global exterior, descend through B022, or
+  preserve a prescribed ambient Hodge class. B102 imports the theorem;
+  NG078/G066 isolate the missing globalization.
+- Retrieval audited through the versioned arXiv full text; no local copy is
+  committed.
+
+## S050 - Specialization of Milnor-fiber boundary homology
+
+Marcelo Aguilar, Aurelio Menegon, and José Seade, “Vanishing and nearby
+boundary cycles of complex non-isolated singularities,” *Boletín de la
+Sociedad Matemática Mexicana* 31 (2025), article 81;
+[open-access article](https://doi.org/10.1007/s40590-025-00761-5).
+
+- Checked Proposition 1.1: outside a chosen vanishing zone, the boundary of
+  a nearby Milnor fiber is homeomorphic to the complement of the analogous
+  zone in the special link, under the stated Whitney/transversality setup.
+- Checked Definitions 1.2-1.4: the specialization morphism on boundary
+  homology is the composite of inclusion in an extended regular
+  neighborhood and deformation retraction to the special link; its kernel
+  defines vanishing boundary cycles.
+- Checked Remark 1.5: the authors distinguish this boundary specialization
+  from Siersma's variation maps on relative groups.
+- Scope guard: the morphism concerns boundary homology of a local Milnor
+  fiber. It is not a relative-thimble map from B057's distributed global
+  complex, does not choose a marked relation coordinate, and has no B022 or
+  primitive ambient-class compatibility theorem. NG078 records the blocked
+  globalization.
+- Open-access HTML and theorem statements audited; no local copy is
+  committed.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

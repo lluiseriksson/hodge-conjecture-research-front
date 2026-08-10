@@ -286,7 +286,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G064: local relative-boundary identification}
 \Longleftarrow
-\text{G065: boundary-marked collision map}.
+\text{G065: boundary-marked collision map}
+\Longleftarrow
+\text{G066: detector localization and collapse gluing}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -410,7 +412,12 @@ the canonical full-support relation, and retain primitive ambient value $c$.
 B101 proves those two equalities by naturality once a boundary-marked map of
 pairs and chain-homotopy-compatible ambient realization maps exist. NG077 blocks inferring the marked
 local coordinate from total boundary zero. G065 is the current smallest
-endpoint: construct that marked comparison in the actual collision.
+parent endpoint: construct that marked comparison in the actual collision.
+B102 supplies a local collapse at each isolated singularity. NG078 shows that
+the local maps do not choose where the distributed B057 detector enters the
+Milnor tubes. G066 is the current smallest endpoint: construct this
+localization, glue the local and exterior maps, and compare the two absolute
+ambient realizations at chain level.
 
 An externally claimed shortcut is closed separately:
 
