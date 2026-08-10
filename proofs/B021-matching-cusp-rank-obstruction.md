@@ -48,7 +48,8 @@ independence. Hence no such comparison exists.
 This is a rank obstruction to the simplest **class-by-class preserving**
 collision. It does not rule out a more elaborate degeneration in which:
 
-- the cycle basis changes by nontrivial braid monodromy before collision;
+- the topology-changing collision uses more than a Hurwitz basis change
+  within one fixed fibration (pure Hurwitz change is excluded by B023);
 - extra vanishing cycles enter and only a larger combination specializes;
 - the target is a higher singularity or an independent multi-node member
   rather than the cusp model; or

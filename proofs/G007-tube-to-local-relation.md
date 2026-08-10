@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; the sought local relation has type (0,0) afte
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B008, B010, B011, B012, B013, and B015
+dependencies: B008, B010-B013, B015, and B019-B023
 claim: Every nonzero primitive rational Hodge class detected by a global Schnell tube is also detected by a type-(0,0) Saito relation concentrated at one singular hyperplane member.
 falsifier: a polarized smooth projective 2n-fold and primitive rational Hodge class with a nonzero global tube detector but orthogonal to every Saito local relation class for every singular member of every polarization power
 ---
@@ -82,6 +82,33 @@ at one fiber. Neither kernel includes in the other, and the audited sources
 provide no natural transformation carrying the first to the second. Treating
 them as identical is NG-010.
 
+## Exact thimble quotient obstruction
+
+B022 shows, in the generic projective-hypersurface pencil model, that even
+the local-looking condition \(\sum_i a_i\delta_i=0\) is only the first
+stage. The corresponding thimble combination represents an ambient class
+only after passing through
+
+\[
+ \ker\partial
+ \longrightarrow
+ \mathcal T(Y)=\ker\partial/\operatorname{im}\tau_\infty
+ \longrightarrow
+ H_n(X)/\iota_*H_n(X_b),
+\]
+
+and the second map has the explicit base-locus kernel \(K\). A collision
+comparison must therefore preserve a nonzero class through both quotients;
+preserving a kernel vector alone is NG-019.
+
+B023 also removes pure Hurwitz basis change as a repair mechanism. Hurwitz
+moves within one fixed fibration act invertibly and preserve the dimension of
+the relation kernel. They cannot identify the rank-at-most-one matching
+boundary map (whose kernel is nonzero) with the rank-two cusp boundary map
+(whose kernel is zero). Any viable collision must change the
+complex non-invertibly or introduce additional vanishing directions; this is
+NG-020.
+
 ## Re-entry condition
 
 Construct an algebraic two-parameter degeneration whose boundary realizes a
@@ -91,5 +118,7 @@ sequence, that the specialized relation maps to a Saito class with the same
 nonzero \(\zeta\)-pairing. Ordinary double points would make the type
 \((0,0)\) condition automatic by B010, while B015 supplies the local
 normal-crossing geometry if their independent-incidence hypothesis is met.
+The specialization datum must include the equator-extension quotient and
+the base-locus projection of B022, not only a map of vanishing-cycle kernels.
 
 This is now a proposed geometric mechanism for the exact support gate G008.

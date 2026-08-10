@@ -105,6 +105,24 @@ intersection-one pair of rank two. The theorem must remain scoped to the
 audited projective-surface comparison; it is not a formal obstruction to
 higher-dimensional collision mechanisms with additional cycles.
 
+B022 supplies the correct typed pipeline for a thimble model:
+
+\[
+ \ker\partial\to
+ \ker\partial/\operatorname{im}\tau_\infty\to
+ H_n(X)/\iota_*H_n(X_b).
+\]
+
+A formal interface must not coerce a boundary-kernel element directly into
+ambient homology. It must expose the equator quotient and the base-locus
+kernel \(K\), and separately require nonvanishing in the final quotient.
+
+B023 is finite algebra: an isomorphism of commutative boundary-map squares
+induces an isomorphism of kernels. This can be kernel-checked, while Seidel's
+geometric assertion that Hurwitz moves yield the required isomorphisms
+remains an imported theorem. A topology-changing collision must have a
+different, explicitly non-invertible interface.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

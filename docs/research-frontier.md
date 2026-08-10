@@ -34,9 +34,15 @@ Immediate bricks:
    rule out preserving a matching pair class by class through the cusp
    lattice; only basis change, extra cycles, or ambient-class preservation
    remain possible.
-9. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+9. Track the class through the two exact quotients in B022. A kernel relation
+   can die as an equator extension or in the pencil base-locus kernel;
+   NG-019 forbids calling it an ambient detector earlier.
+10. Require a non-invertible topology-changing comparison. B023/NG-020 show
+    that Hurwitz moves inside a fixed fibration preserve the relation kernel
+    and cannot close the matching/cusp gap.
+11. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-10. Keep the semiregularity gate G004 as an independent secondary route.
+12. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -57,6 +63,8 @@ provide primitive detectors. B019/NG-016 distinguish symplectic matching
 spheres from one-fiber Hodge detectors; B020/NG-017 show that Schnell's
 intersection-one pair is independent rather than relational. B021/NG-018
 add a rank obstruction to the direct matching-pair-to-cusp specialization.
+B022/NG-019 identify the two quotient kernels between a thimble relation and
+ambient homology. B023/NG-020 exclude pure Hurwitz basis change as a repair.
 G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

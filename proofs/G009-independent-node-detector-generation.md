@@ -13,7 +13,7 @@ hodge_type: primitive type (0,0) after Tate twist; only type-(0,0) Saito relatio
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B010, B015-B021; boundary attempt audited in S026 and matching paths in S027
+dependencies: B010, B015-B023; boundary attempt audited in S026, matching paths in S027, and thimble/Hurwitz models in S028-S029
 claim: The rational span of Saito detector classes from all independent-node hyperplane members in all sufficiently high powers equals the primitive rational Hodge homology of X.
 falsifier: a polarized smooth projective 2n-fold with a nonzero primitive rational Hodge cohomology class orthogonal to every Saito detector class arising from every independent-node member in every sufficiently high power
 ---
@@ -138,10 +138,26 @@ the cusp cycles have intersection one and span rank two. Thus the individual
 cycle classes cannot be carried unchanged through this collision.
 
 This does not exclude a transformation involving braid monodromy, additional
-vanishing cycles, or preservation only of the final ambient tube class. It
-does exclude the direct matching-pair-to-cusp-pair identification, recorded
-as NG-018. Any surviving route must compute a larger specialization complex
-rather than invoke continuity of the two individual cycles.
+vanishing cycles, or preservation only of the final ambient tube class. B023
+now excludes pure invertible Hurwitz basis change within a fixed fibration,
+but not a topology-changing braid/collision process. The direct
+matching-pair-to-cusp-pair identification is NG-018, and the pure basis-change
+repair is NG-020.
+
+## Attempt 8 - Preserve only a thimble relation
+
+B022 gives the exact ambient reconstruction in a generic hypersurface pencil.
+A vector in the relation kernel \(\ker\partial\) can vanish modulo the
+equator-extension image. Even a nonzero class in \(\mathcal T(Y)\) can lie in
+the base-locus kernel \(K\) and project to zero in ambient primitive homology.
+Thus preservation of a thimble relation through collision is weaker than
+preservation of the Saito ambient detector class. Treating them as equivalent
+is NG-019.
+
+The surviving target is consequently a morphism of the **quotiented**
+thimble complexes that carries a class nontrivially through
+\(\mathcal T(Y)/K\), then identifies it with a rational type-\((0,0)\) local
+Saito class. No audited collision theorem supplies this map.
 
 ## Re-entry condition
 
@@ -155,4 +171,5 @@ non-tautological primitive ambient homology rather than importing it through
 an already-algebraic non-tautological subvariety. A two-critical-value route
 must additionally prove an algebraic collision theorem identifying the
 matching sphere with a one-fiber relation class and preserving rational
-type \((0,0)\).
+type \((0,0)\). It must also preserve nonvanishing after the
+equator-extension and base-locus quotients in B022.

@@ -39,7 +39,9 @@ boundary, not an induction mechanism.
 | tautological complete intersections | their classes and multiplicities are explicit and algebraic | B018 proves their primitive projections vanish, so they cannot detect primitive middle classes |
 | symplectic matching paths | B019: two transported thimbles over distinct critical values glue to a Lagrangian sphere in the audited four-dimensional setting | no algebraic one-fiber collision, Hodge-type certificate, or Saito-class identification follows |
 | intersection-one vanishing cycles | B020: Schnell constructs a pair with intersection number one and exhibits cusp/two-node dual-plane configurations | intersection one proves independence; a two-ODP member alone supplies no relation or nonzero detector |
-| matching-to-cusp collision | B021 compares the two audited local lattices in the projective-surface setting | a class-by-class comparison is rank-incompatible; any viable bridge needs basis change, extra cycles, or ambient-class preservation |
+| matching-to-cusp collision | B021 compares the two audited local lattices in the projective-surface setting | a class-by-class comparison is rank-incompatible; with B023, any viable bridge needs topology change, extra cycles, or later ambient-quotient preservation |
+| thimble reconstruction | B022 gives a relative thimble basis, its vanishing-cycle boundary, and the exact quotients leading to ambient homology for generic hypersurface pencils | a relation may die as an equator extension or in the base-locus kernel before it becomes an ambient detector |
+| Hurwitz equivalence | B023 shows distinguished bases in a fixed exact Morse fibration are related by invertible moves preserving boundary rank and relation-kernel dimension | cannot model a topology-changing collision or repair the matching/cusp rank mismatch |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -112,6 +114,12 @@ boundary, not an induction mechanism.
 21. **Collision-continuity fallacy:** a matching pair spans rank at most one,
     while the cusp pair spans rank two. Individual vanishing-cycle classes
     cannot simply be carried unchanged through the cusp collision.
+22. **Relative-to-ambient fallacy:** a nonzero zero-boundary thimble
+    combination can vanish modulo equator extensions or in the pencil
+    base-locus kernel; it is not automatically a primitive ambient class.
+23. **Hurwitz-repair fallacy:** an invertible change of distinguished basis
+    preserves boundary rank and relation-kernel dimension. It cannot replace
+    the non-invertible topology change required by collision.
 
 ## Open universal core
 
@@ -148,3 +156,6 @@ B020/NG-017 show that Schnell's intersection-one pair is not the missing
 relation. B021/NG-018 rule out the direct class-by-class cusp comparison in
 the audited surface case. The remaining two-critical-value route needs a new algebraic
 collision theorem preserving the detector class and rational Hodge type.
+B022 specifies that the preserved datum must be nonzero after the
+equator-extension and base-locus quotients. B023 shows that pure Hurwitz
+mutation cannot supply the required topology change.

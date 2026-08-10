@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 46% - independent Git repository, mandatory topology,
+- **Infrastructure:** 48% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 22% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 24% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -20,7 +20,9 @@ Date: 2026-08-10
   paths from local Hodge detectors; B020 proves that Schnell's
   intersection-one pair is independent, not relational; B021 adds the rank
   obstruction to a class-by-class matching-to-cusp comparison in the audited
-  surface setting. None is proof-assistant formalized, and the
+  surface setting; B022 identifies the equator-extension and base-locus
+  quotients before ambient homology; B023 proves Hurwitz kernel invariance.
+  None is proof-assistant formalized, and the
   independent-node generation gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
@@ -67,9 +69,14 @@ generation from the controlled independent-node locus is not proved.**
 - B020 - PROVED: Schnell's intersection-one vanishing cycles are rationally
   independent; the adjacent two-ODP dual-plane point supplies no relation
   theorem.
-- B021 - PROVED: a rank-one matching pair cannot specialize class by class
+- B021 - PROVED: a rank-at-most-one matching pair cannot specialize class by class
   to Schnell's rank-two cusp pair; basis change, extra cycles, or preservation
   only of the ambient class remain untested.
+- B022 - PROVED: a zero-boundary thimble combination reaches ambient homology
+  only after quotienting equator extensions and the pencil base-locus
+  kernel.
+- B023 - PROVED: Hurwitz moves in a fixed exact Morse fibration preserve
+  boundary rank and relation-kernel dimension.
 - G009 - EXPLORATORY, active: prove detector generation using all
   independent-node members across high powers.
 - G008 - EXPLORATORY parent gate: force a class with nonzero global invariant
@@ -100,6 +107,10 @@ generation from the controlled independent-node locus is not proved.**
   discriminant point, is not a proved local detector relation.
 - NG-018 - NO-GO: the two individual matching-cycle classes cannot be
   identified unchanged with the cusp pair across collision.
+- NG-019 - NO-GO: a nonzero thimble relation can die before reaching ambient
+  homology and is not automatically a detector.
+- NG-020 - NO-GO: invertible Hurwitz moves cannot repair the matching/cusp
+  relation-rank mismatch.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

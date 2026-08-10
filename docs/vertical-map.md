@@ -175,6 +175,23 @@ must therefore allow braid/basis change, extra cycles, or preservation only
 of the final ambient tube class. This is a local mechanism obstruction on
 surfaces, not global Hodge progress.
 
+B022 computes what “preserve the ambient class” actually means in the
+generic projective-hypersurface pencil model. The thimble boundary kernel is
+followed by two quotients:
+
+\[
+ \ker\partial
+ \twoheadrightarrow
+ \mathcal T(Y)=\ker\partial/\operatorname{im}\tau_\infty
+ \twoheadrightarrow
+ H_n(X)/\iota_*H_n(X_b),
+\]
+
+and the last arrow has the explicit base-locus kernel \(K\). A collision
+must preserve a nonzero class after both arrows. B023 proves that pure
+Hurwitz moves cannot supply the missing non-invertible step: within a fixed
+fibration they preserve boundary rank and relation-kernel dimension.
+
 The parent gate G008 remains: starting from the already nonzero global class
 \(s(\zeta)\), construct a discriminant point \(p\) with
 
@@ -218,8 +235,15 @@ the B015 independent-node locus for a spanning set, it would close G009.
 6. Collide the matching endpoints through the cusp while preserving the two
    fiber classes - **rank error**. B021 shows that rank one cannot specialize
    class by class to the intersection-one rank-two cusp lattice.
+7. Preserve merely a zero-boundary thimble combination - **quotient error**.
+   B022 shows that equator extensions and base-locus classes can kill it
+   before it reaches ambient primitive homology.
+8. Repair the mismatch by Hurwitz moves alone - **invariance error**. B023
+   shows that invertible moves in a fixed fibration preserve the relation
+   kernel.
 
-Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018.
+Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018;
+steps 7-8 are NG-019 and NG-020.
 Inferring a nonzero local class merely from global
 nonvanishing or a generic slice is NG-011. The open construction must create
 a higher discriminant stratum and verify the specialization through Saito's
