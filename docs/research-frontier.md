@@ -1,22 +1,33 @@
 # Research frontier
 
-## Active gate: G012
+## Active gate: G013
 
 For an arbitrary polarized smooth projective \(2n\)-fold, a specified
 primitive rational Hodge class, and a nonzero global tube or quotient-level
-thimble detector, construct a nodal member whose full node set is dependent
-but partitions as \(\Delta=J\sqcup K\) with each part independently
-controlled. The cross-part relation must have rational type \((0,0)\), retain
-nonzero pairing with the specified Hodge class, and survive the
-equator-extension and base-locus quotients. G008 remains the
-terminal-equivalent parent gate. B027 proves that the former fully
-independent-node gates G009-G011 are NO-GO in the high-power range.
+thimble detector, construct a nodal incidence component whose node set
+\(\Delta\) lies in B028's exact two-matroid window. With
+\(A=L^m\), \(F=K_X\otimes A^n\), and evaluation ranks \(r_A,r_F\), require
+
+\[
+ |S|\le 2r_A(S)\quad(S\subseteq\Delta),
+ \qquad r_F(\Delta)<|\Delta|.
+\]
+
+The first condition is exactly the existence of a partition into two
+independently controlled node blocks; the second is positive adjoint defect.
+The resulting rational type-\((0,0)\) relation must retain nonzero pairing
+with the specified Hodge class and survive the equator-extension and
+base-locus quotients. G012 is the parent partitioned-nodal gate and G008 is
+the terminal-equivalent support gate. B027 excludes full independence, while
+B028/NG-025 exclude the tempting replacement by a mere circuit of the
+smoothing matroid.
 
 Immediate bricks:
 
-1. Construct a global incidence space of partitions
-   \(\Delta=J\sqcup K\) where each part is independent but the union has
-   positive adjoint defect.
+1. Construct an algebraic incidence component satisfying all subset
+   inequalities \(|S|\le2r_A(S)\) and the independent condition
+   \(r_F(\Delta)<|\Delta|\); then prove it actually occurs as the node set of
+   a hypersurface member.
 2. Compare its cross-part defect local system with the global coinvariant
    maps in B011, without coercing global tubes into local relations.
 3. Use B009's quasi-local partition model as the target for G007 and identify
@@ -53,9 +64,11 @@ Immediate bricks:
     NG-023 forbids promoting positive dimension to a prescribed pairing.
 14. Enforce B027/NG-024: full independence is fatal in dimension at least
     four at high power; only partwise independence may be imposed.
-15. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+15. Enforce B028/NG-025: a circuit for \(A\)-evaluation may remain independent
+    for adjoint \(F\)-evaluation, so smoothing dependence is not defect.
+16. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-16. Keep the semiregularity gate G004 as an independent secondary route.
+17. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -86,8 +99,14 @@ singularity contributes a local Milnor basis, not an internal relation.
 B026 equates the six nodal defect dimensions, while NG-023 records that a
 positive defect does not select the prescribed pairing. B027/NG-024 then
 close G009-G011: full independence forces zero high-power defect for
-\(n\ge2\). G012 is the replacement gate, using B009's partitioned quasi-local
-model.
+\(n\ge2\). G012 replaces them with B009's partitioned quasi-local model.
+B028 applies Edmonds' matroid-partition theorem to make that model exact:
+partwise smoothing independence is equivalent to all inequalities
+\(|S|\le2r_A(S)\), but adjoint dependence is a second rank condition. Its
+explicit \(\mathbf P^2\times\mathbf P^2\) configuration shows that a smoothing
+circuit need not have adjoint defect (NG-025). G013 is now the narrowest gate:
+realize both rank conditions on a nodal incidence component and select a
+defect direction pairing with the prescribed class.
 G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

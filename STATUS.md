@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 52% - independent Git repository, mandatory topology,
+- **Infrastructure:** 53% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 29% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 31% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -27,7 +27,9 @@ Date: 2026-08-10
   basis, forcing any detector relation into the global local-to-nearby-fiber
   kernel. B026 identifies six nodal defect dimensions. B027 proves that full
   node independence forces zero high-power defect in dimension at least four,
-  closing G009-G011 and forcing the partitioned target G012. None is
+  closing G009-G011 and forcing the partitioned target G012. B028 gives the
+  exact Edmonds rank inequalities and separates the smoothing and adjoint
+  evaluation matroids, yielding G013. None is
   proof-assistant formalized, and the
   partitioned nodal realization gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -93,7 +95,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   evaluation defect, and local IC.
 - B027 - PROVED: for \(n\ge2\) at high power, full node independence forces
   zero adjoint defect and zero relation space.
-- G012 - EXPLORATORY, active: realize the prescribed pairing on a dependent
+- B028 - PROVED: the two-part smoothing condition is exactly
+  \(|S|\le2r_A(S)\) for every subset, while adjoint rank dominates smoothing
+  rank at high power.
+- G013 - EXPLORATORY, active: realize the prescribed pairing on a nodal node
+  scheme satisfying the smoothing-rank inequalities and positive adjoint
+  corank.
+- G012 - EXPLORATORY parent: realize the prescribed pairing on a dependent
   node set partitioned into independently controlled subsets.
 - G009-G011 - NO-GO: their fully independent-node target has zero relation
   space in the relevant high-power range.
@@ -138,6 +146,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   detector pairing nontrivially with the specified class.
 - NG-024 - NO-GO: full node independence kills the high-power adjoint defect
   and vanishing-cycle relation space for \(n\ge2\).
+- NG-025 - NO-GO: a circuit in the smoothing evaluation matroid may become
+  independent in the adjoint evaluation matroid and yield zero defect.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

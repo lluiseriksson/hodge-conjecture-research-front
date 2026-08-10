@@ -305,6 +305,11 @@ Society Lecture Note Series 343 (2007), 206-263.
   impose independent smoothing conditions, \(H^1(B^\bullet)\) is the rational
   relation space among the vanishing cycles. The stated partition variant
   permits \(I=J\sqcup K\) with each part independent.
+- Checked p. 22 visually: the partition statement follows the universal
+  local-deformation discussion in which nodes are independently smoothed and
+  the parameter slice meets the partial-node strata. Thus “independent” here
+  is a condition on accessible node-smoothing directions, not merely linear
+  independence of the resulting vanishing cycles.
 - Checked pp. 18-19, the six-invariant theorem: for \(L\gg0\), the dimensions
   of the vanishing-cycle relation space, the primitive ambient image, the
   failure of the nodes to impose independent conditions on
@@ -570,6 +575,27 @@ hypersurface singularities,” arXiv:1905.12435 (2019),
   E1924926E45A01B37397D3499B1D6CB825D783B4323168842B878A10028D5B2D.
 - Ebeling survey retrieval SHA-256:
   26897DDDAFE02DF6A9C4EDA949057802C7BFA1BDF4847B8BB81947CA15E03642.
+
+## S031 - Minimum partition of a matroid
+
+Jack Edmonds, “Minimum Partition of a Matroid Into Independent Subsets,”
+*Journal of Research of the National Bureau of Standards B* 69B (1965),
+67-72. [NIST archival PDF](https://nvlpubs.nist.gov/nistpubs/jres/69B/jresv69Bn1-2p67_A1b.pdf),
+[DOI](https://doi.org/10.6028/jres.069B.004).
+
+- Checked p. 67: the abstract defines matroid rank and states the partition
+  criterion in full.
+- Checked p. 69, Theorem 1: a matroid ground set can be partitioned into at
+  most \(k\) independent sets if and only if no subset \(S\) satisfies
+  \(|S|>k r(S)\).
+- Checked pp. 70-71: the proof reduces to spans and circuits and constructs
+  the partition by a finite exchange process; p. 72 records the graph
+  corollary and references.
+- Scope guard: this theorem resolves only the finite combinatorial partition
+  question. It does not construct a node scheme, establish an adjoint defect,
+  compare coherent and rational relation vectors, or prove a Hodge pairing.
+- Local retrieval SHA-256:
+  864357675B91B552E899A2CCEE434A4A28D04749B2FF629DC4BFD49D317A4440.
 
 ## Citation policy for incompletely audited mechanisms
 

@@ -19,7 +19,8 @@ Date: 2026-08-10. Overall status: **EXPLORATORY**.
 Two sufficient attacks feed G008:
 
 \[
-\text{G008}\Longleftarrow\text{partitioned nodal realization G012},
+\text{G008}\Longleftarrow\text{partitioned nodal realization G012}
+\Longleftarrow\text{two-matroid incidence G013},
 \qquad
 \text{G008}\Longleftarrow\text{tube-to-local concentration G007}.
 \]
@@ -132,12 +133,20 @@ proposal G009, now disproved by B027.
 
 ## Current smallest attackable brick
 
-**G012: partitioned nodal-defect realization.** Starting with a global tube
-or quotient-level thimble detector for a specified nonzero primitive Hodge
-class, construct a nodal member with a partition \(\Delta=J\sqcup K\). Each
-part must satisfy the independence needed for B009's quasi-local model, while
-the full set remains dependent and carries a nonzero rational type-\((0,0)\)
-element
+**G013: class-paired two-matroid incidence.** Starting with a global tube or
+quotient-level thimble detector for a specified nonzero primitive Hodge class,
+construct a nodal member whose node set \(\Delta\) satisfies the exact
+rank-function form of G012. Put \(A=L^m\),
+\(F=K_X\otimes A^n\), and let \(r_A,r_F\) be the corresponding point-evaluation
+ranks. B028 and Edmonds' theorem reduce partwise independence and positive
+adjoint defect to
+
+\[
+ |S|\le 2r_A(S)\quad\text{for every }S\subseteq\Delta,
+ \qquad r_F(\Delta)<|\Delta|.
+\]
+
+The defect must carry a nonzero rational type-\((0,0)\) element
 
 \[
  \beta\in\ker\!\left(\bigoplus_y M_y\otimes\mathbf Q(n)
@@ -154,10 +163,13 @@ B022 quotients.
 B026 identifies the relation dimension with the primitive ambient image,
 adjoint node-evaluation defect, and local IC dimension. B027 proves why only
 partwise independence is viable: full independence propagates to the adjoint
-system and kills the defect at high power in dimension at least four. B010
-propagates a successful G012 pairing to G008 and then B007 to HC. A falsifier
-is a nonzero primitive rational Hodge class orthogonal to every partitioned
-quasi-local detector.
+system and kills the defect at high power in dimension at least four. B028
+then proves that a minimal smoothing dependence is still insufficient: on
+\(\mathbf P^2\times\mathbf P^2\), an \(A\)-evaluation circuit can remain
+\(F\)-independent and have zero adjoint defect. Thus both matroid conditions
+must be engineered simultaneously. B010 propagates a successful G013 pairing
+through G012 and G008, then B007 to HC. A falsifier is a nonzero primitive
+rational Hodge class orthogonal to every such two-matroid detector.
 
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a
@@ -250,7 +262,7 @@ This is falsifiable by a triple \((X,L,\zeta)\) whose global invariant is
 nonzero but every high-power local stalk vanishes. It is terminal-equivalent
 after universal quantification. G007 is retained as one concrete geometric
 mechanism proposed for closing G008; its specialization must now be forced
-into the B009 partitioned quasi-local locus required by G012.
+into the B028 two-matroid window required by G013.
 
 ## Attempt audit
 
@@ -289,10 +301,15 @@ into the B009 partitioned quasi-local locus required by G012.
     **defect-annihilation error**. B026-B027 prove that in dimension at least
     four at high power this forces the adjoint defect and relation space to
     vanish. Only partwise independence remains viable.
+12. Replace full independence by a circuit of the smoothing evaluation
+    matroid - **two-matroid error**. B028 gives an explicit
+    \(\mathbf P^2\times\mathbf P^2\) configuration that is minimally dependent
+    for \(A\) but independent for the adjoint system \(F\), hence has no
+    defect. G013 must impose both rank systems.
 
 Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018;
-steps 7-8 are NG-019 and NG-020; step 9 is NG-021; step 10 is NG-022; and
-step 11 is NG-024.
+steps 7-8 are NG-019 and NG-020; step 9 is NG-021; step 10 is NG-022;
+step 11 is NG-024; and step 12 is NG-025.
 Inferring a nonzero local class merely from global
 nonvanishing or a generic slice is NG-011. The open construction must create
 a higher discriminant stratum and verify the specialization through Saito's
@@ -304,7 +321,7 @@ The now-exact geometric sub-obligation is:
 \[
 \text{tube detector for }\zeta
 \longrightarrow
-\text{partitioned nodal }H\text{ with }\zeta|_{X_H}\ne0.
+\text{two-matroid nodal }H\text{ with }\zeta|_{X_H}\ne0.
 \]
 
 B009 controls the quasi-local relation channel on the right-hand object. The arrow remains
@@ -314,7 +331,7 @@ terminal-equivalent because its nonzero restriction is precisely G005.
 
 Green-Griffiths II proposes detecting singular loci as inverse images of
 boundary components of partially compactified Hodge-theoretic classifying
-spaces. This does not yet supply G012. Their class-directed nodal point is
+spaces. This does not yet supply G013. Their class-directed nodal point is
 constructed after assuming HC and writing
 \(k_0\zeta=[W-H]\); the global boundary formula is left with an unspecified
 correction term and incomplete compactification data. Treating the proposed

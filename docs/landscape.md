@@ -46,6 +46,7 @@ boundary, not an induction mechanism.
 | isolated-singularity morsification | B025: the \(\mu\) distinguished vanishing cycles form an integral basis of the local Milnor lattice | supplies no internal relation; a detector must arise from the global kernel of local Milnor lattices mapping to nearby-fiber homology |
 | nodal defect-number equivalence | B026 equates relation dimension, primitive ambient image, adjoint node-evaluation defect, desingularization defects, and local IC dimension | numerical equality does not select the direction pairing with a specified Hodge class |
 | full node independence | B027 propagates defining-system interpolation to adjoint interpolation in dimension at least four at high power | the adjoint defect and relation space vanish; a viable locus must use partwise rather than full independence |
+| two-matroid nodal window | B028 uses Edmonds' theorem to characterize two independently controlled blocks by \(|S|\le2r_A(S)\), while adjoint defect is \(r_F(\Delta)<|\Delta|\) | the two rank systems need not agree; G013 must realize both and select a defect direction pairing with the specified Hodge class |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -137,6 +138,11 @@ boundary, not an induction mechanism.
 27. **Full-independence detector fallacy:** in dimension at least four and at
     high power, B027 shows that full node independence forces zero adjoint
     defect and zero relation space.
+28. **Smoothing-circuit fallacy:** minimal dependence for the defining-system
+    evaluation matroid does not imply dependence for the adjoint evaluation
+    matroid. B028 gives an explicit configuration on
+    \(\mathbf P^2\times\mathbf P^2\) with the first property and zero adjoint
+    defect.
 
 ## Open universal core
 
@@ -180,4 +186,8 @@ B024 verifies global quotient-level detection for complete intersections,
 but NG-021 prevents treating this special topological generation as HC.
 B025/NG-022 exclude internal Milnor relations. B026/NG-023 distinguish exact
 defect dimensions from prescribed pairings. B027/NG-024 close G009-G011 and
-force G012's partitioned quasi-local nodal target.
+force G012's partitioned quasi-local nodal target. B028/NG-025 separate the
+smoothing and adjoint evaluation matroids and exclude a smoothing circuit as
+a sufficient replacement. G013 is the narrowest active gate: construct a
+nodal incidence component satisfying Edmonds' subset inequalities together
+with positive adjoint corank and the prescribed nonzero Saito pairing.

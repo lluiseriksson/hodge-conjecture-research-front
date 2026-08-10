@@ -72,7 +72,7 @@ pairing \(H\times H^\vee\to\mathbf Q\), a family of detector vectors spans
 with some detector. This lemma can be kernel-checked without importing open
 geometry. B027 now falsifies G009's chosen geometric family; no formal span
 axiom may resurrect it. G012's partitioned family remains an explicit open
-hypothesis.
+hypothesis, sharpened by B028 to the rank conditions in G013.
 
 B017 is the corresponding finite-dimensional ascending-chain lemma. A formal
 version may prove stabilization and extraction of a finite basis from a full
@@ -158,6 +158,17 @@ B027 is a stable algebraic formalization target. From surjectivity of
 \(H^1(I_\Delta\otimes A\otimes M)=0\). Coupled to B026, the detector type is
 the zero space. G012 must therefore encode partwise independence and full-set
 dependence as distinct hypotheses.
+
+B028 adds a finite matroid boundary. For the representable evaluation
+matroid with rank \(r_A\), Edmonds' imported partition theorem says that
+\(\Delta\) is a union of two independent sets exactly when
+\(|S|\le2r_A(S)\) for every \(S\subseteq\Delta\). The rank monotonicity
+\(r_A(S)\le r_F(S)\) follows by multiplying by one section of
+\(F\otimes A^{-1}\) nonzero at all points. These are realistic finite
+linear-algebra interfaces. A formalization must keep the smoothing and
+adjoint evaluation matroids as different types: an \(A\)-circuit cannot be
+coerced into a nonzero \(F\)-defect. The geometric realization and
+class-specific pairing in G013 remain explicit open hypotheses.
 
 Rules:
 

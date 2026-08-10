@@ -13,7 +13,7 @@ hodge_type: the input and sought relation have rational type (0,0) after Tate tw
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B009-B013, B016, and B022-B027
+dependencies: B009-B013, B016, and B022-B028
 claim: Every specified primitive rational Hodge class with a nonzero global detector admits a high-degree nodal member whose nodes partition into independently controlled subsets but have a nonzero cross-part relation whose Saito ambient class retains nonzero pairing with the specified class.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class for which every quasi-local partitioned nodal relation at every sufficiently high power has zero Saito pairing
 ---
@@ -61,6 +61,14 @@ but an arbitrary defect subspace may lie in \(\zeta^\perp\). It also need not
 admit a two-part independence decomposition compatible with the local
 discriminant calculation. Positivity alone is NG-023.
 
+## Attempt 2 - Choose a smoothing circuit
+
+A circuit of the \(A\)-evaluation matroid automatically partitions into two
+independent subsets. B028 shows that dependence may disappear in the larger
+adjoint evaluation system \(K_X\otimes A^n\), leaving zero nodal defect and
+zero relation space. Thus circuit selection alone is NG-025. G013 records
+the exact simultaneous rank conditions required of both matroids.
+
 ## Re-entry condition
 
 Construct an incidence correspondence of node partitions over the
@@ -68,4 +76,3 @@ high-degree linear system, prove that the global detector induces a rational
 section of its cross-part defect local system, and establish nonzero pairing
 at one fiber. No step may select the incidence using an algebraic
 representative of \(\zeta\).
-

@@ -63,7 +63,7 @@ standard rational Hodge Conjecture
   <=> primitive singular-hyperplane detection                    [B007, PROVED]
   <=> class-specific nodal vanishing-cycle relation              [B010/G006]
   <=> nonempty codimension-two local support                     [B012/G008]
-      <= partitioned nodal-defect realization                    [B026-B027/G012]
+      <= class-paired two-matroid nodal incidence                [B026-B028/G013]
       <= tube-to-local relation concentration                    [G007, OPEN]
 
 global input:
@@ -77,7 +77,7 @@ secondary route:
   <= all-order semiregular propagation                           [B004, PROVED]
 ```
 
-The active gate is **G012**, a partitioned quasi-local mechanism feeding G008.
+The active gate is **G013**, an exact two-matroid form of G012 feeding G008.
 B012 proves
 that every nonzero primitive class
 has a nonzero global Green-Griffiths invariant and that its local invariant
@@ -112,6 +112,11 @@ finds a fatal incompatibility in G009-G011: in complex dimension at least
 four and at sufficiently high power, full node independence forces the
 adjoint defect and relation space to vanish. The explicit primitive class on
 \(\mathbf P^2\times\mathbf P^2\) disproves G009's proposed span theorem.
+B028 applies Edmonds' partition theorem to the node-smoothing evaluation
+matroid and proves that a two-part decomposition exists exactly when
+\(|S|\le2r_A(S)\) for every subset. It also separates this smoothing matroid
+from the adjoint evaluation matroid: dependence may disappear in the larger
+system, so a smoothing circuit alone gives no defect.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -122,10 +127,10 @@ A generic pencil misses the support, a net can meet it only after
 nonemptiness is known, and B014 rules out an abstract hypercohomology shortcut.
 Green-Griffiths boundary pullbacks do not close the gap because their
 class-directed construction begins under HC. G009-G011 are now NO-GO, not
-open gates. G012 asks instead for a nodal member whose full node set is
-dependent but partitions into independently controlled subsets, with a
-cross-part rational type-\((0,0)\) relation retaining the chosen nonzero
-pairing. The comparison must be computed on the full
+open gates. G013 asks for a nodal member simultaneously satisfying Edmonds'
+smoothing-rank inequalities and positive adjoint corank, with a rational
+type-\((0,0)\) relation retaining the chosen nonzero pairing. The comparison
+must be computed on the full
 specialization complex rather than imposed cycle by cycle, and the class
 must survive both the equator-extension quotient and the pencil base-locus
 kernel. Complete-intersection surjectivity verifies that global source in one

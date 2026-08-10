@@ -505,3 +505,24 @@
   requiring independently controlled parts \(\Delta=J\sqcup K\). Compute
   the cross-part relation in B009's quasi-local model and retain the
   prescribed pairing; this is G012.
+
+## NG-025 - A smoothing circuit need not be an adjoint defect
+
+- **Label:** NO-GO
+- **Route:** choose a minimal dependent set of node-smoothing evaluation
+  functionals, partition its circuit into two independent parts, and infer a
+  nonzero vanishing-cycle relation.
+- **Valid input:** every circuit of the \(A\)-evaluation matroid partitions
+  into two nonempty independent subsets, so it satisfies the combinatorial
+  part of the Green-Griffiths quasi-local hypothesis.
+- **Invalid inference:** dependence for the defining system \(A\) persists in
+  the larger adjoint system \(F=K_X\otimes A^n\).
+- **Precise obstruction:** B028 proves \(r_A(S)\le r_F(S)\) at high power and
+  gives \(m+2\) points on a line in
+  \(\mathbf P^2\times\mathbf P^2\) that form an \(A=\mathcal O(m,m)\) circuit
+  but impose independent conditions on
+  \(F=\mathcal O(2m-3,2m-3)\) for \(m\ge4\). Their adjoint defect is zero.
+- **Re-entry condition:** impose both Edmonds' inequalities
+  \(|S|\le2r_A(S)\) and the independent strict condition
+  \(r_F(\Delta)<|\Delta|\), then construct the nodal member and the
+  class-paired rational relation. This is G013.

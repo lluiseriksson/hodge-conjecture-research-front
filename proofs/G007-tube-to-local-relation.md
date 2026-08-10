@@ -138,7 +138,7 @@ sequence, that the specialized relation maps to a Saito class with the same
 nonzero \(\zeta\)-pairing. Ordinary double points would make the type
 \((0,0)\) condition automatic by B010. B027 excludes full high-power node
 independence, so the target must use B009's partwise-independent quasi-local
-geometry as formulated in G012.
+geometry as sharpened to the two-matroid incidence conditions in G013.
 The specialization datum must include the equator-extension quotient and
 the base-locus projection of B022, not only a map of vanishing-cycle kernels.
 
