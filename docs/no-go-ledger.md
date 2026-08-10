@@ -1121,3 +1121,18 @@
 - **Re-entry condition:** in G044 compute the exact convolution of normal
   support degree with coefficient degree and compare it with the B057
   detector degree. A matching degree must be retained and subtracted in G043.
+
+## NG-057 - Toric parity after detector normalization
+
+- **Label:** NO-GO
+- **Route:** translate the relation channel into the normalized constant-sheaf
+  direct image and then use B078 parity to exclude every proper support.
+- **Valid input:** B080 identifies the degree-one coefficient-IC group with
+  normalized direct-image degree (-1), or raw total degree (2n).
+- **Invalid inference:** proper supports meeting that degree have odd toric
+  parity.
+- **Precise obstruction:** a codimension-(c) support meets normalized degree
+  (-1) at shift (b=1-c). The parity expression is then identically (2n).
+  Thus a divisor at (b=0) and a point at (b=-1) are both allowed.
+- **Re-entry condition:** compute the actual multiplicity Hodge modules and
+  B058 class coordinates for exactly those two shifts, as required by G045.

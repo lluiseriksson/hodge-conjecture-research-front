@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 75% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 76% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -107,7 +107,9 @@ Date: 2026-08-10
   coefficient-sensitive parity/gluing gate. B079/NG056 then prove that a
   blanket extension is false: a positive-genus smooth fiber factor convolves
   an even toric exceptional term into an odd degree-three proper-support
-  summand. The exact B057 coefficient index is now the irreducible calculation.
+  summand. B080/NG057 then complete the exact B057 shift audit: divisor
+  support at (b=0) and point support at (b=-1) are both parity-allowed.
+  G045 is the irreducible multiplicity-and-class-coordinate calculation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -398,6 +400,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   summand (H^1(C,\mathbf Q)(-1)).
 - NG056 - NO-GO: even normal toric degree does not imply even total support
   degree without tracking global fiber coefficient cohomology.
+- B080 - PROVED: the degree-one relation detector is normalized direct-image
+  degree (-1); divisor (b=0) and point (b=-1) are the only generic
+  support shifts on the plane and both satisfy toric parity.
+- NG057 - NO-GO: exact normalization does not rescue parity as a support
+  exclusion mechanism.
+- G045 - EXPLORATORY, active smallest support gate: compute the multiplicity
+  spaces and B058 class coordinates in those two allowed shifts, subtract
+  them, and prove the residual full-support projection remains nonzero.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

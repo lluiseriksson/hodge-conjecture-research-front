@@ -222,6 +222,20 @@ point-supported degree-three term. NG056 therefore rules out a universal
 coefficient-blind parity theorem. G044 must establish the exact index equality
 or inequality for the B057 coefficient object.
 
+B080 completes that index audit. With total dimension (2n+1), the
+degree-one coefficient-IC detector is normalized direct-image degree (-1)
+and raw degree (2n). A codimension-(c) support meets it at (b=1-c), for
+which B078's parity expression is identically (2n). Hence NG057 closes the
+parity-exclusion route. The vertical map now ends at the finite support list
+
+\[
+\text{G043}
+\Longleftarrow
+\text{G045: compute }IC_D\ (b=0)\text{ and }IC_p[1]\ (b=-1)
+\Longleftarrow
+\text{multiplicity spaces plus B058 class coordinates}.
+\]
+
 An externally claimed shortcut is closed separately:
 
 \[

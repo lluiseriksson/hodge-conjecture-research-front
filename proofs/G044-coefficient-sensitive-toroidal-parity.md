@@ -13,7 +13,7 @@ hodge_type: detector target is rational type (0,0) after Q(n); coefficient Hodge
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B058, B071-B079, G043, NG055-NG056
+dependencies: B057-B058, B071-B080, G043, G045, NG055-NG057
 claim: In the exact perverse degree containing the B057-B058 nearby specialization, every proper-support constituent of the B071 pushdown is excluded by a coefficient-sensitive toroidal parity or amplitude bound, so the class has full support whenever its total specialization is nonzero.
 falsifier: an odd coefficient shift, nontrivial descent local system, or boundary gluing term that contributes on proper support in the detector degree
 ---
@@ -62,7 +62,10 @@ B078 proves the needed parity only for the globally toric constant/IC model.
 B079/NG056 prove that arbitrary coefficient convolution can create odd
 proper-support terms, so a coefficient-blind extension is false. B076
 controls the finite-cover trace, and B077 supplies the decomposition, but
-neither identifies the coefficient index of the B057 chain. NG055 therefore
-blocks promotion. This gate does not yet prove that the total
+neither identifies the coefficient index of the B057 chain. B080/NG057 now
+perform the exact detector normalization and show that parity allows both
+relevant shifts: divisor (b=0) and point (b=-1). G045 is therefore the
+remaining multiplicity-and-class calculation inside this gate. This gate does
+not yet prove that the total
 specialization is nonzero, survive either B022 quotient, or retain the
 prescribed pairing.
