@@ -294,9 +294,13 @@ After a generic transverse Lefschetz slice, a divisor term would be punctual
 in ${}^pH^0$ and would contribute to $R^{2n}$; S052 proves that sheaf is
 constant, so the punctual and divisor multiplicities vanish. NG093 records
 why the shifted-IC statement for $R^{2n-1}$ alone is one degree too low.
-G079 is the active concrete gate: construct the selected original lift and
-prove its $E_\infty^{-1,0}$ grade nonzero, which B117 makes automatically
-full-support. G074 must then prove
+B118 now eliminates the other perverse-grade alternative: relative hard
+Lefschetz would reflect point support from ${}^pH^{-1}$ into
+${}^pH^1$, where it would create a punctual summand in the constant
+$R^{2n+2}$. NG094 guards against skipping that reflection. G080 is the
+active concrete gate: construct a nonzero selected nearby class and ordinary
+lift in the original pushdown. B117-B118 then make its relevant grade
+nonzero and full-support. G074 must then prove
 ordinary liftability and preserve the nonzero prescribed pairing through
 both B022 quotients. G073 closes the source
 certificate, and G072 follows by
@@ -688,8 +692,10 @@ G077 requires exclusion of the selected divisor-support coordinates.
 B116/NG092 exclude substituting B008's smooth-point relation vanishing for
 that computation. B117/S052 close the support clause for the original
 incidence pushdown by constancy of the next direct image on every transverse
-Lefschetz disk; NG093 guards the shift. G079 now requires the selected
-original class and nonzero relevant perverse grade.
+Lefschetz disk; NG093 guards the shift. B118/S022/S037 close the competing
+point grade by relative hard Lefschetz and isolated vanishing-cycle
+concentration; NG094 guards the second shift. G080 now requires the selected
+nonzero original nearby class and ordinary lift.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

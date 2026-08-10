@@ -760,10 +760,20 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B117 - PROVED: S052 also makes $R^{2n}$ constant on every generic
   transverse Lefschetz disk; decomposition therefore forces the punctual
   ${}^pH^0$ multiplicity, and hence every original divisor support, to zero.
-- G079 - EXPLORATORY, active smallest gate: construct the collision-certified
-  selected lift directly in the original incidence pushdown and prove its
-  canonical $E_\infty^{-1,0}$ coordinate nonzero. B117 then makes it
-  automatically full-support.
+- G079 - EXPLORATORY parent: construct the collision-certified selected lift
+  directly in the original incidence pushdown and prove its canonical
+  $E_\infty^{-1,0}$ coordinate nonzero.
+- NG094 - NO-GO: high-degree constancy alone is in the wrong degree for a
+  point term of ${}^pH^{-1}$; that term initially lies in $R^{2n}$.
+- B118 - PROVED: relative hard Lefschetz reflects any such point term into
+  ${}^pH^1$, where it would create a punctual summand in $R^{2n+2}$; S022's
+  isolated vanishing-cycle concentration makes that sheaf constant, so the
+  point grade $E_\infty^{0,-1}$ is zero.
+- G080 - EXPLORATORY, active smallest gate: realize the selected B058
+  detector as a nonzero nearby class in the original incidence object,
+  prove its vanishing-cycle obstruction zero, and construct a rational
+  type-$(0,0)$ ordinary lift. B117-B118 then force nonzero full-support
+  relevant-grade landing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

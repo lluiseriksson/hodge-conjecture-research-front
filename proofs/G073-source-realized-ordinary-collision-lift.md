@@ -13,7 +13,7 @@ hodge_type: the source class, nearby class, ordinary lift, and ambient image rat
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B071-B077, B081-B084, B088-B091, B110-B115, G041-G055, G074-G077, NG050-NG067, NG080, NG086-NG091, S023
+dependencies: B022, B057-B059, B071-B077, B081-B084, B088-B091, B110-B118, G041-G055, G074-G080, NG050-NG067, NG080, NG086-NG094, S022-S023, S037, S052
 claim: Construct an actual class-specific collision certificate carrying the selected B057 distributed class t to a nearby class t_psi in the proper IC model, prove can(t_psi)=0 and choose a rational ordinary lift s, and prove the induced ambient image still pairs nontrivially with the prescribed zeta through both B022 quotients; no map on unrelated distributed classes is required.
 falsifier: no collision-certified realization of the selected class, t_psi outside ker(can), loss in either B022 quotient, wrong rational Hodge type, or zero prescribed pairing for every admissible topology-changing comparison
 ---
@@ -69,5 +69,8 @@ isolated in G055; it cannot be a pure change of Hurwitz basis.
 
 Once G073 is proved, G072 becomes defined for this actual $s$ and may compute
 $[s]\in S/(S_0+\ker u)$. Vanishing then closes G071's filtered-lift condition
-and permits G070's restricted dual certificate. G073 itself constructs no
+and permits G070's restricted dual certificate. G080 is the original-object
+nearby-class-and-lift portion of G073. B117-B118 show that once this portion
+is nonzero, no separate proper-support projection remains downstairs.
+G073 itself constructs no
 algebraic cycle and does not resolve the terminal conjecture.

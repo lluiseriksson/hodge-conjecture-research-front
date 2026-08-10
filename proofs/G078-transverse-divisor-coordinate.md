@@ -13,7 +13,7 @@ hodge_type: selected class and every tested coordinate rational type (0,0) after
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B008, B077, B080-B081, B116-B117, G045-G047, G073-G077, G079, NG092-NG093, S052
+dependencies: B008, B077, B080-B081, B116-B118, G045-G047, G073-G077, G079-G080, NG092-NG094, S022, S037, S052
 claim: Construct G077's selected nonzero E_infinity^(-1,0) class and, for every discriminant divisor D, choose a generic noncharacteristic transverse disk; identify the D-strict-support coordinate with the punctual summand on that disk and prove the selected punctual projection is zero. The residual full-support coordinate is then nonzero.
 falsifier: failure to construct the selected class, a characteristic slice, an unidentified perverse shift, a nonzero punctual projection for some D, or a zero residual full-support coordinate
 ---
@@ -59,5 +59,6 @@ pushdown and proves that every punctual divisor-support multiplicity is
 zero. It uses constancy of $R^{d+1}$; NG093 explains why the shifted-IC
 statement for $R^d$ alone would not suffice. Thus no selected punctual
 coordinate remains on the original object. What remains is G079: no
-construction yet realizes $\beta$ there with a nonzero
-$E_\infty^{-1,0}$ coordinate.
+construction yet realizes $\beta$ there. B118 eliminates the competing point
+grade, so G080 only needs to construct a nonzero original nearby class and
+ordinary lift; the relevant grade then follows.

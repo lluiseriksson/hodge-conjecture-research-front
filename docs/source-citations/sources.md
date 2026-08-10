@@ -465,6 +465,13 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   pairs $\gamma_\beta$ with the prescribed primitive class. No auxiliary
   global tube detector appears in Saito's criterion, confirming that the
   $c$ in B105 cancels rather than encoding provenance.
+- Rechecked Proposition 2 and its proof in §2.2, printed pp. 2 and 7, for
+  B118/NG094: an isolated hyperplane singularity is an isolated complete
+  intersection singularity, and its reduced local vanishing cohomology is
+  zero outside degree $2n-1$. Together with the special/nearby/vanishing
+  triangle in §2.1, specialization is therefore an isomorphism in degree
+  $2n+2$. This is used only after relative hard Lefschetz moves the proposed
+  point support into that high direct-image degree.
 - For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
   thimble pair. Naturality proves the boundary square only after a map of
   pairs is supplied. S022 does not construct such a map from an arbitrary
@@ -919,6 +926,13 @@ American Mathematical Society* 46 (2009), 535-633,
   local-system coefficients, proper direct images of intersection complexes
   decompose into shifted intersection complexes. The local variation in
   B039 is geometric because it comes from projective vanishing cohomology.
+- Rechecked Theorem (0.3.2), pp. 127-128, and Theorem (3.1.2), p. 142, for
+  B118: a relative Kähler class gives
+  $\eta^j:{}^pH^{-j}f_*M\simeq{}^pH^jf_*M(j)$. Formula (0.1) makes strict
+  support unique, so this isomorphism carries a point-supported summand in
+  perverse degree $-1$ to a point-supported summand in degree $1$. The
+  discussion on p. 147 explicitly says the Lefschetz maps preserve strict
+  support.
 - Checked de Cataldo-Migliorini Proposition 4.2.1, Example 4.2.5, and
   Theorem 4.2.7. They record the dimension criterion for semismallness, that
   a surjective map between surfaces is semismall, and the no-shift

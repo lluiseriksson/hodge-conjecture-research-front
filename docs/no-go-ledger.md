@@ -1732,3 +1732,20 @@
 - **Re-entry condition:** B117 uses the additional equation (2.2.3):
   $R^{d+1}g_*\mathbf Q$ is constant across a Lefschetz critical value.
   Decomposition then forces the punctual multiplicity to vanish.
+
+## NG-094 - High-degree constancy directly kills the point grade
+
+- **Label:** NO-GO
+- **Route:** use concentration of isolated vanishing cohomology to make high
+  direct images constant, then immediately infer that
+  ${}^pH^{-1}(K)$ has no point support.
+- **Valid input:** $R^{d+3}h_*\mathbf Q$ is unchanged across the isolated
+  collision.
+- **Invalid inference:** a point term in ${}^pH^{-1}$ contributes directly
+  to that sheaf.
+- **Precise obstruction:** its shift is $i_{p*}V[1]$, so it contributes to
+  $\mathcal H^{-1}(K)=R^{d+1}h_*\mathbf Q$. This middle-adjacent sheaf can
+  jump by S022's relation/extra-cohomology group.
+- **Re-entry condition:** B118 applies relative hard Lefschetz supportwise,
+  reflecting the term into ${}^pH^1$ and hence the genuinely constant
+  $R^{d+3}$. The contradiction then becomes valid.

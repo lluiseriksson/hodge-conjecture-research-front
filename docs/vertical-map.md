@@ -296,6 +296,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G079: selected original relevant-grade nonvanishing}
 \Longleftarrow
+\text{G080: selected nonzero original nearby class and lift}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -347,8 +349,12 @@ projection. B117 executes the support calculation for the original incidence
 pushdown: S052 makes $R^{2n}$ constant on the transverse Lefschetz disk, so
 the punctual ${}^pH^0$ multiplicity is zero. NG093 records why the
 shifted-IC theorem for $R^{2n-1}$ alone does not imply this. G079 is the
-remaining class-specific gate: construct the original lift and prove its
-$E_\infty^{-1,0}$ grade nonzero; it is then full-support automatically.
+remaining grade parent. B118 then removes its point-grade alternative:
+relative hard Lefschetz reflects any point support into ${}^pH^1$, but
+S022 makes the resulting $R^{2n+2}$ locally constant. NG094 records why
+high-degree constancy is unusable before this reflection. G080 is the
+remaining class-specific gate: construct a nonzero original nearby class
+and ordinary lift; its relevant coordinate is then nonzero and full-support.
 Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
@@ -521,7 +527,9 @@ support-separation subgate: prove the relevant grade nonzero and every divisor-s
 coordinate zero. B116/NG092 block the smooth-discriminant shortcut, and
 G078 is the transverse-disk formulation. B117/S052 close its support
 multiplicity clause for the original pushdown; NG093 guards the one-degree
-shift. G079 is the active class-specific relevant-grade calculation. G072 is
+shift. B118/S022/S037 remove the point grade, with NG094 guarding the
+reflection step. G080 is the active selected-class realization and ordinary
+lift calculation. G072 is
 the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.

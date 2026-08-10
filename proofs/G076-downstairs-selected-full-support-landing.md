@@ -13,7 +13,7 @@ hodge_type: selected specialization and its full-support coordinate rational typ
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B059, B077, B081-B084, B110-B117, G043, G047-G048, G073-G079, NG053-NG060, NG086-NG093, S052
+dependencies: B057-B059, B077, B081-B084, B110-B118, G043, G047-G048, G073-G080, NG053-NG060, NG086-NG094, S022, S037, S052
 claim: Construct on the original base a collision-certified nearby class and ordinary special lift for the selected B058 detector, and prove that its canonical relevant perverse-grade projection to the full-support strict-support summand is nonzero before the B022 quotient and pairing tests.
 falsifier: undefined original specialization, nonzero vanishing-cycle obstruction, absence of an ordinary lift, confinement to the point grade or divisor/proper-support summand, zero full-support projection, or wrong rational Hodge type
 ---
@@ -45,8 +45,10 @@ B115/NG091 exclude Ngô's support theorem for this universal high-power
 hyperplane family. B117 closes the divisor-support ambiguity by a mechanism
 specific to the original incidence map: every generic transverse Lefschetz
 slice has constant $R^{2n}$, so ${}^pH^0$ has no divisor support. G079 is
-the active subgate: construct the selected original lift and prove its
-canonical relevant grade nonzero. It is then full-support automatically.
+the grade parent, and B118 removes its point-grade alternative by relative
+hard Lefschetz. G080 is the active subgate: construct the selected nonzero
+nearby class and ordinary original lift. Its relevant coordinate is then
+nonzero and full-support automatically.
 
 ## No double counting
 
