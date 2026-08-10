@@ -50,6 +50,7 @@ boundary, not an induction mechanism.
 | first-jet nodal realizability | B029 proves that too many prescribed singular points on one line force second-order vanishing along that line | abstract evaluation-rank conditions do not ensure an isolated nodal member; dependence must be supported without creating a singular carrier |
 | plane-complete-intersection witness | B030 realizes isolated nodality, a two-part independent partition, and adjoint defect one on a plane-containing quintic threefold | P^4 has zero primitive middle cohomology and the plane is a preselected algebraic anchor; no class-specific or general propagation follows |
 | extra-to-primitive map | B031 proves in every degree d at least 3 that the plane-containing relation and extra-homology spaces are one-dimensional while Saito's canonical map to primitive ambient homology is zero | positive defect does not imply a nonzero ambient detector; the literal Green-Griffiths rho(ii) equality is also quarantined |
+| positive ambient-rank witness | B032 realizes defining-system-independent nodes, adjoint defect one, rank-one extra-to-primitive map, and nonzero primitive pairing on a diagonal-containing (2,2) divisor in P^2 x P^2 | the diagonal is a preselected algebraic anchor; compatibility does not supply non-circular class selection |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -158,6 +159,10 @@ boundary, not an induction mechanism.
     \(\rho(i)=\rho(ii)\) ambient-image component conflicts with B031 in
     arbitrarily high degree. NG-028 requires a documented correction before
     that component may be used.
+32. **Anchored-witness propagation fallacy:** B032 realizes all three ranks
+    and a nonzero pairing only because the divisor is forced to contain the
+    algebraic diagonal. NG-029 forbids exporting that witness to an arbitrary
+    Hodge class without a proved class-selection mechanism.
 
 ## Open universal core
 
@@ -213,6 +218,9 @@ B029/NG-026 further require isolated first-jet realizability and exclude the
 first line-supported positive-defect construction. B030 proves the three
 geometric conditions are compatible in a plane-containing quintic, while
 B031 shows more generally that the extra-to-primitive map is zero throughout
-the arbitrary-degree plane-containing family and exposes NG-028. The
-independent ambient-rank condition and the class-specific, non-circular
-incidence problem remain untouched.
+the arbitrary-degree plane-containing family and exposes NG-028. B032 gives
+the complementary rank-one map and nonzero pairing on a
+diagonal-containing \((2,2)\) divisor, proving compatibility of the complete
+finite-rank package. NG-029 isolates the remaining obstruction: the
+diagonal is an already-algebraic anchor. The class-specific, non-circular
+incidence problem remains untouched.

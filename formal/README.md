@@ -197,6 +197,13 @@ range of \(\Phi\). Positive map rank and nonzero pairing must remain separate
 fields in any formal G013 interface. NG-028 also forbids importing the
 literal conflicting Green–Griffiths ambient-image equality as an axiom.
 
+B032 supplies a finite positive model for the separated fields. Its types
+have a seven-element smoothing-independent node set, a one-dimensional
+AdjointDefect and Extra space, and a canonical map of rank one into a
+one-dimensional PrimitiveAmbient line. The nonzero pairing is an additional
+verified scalar. The model must also carry an AlgebraicAnchor flag for the
+diagonal; NG-029 forbids forgetting that flag when mapping into G013.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

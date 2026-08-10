@@ -13,7 +13,7 @@ hodge_type: the specified class and sought Saito relation have rational type (0,
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B009-B013, B016, and B022-B031
+dependencies: B009-B013, B016, and B022-B032
 claim: Every specified primitive rational Hodge class with a nonzero global detector admits a high-degree nodal member whose node scheme satisfies the two-part smoothing-matroid inequalities, has positive adjoint evaluation defect, and contains a rational Saito relation whose ambient class retains nonzero pairing with the specified class.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class for which every nodal node scheme satisfying the two-part matroid inequalities either has zero adjoint defect or has detector image contained in the class annihilator
 ---
@@ -104,4 +104,8 @@ B030 shows that this package is not geometrically empty, but its built-in
 plane cannot supply the required class-selection mechanism. B031 sharpens
 the failure: the extra-to-primitive map is zero in that witness. A viable
 incidence must control this third rank independently of both evaluation
-matroids.
+matroids. B032 supplies the complementary positive-rank witness and even a
+nonzero pairing, but obtains both from a divisor forced to contain the
+algebraic diagonal. NG-029 shows that the remaining requirement is not
+finite-rank compatibility; it is non-circular construction from the input
+class or global detector.

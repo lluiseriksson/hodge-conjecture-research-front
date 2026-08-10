@@ -205,6 +205,15 @@ remaining gate therefore has two independent vector-level parts after
 geometric realization: positive ambient rank and class-directed nonzero
 pairing.
 
+B032 proves that those two parts are compatible with the finite geometric
+conditions in a single example. A \((2,2)\) divisor in
+\(\mathbf P^2\times\mathbf P^2\) containing the diagonal has seven nodes
+independent for the defining system, adjoint defect one, a rank-one
+extra-to-primitive map, and nonzero pairing with the primitive diagonal
+component. The construction begins with that algebraic diagonal. NG-029
+therefore leaves the vertical arrow unchanged: G013 must create the same
+package from \(\zeta\) or a global detector without an algebraic anchor.
+
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a
 finite certificate form, not an effective construction: it neither bounds the
@@ -354,6 +363,10 @@ into the B028 two-matroid window required by G013.
 16. Restore injectivity by taking higher degree - **ampleness error**. B031's
     plane-containing family exists for arbitrarily large degree; NG-028
     quarantines the conflicting literal six-invariant source statement.
+17. Use the diagonal positive-rank witness for an arbitrary class -
+    **algebraic-anchor error**. B032's ambient detector is precisely the
+    primitive projection of the diagonal forced into the divisor. NG-029
+    requires a non-circular replacement.
 
 Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018;
 steps 7-8 are NG-019 and NG-020; step 9 is NG-021; step 10 is NG-022;

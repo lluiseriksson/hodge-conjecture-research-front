@@ -22,7 +22,9 @@ and survive the equator-extension and base-locus quotients. G012 is the
 parent partitioned-nodal gate and G008 is the terminal-equivalent support
 gate. B027 excludes full independence, B028/NG-025 exclude the tempting
 replacement by a mere circuit of the smoothing matroid, and B031/NG-027
-exclude inferring ambient rank from positive defect.
+exclude inferring ambient rank from positive defect. B032 proves the complete
+rank package is compatible in a low-degree anchored example; NG-029 forbids
+using its preselected diagonal for the arbitrary-class step.
 
 Immediate bricks:
 
@@ -82,9 +84,12 @@ Immediate bricks:
     NG-028 also forbids recovering it from the literal printed
     Green–Griffiths \(\rho(ii)\) equality without a documented resolution of
     that source conflict.
-19. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+19. Use B032 as the positive compatibility test for all three ranks and the
+    pairing, but enforce NG-029: its diagonal is an algebraic anchor and
+    cannot be used in the class-selection step.
+20. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-20. Keep the semiregularity gate G004 as an independent secondary route.
+21. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -135,9 +140,16 @@ space is zero and its plane is a built-in algebraic anchor. B031 extends the
 calculation to plane-containing hypersurfaces of every degree \(d\ge3\):
 their extra spaces have dimension one and their canonical ambient maps are
 zero. This proves that ambient rank is genuinely independent and quarantines
-the conflicting literal Green–Griffiths \(\rho(ii)\) equality as NG-028. The
-unresolved content is now sharply class-specific: produce such incidence
-from a global detector without presupposing an algebraic representative.
+the conflicting literal Green–Griffiths \(\rho(ii)\) equality as NG-028.
+B032 supplies the complementary positive case: its diagonal-containing
+\((2,2)\) divisor has seven defining-system-independent nodes, adjoint defect
+one, rank-one ambient image, and nonzero primitive pairing. Thus the complete
+finite-rank package is geometrically compatible. NG-029 records why this is
+not general progress: the desired detector is the primitive component of the
+preselected algebraic diagonal. It is also a low-degree exception, consistent
+with B027's high-power vanishing theorem. The unresolved content is now sharply
+class-specific and non-circular: produce such incidence from a global
+detector without presupposing an algebraic representative.
 G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

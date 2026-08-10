@@ -1,0 +1,19 @@
+{
+  "label": "PROVED arithmetic subcheck; not a standalone geometry proof",
+  "expected": {
+    "h0_O_2_2": 36,
+    "h0_diagonal_O4": 15,
+    "ideal_dimension": 21,
+    "square_ideal_dimension": 6,
+    "normal_jet_rank": 15,
+    "h0_Omega1_4": 15,
+    "node_count": 7,
+    "adjoint_evaluation_source_dimension": 6,
+    "adjoint_evaluation_target_dimension": 7,
+    "adjoint_defect": 1,
+    "primitive_product_is_zero": true,
+    "diagonal_decomposition_holds": true,
+    "gamma_square": 3
+  }
+}
+

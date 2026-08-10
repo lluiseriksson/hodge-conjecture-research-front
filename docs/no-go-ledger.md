@@ -598,3 +598,25 @@
   the plane family. A targeted search through 2026-08-10 found none. Until
   then, retain only independently triangulated non-\(\rho(ii)\) defect
   comparisons and carry \(\operatorname{rank}\Phi_Y\) independently.
+
+## NG-029 - Anchored positive-rank witness as general Hodge progress
+
+- **Label:** NO-GO
+- **Route:** use B032's nodal \((2,2)\) divisor containing the diagonal in
+  \(\mathbf P^2\times\mathbf P^2\) as evidence that G013 can be solved for an
+  arbitrary input Hodge class.
+- **Valid input:** B032 simultaneously realizes defining-system node
+  independence, adjoint defect one, a rational relation, rank-one
+  extra-to-primitive map, and nonzero pairing with the primitive class
+  \(h_1^2-h_1h_2+h_2^2\).
+- **Invalid inference:** the same incidence can be constructed without first
+  choosing an algebraic cycle whose primitive class is the desired detector.
+- **Precise obstruction:** the divisor is required to contain the diagonal.
+  Its extra class is the diagonal's homology class and its nonzero ambient
+  image is proved by computing the already-known algebraic diagonal class.
+  This is Thomas' HC-to-nodal direction, not the missing reverse
+  class-selection mechanism.
+- **Re-entry condition:** replace the fixed diagonal by incidence data
+  constructed functorially from a rational Hodge class or global tube
+  detector, without assuming an algebraic representative, while preserving
+  all three ranks and the nonzero pairing.

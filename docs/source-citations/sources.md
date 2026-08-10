@@ -262,6 +262,12 @@ Geometry* 14 (2005), 177-185.
   high-degree hypersurface having only ordinary double points on \(Z\).
   Therefore this construction cannot be reused to produce \(D\) before
   algebraicity is known.
+- The proof of Theorem 4.2 identifies the singular points with the simple
+  transverse zeros of the first normal derivative in
+  \(N^*_{Z/X}\otimes\mathcal O_X(N)|_Z\), uses Bertini away from \(Z\), and
+  invokes the local criterion that a simple zero of the differential gives
+  an ordinary double point. B032 verifies this normal-jet mechanism directly
+  for the diagonal in \(\mathbf P^2\times\mathbf P^2\).
 - Checked pp. 6-8, Section 5: the attempted nodal deformation route has
   obstruction in \(H^1(I_{\{p_i\}}(NH))\), with
   \(H^1(N_{Z/X})\) injecting into it via the displayed Koszul resolution.
