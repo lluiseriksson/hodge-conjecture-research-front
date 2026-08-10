@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 62% - independent Git repository, mandatory topology,
+- **Infrastructure:** 63% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 40% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 41% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -43,7 +43,9 @@ Date: 2026-08-10
   scaling in middle dimensions at least three. B035 identifies the minimal
   three-block arrangement \(U_{2,5}\), resolves it to a five-marked
   exceptional \(\mathbf P^1\), and isolates the remaining global IC-gluing
-  calculation. None is
+  calculation. B036 proves that the five crossing cokernels overcount the
+  relation space by exactly the vanishing-cycle span rank and identifies the
+  only possible global differential up to target isomorphism. None is
   proof-assistant formalized, and the
   multipart local-channel gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -134,6 +136,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   three independent blocks is \(U_{2,5}\); after one blow-up all local
   degree-two Picard-Lefschetz products vanish, while a global five-marked
   exceptional-curve IC computation remains.
+- B036 - PROVED: the five resolved crossing cokernels form \(\mathbf Q^5\);
+  recovering the relation kernel requires exactly the canonical quotient
+  \(e_i\mapsto\delta_i\), whose derivation from the IC module remains open.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.

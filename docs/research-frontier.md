@@ -23,6 +23,18 @@ crossings. Although \(N_E=\sum_iN_i\) and every local product \(N_EN_i\)
 vanishes, the original IC stalk still requires global hypercohomology on
 that marked exceptional curve and isolation of the downstairs IC summand.
 NG-033 forbids replacing this calculation by the separate crossing stalks.
+B036 quantifies the omitted gluing. Each of the five crossing cokernels is
+one-dimensional, while their desired global relation subspace is
+
+\[
+ \ker\!\left(\mathbf Q^5\xrightarrow{e_i\mapsto\delta_i}
+ \operatorname{span}\{\delta_i\}\right).
+\]
+
+Thus the missing exceptional differential must be the vanishing-cycle map,
+up to target isomorphism. The active calculation is to derive that map from
+the arrangement intermediate-extension module, not merely postulate the
+kernel demanded by G015.
 
 ## Sufficient parent: G014
 
@@ -68,10 +80,9 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Compute the intermediate-extension/quiver hypercohomology on B035's
-   exceptional \(\mathbf P^1\) with five marked points and isolate the
-   downstairs IC summand; determine whether its degree-one group is the full
-   \(U_{2,5}\) relation kernel.
+1. Instantiate S035's induction-to-coinduction intermediate-extension module
+   for B035's \(U_{2,5}\) arrangement and prove that its exceptional gluing
+   differential is B036's canonical map \(e_i\mapsto\delta_i\).
 2. Verify the rational limit-MHS and Saito comparison for that multipart
    channel; a dimension equality alone is insufficient.
 3. If G015 holds, replace the two-block constraint by Edmonds'

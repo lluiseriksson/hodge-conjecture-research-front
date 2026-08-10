@@ -1,0 +1,12 @@
+{
+  "branches": 5,
+  "cases": [
+    {"cycle_span_rank": 1, "relation_dimension": 4, "exceptional_log_rank": 1, "crossing_cokernel_dimensions": [1, 1, 1, 1, 1], "crossing_sum_dimension": 5, "required_global_constraints": 1},
+    {"cycle_span_rank": 2, "relation_dimension": 3, "exceptional_log_rank": 2, "crossing_cokernel_dimensions": [1, 1, 1, 1, 1], "crossing_sum_dimension": 5, "required_global_constraints": 2},
+    {"cycle_span_rank": 3, "relation_dimension": 2, "exceptional_log_rank": 3, "crossing_cokernel_dimensions": [1, 1, 1, 1, 1], "crossing_sum_dimension": 5, "required_global_constraints": 3},
+    {"cycle_span_rank": 4, "relation_dimension": 1, "exceptional_log_rank": 4, "crossing_cokernel_dimensions": [1, 1, 1, 1, 1], "crossing_sum_dimension": 5, "required_global_constraints": 4},
+    {"cycle_span_rank": 5, "relation_dimension": 0, "exceptional_log_rank": 5, "crossing_cokernel_dimensions": [1, 1, 1, 1, 1], "crossing_sum_dimension": 5, "required_global_constraints": 5}
+  ],
+  "identity": "0 -> relations -> Q^5 -> span(delta_i) -> 0",
+  "scope": "exact rational matrix checks only"
+}

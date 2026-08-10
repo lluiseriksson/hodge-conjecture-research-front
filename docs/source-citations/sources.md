@@ -719,11 +719,17 @@ arrangements,” [arXiv:1810.13126](https://arxiv.org/abs/1810.13126).
   an explicit quiver-with-relations description indexed by faces of a real
   arrangement; Bapat identifies modules for intermediate extensions of
   local systems and gives recollement in that framework.
+- Rechecked Bapat's Definition 4.3 and Corollary 5.8 in the primary TeX.
+  Algebraically, the intermediate extension is the image of the natural map
+  from induction \(Re\otimes_{eRe}M\) to coinduction
+  \(\operatorname{Hom}_{eRe}(eR,M)\); Corollary 5.8 identifies that module
+  with the IC extension of the corresponding open-stratum local system.
 - These are candidate tools for G015 because the node-smoothing parameters
   define a central hyperplane arrangement and the required object is an
-  intermediate extension. No theorem from either paper has yet been matched
-  to the higher-rank Picard–Lefschetz local system, the quasi-local blow-up,
-  or Saito's type-\((0,0)\) comparison.
+  intermediate extension. B036 now fixes the target calculation for
+  \(U_{2,5}\): instantiate this image module and test whether its exceptional
+  differential is \(e_i\mapsto\delta_i\). That instantiation and Saito's
+  type-\((0,0)\) comparison remain undone.
 - Scope guard: an arrangement-quiver model by itself does not imply that the
   degree-one stalk equals the full vanishing-cycle relation kernel. A
   dependent \(q\)-block example must be computed explicitly before any

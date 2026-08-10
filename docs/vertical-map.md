@@ -249,7 +249,10 @@ quasi-local relation calculation to \(q\) separately independent blocks.
 B035 reduces its first genuinely new case to \(U_{2,5}\): after blowing up,
 the missing calculation is global intermediate-extension hypercohomology on
 an exceptional \(\mathbf P^1\) with five marked points, not the sum of its
-pairwise crossing complexes. Only after that calculation is proved may the
+pairwise crossing complexes. B036 proves that those five local cokernels
+form \(\mathbf Q^5\) and that the required global differential can only be
+\(e_i\mapsto\delta_i\), up to target isomorphism; deriving that map from the
+actual IC extension remains open. Only after that calculation is proved may the
 fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 

@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009, B028, B034-B035, G012-G014, and Green-Griffiths S021
+dependencies: B009, B028, B034-B036, G012-G014, and Green-Griffiths S021
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -102,6 +102,25 @@ calculation: determine the marked-\(\mathbf P^1\) intermediate-extension
 quiver for a Picard-Lefschetz representation, and test whether its downstairs
 degree-one IC summand is exactly the full five-cycle relation kernel with the
 required rational type \((0,0)\).
+
+## Attempt 3 - Determine the missing gluing rank
+
+B036 computes each marked crossing exactly. If
+\(W=\operatorname{span}\{\delta_1,\ldots,\delta_5\}\) has dimension \(s\),
+then every crossing cokernel is one-dimensional, so their direct sum is
+\(C\simeq\mathbf Q^5\). The desired relation space has the exact sequence
+
+\[
+ 0\longrightarrow R\longrightarrow C
+ \xrightarrow{e_i\mapsto\delta_i}W\longrightarrow0.
+\]
+
+Therefore the exceptional gluing must impose exactly \(s\) independent
+constraints. Up to an isomorphism of its target, the missing differential
+has to be the vanishing-cycle map \(e_i\mapsto\delta_i\). What remains is no
+longer a dimension guess: derive this map from the Bapat
+induction-to-coinduction intermediate-extension module (S035), then compare
+its rational mixed-Hodge structure with B010.
 
 ## Propagation
 
