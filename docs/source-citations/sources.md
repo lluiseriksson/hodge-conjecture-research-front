@@ -1206,6 +1206,48 @@ characteristic zero: the non-embedded case,” *Duke Mathematical Journal* 161
 - Local retrieval SHA-256:
   `0C5E2F27FF35A48D605AB1573B9ACB027B4FD550574855417E643D24336B5CC3`.
 
+## S046 - Functorial semistable reduction in characteristic zero
+
+Karim Adiprasito, Gaku Liu, and Michael Temkin, “Semistable reduction in
+characteristic 0,” [arXiv:1810.03131](https://arxiv.org/abs/1810.03131),
+[versioned PDF](https://arxiv.org/pdf/1810.03131v2) (2019).
+
+- Checked Definition 2.2 and Conjecture 2.4, pp. 3-4: weak semistability of a
+  conical-complex map means cones map onto cones with surjective lattice
+  maps and regular base; semistability additionally requires regular source.
+  The conjecture is the projective alteration/subdivision theorem producing
+  a semistable map.
+- Checked Theorem 2.7, p. 4: the conjecture is proved by a quasi-local
+  construction compatible with pairs of surjective local isomorphisms of
+  source and base. This is stronger than bare existence.
+- Checked the repair clause in Section 2.3.5, pp. 5-6: source subdivisions
+  can destroy weak semistability, and the construction restores it after
+  each such step by the minimal further base dilation/alteration. This
+  directly repairs the obstruction isolated in NG048.
+- Checked Theorem 3.3, p. 7: the polytopal construction is projective,
+  quasi-local, and produces unimodular triangulations of source and base in
+  arbitrary dimension.
+- Checked Theorem 4.4, pp. 19-20: the construction lifts to a projective
+  monoidal resolution of fine log schemes compatible with surjective strict
+  morphisms. A finite group acting by strict automorphisms therefore lifts
+  to the resolved log stacks; B071 records this formal consequence.
+- Checked Theorem 4.5, pp. 20-21: a log-smooth morphism admits a monoidal
+  alteration and source subdivision making it semistable.
+- Checked Remark 4.6, p. 21: if the input consists of schemes, Kawamata's
+  trick can produce schemes, but the usual base alteration is noncanonical.
+  The remark does not assert compatibility with a preassigned finite-group
+  action.
+- Checked Theorem 4.7, p. 21: in characteristic zero the authors obtain a
+  stack-theoretic base modification and projective source modification with
+  regular source/base and SNC boundaries, preserving an already semistable
+  open locus.
+- Scope guard: the paper proves the arbitrary-dimensional relative
+  semistable geometry, not rational mixed-Hodge-module descent, strict
+  support, B022 quotient compatibility, or nonzero detector trace. NG049 and
+  G040 retain those obligations.
+- Local retrieval SHA-256:
+  `09AC6958CC75D7FB2223A17B3109831DA2FF5C8CC8A4DF51E4FA577CEA578700`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B063, B069-B070, G038, and NG048
+dependencies: B063, B069-B071, G038, NG048, and NG049
 claim: The equivariant weakly semistable morphism admits a projective group-equivariant toroidal refinement with smooth source that preserves equidimensional reduced fibers and the rational nearby-cycle trace square.
 falsifier: a required subdivision that breaks equidimensionality or saturation, failure of equivariance/projectivity, or incompatibility of the resulting MHM comparison with pushdown
 ---
@@ -37,7 +37,16 @@ Starting with a finite-Galois weakly semistable model \(Y\to B'\), construct a p
 
 B070 supplies equivariant absolute resolution because functoriality includes automorphisms. NG048 shows that this does not verify items 2-5. A positive proof must work with the cone complexes and lattice maps of the toroidal morphism, not merely with the singular locus of \(Y\).
 
+B071 now supplies exactly that relative construction at the logarithmic
+stack level: the Adiprasito–Liu–Temkin quasi-local semistable resolution is
+projective, arbitrary-dimensional, and compatible with finite-group strict
+automorphisms. Thus items 1-3 are closed in the stacky category. NG049 keeps
+the gate open because the scheme realization is noncanonical and items 4-5
+are not statements of the source theorem.
+
 ## Smallest next obligation
 
-Audit the subdivision stage in Abramovich–Karu and subsequent toroidal desingularization results for a projective \(\Gamma\)-invariant subdivision preserving both equidimensionality and saturation. Then separately identify the induced morphism on rational nearby-cycle Hodge modules.
-
+Prove G040: construct the rational mixed-Hodge nearby-cycle, strict-support,
+and detector-trace square on the equivariant semistable log-stack, or first
+give an equivariant projective scheme realization and prove the same square
+there.

@@ -106,8 +106,14 @@ dimension-uniform equivariant semistable-descent gate. B069 supplies arbitrary-
 dimensional weak semistability after alteration, but NG047 prevents counting
 it as a smooth equivariant detector descent. G038 is now the trace-and-support
 gate. B070 supplies equivariant absolute desingularization, but NG048 shows
-that it does not preserve weak semistability automatically. G039 isolates the
-required relative toroidal refinement. The
+that it does not preserve weak semistability automatically. B071 then imports
+the later Adiprasito-Liu-Temkin theorem: projective semistable reduction exists
+in arbitrary dimension and its quasi-local construction is finite-group
+equivariant at the logarithmic stack level. NG049 preserves the exact scope:
+the scheme realization is noncanonical and the rational Hodge-module detector
+trace is not part of that theorem. G040 is now the smallest active technical
+gate, asking for the invariant full-support nearby-cycle trace through the
+B022 quotients and Saito pairing. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

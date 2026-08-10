@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 67% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 68% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -83,8 +83,11 @@ Date: 2026-08-10
   bare weak-semistable existence in arbitrary dimension, while NG047/G038
   isolate equivariance, smoothness or quotient-MHM control, strict support,
   and nonzero rational detector trace. B070 supplies equivariant absolute
-  resolution; NG048/G039 isolate the still-missing relative toroidal
-  resolution preserving weak semistability and nearby-cycle data.
+  resolution; NG048 blocks its naive relative use. B071 imports the complete
+  arbitrary-dimensional semistable-reduction theorem and lifts finite-group
+  strict automorphisms at the log-stack level. NG049/G040 now isolate the
+  remaining scheme-equivariance or stacky rational-MHM trace, full-support,
+  quotient, and nonzero-pairing obligations.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -318,9 +321,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   under finite group actions.
 - NG048 - NO-GO: absolute equivariant resolution does not automatically
   preserve a weakly semistable morphism or its detector.
-- G039 - EXPLORATORY, active smallest geometric subgate: construct a
-  projective equivariant toroidal refinement preserving equidimensionality,
-  saturation, reduced fibers, and the rational nearby-cycle trace square.
+- B071 - PROVED: projective semistable reduction exists in arbitrary
+  dimension and its quasi-local log-stack construction lifts strict finite-
+  group automorphisms.
+- G039 - EXPLORATORY parent subgate: B071 closes its relative geometric part
+  on log stacks, but not the rational nearby-cycle trace square.
+- NG049 - NO-GO: canonical equivariant stacky semistability does not by
+  itself give an equivariant scheme model or detector descent.
+- G040 - EXPLORATORY, active smallest technical subgate: construct the
+  invariant full-support rational nearby-cycle trace, B022 quotient square,
+  and nonzero Saito pairing on the semistable stack or an equivariant scheme
+  realization.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B063, B067, B069, G037, and NG047
+dependencies: B022, B063, B067, B069, B071, G037, G039-G040, NG047, and NG049
 claim: Weak semistable reduction can be refined equivariantly over the S3 root cover so that the rational full-support detector admits a trace to the original family preserving the B022 class and nonzero pairing.
 falsifier: unavoidable non-equivariance, loss of weak semistability under resolution, detector support confined to exceptional strata, or trace annihilation of the nonzero pairing
 ---
@@ -42,9 +42,13 @@ B070 supplies a smooth finite-group-equivariant **absolute** resolution.
 NG048 shows why composing it with B069 does not establish a smooth weakly
 semistable morphism. G039 now isolates the relative toroidal refinement.
 
+B071 supplies a projective arbitrary-dimensional semistable resolution and
+finite-group equivariance at the canonical log-stack level. NG049 shows why
+this still does not prove a group-equivariant scheme realization or the
+rational detector trace. G040 isolates that remaining comparison.
+
 ## Smallest next audit
 
-Prove G039 by auditing projective equivariant subdivisions of the toroidal
-cone map for preservation of equidimensionality and saturation. Then
-formulate the exact trace square on rational MHM objects before making any
-pairing claim.
+Prove G040 by constructing the exact rational nearby-cycle, strict-support,
+invariant-trace, B022-quotient, and Saito-pairing square on B071's semistable
+log-stack or an explicit equivariant scheme realization.

@@ -982,3 +982,21 @@
   can be changed by arbitrary source blowups.
 - **Re-entry condition:** prove G039 through equivariant subdivisions of the
   toroidal cone/lattice map and then establish the rational MHM trace square.
+
+## NG-049 - Stacky semistability closes detector descent
+
+- **Label:** NO-GO
+- **Route:** apply the canonical semistable reduction of B071 and treat its
+  output as both a finite-group-equivariant smooth scheme model and the
+  rational detector trace required by G038.
+- **Valid input:** S046 proves projective semistable reduction in arbitrary
+  dimension and quasi-local compatibility lifts strict finite-group
+  automorphisms at the logarithmic stack level.
+- **Invalid inference:** the scheme realization is automatically equivariant,
+  and rational nearby-cycle MHM, strict support, both B022 quotients, the
+  Saito map, and the nonzero pairing descend without a separate theorem.
+- **Precise obstruction:** S046 Remark 4.6 explicitly says that Kawamata's
+  scheme realization is noncanonical. S046 contains no mixed-Hodge-module or
+  detector-trace result.
+- **Re-entry condition:** prove G040 either on the finite Deligne-Mumford
+  stack or after an explicit equivariant projective scheme realization.

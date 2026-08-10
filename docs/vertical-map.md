@@ -117,6 +117,26 @@ equidimensionality, saturated monoid maps, reduced fibers, or nearby-cycle
 detectors. G039 is the new smallest geometric gate: a projective equivariant
 relative toroidal resolution preserving all those properties.
 
+B071 substantially closes that geometric gate: the
+Adiprasito-Liu-Temkin projective semistable resolution is quasi-local in all
+dimensions, repairs weak semistability after source subdivisions, and lifts
+finite-group strict automorphisms at the logarithmic stack level. The
+remaining vertical chain is therefore
+
+\[
+\text{G038}
+\Longleftarrow
+\text{G039 stacky semistable geometry (B071)}
+\Longleftarrow
+\text{G040 rational stacky detector trace}.
+\]
+
+NG049 prevents treating this as a completed detector descent: the scheme
+realization in S046 is noncanonical, and no audited theorem yet supplies the
+rational nearby-cycle MHM, invariant full-support pushdown, B022 quotient
+square, or nonzero Saito pairing. G040 is now the smallest active technical
+gate on this branch.
+
 An externally claimed shortcut is closed separately:
 
 \[
