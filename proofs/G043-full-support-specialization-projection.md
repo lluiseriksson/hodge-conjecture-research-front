@@ -13,8 +13,8 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B058, B063, B071-B081, G032, G042, G045-G046, NG053-NG058
-claim: The nearby specialization of the B058 non-equator tube has nonzero canonical perverse associated-graded component whose strict-support projection inside pH^0 to full support is nonzero before the two B022 quotient tests and remains paired nontrivially with the prescribed Hodge class.
+dependencies: B057-B058, B063, B071-B082, G032, G042, NG053-NG059
+claim: A G047 collision lift of the B058 non-equator extension chain has a special boundary class with nonzero canonical perverse associated-graded component whose strict-support projection inside pH^0 to full support is nonzero before the two B022 quotient tests and remains paired nontrivially with the prescribed Hodge class.
 falsifier: specialization zero, confinement to the point-support perverse grade, confinement to divisor support inside pH^0, or orthogonality of the full-support graded class
 ---
 
@@ -25,8 +25,10 @@ falsifier: specialization zero, confinement to the point-support perverse grade,
 
 ## Falsifiable theorem target
 
-Let \(\operatorname{sp}(c)\) denote the canonical nearby specialization of
-the B058 tube. B081/NG058 show that a total derived projection supplied by a
+Let $\beta=\partial_0(\widetilde t)$ be the special boundary of the
+chain-level collision lift required by G047. B082/NG059 show that $\beta$
+cannot be defined directly from the ambient B058 class $c$. B081/NG058 show
+that a total derived projection supplied by a
 chosen decomposition-theorem splitting is not canonical. Replace it by
 
 \[
@@ -40,7 +42,7 @@ inside \({}^pH^0(K)\). Prove
 
 \[
 \operatorname{pr}_{\mathrm{fs}}
-[\operatorname{sp}(c)]_{E_\infty^{-1,0}}\ne0
+[\beta]_{E_\infty^{-1,0}}\ne0
 \]
 
 and that its Saito ambient image is not orthogonal to the prescribed
@@ -56,8 +58,9 @@ primitive rational Hodge class.
 
 ## Smallest next calculation
 
-Prove G046: compute the two canonical perverse-filtration edge components of
-the B057 extension chain. The point term is the separate
+First prove G047, which constructs the special stalk class. Then prove G046
+by computing its two canonical perverse-filtration edge components. The
+point term is the separate
 \(E_\infty^{0,-1}\) grade; only the divisor term shares
 \(E_\infty^{-1,0}\) with full support. Project that grade by its canonical
 strict-support decomposition before applying the two B022 quotient maps.

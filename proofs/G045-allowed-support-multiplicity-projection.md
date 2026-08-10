@@ -13,7 +13,7 @@ hodge_type: detector target is rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B058, B071-B081, G043-G044, G046, NG055-NG058
+dependencies: B057-B058, B071-B082, G043-G044, NG055-NG059
 claim: For the actual B071 pushdown, compute the multiplicities of divisor b=0 and point b=-1 terms; place the B058 class canonically in the perverse filtration, then separate full from divisor support inside pH^0.
 falsifier: an unlisted support meeting normalized degree -1, an uncomputed allowed multiplicity, failure of canonical grade landing, or zero full-support graded projection
 ---
@@ -37,7 +37,7 @@ Both are allowed by toric parity. The required calculation is now:
    or dominated by the B071 semistable construction;
 2. compute the corresponding perverse multiplicity spaces in shifts $0$
    and $-1$, including finite-stabilizer descent;
-3. place the nearby specialization of the B057 extension chain in the
+3. after G047 constructs its special boundary class, place that class in the
    canonical perverse filtration;
 4. treat the point term as the separate \(E_\infty^{0,-1}\) grade and
    separate divisor from full support canonically inside

@@ -149,9 +149,15 @@ correct a canonicity defect: the derived decomposition splitting is
 nonunique, although the perverse filtration and strict-support decomposition
 inside each perverse cohomology object are canonical. The point $b=-1$
 term lies in $E_\infty^{0,-1}$; full and divisor support lie in
-$E_\infty^{-1,0}$. G046 is now the smallest gate: prove the B058 class has
-a nonzero full-support component in that canonical associated grade and
-retains the prescribed pairing. The
+$E_\infty^{-1,0}$. G046 formulates the canonical landing test: prove the
+collision boundary class has a nonzero full-support component in that grade
+and retains the prescribed pairing. B082/NG059 then expose a logically prior
+directionality gate: B022 maps local relations toward ambient homology, but
+B058's ambient class does not canonically map back to a collision stalk.
+G047 is therefore the active smallest gate: construct an algebraic
+chain-level collision lift of the B057 extension chain, obtain its rational
+special boundary class, and preserve nonzero pairing through both B022
+quotients. Only then can G046 analyze its perverse grade. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

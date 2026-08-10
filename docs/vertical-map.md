@@ -254,12 +254,25 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G046: nonzero full-support part of }E_\infty^{-1,0}
 \Longleftarrow
-\text{filtered nearby-specialization edge map for the B057 chain}.
+\text{G047: construct the B057 chain-to-stalk collision lift}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
 filtration grade rather than a component to subtract from the full-support
 grade.
+
+B082/NG059 make the final leftward arrow mandatory. B022 supplies
+
+\[
+\text{local relation}\longrightarrow\mathcal T(Y)
+\longrightarrow PH_{2n}(X),
+\]
+
+not a reverse map from B058's ambient target $c$ to a local stalk. G047 must
+construct a collision family and a relative B057 extension-chain class
+$\widetilde t$ before its special boundary $\beta$ can enter B081's
+perverse filtration. Exact recovery of $c$ is unnecessary; preservation of
+nonzero pairing is the minimal obligation by B059.
 
 An externally claimed shortcut is closed separately:
 

@@ -1153,6 +1153,26 @@
   Only the perverse filtration is canonical. In detector degree -1, the
   full/divisor contribution is $E_\infty^{-1,0}$, while the point term is
   the distinct grade $E_\infty^{0,-1}$.
-- **Re-entry condition:** use G046: pass the B058 class to the canonical
-  $E_\infty^{-1,0}$ grade, then project by strict support inside
+- **Re-entry condition:** after G047 constructs a collision boundary class,
+  use G046: pass it to the canonical $E_\infty^{-1,0}$ grade, then project by strict support inside
   ${}^pH^0$.
+
+## NG-059 - Ambient homology canonically specializes to a collision stalk
+
+- **Label:** NO-GO
+- **Route:** take the B058 ambient primitive homology target $c$ and write a
+  canonical class $\operatorname{sp}(c)\in H^{-1}(i_p^*K)$ at a chosen
+  collision point.
+- **Valid input:** B057 gives a smooth-locus extension-chain representative
+  mapping to $c$, and B081 gives a canonical filtration on a stalk class once
+  such a class exists.
+- **Invalid inference:** ambient homology supplies a canonical reverse lift
+  through the local relation and thimble-quotient maps.
+- **Precise obstruction:** B022's arrows run from local/thimble data through
+  the equator and base-locus quotients to ambient homology. Their kernels make
+  reverse lifts nonunique, and a fixed collision relation space need not
+  contain any lift of $c$. No collision family carrying the B057 chain has
+  yet been constructed.
+- **Re-entry condition:** prove G047 by constructing the topology-changing
+  family and a relative extension-chain class, then apply the family-specific
+  boundary map and test the resulting $\beta$ in G046.

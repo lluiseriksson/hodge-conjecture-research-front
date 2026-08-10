@@ -112,7 +112,11 @@ Date: 2026-08-10
   B081/NG058 correct the total-projection formulation: the derived splitting
   is noncanonical, while the perverse filtration is canonical. Full/divisor
   support lies in $E_\infty^{-1,0}$ and point support lies in
-  $E_\infty^{0,-1}$. G046 is the canonical graded-landing calculation.
+  $E_\infty^{0,-1}$. B082/NG059 show that the ambient B058 target does not
+  itself define a collision-stalk class: all audited B022 arrows point from
+  local/thimble data toward ambient homology. G047 is now prior to G046 and
+  asks for the missing chain-level collision lift and rational special
+  boundary class.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -413,9 +417,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   full/divisor terms and point terms occupy distinct canonical grades.
 - NG058 - NO-GO: a chosen derived splitting does not define a canonical
   total full-support projection of the B058 class.
-- G046 - EXPLORATORY, active smallest support gate: prove the B058 class has
+- G046 - EXPLORATORY: prove the G047 boundary class has
   nonzero full-support projection inside $E_\infty^{-1,0}$ and retains the
   prescribed pairing.
+- B082 - PROVED: the B022 maps are forward quotients from local/thimble data
+  to ambient homology; B058's ambient target supplies no canonical reverse
+  collision-stalk lift.
+- NG059 - NO-GO: the notation $\operatorname{sp}(c)$ is undefined without a
+  collision family and a relative chain class lifting the B057 detector.
+- G047 - EXPLORATORY, active smallest gate: construct that chain-level
+  algebraic collision lift, its rational special boundary class, and its
+  pairing-compatible passage through both B022 quotients.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

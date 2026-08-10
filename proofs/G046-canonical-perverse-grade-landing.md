@@ -13,8 +13,8 @@ hodge_type: the target component must be rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B058, B071-B081, G043-G045, NG053-NG058
-claim: The B058 nearby specialization has nonzero canonical associated-graded component in E_infinity^(-1,0), and its strict-support projection inside pH^0(K) to the full-support summand is nonzero and retains the prescribed pairing.
+dependencies: B057-B058, B071-B082, G043-G045, G047, NG053-NG059
+claim: The G047 collision boundary class has nonzero canonical associated-graded component in E_infinity^(-1,0), and its strict-support projection inside pH^0(K) to the full-support summand is nonzero and retains the prescribed pairing.
 falsifier: the class lies entirely in the point-support grade E_infinity^(0,-1), lies in divisor support inside E_infinity^(-1,0), or its full-support grade is orthogonal to the prescribed Hodge class
 ---
 
@@ -24,7 +24,8 @@ falsifier: the class lies entirely in the point-support grade E_infinity^(0,-1),
 **Parent gates:** G043 / G045
 
 Let $K=f_*\mathbf Q_{\mathcal Y}[2n+1]$ and let
-$\operatorname{sp}(c)\in H^{-1}(i_p^*K)$ be the B058 specialization.
+$\beta=\partial_0(\widetilde t)\in H^{-1}(i_p^*K)$ be the boundary class
+constructed by G047 from the B057 extension chain.
 Use the canonical perverse filtration, not a chosen decomposition of $K$.
 
 The falsifiable target is:
@@ -32,7 +33,7 @@ The falsifiable target is:
 1. prove that the associated-graded class
 
    \[
-   [\operatorname{sp}(c)]_{E_\infty^{-1,0}}
+   [\beta]_{E_\infty^{-1,0}}
    \in E_\infty^{-1,0}
    \]
 
@@ -52,7 +53,7 @@ unstated convention for writing it as $\operatorname{gr}^a_P$ is needed.
 ## Smallest calculation
 
 Construct the filtered nearby-specialization morphism for the B057 extension
-chain and compute its two edge components
+chain supplied by G047 and compute its two edge components
 
 \[
  H^{-1}(i_p^*K)\rightsquigarrow
