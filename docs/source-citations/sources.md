@@ -524,6 +524,43 @@ Computation* 93 (2024), 2985-3025.
 - Local retrieval SHA-256:
   A270214FEC7C34957C0F21EBD17481F05F8A903D97FA06DB29EE030A9553FA0F.
 
+## S030 - Distinguished bases of isolated hypersurface singularities
+
+Egbert Brieskorn, “Die Monodromie der isolierten Singularitäten von
+Hyperflächen,” *Manuscripta Mathematica* 2 (1970), 103-161,
+[DOI](https://doi.org/10.1007/BF01155695),
+[archival record and PDF](https://www.mathnet.ru/eng/mat608).
+
+Wolfgang Ebeling, “Distinguished bases and monodromy of complex
+hypersurface singularities,” arXiv:1905.12435 (2019),
+[arXiv record and PDF](https://arxiv.org/abs/1905.12435).
+
+- Checked p. 1: the survey treats monodromy and distinguished bases for
+  isolated complex hypersurface singularities and records the classical
+  theorems with their original attributions.
+- Checked pp. 3-4: the Milnor fiber has the homotopy type of a bouquet of
+  \(\mu\) middle-dimensional spheres, so its Milnor lattice is free of rank
+  \(\mu\); a morsification has \(\mu\) nondegenerate critical points with
+  distinct critical values.
+- Checked p. 9, Theorem 3 (attributed there to Brieskorn) and Corollary 4:
+  the vanishing cycles associated to a distinguished, respectively weakly
+  distinguished, system form a basis of the Milnor lattice.
+- Checked Brieskorn's appendix in the accessible Russian translation,
+  printed pp. 156-159: the morsification argument proves that the middle
+  homology rank equals the number \(b=\mu\) of Morse points; the supplement
+  on p. 159 states that the transported integral vanishing cycles
+  \(e_1,\ldots,e_b\) generate \(H_n(F_0,\mathbf Z)\). Since the group is free
+  of rank \(b\), these \(b\) generators form an integral basis.
+- Scope guard: this is a local topological basis theorem, not a theorem that
+  the local Milnor lattice injects into a projective nearby fiber. It gives
+  no Hodge type and no algebraic cycle. Its role is to exclude an internal
+  relation among a complete morsification basis; global relations may still
+  occur through a noninjective local-to-global map.
+- Original Brieskorn retrieval SHA-256:
+  E1924926E45A01B37397D3499B1D6CB825D783B4323168842B878A10028D5B2D.
+- Ebeling survey retrieval SHA-256:
+  26897DDDAFE02DF6A9C4EDA949057802C7BFA1BDF4847B8BB81947CA15E03642.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

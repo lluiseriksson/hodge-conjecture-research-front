@@ -24,6 +24,14 @@ Two sufficient attacks feed G008:
 \text{G008}\Longleftarrow\text{tube-to-local concentration G007}.
 \]
 
+The active concrete mechanism feeds G009:
+
+\[
+ \text{G009}
+ \Longleftarrow
+ \text{prescribed local-to-global Milnor defect G010}.
+\]
+
 The first equivalence is BFNP Theorem 1.3 and Theorems 6.5-6.6, audited in
 B007. The concrete terminal obligation is:
 
@@ -129,8 +137,26 @@ sufficient theorem G009.
 
 ## Current smallest attackable brick
 
-**G009: independent-node detector generation.** Prove that the Saito classes
-from every independent-node member across sufficiently high powers span
+**G010: prescribed local-to-global Milnor defect.** Starting with a global
+tube or quotient-level thimble detector for a specified nonzero primitive
+Hodge class, construct an independent-node member and a nonzero rational
+type-\((0,0)\) element
+
+\[
+ \beta\in\ker\!\left(\bigoplus_y M_y\otimes\mathbf Q(n)
+ \longrightarrow H_{2n-1}(Y_\infty,\mathbf Q(n))\right)
+\]
+
+whose Saito class retains nonzero pairing with the specified Hodge class.
+B025 proves that a higher isolated singularity cannot supply this relation
+internally: its distinguished morsification cycles form an integral basis.
+The relation must be a genuinely global failure of the local Milnor
+lattices to inject into nearby-fiber homology. It must also survive the two
+B022 quotients.
+
+G010 is a concrete sufficient mechanism for **G009: independent-node
+detector generation**, whose conclusion is that the Saito classes from every
+independent-node member across sufficiently high powers span
 
 \[
  H_{2n}^{\mathrm{prim}}(X,\mathbf Q(n))^{(0,0)}.
@@ -203,6 +229,14 @@ quotient-level thimble detector. This verifies the source of the proposed
 collision in that special setting. It does not localize the detector, give it
 Saito type \((0,0)\), make it algebraic, or reduce arbitrary varieties to
 complete intersections.
+
+B025 further excludes Milnor-number amplification as a shortcut. The
+\(\mu\) distinguished vanishing cycles of one isolated hypersurface
+singularity are a basis of its rank-\(\mu\) Milnor lattice, so no local
+relation appears merely by colliding Morse points. The next audit must study
+global incidence or defect formulas controlling the kernel of the
+local-to-global Milnor map, with the kernel vector prescribed by the global
+detector rather than found only by dimension count.
 
 The parent gate G008 remains: starting from the already nonzero global class
 \(s(\zeta)\), construct a discriminant point \(p\) with

@@ -442,3 +442,26 @@
   Saito relation, then prove its type \((0,0)\), nonzero pairing, and a
   mechanism reducing arbitrary smooth projective varieties if global scope
   is claimed.
+
+## NG-022 - A higher isolated singularity has no internal morsification relation
+
+- **Label:** NO-GO
+- **Route:** collide several Morse critical points into one higher isolated
+  hypersurface singularity and use the resulting \(\mu\) morsification cycles
+  as a nonzero local relation.
+- **Valid input:** a morsification has \(\mu\) Morse points and therefore
+  supplies \(\mu\) distinguished vanishing cycles.
+- **Invalid inference:** having several vanishing cycles or Milnor number
+  \(\mu>1\) produces a nonzero coefficient vector that kills their classes
+  inside the local Milnor lattice.
+- **Precise obstruction:** B025, using Brieskorn's appendix and Ebeling's
+  Theorem 3 and Corollary 4, proves that the distinguished cycles form an
+  integral basis of the rank
+  \(\mu\) Milnor lattice. The internal rational relation kernel is zero.
+  Any Saito relation must instead lie in the kernel of the map from the sum
+  of local Milnor lattices to homology of the global nearby projective fiber.
+- **Re-entry condition:** construct a global algebraic incidence or
+  topology-changing degeneration for which that local-to-global map has a
+  prescribed kernel vector, and prove rational type \((0,0)\), survival
+  through the B022 quotients, and nonzero pairing with the specified Hodge
+  class.

@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 49% - independent Git repository, mandatory topology,
+- **Infrastructure:** 50% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 25% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 26% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -22,7 +22,10 @@ Date: 2026-08-10
   obstruction to a class-by-class matching-to-cusp comparison in the audited
   surface setting; B022 identifies the equator-extension and base-locus
   quotients before ambient homology; B023 proves Hurwitz kernel invariance.
-  B024 proves complete-intersection global thimble detection. None is
+  B024 proves complete-intersection global thimble detection. B025 proves
+  that an isolated singularity's distinguished morsification cycles form a
+  basis, forcing any detector relation into the global local-to-nearby-fiber
+  kernel. None is
   proof-assistant formalized, and the
   independent-node generation gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -81,7 +84,12 @@ generation from the controlled independent-node locus is not proved.**
 - B024 - PROVED: for a smooth projective complete intersection, the
   quotiented thimble group supplies a nonzero global detector for every
   nonzero primitive class; it is not local or algebraic.
-- G009 - EXPLORATORY, active: prove detector generation using all
+- B025 - PROVED: distinguished morsification cycles form an integral basis
+  of the isolated singularity's Milnor lattice; no internal relation exists.
+- G010 - EXPLORATORY, active: transfer a specified global detector to a
+  rational type-\((0,0)\) kernel vector of an independent-node
+  local-to-global Milnor map while preserving its nonzero Hodge pairing.
+- G009 - EXPLORATORY parent mechanism: prove detector generation using all
   independent-node members across high powers.
 - G008 - EXPLORATORY parent gate: force a class with nonzero global invariant
   to have a nonzero associated local invariant somewhere.
@@ -117,6 +125,9 @@ generation from the controlled independent-node locus is not proved.**
   relation-rank mismatch.
 - NG-021 - NO-GO: complete-intersection thimble surjectivity is topological
   generation, not algebraicity or a local Saito detector theorem.
+- NG-022 - NO-GO: Milnor number greater than one does not itself produce a
+  Saito relation; the dependence must occur in the global local-to-nearby
+  map.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

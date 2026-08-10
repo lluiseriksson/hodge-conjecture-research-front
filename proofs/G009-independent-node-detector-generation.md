@@ -13,7 +13,7 @@ hodge_type: primitive type (0,0) after Tate twist; only type-(0,0) Saito relatio
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B010, B015-B024; boundary attempt audited in S026, matching paths in S027, and thimble/Hurwitz models in S028-S029
+dependencies: B010, B015-B025; boundary attempt audited in S026, matching paths in S027, thimble/Hurwitz models in S028-S029, and isolated Milnor bases in S030
 claim: The rational span of Saito detector classes from all independent-node hyperplane members in all sufficiently high powers equals the primitive rational Hodge homology of X.
 falsifier: a polarized smooth projective 2n-fold with a nonzero primitive rational Hodge cohomology class orthogonal to every Saito detector class arising from every independent-node member in every sufficiently high power
 ---
@@ -171,6 +171,19 @@ independent-node Saito classes, and it supplies no reduction from arbitrary
 smooth projective varieties to complete intersections. The step from global
 topological thimble generation to local Hodge detector generation remains
 G009 itself. Counting the surjection as algebraicity is NG-021.
+
+## Attempt 10 - Create a relation inside one higher isolated singularity
+
+One might collide several Morse points into an isolated singularity of
+Milnor number \(\mu>1\), morsify it, and treat the \(\mu\) vanishing cycles as
+the missing relation. B025 proves the opposite: a distinguished
+morsification gives an integral basis of the rank-\(\mu\) Milnor lattice.
+The internal relation kernel is zero.
+
+The missing dependence must therefore be created by the global embedding of
+one or more local Milnor lattices into the homology of a projective nearby
+fiber. G010 isolates this prescribed local-to-global defect theorem. Counting
+Milnor number alone as a relation is NG-022.
 
 ## Re-entry condition
 

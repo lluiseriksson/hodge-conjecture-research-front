@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; the sought local relation has type (0,0) afte
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B008, B010-B013, B015, and B019-B024
+dependencies: B008, B010-B013, B015, and B019-B025
 claim: Every nonzero primitive rational Hodge class detected by a global Schnell tube is also detected by a type-(0,0) Saito relation concentrated at one singular hyperplane member.
 falsifier: a polarized smooth projective 2n-fold and primitive rational Hodge class with a nonzero global tube detector but orthogonal to every Saito local relation class for every singular member of every polarization power
 ---

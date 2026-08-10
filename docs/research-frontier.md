@@ -1,12 +1,15 @@
 # Research frontier
 
-## Active gate: G009
+## Active gate: G010
 
-For arbitrary \((X,L)\), form the rational span of all Saito detector classes
-coming from independent-node hyperplane members across sufficiently high
-powers. Prove that this span equals primitive rational Hodge homology. B016
-then detects every nonzero primitive Hodge class; B010 and B007 propagate to
-the terminal conjecture. G008 remains the terminal-equivalent parent gate.
+For an arbitrary polarized smooth projective \(2n\)-fold, a specified
+primitive rational Hodge class, and a nonzero global tube or quotient-level
+thimble detector, construct an independent-node member whose local-to-global
+Milnor map has a prescribed nonzero rational type-\((0,0)\) kernel vector.
+Its Saito class must retain nonzero pairing with the specified Hodge class
+and survive the equator-extension and base-locus quotients. This is the
+concrete mechanism G010 feeding detector generation G009; G008 remains the
+terminal-equivalent parent gate.
 
 Immediate bricks:
 
@@ -43,9 +46,15 @@ Immediate bricks:
 11. Use B024 as a positive source-side checkpoint for complete intersections:
     global quotient-level thimble detectors exist, but NG-021 forbids
     counting them as local or algebraic.
-12. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+12. Do not seek the required relation inside one isolated singularity's
+    Milnor lattice. B025 proves its morsification cycles form a basis;
+    NG-022 forces the relation into the global local-to-nearby-fiber kernel.
+13. Audit global defect/incidence formulas for that local-to-global map and
+    demand a prescribed kernel vector with the chosen nonzero pairing, not
+    merely a positive defect dimension.
+14. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-13. Keep the semiregularity gate G004 as an independent secondary route.
+15. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -70,7 +79,10 @@ B022/NG-019 identify the two quotient kernels between a thimble relation and
 ambient homology. B023/NG-020 exclude pure Hurwitz basis change as a repair.
 B024/NG-021 show that complete-intersection primitive homology is globally
 detected by the quotiented thimble group without providing local Hodge
-detectors or algebraicity.
+detectors or algebraicity. B025/NG-022 prove that a higher isolated
+singularity contributes a local Milnor basis, not an internal relation.
+G010 therefore promotes the prescribed kernel of the local-to-global Milnor
+map to the active concrete gate beneath G009.
 G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

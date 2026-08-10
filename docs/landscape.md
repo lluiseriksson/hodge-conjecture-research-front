@@ -43,6 +43,7 @@ boundary, not an induction mechanism.
 | thimble reconstruction | B022 gives a relative thimble basis, its vanishing-cycle boundary, and the exact quotients leading to ambient homology for generic hypersurface pencils | a relation may die as an equator extension or in the base-locus kernel before it becomes an ambient detector |
 | Hurwitz equivalence | B023 shows distinguished bases in a fixed exact Morse fibration are related by invertible moves preserving boundary rank and relation-kernel dimension | cannot model a topology-changing collision or repair the matching/cusp rank mismatch |
 | complete-intersection thimble detection | B024 lifts a nonzero detector for every primitive class through the surjection from the quotiented thimble group | special-family global topology only; no one-fiber Saito class, algebraic cycle, or general reduction follows |
+| isolated-singularity morsification | B025: the \(\mu\) distinguished vanishing cycles form an integral basis of the local Milnor lattice | supplies no internal relation; a detector must arise from the global kernel of local Milnor lattices mapping to nearby-fiber homology |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -124,6 +125,10 @@ boundary, not an induction mechanism.
 24. **Topological-generation fallacy:** surjectivity from a thimble quotient
     to primitive homology produces global topological classes, not algebraic
     cycles or rational type-\((0,0)\) relations at one singular fiber.
+25. **Milnor-number relation fallacy:** a higher isolated hypersurface
+    singularity has \(\mu\) morsification cycles, but they form a basis of its
+    rank-\(\mu\) Milnor lattice. Any relation must be created by the global
+    local-to-nearby-fiber map, not by the isolated germ alone.
 
 ## Open universal core
 
@@ -165,3 +170,6 @@ equator-extension and base-locus quotients. B023 shows that pure Hurwitz
 mutation cannot supply the required topology change.
 B024 verifies global quotient-level detection for complete intersections,
 but NG-021 prevents treating this special topological generation as HC.
+B025/NG-022 exclude internal Milnor relations, and G010 isolates the active
+prescribed local-to-global defect theorem needed to convert a chosen global
+detector into an independent-node Saito relation.

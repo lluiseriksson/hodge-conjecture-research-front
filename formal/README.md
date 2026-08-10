@@ -130,6 +130,21 @@ thimble quotient. The formal conclusion type must remain “global topological
 detector”; it cannot be coerced to an algebraic cycle or local Saito
 detector.
 
+B025 adds a basis-versus-kernel type separation. For an isolated
+hypersurface singularity the distinguished morsification map
+\(\mathbf Q^\mu\to M\otimes\mathbf Q\) is an isomorphism, so its internal
+kernel is zero. The open G010 input has a different type:
+
+\[
+ \ker\!\left(\bigoplus_y M_y\otimes\mathbf Q
+ \longrightarrow H_{2n-1}(Y_\infty,\mathbf Q)\right).
+\]
+
+A formal interface must not coerce the local basis into a global relation.
+Noninjectivity of the displayed local-to-global map, rational type \((0,0)\),
+survival through the B022 quotients, and the class-specific nonzero pairing
+must each remain explicit hypotheses until geometrically proved.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open
