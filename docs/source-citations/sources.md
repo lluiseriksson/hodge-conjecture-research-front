@@ -436,6 +436,12 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   ordinary double points the local vanishing group is \(\mathbf Q(-n)\) with
   unipotent monodromy; the relative-cycle/retraction construction of
   \(\gamma_\beta\) is explicit.
+- Rechecked Section 2.5, printed pp. 8-9, for B099: Saito chooses
+  $\gamma'\in H_{2n}(Y_c,Z_c)$ with boundary $\beta$, transports it by a good
+  retraction to $H_{2n}(Y_0)$, pushes it to $H_{2n}(X)$, and takes the
+  primitive part. Thus equality with B057's ambient class follows if the
+  collision comparison identifies $\gamma'$ with the same relative chain;
+  the source does not prove that identification for an arbitrary B057 word.
 - Rechecked Section 1.4, especially formula (1.4.1) and Proposition 1.7, for
   B040. In a normal-crossing polydisk, the degree-one IC stalk is computed by
   Saito's image-of-monodromy subcomplex in mixed Hodge modules. If

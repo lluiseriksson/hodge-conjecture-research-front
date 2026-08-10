@@ -220,6 +220,12 @@ B057 chain, both B022 kernels are already quotiented and its nearby ambient
 value is $c$. NG074 blocks extending that fact across collision automatically.
 G062 is the active gate: prove B098's nearby ambient map agrees with B010's
 special Saito map on the canonical full-support relation coordinate.
+B099 now reduces that equality using Saito's explicit §2.5 construction: it
+is automatic if the local relation bounds the same nearby relative chain as
+the B057 detector under the good retraction. NG075 blocks obtaining this
+chain identity from a cohomological lift alone. G063 is the active gate:
+construct and compare that relative class, its boundary, and both B022
+quotients.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -450,6 +456,7 @@ python verification/verify_B095_dual_lift_obstruction.py
 python verification/verify_B096_boundary_pairing_dichotomy.py
 python verification/verify_B097_constant_target_square.py
 python verification/verify_B098_two_quotient_map.py
+python verification/verify_B099_same_relative_chain.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -537,6 +544,8 @@ The B097 check verifies that a quotient-compatible constant-target square
 annihilates ambiguity and preserves B058's nonzero pairing.
 The B098 check verifies a finite model of independence from both B022 kernel
 coordinates; the general statement is B022's two exact quotients plus B057.
+The B099 check verifies a finite same-chain boundary/ambient model; the
+general result follows from Saito §2.5's good-retraction construction.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

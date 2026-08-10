@@ -13,7 +13,7 @@ hodge_type: morphism and detector restricted to rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B058, B081-B083, B093-B098, G047-G061, NG069-NG074
+dependencies: B009-B010, B022, B058, B081-B083, B093-B099, G047-G061, G063, NG069-NG075
 claim: After realizing t_psi as the B057 chain, prove that the canonical full-support relation coordinate r_H of every relevant special lift satisfies Phi_H(r_H(beta))=q_P(u(beta)), where Phi_H is B010's Saito ambient map and q_P is B098's nearby quotient map.
 falsifier: landing outside the canonical full-support grade, noncommutativity of the displayed equality, or incompatibility between the topology-changing comparison and B010's Saito ambient map
 ---
@@ -43,4 +43,6 @@ summand.
 
 B097 then preserves the known nonzero pairing. The open content is comparison
 across the topology-changing boundary between two already-defined ambient
-maps, not the generic quotient arithmetic.
+maps, not the generic quotient arithmetic. B099 proves this equality from
+identity of the underlying relative chain; G063 is that exact chain-level
+subgate.

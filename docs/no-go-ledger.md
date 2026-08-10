@@ -1405,3 +1405,16 @@
   or the canonical full-support grade.
 - **Re-entry condition:** G062 must prove
   $\Phi_H(r_H(\beta))=q_P(u\beta)$ on the actual collision object.
+
+## NG-075 - A special lift is Saito's same relative chain
+
+- **Label:** NO-GO
+- **Route:** identify an abstract B083 special-stalk lift with the relative
+  cycle $\gamma'$ used in Saito §2.5.
+- **Valid input:** both objects map to data associated with the same collision.
+- **Invalid inference:** they are the same relative homology representative
+  and have the same local boundary and B022 quotient classes.
+- **Precise obstruction:** B083 lifts form a torsor, while relative lifts of a
+  fixed boundary can differ by absolute, equator, or base-locus classes.
+- **Re-entry condition:** G063 must construct the good-retraction comparison
+  and verify boundary plus both quotient identities explicitly.

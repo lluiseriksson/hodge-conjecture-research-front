@@ -280,7 +280,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
 \Longleftarrow
-\text{G062: nearby/Saito ambient-map comparison}.
+\text{G062: nearby/Saito ambient-map comparison}
+\Longleftarrow
+\text{G063: good-retraction same-chain identity}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -390,6 +392,12 @@ ambient map. NG074 blocks identifying these endpoint maps across a
 topology-changing collision without a theorem. G062 is therefore the current
 smallest endpoint: prove their equality on the canonical full-support
 relation coordinate of the actual special lift.
+B099 reads Saito §2.5 at chain level: if the special relation bounds the same
+relative chain as B057's detector, the two ambient maps agree and their value
+is $c$. NG075 blocks replacing this identity with abstract liftability. G063
+is the current smallest endpoint: build the good-retraction relative cycle,
+compute its boundary, and identify it with B057's class through both B022
+quotients.
 
 An externally claimed shortcut is closed separately:
 
