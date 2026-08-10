@@ -345,6 +345,11 @@ Society Lecture Note Series 343 (2007), 206-263.
   extension class of the \(i\)-th residue summand is
   \(c_1(\mathcal O(L_i))\), so constants map to
   \(\sum_i c_i[L_i]\). No higher-rank theorem is imported from S021.
+- B043 observes that this residue calculation is dimension-independent for
+  a simple uniform arrangement: after one blow-up the exceptional divisor is
+  \(\mathbf P^{d-1}\), every branch residue has the same hyperplane class,
+  and the degree-one connecting morphism is still the sum of residues. The
+  uniform SNC and direct-image arguments are proved inside B043.
 - Checked pp. 18-19 visually and against OCR: the paper explicitly defines
   \(\rho(ii)\) as the dimension of the image of
   \(H_{2n}(X_{s_0})\to H_{2n}(X)_{\mathrm{prim}}\), alongside relations,
@@ -412,6 +417,9 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   directly from the zero mutual intersections of distinct-node vanishing
   cycles; the source is not used for the global incidence or direct-image
   calculation.
+- B043 applies Proposition 1.7 at arbitrary-depth SNC strata, but only after
+  the uniform-matroid geometry proves that at most \(d\) total boundary
+  components meet and all pairwise logarithm products vanish.
 - Rechecked the proof of Theorem 3 in Section 2.7. The unipotent nodal
   vanishing cohomology is one-dimensional and pure of weight \(2n\), hence
   \(\mathbf Q(-n)\); after the \(\mathbf Q(n)\) normalization used in the
@@ -823,6 +831,10 @@ American Mathematical Society* 46 (2009), 535-633,
   that the threefold blow-up direct image has perverse amplitude
   \([-1,1]\). It does not call the non-semismall blow-up semismall or infer
   \(t\)-exactness.
+- B043 similarly proves the dimension-uniform perverse amplitude
+  \([-(d-2),d-2]\) from the exceptional cohomological amplitude before
+  invoking Saito decomposition. The source supplies decomposition and
+  strict support, not the amplitude estimate.
 - Scope guard: the theorem separates the downstairs full-support IC summand
   from point-supported summands. It does not calculate the latter's Hodge
   structures and does not prove that the degree-one relation group has type

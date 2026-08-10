@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B042, G012-G014, Green-Griffiths S021, and Saito S022/S037
+dependencies: B009-B010, B028, B034-B043, G012-G014, G016, Green-Griffiths S021, and Saito S022/S037
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -243,6 +243,21 @@ The calculation suggests a dimension-uniform pattern for simple uniform
 arrangements. The next falsifiable subgate is to prove or refute that pattern
 for \(U_{d,r}\) in arbitrary rank, including the exact perverse-amplitude
 bound for the blow-up of a \(d\)-fold at the origin.
+
+## Attempt 10 - Arbitrary uniform rank
+
+B043 proves the pattern for every simple uniform \(U_{d,r}\). On the
+exceptional \(\mathbf P^{d-1}\), the degree-one cohomology sheaf is
+\(\bigoplus_i\mathbf Q_{L_i}\), the residue transgression is the
+vanishing-cycle map, and the blow-up direct image has perverse amplitude
+\([-(d-2),d-2]\). Undoing the dimension shift places every point-supported
+summand in ordinary degrees \(2\) through \(2d-2\), leaving degree one equal
+to the full-support type-\((0,0)\) relation kernel.
+
+This exhausts the simple uniform case but not G015. G016 now fixes the
+narrowest nonuniform test: seven rank-three branches with exactly one
+dependent triple. Its second wonderful-model blow-up is the first place
+where a dependent-flat exceptional divisor may alter the relation channel.
 
 ## Propagation
 

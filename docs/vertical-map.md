@@ -261,9 +261,10 @@ face-quiver calculation alone for the rational Hodge-type step; B040 instead
 uses Saito's mixed-Hodge-module calculation to prove pure type \((0,0)\)
 after \(\mathbf Q(n)\). B041 extends all four steps uniformly to
 \(U_{2,r}\). B042 computes the exceptional line-incidence row and
-non-semismall shifts for every \(U_{3,r}\). The next subgate is the uniform
-\(U_{d,r}\) theorem, followed by nonuniform multipart arrangements. Only
-after that general calculation is
+non-semismall shifts for every \(U_{3,r}\). B043 proves the dimension-uniform
+\(U_{d,r}\) theorem. G016 is the next subgate: one dependent triple requires
+a second wonderful-model exceptional divisor. Only after the nonuniform
+calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 

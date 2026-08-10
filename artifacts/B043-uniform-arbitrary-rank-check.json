@@ -1,0 +1,15 @@
+{
+  "arrangements": "U_(d,r)",
+  "tested_dimensions": [2, 10],
+  "tested_branch_offsets": [0, 10],
+  "tested_rank_cases": 1089,
+  "tested_incidence_depth_cases": 495,
+  "exceptional_divisor": "P^(d-1)",
+  "cohomology_sheaf_H1": "direct sum_i Q_(L_i)",
+  "residue_map": "d2(a_i) = sum_i a_i delta_i",
+  "perverse_direct_image_range": "[-(d-2), d-2]",
+  "point_summand_ordinary_degrees": "[2, 2d-2]",
+  "point_summand_H1_contribution": 0,
+  "kernel_hodge_type": "(0,0)",
+  "scope": "finite incidence, shift, rank, and Hodge-number bookkeeping only"
+}

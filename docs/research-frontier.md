@@ -66,8 +66,14 @@ B041 proves the same statement for every \(U_{2,r}\) central line
 arrangement. B042 then computes \(U_{3,r}\): the pair-point stalk is the
 direct sum of its two incident line generators, the residue map is
 \(e_i\mapsto\delta_i\), and non-semismall point summands occur only in
-ordinary degrees \(2,3,4\). The next falsifiable subgate is the uniform
-\(U_{d,r}\) theorem. Nonuniform multipart resolution remains separate.
+ordinary degrees \(2,3,4\). B043 extends the calculation to every simple
+uniform \(U_{d,r}\): point-supported terms range from ordinary degree \(2\)
+to \(2d-2\), never degree one.
+
+The active falsifiable subgate is G016, the smallest nonuniform test: a
+rank-three seven-branch arrangement with exactly one dependent triple. Its
+wonderful resolution requires a second blow-up over that flat, and the new
+exceptional incidence differential has not been computed.
 
 ## Sufficient parent: G014
 
@@ -113,11 +119,13 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Prove or refute the uniform \(U_{d,r}\) relation-channel theorem in every
-   rank, including the exceptional \(\mathbf P^{d-1}\) incidence sheaf and
-   exact perverse-amplitude bound.
-2. Extend the calculation to nonuniform multipart arrangements, including
-   wonderful resolutions and all additional exceptional centers.
+1. Compute G016's second-exceptional local sheaf, residue differential, and
+   gluing to the three branches through the dependent flat.
+2. Audit the perverse support shifts for the composite two-stage blow-up and
+   determine whether ordinary degree one remains the full-support IC stalk.
+3. If G016 succeeds, formulate the nested-flat induction required for a
+   general wonderful resolution; if it fails, record the lost or spurious
+   relation as a NO-GO.
 3. If G015 holds, replace the two-block constraint by Edmonds'
    \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
    fixed-carrier constructions.

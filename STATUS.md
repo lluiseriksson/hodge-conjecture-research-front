@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 69% - independent Git repository, mandatory topology,
+- **Infrastructure:** 70% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 47% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 48% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -52,7 +52,8 @@ Date: 2026-08-10
   \(U_{2,5}\) topological IC calculation. B040 proves that this group is pure
   type \((0,0)\) after the explicit Tate twist, and B041 extends the result
   to every \(U_{2,r}\). B042 handles the first higher-rank incidence and
-  proves the result for every \(U_{3,r}\). None is
+  proves the result for every \(U_{3,r}\); B043 proves it for every simple
+  uniform \(U_{d,r}\). None is
   proof-assistant formalized, and the
   multipart local-channel gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -164,6 +165,12 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B042 - PROVED: the exceptional line-incidence complex, non-semismall
   direct-image shifts, and Tate kernel give the full relation channel for
   every \(U_{3,r}\), including \(U_{3,7}\).
+- B043 - PROVED: for every simple uniform \(U_{d,r}\), the exceptional
+  hyperplane-incidence sheaf, residue, direct-image amplitude, and Tate type
+  give the full rational relation channel.
+- G016 - EXPLORATORY, active subgate: compute the two-stage wonderful
+  resolution for seven rank-three branches with exactly one dependent
+  triple.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.
