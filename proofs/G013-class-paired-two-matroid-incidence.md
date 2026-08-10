@@ -13,7 +13,7 @@ hodge_type: the specified class and sought Saito relation have rational type (0,
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B009-B013, B016, and B022-B029
+dependencies: B009-B013, B016, and B022-B030
 claim: Every specified primitive rational Hodge class with a nonzero global detector admits a high-degree nodal member whose node scheme satisfies the two-part smoothing-matroid inequalities, has positive adjoint evaluation defect, and contains a rational Saito relation whose ambient class retains nonzero pairing with the specified class.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class for which every nodal node scheme satisfying the two-part matroid inequalities either has zero adjoint defect or has detector image contained in the class annihilator
 ---
@@ -68,6 +68,25 @@ second order along \(C\); the whole line lies in its singular locus. Thus
 overloading this low-degree carrier trades adjoint dependence for
 nonisolated singularities. This route is NG-026.
 
+## Attempt 3 - Use a zero-dimensional plane complete intersection
+
+B030 gives a positive compatibility witness. A quintic threefold in
+\(\mathbf P^4\) containing a plane can have \(16\) nodes forming a
+\((4,4)\) complete intersection on that plane. Factoring one quartic into two
+conics partitions the nodes into two \((2,4)\) eight-point sets; each half
+imposes independent conditions on \(\mathcal O(5)\), while the union has
+defect one for
+
+\[
+ K_{\mathbf P^4}\otimes\mathcal O(5)^2=\mathcal O(5).
+\]
+
+Thus the two rank systems and isolated nodality are compatible. This does
+not advance the class-specific gate: \(\mathbf P^4\) has zero primitive
+middle cohomology, and the contained plane is an algebraic anchor built into
+the construction. Importing that anchor for an arbitrary \(\zeta\) would
+repeat NG-013.
+
 ## Re-entry condition
 
 Construct an algebraic incidence component on which the Edmonds inequalities
@@ -78,3 +97,5 @@ overloading one low-degree carrier. Then build a rational comparison from its
 adjoint cokernel to the Saito relation local system and prove that the global
 detector gives a section not everywhere annihilated by \(\zeta\). The
 incidence must be defined without an algebraic representative of \(\zeta\).
+B030 shows that this package is not geometrically empty, but its built-in
+plane cannot supply the required class-selection mechanism.

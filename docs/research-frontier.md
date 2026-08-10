@@ -69,9 +69,12 @@ Immediate bricks:
 16. Enforce B029/NG-026: adjoint dependence obtained by overloading one
     low-degree line forces a nonisolated singular locus; first-jet nodal
     realizability is independent of both evaluation-rank conditions.
-17. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+17. Use B030 only as a compatibility witness: its plane-containing quintic
+    realizes isolated nodes and both matroid conditions, but has no primitive
+    ambient class and begins with an algebraic anchor.
+18. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-18. Keep the semiregularity gate G004 as an independent secondary route.
+19. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -113,7 +116,11 @@ defect direction pairing with the prescribed class. B029/NG-026 test the
 first collinear positive-defect configuration and show that it is singular
 along its carrier line. The next construction must obtain adjoint dependence
 from distributed or genuinely zero-dimensional incidence while preserving
-isolated first jets.
+isolated first jets. B030 proves that the full geometric rank package is
+nonempty for a plane-containing quintic, but the ambient primitive middle
+space is zero and its plane is a built-in algebraic anchor. The unresolved
+content is now sharply class-specific: produce such incidence from a global
+detector without presupposing an algebraic representative.
 G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

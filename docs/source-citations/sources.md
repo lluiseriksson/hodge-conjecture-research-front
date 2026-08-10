@@ -597,6 +597,27 @@ Jack Edmonds, “Minimum Partition of a Matroid Into Independent Subsets,”
 - Local retrieval SHA-256:
   864357675B91B552E899A2CCEE434A4A28D04749B2FF629DC4BFD49D317A4440.
 
+## S032 - Plane-containing nodal hypersurfaces with defect
+
+Remke Kloosterman, “Maximal families of nodal varieties with defect,”
+*Mathematische Zeitschrift* 300 (2022), 1141-1156.
+[Open-access article](https://link.springer.com/article/10.1007/s00209-021-02814-7),
+[arXiv manuscript](https://arxiv.org/abs/1310.0227),
+[DOI](https://doi.org/10.1007/s00209-021-02814-7).
+
+- Checked the abstract and Theorem 1.1: a degree-\(d\) nodal hypersurface in
+  \(\mathbf P^4\) with positive defect has at least \((d-1)^2\) nodes, with
+  equality forcing a contained plane.
+- Checked manuscript p. 8 visually: hypersurfaces containing a fixed plane
+  have the form \(\ell_1f_1+\ell_2f_2\), \(\deg f_i=d-1\), and a general
+  member is nodal; this is the maximal-dimensional defect family in the
+  stated setting.
+- B030 specializes to \(d=5\) and supplies its own transverse Hessian and
+  Koszul calculations. The source does not assert the two-part matroid
+  partition or a class-specific Hodge pairing.
+- Local retrieval SHA-256:
+  1200097775A38569C4250703ED83F983FEA236D348A2C39EDA414E3D2A7B2FC4.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

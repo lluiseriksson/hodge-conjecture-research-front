@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 54% - independent Git repository, mandatory topology,
+- **Infrastructure:** 55% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 32% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 33% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -30,7 +30,10 @@ Date: 2026-08-10
   closing G009-G011 and forcing the partitioned target G012. B028 gives the
   exact Edmonds rank inequalities and separates the smoothing and adjoint
   evaluation matroids, yielding G013. B029 proves that the first collinear
-  positive-defect configuration forces a nonisolated singular line. None is
+  positive-defect configuration forces a nonisolated singular line. B030
+  proves that a zero-dimensional plane complete intersection can satisfy
+  isolated nodality and both rank conditions, but only in a class-blind
+  special family. None is
   proof-assistant formalized, and the
   partitioned nodal realization gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -102,6 +105,9 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B029 - PROVED: on \(\mathbf P^2\times\mathbf P^2\), more than \(m\)
   prescribed singular points of a line for \(\mathcal O(m,m)\) force the
   entire line into the singular locus.
+- B030 - PROVED: a plane-containing nodal quintic in \(\mathbf P^4\) has 16
+  nodes partitioned into two quintic-independent halves while the union has
+  adjoint defect one; its primitive middle target is zero.
 - G013 - EXPLORATORY, active: realize the prescribed pairing on a nodal node
   scheme satisfying the smoothing-rank inequalities and positive adjoint
   corank.

@@ -179,6 +179,16 @@ isolated. The remaining incidence must produce adjoint dependence through
 distributed support or a zero-dimensional Cayley-Bacharach mechanism while
 retaining isolated first jets.
 
+B030 shows that these geometric requirements are mutually compatible. A
+plane-containing quintic threefold in \(\mathbf P^4\) has sixteen nodes that
+split into two eight-point \((2,4)\) complete intersections, each independent
+for quintics, while the full \((4,4)\) set has one-dimensional quintic—and
+hence adjoint—defect. This is not a detector instance: the primitive middle
+cohomology of \(\mathbf P^4\) is zero and the plane is an algebraic anchor
+built into the equation. It isolates the remaining difficulty as
+class-directed, non-circular incidence rather than compatibility of the three
+geometric conditions.
+
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a
 finite certificate form, not an effective construction: it neither bounds the
@@ -318,10 +328,15 @@ into the B028 two-matroid window required by G013.
     **isolation error**. B029 shows that the first normal jet then vanishes
     along the line, producing a positive-dimensional singular locus rather
     than a nodal member.
+14. Replace the line by a plane complete intersection - **geometrically
+    valid but class-blind**. B030 realizes nodality, the two-part partition,
+    and defect one, but its ambient primitive Hodge target is zero and the
+    construction starts from a contained algebraic plane.
 
 Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018;
 steps 7-8 are NG-019 and NG-020; step 9 is NG-021; step 10 is NG-022;
-step 11 is NG-024; step 12 is NG-025; and step 13 is NG-026.
+step 11 is NG-024; step 12 is NG-025; and step 13 is NG-026. Step 14 is a
+special-family checkpoint, not a NO-GO or general advance.
 Inferring a nonzero local class merely from global
 nonvanishing or a generic slice is NG-011. The open construction must create
 a higher discriminant stratum and verify the specialization through Saito's

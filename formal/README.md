@@ -179,6 +179,13 @@ section of \(\mathcal O(d)\) give a small formalizable proof that more than
 incidence type must therefore carry isolated-nodality data separately from
 the smoothing and adjoint rank predicates.
 
+B030 is a finite coherent-cohomology test case. The two Koszul resolutions
+for \((2,4)\) and \((4,4)\) point complete intersections on \(\mathbf P^2\)
+formally reduce the rank statements to the cohomology of
+\(\mathcal O_{\mathbf P^2}(k)\). Its output type must remain “special
+incidence witness”: because \(H^4_{\mathrm{prim}}(\mathbf P^4)=0\), it cannot
+be coerced into the class-paired detector interface of G013.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open
