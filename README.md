@@ -163,6 +163,12 @@ this fixed-carrier NO-GO. G015 asks for the exact multipart local
 intersection-cohomology calculation needed before a dimension-scaled
 incidence theorem can replace the bipartite route; NG-032 forbids a naive
 induction because unions of independent blocks need not be independent.
+B035 isolates the first genuinely multipart calculation: the simple
+arrangement \(U_{2,5}\). Its blow-up is an exceptional \(\mathbf P^1\) with
+five marked crossings. Every crossingwise degree-two Picard-Lefschetz term
+vanishes, but the global exceptional-curve hypercohomology and the
+downstairs intermediate-extension summand remain uncomputed; NG-033 records
+why separate crossing calculations cannot replace them.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -207,6 +213,7 @@ python verification/verify_B031_plane_family.py
 python verification/verify_B032_diagonal.py
 python verification/verify_B033_high_power_diagonal.py
 python verification/verify_B034_block_growth.py
+python verification/verify_B035_multipart_arrangement.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -217,6 +224,7 @@ B032 check reproduces its dimension, Chern-number, and truncated
 cohomology-ring arithmetic. The B033 check reproduces its general Chern,
 evaluation-rank, defect, and primitive arithmetic. The B034 check reproduces
 exact higher-dimensional diagonal Chern counts and block-capacity lower
-bounds. Green checks certify consistency and those
+bounds. The B035 check verifies the finite \(U_{2,r}\) block numbers and the
+exceptional-star incidence graph. Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

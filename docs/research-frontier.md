@@ -15,6 +15,15 @@ independent block tends to \(n!\). Two blocks are eventually impossible for
 \(n\ge3\). NG-032 shows why the bipartite theorem cannot simply be iterated:
 the union of \(q-1\) independent blocks need not be independent.
 
+B035 fixes the first new test case. Five distinct lines through the origin
+of a two-dimensional smoothing slice have matroid \(U_{2,5}\), with a
+\(2+2+1\) independent-block partition and no two-block partition. One
+blow-up replaces the origin by \(E\simeq\mathbf P^1\) with five marked
+crossings. Although \(N_E=\sum_iN_i\) and every local product \(N_EN_i\)
+vanishes, the original IC stalk still requires global hypercohomology on
+that marked exceptional curve and isolation of the downstairs IC summand.
+NG-033 forbids replacing this calculation by the separate crossing stalks.
+
 ## Sufficient parent: G014
 
 For each smooth projective complex variety in the middle-degree reduction,
@@ -59,8 +68,10 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Compute the multipart local monodromy/Čech/Koszul complex and determine
-   whether its degree-one cohomology is the full relation kernel.
+1. Compute the intermediate-extension/quiver hypercohomology on B035's
+   exceptional \(\mathbf P^1\) with five marked points and isolate the
+   downstairs IC summand; determine whether its degree-one group is the full
+   \(U_{2,5}\) relation kernel.
 2. Verify the rational limit-MHS and Saito comparison for that multipart
    channel; a dimension equality alone is insufficient.
 3. If G015 holds, replace the two-block constraint by Edmonds'

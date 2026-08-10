@@ -246,8 +246,12 @@ most \(d m^n/n!+O(m^{n-1})\). Thus two blocks are eventually impossible for
 \(n\ge3\). G014 remains sufficient but is not proved equivalent to HC.
 The active smallest local gate is G015: extend B009's bipartite
 quasi-local relation calculation to \(q\) separately independent blocks.
-Only after that calculation is proved may the fixed-carrier branch replace
-the two-block inequality by \(|S|\le q r_A(S)\).
+B035 reduces its first genuinely new case to \(U_{2,5}\): after blowing up,
+the missing calculation is global intermediate-extension hypercohomology on
+an exceptional \(\mathbf P^1\) with five marked points, not the sum of its
+pairwise crossing complexes. Only after that calculation is proved may the
+fixed-carrier branch replace the two-block inequality by
+\(|S|\le q r_A(S)\).
 
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a

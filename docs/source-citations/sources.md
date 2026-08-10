@@ -729,6 +729,25 @@ arrangements,” [arXiv:1810.13126](https://arxiv.org/abs/1810.13126).
   dependent \(q\)-block example must be computed explicitly before any
   promotion.
 
+## S036 - Abelian-monodromy limit Hodge structures
+
+András Némethi and Joseph Steenbrink, “Extending Hodge bundles for abelian
+variations,” *Annals of Mathematics* 143 (1996), 131-148.
+[Official Annals record](https://annals.math.princeton.edu/articles/13216).
+
+- Checked the official bibliographic record and abstract. The paper treats a
+  local variation of Hodge structure with abelian monodromy and proves a
+  canonical limit mixed Hodge structure and a nilpotent-orbit theorem in
+  that setting.
+- This supports the relevance of commuting monodromy to G015, but the
+  official scope does not state the B035 calculation: it does not identify
+  the downstairs intermediate-extension stalk with the full relation kernel
+  for the \(U_{2,5}\) arrangement or remove point-supported summands after
+  the blow-up.
+- No theorem from S036 is used to promote the unresolved IC or type-\((0,0)\)
+  comparison. B035's promoted content is the elementary arrangement,
+  blow-up, and Picard-Lefschetz reduction only.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

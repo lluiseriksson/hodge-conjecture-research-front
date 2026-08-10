@@ -678,3 +678,24 @@
 - **Re-entry condition:** compute the genuine multipart monodromy and local
   intersection-cohomology complex, including higher block intersections.
   This is G015.
+
+## NG-033 - Crossingwise resolution as the multipart IC computation
+
+- **Label:** NO-GO
+- **Route:** resolve the multipart discriminant and identify the desired
+  local intersection-cohomology group with the direct sum of the Koszul
+  groups at the resulting pairwise normal crossings.
+- **Valid input:** B035 resolves the minimal \(U_{2,5}\) arrangement by one
+  blow-up. At every crossing \(E\cap\widetilde H_i\), the Picard-Lefschetz
+  logarithms satisfy \(N_EN_i=0\).
+- **Invalid inference:** vanishing of every crossingwise degree-two term
+  computes the stalk of the intermediate extension at the original origin.
+- **Precise obstruction:** the exceptional fiber is a complete
+  \(\mathbf P^1\) with five marked points. Proper base change produces its
+  global hypercohomology, not a direct sum of crossing stalks. The desired
+  downstairs intermediate-extension summand must also be separated from
+  possible point-supported summands in the proper direct image.
+- **Re-entry condition:** compute the full marked-\(\mathbf P^1\)
+  intermediate-extension quiver for the Picard-Lefschetz representation,
+  isolate the downstairs IC summand, and compare its rational degree-one
+  group and Hodge type with the five-cycle relation kernel.

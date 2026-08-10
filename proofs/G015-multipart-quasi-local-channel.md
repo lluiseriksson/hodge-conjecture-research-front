@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009, B028, B034, G012-G014, and Green-Griffiths S021
+dependencies: B009, B028, B034-B035, G012-G014, and Green-Griffiths S021
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -76,6 +76,32 @@ cohomology before comparing it with local intersection cohomology. A proof
 must show that additional Čech/Koszul terms do not quotient out cross-block
 relations or add spurious classes. It must then verify rationality and the
 type-\((0,0)\) comparison used by B010.
+
+## Attempt 2 - Resolve the smallest three-block arrangement
+
+B035 identifies the minimal simple model as five distinct lines through the
+origin of a two-dimensional smoothing slice, with matroid \(U_{2,5}\) and
+block sizes \(2+2+1\). Blowing up the origin gives an SNC star whose center
+is an exceptional \(\mathbf P^1\) meeting the five strict transforms.
+
+For disjoint ordinary double points, Picard-Lefschetz gives
+
+\[
+ N_E=\sum_{i=1}^5N_i,\qquad N_EN_i=0.
+\]
+
+Thus every degree-two Koszul term at an individual resolved crossing
+vanishes. This does **not** finish the computation. Proper base change leaves
+the hypercohomology of the intermediate extension over the entire marked
+exceptional \(\mathbf P^1\), followed by isolation of the downstairs IC
+summand. Replacing that global calculation by the separate crossing stalks
+is NG-033.
+
+The current falsifiable subgate is therefore the explicit \(U_{2,5}\)
+calculation: determine the marked-\(\mathbf P^1\) intermediate-extension
+quiver for a Picard-Lefschetz representation, and test whether its downstairs
+degree-one IC summand is exactly the full five-cycle relation kernel with the
+required rational type \((0,0)\).
 
 ## Propagation
 

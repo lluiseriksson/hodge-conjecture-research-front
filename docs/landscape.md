@@ -54,6 +54,7 @@ boundary, not an induction mechanism.
 | high-power positive-rank witness | B033 proves that every diagonal-containing (m,m) family for m at least 3 has a uniform smoothing matroid, a two-block partition, adjoint defect one, and ambient rank one | full symmetric monodromy closes postulation, but the primitive direction remains the preselected algebraic diagonal |
 | fixed-carrier block growth | B034 proves that Thomas' node count divided by one defining-system-independent block capacity tends to n! | two blocks cannot scale through a fixed carrier for n at least 3; a multipart local theorem or a lower-node unanchored incidence is required |
 | multipart quasi-local channel | G015 asks whether B009's relation-kernel identification survives q separately independent blocks | the bipartite source theorem cannot be iterated when unions of blocks are dependent |
+| minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -226,6 +227,11 @@ a sufficient replacement. G013 is the exact geometric parent, and G014 is a
 sufficient unanchored two-block span theorem. B034 shows that the
 fixed-carrier route cannot scale that bipartite target for \(n\ge3\);
 G015 is the narrowest active local gate.
+B035 makes that gate finite and explicit at its first new instance: compute
+the intermediate extension for the Picard-Lefschetz local system on the
+five-marked exceptional \(\mathbf P^1\) resolving \(U_{2,5}\). NG-033
+prevents substituting the five pairwise crossing calculations for this
+global exceptional-divisor computation.
 B029/NG-026 further require isolated first-jet realizability and exclude the
 first line-supported positive-defect construction. B030 proves the three
 geometric conditions are compatible in a plane-containing quintic, while

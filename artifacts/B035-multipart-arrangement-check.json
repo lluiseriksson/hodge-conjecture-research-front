@@ -1,0 +1,26 @@
+{
+  "matroid": "U(2,r)",
+  "block_numbers": [
+    {"branches": 1, "minimum_independent_blocks": 1},
+    {"branches": 2, "minimum_independent_blocks": 1},
+    {"branches": 3, "minimum_independent_blocks": 2},
+    {"branches": 4, "minimum_independent_blocks": 2},
+    {"branches": 5, "minimum_independent_blocks": 3},
+    {"branches": 6, "minimum_independent_blocks": 3},
+    {"branches": 7, "minimum_independent_blocks": 4},
+    {"branches": 8, "minimum_independent_blocks": 4}
+  ],
+  "minimal_not_two_colorable": 5,
+  "witness_partition_sizes": [2, 2, 1],
+  "resolved_incidence": {
+    "vertices": ["E", "H1", "H2", "H3", "H4", "H5"],
+    "edges": [["E", "H1"], ["E", "H2"], ["E", "H3"], ["E", "H4"], ["E", "H5"]]
+  },
+  "monodromy_identities_checked_in_proof": [
+    "N_i^2=0",
+    "N_i N_j=0 for i != j",
+    "N_E=sum_i N_i",
+    "N_E N_i=0"
+  ],
+  "scope": "finite combinatorial and incidence check only"
+}
