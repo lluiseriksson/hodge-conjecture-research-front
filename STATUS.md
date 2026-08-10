@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 90% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 91% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -153,7 +153,10 @@ Date: 2026-08-10
   geometric square gate. B097 proves a quotient-compatible morphism to the
   constant ambient target forces that square and preserves B058's nonzero
   pairing. NG073 isolates the unproved descent through both B022 kernels;
-  G061 is the resulting morphism-construction gate.
+  G061 is the resulting morphism-construction gate. B098 proves that, after
+  B057 realization, the nearby map already descends through both kernels and
+  has value $c$. NG074/G062 isolate the sole remaining map comparison with
+  B010's special Saito ambient class.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -566,8 +569,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   ambient homology forces $F\circ d=0$ and preserves B058's nonzero pairing.
 - NG073 - NO-GO: proper-pushforward naturality before quotient does not
   automatically realize the detector or descend through both B022 kernels.
-- G061 - EXPLORATORY, active smallest gate: construct the rational
+- G061 - EXPLORATORY, ambient-square parent: construct the rational
   quotient-compatible constant-target morphism and prove $q_P(t_\psi)=c$.
+- B098 - PROVED: once $t_\psi$ realizes the B057 chain, B022 already makes
+  its nearby ambient map independent of both quotient kernels and B057-B058
+  give $q_P(t_\psi)=c$.
+- NG074 - NO-GO: this nearby equality does not automatically agree across a
+  topology-changing boundary with B010's special Saito ambient map.
+- G062 - EXPLORATORY, active smallest gate: prove
+  $\Phi_H(r_H(\beta))=q_P(u\beta)$ on the actual collision object.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

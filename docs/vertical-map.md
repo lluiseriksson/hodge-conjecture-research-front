@@ -278,7 +278,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
-\text{G061: quotient-compatible ambient morphism}.
+\text{G061: quotient-compatible ambient morphism}
+\Longleftarrow
+\text{G062: nearby/Saito ambient-map comparison}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -382,6 +384,12 @@ primitive ambient target forces the zero-boundary branch and the desired
 pairing identity. NG073 blocks invoking raw proper pushforward before the
 B022 kernels and B057 realization are checked. G061 is the current smallest
 endpoint.
+B098 closes the two nearby quotient checks and computes the nearby value $c$
+once the B057 chain is realized. B010 separately supplies the special Saito
+ambient map. NG074 blocks identifying these endpoint maps across a
+topology-changing collision without a theorem. G062 is therefore the current
+smallest endpoint: prove their equality on the canonical full-support
+relation coordinate of the actual special lift.
 
 An externally claimed shortcut is closed separately:
 

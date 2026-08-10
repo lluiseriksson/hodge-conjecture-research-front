@@ -215,6 +215,11 @@ special/nearby morphism
 to constant primitive ambient homology that commutes after both B022
 quotients and sends $t_\psi$ to B058's class $c$. NG073 blocks obtaining this
 from a raw proper-pushforward slogan. G061 is the active construction gate.
+B098 now removes three generic-side checks from it: once $t_\psi$ is the
+B057 chain, both B022 kernels are already quotiented and its nearby ambient
+value is $c$. NG074 blocks extending that fact across collision automatically.
+G062 is the active gate: prove B098's nearby ambient map agrees with B010's
+special Saito map on the canonical full-support relation coordinate.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -444,6 +449,7 @@ python verification/verify_B094_affine_lift_criterion.py
 python verification/verify_B095_dual_lift_obstruction.py
 python verification/verify_B096_boundary_pairing_dichotomy.py
 python verification/verify_B097_constant_target_square.py
+python verification/verify_B098_two_quotient_map.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -529,6 +535,8 @@ The B096 check verifies the ambiguity-boundary/descended-pairing reformulation
 and NG072's separation from liftability.
 The B097 check verifies that a quotient-compatible constant-target square
 annihilates ambiguity and preserves B058's nonzero pairing.
+The B098 check verifies a finite model of independence from both B022 kernel
+coordinates; the general statement is B022's two exact quotients plus B057.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

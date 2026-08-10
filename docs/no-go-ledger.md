@@ -1388,5 +1388,20 @@
   base-locus kernel.
 - **Precise obstruction:** B022/B082 retain nontrivial kernels and only
   forward maps; functoriality cannot supply an undefined quotient morphism.
-- **Re-entry condition:** G061 must construct the maps, audit both kernels,
-  prove commutativity, and verify the value on $t_\psi$.
+- **Re-entry condition:** B098 closes the nearby kernels and value after B057
+  realization; G062 must prove commutativity with the special Saito map.
+
+## NG-074 - The nearby ambient map automatically equals the special map
+
+- **Label:** NO-GO
+- **Route:** use B098's generic equality $q_P(t_\psi)=c$ as the special Saito
+  ambient-map comparison.
+- **Valid input:** B098 closes both nearby B022 quotients and computes the
+  nearby detector value; B010 defines the special Saito map independently.
+- **Invalid inference:** those two maps agree across the topology-changing
+  collision.
+- **Precise obstruction:** B083 supplies only a special-to-nearby stalk map;
+  it contains no compatibility statement with the two ambient constructions
+  or the canonical full-support grade.
+- **Re-entry condition:** G062 must prove
+  $\Phi_H(r_H(\beta))=q_P(u\beta)$ on the actual collision object.

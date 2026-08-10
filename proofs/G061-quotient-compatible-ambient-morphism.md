@@ -13,7 +13,7 @@ hodge_type: morphism and detector restricted to rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B058, B081-B083, B093-B097, G047-G060, NG069-NG073
+dependencies: B009-B010, B022, B058, B081-B083, B093-B098, G047-G060, NG069-NG074
 claim: Construct rational type-(0,0) special and nearby maps q_S and q_P to the constant primitive ambient homology of X, prove q_S=q_P composed with the special-to-nearby map after both B022 quotients, and verify q_P(t_psi)=c.
 falsifier: inability to realize t_psi in the coefficient object, failure of either B022 kernel to descend, noncommutativity of the square, or q_P(t_psi) different from c
 ---
@@ -40,7 +40,9 @@ such that:
 4. the square commutes as a morphism of rational Hodge structures; and
 5. $q_P(t_\psi)=c$, B058's selected tube class.
 
-B097 then gives $F\circ d=0$ and
+B098 closes steps 2, 3, and 5 on the nearby side once step 1 is realized.
+The residual G062 comparison identifies that fixed nearby map with B010's
+special Saito map. B097 then gives $F\circ d=0$ and
 $\lambda(t_\psi)=\langle\zeta,c\rangle\ne0$, closing G060. The construction
 must be made on the actual topology-changing coefficient object; a raw
-proper-pushforward slogan is NG073.
+proper-pushforward slogan is NG073, and automatic special extension is NG074.
