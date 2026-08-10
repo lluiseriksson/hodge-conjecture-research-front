@@ -878,6 +878,15 @@ American Mathematical Society* 46 (2009), 535-633,
   Theorem 4.2.7. They record the dimension criterion for semismallness, that
   a surjective map between surfaces is semismall, and the no-shift
   decomposition for a semismall map from a nonsingular source.
+- Checked de Cataldo-Migliorini Remark 1.4.2 and Remark 1.6.2: the
+  decomposition-theorem splitting into shifted perverse cohomology objects
+  is not uniquely determined. The authors compare it to choosing a splitting
+  of a filtered vector space.
+- Checked Theorem 1.6.1 and Section 2.4: each perverse cohomology object has
+  a canonical semisimple decomposition into intersection complexes, while
+  perverse truncation induces a canonical perverse filtration on cohomology.
+  B081 therefore moves the B058 class test to an associated-graded perverse
+  piece before projecting by strict support.
 - Coefficient guard: the displayed de Cataldo-Migliorini theorem is stated
   for the constant source sheaf. B039 does not extrapolate it to arbitrary
   coefficients. Instead, it proves the necessary perverse stalk/costalk
@@ -908,6 +917,8 @@ American Mathematical Society* 46 (2009), 535-633,
   from point-supported summands. It does not calculate the latter's Hodge
   structures and does not prove that the degree-one relation group has type
   \((0,0)\).
+- Local retrieval SHA-256 for the de Cataldo-Migliorini survey PDF:
+  `171415A41C8E6AAF90E227B4003DE9611C249A88B94A93550D7500EAD6996E5F`.
 
 ## S038 - Wonderful compactification and permissible blow-up orders
 

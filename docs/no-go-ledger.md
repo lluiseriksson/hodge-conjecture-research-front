@@ -1114,9 +1114,9 @@
 - **Invalid inference:** tensoring with global fiber cohomology preserves that
   parity.
 - **Precise obstruction:** for
-  (operatorname{Bl}_0(\mathbf A^2)\times C\to\mathbf A^2), where (C) has
+  $\operatorname{Bl}_0(\mathbf A^2)\times C\to\mathbf A^2$, where $C$ has
   positive genus, Kunneth produces the nonzero proper-support term
-  (H^1(C,\mathbf Q)(-1)_0[-3]). The map is smooth-factor toroidal and
+  $H^1(C,\mathbf Q)(-1)_0[-3]$. The map is smooth-factor toroidal and
   projective, yet the total support degree is odd.
 - **Re-entry condition:** in G044 compute the exact convolution of normal
   support degree with coefficient degree and compare it with the B057
@@ -1128,11 +1128,31 @@
 - **Route:** translate the relation channel into the normalized constant-sheaf
   direct image and then use B078 parity to exclude every proper support.
 - **Valid input:** B080 identifies the degree-one coefficient-IC group with
-  normalized direct-image degree (-1), or raw total degree (2n).
+  normalized direct-image degree $-1$, or raw total degree $2n$.
 - **Invalid inference:** proper supports meeting that degree have odd toric
   parity.
-- **Precise obstruction:** a codimension-(c) support meets normalized degree
-  (-1) at shift (b=1-c). The parity expression is then identically (2n).
-  Thus a divisor at (b=0) and a point at (b=-1) are both allowed.
+- **Precise obstruction:** a codimension-$c$ support meets normalized degree
+  $-1$ at shift $b=1-c$. The parity expression is then identically $2n$.
+  Thus a divisor at $b=0$ and a point at $b=-1$ are both allowed.
 - **Re-entry condition:** compute the actual multiplicity Hodge modules and
   B058 class coordinates for exactly those two shifts, as required by G045.
+
+## NG-058 - A canonical total full-support projection
+
+- **Label:** NO-GO
+- **Route:** choose a decomposition-theorem isomorphism for the pure B071
+  pushdown, sum all full-support constituents across perverse degrees, and
+  treat the resulting projection of the B058 class as canonical.
+- **Valid input:** B077 proves that such splittings exist and that every
+  perverse cohomology object is semisimple with a unique strict-support
+  decomposition.
+- **Invalid inference:** the splitting across perverse degrees, and hence the
+  induced total-class projection, is unique.
+- **Precise obstruction:** de Cataldo-Migliorini Remarks 1.4.2 and 1.6.2
+  explicitly state that decomposition-theorem splittings are noncanonical.
+  Only the perverse filtration is canonical. In detector degree -1, the
+  full/divisor contribution is $E_\infty^{-1,0}$, while the point term is
+  the distinct grade $E_\infty^{0,-1}$.
+- **Re-entry condition:** use G046: pass the B058 class to the canonical
+  $E_\infty^{-1,0}$ grade, then project by strict support inside
+  ${}^pH^0$.

@@ -131,23 +131,27 @@ unit and trace remain a split retract after nearby cycles. NG053 therefore
 blocks treating the root cover as a source of new boundary nonvanishing: the
 residual G042 problem is the original G032/G031 pairing-preserving
 specialization and quotient calculation. B077 proves that the pure
-semistable pushdown has a semisimple strict-support decomposition. NG054
-prevents treating the existence of its full-support summand as class-level
-nonvanishing. G043 asks for the specialized tube's projection after
-subtracting every exceptional-support component. B078 now audits the proper
+semistable pushdown has semisimple perverse cohomology with unique
+strict-support decompositions. NG054 prevents treating the existence of its
+full-support summand as class-level nonvanishing. G043 asks for canonical
+full-support landing of the specialized tube. B078 now audits the proper
 toric decomposition theorem: support shifts have even ordinary generic
 degree, and simplicial-source toric fibers have pure Hodge-Tate even
 cohomology. NG055 blocks applying that result directly to B071's global
 non-toric hyperplane degeneration merely because it has local toroidal
 charts. B079/NG056 make the coefficient problem concrete: multiplying a
 toric blowup by a positive-genus curve creates an odd degree-three
-proper-support term from (H^1(C)). B080 then performs the exact plane-net
-normalization: the detector is normalized degree (-1), and both divisor
-support at shift (b=0) and point support at (b=-1) satisfy the toric
-parity rule. NG057 closes parity as an exclusion mechanism. G045 is now the
-smallest gate: compute the actual multiplicity spaces and B058 coordinates
-in exactly those two allowed support shifts, then test the residual
-full-support class. The
+proper-support term from $H^1(C)$. B080 then performs the exact plane-net
+normalization: the detector is normalized degree $-1$, and both divisor
+support at shift $b=0$ and point support at $b=-1$ satisfy the toric
+parity rule. NG057 closes parity as an exclusion mechanism. B081/NG058 then
+correct a canonicity defect: the derived decomposition splitting is
+nonunique, although the perverse filtration and strict-support decomposition
+inside each perverse cohomology object are canonical. The point $b=-1$
+term lies in $E_\infty^{0,-1}$; full and divisor support lie in
+$E_\infty^{-1,0}$. G046 is now the smallest gate: prove the B058 class has
+a nonzero full-support component in that canonical associated grade and
+retains the prescribed pairing. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

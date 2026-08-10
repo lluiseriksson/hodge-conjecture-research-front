@@ -22,8 +22,8 @@ falsifier: a different total-space dimension, a different perverse shift for R^(
 
 **Status:** PROVED
 
-Let (h:\mathcal X\to B) be the plane-net hyperplane family. The base has
-dimension (2), the smooth fibers have dimension
+Let $h:\mathcal X\to B$ be the plane-net hyperplane family. The base has
+dimension $2$, the smooth fibers have dimension
 
 \[
  m=2n-1,
@@ -35,16 +35,16 @@ and the total space has dimension
  D=m+2=2n+1.
 \]
 
-On the smooth locus, put (L=R^m h_*\mathbf Q). In the normalized direct
-image (Rh_*\mathbf Q_{\mathcal X}[D]), the middle local system occurs as
+On the smooth locus, put $L=R^m h_*\mathbf Q$. In the normalized direct
+image $Rh_*\mathbf Q_{\mathcal X}[D]$, the middle local system occurs as
 
 \[
  L[D-m]=L[2],
 \]
 
 which is perverse on the smooth base. If
-(P=j_{!*}L[2]), then the local relation group written elsewhere as
-(H^1(j_{!*}L)_p) is
+$P=j_{!*}L[2]$, then the local relation group written elsewhere as
+$H^1(j_{!*}L)_p$ is
 
 \[
  H^{-1}(P_p).
@@ -58,21 +58,21 @@ Equivalently it is raw total-direct-image degree
 
 ## Which strict-support shifts can contribute?
 
-Let (V\subset B) have codimension (c), so
-(dim V=2-c), and consider a decomposition term
+Let $V\subset B$ have codimension $c$, so
+$\dim V=2-c$, and consider a decomposition term
 
 \[
  IC_V[-b].
 \]
 
-At a generic point of (V), (IC_V) is the constant local system shifted by
-(dim V), hence the term is nonzero in normalized cohomological degree
+At a generic point of $V$, $IC_V$ is the constant local system shifted by
+$\dim V$, hence the term is nonzero in normalized cohomological degree
 
 \[
  i=b-\dim V.
 \]
 
-It meets the detector degree (i=-1) exactly when
+It meets the detector degree $i=-1$ exactly when
 
 \[
  b=\dim V-1=1-c.
@@ -103,6 +103,6 @@ can meet the detector degree; it excludes neither divisor nor point support.
 
 G043 cannot be closed by parity, even after the detector shift is normalized
 correctly. The remaining finite calculation is to determine whether the
-actual B071 pushdown contains the allowed (IC_D) term at (b=0) or the
-allowed (IC_p) term at (b=-1), and then compute the B058 class component
+actual B071 pushdown contains the allowed $IC_D$ term at $b=0$ or the
+allowed $IC_p$ term at $b=-1$, and then compute the B058 class component
 in them. B080 determines possible degrees, not multiplicities or projections.

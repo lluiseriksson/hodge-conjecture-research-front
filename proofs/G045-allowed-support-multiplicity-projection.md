@@ -13,9 +13,9 @@ hodge_type: detector target is rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B058, B071-B080, G043-G044, NG055-NG057
-claim: For the actual B071 pushdown, compute the multiplicities and coefficient Hodge modules of the parity-allowed divisor term IC_D at shift b=0 and point term IC_p at shift b=-1, and prove the B058 specialized class has nonzero residual full-support projection after subtracting both.
-falsifier: an unlisted support meeting normalized degree -1, an uncomputed nonzero allowed component, or zero residual projection
+dependencies: B057-B058, B071-B081, G043-G044, G046, NG055-NG058
+claim: For the actual B071 pushdown, compute the multiplicities of divisor b=0 and point b=-1 terms; place the B058 class canonically in the perverse filtration, then separate full from divisor support inside pH^0.
+falsifier: an unlisted support meeting normalized degree -1, an uncomputed allowed multiplicity, failure of canonical grade landing, or zero full-support graded projection
 ---
 
 # G045 — Multiplicity and projection in the two allowed support shifts
@@ -33,15 +33,17 @@ B080 reduces the support-degree search on the plane base to two cases:
 
 Both are allowed by toric parity. The required calculation is now:
 
-1. identify every discriminant divisor (D) and collision point (p) created
+1. identify every discriminant divisor $D$ and collision point $p$ created
    or dominated by the B071 semistable construction;
-2. compute the corresponding perverse multiplicity spaces in shifts (0)
-   and (-1), including finite-stabilizer descent;
-3. write the nearby specialization of the B057 extension chain in the direct
-   sum of those proper-support terms and the full-support term;
-4. subtract the two proper-support projections and prove the residual is
-   nonzero and remains paired with the prescribed B058 Hodge class.
+2. compute the corresponding perverse multiplicity spaces in shifts $0$
+   and $-1$, including finite-stabilizer descent;
+3. place the nearby specialization of the B057 extension chain in the
+   canonical perverse filtration;
+4. treat the point term as the separate \(E_\infty^{0,-1}\) grade and
+   separate divisor from full support canonically inside
+   \(E_\infty^{-1,0}\), as required by G046.
 
 If either multiplicity vanishes, that is a genuine simplification. If it is
-nonzero, its class coordinate—not its rank alone—must be computed. Only the
-residual then enters the two B022 quotient tests.
+nonzero, its associated-graded class—not a coordinate from a chosen derived
+splitting—must be computed. Only G046's full-support graded class enters the
+two B022 quotient tests.

@@ -13,9 +13,9 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B058, B063, B071-B077, G032, G042, NG053-NG054
-claim: The nearby specialization of the B058 non-equator tube has nonzero projection to B077's full-support strict-support summand before the two B022 quotient tests, and that component remains paired nontrivially with the prescribed Hodge class.
-falsifier: specialization zero, confinement to proper-support summands, or orthogonality of the full-support projection to the prescribed class
+dependencies: B057-B058, B063, B071-B081, G032, G042, G045-G046, NG053-NG058
+claim: The nearby specialization of the B058 non-equator tube has nonzero canonical perverse associated-graded component whose strict-support projection inside pH^0 to full support is nonzero before the two B022 quotient tests and remains paired nontrivially with the prescribed Hodge class.
+falsifier: specialization zero, confinement to the point-support perverse grade, confinement to divisor support inside pH^0, or orthogonality of the full-support graded class
 ---
 
 # G043 — Full-support projection of the specialized tube
@@ -26,17 +26,21 @@ falsifier: specialization zero, confinement to proper-support summands, or ortho
 ## Falsifiable theorem target
 
 Let \(\operatorname{sp}(c)\) denote the canonical nearby specialization of
-the B058 tube and let
+the B058 tube. B081/NG058 show that a total derived projection supplied by a
+chosen decomposition-theorem splitting is not canonical. Replace it by
 
 \[
-\pi_{\mathrm{fs}}:
-f_*\mathbf Q_{\mathcal Y}[\dim\mathcal Y]\longrightarrow M_{\mathrm{fs}}
+E_\infty^{-1,0}(K,p)
+\longrightarrow
+H^{-1}(i_p^*{}^pH^0(K)_{\mathrm{fs}}),
 \]
 
-be the strict-support projection furnished by B077. Prove
+where the second arrow comes from the unique strict-support decomposition
+inside \({}^pH^0(K)\). Prove
 
 \[
-\pi_{\mathrm{fs}}\operatorname{sp}(c)\ne0
+\operatorname{pr}_{\mathrm{fs}}
+[\operatorname{sp}(c)]_{E_\infty^{-1,0}}\ne0
 \]
 
 and that its Saito ambient image is not orthogonal to the prescribed
@@ -47,11 +51,13 @@ primitive rational Hodge class.
 - B076 removes finite-cover trace as a source of loss.
 - B077 proves the pure strict-support decomposition exists.
 - NG054 shows why the projection of the specified class remains separate.
+- B081/NG058 replace the noncanonical total projection by the canonical
+  perverse-grade and perverse-heart strict-support projection.
 
 ## Smallest next calculation
 
-Identify the specialization morphism on the perverse cohomology degree that
-contains the B057 extension chain. Compute its components along every proper
-support created by the semistable modification and subtract them from the
-total class. The residual full-support component is the input for the two
-B022 quotient maps.
+Prove G046: compute the two canonical perverse-filtration edge components of
+the B057 extension chain. The point term is the separate
+\(E_\infty^{0,-1}\) grade; only the divisor term shares
+\(E_\infty^{-1,0}\) with full support. Project that grade by its canonical
+strict-support decomposition before applying the two B022 quotient maps.

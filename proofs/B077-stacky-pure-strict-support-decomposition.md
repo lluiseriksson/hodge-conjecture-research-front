@@ -14,7 +14,7 @@ cycle_class_map: not used; downstream map is CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence in the downstream Hodge application
 scope: relative
 dependencies: B071-B072, S047
-claim: Proper pushforward of the pure constant Hodge object from the smooth finite-stabilizer semistable stack is pure and splits into semisimple perverse cohomology; on the target variety this yields a strict-support decomposition with a well-defined full-support direct summand.
+claim: Proper pushforward of the pure constant Hodge object from the smooth finite-stabilizer semistable stack is pure and admits a splitting into semisimple perverse cohomology; each canonical perverse cohomology object has a unique strict-support decomposition and a well-defined full-support summand.
 falsifier: failure of proper pushforward to preserve both weight inequalities or failure of semisimplicity/decomposition for pure objects with affine stabilizers
 ---
 
@@ -32,10 +32,11 @@ proper morphism represented by Deligne–Mumford stacks, Proposition 3.15 gives
 \(f_!\simeq f_*\). Consequently proper pushforward of a pure object is pure.
 
 Corollary 3.24 then proves, for stacks with affine stabilizers, that a pure
-object splits as the sum of its perverse cohomology objects and that pure
+object admits a splitting as the sum of its perverse cohomology objects and that pure
 objects in the perverse heart are semisimple. When the target is a variety,
 Saito's strict-support decomposition of each simple pure Hodge module groups
-these summands by irreducible support. Hence
+these summands by irreducible support. After choosing such a
+decomposition-theorem splitting,
 
 \[
 f_*\mathbf Q_{\mathcal Y}[\dim\mathcal Y]
@@ -46,8 +47,15 @@ where \(M_{\mathrm{fs}}\) is the sum of simple constituents whose support is
 the whole target and \(M_{<\mathrm{fs}}\) is the sum of constituents on
 proper supports.
 
+The objects
+\({}^pH^i(f_*\mathbf Q_{\mathcal Y}[\dim\mathcal Y])\) and their
+strict-support decompositions are canonical. The displayed splitting across
+different perverse degrees is not canonical; B081 records the resulting
+class-level correction.
+
 ## Exact boundary
 
-The decomposition exists, but this theorem does not put the specialized B058
-class into \(M_{\mathrm{fs}}\). A nonzero class may lie entirely in
-\(M_{<\mathrm{fs}}\). G043 isolates the required class-level projection.
+The decomposition exists, but this theorem neither canonically splits the
+perverse filtration on a total cohomology class nor puts the specialized
+B058 class into full support. G046 gives the invariant associated-graded
+formulation.

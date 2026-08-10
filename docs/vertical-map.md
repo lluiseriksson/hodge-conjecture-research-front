@@ -191,11 +191,10 @@ nonvanishing. Consequently G042 is not an independent route around G032; its
 residual content is precisely the original/canonical pairing-preserving
 specialization, strict-support projection, and B022 quotient calculation.
 
-B077 closes existence of the strict-support decomposition for the pure
-semistable pushdown: proper pushforward preserves purity, pure stack Hodge
-objects split and are semisimple, and the target-variety object decomposes by
-support. NG054 blocks object-to-class promotion. The smallest residual gate
-is G043. B078 supplies an exact parity mechanism for globally proper toric
+B077 closes existence of semisimple perverse cohomology and its unique
+strict-support decomposition for the pure semistable pushdown. NG054 blocks
+object-to-class promotion. The residual gate is G043. B078 supplies an exact
+parity mechanism for globally proper toric
 maps, but NG055 blocks its direct use on the global non-toric hyperplane
 degeneration. The smallest attackable subgate is now G044:
 
@@ -216,16 +215,16 @@ nonzero total specialization or either B022 quotient.
 
 B079 shows that the coefficient warning is substantive, not merely formal.
 For the projective toroidal product
-(operatorname{Bl}_0(\mathbf A^2)\times C\to\mathbf A^2), the even normal
-exceptional degree two convolves with (H^1(C)) to give an odd
+$\operatorname{Bl}_0(\mathbf A^2)\times C\to\mathbf A^2$, the even normal
+exceptional degree two convolves with $H^1(C)$ to give an odd
 point-supported degree-three term. NG056 therefore rules out a universal
 coefficient-blind parity theorem. G044 must establish the exact index equality
 or inequality for the B057 coefficient object.
 
-B080 completes that index audit. With total dimension (2n+1), the
-degree-one coefficient-IC detector is normalized direct-image degree (-1)
-and raw degree (2n). A codimension-(c) support meets it at (b=1-c), for
-which B078's parity expression is identically (2n). Hence NG057 closes the
+B080 completes that index audit. With total dimension $2n+1$, the
+degree-one coefficient-IC detector is normalized direct-image degree $-1$
+and raw degree $2n$. A codimension-$c$ support meets it at $b=1-c$, for
+which B078's parity expression is identically $2n$. Hence NG057 closes the
 parity-exclusion route. The vertical map now ends at the finite support list
 
 \[
@@ -235,6 +234,32 @@ parity-exclusion route. The vertical map now ends at the finite support list
 \Longleftarrow
 \text{multiplicity spaces plus B058 class coordinates}.
 \]
+
+B081 corrects the canonicity of the last display. The decomposition theorem
+does not canonically split different perverse degrees. Instead, perverse
+truncation gives a canonical filtration whose two relevant associated grades
+are
+
+\[
+E_\infty^{-1,0}\quad\text{(full and divisor support)},
+\qquad
+E_\infty^{0,-1}\quad\text{(point support)}.
+\]
+
+NG058 therefore rejects a total full-support projection chosen from an
+arbitrary derived splitting. The corrected vertical endpoint is
+
+\[
+\text{G043}
+\Longleftarrow
+\text{G046: nonzero full-support part of }E_\infty^{-1,0}
+\Longleftarrow
+\text{filtered nearby-specialization edge map for the B057 chain}.
+\]
+
+G045 remains the multiplicity audit, but the point term is a separate
+filtration grade rather than a component to subtract from the full-support
+grade.
 
 An externally claimed shortcut is closed separately:
 

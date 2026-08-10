@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 76% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 77% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -98,9 +98,9 @@ Date: 2026-08-10
   quotient-controlled nearby specialization open. B076 proves the finite
   trace remains a split retract after nearby cycles; NG053 shows that descent
   cannot create the original boundary nonvanishing, returning the residual
-  gate to G042/G032/G031. B077 proves the pure stack pushdown has a
-  semisimple strict-support decomposition; NG054/G043 isolate the still-open
-  full-support projection of the specified specialized tube. B078 proves the
+  gate to G042/G032/G031. B077 proves the pure stack pushdown has semisimple
+  perverse cohomology with unique strict-support decomposition;
+  NG054/G043 isolate class-level landing. B078 proves the
   exact support-shift parity and fiber Hodge-Tate parity for proper toric
   maps. NG055 shows that local toroidal charts do not automatically transfer
   this to the global non-toric coefficient object; G044 is the resulting
@@ -108,8 +108,11 @@ Date: 2026-08-10
   blanket extension is false: a positive-genus smooth fiber factor convolves
   an even toric exceptional term into an odd degree-three proper-support
   summand. B080/NG057 then complete the exact B057 shift audit: divisor
-  support at (b=0) and point support at (b=-1) are both parity-allowed.
-  G045 is the irreducible multiplicity-and-class-coordinate calculation.
+  support at $b=0$ and point support at $b=-1$ are both parity-allowed.
+  B081/NG058 correct the total-projection formulation: the derived splitting
+  is noncanonical, while the perverse filtration is canonical. Full/divisor
+  support lies in $E_\infty^{-1,0}$ and point support lies in
+  $E_\infty^{0,-1}$. G046 is the canonical graded-landing calculation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -384,9 +387,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   strict support.
 - NG054 - NO-GO: existence of a full-support summand does not force the
   specified specialized class to project nontrivially to it.
-- G043 - EXPLORATORY, active smallest support subgate: compute the actual
-  specialization and prove its projection after exceptional-support
-  subtraction is nonzero and retains the prescribed pairing.
+- G043 - EXPLORATORY: prove canonical full-support landing of the actual
+  specialization in its perverse associated grade and retain the pairing.
 - B078 - PROVED: in the proper toric decomposition theorem every support
   shift has even ordinary generic degree; simplicial-source fibers have pure
   Hodge-Tate even cohomology.
@@ -405,9 +407,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   support shifts on the plane and both satisfy toric parity.
 - NG057 - NO-GO: exact normalization does not rescue parity as a support
   exclusion mechanism.
-- G045 - EXPLORATORY, active smallest support gate: compute the multiplicity
-  spaces and B058 class coordinates in those two allowed shifts, subtract
-  them, and prove the residual full-support projection remains nonzero.
+- G045 - EXPLORATORY: compute the multiplicity spaces for the two allowed
+  shifts and place the B058 class in the canonical perverse filtration.
+- B081 - PROVED: decomposition across perverse degrees is noncanonical;
+  full/divisor terms and point terms occupy distinct canonical grades.
+- NG058 - NO-GO: a chosen derived splitting does not define a canonical
+  total full-support projection of the B058 class.
+- G046 - EXPLORATORY, active smallest support gate: prove the B058 class has
+  nonzero full-support projection inside $E_\infty^{-1,0}$ and retains the
+  prescribed pairing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
