@@ -262,7 +262,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \text{ in a proper IC model}
 \Longleftarrow
 \text{G050: }[M_{\mathrm{coll}}t-t]=0
-\text{ in }\operatorname{coker}(M_J-I).
+\text{ in }\operatorname{coker}(M_J-I)
+\Longleftarrow
+\text{G051: }[Nt]=0\text{ in }\operatorname{coker}N_J.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -296,6 +298,13 @@ is constant, the collision defect lies in the combined B022 kernel $J$.
 Changing the thimble lift changes the defect by $(M_J-I)k$, so its cokernel
 class is the exact obstruction to an invariant lift. NG062 shows it need not
 vanish formally. G050 is therefore the smallest current endpoint.
+
+B086 removes the finite deck-group part of this endpoint by Reynolds
+averaging over $\mathbf Q$. In the semistable model the remaining monodromy
+is unipotent. B087 uses $M=\exp N$ and
+$\operatorname{im}(M_J-I)=\operatorname{im}N_J$ to replace the full cocycle
+with the nilpotent residue class $[Nt]$. NG063 shows finite averaging cannot
+kill it. G051 is therefore the smallest current endpoint.
 
 An externally claimed shortcut is closed separately:
 

@@ -77,3 +77,6 @@ B022 kernel. It does not prove the specified thimble lift is fixed. G050
 must compute the kernel action and the class $[d(c)]$. Vanishing produces an
 invariant adjusted lift to which B084 applies; nonvanishing is the precise
 obstruction to this local-invariant-cycle route.
+
+B086 subsequently kills the finite deck-group part over $\mathbf Q$;
+B087/G051 isolate the remaining unipotent residue class.

@@ -13,7 +13,7 @@ hodge_type: the adjusted invariant lift must ultimately retain rational type-(0,
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022-B023, B055, B057-B059, B084-B085, G049, NG061-NG062
+dependencies: B022-B023, B055, B057-B059, B084-B087, G049, G051, NG061-NG063
 claim: For the exact B057 chain in a proper collision model, compute the combined B022-kernel monodromy J and prove the defect class [M(t)-t] vanishes in coker(M_J-I), producing a collision-monodromy-invariant adjusted lift with the same ambient class and pairing.
 falsifier: a nonzero obstruction class for every admissible collision model, failure of the B022 kernels to form a monodromy-stable local system, or loss of rationality or pairing under every invariant adjustment
 ---
@@ -55,3 +55,8 @@ The calculation must give the braid matrix on the actual ordered thimble
 basis, the equator-extension subspace, the base-locus kernel, and the B057
 coefficient vector. Knowing only that their dimensions are constant is
 insufficient.
+
+B086 closes the finite deck-group part by Reynolds averaging. B087 reduces
+the remaining semistable unipotent part to G051's residue class
+$[Nt]\in\operatorname{coker}N_J$. Thus G051 is the active smallest
+calculation.

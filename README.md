@@ -170,8 +170,12 @@ B057 chain as a nearby IC class and prove it fixed by collision monodromy.
 B085/NG062 reduce that fixedness to an exact kernel cocycle: the ambient
 class being fixed only puts $M_{\mathrm{coll}}t-t$ in the combined B022
 kernel. G050 is now the smallest gate: prove this defect vanishes in
-$\operatorname{coker}(M_J-I)$ by an explicit kernel adjustment. Only then
-can G048 choose and audit the lift and G046 analyze its perverse grade. The
+$\operatorname{coker}(M_J-I)$ by an explicit kernel adjustment. B086 closes
+the finite $S_3$ part by Reynolds averaging. B087/NG063 show that the
+surviving semistable obstruction is unipotent and equals
+$[Nt]\in\operatorname{coker}N_J$. G051 is now the smallest gate: compute
+this residue class and kill it explicitly. Only then can G048 choose and
+audit the lift and G046 analyze its perverse grade. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

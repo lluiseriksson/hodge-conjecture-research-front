@@ -1227,3 +1227,18 @@
 - **Re-entry condition:** compute the actual braid action, combined kernel
   $J$, and B057 vector in G050, then exhibit a kernel adjustment killing the
   defect.
+
+## NG-063 - Finite averaging kills the unipotent residue
+
+- **Label:** NO-GO
+- **Route:** average a thimble lift over the finite $S_3$ root-cover group
+  and conclude it is invariant under all remaining collision monodromy.
+- **Valid input:** B086 proves that Reynolds averaging kills the finite
+  rational deck-group obstruction.
+- **Invalid inference:** the same finite projector kills the unipotent
+  monodromy $M=\exp N$ of the semistable degeneration.
+- **Precise obstruction:** a nilpotent kernel shear can commute with the
+  finite action and survive its average. B087 identifies its exact class as
+  $[Nt]\in\operatorname{coker}N_J$.
+- **Re-entry condition:** compute the actual logarithmic residue on the B057
+  class and combined B022 kernel in G051, and solve $Nt+N_Jk=0$.
