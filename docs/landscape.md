@@ -69,7 +69,9 @@ boundary, not an induction mechanism.
 | two-flat compatibility | B045 proves that two non-nested dependent-flat equations remain independent bookkeeping constraints even when the triples share a branch | arbitrarily many and nested flats remain open |
 | nested-flat channel | B046 proves G018 for one explicit codimension-three flat nested in a codimension-two flat; the exceptional equations are triangular and lower supports begin in ordinary degree two | arbitrary nested sets and building-set order independence remain open |
 | three-level nested chain | B047 proves the full relation channel for an exact rank-five three-block arrangement whose connected flats form a chain of ranks 2, 3, 4, and 5 | a chain does not test incomparable children or blow-up order independence |
-| arbitrary building-set gate | G019 asks for the same residue kernel, strict-support bound, and rational type-(0,0) comparison for every representable wonderful arrangement; G020 is the active fork test | forked and more general exceptional incidence may add rows or classes not seen in B044-B047 |
+| forked building set | B048 proves G020: the common-parent blow-up separates two incomparable child planes, both child orders give the same triangular residue kernel, and lower supports begin in degree two | one fork does not prove arbitrary order independence or coefficient-sheaf incidence |
+| universal divisor-matrix gate | G021 asks for an order-independent Picard basis and strict-branch total-transform formula for every representable wonderful building set | even success controls only the geometric residue matrix, not coefficient sheaves or strict supports |
+| arbitrary building-set gate | G019 asks for the full residue kernel, strict-support bound, and rational type-(0,0) comparison for every representable wonderful arrangement | arbitrary exceptional incidence may add coefficient-sheaf classes not seen in B044-B048 |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -242,7 +244,7 @@ a sufficient replacement. G013 is the exact geometric parent, and G014 is a
 sufficient unanchored two-block span theorem. B034 shows that the
 fixed-carrier route cannot scale that bipartite target for \(n\ge3\);
 G015 is the narrowest active local gate; G019 is its general arrangement
-subgate and G020 is the current finite test.
+subgate and G021 is the current geometric induction brick.
 B035 makes that gate finite and explicit at its first new instance: compute
 the intermediate extension for the Picard-Lefschetz local system on the
 five-marked exceptional \(\mathbf P^1\) resolving \(U_{2,5}\). NG-033

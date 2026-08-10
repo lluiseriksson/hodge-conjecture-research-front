@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B047, G012-G014, G016-G020, Green-Griffiths S021, Saito S022/S037, and Li S038
+dependencies: B009-B010, B028, B034-B048, G012-G014, G016-G021, Green-Griffiths S021, Saito S022/S037, and Li S038
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -326,6 +326,22 @@ degree. The rational kernel is pure type \((0,0)\). This proves the first
 three-level chain but not a building-set induction. G020 is the next finite
 test: two incomparable children with a common connected parent, including
 independence from the order of the two child blow-ups.
+
+## Attempt 15 - Forked connected-flat poset
+
+B048 proves G020. Exact enumeration gives two rank-two connected children
+inside a rank-four connected parent and a three-block partition. Blowing the
+parent separates the two child planes, so their blow-ups commute and both
+orders give the same four divisor classes. The common-parent row and two
+child rows independently assign their partial vanishing-cycle sums; the
+remaining row is the full relation equation. Strict supports again begin in
+ordinary degree two, and the kernel is rational type \((0,0)\).
+
+Chains and the first fork therefore agree, but finite examples still do not
+prove G015. G021 isolates the next induction brick: establish the divisor
+basis and strict-branch class formula for every wonderful building set and
+every permissible order. The coefficient-sheaf and support induction remain
+separate even if that geometric theorem succeeds.
 
 ## Propagation
 

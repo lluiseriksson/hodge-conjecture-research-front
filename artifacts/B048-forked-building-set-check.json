@@ -1,0 +1,42 @@
+{
+  "arrangement_rank": 5,
+  "nontrivial_connected_flats": [
+    [1, 2, 3],
+    [4, 5, 6],
+    [1, 2, 3, 4, 5, 6, 7],
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  ],
+  "independent_blocks": [[1, 2, 4, 5], [3, 6, 7, 8], [9, 10, 11]],
+  "block_ranks": [4, 4, 3],
+  "geometric_flat_dimensions": {"F_A": 3, "F_B": 3, "F_U": 1},
+  "child_intersection_dimension": 1,
+  "child_quotient_directions_disjoint": true,
+  "order_A_then_B_branch_classes": {
+    "i_in_A": "h-e_U-e_A",
+    "i_in_B": "h-e_U-e_B",
+    "i_in_U_minus_A_union_B": "h-e_U",
+    "i_outside_U": "h"
+  },
+  "order_B_then_A_branch_classes": {
+    "i_in_A": "h-e_U-e_A",
+    "i_in_B": "h-e_U-e_B",
+    "i_in_U_minus_A_union_B": "h-e_U",
+    "i_outside_U": "h"
+  },
+  "minimum_non_full_support_degree": 2,
+  "tested_cases": [
+    {"total_span_rank": 1, "rank_A": 1, "rank_B": 1, "rank_U": 1, "resolved_kernel_dimension": 10, "relation_dimension": 10},
+    {"total_span_rank": 2, "rank_A": 2, "rank_B": 2, "rank_U": 2, "resolved_kernel_dimension": 9, "relation_dimension": 9},
+    {"total_span_rank": 3, "rank_A": 3, "rank_B": 3, "rank_U": 3, "resolved_kernel_dimension": 8, "relation_dimension": 8},
+    {"total_span_rank": 4, "rank_A": 3, "rank_B": 3, "rank_U": 4, "resolved_kernel_dimension": 7, "relation_dimension": 7},
+    {"total_span_rank": 5, "rank_A": 3, "rank_B": 3, "rank_U": 5, "resolved_kernel_dimension": 6, "relation_dimension": 6},
+    {"total_span_rank": 6, "rank_A": 3, "rank_B": 3, "rank_U": 6, "resolved_kernel_dimension": 5, "relation_dimension": 5},
+    {"total_span_rank": 7, "rank_A": 3, "rank_B": 3, "rank_U": 7, "resolved_kernel_dimension": 4, "relation_dimension": 4},
+    {"total_span_rank": 8, "rank_A": 3, "rank_B": 3, "rank_U": 7, "resolved_kernel_dimension": 3, "relation_dimension": 3},
+    {"total_span_rank": 9, "rank_A": 3, "rank_B": 3, "rank_U": 7, "resolved_kernel_dimension": 2, "relation_dimension": 2},
+    {"total_span_rank": 10, "rank_A": 3, "rank_B": 3, "rank_U": 7, "resolved_kernel_dimension": 1, "relation_dimension": 1},
+    {"total_span_rank": 11, "rank_A": 3, "rank_B": 3, "rank_U": 7, "resolved_kernel_dimension": 0, "relation_dimension": 0}
+  ],
+  "kernel_hodge_type": "(0,0)",
+  "scope": "exact arrangement, fork geometry, residue, and shift bookkeeping only"
+}

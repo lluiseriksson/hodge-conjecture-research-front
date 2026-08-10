@@ -884,6 +884,13 @@ Li Li, “Wonderful compactification of an arrangement of subvarieties,”
   SNC boundary, and nested-stratum incidence. Its exceptional fiber, divisor
   classes, residue equations, direct-image degree bounds, and Hodge type are
   derived inside B047; none is asserted by Li.
+- B048 uses the same theorem for the fork's smooth/SNC resolution. The
+  disjointness of the two child transforms, commutation of their blow-ups,
+  divisor classes, and residue equations are proved inside B048.
+- G021 asks for a general order-independent divisor-class induction. Li's
+  theorem supplies the permissible smooth blow-up orders and identifies the
+  boundary divisors, but it is not cited as already proving G021's explicit
+  Picard-basis and total-transform formula.
 - Scope guard: wonderful compactification resolves the arrangement boundary.
   It does not identify a Picard-Lefschetz intermediate-extension stalk,
   supply a rational type-\((0,0)\) relation, or construct an algebraic cycle.

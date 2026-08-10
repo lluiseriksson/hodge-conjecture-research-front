@@ -92,11 +92,17 @@ eleven branches, only four nontrivial connected flats of ranks
 wonderful fiber gives four triangular residue equations, while every lower
 support begins in ordinary degree two.
 
-G019 remains the general arrangement gate. Its active finite subgate is
-G020: two incomparable rank-two flats inside one connected rank-four parent.
-After the parent blow-up the child centers become disjoint, but both residue
-rows interact with the parent row. Both permissible child orders and all
-fork-incidence supports must be audited before promotion.
+B048 closes G020. Exact rank enumeration verifies the fork and its
+three-block partition. The parent blow-up separates the two child planes, so
+their blow-ups commute; both orders give the same global, parent, and child
+residue equations. Every lower support begins in ordinary degree two.
+
+G019 remains the general arrangement gate. Its active subgate G021 isolates
+the order-independent geometric induction: prove that every wonderful fiber
+has Picard basis \(h,(e_F)\) and every strict branch has class
+\(h-\sum_{F\subset H_i}e_F\). This would make the divisor-class residue
+matrix triangular for arbitrary building sets, but would not yet control the
+degree-one coefficient sheaf or perverse strict supports.
 
 ## Sufficient parent: G014
 
@@ -142,12 +148,12 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Verify G020's explicit fork has exactly the stated connected flats and a
-   multipart independent partition.
-2. Compute both child blow-up orders and compare the four divisor-class
-   residue equations canonically.
-3. Audit strict supports on the parent, children, and their product strata;
-   promote the fork only if no ordinary-degree-one term survives.
+1. Prove the Picard-group induction for one permissible building-set order,
+   tracking dominant transforms and multiplicity-one branch pullbacks.
+2. Prove incomparable centers separate after their smaller building factors
+   are blown up, and use this to compare all permissible orders.
+3. Derive the universal divisor-class residue matrix, while explicitly
+   retaining the unresolved coefficient-sheaf and support obligations.
 4. If G015 holds, replace the two-block constraint by Edmonds'
    \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
    fixed-carrier constructions.

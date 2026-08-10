@@ -1,6 +1,6 @@
 ---
 brick_id: G020
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: a five-dimensional nodal smoothing slice with eleven central discriminant hyperplanes whose nontrivial connected-flat building set consists of two incomparable rank-two flats inside one rank-four parent and the rank-five origin
 smoothness: the parameter fivefold is smooth; the central projective fiber has only ordinary double points and nearby fibers are smooth; a wonderful resolution is required
@@ -13,7 +13,7 @@ hodge_type: the sought downstairs degree-one relation channel must be pure type 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B045-B047, G019, Green-Griffiths S021, Saito S022/S037, and Li S038
+dependencies: B045-B048, G019, Green-Griffiths S021, Saito S022/S037, and Li S038
 claim: For the explicit rank-five fork arrangement, the wonderful-resolution degree-one IC channel is independent of the order of the two child blow-ups and is canonically the full rational type-(0,0) vanishing-cycle relation kernel.
 falsifier: the common-parent exceptional equation couples the two child partial sums, the two permissible child orders give different kernels, a fork-incidence strict support contributes in ordinary degree one, or the kernel has a non-(0,0) component after Q(n)
 ---
@@ -60,3 +60,16 @@ B045 has no common connected parent, while B047 has no incomparable
 children. G020 constructs no algebraic cycle and proves nothing about the
 standard rational Hodge Conjecture unless the local result is subsequently
 embedded in the still-open G015-G013 chain.
+
+B048 performs that audit. Exact enumeration verifies the fork and its
+three-block partition. After the parent blow-up the child planes are
+disjoint, so their blow-ups commute. Both orders give the same classes
+
+\[
+ h-e_U-e_A,quad h-e_U-e_B,quad h-e_U,quad h
+\]
+
+on the four branch groups, hence the same global, parent, and two child
+residue equations. All non-full supports begin in ordinary degree two, and
+the downstairs relation kernel is pure type \((0,0)\). G020 is proved only
+for this fork; G019 remains open.

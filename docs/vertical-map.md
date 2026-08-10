@@ -265,9 +265,11 @@ non-semismall shifts for every \(U_{3,r}\). B043 proves the dimension-uniform
 \(U_{d,r}\) theorem. B044 proves the one-dependent-flat case; B045 proves
 compatibility for two nonnested dependent flats sharing a branch; and B046
 proves the first nested pair in rank four. B047 proves a three-level nested
-chain in rank five. G019 remains the smallest unresolved general local
-subgate; G020 is its active finite fork test, with two incomparable children
-inside one connected parent. Only after a general nonuniform calculation is
+chain in rank five, and B048 proves the first fork with order-independent
+child blow-ups. G019 remains the smallest unresolved general local subgate;
+G021 now isolates its universal divisor-matrix induction. The coefficient
+sheaf and strict-support inductions remain separate. Only after a general
+nonuniform calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 
