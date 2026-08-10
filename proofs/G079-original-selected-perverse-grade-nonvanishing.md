@@ -13,9 +13,9 @@ hodge_type: no type condition on the total nearby class or lift; the nonzero E_i
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B059, B081-B085, B110-B120, G047-G048, G073-G078, G080-G082, NG059-NG060, NG086-NG096, S022, S037, S052
-claim: Construct the collision-certified selected nearby class and rational ordinary special lift directly in the original incidence pushdown; B117-B119 then force the lift to have a nonzero full-support type-(0,0) canonical E_infinity^(-1,0) coordinate.
-falsifier: undefined original disk-nearby class, nonzero cyclic B085 obstruction for every admissible disk, absence of an ordinary lift, zero E_infinity^(-1,0) coordinate, confinement to E_infinity^(0,-1), non-clean-nodal target, or loss of the prescribed detector provenance
+dependencies: B057-B059, B081-B085, B092-B093, B107-B109, B110-B122, G047-G048, G071, G073-G078, G080-G083, NG059-NG060, NG086-NG098, S022, S037, S052
+claim: Construct the collision-certified selected disk-nearby class and prove it has a lift in B107's relation filtration step S_0; B117-B119 then make its nonzero E_infinity^(-1,0) coordinate full-support and type (0,0).
+falsifier: undefined original disk-nearby class, death in either B022 quotient, zero prescribed pairing, nonzero filtered obstruction for every admissible disk, zero E_infinity^(-1,0) coordinate after a filtered lift, or non-clean-nodal target
 ---
 
 # G079 — Make the selected original perverse grade nonzero
@@ -28,30 +28,30 @@ pushdown. The remaining class-specific obligation is therefore:
 
 1. realize B058's selected detector as a nearby class \(t_\psi\) in the
    original collision object;
-2. prove \(\operatorname{can}(t_\psi)=0\) and choose an ordinary rational
-   special lift \(\beta\);
-3. place \(\beta\) in the canonical perverse filtration and prove
+2. use B122's automatic ordinary liftability in degree \(d+1\);
+3. prove B108's filtered obstruction vanishes and choose
+   \(\beta_0\in S_0\), then prove
 
    \[
-   [\beta]_{E_\infty^{-1,0}}\ne0;
+   [\beta_0]_{E_\infty^{-1,0}}\ne0;
    \]
 
 4. use B119 to obtain type \((0,0)\) after \(\mathbf Q(n)\) on this
    coordinate, while retaining the marked collision provenance needed by
    the B022 and pairing tests.
 
-The only remaining support alternative at detector total degree \(-1\) is
-the point-supported grade \(E_\infty^{0,-1}\). B118 now proves that this
-grade is zero in the original incidence pushdown: relative hard Lefschetz
-would reflect any point support into a constant high direct image. B117
-proves that every nonzero \(E_\infty^{-1,0}\) class there is already in the
-full-support strict-support summand.
+B121 corrects the total-degree list: besides the relation and point grades,
+the constant ambient grade \(E_\infty^{-2,1}\) survives. Thus an ordinary
+lift is insufficient. Membership in \(S_0\) excludes that higher grade.
+B118 proves the remaining lower point grade zero, and B117 proves that every
+nonzero \(E_\infty^{-1,0}\) class is already in the full-support
+strict-support summand.
 
 ## Current obstruction
 
 No topology-changing construction yet carries the distributed B057 chain
-into one original disk-nearby object as a nonzero class with vanishing cyclic
-B085 obstruction. The semistable cover can help compute this map,
+into one original disk-nearby object as a nonzero class with vanishing
+filtered obstruction. The semistable cover can help compute this map,
 but its exceptional support must not be substituted for the original class.
-G082 is the exact remaining construction inside G081/G080; G073-G075 retain its
+G083 is the exact remaining construction inside G081/G080; G073-G075 retain its
 source and descent obligations.

@@ -477,6 +477,12 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   rational relation kernel becomes a sum of $\mathbf Q(0)$ after
   $\mathbf Q(n)$. This statement applies to the relation-grade quotient; it
   does not require an arbitrary total special-stalk lift to be type $(0,0)$.
+- Rechecked Proposition 2 and the special/nearby exact sequence for B122 and
+  NG098. Since isolated hypersurface vanishing cohomology is concentrated in
+  raw degree $d$, the arrow
+  $H^{d+1}(Y_p,\mathbf Q)\to H^{d+1}(Y_t,\mathbf Q)$ is surjective. This
+  proves ordinary target liftability only; it does not place a lift in a
+  perverse-filtration step.
 - For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
   thimble pair. Naturality proves the boundary square only after a map of
   pairs is supplied. S022 does not construct such a map from an arbitrary
@@ -994,6 +1000,12 @@ American Mathematical Society* 46 (2009), 535-633,
   $K_\Delta=a^*K_B[-1]$, its special group $H^0(i^*K_\Delta)$ is canonically
   $H^{-1}(i^*K_B)$; the source theorem does not require simultaneous
   invariance for approach directions omitted by this curve.
+- Rechecked Theorem 1.6.1 and the stalk spectral sequence for B121/NG097.
+  In total degree $-1$, ${}^pH^1$ contributes at
+  $E_2^{-2,1}$ in addition to the already recorded $E_2^{-1,0}$ and
+  $E_2^{0,-1}$ positions. Decomposition degenerates the sequence but does
+  not erase this constant ambient grade or canonically project a total lift
+  into the relation filtration step.
 - Coefficient guard: the displayed de Cataldo-Migliorini theorem is stated
   for the constant source sheaf. B039 does not extrapolate it to arbitrary
   coefficients. Instead, it proves the necessary perverse stalk/costalk

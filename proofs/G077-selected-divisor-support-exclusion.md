@@ -68,7 +68,7 @@ B117 proves more than classwise vanishing for the original incidence
 pushdown: its ${}^pH^0$ has no divisor strict support at all. The proof uses
 both parts of S052's Lefschetz calculation. NG093 records the shift error in
 using only the middle direct image. Thus the equations $\beta_D=0$ are now
-structural for the original pushdown. The unresolved part of this gate is
-reduced further by B118: the competing point grade vanishes. G080 must
-construct a nonzero original nearby class and ordinary lift; then
-$[\beta]_{-1,0}\ne0$ follows.
+structural for the original pushdown. The point grade also vanishes by B118,
+but B121/NG097 correct the earlier conclusion: a nonzero ordinary lift may
+still lie in the constant ambient $E_\infty^{-2,1}$ grade. G083 must prove
+filtered liftability into $S_0$; then $[\beta_0]_{-1,0}\ne0$ follows.

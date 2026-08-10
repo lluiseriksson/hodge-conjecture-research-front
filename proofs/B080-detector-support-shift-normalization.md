@@ -14,7 +14,7 @@ cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
 dependencies: B057-B058, B077-B078, G043-G044
-claim: In the plane-net normalization, a codimension-c support can contribute to the degree-one relation detector precisely at decomposition shift b=1-c; B078's parity expression then equals 2n and therefore allows both divisor support at b=0 and point support at b=-1.
+claim: In total normalized degree -1, a codimension-c support can contribute at decomposition shift b=1-c; this includes full support at b=1, the relation/divisor position b=0, and point support at b=-1. B078 parity allows all three.
 falsifier: a different total-space dimension, a different perverse shift for R^(2n-1), or a support-stalk normalization not giving b=1-c
 ---
 
@@ -78,11 +78,12 @@ It meets the detector degree $i=-1$ exactly when
  b=\dim V-1=1-c.
 \]
 
-Thus the only base-plane possibilities are
+Thus the base-plane possibilities are
 
 \[
  \begin{array}{c|c|c}
  c&V&b\\ \hline
+ 0&\text{full base}&1\\
  1&\text{divisor}&0\\
  2&\text{point}&-1.
  \end{array}
@@ -102,7 +103,8 @@ can meet the detector degree; it excludes neither divisor nor point support.
 ## Consequence and boundary
 
 G043 cannot be closed by parity, even after the detector shift is normalized
-correctly. The remaining finite calculation is to determine whether the
-actual B071 pushdown contains the allowed $IC_D$ term at $b=0$ or the
-allowed $IC_p$ term at $b=-1$, and then compute the B058 class component
-in them. B080 determines possible degrees, not multiplicities or projections.
+correctly. B121 records the consequence of the previously omitted $c=0$
+row: the full-support $b=1$ term is the constant ambient
+$E_\infty^{-2,1}$ grade and must be separated from the relation grade by the
+canonical perverse filtration. B080 determines possible degrees, not
+multiplicities or selected-class coordinates.

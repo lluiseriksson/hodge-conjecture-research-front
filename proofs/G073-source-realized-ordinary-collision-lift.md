@@ -70,7 +70,9 @@ isolated in G055; it cannot be a pure change of Hurwitz basis.
 Once G073 is proved, G072 becomes defined for this actual $s$ and may compute
 $[s]\in S/(S_0+\ker u)$. Vanishing then closes G071's filtered-lift condition
 and permits G070's restricted dual certificate. G080 is the original-object
-nearby-class-and-lift portion of G073. B117-B118 show that once this portion
-is nonzero, no separate proper-support projection remains downstairs.
+nearby-class-and-lift portion of G073. B121/NG097 correct the next step:
+ordinary nonzeroness does not remove the constant ambient grade. G083 must
+first prove filtered liftability; only then do B117-B119 remove the remaining
+proper-support ambiguity and control the relation type.
 G073 itself constructs no
 algebraic cycle and does not resolve the terminal conjecture.

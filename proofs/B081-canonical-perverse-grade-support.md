@@ -14,7 +14,7 @@ cycle_class_map: not used; downstream map is CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence in the downstream Hodge application
 scope: relative and fiberwise
 dependencies: B077, B080, S037, S047
-claim: The derived decomposition into shifted perverse cohomology objects is noncanonical, whereas the perverse filtration and strict-support decomposition inside each perverse cohomology object are canonical; in detector total degree -1, full/divisor b=0 terms occupy E2^(-1,0) and point b=-1 terms occupy E2^(0,-1).
+claim: The derived decomposition into shifted perverse cohomology objects is noncanonical, whereas the perverse filtration and strict-support decomposition inside each perverse cohomology object are canonical; in total degree -1 the complete positions are full-support constant E2^(-2,1), relation/divisor E2^(-1,0), and point E2^(0,-1).
 falsifier: a canonical derived splitting supplied by the cited theorems, a noncanonical perverse filtration, or a different E2 position for either B080 support shift
 ---
 
@@ -60,8 +60,10 @@ At a collision point $p$, the perverse spectral sequence is
  \Longrightarrow H^{r+s}(i_p^*K).
 \]
 
-The detector has total degree $-1$. B080 gives:
+The detector has total degree $-1$. B080/B121 give:
 
+- the full-base $b=1$ term lies in ${}^pH^1(K)$ and contributes at
+  $E_2^{-2,1}$; this is the constant ambient $R^{d+1}$ grade;
 - a full-support or divisor-support term with $b=0$ lies in
   ${}^pH^0(K)$ and contributes at $E_2^{-1,0}$;
 - a point-support term with $b=-1$ lies in
@@ -77,8 +79,11 @@ Inside $E_2^{-1,0}$, the strict-support decomposition of
 ${}^pH^0(K)$ canonically separates the full-support and divisor-support
 parts. This is the invariant class test used in G046.
 
-## Boundary
+## Erratum and boundary
 
-B081 corrects the formulation of G043; it does not prove that the B058 class
-has a nonzero $E_\infty^{-1,0}$ grade or a nonzero full-support component
-inside that grade.
+The first version of B081 listed only the latter two positions and silently
+omitted $E_\infty^{-2,1}$. B121 gives the exact correction and proves that
+the omitted term is generally nonzero. B081 does not prove that the B058
+class lies in B107's relation filtration step, has a nonzero
+$E_\infty^{-1,0}$ grade, or has a nonzero full-support component inside that
+grade.

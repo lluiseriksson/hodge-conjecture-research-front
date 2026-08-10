@@ -1766,9 +1766,9 @@
   coordinate into the remaining full-support grade, and B093/S022 make that
   clean-nodal relation grade pure $\mathbf Q(0)$ after normalization. B119
   records the exact geometric conclusion.
-- **Re-entry condition:** construct G082's nonzero rational original
-  disk-nearby class and kill its cyclic B085 obstruction. B120/B084 then give
-  the rational lift; no total-lift type condition remains.
+- **Re-entry condition:** construct G083's nonzero rational original
+  disk-nearby class and prove it has a lift in $S_0$. Conditional B119 then
+  gives the relation-grade type; no total-lift type condition remains.
 
 ## NG-096 - Full plane-local invariance is required
 
@@ -1786,6 +1786,43 @@
   `verification/verify_B120_one_disk.py` also proves that cyclic invariance
   can hold while simultaneous invariance fails, so the latter is strictly
   stronger.
-- **Re-entry condition:** construct G082's selected class on one original
-  collision disk and kill $[(M_\Delta-I)t]$ in
-  $\operatorname{coker}(M_\Delta-I:J_\Delta\to J_\Delta)$.
+- **Re-entry condition:** B122 proves every target class in the required
+  degree is already cyclically invariant and ordinarily liftable. Construct
+  G083 and kill its filtered obstruction instead.
+
+## NG-097 - A nonzero ordinary lift forces a relation grade
+
+- **Label:** NO-GO
+- **Route:** after B117 eliminates divisor support and B118 eliminates point
+  support, infer that every nonzero ordinary lift has a nonzero
+  $E_\infty^{-1,0}$ relation coordinate.
+- **Valid input:** those theorems eliminate the stated proper-support terms.
+- **Invalid inference:** they exhaust total normalized degree $-1$.
+- **Precise obstruction:** B121 corrects B080-B081 by adding the generally
+  nonzero constant ambient grade $E_\infty^{-2,1}$, coming from
+  ${}^pH^1$ and $R^{d+1}$. The pure type-$(0,0)$ vector supported entirely
+  in that grade is a nonzero ordinary lift with zero relation coordinate.
+  This also restores B092's earlier warning that an ordinary lift does not
+  select the relation component.
+- **Re-entry condition:** prove G083's
+  $\omega_{\mathrm{fil}}(t_\Delta)=0$, equivalently construct a lift in
+  B107's filtration step $S_0$. Conditional B119 then applies.
+
+## NG-098 - The raw cyclic thimble cocycle must vanish
+
+- **Label:** NO-GO
+- **Route:** require the selected raw thimble representative to have zero
+  B085 class in the combined B022 kernel before lifting its actual nearby
+  cohomology image.
+- **Valid input:** B085 exactly decides existence of a monodromy-invariant
+  raw representative.
+- **Invalid inference:** such a representative is necessary for an ordinary
+  special lift of the quotient target class.
+- **Precise obstruction:** B122 uses S022's isolated vanishing concentration
+  to make $H^{d+1}(Y_p)\to H^{d+1}(Y_t)$ surjective. Thus the entire actual
+  target is invariant and liftable. The model
+  $M(e)=e+j$, $M(j)=j$ has a nonzero raw kernel cocycle but trivial quotient
+  monodromy, proving the distinction exactly.
+- **Re-entry condition:** none for ordinary liftability. The active
+  obstruction is G083's filtered class in
+  $\operatorname{im}u_\Delta/u_\Delta(S_0)$.

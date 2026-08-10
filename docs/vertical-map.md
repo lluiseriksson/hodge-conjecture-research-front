@@ -300,7 +300,7 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G081: selected collision-invariant original nearby class}
 \Longleftarrow
-\text{G082: original-disk cyclic kernel cocycle}
+\text{G083: selected relation-filtered disk lift}
 \Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
@@ -356,16 +356,18 @@ shifted-IC theorem for $R^{2n-1}$ alone does not imply this. G079 is the
 remaining grade parent. B118 then removes its point-grade alternative:
 relative hard Lefschetz reflects any point support into ${}^pH^1$, but
 S022 makes the resulting $R^{2n+2}$ locally constant. NG094 records why
-high-degree constancy is unusable before this reflection. B119/NG095 then
-remove the unnecessary demand that the total ordinary lift be type
-$(0,0)$: B093/S022 make the forced nonzero full-support clean-nodal relation
-grade pure Tate automatically. B120/NG096 remove the further overconstraint
-of simultaneous invariance in the punctured plane germ: after proper base
-change, cyclic invariance on one marked original collision disk gives the
-same required special-fiber class, with the shift
-$H^0(i^*K_\Delta)=H^{-1}(i^*K_B)$. G082 is the remaining class-specific
-gate: realize the selected vector on that disk and kill its B085 cyclic
-kernel cocycle.
+high-degree constancy is unusable before this reflection. B121/NG097 correct
+the earlier grade enumeration: the constant ambient
+$E_\infty^{-2,1}$ term survives, so a nonzero ordinary lift need not have a
+relation coordinate. B119 remains valid only after B107's filtered-lift
+hypothesis; then B093/S022 make the clean-nodal relation grade pure Tate
+without requiring the total lift to be type $(0,0)$ (NG095). B120/NG096
+reduce the base to one transverse original disk, and B122 proves every class
+in the actual degree-$(d+1)$ nearby target is ordinarily liftable. NG098
+therefore retires G082's raw thimble cocycle as an optional overconstraint.
+G083 is the remaining class-specific gate: construct the selected disk class
+with both B022/pairing certificates and kill
+$\omega_{\mathrm{fil}}(t_\Delta)$.
 Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
@@ -539,10 +541,11 @@ coordinate zero. B116/NG092 block the smooth-discriminant shortcut, and
 G078 is the transverse-disk formulation. B117/S052 close its support
 multiplicity clause for the original pushdown; NG093 guards the one-degree
 shift. B118/S022/S037 remove the point grade, with NG094 guarding the
-reflection step. B119/NG095 make the relevant grade type $(0,0)$ without a
-type condition on the total lift. B120/NG096 reduce collision invariance to
-one original marked disk. G082 is the active selected-class realization and
-cyclic-cocycle calculation inside G081/G080. G072 is
+reflection step. B121/NG097 restore the omitted ambient grade and therefore
+the B107-B109 filtered obstruction. Conditional B119/NG095 control Hodge
+type only after that obstruction vanishes. B120-B122/NG096/NG098 remove the
+monodromy and ordinary-lift calculations. G083 is the active selected-class
+realization and filtered-lift calculation inside G081/G080. G072 is
 the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.

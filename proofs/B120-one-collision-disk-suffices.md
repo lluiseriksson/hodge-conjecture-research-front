@@ -13,7 +13,7 @@ hodge_type: no type condition on the total nearby class or special lift; B119 co
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed or constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B080-B084, B089, B117-B119, S037
+dependencies: B080-B084, B089, B121-B122, S037
 claim: To obtain the ordinary special-stalk lift required by G080, it is enough to realize the selected class on one marked original collision disk and prove invariance under that disk's cyclic monodromy; full invariance under the local fundamental group of the punctured plane neighborhood is unnecessary.
 falsifier: a cyclic-invariant class in the original disk nearby group that local invariant cycles does not lift, or a failure of the disk special group H^0(i^*K_Delta) to identify with the required plane-normalized group H^(-1)(i^*K_B)
 ---
@@ -86,9 +86,9 @@ rational
 \]
 
 the ordinary special lift required by G080. If \(t_\Delta\ne0\), then
-\(\beta\ne0\). B117-B119 then force its relevant plane-perverse coordinate
-to be nonzero, full-support, and type \((0,0)\) after \(\mathbf Q(n)\) at a
-clean nodal target.
+\(\beta\ne0\). B122 strengthens this conclusion in the isolated-singularity
+setting by proving that every class in this nearby degree lifts, without
+first checking monodromy invariance.
 
 Nothing in this argument requires \(t_\Delta\) to be fixed under every loop
 in a punctured two-dimensional neighborhood of \(p\). The local invariant
@@ -102,9 +102,10 @@ The disk must be transverse enough that \(Y_\Delta\) is smooth, so that
 of the original incidence family, not a
 semistable alteration whose exceptional class is substituted for the
 downstairs class. B120 does not construct \(t_\Delta\), prove it survives
-the B022 quotients, or kill its cyclic monodromy defect. B090-B091 still
+the B022 quotients, or place a lift in B107's filtration step \(S_0\).
+B090-B091 still
 exclude obtaining the selected nonzero class from the pure positive nodal
-boundary by Hurwitz relabelling alone. B108's filtered-lift obstruction is
-not being inferred from local invariant cycles; it is bypassed here only
-because B117-B119 structurally leave one relevant grade in the stated
-original clean-nodal setting.
+boundary by Hurwitz relabelling alone. B121 corrects the earlier claim that
+B117-B119 leave only one grade: the constant
+\(E_\infty^{-2,1}\) term survives. Therefore B108's filtered-lift
+obstruction remains mandatory.

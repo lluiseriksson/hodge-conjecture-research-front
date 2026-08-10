@@ -59,6 +59,7 @@ pushdown and proves that every punctual divisor-support multiplicity is
 zero. It uses constancy of $R^{d+1}$; NG093 explains why the shifted-IC
 statement for $R^d$ alone would not suffice. Thus no selected punctual
 coordinate remains on the original object. What remains is G079: no
-construction yet realizes $\beta$ there. B118 eliminates the competing point
-grade, so G080 only needs to construct a nonzero original nearby class and
-ordinary lift; the relevant grade then follows.
+construction yet realizes a filtered lift there. B118 eliminates the point
+grade, but B121/NG097 leave the higher constant ambient grade. G083 must
+construct the selected disk-nearby class and prove its filtered obstruction
+vanishes before the relevant grade follows.

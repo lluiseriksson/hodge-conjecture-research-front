@@ -13,7 +13,7 @@ hodge_type: no class is selected; the point-support multiplicity vanishes over Q
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed or constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B010, B077, B080-B081, B117, G079, NG094, S022, S037
+dependencies: B010, B077, B080-B081, B117, B121, G079, NG094, NG097, S022, S037
 claim: For the original smooth incidence pushdown K=Rh_*Q_Y[2n+1], pH^(-1)(K) has no point-strict-support summand at a collision fiber with isolated hypersurface singularities; hence B081's competing E_infinity^(0,-1) detector grade is zero.
 falsifier: a nonzero point summand in pH^(-1)(K), equivalently via relative hard Lefschetz a point summand in pH^1(K) and hence in R^(2n+2)h_*Q, despite isolated vanishing cohomology being concentrated in degree 2n-1
 ---
@@ -101,13 +101,15 @@ the target direct image as zero.
 
 B081 places the point-supported detector alternative in
 \(E_\infty^{0,-1}\). B118 makes that grade zero for the original incidence
-pushdown. B117 already removes divisor support from the other grade.
-Therefore any nonzero ordinary detector lift in the original object has a
-nonzero \(E_\infty^{-1,0}\) coordinate, and that coordinate is full-support.
+pushdown. B117 already removes divisor support from the relation grade.
+B121 corrects the earlier consequence: the constant ambient
+\(E_\infty^{-2,1}\) grade still survives. Therefore B118 forces a nonzero
+relation coordinate only after the selected lift is proved to lie in
+B107's filtration step \(S_0\); it does not do so for an arbitrary ordinary
+lift.
 
-The remaining obligation is not a support calculation. It is G080: realize
-the selected B058 detector as a nonzero nearby class in the original
-collision object and construct an ordinary lift.
+The remaining obligation is G083: realize the selected class and kill its
+filtered obstruction.
 
 ## Scope guard
 

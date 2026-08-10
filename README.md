@@ -297,14 +297,16 @@ why the shifted-IC statement for $R^{2n-1}$ alone is one degree too low.
 B118 now eliminates the other perverse-grade alternative: relative hard
 Lefschetz would reflect point support from ${}^pH^{-1}$ into
 ${}^pH^1$, where it would create a punctual summand in the constant
-$R^{2n+2}$. NG094 guards against skipping that reflection. B119/NG095 remove
-the stronger demand that the total ordinary lift be type $(0,0)$: its forced
-nonzero clean-nodal relation grade has that type automatically. B120/NG096
-remove simultaneous invariance under the entire plane-local group: cyclic
-invariance on one marked original collision disk suffices, because
-$H^0(i^*K_\Delta)=H^{-1}(i^*K_B)$. G082 is the active concrete gate inside
-G081/G080: realize the selected class on that disk, preserve both B022
-quotients and the pairing, and kill its B085 cyclic cocycle. G074 must then prove
+$R^{2n+2}$. NG094 guards against skipping that reflection. B121/NG097 then
+correct an omitted third grade: the constant ambient
+$E_\infty^{-2,1}$ term survives, so B117-B118 do not force an ordinary lift
+into the relation channel. Conditional B119/NG095 control the relation-grade
+Hodge type only after filtered liftability is proved. B120-B122 and
+NG096/NG098 show that one transverse original disk suffices and every class
+in the actual target degree is ordinarily liftable; the raw B085 cocycle is
+unnecessary. G083 is the active concrete gate inside G081/G080: realize the
+selected class, preserve both B022 quotients and the pairing, and prove
+$\omega_{\mathrm{fil}}=0$. G074 must then prove
 ordinary liftability and preserve the nonzero prescribed pairing through
 both B022 quotients. G073 closes the source
 certificate, and G072 follows by
@@ -557,6 +559,7 @@ python verification/verify_B113_a2_excess_descent.py
 python verification/verify_B114_invariant_landing.py
 python verification/verify_B119_relevant_grade_type.py
 python verification/verify_B120_one_disk.py
+python verification/verify_B121_third_grade.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -700,12 +703,13 @@ that computation. B117/S052 close the support clause for the original
 incidence pushdown by constancy of the next direct image on every transverse
 Lefschetz disk; NG093 guards the shift. B118/S022/S037 close the competing
 point grade by relative hard Lefschetz and isolated vanishing-cycle
-concentration; NG094 guards the second shift. B119/NG095 make the relevant
-clean-nodal coordinate type $(0,0)$ without imposing that type on the total
-lift. B120/NG096 show that one marked original collision disk and its cyclic
-monodromy suffice. G082 now requires the selected nonzero disk-nearby class,
-both B022 quotient certificates, the pairing, and vanishing of its cyclic
-B085 cocycle; B084 then supplies the rational ordinary lift.
+concentration; NG094 guards the second shift. B121/NG097 restore the omitted
+constant ambient grade and make B107's filtered condition mandatory.
+Conditional B119/NG095 then control the clean-nodal relation type. B122
+makes the actual target ordinarily liftable, while NG098 removes the raw
+cyclic cocycle. G083 now requires the selected nonzero disk-nearby class,
+both B022 quotient certificates, the pairing, and vanishing of its filtered
+obstruction.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

@@ -13,9 +13,9 @@ hodge_type: no type condition on the total nearby class or ordinary lift; B119 m
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B081-B085, B110-B120, G047-G048, G073-G079, G081-G082, NG059-NG060, NG086-NG096, S022, S037
-claim: Construct a collision-certified nonzero rational nearby class t_Delta in one marked original collision disk from the selected B058 detector and kill its cyclic B085 obstruction; B120/B084 supply a rational ordinary lift, while B117-B119 force its relevant coordinate to be nonzero, full-support, and type (0,0).
-falsifier: undefined source realization, zero nearby class, nonzero cyclic obstruction for every admissible disk, absence of an ordinary lift, non-clean-nodal target for B119, or loss of selected detector provenance
+dependencies: B022, B057-B059, B081-B085, B092-B093, B107-B109, B110-B122, G047-G048, G071-G079, G081-G083, NG059-NG060, NG086-NG098, S022, S037
+claim: Construct a collision-certified nonzero rational nearby class t_Delta in one marked original collision disk from the selected B058 detector, preserve both B022 quotients and the nonzero pairing, and prove t_Delta lies in u_Delta(S_0); B122 gives ordinary liftability and conditional B119 then controls the relation grade.
+falsifier: undefined source realization, zero nearby class, death in a B022 quotient, zero prescribed pairing, nonzero filtered obstruction for every admissible disk, or non-clean-nodal target for B119
 ---
 
 # G080 — Construct the selected nearby class and ordinary lift downstairs
@@ -36,15 +36,14 @@ object, a single nonzero rational class
  t_\Delta\in H^0(i_p^*\Psi K_\Delta)
 \]
 
-with a collision certificate from the selected B057 chain and prove that it
-is fixed by the cyclic monodromy of one marked original collision disk.
-B120/B084 then prove
+with a collision certificate from the selected B057 chain. B122 proves
+directly, from isolated vanishing-cycle concentration, that
 
 \[
  \operatorname{can}(t_\Delta)=0,
 \]
 
-and choose
+and supplies an ordinary lift
 
 \[
  0\ne\beta\in H^{-1}(i_p^*K),
@@ -53,20 +52,23 @@ and choose
 
 Here \(\beta\) uses B120's canonical identification
 \(H^0(i_p^*K_\Delta)=H^{-1}(i_p^*K_B)\). Nonzeroness of \(t_\Delta\)
-forces nonzeroness of every lift. B081 together
-with B117-B118 then places a nonzero component in
-\(E_\infty^{-1,0}\), already in full support. B093/S022 and B119 prove that
-this clean-nodal relation coordinate is automatically type \((0,0)\) after
-\(\mathbf Q(n)\). NG095 records why requiring the total lift to have that
-type was unnecessary.
+forces nonzeroness of every lift. However B121 corrects B081's grade list:
+the constant ambient \(E_\infty^{-2,1}\) term remains, so an arbitrary
+nonzero lift need not have a relation coordinate. G083 must prove
+
+\[
+ t_\Delta\in u_\Delta(S_0),
+\]
+
+equivalently \(\omega_{\mathrm{fil}}(t_\Delta)=0\). Only then do B117-B119
+make the nonzero relation coordinate full-support and type \((0,0)\) after
+\(\mathbf Q(n)\).
 
 ## Current obstruction
 
-B120/B084 supply the rational lift after cyclic disk-monodromy invariance is
-proved, but they do not realize B058's distributed detector in the original
-disk-nearby object or show that realization nonzero. Pure Hurwitz
-localization is zero by B090-B091. G082 is the exact remaining gate inside G081: construct
-the topology-changing selected excess on one original disk, prove its
-nonzero downstairs B022 image, and kill its cyclic kernel-valued cocycle.
-NG096 records why simultaneous invariance in every plane-local direction is
-not required.
+B122 makes the full degree-$(d+1)$ nearby target cyclically invariant and
+ordinarily liftable. NG098 therefore removes G082's raw thimble-cocycle
+condition as unnecessary. Pure Hurwitz localization remains zero by
+B090-B091. G083 is the exact remaining gate: construct the selected
+disk-nearby class, preserve both B022 quotients and the prescribed pairing,
+and kill its filtered—not monodromy—obstruction.

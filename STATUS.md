@@ -769,9 +769,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   ${}^pH^1$, where it would create a punctual summand in $R^{2n+2}$; S022's
   isolated vanishing-cycle concentration makes that sheaf constant, so the
   point grade $E_\infty^{0,-1}$ is zero.
-- B119 - PROVED: every rational ordinary lift of a nonzero nearby class has
-  a nonzero full-support $E_\infty^{-1,0}$ coordinate, and at a clean nodal
-  target B093/S022 make that relation coordinate type $(0,0)$ automatically.
+- B119 - PROVED, corrected conditional scope: once a lift is in B107's
+  relation filtration step, its nonzero clean-nodal relation grade is
+  full-support and type $(0,0)$ without a type condition on the total lift.
 - NG095 - NO-GO: requiring the total ordinary lift to be type $(0,0)$ is
   unnecessary; an irrelevant non-$(0,0)$ component can lie in the kernel of
   the relevant quotient.
@@ -780,12 +780,19 @@ generation from the controlled partitioned nodal locus is not proved.**
   is canonically the required $H^{-1}(i^*K_B)$ by the normal-slice shift.
 - NG096 - NO-GO: simultaneous invariance under the entire plane-local
   fundamental group is strictly stronger than necessary; one disk suffices.
-- G080/G081 - EXPLORATORY parents: a rational cyclic-invariant class on one
-  original disk is enough; B120/B084 supply the lift and B117-B119 control
-  its relevant grade.
-- G082 - EXPLORATORY, active smallest gate: realize the selected B058 vector
-  on one marked original collision disk, verify both B022 quotients and the
-  prescribed pairing, and kill its cyclic B085 kernel cocycle explicitly.
+- B121 - PROVED, adversarial correction: total degree $-1$ also contains the
+  generally nonzero constant ambient grade $E_\infty^{-2,1}$; B117-B118 do
+  not force an ordinary lift into the relation grade.
+- NG097 - NO-GO: nonzero ordinary lift does not imply nonzero relation
+  coordinate, even if the total lift is type $(0,0)$.
+- B122 - PROVED: isolated vanishing concentration makes
+  $H^{d+1}(Y_p)\to H^{d+1}(Y_t)$ surjective, so every actual target class is
+  ordinarily liftable and cyclically invariant.
+- NG098 - NO-GO: killing the raw B085 thimble cocycle is unnecessary and
+  does not prove filtered liftability; G082 is retained only as optional.
+- G083 - EXPLORATORY, active smallest gate: realize the selected B058 vector
+  on one transverse original disk, verify both B022 quotients and the
+  prescribed pairing, and prove $\omega_{\mathrm{fil}}(t_\Delta)=0$.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
