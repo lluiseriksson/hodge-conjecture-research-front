@@ -7,9 +7,9 @@ smoothness: Nadler assumes the ambient map is a submersion; Kochersperger assume
 projectivity: not required by either source; any projective Hodge application needs separate verification
 dimension: arbitrary finite dimension
 codimension: not a cycle-codimension statement; nearby cycles are taken along coordinate divisors
-coefficient_field: C for the regular holonomic D-module theorem; an abstract coefficient category for the constructible-sheaf statement
+coefficient_field: C for the regular holonomic D-module theorem; an abstract coefficient category for the constructible-sheaf statement; B063 separately supplies a Q-structured mixed-Hodge lift under without slopes
 cohomology_theory: topological nearby cycles and algebraic nearby cycles of regular holonomic D-modules
-hodge_type: none asserted; no rational type-(0,0) preservation theorem is imported
+hodge_type: none asserted by S041 alone; B063 separately proves rational mixed-Hodge preservation under without slopes
 cycle_class_map: none
 cycle_equivalence: none
 scope: relative and fiberwise
@@ -31,9 +31,9 @@ falsifier: a source-level demonstration that arbitrary multi-parameter nearby-cy
 - **Smoothness/projectivity:** Nadler assumes the ambient map \(f:X\to D^n\) is a submersion; projectivity is not assumed. Kochersperger works with a regular holonomic \(\mathcal D\)-module and a graph construction; projectivity is not assumed. Any projective Hodge application needs additional verification.
 - **Dimension:** arbitrary finite dimension.
 - **Codimension:** not a cycle-codimension statement; each nearby-cycle functor is taken along one coordinate divisor.
-- **Coefficient field:** \(\mathbf C\) in the regular-holonomic \(\mathcal D\)-module comparison; an abstract coefficient category for the constructible-sheaf statement. No rational mixed-Hodge lift is supplied by the cited results.
+- **Coefficient field:** \(\mathbf C\) in the regular-holonomic \(\mathcal D\)-module comparison; an abstract coefficient category for the constructible-sheaf statement. B063 separately supplies the rational mixed-Hodge lift under the without-slopes hypothesis.
 - **Cohomology theory:** topological nearby cycles and algebraic nearby cycles of regular holonomic \(\mathcal D\)-modules.
-- **Hodge type:** none asserted. In particular, preservation of a rational \((0,0)\)-class or of a Hodge-theoretic pairing is not part of this brick.
+- **Hodge type:** none asserted by S041 alone. B063 proves preservation of rational mixed-Hodge structure under without slopes, but not compatibility with the detector pairing.
 - **Cycle class map:** none.
 - **Equivalence relation on cycles:** none.
 - **Scope:** relative and fiberwise comparison over a multi-parameter degeneration.
@@ -60,7 +60,7 @@ then proves the arrows are equivalences under the non-characteristic and Thom hy
 
 ## Consequence for the vertical map
 
-An attempted recollision argument may use order-independent iterated nearby cycles only after checking a named sufficient hypothesis for the actual family and actual coefficient object. Even then, a separate theorem is required to lift the comparison to rational mixed Hodge structures or mixed Hodge modules and to preserve the decisive Saito pairing.
+An attempted recollision argument may use order-independent iterated nearby cycles only after checking a named sufficient hypothesis for the actual family and actual coefficient object. B063 closes the rational mixed-Hodge lift under without slopes. A separate compatibility argument is still required for the B022 quotients and decisive Saito pairing.
 
 ## Non-claims
 

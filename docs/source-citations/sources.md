@@ -1083,6 +1083,39 @@ not verify those hypotheses for G032's collision family, give a rational
 mixed-Hodge-module lift, preserve the B022 quotients or Saito pairing, or
 construct an algebraic cycle.
 
+## S042 - Mixed Hodge modules without slopes
+
+Matthieu Kochersperger, “Mixed Hodge modules without slope,”
+[arXiv:1808.10719](https://arxiv.org/abs/1808.10719),
+[versioned PDF](https://arxiv.org/pdf/1808.10719v1) (2018).
+
+- Checked pp. 2-4: the paper distinguishes the geometric without-slopes
+  condition for a morphism from the corresponding condition for a
+  \(\mathcal D\)-module or perverse-sheaf pair. For a geometric morphism the
+  critical locus must lie over the union of the chosen coordinate
+  hyperplanes. The introduction also records Lê's multi-parameter failure of
+  Milnor fibration in general.
+- Checked Theorem 6.1 and Corollary 6.2, p. 16: if
+  \(\mathcal M\in MHM(X\times\Delta^p)\) and the underlying right
+  \(\mathcal D\)-module pair is without slopes, every permutation of the
+  iterated nearby-cycle functors is isomorphic in the category of mixed
+  Hodge modules. Theorem A records the analogous nearby- and vanishing-cycle
+  result.
+- Checked Theorem B, pp. 3-4: under without slopes, strict
+  \(R\)-multispecialisability is equivalent to compatibility of the Hodge
+  filtration with the coordinate \(V\)-filtrations. It is an additional
+  condition, not silently automatic in the audited statement.
+- Checked Theorem 8.1, pp. 21-22: strict \(R\)-multispecialisability and the
+  canonical \(V\)-multifiltration are preserved by proper direct image in the
+  stated product situation. This theorem cannot be invoked from without
+  slopes alone.
+- Scope guard: the comparison preserves rational mixed-Hodge structure
+  because it is internal to \(MHM\), but the paper does not discuss B022's
+  quotient maps, the Saito ambient detector map, or its pairing with a fixed
+  Hodge class.
+- Local retrieval SHA-256:
+  `622B4BF768D54B86102634C867D838EAF4C608EE24CD452C313703284DC48D81`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

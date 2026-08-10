@@ -61,6 +61,14 @@ commutation. B062 shows that graph embedding does not evade the collision's
 critical conormal: non-characteristicity for the graph conormal is equivalent
 to submersivity of the original family map.
 
+B063 strengthens the without-slopes branch: the comparison already lives in
+mixed Hodge modules, so rational Hodge-type preservation is conditionally
+closed. B064 tests the first \(A_2\) recollision chart and finds a cusp
+discriminant with critical points over the coordinate torus. Hence the raw
+morphism is not geometrically without slopes (NG043). The next branch is
+G034: resolve the cusp, verify strict multispecialisability, descend the
+comparison, and exclude exceptional-only contributions to the pairing.
+
 An externally claimed shortcut is closed separately:
 
 \[

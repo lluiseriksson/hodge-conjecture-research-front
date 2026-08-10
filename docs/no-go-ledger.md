@@ -882,3 +882,21 @@
   object, verify a published sufficient package and then prove the additional
   rational mixed-Hodge, B022-quotient, and Saito-pairing compatibilities in
   G033.
+
+## NG-043 - Apply without-slopes commutation directly to the raw A2 chart
+
+- **Label:** NO-GO
+- **Route:** use the smooth total space of the miniversal \(A_2\) collision as
+  sufficient input for B063 in the raw base coordinates.
+- **Valid input:** B063 gives an isomorphism in mixed Hodge modules once the
+  underlying graph-pair is without slopes.
+- **Invalid inference:** total-space smoothness or generic nodality verifies
+  that hypothesis.
+- **Precise obstruction:** B064 computes discriminant
+  \(4s^3+27t^2=0\) and critical points with \(st\ne0\). Thus the raw map
+  fails the geometric without-slopes condition recalled in S042. For the
+  graph-pushed module, the separate Bernstein-Sato/\(V\)-multifiltration
+  condition has not been checked.
+- **Re-entry condition:** prove that exact graph-pair condition directly, or
+  pass to G034's resolved boundary and prove strict multispecialisability,
+  descent, and pairing survival.

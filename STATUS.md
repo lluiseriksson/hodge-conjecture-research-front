@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 65% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 66% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -69,6 +69,10 @@ Date: 2026-08-10
   nearby-cycle commutation boundary and prove that graph embedding retains
   the critical conormal obstruction; G033 records the missing rational
   Hodge-module and pairing-compatible recollision theorem.
+  B063 supplies the rational mixed-Hodge comparison under without slopes;
+  B064 and NG043 show that the raw A2 cusp chart does not satisfy the simpler
+  geometric condition, leaving resolved strict multispecialisability and
+  pairing descent as G034.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -259,6 +263,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   mixed-Hodge, quotient, and pairing compatibility.
 - NG042 - NO-GO: clean boundary incidence or a submersive graph projection
   does not make iterated nearby cycles commute automatically.
+- B063 - PROVED: without slopes gives permutation invariance of iterated
+  nearby cycles inside mixed Hodge modules, preserving rational Hodge type.
+- B064 - PROVED: the first A2 recollision chart has cusp discriminant and
+  critical points over the coordinate torus.
+- NG043 - NO-GO: smoothness of that chart's total space does not justify a
+  direct without-slopes invocation.
+- G034 - EXPLORATORY, active local subgate: resolve the cusp, verify strict
+  multispecialisability, descend the comparison, and prove pairing survival.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -1,0 +1,21 @@
+{
+  "total_space_dt_derivative": 1,
+  "projection_jacobian": [
+    ["0", "0", "0", "1"],
+    ["-s - 3*x**2", "-2*z1", "-2*z2", "-x"]
+  ],
+  "critical_parametrization": {
+    "s": "-3*x**2",
+    "t": "2*x**3"
+  },
+  "discriminant_pullback": 0,
+  "fiber_hessian_determinant_on_critical": "24*x",
+  "noncoordinate_sample": {
+    "x": 1,
+    "s": -3,
+    "t": 2,
+    "s_times_t": -6
+  },
+  "scope": "symbolic identity check for the r=2 suspended A2 chart only"
+}
+

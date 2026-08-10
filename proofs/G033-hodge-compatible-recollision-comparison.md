@@ -13,7 +13,7 @@ hodge_type: target class (p,p), equivalently type (0,0) after Q(p)
 cycle_class_map: CH^p(X)_Q -> H^(2p)(X,Q(p))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B061, B062, G032, and NG042
+dependencies: B022, B061-B064, G032, G034, NG042, and NG043
 claim: For the explicit recollision family, a verified conditional nearby-cycle equivalence lifts rationally and preserves type, the B022 quotient maps, and the nonzero Saito detector pairing.
 falsifier: failure of all published sufficient commutation hypotheses at the collision, failure of a rational Hodge lift, or loss of the quotient-level nonzero pairing
 ---
@@ -22,7 +22,7 @@ falsifier: failure of all published sufficient commutation hypotheses at the col
 
 **Status:** EXPLORATORY  
 **Parent gate:** G032  
-**Dependencies:** B022, B061, B062
+**Dependencies:** B022, B061-B064
 
 ## Mathematical type record
 
@@ -61,9 +61,22 @@ Clean intersection or normal-crossing equations control the incidence of boundar
 
 **Result:** incomplete. Boundary cleanliness alone does not discharge item 1.
 
+## Attempt 3 — lift the comparison to mixed Hodge modules
+
+B063 proves that this lift is already part of the comparison when the
+underlying \(\mathcal D\)-module pair is without slopes. Thus item 2 is
+conditionally closed on that branch. B064 then shows that the raw \(A_2\)
+collision morphism fails the simpler geometric without-slopes condition; the
+exact graph-pair condition is uncomputed, and proper resolution requires the
+stronger strict-multispecialisability input. G034 isolates that calculation.
+
 ## Current smallest obligation
 
-Write a local algebraic equation for the first nontrivial two-parameter collision chart, choose the exact perverse sheaf or Hodge module carrying the detector class, and calculate its singular support relative to the parameter projection. The first yes/no test is whether a published sufficient hypothesis in B061 holds at the collision stratum.
+For the explicit B064 \(A_2\) equation, either compute the graph-pushed
+constant Hodge module's Bernstein-Sato/\(V\)-multifiltration condition
+directly, or perform G034's cusp resolution and test strict
+\(R\)-multispecialisability. Then calculate compatibility with the B022
+quotients and the Saito pairing.
 
 ## Propagation if proved
 

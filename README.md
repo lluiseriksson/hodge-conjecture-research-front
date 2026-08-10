@@ -90,8 +90,11 @@ cycles are a basis and its separate Morse values have zero required stalk
 channel. G033 is the first recollision comparison subgate. B061 audits the
 available conditional commutation theorems; B062 and NG042 show that neither
 graph embedding nor clean boundary incidence makes iterated nearby cycles
-commute automatically, and rational Hodge/pairing compatibility remains
-unproved. The adversarial audit S040 also quarantines a 2024 claimed general
+commute automatically. B063 closes the rational mixed-Hodge lift under the
+without-slopes hypothesis, while B064/NG043 show that the raw \(A_2\) cusp
+collision does not meet the simpler geometric hypothesis. G034 now isolates
+resolved strict multispecialisability and quotient/pairing descent. The
+adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
 two-block spanning theorem, but B034 proves that the standard fixed-carrier
