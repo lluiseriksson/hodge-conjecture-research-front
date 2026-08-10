@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B063, B071-B074, G041, NG050-NG051
+dependencies: B022, B057-B058, B063, B071-B075, G041, NG050-NG052
 claim: The equivariant boundary image of the lifted B058 non-equator thimble class has nonzero projection to B074's invariant full-support intermediate-extension summand after the equator-extension and base-locus quotients, and its trace retains nonzero Saito pairing with the prescribed Hodge class.
 falsifier: boundary image confined to the A2 standard constituent, projection into either B022 kernel, support on a proper stabilizer stratum, or vanishing prescribed pairing
 ---
@@ -50,11 +50,15 @@ nontrivially with the prescribed primitive rational Hodge class.
   intermediate extension.
 - B073/NG050 compute and exclude the purely local root-lattice trace.
 - NG051 shows why object-level invariant descent is not class-level survival.
+- B075 proves that the invariant sheet-transfer of the global B058 tube is
+  nonzero and normalized trace preserves its pairing before collision.
+- NG052 shows that this does not determine its nearby boundary or quotient
+  survival.
 
 ## Smallest next calculation
 
-Express the B057 ordered thimble-extension chain in the six sheets of the
-root cover, compute its equivariant boundary vector, and project it onto the
-trivial and standard isotypic parts before and after the two B022 kernel
-maps. The calculation must use the actual non-equator coefficients; the
-total-equator vector is already zero by NG038.
+Construct the nearby-specialization morphism of B075's invariant transferred
+tube, compute its boundary vector on the semistable stack, and project it
+support by support before and after the two B022 kernel maps. The calculation
+must use the actual non-equator coefficients; the total-equator vector is
+already zero by NG038.

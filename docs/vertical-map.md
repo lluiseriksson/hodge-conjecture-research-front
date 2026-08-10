@@ -175,6 +175,14 @@ G042 must show that the actual non-equator class, not merely the ambient
 object, has nonzero projection to B074's invariant summand after both B022
 kernels and before the prescribed pairing.
 
+B075 closes the pre-collision trace calculation: the invariant sum of all
+sheet-lifts of the B058 tube pushes forward to six times the original class,
+so normalized trace preserves the nonzero prescribed pairing on the smooth
+locus. NG052 prevents transporting that conclusion across collision without
+a nearby-cycle calculation. The only remaining arrow in G042 is therefore
+the support- and quotient-controlled specialization of this already nonzero
+invariant transfer.
+
 An externally claimed shortcut is closed separately:
 
 \[

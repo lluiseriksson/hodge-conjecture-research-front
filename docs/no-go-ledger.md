@@ -1030,3 +1030,19 @@
   identifies (V_{\rm std}) as the local A2 root constituent.
 - **Re-entry condition:** compute the actual equivariant boundary image and
   its two quotient projections as G042 requires.
+
+## NG-052 - Finite-cover transfer survives collision
+
+- **Label:** NO-GO
+- **Route:** apply B075's identity (p_*p^!=d) on the smooth detector tube
+  and infer that nearby specialization is a nonzero full-support detector.
+- **Valid input:** the invariant sheet-transfer is nonzero before collision,
+  normalized trace returns the original B058 tube, and the prescribed pairing
+  is nonzero.
+- **Invalid inference:** the specialized boundary avoids every kernel and
+  lower-support summand.
+- **Precise obstruction:** transfer does not compute nearby specialization.
+  B022's equator-extension and base-locus kernels can kill a thimble class,
+  and proper pushdown can place it on proper support.
+- **Re-entry condition:** construct the actual semistable nearby boundary and
+  verify support, both quotient maps, and the pairing as required by G042.

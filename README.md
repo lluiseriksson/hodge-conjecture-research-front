@@ -123,7 +123,10 @@ object-level summand. NG051 prevents confusing that with nonzero projection
 of the candidate class. G042 is now the smallest live calculation: compute
 the six-sheet equivariant boundary of the B057-B058 non-equator thimble and
 prove that its invariant component survives both B022 kernels and the
-specified pairing. The
+specified pairing. B075 closes the pre-collision part: invariant sheet
+transfer has normalized trace equal to the original tube and preserves the
+nonzero pairing. NG052 shows why only the nearby-specialization, support, and
+two-quotient calculation remains open. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

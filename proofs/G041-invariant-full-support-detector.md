@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B058, B063, B071-B074, G040, G042, NG050-NG051
+dependencies: B022, B058, B063, B071-B075, G040, G042, NG050-NG052
 claim: The full-support nearby-cycle detector associated with the B058 non-equator tube has a nonzero S3-invariant projection whose trace survives both B022 quotients and has nonzero Saito pairing with the prescribed Hodge class.
 falsifier: the full-support representation contains no trivial constituent, the average lies in an equator or base-locus kernel, or the traced class is orthogonal to the prescribed Hodge class
 ---
@@ -45,6 +45,10 @@ summand recovering the original local system. B073/NG050 prove that the
 local \(A_2\) root-lattice constituent contributes no invariants, and NG051
 shows that existence of the invariant object does not force the candidate
 class to land in it. Therefore the remaining issue is class-level landing.
+
+B075 proves that the invariant transfer of the B058 tube is nonzero and has
+the correct normalized trace before collision. NG052 confines the remaining
+loss to nearby specialization, strict support, and the two B022 kernels.
 
 ## Smallest next calculation
 

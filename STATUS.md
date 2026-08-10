@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 70% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 71% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -93,7 +93,9 @@ Date: 2026-08-10
   G041 must find an invariant global full-support constituent. B074 proves
   that the original intermediate extension is present as an invariant
   object-level summand; NG051/G042 isolate the still-missing class-level
-  landing after both B022 quotients.
+  landing after both B022 quotients. B075 proves nonzero invariant transfer
+  and pairing before collision; NG052 leaves only the support- and
+  quotient-controlled nearby specialization open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -354,6 +356,11 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G042 - EXPLORATORY, active smallest class-level subgate: compute the
   six-sheet boundary of the non-equator thimble and prove its invariant
   projection survives both B022 kernels and the prescribed Saito pairing.
+- B075 - PROVED: invariant finite-cover transfer of the smooth-locus B058
+  tube has normalized trace equal to the original class and preserves its
+  nonzero pairing before collision.
+- NG052 - NO-GO: this transfer identity does not automatically survive
+  nearby specialization, proper-support decomposition, or the B022 kernels.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

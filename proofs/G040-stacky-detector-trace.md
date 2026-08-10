@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B063, B071-B074, G038-G039, G041-G042, NG049-NG051
+dependencies: B022, B063, B071-B075, G038-G039, G041-G042, NG049-NG052
 claim: The B071 equivariant semistable log-stack admits a rational nearby-cycle and proper-pushdown trace square whose invariant full-support summand maps to the original Saito detector, respects both B022 quotients, and preserves its nonzero pairing with the prescribed Hodge class.
 falsifier: lack of rational MHM descent on the stack, a coarse-space correction supported on stabilizer strata, trace annihilation, loss in either B022 quotient, or failure of strict multispecialisability
 ---
@@ -52,6 +52,9 @@ B073 and NG050 show that the obvious normalized trace kills the entire local
 B074 identifies the invariant full-support intermediate-extension object
 with the original one. NG051 shows that this object-level statement does not
 prove that the actual boundary class has nonzero invariant projection.
+
+B075 closes the smooth-locus transfer and pairing. NG052 isolates the
+unproved passage through nearby specialization and the quotient kernels.
 
 ## Smallest next audit
 
