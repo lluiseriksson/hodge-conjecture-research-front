@@ -1242,3 +1242,19 @@
   $[Nt]\in\operatorname{coker}N_J$.
 - **Re-entry condition:** compute the actual logarithmic residue on the B057
   class and combined B022 kernel in G051, and solve $Nt+N_Jk=0$.
+
+## NG-064 - Hurwitz rank invariance fixes the marked detector
+
+- **Label:** NO-GO
+- **Route:** use B023's Hurwitz invariance of boundary rank and relation
+  dimension to conclude the exact B057 chain is fixed around a collision.
+- **Valid input:** a collision loop acts on a distinguished factorization by
+  braid/Hurwitz transformations, and these preserve the composite product at
+  the unmarked factorization level.
+- **Invalid inference:** the loop returns the chosen reference-fiber
+  trivialization, composite detector loop $g$, and class $\alpha$ exactly.
+- **Precise obstruction:** the collision transport may conjugate $g$ or act
+  nontrivially on $\alpha$ while leaving every rank unchanged. B088 needs
+  exact marked return, not only Hurwitz equivalence.
+- **Re-entry condition:** construct G052's marked topology-changing family
+  and verify exact return of $(g,\alpha)$ plus both B022 quotient maps.

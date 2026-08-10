@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 80% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 81% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -129,7 +129,10 @@ Date: 2026-08-10
   exact kernel-cocycle gate. B086 kills its finite deck-group component by
   rational averaging. B087/NG063 reduce the remaining semistable unipotent
   component to $[Nt]\in\operatorname{coker}N_J$. G051 is the resulting
-  nilpotent-residue gate.
+  nilpotent-residue gate. B088 proves that a marked collision acting purely
+  by Hurwitz moves and returning $(g,\alpha)$ has $Nt=0$. NG064 separates
+  Hurwitz-equivalent unmarked data from exact marked return. G052 is the
+  resulting marked-collision construction gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -472,8 +475,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   $[Nt]\in\operatorname{coker}N_J$.
 - NG063 - NO-GO: finite $S_3$ averaging does not kill the residual
   unipotent semistable monodromy.
-- G051 - EXPLORATORY, active smallest gate: compute $N$, $N_J$, and the exact
+- G051 - EXPLORATORY, governing residue gate: compute $N$, $N_J$, and the exact
   B057 vector, then exhibit $k\in J$ with $Nt+N_Jk=0$.
+- B088 - PROVED: pure Hurwitz changes preserving the composite loop,
+  reference-fiber marking, and input class fix the geometric B057 extension
+  chain, hence give $Nt=0$.
+- NG064 - NO-GO: Hurwitz equivalence and rank preservation do not by
+  themselves fix the marked detector datum $(g,\alpha)$.
+- G052 - EXPLORATORY, active smallest gate: construct a topology-changing
+  collision with a fixed marked reference fiber and exact return of
+  $(g,\alpha)$, so B088 kills the residue obstruction.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

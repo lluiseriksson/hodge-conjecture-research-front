@@ -264,7 +264,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \text{G050: }[M_{\mathrm{coll}}t-t]=0
 \text{ in }\operatorname{coker}(M_J-I)
 \Longleftarrow
-\text{G051: }[Nt]=0\text{ in }\operatorname{coker}N_J.
+\text{G051: }[Nt]=0\text{ in }\operatorname{coker}N_J
+\Longleftarrow
+\text{G052: marked Hurwitz collision fixing }(g,\alpha).
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -304,7 +306,13 @@ averaging over $\mathbf Q$. In the semistable model the remaining monodromy
 is unipotent. B087 uses $M=\exp N$ and
 $\operatorname{im}(M_J-I)=\operatorname{im}N_J$ to replace the full cocycle
 with the nilpotent residue class $[Nt]$. NG063 shows finite averaging cannot
-kill it. G051 is therefore the smallest current endpoint.
+kill it. G051 is the residue endpoint.
+
+B088 supplies a direct vanishing criterion: the B057 chain is the geometric
+extension $\tau_g(\alpha)$, so a collision acting only by Hurwitz moves and
+returning the marked composite loop, reference fiber, and class fixes the
+chain and gives $Nt=0$. NG064 blocks obtaining these marked conditions from
+rank invariance alone. G052 is therefore the smallest current endpoint.
 
 An externally claimed shortcut is closed separately:
 

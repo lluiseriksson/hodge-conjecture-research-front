@@ -174,8 +174,13 @@ $\operatorname{coker}(M_J-I)$ by an explicit kernel adjustment. B086 closes
 the finite $S_3$ part by Reynolds averaging. B087/NG063 show that the
 surviving semistable obstruction is unipotent and equals
 $[Nt]\in\operatorname{coker}N_J$. G051 is now the smallest gate: compute
-this residue class and kill it explicitly. Only then can G048 choose and
-audit the lift and G046 analyze its perverse grade. The
+this residue class and kill it explicitly. B088 supplies a zero-residue
+mechanism: pure Hurwitz motion fixes the geometric B057 composite chain if
+the collision returns the marked loop $g$, reference fiber, and class
+$\alpha$. NG064 blocks deducing those marked conditions from Hurwitz rank
+invariance. G052 is now the smallest gate: construct such a marked
+topology-changing collision. Only then can G048 choose and audit the lift
+and G046 analyze its perverse grade. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

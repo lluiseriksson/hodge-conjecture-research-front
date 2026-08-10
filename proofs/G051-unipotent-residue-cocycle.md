@@ -13,7 +13,7 @@ hodge_type: an invariant adjusted lift must retain the B058 rational type-(0,0) 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B063, B071-B076, B084-B087, G050, NG061-NG063
+dependencies: B022-B023, B057-B059, B063, B071-B076, B084-B088, G050, NG061-NG064
 claim: Compute the nilpotent collision residue N on the exact B057 lift t and the combined B022 kernel J, and prove [Nt]=0 in coker(N_J) by exhibiting k in J with Nt+N_J k=0, while retaining the ambient class and prescribed pairing.
 falsifier: a nonzero residue obstruction for every admissible semistable collision, failure of J to be N-stable, or loss of rationality or pairing under every residue-killing adjustment
 ---
@@ -52,3 +52,9 @@ The required input is the logarithmic residue matrix of the actual
 semistable B057 coefficient object, not merely the local $A_2$ root lattice.
 B073 already shows that the purely local constituent cannot carry the
 needed invariant detector by itself.
+
+B088 gives a zero-residue mechanism stronger than solving for $k$: if the
+collision is marked so that its braid action is purely Hurwitz and returns
+the exact pair $(g,\alpha)$, then the geometric composite extension chain is
+fixed and $Nt=0$. G052 is the active construction gate for this mechanism;
+NG064 prevents inferring the marked return from rank preservation alone.

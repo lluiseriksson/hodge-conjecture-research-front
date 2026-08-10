@@ -13,7 +13,7 @@ hodge_type: the adjusted invariant lift must ultimately retain rational type-(0,
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022-B023, B055, B057-B059, B084-B087, G049, G051, NG061-NG063
+dependencies: B022-B023, B055, B057-B059, B084-B087, G049, NG061-NG063
 claim: For the exact B057 chain in a proper collision model, compute the combined B022-kernel monodromy J and prove the defect class [M(t)-t] vanishes in coker(M_J-I), producing a collision-monodromy-invariant adjusted lift with the same ambient class and pairing.
 falsifier: a nonzero obstruction class for every admissible collision model, failure of the B022 kernels to form a monodromy-stable local system, or loss of rationality or pairing under every invariant adjustment
 ---

@@ -13,7 +13,7 @@ hodge_type: the nearby class and selected special lift must be rational and ulti
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022-B023, B057-B059, B083-B085, G047-G048, G050, NG059-NG062
+dependencies: B022-B023, B057-B059, B083-B085, G047-G048, NG059-NG062
 claim: Construct a proper collision model realizing the B057 ordered extension chain as a rational nearby intersection-cohomology class t_psi and prove t_psi is fixed by the collision-parameter local monodromy; B084 then supplies a rational special-fiber lift.
 falsifier: failure of chain realization in nearby intersection cohomology, nontrivial collision monodromy on the specified class, or inability to place the comparison in the proper-variety IC setting of B084
 ---
