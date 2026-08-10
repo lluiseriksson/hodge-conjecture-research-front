@@ -35,9 +35,18 @@ Let \(\rho:\widetilde B\to B\) be B065's three-blowup resolution and let \(\wide
 
 ## Current result
 
-B065 proves the SNC geometry and shows that at most two reduced boundary components meet at any point. It does not prove item 1: S042 Theorem B makes filtration compatibility an explicit additional hypothesis. NG044 also prevents replacing this two-coordinate calculation by the one-coordinate quasi-ordinary cusp application.
+B065 proves the SNC base geometry and shows that at most two reduced boundary
+components meet at any point. B066 proves that the raw pulled-back total
+family is nevertheless singular over \(E_3\cup E_2\), so the coefficient
+Hodge module cannot yet be specified as a smooth constant module. G036 must
+construct and descend a semistable total-space model first. Even then, S042
+Theorem B makes filtration compatibility an explicit additional hypothesis.
+NG044 prevents replacing the two-coordinate calculation by the
+one-coordinate quasi-ordinary cusp application.
 
 ## Smallest unresolved check
 
-Choose the chart \(b=ac\), where the total cusp equation is \(a^6c^3(4+27c)\), write the graph-pushed filtered \(\mathcal D\)-module of the resolved family, and compute whether \((F,V^a,V^c)\) is compatible near \(a=c=0\). This is a finite local algebraic question, but it has not been carried out.
-
+First complete G036. Then choose the chart \(b=ac\), where the total cusp
+equation is \(a^6c^3(4+27c)\), write the graph-pushed filtered
+\(\mathcal D\)-module of the resulting semistable family, and compute whether
+\((F,V^a,V^c)\) is compatible near \(a=c=0\).

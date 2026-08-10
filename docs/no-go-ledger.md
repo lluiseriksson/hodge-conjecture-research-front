@@ -918,3 +918,18 @@
 - **Re-entry condition:** verify the two local \(V\)-filtrations on every
   B065 double-crossing chart, glue around \(E_3\), and prove detector descent
   as formulated in G035.
+
+## NG-045 - SNC base discriminant makes the total family semistable
+
+- **Label:** NO-GO
+- **Route:** stop after B065's three base blowups and treat the pulled-back
+  \(A_2\) family as a smooth total-space normal-crossing degeneration.
+- **Valid input:** the reduced total transform of the cusp in the base is SNC.
+- **Invalid inference:** the raw pulled-back hypersurface is therefore smooth
+  or semistable.
+- **Precise obstruction:** B066 computes its Jacobian. The total family is
+  still singular along the sections over \(E_3\) and \(E_2\), although it is
+  smooth over generic \(E_1\).
+- **Re-entry condition:** construct the total-space modification or finite
+  base change explicitly, track rational descent and all direct-image
+  supports, and prove detector-pairing survival as required by G036.

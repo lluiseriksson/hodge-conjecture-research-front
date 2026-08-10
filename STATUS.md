@@ -74,7 +74,9 @@ Date: 2026-08-10
   geometric condition, leaving resolved strict multispecialisability and
   pairing descent as G034. B065 completes the three-blowup cusp geometry;
   G035 isolates the first chartwise Hodge/\(V\)-filtration calculation, and
-  NG044 excludes the one-coordinate quasi-ordinary shortcut.
+  NG044 excludes the one-coordinate quasi-ordinary shortcut. B066 shows the
+  raw base-resolved family is still singular over \(E_3\cup E_2\), making
+  G036's total-space semistable model and rational detector descent prior.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -280,6 +282,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   and push down the detector.
 - NG044 - NO-GO: S042's quasi-ordinary cusp result is one-coordinate when the
   cusp has dimension one and is not the two-parameter detector comparison.
+- B066 - PROVED: the raw pullback to the resolved cusp base remains singular
+  over the E3 and E2 sections, while generic E1 is smooth.
+- NG045 - NO-GO: resolving the base discriminant alone does not produce a
+  smooth or semistable total family.
+- G036 - EXPLORATORY, active smallest subgate: build a proper semistable
+  total-space model, label pushdown supports, and preserve the rational
+  quotient-level detector pairing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

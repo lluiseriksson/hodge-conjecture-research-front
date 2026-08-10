@@ -78,6 +78,13 @@ shows that S042's quasi-ordinary cusp application controls only one selected
 coordinate when the cusp dimension is one and therefore does not close this
 two-parameter gate.
 
+B066 then tests the raw family after that base resolution. Its total space is
+still singular along the \(E_3\) and \(E_2\) boundary sections, so NG045
+rejects the inference “SNC discriminant implies semistable family.” G036 is
+now prior to G035: construct a proper semistable total-space model, label its
+direct-image supports, and prove rational detector descent before attempting
+the filtered \((F,V_1,V_2)\) comparison.
+
 An externally claimed shortcut is closed separately:
 
 \[

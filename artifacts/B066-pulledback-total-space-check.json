@@ -1,0 +1,36 @@
+{
+  "a_chart_base_map": {
+    "s": "a**2*c",
+    "t": "a**3*c**2"
+  },
+  "a_chart_equation": "a**3*c**2 + a**2*c*x + x**3 + z**2",
+  "a_chart_gradient": [
+    "a**2*c + 3*x**2",
+    "2*z",
+    "a*c*(3*a*c + 2*x)",
+    "a**2*(2*a*c + x)"
+  ],
+  "a_chart_off_axis_resultant": "a*c",
+  "b_chart_base_map": {
+    "s": "b**2*d",
+    "t": "b**3*d"
+  },
+  "b_chart_equation": "b**3*d + b**2*d*x + x**3 + z**2",
+  "b_chart_gradient": [
+    "b**2*d + 3*x**2",
+    "2*z",
+    "b*d*(3*b + 2*x)",
+    "b**2*(b + x)"
+  ],
+  "b_chart_off_axis_resultant": "-b",
+  "singular_loci": {
+    "a_chart": [
+      "x=z=a=0",
+      "x=z=c=0"
+    ],
+    "b_chart": [
+      "x=z=b=0"
+    ]
+  },
+  "scope": "r=1 symbolic Jacobian model; additional quadratic variables behave identically"
+}
