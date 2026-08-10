@@ -113,7 +113,13 @@ equivariant at the logarithmic stack level. NG049 preserves the exact scope:
 the scheme realization is noncanonical and the rational Hodge-module detector
 trace is not part of that theorem. G040 is now the smallest active technical
 gate, asking for the invariant full-support nearby-cycle trace through the
-B022 quotients and Saito pairing. The
+B022 quotients and Saito pairing. B072 imports the needed rational stack-MHM
+and nearby-cycle formalism, so categorical existence is closed. B073/NG050
+then expose the first trace obstruction: the local \(A_2\) root lattice is the
+standard \(S_3\)-representation and its normalized average is zero. G041 is
+therefore the smallest live calculation—find a trivial constituent in the
+global full-support detector and prove that it survives both B022 kernels and
+the specified pairing. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
@@ -329,6 +335,11 @@ python verification/verify_B055_local_system_rigidity.py
 python verification/verify_B057_thimble_extension.py
 python verification/verify_B058_hodge_targeted_tube.py
 python verification/verify_B059_pairing_vs_exact_class.py
+python verification/verify_B064_a2_chart.py
+python verification/verify_B065_a2_cusp_resolution.py
+python verification/verify_B066_pulledback_total_space.py
+python verification/verify_B067_a2_weyl_cover.py
+python verification/verify_B073_a2_weyl_trace.py
 ```
 
 The repository verifier checks the required directory topology, result

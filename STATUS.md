@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 68% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 69% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -87,7 +87,10 @@ Date: 2026-08-10
   arbitrary-dimensional semistable-reduction theorem and lifts finite-group
   strict automorphisms at the log-stack level. NG049/G040 now isolate the
   remaining scheme-equivariance or stacky rational-MHM trace, full-support,
-  quotient, and nonzero-pairing obligations.
+  quotient, and nonzero-pairing obligations. B072 supplies the stack MHM,
+  six-operation, nearby-cycle, and proper-pushdown formalism. B073/NG050 show
+  that the local A2 standard representation has zero normalized trace, so
+  G041 must find an invariant global full-support constituent.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -328,10 +331,20 @@ generation from the controlled partitioned nodal locus is not proved.**
   on log stacks, but not the rational nearby-cycle trace square.
 - NG049 - NO-GO: canonical equivariant stacky semistability does not by
   itself give an equivariant scheme model or detector descent.
-- G040 - EXPLORATORY, active smallest technical subgate: construct the
+- G040 - EXPLORATORY parent technical subgate: construct the
   invariant full-support rational nearby-cycle trace, B022 quotient square,
   and nonzero Saito pairing on the semistable stack or an equivariant scheme
   realization.
+- B072 - PROVED: rational mixed Hodge modules, six operations, and
+  nearby/vanishing cycles exist on algebraic stacks and agree with
+  equivariant MHM on quotient stacks.
+- B073 - PROVED: the rational A2 root lattice is the standard two-dimensional
+  S3 representation, with zero invariant subspace and zero average projector.
+- NG050 - NO-GO: normalized averaging of a nonzero local A2 vanishing class
+  cannot produce a descended detector.
+- G041 - EXPLORATORY, active smallest representation subgate: locate a
+  nonzero trivial constituent in the global full-support detector outside
+  both B022 kernels and retain the prescribed Saito pairing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -1248,6 +1248,47 @@ characteristic 0,” [arXiv:1810.03131](https://arxiv.org/abs/1810.03131),
 - Local retrieval SHA-256:
   `09AC6958CC75D7FB2223A17B3109831DA2FF5C8CC8A4DF51E4FA577CEA578700`.
 
+## S047 - Rational mixed Hodge modules on algebraic stacks
+
+Swann Tubach, “Mixed Hodge modules on stacks,” *Forum of Mathematics,
+Sigma* 13 (2025), e175;
+[arXiv:2407.02256](https://arxiv.org/abs/2407.02256),
+[versioned PDF](https://arxiv.org/pdf/2407.02256v3).
+
+- Checked the introduction theorem, pp. 1-2: the rational derived category of
+  mixed Hodge modules extends canonically to algebraic stacks with the six
+  operations, weights, and nearby cycles.
+- Checked Theorem 3.1, pp. 12-13: the stack extension has the adjunctions,
+  base-change, projection, localization, purity, and duality structure needed
+  for the six-operations formalism.
+- Checked Proposition 3.15, pp. 16-17: for a proper morphism represented by
+  Deligne-Mumford stacks, the canonical map (f_!\to f_*) is an isomorphism
+  on the stated constructible bounded-below category.
+- Checked Definition 3.27 and the discussion preceding Proposition 3.29,
+  pp. 21-23: unipotent nearby cycles are defined on algebraic stacks and the
+  coherent construction encodes compatibility with proper pushforward and
+  smooth pullback.
+- Checked Proposition 3.29, p. 23: shifted unipotent nearby cycles preserve
+  bounded constructible objects and are perverse exact; the rational
+  realization is conservative and commutes with the construction.
+- Checked Theorem 3.36, pp. 24-25: full nearby cycles on stacks preserve
+  bounded constructible objects, are perverse exact and lax monoidal, commute
+  with external products, and have the stated duality comparison. The proof
+  is smooth-local and compares with Saito's functor on schemes.
+- Checked Definition 3.37 and Proposition 3.38, p. 25: vanishing cycles are
+  defined by the canonical cone and preserve bounded constructible objects
+  with perverse exactness after shift.
+- Checked Proposition 3.39, pp. 26-27: on a quotient stack ([X/G]), the
+  homotopy category agrees with Achar's equivariant mixed-Hodge-module
+  category; the six operations agree as well.
+- Scope guard: the source constructs the stack/equivariant formalism. It does
+  not compute the (S_3)-character of the A2 detector, identify the required
+  invariant full-support summand, prove the B063 multi-(V)-filtration
+  hypothesis for this object, compare B022's two quotients, or establish a
+  nonzero detector pairing. B072, B073, NG050, and G041 separate these tasks.
+- Local retrieval SHA-256:
+  `CF8B315F723740C08EB43995DE0C5601866DF2310A4CA04C832616ABAAB33BA7`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

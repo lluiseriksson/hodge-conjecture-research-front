@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B063, B067, B069, B071, G037, G039-G040, NG047, and NG049
+dependencies: B022, B063, B067, B069, B071-B073, G037, G039-G041, NG047, NG049-NG050
 claim: Weak semistable reduction can be refined equivariantly over the S3 root cover so that the rational full-support detector admits a trace to the original family preserving the B022 class and nonzero pairing.
 falsifier: unavoidable non-equivariance, loss of weak semistability under resolution, detector support confined to exceptional strata, or trace annihilation of the nonzero pairing
 ---
@@ -47,8 +47,13 @@ finite-group equivariance at the canonical log-stack level. NG049 shows why
 this still does not prove a group-equivariant scheme realization or the
 rational detector trace. G040 isolates that remaining comparison.
 
+B072 supplies the rational stack-MHM and nearby-cycle formalism. B073/NG050
+show that the local A2 root-lattice constituent has zero invariant trace.
+G041 now isolates the required nonzero trivial constituent in the global
+full-support detector.
+
 ## Smallest next audit
 
-Prove G040 by constructing the exact rational nearby-cycle, strict-support,
-invariant-trace, B022-quotient, and Saito-pairing square on B071's semistable
-log-stack or an explicit equivariant scheme realization.
+Prove G041 by computing the global full-support S3-character and showing that
+its trivial-isotypic part survives both B022 quotients and the prescribed
+Saito pairing; then finish G040's strictness and trace square.

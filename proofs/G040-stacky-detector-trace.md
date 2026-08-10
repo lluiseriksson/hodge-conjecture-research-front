@@ -13,7 +13,7 @@ hodge_type: rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B063, B071, G038-G039, NG049
+dependencies: B022, B063, B071-B073, G038-G039, G041, NG049-NG050
 claim: The B071 equivariant semistable log-stack admits a rational nearby-cycle and proper-pushdown trace square whose invariant full-support summand maps to the original Saito detector, respects both B022 quotients, and preserves its nonzero pairing with the prescribed Hodge class.
 falsifier: lack of rational MHM descent on the stack, a coarse-space correction supported on stabilizer strata, trace annihilation, loss in either B022 quotient, or failure of strict multispecialisability
 ---
@@ -41,10 +41,17 @@ diagram that:
 6. proves the resulting class still pairs nontrivially with the prescribed
    rational Hodge class.
 
+## Current audit
+
+B072 closes item 1 and the existence of nearby-cycle/proper-pushdown
+operations on the stack. It also identifies the quotient-stack category with
+equivariant MHM. It does not compute the full-support summand or pairing.
+B073 and NG050 show that the obvious normalized trace kills the entire local
+\(A_2\) root-lattice constituent.
+
 ## Smallest next audit
 
-Audit primary constructions of mixed Hodge modules on quotient or finite
-Deligne–Mumford stacks, or an equivalent finite-equivariant descent theorem,
-for nearby cycles and proper direct image with rational coefficients. A bare
-six-functor formalism is insufficient unless the strict-support and trace
-diagram above is explicit.
+Prove G041 by computing the \(S_3\)-character of the full-support detector
+object and locating a nonzero trivial constituent outside both B022 kernels.
+Only after that representation-level survival is established should the
+strict multispecialisability and Saito pairing square be promoted.

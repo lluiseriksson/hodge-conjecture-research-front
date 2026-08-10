@@ -1000,3 +1000,18 @@
   detector-trace result.
 - **Re-entry condition:** prove G040 either on the finite Deligne-Mumford
   stack or after an explicit equivariant projective scheme realization.
+
+## NG-050 - Average a local A2 detector
+
+- **Label:** NO-GO
+- **Route:** choose any nonzero class in the local (A_2) vanishing lattice
+  on the ordered-root cover and descend it by the normalized (S_3)-trace.
+- **Valid input:** B072 supplies rational equivariant MHM and proper
+  pushforward on the quotient stack, so the averaging endomorphism exists.
+- **Invalid inference:** averaging a nonzero local class is nonzero.
+- **Precise obstruction:** B073 computes the local root lattice as the
+  standard two-dimensional (S_3)-representation. Its invariant space and
+  normalized average projector are both zero.
+- **Re-entry condition:** prove G041 by locating a trivial constituent in the
+  larger global full-support nearby-cycle object and tracking it through both
+  B022 quotients and the prescribed pairing.

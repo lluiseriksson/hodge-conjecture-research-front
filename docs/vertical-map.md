@@ -137,6 +137,26 @@ rational nearby-cycle MHM, invariant full-support pushdown, B022 quotient
 square, or nonzero Saito pairing. G040 is now the smallest active technical
 gate on this branch.
 
+B072 removes the categorical part of that obstruction: rational mixed Hodge
+modules, six operations, and nearby/vanishing cycles exist on algebraic
+stacks, commute with proper pushforward in the audited sense, and recover
+equivariant MHM on quotient stacks. The next arrow is no longer existence of
+stack MHM but survival of the actual class:
+
+\[
+\text{G040}
+\Longleftarrow
+\text{nonzero invariant full-support detector G041}
+\Longleftarrow
+\text{global }S_3\text{-character and quotient calculation}.
+\]
+
+B073/NG050 give the first adverse character computation: the local
+\(A_2\) root lattice is the standard \(S_3\)-representation, so its entire
+normalized trace is zero. Any positive G041 proof must obtain a trivial
+constituent from global thimble-extension or other full-support data, not
+from a single local vanishing root.
+
 An externally claimed shortcut is closed separately:
 
 \[
