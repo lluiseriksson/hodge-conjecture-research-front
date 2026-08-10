@@ -1,0 +1,17 @@
+{
+  "arrangements": "U_(3,r)",
+  "tested_branch_range": [3, 20],
+  "tested_rank_cases": 207,
+  "line_strata_for_r": "r",
+  "pair_strata_for_r": "binomial(r,2)",
+  "max_local_H1_rank": 2,
+  "cohomology_sheaf_H1": "direct sum_i Q_(L_i)",
+  "residue_map": "d2(a_i) = sum_i a_i delta_i",
+  "resolved_ordinary_amplitude": [0, 1, 2, 3, 4],
+  "shifted_stalk_amplitude": [-3, -2, -1, 0, 1],
+  "perverse_direct_image_range": [-1, 0, 1],
+  "point_summand_ordinary_degrees": [2, 3, 4],
+  "point_summand_H1_contribution": 0,
+  "kernel_hodge_type": "(0,0)",
+  "scope": "finite incidence, shift, rank, and Hodge-number bookkeeping only"
+}

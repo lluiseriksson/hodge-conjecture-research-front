@@ -339,6 +339,12 @@ Society Lecture Note Series 343 (2007), 206-263.
   under this residue morphism. B038 combines this explicit primary formula
   with the standard logarithmic residue sequence on the exceptional
   \(\mathbf P^1\); it does not import a multipart theorem from the paper.
+- For B042, the same normal-crossing logarithmic complex is applied after
+  blowing up a uniform rank-three arrangement. The new global calculation
+  uses the self-contained SNC residue sequence on \(\mathbf P^2\): the
+  extension class of the \(i\)-th residue summand is
+  \(c_1(\mathcal O(L_i))\), so constants map to
+  \(\sum_i c_i[L_i]\). No higher-rank theorem is imported from S021.
 - Checked pp. 18-19 visually and against OCR: the paper explicitly defines
   \(\rho(ii)\) as the dimension of the image of
   \(H_{2n}(X_{s_0})\to H_{2n}(X)_{\mathrm{prim}}\), alongside relations,
@@ -401,6 +407,11 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   one-dimensional mixed Hodge structures, Proposition 1.7 proves that the
   dimension of its \((0,0)\) Hodge classes equals the full degree-one
   dimension. B040 applies this only at the resolved two-branch crossings.
+- B042 applies the same proposition at the two- and three-component strata
+  of the resolved \(U_{3,r}\) divisor. The hypothesis \(N_iN_j=0\) is checked
+  directly from the zero mutual intersections of distinct-node vanishing
+  cycles; the source is not used for the global incidence or direct-image
+  calculation.
 - Rechecked the proof of Theorem 3 in Section 2.7. The unipotent nodal
   vanishing cohomology is one-dimensional and pure of weight \(2n\), hence
   \(\mathbf Q(-n)\); after the \(\mathbf Q(n)\) normalization used in the
@@ -808,6 +819,10 @@ American Mathematical Society* 46 (2009), 535-633,
   coefficients. Instead, it proves the necessary perverse stalk/costalk
   bounds directly from B037 and its Verdier dual, then applies Saito's
   coefficient-sensitive projective direct-image and strict-support theorem.
+- B042 uses Saito's projective decomposition only after proving directly
+  that the threefold blow-up direct image has perverse amplitude
+  \([-1,1]\). It does not call the non-semismall blow-up semismall or infer
+  \(t\)-exactness.
 - Scope guard: the theorem separates the downstairs full-support IC summand
   from point-supported summands. It does not calculate the latter's Hodge
   structures and does not prove that the degree-one relation group has type

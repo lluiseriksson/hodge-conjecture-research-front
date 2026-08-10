@@ -260,8 +260,10 @@ the downstairs degree-one IC stalk. NG-034 prevents using a complex
 face-quiver calculation alone for the rational Hodge-type step; B040 instead
 uses Saito's mixed-Hodge-module calculation to prove pure type \((0,0)\)
 after \(\mathbf Q(n)\). B041 extends all four steps uniformly to
-\(U_{2,r}\). The next subgate is \(U_{3,7}\), followed by general
-higher-rank multipart arrangements. Only after that general calculation is
+\(U_{2,r}\). B042 computes the exceptional line-incidence row and
+non-semismall shifts for every \(U_{3,r}\). The next subgate is the uniform
+\(U_{d,r}\) theorem, followed by nonuniform multipart arrangements. Only
+after that general calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 

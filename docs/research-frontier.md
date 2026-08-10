@@ -63,10 +63,11 @@ closed by B040 using Saito's normal-crossing
 mixed-Hodge calculation: the five crossing groups are \(\mathbf Q(0)\), and
 the exceptional relation kernel is their type-\((0,0)\) sub-Hodge structure.
 B041 proves the same statement for every \(U_{2,r}\) central line
-arrangement. The next falsifiable subgate is \(U_{3,7}\): blowing up the
-origin gives an exceptional \(\mathbf P^2\) with seven lines and their
-pair-intersection strata. Higher-rank multipart resolution remains a later,
-separate obligation.
+arrangement. B042 then computes \(U_{3,r}\): the pair-point stalk is the
+direct sum of its two incident line generators, the residue map is
+\(e_i\mapsto\delta_i\), and non-semismall point summands occur only in
+ordinary degrees \(2,3,4\). The next falsifiable subgate is the uniform
+\(U_{d,r}\) theorem. Nonuniform multipart resolution remains separate.
 
 ## Sufficient parent: G014
 
@@ -112,12 +113,11 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Compute the exceptional incidence spectral sequence for \(U_{3,7}\),
-   including every line and pair-intersection stratum, and test whether its
-   degree-one group is the full relation kernel of pure type \((0,0)\).
-2. Extend the calculation to general higher-rank multipart arrangements,
-   including higher-dimensional exceptional strata and all additional
-   differentials.
+1. Prove or refute the uniform \(U_{d,r}\) relation-channel theorem in every
+   rank, including the exceptional \(\mathbf P^{d-1}\) incidence sheaf and
+   exact perverse-amplitude bound.
+2. Extend the calculation to nonuniform multipart arrangements, including
+   wonderful resolutions and all additional exceptional centers.
 3. If G015 holds, replace the two-block constraint by Edmonds'
    \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
    fixed-carrier constructions.

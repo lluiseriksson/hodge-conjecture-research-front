@@ -186,8 +186,9 @@ downstairs degree-one IC stalk is exactly that relation kernel. The active
 subgate is closed by B040: after the explicit \(\mathbf Q(n)\) normalization,
 the five crossing groups are \(\mathbf Q(0)\), so the relation kernel is pure
 of type \((0,0)\). B041 extends the complete argument to every
-\(U_{2,r}\). The next justified test is \(U_{3,7}\), whose exceptional
-\(\mathbf P^2\) has new line-incidence strata.
+\(U_{2,r}\). B042 computes the new line-incidence strata and proves the same
+statement for every \(U_{3,r}\), including \(U_{3,7}\). The next justified
+gate is the dimension-uniform \(U_{d,r}\) pattern.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -239,6 +240,7 @@ python verification/verify_B038_exceptional_residue.py
 python verification/verify_B039_downstairs_ic.py
 python verification/verify_B040_exceptional_hodge_type.py
 python verification/verify_B041_uniform_rank_two.py
+python verification/verify_B042_uniform_rank_three.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -260,6 +262,8 @@ The B040 check verifies the finite Tate-source and relation-kernel Hodge
 number bookkeeping.
 The B041 check verifies uniform rank/nullity, shift, and Tate bookkeeping
 for \(3\le r\le30\).
+The B042 check verifies exceptional-line incidence counts, threefold
+perverse shifts, rank/nullity, and Tate bookkeeping.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

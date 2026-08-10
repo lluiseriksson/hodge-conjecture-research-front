@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B041, G012-G014, Green-Griffiths S021, and Saito S022/S037
+dependencies: B009-B010, B028, B034-B042, G012-G014, Green-Griffiths S021, and Saito S022/S037
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -218,6 +218,31 @@ The narrowest unresolved higher-rank gate is \(U_{3,7}\). Its exceptional
 \(\mathbf P^2\) contains seven pairwise-transverse lines and their
 pair-intersection strata, so the marked-curve two-row argument no longer
 applies without a new incidence spectral-sequence computation.
+
+## Attempt 9 - First higher-rank incidence calculation
+
+B042 computes that spectral sequence, uniformly for \(U_{3,r}\). At a
+pair-intersection point, the local degree-one group is canonically the
+direct sum of the two incident line generators. Thus
+
+\[
+ \mathcal H^1(A|_{\mathbf P^2})
+ =\bigoplus_i\mathbf Q_{L_i},
+\]
+
+with no additional skyscraper term. The logarithmic residue sequence on
+\(\mathbf P^2\) again gives \(d_2(e_i)=\delta_i\).
+
+The threefold blow-up is not semismall, but its direct image has perverse
+amplitude \([-1,1]\). After undoing the dimension-three shift, all
+point-supported summands lie in ordinary degrees \(2,3,4\), so degree one
+still descends to the full-support IC summand. Saito's normal-crossing
+calculation makes the resulting kernel pure type \((0,0)\).
+
+The calculation suggests a dimension-uniform pattern for simple uniform
+arrangements. The next falsifiable subgate is to prove or refute that pattern
+for \(U_{d,r}\) in arbitrary rank, including the exact perverse-amplitude
+bound for the blow-up of a \(d\)-fold at the origin.
 
 ## Propagation
 
