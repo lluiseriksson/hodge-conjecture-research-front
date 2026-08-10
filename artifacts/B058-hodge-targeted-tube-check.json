@@ -1,0 +1,17 @@
+{
+  "hodge_pairing_matrix": [
+    [2, 0],
+    [0, 3]
+  ],
+  "specified_class": [1, 0],
+  "selected_hodge_homology_class": [1, 0],
+  "nonzero_pairing": 2,
+  "tube_matrix": [
+    [1, 0, 1],
+    [0, 1, 1]
+  ],
+  "tube_rank": 2,
+  "tube_preimage": [1, 0, 0],
+  "exact_target_recovery": true,
+  "scope": "finite rational linear-algebra illustration only"
+}

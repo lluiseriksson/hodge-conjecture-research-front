@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 84% - independent Git repository, mandatory topology,
+- **Infrastructure:** 85% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 63% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 64% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -222,6 +222,9 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B057 - PROVED: B013's distributed relation is the actual thimble
   extension chain tracing the detector, with the same primitive ambient
   tube class.
+- B058 - PROVED: the detector tube may be selected so its ambient class is
+  rational type \((0,0)\) and pairs nontrivially with the specified Hodge
+  class.
 - NG038 - NO-GO: the total equator of one complete pencil lies in
   \(\operatorname{im}\tau_\infty\) and vanishes in the first B022 quotient.
 - G030 - EXPLORATORY, active gate: collide the actual non-equator plane-net

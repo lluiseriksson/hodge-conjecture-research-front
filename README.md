@@ -63,7 +63,7 @@ standard rational Hodge Conjecture
   <=> primitive singular-hyperplane detection                    [B007, PROVED]
   <=> class-specific nodal vanishing-cycle relation              [B010/G006]
   <=> nonempty codimension-two local support                     [B012/G008]
-      <= class-paired multipart nodal incidence                  [B026-B057/G028-G029]
+      <= class-paired multipart nodal incidence                  [B026-B058/G028-G029]
       <= plane-net class-preserving collision                    [G030, OPEN]
 
 global input:
@@ -220,6 +220,8 @@ that B013's distributed coefficients are the actual coefficients in the
 ordered thimble-extension chain. NG038 excludes replacing this loop by the total
 equator of one pencil, whose vector lies in
 \(\operatorname{im}\tau_\infty\) and is zero in the first B022 quotient.
+B058 strengthens the source choice: the ambient tube class itself may be
+chosen rational type \((0,0)\) while retaining the specified nonzero pairing.
 G030 isolates the remaining class-preserving collision square.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
@@ -288,6 +290,7 @@ python verification/verify_B053_quasi_local_tangent.py
 python verification/verify_B054_clean_tangent_wonderful.py
 python verification/verify_B055_local_system_rigidity.py
 python verification/verify_B057_thimble_extension.py
+python verification/verify_B058_hodge_targeted_tube.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -351,6 +354,8 @@ The B057 check verifies the exact rank-one monodromy composition,
 boundary-extension identity, and NG038 total-equator quotient in a
 twelve-factor sample. B056 is proved by the primary-source
 Lefschetz-Zariski fundamental-group reduction, not by this finite check.
+The B058 check illustrates the perfect-pairing choice and exact lift through
+a surjective rational tube matrix; the theorem uses B011 and B016.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

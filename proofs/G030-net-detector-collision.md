@@ -13,7 +13,7 @@ hodge_type: the specialized relation must be rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative of the specified class may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B010-B013, B022-B025, B054, B056-B057, G029, NG023, NG037-NG038, and Saito S022
+dependencies: B010-B013, B022-B025, B054, B056-B058, G029, NG023, NG037-NG038, and Saito S022
 claim: Every B056 detector pair in a generic plane net admits an algebraic topology-changing collision to one clean q-block nodal member and a rational local relation beta such that Phi(beta) equals the original B057 tube class in primitive ambient homology and beta has type (0,0).
 falsifier: a detector pair for which every clean nodal collision either has no specialization of the B057 extension chain, maps it to zero or a different ambient class, or produces no rational type-(0,0) relation
 ---
@@ -74,3 +74,21 @@ class not in the equator-extension image.
 No audited source constructs this specialization square. B054 computes the
 local channel once the clean target exists; it does not identify a global
 extension chain with a local Saito relation.
+
+## Ambient Hodge-type audit
+
+B058 removes a possible source-side mismatch. Choose first a rational
+type-\((0,0)\) primitive homology class \(c\) pairing nontrivially with
+\(\zeta\), then use B011's surjective tube map and B056 to realize exactly
+\(c\) by a plane-net detector pair. The source of the specialization square
+may therefore be fixed as
+
+\[
+ [\tau_g(\alpha)]=c\in
+ H_{2n}(X,\mathbf Q(n))_{\mathrm{prim}}^{(0,0)}.
+\]
+
+B054 makes every relation in the clean target channel type \((0,0)\).
+Accordingly, the only unresolved decisive statement in the square is the
+geometric equality \(\Phi_{Y_p}(\beta)=c\); neither a new Hodge-type
+conversion nor a dimension argument can replace it.

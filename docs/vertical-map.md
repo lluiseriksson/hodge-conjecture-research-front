@@ -155,7 +155,9 @@ quotients before an ambient class is obtained, and B054 proves the clean
 multipart local relation channel once a nodal target is supplied. B056
 places the chosen detector loop in a generic projective plane net, and B057
 identifies B013's distributed relation with its actual thimble extension
-chain and primitive ambient class. G030 asks for a topology-changing
+chain and primitive ambient class. B058 chooses that ambient class inside
+rational type-\((0,0)\) primitive homology while retaining the specified
+pairing. G030 asks for a topology-changing
 specialization of that chain to a rational type-\((0,0)\) nodal relation
 whose Saito ambient image is exactly the same class.
 
@@ -303,7 +305,7 @@ clean-arrangement hypothesis. G028 is the unresolved class-paired incidence
 parent. B055 proves ambient-image rigidity on each connected equisingular
 component, and NG037 closes monodromy generation as a NO-GO. B056-B057
 localize and identify the global detector chain; NG038 closes the total
-equator as a NO-GO; and G030 is now the smallest class-preserving collision
+equator as a NO-GO; B058 makes its ambient target Hodge; and G030 is now the smallest class-preserving collision
 gate. The fixed-carrier branch may use
 the dimension-scaled inequality \(|S|\le q r_A(S)\), but no theorem yet
 connects a specified global detector to such a nodal relation.

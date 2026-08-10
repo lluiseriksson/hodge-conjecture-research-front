@@ -18,6 +18,10 @@ B057 identifies its distributed Picard-Lefschetz relation with the actual
 extension chain. NG038 proves that replacing this loop by a complete
 pencil's total equator kills the class in the first B022 quotient. G030 must
 retain the genuine non-equator loop or construct a transverse defect class.
+B058 also removes the ambient Hodge-type ambiguity: choose a rational
+type-\((0,0)\) primitive homology target pairing with \(\zeta\), then lift
+that exact target through B011's surjective tube map. The sole decisive
+unknown is now the collision equality with a local clean relation.
 
 ## Closed local gate: G015
 
@@ -126,8 +130,9 @@ its labelled tangent wonderful model, so the full multipart relation channel
 survives. G028-G029 are the class-paired incidence and transport parents.
 B055/NG037 exclude equisingular monodromy. B056-B057 put the actual detector
 and its extension chain in one plane net, while NG038 excludes the total
-pencil equator. G030 is now active: collide that non-equator chain while
-preserving its exact ambient class and rational Hodge type.
+pencil equator. B058 lets the ambient tube target itself be chosen rational
+type \((0,0)\). G030 is now active: collide that non-equator chain while
+preserving its exact ambient class.
 
 ## Sufficient parent: G014
 
@@ -181,8 +186,9 @@ Attack ledger:
 3. Construct an algebraic incidence component satisfying the multipart
    inequalities and the independent condition \(r_F(\Delta)<|\Delta|\);
    then prove it actually occurs as the node set of a hypersurface member.
-4. Use B056-B057 to keep the actual detector loop and extension chain in a
-   generic plane net; NG038 forbids replacing it by a total pencil equator.
+4. Use B056-B058 to keep a Hodge-targeted detector loop and its extension
+   chain in a generic plane net; NG038 forbids replacing it by a total
+   pencil equator.
 5. Construct G030's topology-changing specialization square into G015's
    proved clean multipart target, preserving the exact ambient class.
 6. Audit boundary/intersection constructions that define a global incidence
@@ -282,8 +288,9 @@ the standard fixed-carrier route needs asymptotically at least \(n!\)
 blocks. B049-B054 now close G015's multipart relation channel under the
 explicit clean-arrangement hypothesis. B055/NG037 then show that
 equisingular monodromy cannot enlarge one fixed ambient image. B056-B057
-localize and identify the detector chain, and NG038 kills the total-equator
-shortcut; G030 is the active class-preserving collision gate. B029/NG-026 test the
+localize and identify the detector chain, NG038 kills the total-equator
+shortcut, and B058 chooses its ambient target in rational Hodge homology;
+G030 is the active class-preserving collision gate. B029/NG-026 test the
 first collinear positive-defect configuration and show that it is singular
 along its carrier line. The next construction must obtain adjoint dependence
 from distributed or genuinely zero-dimensional incidence while preserving
