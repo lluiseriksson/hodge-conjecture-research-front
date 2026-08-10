@@ -274,7 +274,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G058: affine detector functional nonzero}
 \Longleftarrow
-\text{G059: dual cokernel/evaluation certificate}.
+\text{G059: dual cokernel/evaluation certificate}
+\Longleftarrow
+\text{G060: ambiguity boundary or pairing square}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -363,6 +365,16 @@ special-to-nearby map $u^*$, success is exactly
 
 where $F=u^*\lambda$ in the second case. NG071 blocks assuming the second
 case a priori. G059 is the current smallest endpoint.
+B096 identifies the cokernel branch with $F\circ d\ne0$, where $d$ is the
+preceding B083 boundary map. If it vanishes, the remaining certificate is the
+single identity
+
+\[
+ \lambda(t_\psi)=\langle\zeta,c\rangle\ne0.
+\]
+
+NG072 shows liftability does not decide which branch occurs. G060 is the
+current smallest endpoint.
 
 An externally claimed shortcut is closed separately:
 

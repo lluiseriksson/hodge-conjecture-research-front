@@ -1362,3 +1362,16 @@
   but an ambiguity-adjusted detecting lift already exists.
 - **Re-entry condition:** G059 must compute the cokernel class first and the
   descended evaluation only in its zero branch.
+
+## NG-072 - Liftability kills the ambiguity-boundary functional
+
+- **Label:** NO-GO
+- **Route:** use $\mathrm{can}(t_\psi)=0$ to conclude that the detector
+  functional vanishes on the preceding long-exact boundary image.
+- **Valid input:** liftability puts $t_\psi$ in $\operatorname{im}u$.
+- **Invalid inference:** it constrains the separate covector $F$ on
+  $\ker u=\operatorname{im}d$.
+- **Precise obstruction:** the type-$(0,0)$ countermodel in NG072 has a
+  liftable $t_\psi$ and $F\circ d\ne0$.
+- **Re-entry condition:** G060 must compute $F\circ d$ and invoke the pairing
+  square only if that computation vanishes.

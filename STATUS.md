@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 88% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 89% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -146,7 +146,11 @@ Date: 2026-08-10
   ambiguity-independence is stronger than necessary. G058 is the exact affine
   lift-torsor pairing gate. B095 dualizes it into a cokernel/evaluation
   dichotomy; NG071 blocks assuming the detector functional descends. G059 is
-  the resulting intrinsic two-case calculation.
+  the resulting intrinsic two-case calculation. B096 identifies its first
+  branch with the preceding ambiguity-boundary functional and reduces its
+  second branch to one comparison square with B058's nonzero pairing. NG072
+  prevents deriving boundary annihilation from liftability. G060 is the exact
+  geometric square gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -546,8 +550,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG071 - NO-GO: the special-stalk detector functional does not automatically
   descend through the special-to-nearby map; failure to descend is itself a
   success branch.
-- G059 - EXPLORATORY, active smallest gate: compute the dual map, cokernel
+- G059 - EXPLORATORY, dual-certificate parent: compute the dual map, cokernel
   class, and—only in the zero-cokernel branch—the descended detector value.
+- B096 - PROVED: $[F]\ne0$ is equivalent to $F\circ d\ne0$ on the preceding
+  long-exact boundary; if it vanishes, a square identifying
+  $\lambda(t_\psi)$ with B058's nonzero pairing closes the other branch.
+- NG072 - NO-GO: liftability $\mathrm{can}(t_\psi)=0$ does not imply
+  $F\circ d=0$.
+- G060 - EXPLORATORY, active smallest gate: compute $F\circ d$, or in its
+  zero branch prove the quotient- and Hodge-compatible B058 pairing square.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

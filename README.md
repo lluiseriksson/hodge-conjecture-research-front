@@ -205,7 +205,12 @@ $F(\beta_0)\ne0$ or $F(A)\ne0$. The equivalent B095 dual form is more
 intrinsic: either
 $[F]\ne0$ in $\operatorname{coker}u^*$, or $F=u^*\lambda$ and
 $\lambda(t_\psi)\ne0$. NG071 prevents assuming descent automatically. G059
-is the active two-case certificate calculation. The
+is the intrinsic two-case certificate. B096 exposes the actual geometric
+obligation: either the detector
+functional is nonzero on the preceding ambiguity-boundary map, or it descends
+and a comparison square must identify its value with B058's already nonzero
+ambient pairing. NG072 blocks inferring boundary annihilation from mere
+liftability. G060 is the active gate. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
@@ -432,6 +437,7 @@ python verification/verify_B092_special_lift_countermodel.py
 python verification/verify_B093_relation_shift.py
 python verification/verify_B094_affine_lift_criterion.py
 python verification/verify_B095_dual_lift_obstruction.py
+python verification/verify_B096_boundary_pairing_dichotomy.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -513,6 +519,8 @@ The B094 check verifies the exact affine-torsor disjunction for existence of
 at least one lift with nonzero quotient-level pairing.
 The B095 check verifies the equivalent dual cokernel/descended-evaluation
 dichotomy.
+The B096 check verifies the ambiguity-boundary/descended-pairing reformulation
+and NG072's separation from liftability.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

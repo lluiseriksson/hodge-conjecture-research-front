@@ -13,7 +13,7 @@ hodge_type: all stalk spaces and maps restricted to rational type (0,0) after Q(
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B081-B084, B093-B095, G048-G055, G058, NG068-NG071
+dependencies: B009-B010, B022, B058, B081-B084, B093-B096, G048-G055, G058, NG068-NG072
 claim: For the actual collision, compute the dual special-to-nearby map u^* and canonical detector functional F, then prove either [F] is nonzero in coker(u^*) or [F]=0 and its descended functional evaluates nontrivially on t_psi.
 falsifier: an undefined type-(0,0) dual map or detector functional, or simultaneous vanishing of the cokernel branch and descended evaluation for every admissible collision
 ---
@@ -49,3 +49,5 @@ or, if $F=u^*\lambda$,
 B095 proves that either certificate is equivalent to existence of a
 detecting special lift. The first branch uses ambiguity; the second is
 lift-independent. Both retain the full rational type and quotient checks.
+B096/G060 identify the first branch with $F\circ d\ne0$ and reduce the
+second to the pairing square with B058's known nonzero value.
