@@ -82,8 +82,9 @@ recorded as NG-009.
 
 B011 proves that global monodromy tubes detect every primitive class. G007
 asks whether a tube detector for \(\zeta\) can be concentrated at one singular
-hyperplane as a Saito relation class. This global-to-local step is now the
-narrowest active gate.
+hyperplane as a Saito relation class. B027 excludes the fully independent
+nodal target; G012 is now the narrowest active version, using a dependent
+node set partitioned into independently controlled parts.
 
 Any construction beginning with a subvariety whose class is \(\zeta\) is circular for
 this gate.

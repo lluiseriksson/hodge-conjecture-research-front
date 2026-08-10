@@ -1,6 +1,6 @@
 ---
 brick_id: G010
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary polarized smooth projective X of dimension 2n, a specified primitive rational Hodge class, a global tube or quotiented-thimble detector, and a sought independent-node hyperplane member
 smoothness: X and reference hyperplane fibers are smooth; the sought member has only ordinary double points imposing independent conditions
@@ -13,7 +13,7 @@ hodge_type: the input is primitive rational type (n,n), or type (0,0) after Tate
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B010-B011, B015-B016, and B022-B025
+dependencies: B010-B011, B015-B016, and B022-B027
 claim: Every nonzero global tube or quotient-level thimble detector for a specified primitive rational Hodge class can be transferred by an algebraic topology-changing degeneration to a nonzero type-(0,0) kernel element of the local-to-global Milnor map at one independent-node member, with the resulting Saito ambient class retaining nonzero pairing with the specified Hodge class.
 falsifier: a polarized smooth projective 2n-fold and primitive rational Hodge class with a nonzero global detector such that every independent-node local-to-global kernel class has zero Saito pairing with it
 ---
@@ -89,3 +89,10 @@ kernel vector; prove that the vector survives the B022 ambient quotients,
 has rational type \((0,0)\), and maps to a Saito class pairing nontrivially
 with \(\zeta\). A Milnor-number count or isolated singularity morsification
 alone is insufficient.
+
+## Final obstruction
+
+B027 proves that the demanded independent-node target has zero relation
+space in the high-power regime when \(n\ge2\). Hence no prescribed nonzero
+kernel vector can land there. The viable replacement is G012's partitioned
+quasi-local nodal target. This failure is NG-024.

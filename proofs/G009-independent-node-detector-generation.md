@@ -1,6 +1,6 @@
 ---
 brick_id: G009
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: arbitrary polarized smooth projective X of dimension 2n and all nodal hyperplane members in sufficiently high powers whose nodes impose independent linear-system conditions
 smoothness: X is smooth; detector members have only ordinary double points and their Severi strata are smooth under the independent-node hypothesis
@@ -13,7 +13,7 @@ hodge_type: primitive type (0,0) after Tate twist; only type-(0,0) Saito relatio
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B010, B015-B025; boundary attempt audited in S026, matching paths in S027, thimble/Hurwitz models in S028-S029, and isolated Milnor bases in S030
+dependencies: B010, B015-B027; boundary attempt audited in S026, matching paths in S027, thimble/Hurwitz models in S028-S029, and isolated Milnor bases in S030
 claim: The rational span of Saito detector classes from all independent-node hyperplane members in all sufficiently high powers equals the primitive rational Hodge homology of X.
 falsifier: a polarized smooth projective 2n-fold with a nonzero primitive rational Hodge cohomology class orthogonal to every Saito detector class arising from every independent-node member in every sufficiently high power
 ---
@@ -199,3 +199,12 @@ must additionally prove an algebraic collision theorem identifying the
 matching sphere with a one-fiber relation class and preserving rational
 type \((0,0)\). It must also preserve nonvanishing after the
 equator-extension and base-locus quotients in B022.
+
+## Final obstruction
+
+B027 proves that in dimension \(2n\ge4\), for every sufficiently high power,
+full independence of the node scheme on the defining line bundle forces the
+adjoint defect and the vanishing-cycle relation space to vanish. The explicit
+primitive Hodge class on \(\mathbf P^2\times\mathbf P^2\) falsifies the claimed
+span equality. This gate is therefore closed as NG-024. G012 replaces full
+independence by the audited quasi-local partition model of B009.

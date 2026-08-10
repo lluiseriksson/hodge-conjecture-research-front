@@ -465,3 +465,43 @@
   prescribed kernel vector, and prove rational type \((0,0)\), survival
   through the B022 quotients, and nonzero pairing with the specified Hodge
   class.
+
+## NG-023 - A positive adjoint defect does not select the prescribed detector
+
+- **Label:** NO-GO
+- **Route:** find a nodal member with
+  \(h^1(I_\Delta\otimes K_X\otimes L^n)>0\) and conclude that it detects the
+  specified primitive Hodge class.
+- **Valid input:** B026 proves that this dimension equals the dimension of
+  the nodal relation space and of a primitive ambient homology image.
+- **Invalid inference:** any nonzero detector subspace pairs nontrivially
+  with the specified \(\zeta\), or a coherent defect vector is automatically
+  the chosen global detector.
+- **Precise obstruction:** a positive-dimensional subspace may be contained
+  in the annihilator \(\zeta^\perp\). The audited equality is numerical and
+  does not supply the required class-paired vector-level incidence.
+- **Re-entry condition:** construct a rational comparison over a nodal
+  incidence locus and prove that the section induced by the chosen global
+  detector has a fiber with nonzero \(\zeta\)-pairing.
+
+## NG-024 - Full node independence kills high-power defect
+
+- **Label:** NO-GO
+- **Route:** restrict the detector search to high-power nodal members whose
+  entire node scheme imposes independent conditions on the defining linear
+  system, as in G009-G011.
+- **Valid input:** full independence gives the clean B015 normal-crossing
+  discriminant model.
+- **Invalid inference:** this controlled locus can still carry a nonzero
+  vanishing-cycle relation in complex dimension at least four.
+- **Precise obstruction:** B027 multiplies interpolation sections by a
+  section of \(K_X\otimes A^{n-1}\) nonvanishing at every node. For
+  \(n\ge2\) and \(A\) sufficiently high, this forces adjoint interpolation,
+  so \(H^1(I_\Delta\otimes K_X\otimes A^n)=0\). B026 then forces the
+  relation space to vanish. The nonzero primitive class on
+  \(\mathbf P^2\times\mathbf P^2\) explicitly falsifies G009's universal span
+  claim.
+- **Re-entry condition:** allow the full node set to be dependent while
+  requiring independently controlled parts \(\Delta=J\sqcup K\). Compute
+  the cross-part relation in B009's quasi-local model and retain the
+  prescribed pairing; this is G012.

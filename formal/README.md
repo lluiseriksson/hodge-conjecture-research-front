@@ -70,8 +70,9 @@ B016 is a realistic finite-dimensional formalization target. Given a perfect
 pairing \(H\times H^\vee\to\mathbf Q\), a family of detector vectors spans
 \(H^\vee\) if and only if every nonzero vector of \(H\) pairs nontrivially
 with some detector. This lemma can be kernel-checked without importing open
-geometry. G009 must remain an explicit hypothesis about the geometric
-detector family; no formal span axiom may assert it.
+geometry. B027 now falsifies G009's chosen geometric family; no formal span
+axiom may resurrect it. G012's partitioned family remains an explicit open
+hypothesis.
 
 B017 is the corresponding finite-dimensional ascending-chain lemma. A formal
 version may prove stabilization and extraction of a finite basis from a full
@@ -133,7 +134,7 @@ detector.
 B025 adds a basis-versus-kernel type separation. For an isolated
 hypersurface singularity the distinguished morsification map
 \(\mathbf Q^\mu\to M\otimes\mathbf Q\) is an isomorphism, so its internal
-kernel is zero. The open G010 input has a different type:
+kernel is zero. A global relation has a different type:
 
 \[
  \ker\!\left(\bigoplus_y M_y\otimes\mathbf Q
@@ -144,6 +145,19 @@ A formal interface must not coerce the local basis into a global relation.
 Noninjectivity of the displayed local-to-global map, rational type \((0,0)\),
 survival through the B022 quotients, and the class-specific nonzero pairing
 must each remain explicit hypotheses until geometrically proved.
+
+B026 imports equality of several **dimensions**. A typed formalization must
+not turn that equality into an unproved canonical map between the adjoint
+coherent defect and a rational Saito relation, nor infer nonzero pairing with
+a selected functional.
+
+B027 is a stable algebraic formalization target. From surjectivity of
+\(H^0(A)\to H^0(A|_\Delta)\), a section of
+\(M=K_X\otimes A^{n-1}\) nonzero on the finite set, and
+\(H^1(A\otimes M)=0\), multiplication proves
+\(H^1(I_\Delta\otimes A\otimes M)=0\). Coupled to B026, the detector type is
+the zero space. G012 must therefore encode partwise independence and full-set
+dependence as distinct hypotheses.
 
 Rules:
 

@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; the sought local relation has type (0,0) afte
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B008, B010-B013, B015, and B019-B025
+dependencies: B008, B010-B013, B015, and B019-B027
 claim: Every nonzero primitive rational Hodge class detected by a global Schnell tube is also detected by a type-(0,0) Saito relation concentrated at one singular hyperplane member.
 falsifier: a polarized smooth projective 2n-fold and primitive rational Hodge class with a nonzero global tube detector but orthogonal to every Saito local relation class for every singular member of every polarization power
 ---
@@ -136,8 +136,9 @@ tube detector and whose discriminant intersections specialize to one
 higher-codimension point; then prove, through the vanishing-cycle exact
 sequence, that the specialized relation maps to a Saito class with the same
 nonzero \(\zeta\)-pairing. Ordinary double points would make the type
-\((0,0)\) condition automatic by B010, while B015 supplies the local
-normal-crossing geometry if their independent-incidence hypothesis is met.
+\((0,0)\) condition automatic by B010. B027 excludes full high-power node
+independence, so the target must use B009's partwise-independent quasi-local
+geometry as formulated in G012.
 The specialization datum must include the equator-extension quotient and
 the base-locus projection of B022, not only a map of vanishing-cycle kernels.
 

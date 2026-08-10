@@ -1,26 +1,26 @@
 # Research frontier
 
-## Active gate: G010
+## Active gate: G012
 
 For an arbitrary polarized smooth projective \(2n\)-fold, a specified
 primitive rational Hodge class, and a nonzero global tube or quotient-level
-thimble detector, construct an independent-node member whose local-to-global
-Milnor map has a prescribed nonzero rational type-\((0,0)\) kernel vector.
-Its Saito class must retain nonzero pairing with the specified Hodge class
-and survive the equator-extension and base-locus quotients. This is the
-concrete mechanism G010 feeding detector generation G009; G008 remains the
-terminal-equivalent parent gate.
+thimble detector, construct a nodal member whose full node set is dependent
+but partitions as \(\Delta=J\sqcup K\) with each part independently
+controlled. The cross-part relation must have rational type \((0,0)\), retain
+nonzero pairing with the specified Hodge class, and survive the
+equator-extension and base-locus quotients. G008 remains the
+terminal-equivalent parent gate. B027 proves that the former fully
+independent-node gates G009-G011 are NO-GO in the high-power range.
 
 Immediate bricks:
 
-1. Determine whether the independent-node detector span is stable under
-   genuine geometric comparison maps between polarization powers. B017 gives
-   only non-effective cumulative stabilization; NG-014 excludes multiplication
-   of defining sections as a comparison.
-2. Compare its annihilator with the global coinvariant maps in B011, without
-   coercing global tubes into local relations.
-3. Use B015's normal-crossing model as the target for G007 and identify the
-   exact class-preserving specialization datum still absent.
+1. Construct a global incidence space of partitions
+   \(\Delta=J\sqcup K\) where each part is independent but the union has
+   positive adjoint defect.
+2. Compare its cross-part defect local system with the global coinvariant
+   maps in B011, without coercing global tubes into local relations.
+3. Use B009's quasi-local partition model as the target for G007 and identify
+   the exact class-preserving specialization datum still absent.
 4. Audit boundary/intersection constructions that define a global incidence
    class without using an algebraic representative of \(\zeta\); NG-013
    excludes the HC-dependent Green-Griffiths construction.
@@ -28,7 +28,7 @@ Immediate bricks:
    primitive ambient class; B018/NG-015 exclude complete intersections of
    polarization divisors as detectors.
 6. Test an algebraic collision bridge from distinct-fiber matching thimbles
-   to one independent-node Saito relation; B019/NG-016 show that the
+   to one partitioned nodal Saito relation; B019/NG-016 show that the
    symplectic matching-path theorem does not provide this bridge.
 7. Do not treat intersection-one pairs as relations; B020/NG-017 prove the
    opposite for Schnell's pair and leave the two-ODP relation computation
@@ -49,12 +49,13 @@ Immediate bricks:
 12. Do not seek the required relation inside one isolated singularity's
     Milnor lattice. B025 proves its morsification cycles form a basis;
     NG-022 forces the relation into the global local-to-nearby-fiber kernel.
-13. Audit global defect/incidence formulas for that local-to-global map and
-    demand a prescribed kernel vector with the chosen nonzero pairing, not
-    merely a positive defect dimension.
-14. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+13. Use B026's equality of defect numbers only as a consistency test;
+    NG-023 forbids promoting positive dimension to a prescribed pairing.
+14. Enforce B027/NG-024: full independence is fatal in dimension at least
+    four at high power; only partwise independence may be imposed.
+15. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-15. Keep the semiregularity gate G004 as an independent secondary route.
+16. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -66,7 +67,8 @@ family.
 
 B016 proves the detector-span equivalence, and B017 reduces full generation
 for a fixed variety to a finite detector certificate without constructing
-one. G009 is the independent-node generation gate, supported locally by B015.
+one. G009 was the independent-node generation gate, but B027 now closes it
+as NG-024.
 Green-Griffiths II supplies a
 boundary-class program but its class-directed nodal construction assumes HC,
 recorded as NG-013. NG-014 blocks naïve detector transfer between powers.
@@ -81,8 +83,11 @@ B024/NG-021 show that complete-intersection primitive homology is globally
 detected by the quotiented thimble group without providing local Hodge
 detectors or algebraicity. B025/NG-022 prove that a higher isolated
 singularity contributes a local Milnor basis, not an internal relation.
-G010 therefore promotes the prescribed kernel of the local-to-global Milnor
-map to the active concrete gate beneath G009.
+B026 equates the six nodal defect dimensions, while NG-023 records that a
+positive defect does not select the prescribed pairing. B027/NG-024 then
+close G009-G011: full independence forces zero high-power defect for
+\(n\ge2\). G012 is the replacement gate, using B009's partitioned quasi-local
+model.
 G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

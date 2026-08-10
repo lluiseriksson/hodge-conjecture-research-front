@@ -34,7 +34,7 @@ boundary, not an induction mechanism.
 | Schnell tube mapping | global monodromy tubes generate all rational primitive middle cohomology when vanishing homology is nonzero | a global loop-fixed tube is not supported on one singular fiber and is not automatically a local Saito relation |
 | global/local Green-Griffiths invariants | B012 proves global detection of every primitive class and high-power local detection of restriction; possible local support has codimension at least two | nonzero global hypercohomology does not force a nonzero local stalk; support nonemptiness is terminal-equivalent for Hodge classes |
 | independent-node Severi geometry | B015 gives normal-crossing discriminant branches, expected-codimension partial smoothings, and the exact local IC channel once such a nodal member is fixed | does not construct the member from a specified Hodge class or force the class-specific restriction to be nonzero |
-| detector-span formulation | B016 turns detection by any chosen singular-member collection into equality of its Saito detector span with primitive rational Hodge homology | the independent-node span equality G009 is precisely the new open generation content |
+| detector-span formulation | B016 turns detection by any chosen singular-member collection into equality of its Saito detector span with primitive rational Hodge homology | B027 disproves the fully independent-node choice; G012 uses partitioned quasi-local nodal relations instead |
 | finite detector certificate | B017 proves cumulative spans stabilize and full generation for a fixed variety is witnessed by finitely many detector classes | gives no effective power bound, no construction, and no monotonicity for the individual power-by-power spaces |
 | tautological complete intersections | their classes and multiplicities are explicit and algebraic | B018 proves their primitive projections vanish, so they cannot detect primitive middle classes |
 | symplectic matching paths | B019: two transported thimbles over distinct critical values glue to a Lagrangian sphere in the audited four-dimensional setting | no algebraic one-fiber collision, Hodge-type certificate, or Saito-class identification follows |
@@ -44,6 +44,8 @@ boundary, not an induction mechanism.
 | Hurwitz equivalence | B023 shows distinguished bases in a fixed exact Morse fibration are related by invertible moves preserving boundary rank and relation-kernel dimension | cannot model a topology-changing collision or repair the matching/cusp rank mismatch |
 | complete-intersection thimble detection | B024 lifts a nonzero detector for every primitive class through the surjection from the quotiented thimble group | special-family global topology only; no one-fiber Saito class, algebraic cycle, or general reduction follows |
 | isolated-singularity morsification | B025: the \(\mu\) distinguished vanishing cycles form an integral basis of the local Milnor lattice | supplies no internal relation; a detector must arise from the global kernel of local Milnor lattices mapping to nearby-fiber homology |
+| nodal defect-number equivalence | B026 equates relation dimension, primitive ambient image, adjoint node-evaluation defect, desingularization defects, and local IC dimension | numerical equality does not select the direction pairing with a specified Hodge class |
+| full node independence | B027 propagates defining-system interpolation to adjoint interpolation in dimension at least four at high power | the adjoint defect and relation space vanish; a viable locus must use partwise rather than full independence |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -129,6 +131,12 @@ boundary, not an induction mechanism.
     singularity has \(\mu\) morsification cycles, but they form a basis of its
     rank-\(\mu\) Milnor lattice. Any relation must be created by the global
     local-to-nearby-fiber map, not by the isolated germ alone.
+26. **Positive-defect pairing fallacy:** B026 gives equal nonzero dimensions,
+    but the resulting detector subspace may lie in the annihilator of the
+    specified Hodge class.
+27. **Full-independence detector fallacy:** in dimension at least four and at
+    high power, B027 shows that full node independence forces zero adjoint
+    defect and zero relation space.
 
 ## Open universal core
 
@@ -154,9 +162,9 @@ geometric tube-concentration mechanism; both remain terminal-equivalent and
 open after universal quantification. B014 excludes a purely formal
 hypercohomology proof, and B015 proves the desired local collision geometry
 only after the class-directed nodal member is supplied. B016 repackages the
-remaining content as detector-span generation. G009 asks for this generation
-on the independent-node locus and is now the active sufficient gate. B017
-gives a finite certificate if the gate is true for a fixed variety, but
+remaining content as detector-span generation. G009 asked for this generation
+on the fully independent-node locus, but B027 disproves that choice. B017
+gives a finite certificate if a detector collection spans for a fixed variety, but
 NG-014 blocks the naïve comparison between powers. B018/NG-015 further
 require any successful incidence construction to create non-tautological
 primitive homology rather than recycle polarization complete intersections.
@@ -170,6 +178,6 @@ equator-extension and base-locus quotients. B023 shows that pure Hurwitz
 mutation cannot supply the required topology change.
 B024 verifies global quotient-level detection for complete intersections,
 but NG-021 prevents treating this special topological generation as HC.
-B025/NG-022 exclude internal Milnor relations, and G010 isolates the active
-prescribed local-to-global defect theorem needed to convert a chosen global
-detector into an independent-node Saito relation.
+B025/NG-022 exclude internal Milnor relations. B026/NG-023 distinguish exact
+defect dimensions from prescribed pairings. B027/NG-024 close G009-G011 and
+force G012's partitioned quasi-local nodal target.

@@ -19,18 +19,13 @@ Date: 2026-08-10. Overall status: **EXPLORATORY**.
 Two sufficient attacks feed G008:
 
 \[
-\text{G008}\Longleftarrow\text{independent-node detector generation G009},
+\text{G008}\Longleftarrow\text{partitioned nodal realization G012},
 \qquad
 \text{G008}\Longleftarrow\text{tube-to-local concentration G007}.
 \]
 
-The active concrete mechanism feeds G009:
-
-\[
- \text{G009}
- \Longleftarrow
- \text{prescribed local-to-global Milnor defect G010}.
-\]
+The former fully independent-node chain G009-G011 is closed as NG-024 by
+B027: its high-power relation spaces vanish for \(n\ge2\).
 
 The first equivalence is BFNP Theorem 1.3 and Theorems 6.5-6.6, audited in
 B007. The concrete terminal obligation is:
@@ -132,15 +127,17 @@ homology. This replaces a class-by-class existence quantifier by one exact
 finite-dimensional generation obligation.
 
 For all singular members, the equality is terminal-equivalent through B007
-and B010. Restricting to independent-node members gives the stronger
-sufficient theorem G009.
+and B010. Restricting to fully independent-node members was the stronger
+proposal G009, now disproved by B027.
 
 ## Current smallest attackable brick
 
-**G010: prescribed local-to-global Milnor defect.** Starting with a global
-tube or quotient-level thimble detector for a specified nonzero primitive
-Hodge class, construct an independent-node member and a nonzero rational
-type-\((0,0)\) element
+**G012: partitioned nodal-defect realization.** Starting with a global tube
+or quotient-level thimble detector for a specified nonzero primitive Hodge
+class, construct a nodal member with a partition \(\Delta=J\sqcup K\). Each
+part must satisfy the independence needed for B009's quasi-local model, while
+the full set remains dependent and carries a nonzero rational type-\((0,0)\)
+element
 
 \[
  \beta\in\ker\!\left(\bigoplus_y M_y\otimes\mathbf Q(n)
@@ -154,17 +151,13 @@ The relation must be a genuinely global failure of the local Milnor
 lattices to inject into nearby-fiber homology. It must also survive the two
 B022 quotients.
 
-G010 is a concrete sufficient mechanism for **G009: independent-node
-detector generation**, whose conclusion is that the Saito classes from every
-independent-node member across sufficiently high powers span
-
-\[
- H_{2n}^{\mathrm{prim}}(X,\mathbf Q(n))^{(0,0)}.
-\]
-
-B015 makes every local summand auditable. B016 propagates span equality to
-G008 and then B007 to HC. A falsifier is a nonzero primitive rational Hodge
-class orthogonal to all such detector classes.
+B026 identifies the relation dimension with the primitive ambient image,
+adjoint node-evaluation defect, and local IC dimension. B027 proves why only
+partwise independence is viable: full independence propagates to the adjoint
+system and kills the defect at high power in dimension at least four. B010
+propagates a successful G012 pairing to G008 and then B007 to HC. A falsifier
+is a nonzero primitive rational Hodge class orthogonal to every partitioned
+quasi-local detector.
 
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a
@@ -177,7 +170,7 @@ B018 imposes a further necessary design constraint. A codimension-\(n\)
 complete intersection cut by powers of \(L\) has class proportional to
 \(c_1(L)^n\), so its primitive projection is zero and it pairs trivially with
 every primitive \(\zeta\). Thus a class-blind incidence construction cannot
-close G009 by using only polarization complete intersections as its ambient
+close the terminal gate by using only polarization complete intersections as its ambient
 detectors. Any successful degeneration must create genuinely
 non-tautological primitive homology.
 
@@ -188,7 +181,7 @@ automatic Hodge type. Schnell's intersection-one pair is rationally
 independent, while the nearby statement that a dual-plane node represents a
 two-ODP hyperplane supplies no relation theorem. Thus the smallest new
 geometric datum remains an **algebraic collision comparison**: specialize
-distinct-fiber thimble data to one independent-node member, identify a
+distinct-fiber thimble data to one partitioned nodal member, identify a
 nonzero relation \(\beta\) of rational type \((0,0)\), and prove that
 \(\gamma_\beta\) preserves the chosen global tube class or at least its
 nonzero pairing with \(\zeta\).
@@ -256,8 +249,8 @@ concentrates the global data at one higher-codimension point and produces
 This is falsifiable by a triple \((X,L,\zeta)\) whose global invariant is
 nonzero but every high-power local stalk vanishes. It is terminal-equivalent
 after universal quantification. G007 is retained as one concrete geometric
-mechanism proposed for closing G008; if its specialization can be forced into
-the B015 independent-node locus for a spanning set, it would close G009.
+mechanism proposed for closing G008; its specialization must now be forced
+into the B009 partitioned quasi-local locus required by G012.
 
 ## Attempt audit
 
@@ -271,7 +264,7 @@ the B015 independent-node locus for a spanning set, it would close G009.
 4. Declare the distributed cancellation to be a relation at one singular
    member - **invalid without more input**. B008 kills every smooth-point
    local channel. B015 proves the coalesced normal-crossing geometry and exact
-   local IC channel when an independent-node member is already supplied, but
+   local IC channel when a controlled nodal member is already supplied, but
    it neither constructs that member from the tube nor preserves the
    class-specific pairing.
 5. Replace the missing collision by a matching path - **type error**. B019
@@ -290,9 +283,16 @@ the B015 independent-node locus for a spanning set, it would close G009.
 9. Use complete-intersection thimble surjectivity as algebraicity -
    **category error**. B024 generates primitive homology topologically, not
    local Hodge detectors or algebraic cycles.
+10. Use one higher isolated singularity as an internal relation - **basis
+    error**. B025 proves that its morsification cycles form a Milnor basis.
+11. Impose full node independence to obtain the cleanest local model -
+    **defect-annihilation error**. B026-B027 prove that in dimension at least
+    four at high power this forces the adjoint defect and relation space to
+    vanish. Only partwise independence remains viable.
 
 Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018;
-steps 7-8 are NG-019 and NG-020; step 9 is NG-021.
+steps 7-8 are NG-019 and NG-020; step 9 is NG-021; step 10 is NG-022; and
+step 11 is NG-024.
 Inferring a nonzero local class merely from global
 nonvanishing or a generic slice is NG-011. The open construction must create
 a higher discriminant stratum and verify the specialization through Saito's
@@ -304,17 +304,17 @@ The now-exact geometric sub-obligation is:
 \[
 \text{tube detector for }\zeta
 \longrightarrow
-\text{independent-node }H\text{ with }\zeta|_{X_H}\ne0.
+\text{partitioned nodal }H\text{ with }\zeta|_{X_H}\ne0.
 \]
 
-B015 controls everything local to the right-hand object. The arrow remains
+B009 controls the quasi-local relation channel on the right-hand object. The arrow remains
 terminal-equivalent because its nonzero restriction is precisely G005.
 
 ## Boundary-pullback audit
 
 Green-Griffiths II proposes detecting singular loci as inverse images of
 boundary components of partially compactified Hodge-theoretic classifying
-spaces. This does not yet supply G009. Their class-directed nodal point is
+spaces. This does not yet supply G012. Their class-directed nodal point is
 constructed after assuming HC and writing
 \(k_0\zeta=[W-H]\); the global boundary formula is left with an unspecified
 correction term and incomplete compactification data. Treating the proposed

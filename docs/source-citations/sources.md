@@ -305,6 +305,16 @@ Society Lecture Note Series 343 (2007), 206-263.
   impose independent smoothing conditions, \(H^1(B^\bullet)\) is the rational
   relation space among the vanishing cycles. The stated partition variant
   permits \(I=J\sqcup K\) with each part independent.
+- Checked pp. 18-19, the six-invariant theorem: for \(L\gg0\), the dimensions
+  of the vanishing-cycle relation space, the primitive ambient image, the
+  failure of the nodes to impose independent conditions on
+  \(H^0(K_X\otimes L^n)\), two desingularization defects, and
+  \(H^1(B^\bullet)\) are equal. The coherent defect is displayed as
+  \(h^1(I_\Delta\otimes K_X\otimes L^n)\).
+- Checked p. 19: the construction of a one-dimensional generating relation
+  from hypersurfaces containing a smooth codimension-\(n\) subvariety starts
+  with that already-algebraic subvariety. It cannot be used to select the
+  relation for an arbitrary Hodge class without circularity.
 - Scope guard: a nonzero relation space is only a possible singularity
   channel. It does not prove that a specified Hodge class maps nontrivially
   into it. The paper's constructions from a subvariety \(W\) already assume

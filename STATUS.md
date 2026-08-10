@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 50% - independent Git repository, mandatory topology,
+- **Infrastructure:** 52% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 26% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 29% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -25,9 +25,11 @@ Date: 2026-08-10
   B024 proves complete-intersection global thimble detection. B025 proves
   that an isolated singularity's distinguished morsification cycles form a
   basis, forcing any detector relation into the global local-to-nearby-fiber
-  kernel. None is
+  kernel. B026 identifies six nodal defect dimensions. B027 proves that full
+  node independence forces zero high-power defect in dimension at least four,
+  closing G009-G011 and forcing the partitioned target G012. None is
   proof-assistant formalized, and the
-  independent-node generation gate is open.
+  partitioned nodal realization gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -36,7 +38,7 @@ global Green-Griffiths invariant, but its class-specific local support can
 only occur in codimension at least two; forcing that support to be nonempty is
 the unresolved terminal-equivalent gate. Detection is now exactly equivalent
 to spanning primitive rational Hodge homology by Saito detector classes;
-generation from the controlled independent-node locus is not proved.**
+generation from the controlled partitioned nodal locus is not proved.**
 
 ## Active frontier
 
@@ -86,11 +88,15 @@ generation from the controlled independent-node locus is not proved.**
   nonzero primitive class; it is not local or algebraic.
 - B025 - PROVED: distinguished morsification cycles form an integral basis
   of the isolated singularity's Milnor lattice; no internal relation exists.
-- G010 - EXPLORATORY, active: transfer a specified global detector to a
-  rational type-\((0,0)\) kernel vector of an independent-node
-  local-to-global Milnor map while preserving its nonzero Hodge pairing.
-- G009 - EXPLORATORY parent mechanism: prove detector generation using all
-  independent-node members across high powers.
+- B026 - PROVED: six nodal defect invariants have equal dimensions,
+  including vanishing relations, primitive ambient image, adjoint
+  evaluation defect, and local IC.
+- B027 - PROVED: for \(n\ge2\) at high power, full node independence forces
+  zero adjoint defect and zero relation space.
+- G012 - EXPLORATORY, active: realize the prescribed pairing on a dependent
+  node set partitioned into independently controlled subsets.
+- G009-G011 - NO-GO: their fully independent-node target has zero relation
+  space in the relevant high-power range.
 - G008 - EXPLORATORY parent gate: force a class with nonzero global invariant
   to have a nonzero associated local invariant somewhere.
 - G007 - EXPLORATORY mechanism: concentrate a global tube detector into a
@@ -128,6 +134,10 @@ generation from the controlled independent-node locus is not proved.**
 - NG-022 - NO-GO: Milnor number greater than one does not itself produce a
   Saito relation; the dependence must occur in the global local-to-nearby
   map.
+- NG-023 - NO-GO: positive adjoint defect dimension does not select a
+  detector pairing nontrivially with the specified class.
+- NG-024 - NO-GO: full node independence kills the high-power adjoint defect
+  and vanishing-cycle relation space for \(n\ge2\).
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.
