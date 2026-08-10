@@ -91,3 +91,19 @@
 - **Re-entry condition:** replace the original presentation through a
   geometric operation that changes its obstruction space; mere augmentation
   is permanently closed.
+
+## NG-007 - B001 products do not automatically preserve semiregularity
+
+- **Label:** NO-GO
+- **Route:** take a semiregular lci presentation on \(X\), form the product
+  cycles used in B001, and reuse semiregularity without recomputing the
+  obstruction map.
+- **Precise obstruction:** in B001's low-degree case the geometric product is
+  \(Z\times\{t\}\subset X\times\mathbf P^r\). B006 proves that its obstruction
+  group is
+  \(H^1(N_{Z/X})\oplus H^1(\mathcal O_Z)^{\oplus r}\). The original
+  injectivity hypothesis controls only the first summand.
+- **Re-entry condition:** compute the product semiregularity map on the extra
+  summand and prove injectivity, impose and propagate
+  \(H^1(\mathcal O_Z)=0\), or construct a genuinely different presentation of
+  the product class.

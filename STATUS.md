@@ -36,6 +36,8 @@ universal gates: anchor access and semiregular presentation.**
   `NO-GO`.
 - B005/NG-006: appending cancelling or positive cycles cannot repair a
   noninjective combined map - `PROVED` / `NO-GO`.
+- B006/NG-007: B001 point products add an uncontrolled
+  \(H^1(\mathcal O_Z)^{\oplus r}\) obstruction summand - `PROVED` / `NO-GO`.
 
 No line in this file is a claim that the standard rational Hodge Conjecture is
 resolved.

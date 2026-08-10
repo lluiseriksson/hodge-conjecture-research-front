@@ -63,4 +63,6 @@ semiregular presentation. G004 asks whether every algebraic anchor admits such
 a presentation; assuming this from moving lemmas or Chern-character
 generation is NG-005. B005 further rules out repairing a bad presentation by
 appending cancelling cycles (NG-006). G001, existence of an anchor on every
-required Hodge locus, remains logically separate.
+required Hodge locus, remains logically separate. B006 also prevents assuming
+that G004 presentations pass automatically through B001's low-degree
+projective-space product.

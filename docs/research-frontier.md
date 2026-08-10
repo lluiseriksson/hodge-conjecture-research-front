@@ -14,7 +14,9 @@ Immediate bricks:
    normal bundle with the embedded obstruction theory on the target.
 3. Check whether a rationally equivalent *replacement* can change the
    obstruction space while preserving the class.
-4. Check stability under B001's products with projective space.
+4. **Obstruction isolated (B006):** B001 point products add
+   \(H^1(\mathcal O_Z)^{\oplus r}\). Compute the semiregularity map on this
+   summand or replace the product presentation.
 5. If G004 fails, return to G001 and alternative propagation mechanisms such
    as normal-function singularities, keeping anchor existence explicit.
 
@@ -28,3 +30,5 @@ an injectively combined semiregular presentation. The remaining issue is not
 deformation theory but universal existence of that presentation. G001 anchor
 existence remains a second, independent universal quantifier. B005 rules out
 direct-sum augmentation as a way to construct the required presentation.
+B006 shows that the B001 low-degree point-product construction is not an
+automatic source of semiregular presentations.
