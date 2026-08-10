@@ -80,10 +80,16 @@ G017 is closed by B045: the two exceptional equations occupy independent
 divisor classes and merely assign their two partial cycle sums, despite the
 shared branch. The full relation equation remains unchanged.
 
-The active falsifiable subgate is G018, a rank-four arrangement with nested
-dependent flats of codimensions two and three. Its wonderful centers do not
-become disjoint after the first blow-up, so B045's support argument cannot be
-iterated without computing their exceptional incidence.
+B046 closes G018 for one nested pair. On
+\(\operatorname{Bl}_{\widetilde\ell}\operatorname{Bl}_p\mathbf P^3\),
+the exceptional coefficients are forced to the partial sums on the nested
+flats, while the global equation remains the full vanishing-cycle relation.
+The two flat supports and the origin begin in ordinary degree two.
+
+The active falsifiable subgate is G019: prove or refute this triangular
+residue and support pattern for an arbitrary representable arrangement and
+wonderful building set. Three-or-more nested exceptional divisors are the
+first uncontrolled incidence; B044-B046 do not supply an induction theorem.
 
 ## Sufficient parent: G014
 
@@ -129,35 +135,36 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Fix a realizable minimal rank-four nested-flat arrangement and its exact
-   building set.
-2. Compute the divisor classes and residue coefficients on the nested
-   exceptional fiber.
-3. Audit strict supports on both flats and their incidence; then promote the
-   relation kernel or record the precise failure as a NO-GO.
-3. If G015 holds, replace the two-block constraint by Edmonds'
+1. Fix the first realizable arrangement with a three-element nested set in
+   its minimal wonderful building set.
+2. Compute the full iterated total-transform matrix and test whether its
+   exceptional rows remain triangular under a permissible blow-up order.
+3. Audit strict supports on every flat and nested incidence; promote a
+   building-set induction only if the ordinary-degree-one exclusion is
+   uniform.
+4. If G015 holds, replace the two-block constraint by Edmonds'
    \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
    fixed-carrier constructions.
-4. Construct an algebraic incidence component satisfying the multipart
+5. Construct an algebraic incidence component satisfying the multipart
    inequalities and the independent condition \(r_F(\Delta)<|\Delta|\);
    then prove it actually occurs as the node set of a hypersurface member.
-5. Compare its cross-part defect local system with the global coinvariant
+6. Compare its cross-part defect local system with the global coinvariant
    maps in B011, without coercing global tubes into local relations.
-6. Use B009/G015's quasi-local partition model as the target for G007 and identify
+7. Use B009/G015's quasi-local partition model as the target for G007 and identify
    the exact class-preserving specialization datum still absent.
-7. Audit boundary/intersection constructions that define a global incidence
+8. Audit boundary/intersection constructions that define a global incidence
    class without using an algebraic representative of \(\zeta\); NG-013
    excludes the HC-dependent Green-Griffiths construction.
-8. Require every proposed incidence source to have a non-tautological
+9. Require every proposed incidence source to have a non-tautological
    primitive ambient class; B018/NG-015 exclude complete intersections of
    polarization divisors as detectors.
-9. Test an algebraic collision bridge from distinct-fiber matching thimbles
+10. Test an algebraic collision bridge from distinct-fiber matching thimbles
    to one partitioned nodal Saito relation; B019/NG-016 show that the
    symplectic matching-path theorem does not provide this bridge.
-10. Do not treat intersection-one pairs as relations; B020/NG-017 prove the
+11. Do not treat intersection-one pairs as relations; B020/NG-017 prove the
    opposite for Schnell's pair and leave the two-ODP relation computation
    open.
-11. Compute any collision on the full vanishing-cycle complex. B021/NG-018
+12. Compute any collision on the full vanishing-cycle complex. B021/NG-018
    rule out preserving a matching pair class by class through the cusp
    lattice; only basis change, extra cycles, or ambient-class preservation
    remain possible.

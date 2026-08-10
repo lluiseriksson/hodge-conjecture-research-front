@@ -67,7 +67,8 @@ boundary, not an induction mechanism.
 | single dependent flat | B044 proves G016: on Bl_p(P^2), the exceptional-flat coefficient is forced to the partial triple sum and the residue kernel is the full relation space | compatibility for several or nested dependent flats remains open |
 | two dependent flats | G017 fixes two dependent triples sharing one branch as the next test | their exceptional residue equations share a vanishing-cycle coefficient and have not been audited together |
 | two-flat compatibility | B045 proves that two non-nested dependent-flat equations remain independent bookkeeping constraints even when the triples share a branch | arbitrarily many and nested flats remain open |
-| nested-flat gate | G018 fixes nested codimension-two and codimension-three flats in rank four | exceptional-divisor incidence and strict supports are uncomputed |
+| nested-flat channel | B046 proves G018 for one explicit codimension-three flat nested in a codimension-two flat; the exceptional equations are triangular and lower supports begin in ordinary degree two | arbitrary nested sets and building-set order independence remain open |
+| arbitrary building-set gate | G019 asks for the same residue kernel, strict-support bound, and rational type-(0,0) comparison for every representable wonderful arrangement | three-or-more exceptional incidences may add rows or classes not seen in B044-B046 |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -239,7 +240,8 @@ smoothing and adjoint evaluation matroids and exclude a smoothing circuit as
 a sufficient replacement. G013 is the exact geometric parent, and G014 is a
 sufficient unanchored two-block span theorem. B034 shows that the
 fixed-carrier route cannot scale that bipartite target for \(n\ge3\);
-G015 is the narrowest active local gate.
+G015 is the narrowest active local gate; G019 is its current concrete
+subgate.
 B035 makes that gate finite and explicit at its first new instance: compute
 the intermediate extension for the Picard-Lefschetz local system on the
 five-marked exceptional \(\mathbf P^1\) resolving \(U_{2,5}\). NG-033

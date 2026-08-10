@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B045, G012-G014, G016-G018, Green-Griffiths S021, and Saito S022/S037
+dependencies: B009-B010, B028, B034-B046, G012-G014, G016-G019, Green-Griffiths S021, and Saito S022/S037
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -287,6 +287,29 @@ The two flat-supported summands again begin in ordinary degree two.
 G018 is the first genuinely nested-center gate in rank four. Unlike G017,
 its wonderful centers do not become disjoint after the origin blow-up, so
 both the residue matrix and strict-support incidence require a new audit.
+
+## Attempt 13 - One nested pair
+
+B046 proves G018. For nested branch sets \(S\subset T\), the wonderful
+fiber is
+
+\[
+ \operatorname{Bl}_{\widetilde\ell}
+ \operatorname{Bl}_p\mathbf P^3.
+\]
+
+In the independent divisor basis \(h,e_T,e_S\), the two exceptional
+equations force their coefficients to the \(T\)- and \(S\)-partial
+vanishing-cycle sums; the remaining equation is the full relation. The
+codimension-two, codimension-three, and point strict supports all begin in
+ordinary degree two, so the downstairs degree-one kernel is again pure type
+\((0,0)\).
+
+This closes one nested pair but still does not prove G015. G019 is the next
+falsifiable subgate: derive a building-set-wide triangular residue theorem
+and a uniform strict-support bound for arbitrary representable arrangements.
+Examples with at most two dependent flats do not control higher nested-set
+incidence.
 
 ## Propagation
 

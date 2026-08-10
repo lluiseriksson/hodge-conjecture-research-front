@@ -1,6 +1,6 @@
 ---
 brick_id: G018
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: a four-dimensional nodal smoothing slice whose central hyperplane arrangement has two nested dependent flats
 smoothness: the parameter fourfold is smooth; the central projective fiber is nodal and nearby fibers are smooth; a wonderful resolution is required
@@ -13,7 +13,7 @@ hodge_type: the sought degree-one relation channel must be pure type (0,0) after
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B043-B045 and G015-G017
+dependencies: B043-B046 and G015-G017
 claim: For a rank-four nodal arrangement with one dependent codimension-three flat contained in one dependent codimension-two flat, the wonderful-resolution degree-one IC channel remains the full rational type-(0,0) relation kernel.
 falsifier: a nested exceptional-divisor incidence imposes an additional relation, creates a class, or contributes a non-full-support summand in ordinary degree one
 ---
@@ -31,4 +31,20 @@ partial cycle sum and the remaining equation is exactly
 \(\sum_i a_i\delta_i=0\). The proof must also audit strict supports on both
 flats and their incidence; disjoint-center arguments from B045 do not apply.
 
-G018 is unproved and constructs no algebraic cycle.
+B046 resolves the first nested case. For
+\(Z=\operatorname{Bl}_{\widetilde\ell}\operatorname{Bl}_p\mathbf P^3\),
+the divisor basis \(h,e_T,e_S\) gives the equations
+
+\[
+ \sum_i a_i\delta_i=0,
+ \qquad
+ w_T=\sum_{i\in T}a_i\delta_i,
+ \qquad
+ w_S=\sum_{i\in S}a_i\delta_i.
+\]
+
+The nested exceptional divisors therefore record the two partial sums but
+impose no new relation. Flat- and point-supported direct-image summands start
+in ordinary degree two, and the degree-one downstairs IC stalk is pure type
+\((0,0)\). G018 constructs no algebraic cycle and does not establish the
+corresponding theorem for arbitrary building sets.

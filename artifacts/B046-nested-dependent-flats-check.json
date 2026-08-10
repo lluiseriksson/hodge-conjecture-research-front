@@ -1,0 +1,25 @@
+{
+  "first_five_form_rank": 3,
+  "unique_dependent_triple": [1, 2, 3],
+  "exceptional_fiber": "Bl_strict_line(Bl_point(P^3))",
+  "branch_classes": {
+    "i_in_S": "h-e_T-e_S",
+    "i_in_T_minus_S": "h-e_T",
+    "i_outside_T": "h"
+  },
+  "residue_components": ["global", "T_partial_sum", "S_partial_sum"],
+  "tested_cases": [
+    {"total_span_rank": 1, "codim2_flat_span_rank": 1, "codim3_flat_span_rank": 1, "resolved_kernel_dimension": 8, "relation_dimension": 8},
+    {"total_span_rank": 2, "codim2_flat_span_rank": 2, "codim3_flat_span_rank": 2, "resolved_kernel_dimension": 7, "relation_dimension": 7},
+    {"total_span_rank": 3, "codim2_flat_span_rank": 3, "codim3_flat_span_rank": 3, "resolved_kernel_dimension": 6, "relation_dimension": 6},
+    {"total_span_rank": 4, "codim2_flat_span_rank": 3, "codim3_flat_span_rank": 4, "resolved_kernel_dimension": 5, "relation_dimension": 5},
+    {"total_span_rank": 5, "codim2_flat_span_rank": 3, "codim3_flat_span_rank": 5, "resolved_kernel_dimension": 4, "relation_dimension": 4},
+    {"total_span_rank": 6, "codim2_flat_span_rank": 3, "codim3_flat_span_rank": 5, "resolved_kernel_dimension": 3, "relation_dimension": 3},
+    {"total_span_rank": 7, "codim2_flat_span_rank": 3, "codim3_flat_span_rank": 5, "resolved_kernel_dimension": 2, "relation_dimension": 2},
+    {"total_span_rank": 8, "codim2_flat_span_rank": 3, "codim3_flat_span_rank": 5, "resolved_kernel_dimension": 1, "relation_dimension": 1},
+    {"total_span_rank": 9, "codim2_flat_span_rank": 3, "codim3_flat_span_rank": 5, "resolved_kernel_dimension": 0, "relation_dimension": 0}
+  ],
+  "minimum_non_full_support_degree": 2,
+  "kernel_hodge_type": "(0,0)",
+  "scope": "exact residue-matrix and support-shift bookkeeping only"
+}

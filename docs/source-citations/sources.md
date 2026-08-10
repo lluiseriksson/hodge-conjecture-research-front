@@ -357,6 +357,11 @@ Society Lecture Note Series 343 (2007), 206-263.
 - B045 applies the residue sequence on the blow-up of \(\mathbf P^2\) at two
   points. The three divisor-class components and simultaneous partial-sum
   equations are derived in B045, not imported from S021.
+- B046 applies the same rational SNC residue mechanism to
+  \(\operatorname{Bl}_{\widetilde\ell}\operatorname{Bl}_p\mathbf P^3\).
+  Its three divisor-class components and nested partial-sum equations are
+  derived in B046, not imported from S021. No general building-set residue
+  theorem is attributed to this source.
 - Checked pp. 18-19 visually and against OCR: the paper explicitly defines
   \(\rho(ii)\) as the dimension of the image of
   \(H_{2n}(X_{s_0})\to H_{2n}(X)_{\mathrm{prim}}\), alongside relations,
@@ -848,6 +853,9 @@ American Mathematical Society* 46 (2009), 535-633,
   semismall shortcut.
 - B045 repeats this support audit for two disjoint strict transforms of
   dependent flats; it makes no claim about nested centers.
+- B046 separately audits the codimension-two flat, codimension-three flat,
+  and origin for one nested-center model. It does not infer a uniform
+  strict-support theorem for arbitrary wonderful building sets from S037.
 - Scope guard: the theorem separates the downstairs full-support IC summand
   from point-supported summands. It does not calculate the latter's Hodge
   structures and does not prove that the degree-one relation group has type

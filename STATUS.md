@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 72% - independent Git repository, mandatory topology,
+- **Infrastructure:** 73% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 50% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 51% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -53,7 +53,9 @@ Date: 2026-08-10
   type \((0,0)\) after the explicit Tate twist, and B041 extends the result
   to every \(U_{2,r}\). B042 handles the first higher-rank incidence and
   proves the result for every \(U_{3,r}\); B043 proves it for every simple
-  uniform \(U_{d,r}\), and B044 handles one dependent flat. None is
+  uniform \(U_{d,r}\), B044 handles one dependent flat, B045 handles two
+  nonnested flats sharing a branch, and B046 handles the first nested pair.
+  None is
   proof-assistant formalized, and the
   multipart local-channel gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -173,8 +175,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   not affect ordinary degree one.
 - B045/G017 - PROVED: two dependent triples sharing one branch give
   compatible exceptional equations and the full relation kernel.
-- G018 - EXPLORATORY, active subgate: compute the first nested pair of
-  dependent flats in rank four.
+- B046/G018 - PROVED: one codimension-three flat nested in a
+  codimension-two flat gives triangular exceptional equations, no
+  ordinary-degree-one lower support, and the full type-\((0,0)\) relation
+  kernel.
+- G019 - EXPLORATORY, active subgate: prove or refute the corresponding
+  residue and strict-support theorem for arbitrary representable wonderful
+  building sets.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.

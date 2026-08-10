@@ -262,11 +262,12 @@ uses Saito's mixed-Hodge-module calculation to prove pure type \((0,0)\)
 after \(\mathbf Q(n)\). B041 extends all four steps uniformly to
 \(U_{2,r}\). B042 computes the exceptional line-incidence row and
 non-semismall shifts for every \(U_{3,r}\). B043 proves the dimension-uniform
-\(U_{d,r}\) theorem. G016 is the next subgate: one dependent triple requires
-a second wonderful-model exceptional divisor. B044 proves that case; G017
-tests two dependent triples sharing a branch, and B045 proves compatibility.
-G018 is the first nested-flat subgate. Only after the general
-nonuniform calculation is
+\(U_{d,r}\) theorem. B044 proves the one-dependent-flat case; B045 proves
+compatibility for two nonnested dependent flats sharing a branch; and B046
+proves the first nested pair in rank four. G019 is now the smallest
+unresolved local subgate: establish the triangular residue equations and
+ordinary-degree-one strict-support exclusion for an arbitrary representable
+wonderful building set. Only after that general nonuniform calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 
