@@ -162,7 +162,13 @@ canonical arrow is special-to-nearby, so the B057 nearby class lifts exactly
 when its vanishing-cycle obstruction vanishes, with a further lift
 ambiguity. G048 is the active exact subgate: construct the nearby class,
 kill that obstruction, and choose a pairing-compatible rational special
-lift. Only then can G046 analyze its perverse grade. The
+lift. B084 now imports the local invariant-cycle theorem: in a proper
+variety/IC model, collision-monodromy invariance forces the obstruction to
+vanish. NG061 blocks conflating this with B057's invariance under the
+different detector loop. G049 is the smallest gate: realize the specified
+B057 chain as a nearby IC class and prove it fixed by collision monodromy.
+Only then can G048 choose and audit the lift and G046 analyze its perverse
+grade. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

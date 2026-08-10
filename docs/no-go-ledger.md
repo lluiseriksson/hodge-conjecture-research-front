@@ -1193,3 +1193,20 @@
 - **Re-entry condition:** prove G048 by constructing the specified nearby
   class, computing and killing its vanishing-cycle obstruction, and
   controlling the lift ambiguity under both B022 quotients and the pairing.
+
+## NG-061 - Detector-loop invariance equals collision invariance
+
+- **Label:** NO-GO
+- **Route:** use $g\alpha=\alpha$ from B057 as the monodromy-invariance
+  hypothesis in B084's local invariant-cycle theorem.
+- **Valid input:** the B057 detector loop closes its ordered extension chain,
+  and B084 lifts nearby IC classes fixed by local collision monodromy.
+- **Invalid inference:** the detector loop $g$ in the hyperplane complement
+  and the loop around the collision parameter induce the same action.
+- **Precise obstruction:** they are different parameter directions. The
+  collision loop acts on the moving net and its ordered thimble system by a
+  braid/Hurwitz transformation; no two-parameter comparison has identified
+  its action on the specified B057 vector.
+- **Re-entry condition:** prove G049 by realizing the B057 vector in nearby
+  intersection cohomology and computing
+  $T_{\mathrm{coll}}t_\psi=t_\psi$ for that exact class.

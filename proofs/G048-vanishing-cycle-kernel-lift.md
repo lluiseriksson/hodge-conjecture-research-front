@@ -13,7 +13,7 @@ hodge_type: a chosen special lift must be rational type (0,0) after Q(n), or hav
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B063, B071-B083, G047, NG059-NG060
+dependencies: B022, B057-B059, B063, B071-B084, G047, G049, NG059-NG061
 claim: For the B057 extension chain in a suitable algebraic collision family, construct a rational nearby class t_psi with can(t_psi)=0 in shifted vanishing cycles and choose a special-stalk lift beta whose B022 ambient image remains nonorthogonal to the prescribed Hodge class.
 falsifier: failure to realize the extension chain as a nearby class, nonzero vanishing-cycle obstruction, absence of a rational type-compatible lift, confinement of all lifts to a B022 kernel, or orthogonality of every lift
 ---
@@ -57,3 +57,9 @@ After these four tests, G046 analyzes the canonical perverse grade and
 strict support of $\beta$. A rank calculation for nearby or vanishing
 cycles does not establish the required kernel membership of the specified
 class.
+
+B084 closes step 1 once G049 places $t_\psi$ in a proper-variety
+intersection-cohomology model and proves invariance under the local
+collision monodromy. NG061 prevents substituting B057's different
+detector-loop invariance. Thus G049 is the current smallest subgate; lift
+ambiguity, type, and pairing remain here after it closes.

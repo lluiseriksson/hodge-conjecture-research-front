@@ -893,6 +893,14 @@ American Mathematical Society* 46 (2009), 535-633,
   class liftable from the special stalk exactly when its canonical
   vanishing-cycle obstruction is zero. It supplies no unconditional or
   preferred reverse lift. B083/G048 use precisely this criterion.
+- Visually rechecked Theorem 1.7.1(2), printed pp. 15-16: for a proper map
+  $f:X\to Y$, an open $U$ where $R^if_*IC_X$ is locally constant, a boundary
+  point $u\in\overline U$, and the punctured small ball $B_u$, the natural
+  special-fiber restriction/retraction map onto
+  $H^0(B_u,R^if_*IC_X)$ is surjective. B084 uses this local invariant-cycle
+  theorem to kill B083's obstruction for collision-monodromy-invariant
+  nearby classes. The audit does not extend the statement silently from
+  varieties to stacks or identify detector-loop with collision monodromy.
 - Coefficient guard: the displayed de Cataldo-Migliorini theorem is stated
   for the constant source sheaf. B039 does not extrapolate it to arbitrary
   coefficients. Instead, it proves the necessary perverse stalk/costalk

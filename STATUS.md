@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 78% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 79% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -119,7 +119,11 @@ Date: 2026-08-10
   boundary class. B083/NG060 identify the exact direction and obstruction:
   $i^*K\to\Psi K$ is canonical, while a B057 nearby class has a
   special-stalk lift precisely when its image in shifted vanishing cycles is
-  zero. G048 is the resulting kernel-and-lift gate.
+  zero. G048 is the resulting kernel-and-lift gate. B084 then proves, by the
+  local invariant-cycle theorem, that proper-variety IC classes fixed by
+  collision monodromy satisfy this kernel condition. NG061 separates that
+  monodromy from B057's detector-loop monodromy. G049 is the resulting
+  class-realization and fixed-vector gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -436,9 +440,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   $\mathrm{can}(t_\psi)$ and possible nonuniqueness.
 - NG060 - NO-GO: a collision family does not canonically send every nearby
   detector class back to the special stalk.
-- G048 - EXPLORATORY, active smallest exact subgate: realize the B057 chain
+- G048 - EXPLORATORY: realize the B057 chain
   as $t_\psi$, prove $\mathrm{can}(t_\psi)=0$, and choose a rational
   pairing-compatible special lift.
+- B084 - PROVED: the local invariant-cycle theorem lifts every
+  collision-monodromy-invariant nearby IC class for a proper variety map,
+  hence kills its B083 obstruction.
+- NG061 - NO-GO: B057 detector-loop invariance does not automatically imply
+  invariance under the separate collision-parameter monodromy.
+- G049 - EXPLORATORY, active smallest gate: realize the specified B057 chain
+  as a nearby IC class in a proper collision model and prove that exact class
+  is fixed by collision monodromy.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

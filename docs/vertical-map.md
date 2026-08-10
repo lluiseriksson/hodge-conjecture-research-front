@@ -256,7 +256,10 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G047: construct the B057 chain-to-stalk collision lift}
 \Longleftarrow
-\text{G048: }\mathrm{can}(t_\psi)=0\text{ and choose a special lift}.
+\text{G048: }\mathrm{can}(t_\psi)=0\text{ and choose a special lift}
+\Longleftarrow
+\text{G049: }T_{\mathrm{coll}}t_\psi=t_\psi
+\text{ in a proper IC model}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -278,6 +281,12 @@ canonical map to shifted vanishing cycles before a special lift $\beta$
 exists and can enter B081's perverse filtration.
 Exact recovery of $c$ is unnecessary; preservation of nonzero pairing is
 the minimal obligation by B059.
+
+B084 proves that the kernel condition follows from the local invariant-cycle
+theorem once $t_\psi$ is a nearby intersection-cohomology class in a proper
+variety model and is fixed by collision monodromy. NG061 blocks replacing
+that fixed-vector calculation with the unrelated equality $g\alpha=\alpha$
+from the detector loop. G049 is therefore the current vertical endpoint.
 
 An externally claimed shortcut is closed separately:
 
