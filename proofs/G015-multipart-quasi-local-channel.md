@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009, B028, B034-B038, G012-G014, and Green-Griffiths S021
+dependencies: B009, B028, B034-B039, G012-G014, Green-Griffiths S021, and Saito S037
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -159,6 +159,29 @@ This closes the residue subgate but not G015. The next obligation is to
 separate this group from point-supported summands in the proper direct image
 and identify it with the downstairs intermediate-extension stalk. Only then
 may the mixed-Hodge type and general multipart arrangement be addressed.
+
+## Attempt 6 - Descend through the blow-up
+
+B039 applies proper base change and Saito's projective direct-image theorem
+with the actual geometric rational variation as coefficient. A direct
+stalk/costalk amplitude calculation shows that the shifted direct image is
+perverse. Strict-support decomposition then has the form
+
+\[
+ R\pi_*IC_{\widetilde B}(L_{\mathbf Q})
+ \simeq IC_B(L_{\mathbf Q})\oplus i_{0*}H_0[-2].
+\]
+
+The point-supported term occurs in ordinary degree two because the base is
+a surface. It therefore cannot change degree one. Consequently B038's
+resolved relation kernel is canonically the degree-one stalk of the
+downstairs intermediate extension.
+
+This closes the topological/intersection-cohomology calculation for the
+minimal \(U_{2,5}\) arrangement. It does not close G015: the next falsifiable
+obligation is to compute the Hodge structure and Tate normalization of this
+specific relation kernel. Only after that comparison succeeds is extension
+to arbitrary multipart arrangements justified.
 
 ## Propagation
 

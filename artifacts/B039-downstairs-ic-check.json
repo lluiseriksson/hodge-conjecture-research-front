@@ -1,0 +1,11 @@
+{
+  "surface_dimension": 2,
+  "resolved_ordinary_amplitude": [0, 1, 2],
+  "shifted_perverse_stalk_amplitude": [-2, -1, 0],
+  "extra_support": "origin only",
+  "point_summand_perverse_degree": 0,
+  "point_summand_ordinary_degree": 2,
+  "ordinary_degree_one_contribution_from_point_summand": 0,
+  "conclusion": "resolved H1 equals downstairs IC-stalk H1",
+  "scope": "exact shift and support bookkeeping only"
+}

@@ -766,6 +766,42 @@ variations,” *Annals of Mathematics* 143 (1996), 131-148.
   comparison. B035's promoted content is the elementary arrangement,
   blow-up, and Picard-Lefschetz reduction only.
 
+## S037 - Pure Hodge-module direct images and semismall support
+
+Morihiko Saito, “Decomposition theorem for proper Kähler morphisms,”
+*Tohoku Mathematical Journal* 42 (1990), 127-148.
+[DOI](https://doi.org/10.2748/tmj/1178227650).
+
+Mark Andrea A. de Cataldo and Luca Migliorini, “The Decomposition Theorem,
+perverse sheaves and the topology of algebraic maps,” *Bulletin of the
+American Mathematical Society* 46 (2009), 535-633,
+[arXiv:0712.0349](https://arxiv.org/abs/0712.0349).
+
+- Checked Saito's Introduction, pp. 127-129. Theorem (0.3.1) gives
+  projective direct-image functors on polarizable Hodge modules compatible
+  with perverse cohomology of the underlying perverse sheaves. Formula
+  (0.1) gives the unique strict-support decomposition, whose summands are
+  intersection complexes with local-system coefficients. Saito states the
+  exposition with \(k=\mathbf R\) for simplicity after explicitly allowing
+  a subfield \(k\subset\mathbf R\); B039 uses \(k=\mathbf Q\).
+- Checked Saito Theorem (0.6) and formula (0.7), pp. 128-129. For geometric
+  local-system coefficients, proper direct images of intersection complexes
+  decompose into shifted intersection complexes. The local variation in
+  B039 is geometric because it comes from projective vanishing cohomology.
+- Checked de Cataldo-Migliorini Proposition 4.2.1, Example 4.2.5, and
+  Theorem 4.2.7. They record the dimension criterion for semismallness, that
+  a surjective map between surfaces is semismall, and the no-shift
+  decomposition for a semismall map from a nonsingular source.
+- Coefficient guard: the displayed de Cataldo-Migliorini theorem is stated
+  for the constant source sheaf. B039 does not extrapolate it to arbitrary
+  coefficients. Instead, it proves the necessary perverse stalk/costalk
+  bounds directly from B037 and its Verdier dual, then applies Saito's
+  coefficient-sensitive projective direct-image and strict-support theorem.
+- Scope guard: the theorem separates the downstairs full-support IC summand
+  from point-supported summands. It does not calculate the latter's Hodge
+  structures and does not prove that the degree-one relation group has type
+  \((0,0)\).
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

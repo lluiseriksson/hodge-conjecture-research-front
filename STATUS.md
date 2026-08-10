@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 65% - independent Git repository, mandatory topology,
+- **Infrastructure:** 66% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 43% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 44% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -46,9 +46,10 @@ Date: 2026-08-10
   calculation. B036 proves that the five crossing cokernels overcount the
   relation space by exactly the vanishing-cycle span rank and identifies the
   only possible global differential up to target isomorphism. B037 locates
-  it as the sole exceptional hypercohomology transgression, and B038 computes
-  it as the vanishing-cycle map, closing the resolved \(U_{2,5}\) relation
-  calculation. None is
+  it as the sole exceptional hypercohomology transgression, B038 computes
+  it as the vanishing-cycle map, and B039 proves that point-supported
+  direct-image summands cannot alter degree one, closing the downstairs
+  \(U_{2,5}\) topological IC calculation. None is
   proof-assistant formalized, and the
   multipart local-channel gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -141,7 +142,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   exceptional-curve IC computation remains.
 - B036 - PROVED: the five resolved crossing cokernels form \(\mathbf Q^5\);
   recovering the relation kernel requires exactly the canonical quotient
-  \(e_i\mapsto\delta_i\), whose derivation from the IC module remains open.
+  \(e_i\mapsto\delta_i\), which B037-B038 subsequently derive.
 - B037 - PROVED: the resolved exceptional degree-one group is the kernel of
   the unique transgression
   \(d_2:\mathbf Q^5\to H^2(\mathbf P^1,\ker N_E)\); B038 computes its
@@ -149,6 +150,9 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B038 - PROVED: the exceptional residue transgression is
   \(d_2(a_i)=\sum_i a_i\delta_i\), so the resolved \(U_{2,5}\) degree-one
   contribution is exactly the rational relation kernel.
+- B039 - PROVED: proper base change and rational Hodge-module strict-support
+  decomposition identify that resolved group with the downstairs
+  degree-one IC stalk; extra point-supported terms occur in degree two.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.

@@ -20,9 +20,8 @@ of a two-dimensional smoothing slice have matroid \(U_{2,5}\), with a
 \(2+2+1\) independent-block partition and no two-block partition. One
 blow-up replaces the origin by \(E\simeq\mathbf P^1\) with five marked
 crossings. Although \(N_E=\sum_iN_i\) and every local product \(N_EN_i\)
-vanishes, the original IC stalk still requires global hypercohomology on
-that marked exceptional curve and isolation of the downstairs IC summand.
-NG-033 forbids replacing this calculation by the separate crossing stalks.
+vanishes, NG-033 forbids replacing global hypercohomology on that marked
+exceptional curve by the separate crossing stalks.
 B036 quantifies the omitted gluing. Each of the five crossing cokernels is
 one-dimensional, while their desired global relation subspace is
 
@@ -32,8 +31,8 @@ one-dimensional, while their desired global relation subspace is
 \]
 
 Thus the missing exceptional differential must be the vanishing-cycle map,
-up to target isomorphism. The active calculation is to derive that map from
-the arrangement intermediate-extension module, not merely postulate the
+up to target isomorphism. B037-B038 derive that map from the resolved
+logarithmic intermediate-extension complex rather than merely postulate the
 kernel demanded by G015.
 
 B037 locates the map as the sole transgression
@@ -55,11 +54,13 @@ B038 computes the transgression using the logarithmic residue sequence:
 \]
 
 Therefore the resolved \(U_{2,5}\) exceptional contribution is the full
-rational relation kernel. The active gate has moved one layer downward: use
-the decomposition theorem/intermediate-extension characterization to prove
-that this group is the downstairs IC stalk rather than a point-supported
-summand of the proper direct image. The rational type-\((0,0)\) comparison
-and general multipart resolution still follow after that.
+rational relation kernel. B039 proves that the shifted proper direct image
+is perverse and splits by strict support into the downstairs IC and a
+point-supported term. Undoing the surface shift places the point term in
+ordinary degree two, so degree one is canonically the downstairs IC stalk.
+The active subgate is now the rational type-\((0,0)\) and Tate-twist
+comparison for this group. General multipart resolution remains a later,
+separate obligation.
 
 ## Sufficient parent: G014
 
@@ -105,11 +106,10 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Identify B038's resolved relation group with the downstairs
-   intermediate-extension stalk and exclude point-supported proper-direct-
-   image summands in degree one.
-2. Verify the rational limit-MHS and Saito comparison for that multipart
+1. Verify the rational limit-MHS and Saito comparison for the B039 multipart
    channel; a dimension equality alone is insufficient.
+2. Extend the residue and strict-support calculation to arbitrary multipart
+   arrangements, including higher-dimensional exceptional strata.
 3. If G015 holds, replace the two-block constraint by Edmonds'
    \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
    fixed-carrier constructions.

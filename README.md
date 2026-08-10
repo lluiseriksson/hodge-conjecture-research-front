@@ -166,24 +166,25 @@ induction because unions of independent blocks need not be independent.
 B035 isolates the first genuinely multipart calculation: the simple
 arrangement \(U_{2,5}\). Its blow-up is an exceptional \(\mathbf P^1\) with
 five marked crossings. Every crossingwise degree-two Picard-Lefschetz term
-vanishes, but the global exceptional-curve hypercohomology and the
-downstairs intermediate-extension summand remain uncomputed; NG-033 records
-why separate crossing calculations cannot replace them.
+vanishes, but NG-033 records why the original calculation cannot be replaced
+by those separate crossing stalks.
 B036 determines the exact missing rank: the five crossing cokernels form
 \(\mathbf Q^5\), and the desired relation group is the kernel of
-\(e_i\mapsto\delta_i\). The active task is to derive this canonical gluing
-map from the actual arrangement intermediate extension and verify its Hodge
-type, not to infer it from the desired answer.
+\(e_i\mapsto\delta_i\). B037-B038 derive this canonical gluing map from the
+resolved logarithmic intermediate extension rather than infer it from the
+desired answer.
 B037 identifies the map as the only possible spectral-sequence
-transgression \(d_2:\mathbf Q^5\to H^2(\mathbf P^1,\ker N_E)\). Its residue
-class has not been computed. NG-034 separately prevents a complex
+transgression \(d_2:\mathbf Q^5\to H^2(\mathbf P^1,\ker N_E)\). NG-034 separately prevents a complex
 face-quiver answer from being counted as the required rational
 type-\((0,0)\) comparison.
 B038 computes the transgression on the rational Betti side:
 \(d_2(a_i)=\sum_i a_i\delta_i\). Hence the resolved first three-block model
-does retain the full relation kernel. The active subgate is now to identify
-that resolved group with the downstairs IC stalk and exclude
-point-supported direct-image summands.
+does retain the full relation kernel. B039 then uses the rational
+Hodge-module direct image and strict-support decomposition to prove that
+point-supported blow-up summands occur only in ordinary degree two. Thus the
+downstairs degree-one IC stalk is exactly that relation kernel. The active
+subgate is now its rational Hodge type and Tate normalization; extension to
+general multipart arrangements remains separate.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -232,6 +233,7 @@ python verification/verify_B035_multipart_arrangement.py
 python verification/verify_B036_exceptional_gluing_rank.py
 python verification/verify_B037_exceptional_transgression.py
 python verification/verify_B038_exceptional_residue.py
+python verification/verify_B039_downstairs_ic.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -244,9 +246,11 @@ evaluation-rank, defect, and primitive arithmetic. The B034 check reproduces
 exact higher-dimensional diagonal Chern counts and block-capacity lower
 bounds. The B035 check verifies the finite \(U_{2,r}\) block numbers and the
 exceptional-star incidence graph. The B036 check verifies the exact
-Picard-Lefschetz ranks for all possible five-cycle span dimensions. Green
+Picard-Lefschetz ranks for all possible five-cycle span dimensions.
 The B037 check audits the resulting two-row spectral-sequence dimensions.
 The B038 check verifies the exact residue-map ranks and kernels.
+The B039 check verifies the surface shifts and the absence of a
+point-supported contribution in ordinary degree one.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
