@@ -694,9 +694,19 @@ generation from the controlled partitioned nodal locus is not proved.**
   and identical associated-graded maps can have different obstruction.
 - NG085 - NO-GO: dimensions and maps on every perverse associated grade do
   not recover the off-diagonal extension needed for filtered liftability.
-- G072 - EXPLORATORY, active smallest gate: retain one actual ordinary lift
-  with its full filtration-extension data and prove
+- G072 - EXPLORATORY, next filtered gate after G073: retain the actual
+  ordinary lift with its full filtration-extension data and prove
   $[s]=0$ in $S/(S_0+\ker u)$.
+- B110 - PROVED: a collision-induced source realization and ordinary lift
+  precede G072; equal ambient quotient and pairing do not determine
+  membership in $\operatorname{im}u$.
+- NG086 - NO-GO: neither B058's ambient detector nor a Hurwitz-fixed word
+  automatically supplies an ordinarily liftable nearby class; the
+  pure-Hurwitz positive local detector also vanishes by B091.
+- G073 - EXPLORATORY, active smallest gate: construct the actual
+  topology-changing source map, prove $\operatorname{can}(t_\psi)=0$, choose
+  a rational ordinary lift, and retain nonzero prescribed pairing through
+  both B022 quotients. G072 is the next filtered calculation.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -264,9 +264,13 @@ compute this coset in the actual collision and prove it vanishes.
 B109 identifies the lift-side class in $S/(S_0+\ker u)$ and proves that the
 associated-graded maps do not determine it: identical $E_\infty$ data can
 have opposite filtered-lift answers. NG085 blocks dimension or graded-map
-shortcuts. G072 is the active smallest gate: compute the off-diagonal
-extension class of one actual ordinary lift and kill it modulo
-$S_0+\ker u$.
+shortcuts. B110/NG086 then restore the preceding source obligation: neither
+the ambient B058 class nor a Hurwitz-fixed word constructs an ordinarily
+liftable nearby class, and the pure-Hurwitz positive local realization is
+zero by B091. G073 is the active smallest gate: construct the actual
+topology-changing source map, prove ordinary liftability, and preserve the
+nonzero prescribed pairing through both B022 quotients. G072 follows by
+computing the off-diagonal extension class of that actual lift.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -509,6 +513,7 @@ python verification/verify_B106_detector_cancellation.py
 python verification/verify_B107_filtered_dual_certificate.py
 python verification/verify_B108_filtered_lift_obstruction.py
 python verification/verify_B109_filtered_extension_class.py
+python verification/verify_B110_source_realization.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -629,6 +634,10 @@ but the coset is nonzero. G071 must compute the geometric coset.
 The B109/NG085 check gives the lift-side quotient and dual witness and shows
 that identical associated-graded maps can carry different filtered
 obstructions. G072 must retain and compute the off-diagonal extension.
+The B110/NG086 check shows that even exact equality of ambient detector data
+does not determine whether a proposed nearby realization has an ordinary
+lift. G073 must construct the collision-induced source map before G072 is
+defined for the selected detector.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

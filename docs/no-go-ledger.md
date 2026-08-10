@@ -1587,3 +1587,23 @@
 - **Re-entry condition:** G072 must compute the actual ordinary-lift class
   including its off-diagonal filtration extension, or rule out a dual
   functional separating $t_\psi$ from $u(S_0)$.
+
+## NG-086 - An ambient detector supplies an ordinarily liftable nearby class
+
+- **Label:** NO-GO
+- **Route:** use B058's nonzero ambient detector, or a Hurwitz-fixed B057
+  representative, as though it were already the nearby class $t_\psi$, then
+  apply B084 and G072.
+- **Valid input:** the distributed thimble word has a nonzero primitive
+  ambient pairing; an actual marked return would make that geometric word
+  invariant; B084 lifts an actual invariant nearby IC class.
+- **Invalid inference:** these facts construct the collision-induced source
+  map from the distributed complex to the nearby stalk.
+- **Precise obstruction:** B110 gives two rational pure-Tate source
+  realizations with identical nonzero ambient image, one in $\operatorname{im}u$
+  and one outside it. B091 independently proves that a pure-Hurwitz positive
+  local-boundary comparison sends the B058 detector to zero.
+- **Re-entry condition:** G073 must construct the actual topology-changing
+  source map, prove $\operatorname{can}(t_\psi)=0$, choose a rational
+  ordinary lift, and retain a nonzero prescribed pairing through both B022
+  quotients. Only then is G072's filtered class defined.

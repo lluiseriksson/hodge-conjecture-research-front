@@ -282,6 +282,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G072: off-diagonal filtered extension class}
 \Longleftarrow
+\text{G073: source-realized ordinary collision lift}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -306,7 +308,10 @@ branch after G071 closes filtered liftability. B107/NG083 insert G070 because
 G059's original total-stalk functional was not canonical; B108/NG084 insert
 G071 because ordinary liftability is not perverse-filtered liftability;
 B109/NG085 insert G072 because associated-graded data omit the decisive
-off-diagonal extension. B106 proves that G069 does not extend this chain:
+off-diagonal extension. B110/NG086 correct the dependency order: G073 must
+first construct the actual map from the distributed detector to a nearby
+class in $\operatorname{im}u$ while retaining its nonzero pairing. Only then
+is G072's quotient class defined. B106 proves that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
 terminal pairing condition.
 
@@ -459,8 +464,13 @@ $\operatorname{im}u/u(S_0)$, and NG084 shows Hodge strictness does not
 annihilate this perverse-filtered class. The current smallest endpoint is
 not a graded rank calculation: B109/NG085 prove the coset is the class of an
 ordinary lift in $S/(S_0+\ker u)$ and can vary while every associated-graded
-map stays fixed. G072 is the current smallest endpoint: compute that actual
-off-diagonal lift class and prove it vanishes. G060-G068 remain optional
+map stays fixed. B110/NG086 then expose the earlier source-typing gap: the
+ambient B058 quotient, even with exact recovery, does not determine a nearby
+class or ordinary lift, and a pure-Hurwitz comparison kills the positive
+local detector by B091. G073 is the current smallest endpoint: construct the
+topology-changing source realization, prove ordinary liftability, and retain
+the prescribed pairing. G072 is the next filtered calculation once that
+input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.
 
 An externally claimed shortcut is closed separately:
