@@ -21,6 +21,9 @@ Immediate bricks:
 4. Audit boundary/intersection constructions that define a global incidence
    class without using an algebraic representative of \(\zeta\); NG-013
    excludes the HC-dependent Green-Griffiths construction.
+5. Require every proposed incidence source to have a non-tautological
+   primitive ambient class; B018/NG-015 exclude complete intersections of
+   polarization divisors as detectors.
 5. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
 6. Keep the semiregularity gate G004 as an independent secondary route.
@@ -39,5 +42,7 @@ one. G009 is the independent-node generation gate, supported locally by B015.
 Green-Griffiths II supplies a
 boundary-class program but its class-directed nodal construction assumes HC,
 recorded as NG-013. NG-014 blocks naïve detector transfer between powers.
-G008 remains the terminal-equivalent support theorem; G007/NG-010 remain the
-concrete tube-concentration attempt and its class-directed incidence mismatch.
+B018/NG-015 show that class-blind tautological complete intersections cannot
+provide primitive detectors. G008 remains the terminal-equivalent support
+theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
+class-directed incidence mismatch.

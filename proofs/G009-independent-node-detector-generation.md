@@ -13,7 +13,7 @@ hodge_type: primitive type (0,0) after Tate twist; only type-(0,0) Saito relatio
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B010, B015, B016, and B017; boundary attempt audited in S026
+dependencies: B010, B015, B016, B017, and B018; boundary attempt audited in S026
 claim: The rational span of Saito detector classes from all independent-node hyperplane members in all sufficiently high powers equals the primitive rational Hodge homology of X.
 falsifier: a polarized smooth projective 2n-fold with a nonzero primitive rational Hodge cohomology class orthogonal to every Saito detector class arising from every independent-node member in every sufficiently high power
 ---
@@ -96,6 +96,20 @@ canonical preservation of Saito's relation or ambient detector class.
 Therefore high-power amplification alone does not make the individual spans
 monotone. This is NG-014.
 
+## Attempt 5 - Force incidence through tautological complete intersections
+
+A class-blind way to create special hypersurfaces is to require them to
+contain a codimension-\(n\) complete intersection cut by powers of \(L\).
+B018 proves that its class is proportional to \(\ell^n\), has zero primitive
+projection, and pairs trivially with every primitive \(\zeta\). Thus a nodal
+construction whose proposed detector is just that complete-intersection
+class yields no primitive detector, regardless of degree.
+
+The singular member could still acquire other non-tautological vanishing
+classes, but their existence and ambient pushforward would require a new
+argument; they do not follow from the imposed complete intersection. The
+tautological-incidence shortcut is NG-015.
+
 ## Re-entry condition
 
 Construct a boundary or incidence class on the universal hyperplane
@@ -103,4 +117,6 @@ parameter space independently of an algebraic representative of \(\zeta\),
 prove its pullback is nonzero in a way that retains the class-specific
 pairing, and identify the resulting point with an independent-node Saito
 detector. Equivalently, construct a class-preserving map from Schnell tube
-generators into \(D_{\mathrm{ind}}(X,L)\).
+generators into \(D_{\mathrm{ind}}(X,L)\). The construction must create
+non-tautological primitive ambient homology rather than importing it through
+an already-algebraic non-tautological subvariety.

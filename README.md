@@ -86,6 +86,8 @@ primitive rational Hodge homology by Saito detector classes. G009 asks for
 generation using the independent-node locus, where B015 controls the local
 geometry. B017 shows that generation for a fixed variety has a finite
 detector-basis certificate, but supplies no effective bound or certificate.
+B018 excludes polarization complete intersections as primitive detectors:
+their classes are tautological and orthogonal to primitive cohomology.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational

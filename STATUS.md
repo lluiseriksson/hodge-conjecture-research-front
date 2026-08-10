@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 42% - independent Git repository, mandatory topology,
+- **Infrastructure:** 43% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 19% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 20% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -15,7 +15,8 @@ Date: 2026-08-10
   independent-node collision model; B001-B004 close separate reduction and
   semiregular propagation implications; B016 closes the finite-dimensional
   detector-span equivalence; B017 proves finite stabilization and the finite
-  certificate form. None is proof-assistant formalized, and the
+  certificate form; B018 excludes tautological complete-intersection
+  detectors by primitive orthogonality. None is proof-assistant formalized, and the
   independent-node generation gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
@@ -54,6 +55,8 @@ generation from the controlled independent-node locus is not proved.**
   exactly when its Saito detector classes span primitive Hodge homology.
 - B017 - PROVED: cumulative detector spans stabilize, and full generation for
   a fixed variety has a finite detector-basis certificate.
+- B018 - PROVED: polarization complete intersections have zero primitive
+  projection and cannot pair with primitive middle classes.
 - G009 - EXPLORATORY, active: prove detector generation using all
   independent-node members across high powers.
 - G008 - EXPLORATORY parent gate: force a class with nonzero global invariant
@@ -76,6 +79,8 @@ generation from the controlled independent-node locus is not proved.**
 - NG-014 - NO-GO: multiplying defining sections raises the polarization power
   but produces a reducible divisor, not a canonical independent-node
   detector transfer.
+- NG-015 - NO-GO: class-blind polarization complete intersections are
+  tautological and cannot themselves supply primitive detector classes.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

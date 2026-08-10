@@ -36,6 +36,7 @@ boundary, not an induction mechanism.
 | independent-node Severi geometry | B015 gives normal-crossing discriminant branches, expected-codimension partial smoothings, and the exact local IC channel once such a nodal member is fixed | does not construct the member from a specified Hodge class or force the class-specific restriction to be nonzero |
 | detector-span formulation | B016 turns detection by any chosen singular-member collection into equality of its Saito detector span with primitive rational Hodge homology | the independent-node span equality G009 is precisely the new open generation content |
 | finite detector certificate | B017 proves cumulative spans stabilize and full generation for a fixed variety is witnessed by finitely many detector classes | gives no effective power bound, no construction, and no monotonicity for the individual power-by-power spaces |
+| tautological complete intersections | their classes and multiplicities are explicit and algebraic | B018 proves their primitive projections vanish, so they cannot detect primitive middle classes |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -95,6 +96,10 @@ boundary, not an induction mechanism.
 17. **Power-monotonicity fallacy:** multiplying a section in \(|mL|\) by one
     in \(|kL|\) produces a reducible divisor in \(|(m+k)L|\), not a
     class-preserving transfer between independent-node detector spaces.
+18. **Tautological-detector fallacy:** a middle complete intersection of
+    polarization divisors has class proportional to \(c_1(L)^n\), hence zero
+    primitive projection. Making its degrees larger cannot produce a
+    primitive detector.
 
 ## Open universal core
 
@@ -123,4 +128,6 @@ only after the class-directed nodal member is supplied. B016 repackages the
 remaining content as detector-span generation. G009 asks for this generation
 on the independent-node locus and is now the active sufficient gate. B017
 gives a finite certificate if the gate is true for a fixed variety, but
-NG-014 blocks the naïve comparison between powers.
+NG-014 blocks the naïve comparison between powers. B018/NG-015 further
+require any successful incidence construction to create non-tautological
+primitive homology rather than recycle polarization complete intersections.

@@ -287,3 +287,25 @@
   powers that stays in controlled independent-node strata and prove through
   the vanishing-cycle exact sequence that it preserves the ambient detector
   class.
+
+## NG-015 - Tautological incidence cannot detect a primitive class
+
+- **Label:** NO-GO
+- **Route:** impose a codimension-\(n\) complete intersection of divisors from
+  powers of \(L\) as a base locus for a nodal hyperplane construction, then
+  use that complete-intersection class as the ambient detector.
+- **Valid input:** high powers provide many divisors and can force special
+  singular members through a chosen complete intersection.
+- **Invalid inference:** the resulting complete-intersection class has a
+  nonzero primitive component or can pair nontrivially with a primitive
+  middle Hodge class.
+- **Precise obstruction:** B018 gives
+  \([W]=c\,c_1(L)^n\). For primitive \(\zeta\),
+  \(c_1(L)\cup\zeta=0\), so
+  \(\langle\zeta,[W]\rangle=0\), and the primitive projection of \([W]\) is
+  zero. Higher degrees only change \(c\). Other vanishing classes of the
+  singular member are not supplied by this calculation.
+- **Re-entry condition:** prove that the degeneration creates an additional
+  non-tautological Saito detector class with controlled ambient pushforward,
+  without choosing a non-tautological algebraic subvariety representing the
+  desired Hodge direction.

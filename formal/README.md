@@ -79,6 +79,13 @@ union. It must expose the stabilization index as non-effective and must not
 invent comparison maps between the geometric detector families at distinct
 polarization powers.
 
+B018 is another stable formal target: from
+\(\ell\cup\zeta=0\), derive
+\(\langle\zeta,c\ell^n\rangle=0\) by associativity of cup product. This may
+be formalized independently of the open detector geometry and used as a type
+guard preventing tautological complete intersections from inhabiting the
+primitive detector interface.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

@@ -23,6 +23,7 @@
 | B015 | independent nodes give a normal-crossing discriminant, expected-codimension partial smoothing strata, and the exact degree-one local IC restriction channel | PROVED | Di Gennaro-Franco Theorems 3.2 and 4.3, Corollary 4.5; proofs/B015-independent-node-Severi-model.md | starts with a chosen nodal hyperplane and does not provide class-specific nonvanishing |
 | B016 | pointwise detection by any specified collection of Saito relations is equivalent to its detector classes spanning primitive rational Hodge homology | PROVED | Hodge-Riemann nondegeneracy and finite-dimensional annihilator argument in proofs/B016-detector-span-equivalence.md | supplies an exact criterion but no detector-generation theorem |
 | B017 | cumulative detector spans stabilize and full generation for a fixed variety has a finite detector-basis certificate | PROVED | finite-dimensional ascending-chain argument in proofs/B017-finite-detector-certificate.md | stabilization is non-effective and may be at a proper subspace |
+| B018 | polarization complete intersections have zero primitive projection and pair trivially with every primitive middle class | PROVED | cup-product calculation in proofs/B018-tautological-primitive-orthogonality.md | excludes only detectors identified with the tautological complete-intersection class |
 | G001 | every middle class has an algebraic anchor in a connected Hodge locus | EXPLORATORY | no proof | may be as hard as HC |
 | G002 | anchored Hodge locus is dominated by relative cycle space | CONDITIONAL | sufficient theorem formulated; proof only when dominance is assumed | dominance is the open content |
 | G003 | every anchored class has a B002-good cycle representative | EXPLORATORY | no proof; semiregularity source seeded | likely fails without strong lci/obstruction hypotheses |
@@ -44,6 +45,7 @@
 | NG-012 | a formal perverse-sheaf or hypercohomology lemma closes G008 without using hyperplane-family geometry | NO-GO | B014 gives an explicit smooth projective countermodel | any positive theorem must use the geometric origin of \(s(\zeta)\), not only its abstract degree and perversity |
 | NG-013 | a Green-Griffiths boundary-class pullback already proves class-specific singularity nonemptiness | NO-GO | Green-Griffiths II pp. 6-9 and 95; G009 attempt 3 | the decisive nodal model is built after assuming HC, while the global boundary formula remains programmatic and includes unresolved compactification/correction data |
 | NG-014 | detector spaces are automatically monotone under increasing the polarization power | NO-GO | G009 attempt 4; divisor multiplication produces a reducible fixed-component member | requires a genuine class-preserving comparison theorem between independent-node detector spaces at different powers |
+| NG-015 | class-blind complete intersections supply primitive detector classes | NO-GO | B018 and G009 attempt 5 | a successful construction must obtain non-tautological primitive homology from new degeneration data without assuming an algebraic representative |
 
 ## Promotion rule
 

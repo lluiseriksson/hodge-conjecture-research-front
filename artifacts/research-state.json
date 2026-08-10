@@ -2,11 +2,11 @@
   "as_of": "2026-08-10",
   "terminal_problem": "standard rational Hodge Conjecture",
   "terminal_status": "OPEN",
-  "strongest_result": "B007 terminal equivalence; B010 exact Saito local pairing; B011-B013 global/local detection and distributed relation; B014 formal hypercohomology countermodel; B015 independent-node Severi local model; B016 detector-span equivalence; B017 finite detector certificate; B008-B009 local-channel reductions; B001-B004 reductions and propagation",
+  "strongest_result": "B007 terminal equivalence; B010 exact Saito local pairing; B011-B013 global/local detection and distributed relation; B014 formal hypercohomology countermodel; B015 independent-node Severi local model; B016 detector-span equivalence; B017 finite detector certificate; B018 tautological primitive orthogonality; B008-B009 local-channel reductions; B001-B004 reductions and propagation",
   "active_gate": "G009",
   "estimates_percent": {
-    "infrastructure": 42,
-    "formal_proof_chain_closure": 19,
+    "infrastructure": 43,
+    "formal_proof_chain_closure": 20,
     "actual_general_hodge_progress": 0
   },
   "allowed_labels": [

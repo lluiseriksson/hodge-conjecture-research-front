@@ -147,6 +147,14 @@ required powers nor rules out stabilization at a proper subspace. NG-014
 prevents treating multiplication of defining sections as a comparison
 between the individual detector spaces at different powers.
 
+B018 imposes a further necessary design constraint. A codimension-\(n\)
+complete intersection cut by powers of \(L\) has class proportional to
+\(c_1(L)^n\), so its primitive projection is zero and it pairs trivially with
+every primitive \(\zeta\). Thus a class-blind incidence construction cannot
+close G009 by using only polarization complete intersections as its ambient
+detectors. Any successful degeneration must create genuinely
+non-tautological primitive homology.
+
 The parent gate G008 remains: starting from the already nonzero global class
 \(s(\zeta)\), construct a discriminant point \(p\) with
 
