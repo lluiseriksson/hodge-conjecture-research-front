@@ -272,7 +272,7 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G055: nonzero topology-changing correction}
 \Longleftarrow
-\text{G056: special lift to local-relation coordinate}.
+\text{G057: canonical relation-grade landing}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -335,9 +335,11 @@ show that its excess over the pure-Hurwitz reference is the required nonzero
 local class.
 B092/NG068 prevent the next formal shortcut: B083-B084 liftability, even in
 pure type $(0,0)$, neither defines nor forces a component in B009's relation
-group. G056 is now the smallest endpoint. It must construct the actual
-Hodge-module edge map, control the lift torsor, and calculate the nonzero
-quotient-level paired coordinate.
+group. B093 identifies the correct target as the full-support stalk
+$H^{-1}(i_H^*j_{!*}L[2])$. B081/NG069 prohibit G056's direct projection from
+the total derived stalk. G057 is now the smallest endpoint: pass through the
+canonical perverse associated grade, then full strict support, and calculate
+the nonzero quotient-level paired coordinate.
 
 An externally claimed shortcut is closed separately:
 

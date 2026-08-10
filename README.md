@@ -190,11 +190,13 @@ cannot be a pure marked Hurwitz comparison: such a comparison would preserve
 the nonzero chain but identify it with B090's zero local-boundary extension.
 G055 is the active chain-level gate: construct the nonzero topology-changing
 specialization correction. B092/NG068 then show that even a type-(0,0)
-special lift does not formally select a local-relation coordinate. G056 is
-the smallest gate: construct the actual Hodge-module edge map, control lift
-ambiguity, and prove its detector coordinate survives with nonzero pairing.
-The resulting class must still pass G048's lift audit and G046's perverse-grade
-test. The
+special lift does not formally select a local-relation coordinate. B093
+identifies the correct target canonically as
+$H^{-1}(i_H^*j_{!*}L[2])$, while NG069 closes G056's proposed direct map from
+the total derived stalk because that would require a noncanonical splitting.
+G057 is the smallest gate: prove nonzero landing in the canonical perverse
+associated grade and full-support summand, with lift ambiguity, both B022
+quotients, and prescribed pairing controlled. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
@@ -418,6 +420,7 @@ python verification/verify_B073_a2_weyl_trace.py
 python verification/verify_B089_marked_plane_slice.py
 python verification/verify_B090_local_boundary_vanishing.py
 python verification/verify_B092_special_lift_countermodel.py
+python verification/verify_B093_relation_shift.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -493,6 +496,8 @@ fixed-vector obstruction; B090's sum-of-squares argument is general.
 The B092 check reproduces the strict one-dimensional countermodel in which
 identical exact and type-(0,0) lift data admit zero or nonzero local-relation
 coordinates.
+The B093 check verifies the plane-base shift
+$H^1(j_{!*}L)_H=H^{-1}(i_H^*j_{!*}L[2])$.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

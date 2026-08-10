@@ -27,6 +27,7 @@ not identify the resulting lift with B009's degree-one local relation group.
 B092 holds all exact and Hodge data fixed while making that missing component
 either zero or nonzero.
 
-The re-entry condition is G056: construct the geometric edge/projection map
-for the actual collision, control the lift ambiguity, and calculate the
-specified detector's local coordinate.
+B093 supplies the canonical target. The re-entry condition is G057: use the
+perverse associated grade and strict-support projection for the actual
+collision, control lift ambiguity, and calculate the specified detector's
+local coordinate.

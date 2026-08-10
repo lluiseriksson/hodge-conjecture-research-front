@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 85% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 86% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -140,8 +140,9 @@ Date: 2026-08-10
   detector with that boundary. G055 now isolates the necessary nonzero
   topology-changing specialization correction inside G054. B092/NG068 show
   that invariant-cycle liftability and type $(0,0)$ still do not select the
-  local-relation coordinate. G056 is the geometric edge-map and coordinate
-  calculation gate.
+  local-relation coordinate. B093 identifies that relation canonically with
+  the full-support perverse stalk. NG069 closes G056's noncanonical direct
+  total-stalk projection; G057 is the corrected associated-grade landing gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -520,9 +521,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   structures admit either a zero or nonzero map to the local relation line.
 - NG068 - NO-GO: B084 invariant-cycle surjectivity does not force a nonzero
   B009 local-relation component.
-- G056 - EXPLORATORY, active smallest gate: construct the actual rational
-  Hodge-module edge map, kill its lift ambiguity under the quotient/pairing
-  tests, and compute a nonzero detector coordinate.
+- B093 - PROVED: on the plane base, the clean nodal relation group is
+  canonically $H^{-1}(i_H^*P)$ for $P=j_{!*}L[2]$, accessed inside a proper
+  pushdown through $E_\infty^{-1,0}$ and full strict support.
+- G056 / NG069 - NO-GO: no canonical morphism runs directly from the total
+  derived special stalk to that relation group via a chosen decomposition.
+- G057 - EXPLORATORY, active smallest gate: prove the actual lift has a
+  nonzero canonical associated-grade/full-support coordinate, independent of
+  lift ambiguity after both B022 quotients and nonzero prescribed pairing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

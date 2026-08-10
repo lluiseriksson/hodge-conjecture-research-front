@@ -1,6 +1,6 @@
 ---
 brick_id: G056
-status: EXPLORATORY
+status: NO-GO
 base_field: C with all sheaf and homology data over Q
 variety: an arbitrary polarized smooth projective complex 2n-fold, a prescribed primitive rational Hodge class, and the actual G055 one-parameter marked collision
 smoothness: ambient and generic hyperplane fibers smooth; special hyperplane clean nodal; total space satisfies the hypotheses of the chosen rational Hodge-module model
@@ -13,14 +13,14 @@ hodge_type: the selected local coordinate must be rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B081-B084, B092, G046-G055, NG068
+dependencies: B009-B010, B022, B081-B084, B092-B093, G046-G055, NG068-NG069
 claim: For the actual G055 collision, construct a rational Hodge-module edge map from the special-lift group to B009/B052's local relation group, prove the B058 lift ambiguity lies in its pairing-null kernel, and show the resulting detector coordinate is nonzero and survives both B022 quotients with nonzero prescribed pairing.
 falsifier: failure to define the edge map, lift-dependent coordinates, zero local coordinate, a B022-kernel image, wrong Hodge type, or loss of prescribed pairing
 ---
 
 # G056 — Compute the special lift's local-relation coordinate
 
-**Status:** EXPLORATORY
+**Status:** NO-GO
 
 After G055 constructs the actual collision comparison and B083-B084 provide a
 special lift $\beta$ of the nearby B058 class, construct the geometric map
@@ -39,5 +39,7 @@ The gate requires three calculations:
    primitive Hodge class.
 
 B092 proves that neither exactness nor type alone determines $\rho_H$ or its
-value. It must come from the actual local-to-global Hodge-module comparison,
-with degrees and support shifts checked explicitly.
+value. B081 and B093 sharpen the failure: the decomposition theorem supplies
+no canonical map of this form from the total derived stalk. NG069 records the
+no-go. G057 replaces it by the canonical perverse-associated-grade and
+strict-support construction.

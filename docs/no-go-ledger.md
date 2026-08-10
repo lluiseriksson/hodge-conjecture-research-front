@@ -1315,5 +1315,21 @@
   lift to the independently computed local relation group.
 - **Precise obstruction:** B092 keeps the exact sequence, lift, and Hodge type
   fixed while choosing the missing map to be zero or the identity.
-- **Re-entry condition:** G056 must construct the geometric edge map, control
-  lift ambiguity, and calculate the specified detector coordinate.
+- **Re-entry condition:** B093 supplies the canonical target; G057 must use
+  the associated grade and strict-support projection, control lift ambiguity,
+  and calculate the specified detector coordinate.
+
+## NG-069 - A total-stalk projection canonically selects the relation
+
+- **Label:** NO-GO
+- **Route:** choose a decomposition-theorem splitting of the proper pushdown
+  and project $H^{-1}(i_H^*K)$ directly to the full-support relation stalk.
+- **Valid input:** B093 canonically identifies the relation target once the
+  full-support perverse summand has been reached.
+- **Invalid inference:** the derived splitting used to reach that summand is
+  canonical, so the total-stalk coordinate is intrinsic.
+- **Precise obstruction:** B081 proves the derived splitting is noncanonical;
+  only the perverse filtration and strict-support decomposition within one
+  perverse cohomology object are canonical.
+- **Re-entry condition:** G057 must first take the canonical associated grade,
+  then full strict support, and prove the specified class remains nonzero.
