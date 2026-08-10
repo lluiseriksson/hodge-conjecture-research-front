@@ -1,0 +1,25 @@
+{
+  "cusp": "4*s**3 + 27*t**2",
+  "first_pullback": "u**2*(4*u + 27*v**2)",
+  "second_pullback": "a**2*b**3*(4*a + 27*b)",
+  "third_a_chart": "a**6*c**3*(27*c + 4)",
+  "third_b_chart": "b**6*d**2*(4*d + 27)",
+  "exceptional_multiplicities": {
+    "E1": 2,
+    "E2": 3,
+    "E3": 6
+  },
+  "exceptional_self_intersections": {
+    "E1": -3,
+    "E2": -2,
+    "E3": -1
+  },
+  "E3_attachment_directions_c_chart": [
+    "0",
+    "-4/27",
+    "infinity"
+  ],
+  "reduced_total_transform_is_snc": true,
+  "scope": "symbolic chart and divisor-incidence check only"
+}
+

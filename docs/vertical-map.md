@@ -69,6 +69,15 @@ morphism is not geometrically without slopes (NG043). The next branch is
 G034: resolve the cusp, verify strict multispecialisability, descend the
 comparison, and exclude exceptional-only contributions to the pairing.
 
+B065 closes the geometric first step of G034: three point blowups produce an
+SNC total transform with exceptional multiplicities \((2,3,6)\) and a
+trivalent final exceptional curve. The new smallest gate is G035, the
+compatibility of \((F,V_1,V_2)\) for the actual pulled-back family Hodge
+module on each double-crossing chart, followed by gluing and pushdown. NG044
+shows that S042's quasi-ordinary cusp application controls only one selected
+coordinate when the cusp dimension is one and therefore does not close this
+two-parameter gate.
+
 An externally claimed shortcut is closed separately:
 
 \[

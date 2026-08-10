@@ -72,7 +72,9 @@ Date: 2026-08-10
   B063 supplies the rational mixed-Hodge comparison under without slopes;
   B064 and NG043 show that the raw A2 cusp chart does not satisfy the simpler
   geometric condition, leaving resolved strict multispecialisability and
-  pairing descent as G034.
+  pairing descent as G034. B065 completes the three-blowup cusp geometry;
+  G035 isolates the first chartwise Hodge/\(V\)-filtration calculation, and
+  NG044 excludes the one-coordinate quasi-ordinary shortcut.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -271,6 +273,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   direct without-slopes invocation.
 - G034 - EXPLORATORY, active local subgate: resolve the cusp, verify strict
   multispecialisability, descend the comparison, and prove pairing survival.
+- B065 - PROVED: three point blowups resolve the A2 cusp to an SNC divisor
+  with exceptional multiplicities \((2,3,6)\) and a trivalent last component.
+- G035 - EXPLORATORY, active smallest subgate: prove chartwise
+  \((F,V_1,V_2)\)-compatibility for the resolved family Hodge module, glue,
+  and push down the detector.
+- NG044 - NO-GO: S042's quasi-ordinary cusp result is one-coordinate when the
+  cusp has dimension one and is not the two-parameter detector comparison.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

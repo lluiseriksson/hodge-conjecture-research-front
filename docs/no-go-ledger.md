@@ -900,3 +900,21 @@
 - **Re-entry condition:** prove that exact graph-pair condition directly, or
   pass to G034's resolved boundary and prove strict multispecialisability,
   descent, and pairing survival.
+
+## NG-044 - Quasi-ordinary cusp compatibility is the two-parameter bridge
+
+- **Label:** NO-GO
+- **Route:** apply S042 Proposition 10.2 to the cusp and infer the full
+  \((s,t)\)-recollision comparison.
+- **Valid input:** a plane cusp is quasi-ordinary, and the cited proposition
+  proves strict multispecialisability for a specified direct-image Hodge
+  module.
+- **Invalid inference:** it simultaneously controls both ambient base
+  coordinates and the actual family detector object.
+- **Precise obstruction:** the source treats a \(p\)-dimensional
+  quasi-ordinary hypersurface along its first \(p\) ambient coordinates. For
+  a plane cusp, \(p=1\). G033 needs two recollision parameters plus B022 and
+  Saito-map compatibility, none of which is supplied by Proposition 10.2.
+- **Re-entry condition:** verify the two local \(V\)-filtrations on every
+  B065 double-crossing chart, glue around \(E_3\), and prove detector descent
+  as formulated in G035.

@@ -1109,6 +1109,13 @@ Matthieu Kochersperger, “Mixed Hodge modules without slope,”
   canonical \(V\)-multifiltration are preserved by proper direct image in the
   stated product situation. This theorem cannot be invoked from without
   slopes alone.
+- Checked Proposition 10.2 and Corollary 10.3, pp. 27-28: for a
+  \(p\)-dimensional quasi-ordinary hypersurface parametrized from
+  \(\mathbf C^p\), the specified direct-image Hodge module is strictly
+  multispecialisable along the first \(p\) ambient coordinate hyperplanes.
+  For a plane cusp \(p=1\), so this does not furnish a simultaneous
+  two-coordinate comparison for the ambient \((s,t)\)-plane; NG044 records
+  the mismatch.
 - Scope guard: the comparison preserves rational mixed-Hodge structure
   because it is internal to \(MHM\), but the paper does not discuss B022's
   quotient maps, the Saito ambient detector map, or its pairing with a fixed

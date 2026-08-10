@@ -40,9 +40,13 @@ This is NG043. The raw discriminant is cuspidal, and B064 proves that the critic
 
 ## Smallest next calculation
 
-Compute the embedded resolution of \(4s^3+27t^2=0\) chart by chart, label every exceptional component and multiplicity, and test the pulled-back graph Hodge module against strict \(R\)-multispecialisability. Even a positive local result must then pass items 3-4; normal crossings alone are not a descent or pairing theorem.
+B065 completes the embedded-resolution calculation: three point blowups give
+an SNC divisor with exceptional multiplicities \((2,3,6)\). G035 is now the
+smallest obligation: test the pulled-back graph Hodge module against strict
+\(R\)-multispecialisability on those exact charts and glue the comparisons.
+Even a positive local result must then pass items 3-4; normal crossings alone
+are not a descent or pairing theorem.
 
 ## Propagation boundary
 
 G034 would settle only the simplest \(A_2\) transition inside G033. Arbitrary singular detectors and multipart recollisions would still require reduction to this chart or additional local models. It is not a proof of G032, G031, or the Hodge Conjecture.
-
