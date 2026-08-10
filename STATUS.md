@@ -4,15 +4,16 @@ Date: 2026-08-10
 
 - **Infrastructure:** 28% - independent Git repository, mandatory topology,
   metadata contract, source-audit format, verification script, and CI seed exist.
-- **Formal proof-chain closure:** 3% - the projective-space reduction (B001)
-  and Hilbert dominance criterion (B002) are written and adversarially checked
-  on paper, but not proof-assistant formalized; the decisive universal
-  deformation hypothesis is open.
+- **Formal proof-chain closure:** 4% - B001-B003 close the degree reduction,
+  Hilbert dominance criterion, and semiregular first-order bridge on paper,
+  but are not proof-assistant formalized; the decisive universal deformation
+  and anchor hypotheses are open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
 Strongest honest headline: **an auditable research front with a proved scope
-reduction and a precisely isolated open relative-cycle dominance gate.**
+reduction, two deformation lemmas, and a precisely isolated open universal
+good-anchor gate.**
 
 ## Active frontier
 
@@ -22,6 +23,7 @@ reduction and a precisely isolated open relative-cycle dominance gate.**
   as a sufficient gate; its unconditional theorem is open.
 - B002: smooth Hilbert point plus tangent surjectivity forces dominance -
   `PROVED`.
+- B003: semiregular lci first-order Hodge/deformation bridge - `PROVED`.
 - G003: existence of such a representative for every anchored class -
   `EXPLORATORY`.
 - NG-001: deriving G002 from algebraicity of Hodge loci alone - `NO-GO`.

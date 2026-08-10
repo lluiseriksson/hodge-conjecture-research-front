@@ -7,10 +7,12 @@ standard **rational** Hodge Conjecture for arbitrary smooth projective complex
 varieties. Its terminal target is an unconditional, complete, non-circular,
 auditable proof or disproof.
 
-The current strongest result is infrastructure plus one proved reduction:
-the universal conjecture is equivalent to its middle-degree form after taking
-products with projective spaces. The middle-degree cycle-construction problem
-remains completely open in general. See [STATUS.md](STATUS.md).
+The strongest results are a proved reduction and two deformation lemmas: the
+universal conjecture is equivalent to its middle-degree form after products
+with projective spaces; a smooth Hilbert anchor with surjective tangent map
+forces cycle-space dominance; and semiregularity closes the corresponding
+first-order obstruction. The middle-degree cycle-construction problem remains
+completely open in general. See [STATUS.md](STATUS.md).
 
 ## Official target
 

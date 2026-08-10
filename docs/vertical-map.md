@@ -20,6 +20,10 @@ CD   an anchored Hodge-locus component is dominated by a relative cycle space
  | B002 (PROVED local deformation criterion)
  |
 smooth Hilbert point + tangent surjectivity at an anchor
+ ^
+ | B003 (PROVED first-order bridge under semiregularity)
+ |
+semiregular lci anchor + higher-obstruction/globalization control [G003]
 ```
 
 ## Terminal sufficient theorem

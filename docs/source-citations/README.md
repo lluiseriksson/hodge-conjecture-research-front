@@ -20,6 +20,7 @@ source does **not** prove. Web retrieval date: 2026-08-10.
 | S013 | Tankeev (1983) | prime-dimensional simple abelian varieties | paper theorem checked |
 | S014 | Grothendieck (1961) | relative Hilbert schemes | construction/projectivity source seeded |
 | S015 | Fulton (1998, 2nd ed.) | refined Gysin and cycle functoriality | reference scope seeded |
+| S016 | Dan-Kaur (2018 preprint) | semiregular special embeddings/VHC | pages 1-3 and Remark 3.5 checked |
 
 “Seeded” means the citation is identified but no theorem depending decisively
 on it may be promoted until the exact statement and proof context are checked.

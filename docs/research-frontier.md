@@ -20,3 +20,11 @@ Immediate bricks:
 
 If universal stability fails, record the exact normal-bundle or obstruction
 group and move to the next mechanism; do not promote a favorable family.
+
+## Latest brick
+
+B003 closes the first-order bridge for semiregular lci anchors. The next
+question is not the already-settled tangent obstruction calculation; it is
+whether all higher obstructions vanish strongly enough to meet B002, and then
+whether every required anchor class has such a representative. These two
+quantifiers remain separate.

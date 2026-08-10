@@ -14,6 +14,7 @@ not a claim of bibliographic completeness.
 | \(\dim X\le3\) | PROVED | the preceding codimensions exhaust all cases | no |
 | varieties with an algebraic cellular decomposition | PROVED | cycle classes of cells generate cohomology | no blanket reduction |
 | selected abelian varieties, hypersurfaces, complete intersections, products, and fibrations | PROVED only case-by-case | special geometry or group constraints | never counted globally without an explicit reduction |
+| semiregular lci anchors in suitable families | PROVED infinitesimally | Bloch obstruction map; B003 | no universal representative theorem |
 
 The general problem is already genuinely open for codimension-two classes on
 smooth projective fourfolds. “Known below dimension four” is therefore a scope
@@ -68,4 +69,3 @@ problem: for every smooth projective complex variety of even dimension
 \(2m\), construct codimension-\(m\) rational cycles for all rational classes in
 \(H^{2m}\cap H^{m,m}\). No known mechanism in the table supplies this for
 arbitrary varieties.
-

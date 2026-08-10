@@ -8,6 +8,7 @@
 | B001 | universal HC iff universal middle HC | PROVED | `proofs/B001-middle-degree-reduction.md` | proof-assistant formalization absent |
 | RC0 | a dominating relative cycle with fixed class gives fiberwise algebraicity | PROVED | functoriality/proper base change; encoded in G002 attempt | family singularities/base change must stay explicit |
 | B002 | smooth Hilbert point plus tangent surjectivity forces component dominance and fiberwise cycles | PROVED | `proofs/B002-hilbert-dominance-criterion.md` | exact formalization absent |
+| B003 | semiregular lci cycles lift along first-order Hodge-preserving deformations | PROVED | Bloch theorem 7.1; `proofs/B003-semiregular-infinitesimal-bridge.md` | first-order only; exact original-page audit incomplete |
 | G001 | every middle class has an algebraic anchor in a connected Hodge locus | EXPLORATORY | no proof | may be as hard as HC |
 | G002 | anchored Hodge locus is dominated by relative cycle space | CONDITIONAL | sufficient theorem formulated; proof only when dominance is assumed | dominance is the open content |
 | G003 | every anchored class has a B002-good cycle representative | EXPLORATORY | no proof; semiregularity source seeded | likely fails without strong lci/obstruction hypotheses |

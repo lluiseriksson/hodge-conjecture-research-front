@@ -173,6 +173,25 @@ William Fulton, *Intersection Theory*, 2nd ed., Springer, 1998.
   rational equivalence, and compatibility used in B001/G002.
 - Does not prove: surjectivity of a cycle-class map for an arbitrary variety.
 
+## S016 - Semiregular varieties and the variational bridge
+
+Ananyo Dan and Inder Kaur, “Semi-regular varieties and variational Hodge
+conjecture,” arXiv:1612.00754 (version dated 2018).
+[arXiv record](https://arxiv.org/abs/1612.00754)
+
+- Checked pp. 1-2: for a semiregular lci subscheme, infinitesimal preservation
+  of the cycle's Hodge class is equivalent to lifting the subscheme; the paper
+  attributes the bridge to Bloch and Buchweitz-Flenner.
+- Checked Theorem 1.1: any smooth projective \(n\)-fold \(Z\) can be embedded
+  as a semiregular subvariety of a suitable sufficiently high-degree smooth
+  hypersurface in \(\mathbf P^{2n+1}\).
+- Checked Remark 3.5: this yields a very special variational-Hodge case for
+  the constructed hypersurface family.
+- Does not prove: every Hodge class has an anchor, every anchor has a
+  semiregular representative, or arbitrary-variety HC.
+- Local retrieval SHA-256:
+  `26C14D8DB3710D8905172901648D7DE19034565DD2DBEF41A39A2A3A46E33AAC`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded
