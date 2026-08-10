@@ -278,20 +278,25 @@ coefficient object and prove nonzero invariant full-support landing in the
 canonical perverse grade. This is G042's first class-landing clause in
 selected-chain coordinates, so it is not counted twice. B114/NG090 further
 show that the root cover cannot create this landing: invariant full support
-is canonically the downstairs object. G076 is therefore the active smallest
-gate—construct the original selected specialization and prove its canonical
+is canonically the downstairs object. G076 is therefore the downstairs
+parent gate—construct the original selected specialization and prove its canonical
 full-support coordinate nonzero. B115/NG091 audit and exclude Ngô's support
 theorem here: a high-power hyperplane fiber has ample canonical bundle,
 whereas the required same-dimensional weak-abelian action would make it an
 abelian homogeneous quotient with trivial canonical bundle. G077 is the
-active subgate: construct the selected relevant grade, prove it nonzero, and
+support-separation subgate: construct the selected relevant grade, prove it nonzero, and
 kill every divisor-support coordinate explicitly. This is G045-G046 with
 collision provenance made explicit. B116/NG092 prove that B008's
 smooth-discriminant relation vanishing cannot kill those coordinates: the
 full-support and divisor-support stalk contributions are independent.
-G078 is the active concrete test—restrict the actual pushdown to generic
-noncharacteristic transverse disks and compute the selected punctual
-projections. G074 must then prove
+B117 now executes the correct test for the original incidence pushdown.
+After a generic transverse Lefschetz slice, a divisor term would be punctual
+in ${}^pH^0$ and would contribute to $R^{2n}$; S052 proves that sheaf is
+constant, so the punctual and divisor multiplicities vanish. NG093 records
+why the shifted-IC statement for $R^{2n-1}$ alone is one degree too low.
+G079 is the active concrete gate: construct the selected original lift and
+prove its $E_\infty^{-1,0}$ grade nonzero, which B117 makes automatically
+full-support. G074 must then prove
 ordinary liftability and preserve the nonzero prescribed pairing through
 both B022 quotients. G073 closes the source
 certificate, and G072 follows by
@@ -679,10 +684,12 @@ downstairs full-support coordinate. G076 must construct the original selected
 specialization; the cover cannot manufacture it.
 B115/NG091 exclude Ngô's weak-abelian support theorem for high-power
 hyperplane fibers by an ample-versus-trivial canonical-bundle contradiction.
-G077 must compute the selected divisor-support coordinates directly.
+G077 requires exclusion of the selected divisor-support coordinates.
 B116/NG092 exclude substituting B008's smooth-point relation vanishing for
-that computation. G078 requires the actual transverse-disk punctual
-projection of the selected class.
+that computation. B117/S052 close the support clause for the original
+incidence pushdown by constancy of the next direct image on every transverse
+Lefschetz disk; NG093 guards the shift. G079 now requires the selected
+original class and nonzero relevant perverse grade.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

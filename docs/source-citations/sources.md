@@ -1512,6 +1512,41 @@ Bao Châu Ngô, “Le lemme fondamental pour les algèbres de Lie,”
 - Web and primary full-text retrieval audited on 2026-08-11; no local copy is
   committed.
 
+## S052 - Lefschetz direct images across an ordinary quadratic fiber
+
+Ania Otwinowska and Morihiko Saito, “Monodromy of a family of hypersurfaces
+containing a given subvariety,” *Annales scientifiques de l'École Normale
+Supérieure* 38 (2005), 365-386;
+[primary full text](https://www.numdam.org/article/ASENS_2005_4_38_3_365_0.pdf),
+[DOI](https://doi.org/10.1016/j.ansens.2005.03.003).
+
+- Checked §2.1, equations (2.1.1)--(2.1.3), pp. 371-372: for a proper family
+  of hypersurface sections, proper base change identifies the higher direct
+  image stalks with fiber cohomology and fixes the degree convention used in
+  B117.
+- Checked §2.2, equations (2.2.1)--(2.2.2), p. 372: for a Lefschetz pencil
+  with nonzero vanishing cohomology, restriction from middle cohomology to
+  the rank-one Milnor-fiber group is surjective, and the vanishing-cycle long
+  exact sequence makes cospecialization in the next degree an isomorphism.
+- Checked equations (2.2.3)--(2.2.5), p. 372: every higher direct image away
+  from the middle degree is constant across the critical values, while the
+  middle direct image is the shifted intersection-complex extension from
+  the smooth locus. The authors explicitly cite local invariant cycles or
+  the decomposition theorem as an alternative proof of the latter fact.
+- Degree guard: with ambient dimension $m=2n$ and hyperplane-fiber dimension
+  $d=m-1$, a punctual summand of
+  ${}^pH^0(Rg_*\mathbf Q[d+1])$ contributes to
+  $R^{d+1}g_*\mathbf Q=R^m g_*\mathbf Q$, not to the middle sheaf
+  $R^d g_*\mathbf Q$. NG093 records why equation (2.2.5) alone is
+  insufficient; B117 also uses the constancy in equation (2.2.3).
+- Scope guard: the checked statement is for a Lefschetz pencil with smooth
+  total space and nonzero vanishing cohomology. B117 applies it only on a
+  generic transverse disk to an ordinary-quadratic discriminant divisor of
+  the original incidence family. It does not exclude exceptional supports
+  created by a semistable alteration, construct a selected detector class,
+  or prove any Hodge class algebraic.
+- Primary full text audited on 2026-08-11; no local copy is committed.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

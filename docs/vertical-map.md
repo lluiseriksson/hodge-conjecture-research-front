@@ -294,6 +294,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G078: transverse-disk punctual coordinate computation}
 \Longleftarrow
+\text{G079: selected original relevant-grade nonvanishing}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -334,13 +336,19 @@ landing. G076 is G043 with provenance made explicit, not a second reduction.
 B115/NG091 exclude applying Ngô's support theorem to the high-power
 hyperplane family: its generic fiber has ample canonical bundle, incompatible
 with the required same-dimensional abelian homogeneous action. G077 must
-therefore compute and kill the selected divisor-support coordinates directly.
+therefore exclude the selected divisor-support coordinates by a mechanism
+specific to this family.
 B116/NG092 show that B008's smooth-discriminant vanishing concerns the
 full-support intermediate extension and cannot annihilate a divisor-supported
-summand. G078 makes the missing operation falsifiable: restrict the actual
+summand. G078 made the missing operation falsifiable: restrict the actual
 pushdown to a generic noncharacteristic transverse disk, identify the
 divisor term as the punctual strict-support summand, and compute the selected
-projection.
+projection. B117 executes the support calculation for the original incidence
+pushdown: S052 makes $R^{2n}$ constant on the transverse Lefschetz disk, so
+the punctual ${}^pH^0$ multiplicity is zero. NG093 records why the
+shifted-IC theorem for $R^{2n-1}$ alone does not imply this. G079 is the
+remaining class-specific gate: construct the original lift and prove its
+$E_\infty^{-1,0}$ grade nonzero; it is then full-support automatically.
 Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
@@ -506,12 +514,14 @@ isolated $A_2$ lattice: G075 must compute a nonzero invariant full-support
 component in the global coefficient object. This is exactly G042's first
 class-landing clause in selected-chain coordinates, not an independent
 reduction. B114/NG090 remove the cover as a source of nonvanishing and leave
-G076, the original downstairs full-support coordinate, as the active gate.
+G076, the original downstairs full-support coordinate, as the parent gate.
 This is G043's existing obstruction with the selected collision certificate
 included. B115/NG091 close the Ngô support-theorem shortcut. G077 is the
-active subgate: prove the relevant grade nonzero and every divisor-support
+support-separation subgate: prove the relevant grade nonzero and every divisor-support
 coordinate zero. B116/NG092 block the smooth-discriminant shortcut, and
-G078 is the active transverse-disk punctual-coordinate calculation. G072 is
+G078 is the transverse-disk formulation. B117/S052 close its support
+multiplicity clause for the original pushdown; NG093 guards the one-degree
+shift. G079 is the active class-specific relevant-grade calculation. G072 is
 the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.

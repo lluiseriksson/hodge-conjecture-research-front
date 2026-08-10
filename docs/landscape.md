@@ -105,7 +105,7 @@ boundary, not an induction mechanism.
 | toroidal coefficient parity | B079 gives a smooth projective toroidal product whose positive-genus fiber coefficient creates an odd degree-three proper-support term | NG056 disproves coefficient-blind parity; G044 must compute the exact normal-degree plus coefficient-degree convolution for the B057 chain |
 | detector support normalization | B080 converts the degree-one relation group to normalized direct-image degree $-1$ and shows divisor $b=0$ and point $b=-1$ are both toric-parity allowed | NG057 closes parity exclusion; G045 must compute the two multiplicity spaces and actual B058 class coordinates |
 | canonical detector grade | B081 separates the full/divisor $E_\infty^{-1,0}$ grade from the point $E_\infty^{0,-1}$ grade using the canonical perverse filtration | NG058 closes a total projection from an arbitrary derived splitting; G046 is the canonical full-support landing gate |
-| Ngô support theorem versus hyperplane families | S051 requires a delta-regular weak abelian fibration; B115 proves a high-power generic hyperplane fiber cannot carry the required same-dimensional action because its canonical bundle is ample rather than trivial | NG091 closes automatic full support; G077 must compute and kill the selected divisor-support coordinates directly |
+| divisor support in the original hyperplane incidence map | S051/NG091 exclude the Ngô shortcut; B116 separates full and divisor stalks; B117/S052 prove every generic transverse Lefschetz slice has constant next direct image and hence zero punctual pH^0 multiplicity | NG093 guards the one-degree shift; the divisor clause is closed only for the original pushdown, while G079 must construct the selected nonzero relevant grade |
 | ambient target versus collision stalk | B082 audits the B022 arrow direction: local/thimble relations map through two quotients to primitive ambient homology, with no canonical reverse lift | NG059 closes the undefined $\operatorname{sp}(c)$ shortcut; G047 must construct collision data and a relative chain before G046 can inspect a stalk class |
 | nearby-to-special lift | B083 identifies the exact triangle $i^*K\to\Psi_fK\to\Phi_fK[1]$: a nearby class lifts precisely when its canonical vanishing-cycle obstruction is zero, and lifts may be nonunique | NG060 closes an automatic reverse-specialization map; G048 is the class-specific obstruction and lift calculation |
 | local invariant-cycle lift | B084 proves that a nearby IC class fixed by local collision monodromy for a proper variety map comes from the special fiber and therefore has zero vanishing-cycle obstruction | NG061 separates detector-loop and collision-parameter monodromies; G049 must realize and fix the specified B057 class |
@@ -300,8 +300,13 @@ B116 adds a support-theoretic guard at the current collision gate: B008's
 vanishing at a smooth discriminant point controls the full-support
 intermediate extension only. It does not remove a divisor-supported
 strict-support summand in the same stalk degree. NG092 quarantines that
-shortcut, and G078 requires the actual selected punctual projection on a
-generic transverse disk.
+shortcut. B117 then performs the actual transverse calculation for the
+original incidence pushdown. S052 makes $R^{2n}$ constant across a Lefschetz
+critical value, and decomposition forces the punctual ${}^pH^0$ summand to
+vanish; hence there is no divisor support. NG093 records why the
+intersection-complex statement for $R^{2n-1}$ alone is in the wrong degree.
+G079 now asks only for the selected original class and nonzero relevant
+perverse grade.
 B024 verifies global quotient-level detection for complete intersections,
 but NG-021 prevents treating this special topological generation as HC.
 B025/NG-022 exclude internal Milnor relations. B026 separates exact defect

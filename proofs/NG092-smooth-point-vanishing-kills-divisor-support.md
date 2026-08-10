@@ -13,7 +13,7 @@ hodge_type: desired selected coordinate rational type (0,0) after Q(n); no coord
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B008, B080-B081, B116, G077-G078
+dependencies: B008, B080-B081, B116-B117, G077-G079, S052
 claim: B008's vanishing of the smooth-discriminant local intersection-cohomology relation group forces every divisor-supported coordinate of G077's selected class to vanish.
 falsifier: B116's pure semisimple Hodge-module model with zero full-support H^(-1) stalk and nonzero divisor-supported H^(-1) stalk
 ---
@@ -34,7 +34,6 @@ falsifier: B116's pure semisimple Hodge-module model with zero full-support H^(-
   degree-\(-1\) stalk is zero while its divisor-supported degree-\(-1\)
   stalk is \(\mathbf Q\). B008 and the divisor multiplicity are different
   coordinates of the strict-support decomposition.
-- **Re-entry condition:** execute G078 on the actual proper pushdown:
-  restrict noncharacteristically to a generic transverse disk, isolate the
-  punctual strict-support summand, and compute the selected class's
-  projection to it.
+- **Re-entry condition:** B117 executes G078's support calculation for the
+  original pushdown using constancy of the next higher direct image, not
+  B008. G079 must construct the selected nonzero relevant-grade class.

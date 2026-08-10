@@ -744,17 +744,26 @@ generation from the controlled partitioned nodal locus is not proved.**
   abelian homogeneous quotient with trivial canonical bundle.
 - NG091 - NO-GO: projectivity and generic irreducibility do not make the
   hyperplane family an Ngô fibration or force full support.
-- G077 - EXPLORATORY, active smallest gate: construct the selected nonzero
-  $E_\infty^{-1,0}$ class and prove every discriminant-divisor-supported
-  coordinate vanishes, leaving a nonzero full-support component.
+- G077 - EXPLORATORY parent: construct the selected nonzero
+  $E_\infty^{-1,0}$ class and exclude divisor support, leaving a nonzero
+  full-support component.
 - B116 - PROVED: B008's zero smooth-discriminant local relation group is a
   statement about the full-support intermediate extension and does not
   exclude a divisor-supported summand in the same ordinary stalk degree.
 - NG092 - NO-GO: smooth-point relation vanishing cannot replace the actual
   divisor-coordinate calculation.
-- G078 - EXPLORATORY, active smallest subgate: construct the selected class,
-  restrict the actual pushdown to generic noncharacteristic transverse
-  disks, and prove every punctual divisor-support projection is zero.
+- G078 - EXPLORATORY parent with support clause closed: B117 computes its
+  generic transverse slices for the original incidence pushdown; selected
+  relevant-grade nonvanishing remains G079.
+- NG093 - NO-GO: the shifted-IC statement for $R^{2n-1}$ alone is one
+  degree too low to exclude the punctual term.
+- B117 - PROVED: S052 also makes $R^{2n}$ constant on every generic
+  transverse Lefschetz disk; decomposition therefore forces the punctual
+  ${}^pH^0$ multiplicity, and hence every original divisor support, to zero.
+- G079 - EXPLORATORY, active smallest gate: construct the collision-certified
+  selected lift directly in the original incidence pushdown and prove its
+  canonical $E_\infty^{-1,0}$ coordinate nonzero. B117 then makes it
+  automatically full-support.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

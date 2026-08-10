@@ -1695,9 +1695,9 @@
   the action would make a generic fiber an abelian homogeneous quotient with
   trivial canonical bundle, while adjunction makes its canonical bundle
   ample.
-- **Re-entry condition:** G077 must construct the actual selected relevant
-  perverse-grade class and calculate its divisor-support coordinates
-  directly. No general Ngô support theorem applies.
+- **Re-entry condition:** B117 supplies a different family-specific support
+  theorem for the original incidence map. G079 must still construct the
+  selected relevant-grade class; no Ngô theorem creates it.
 
 ## NG-092 - Smooth-point relation vanishing kills divisor support
 
@@ -1713,6 +1713,22 @@
   $\mathbf Q_B^H[2]\oplus i_*\mathbf Q_D^H[1]$ has zero degree-$-1$
   full-support stalk and a one-dimensional divisor-supported stalk. These
   are independent strict-support coordinates.
-- **Re-entry condition:** G078 must restrict the actual pushdown to a generic
-  noncharacteristic transverse disk, identify the punctual summand, and
-  compute the selected class's projection to it.
+- **Re-entry condition:** B117 executes the transverse support calculation
+  for the original pushdown using S052's next-degree constancy. G079 must
+  construct the selected class and prove its relevant grade nonzero.
+
+## NG-093 - The middle direct image alone excludes divisor support
+
+- **Label:** NO-GO
+- **Route:** use only S052 equation (2.2.5), saying that the middle higher
+  direct image on a Lefschetz disk is a shifted intersection complex, to
+  exclude a punctual summand in perverse degree zero.
+- **Valid input:** $R^d g_*\mathbf Q$ has no extra punctual direct summand.
+- **Invalid inference:** a punctual summand of
+  ${}^pH^0(Rg_*\mathbf Q[d+1])$ would occur in that sheaf.
+- **Precise obstruction:** the normalized punctual term is in ordinary
+  degree zero, which is $R^{d+1}g_*\mathbf Q$; $R^d$ is ordinary degree
+  minus one. This is exactly the B080 shift after taking a transverse disk.
+- **Re-entry condition:** B117 uses the additional equation (2.2.3):
+  $R^{d+1}g_*\mathbf Q$ is constant across a Lefschetz critical value.
+  Decomposition then forces the punctual multiplicity to vanish.

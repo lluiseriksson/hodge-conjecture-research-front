@@ -24,6 +24,7 @@ source does **not** prove. Latest web retrieval date: 2026-08-11.
 | S017 | Buchweitz-Flenner (2003; revised text) | VHC and Hilbert smoothness from semiregularity | Theorems 5.1-5.2 and 7.8-7.10 checked |
 | S018 | Ran (1999) | all Artin-local relative obstruction kernel | Theorem 0, pp. 809-810 checked |
 | S019 | Thomas (2005) | nodal hypersurfaces and deformation obstruction | Theorem 1.1 and Sections 4-5 checked |
+| S052 | Otwinowska-Saito (2005) | transverse Lefschetz direct images and absence of divisor pH^0 support | equations (2.1.1)-(2.2.5) checked |
 
 “Seeded” means the citation is identified but no theorem depending decisively
 on it may be promoted until the exact statement and proof context are checked.

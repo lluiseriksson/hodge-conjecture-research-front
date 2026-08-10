@@ -13,7 +13,7 @@ hodge_type: desired full-support coordinate rational type (0,0) after Q(n); no s
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: generic
-dependencies: B115, G043, G076-G077, S051
+dependencies: B115, B117, G043, G076-G079, S051-S052
 claim: Ngô's support theorem applies to the arbitrary high-power hyperplane family from projectivity and irreducibility alone and forces G076's selected class into full support.
 falsifier: S051's weak-abelian hypotheses and B115's ample-canonical versus abelian-homogeneous contradiction
 ---
@@ -34,6 +34,6 @@ falsifier: S051's weak-abelian hypotheses and B115's ample-canonical versus abel
   with the high-power generic fiber: it has ample canonical bundle, whereas
   the weak-abelian hypotheses would make it an abelian homogeneous quotient
   with trivial canonical bundle.
-- **Re-entry condition:** G077 must compute the actual selected relevant
-  perverse-grade class and exclude its divisor-supported component directly;
-  no general weak-abelian support theorem is available.
+- **Re-entry condition:** B117 supplies a different family-specific support
+  theorem for the original incidence map. G079 must still construct the
+  selected relevant-grade class; no weak-abelian theorem creates it.

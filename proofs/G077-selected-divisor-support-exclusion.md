@@ -13,7 +13,7 @@ hodge_type: selected relevant-grade class and its full-support component rationa
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B059, B077-B081, B083-B084, B110-B116, G043-G048, G076, G078, NG054-NG060, NG086-NG092, S051
+dependencies: B057-B059, B077-B081, B083-B084, B110-B117, G043-G048, G076, G078-G079, NG054-NG060, NG086-NG093, S051-S052
 claim: Construct G076's collision-certified ordinary lift beta, prove its E_infinity^(-1,0) class is nonzero, compute its strict-support decomposition inside pH^0, and prove every discriminant-divisor-supported coordinate is zero; the remaining full-support coordinate is then nonzero.
 falsifier: undefined lift or grade, zero relevant-grade class, a nonzero divisor-supported coordinate, confinement to point support, wrong rational Hodge type, or zero residual full-support component
 ---
@@ -55,8 +55,19 @@ for this hyperplane family. B115/NG091 exclude importing Ngô's weak-abelian
 support theorem. B116/NG092 also exclude using B008's vanishing at a smooth
 discriminant point: that vanishing concerns the full-support intermediate
 extension, not the divisor-supported strict-support summand. G078 is the
-explicit transverse-disk calculation now required.
+explicit transverse-disk calculation; B117 now executes its support part for
+the original incidence pushdown.
 
 G077 is the selected-class form of the divisor/full-support separation in
 G045-G046. It is not counted as an independent reduction. B022 survival and
 the final pairing remain downstream.
+
+## Resolution of the divisor clause
+
+B117 proves more than classwise vanishing for the original incidence
+pushdown: its ${}^pH^0$ has no divisor strict support at all. The proof uses
+both parts of S052's Lefschetz calculation. NG093 records the shift error in
+using only the middle direct image. Thus the equations $\beta_D=0$ are now
+structural for the original pushdown. The unresolved part of this gate is
+exactly G079: construct $\beta$ and prove
+$[\beta]_{-1,0}\ne0$.
