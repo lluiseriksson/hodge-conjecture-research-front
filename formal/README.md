@@ -30,6 +30,20 @@ It would not formalize the imported geometric identification of local
 intersection cohomology with that kernel, nor prove the open nonvanishing in
 G006.
 
+B010 supplies a stable abstract interface
+
+\[
+ R(Y_0)_1^{(0,0)}\simeq E^\vee(Y_0)^{(0,0)},\qquad
+ \zeta|_{Y_0}\ne0\Longleftrightarrow
+ \exists\beta,\ \langle\zeta,\gamma_\beta\rangle\ne0.
+\]
+
+B011 adds the global tube-surjectivity interface. A useful formal diagnostic
+would keep \(\ker(g-1)\) and the local relation kernel as distinct types, so
+that the invalid coercion in NG-010 is impossible. The geometric
+global-to-local concentration required by G007 must not be introduced as an
+axiom under a generic “monodromy relation” name.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

@@ -13,7 +13,7 @@ hodge_type: primitive (n,n), equivalently (0,0) after Tate twist
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B007, B008, B009, Thomas Theorem 1.1 (S019)
+dependencies: B007, B008, B009, B010, Thomas Theorem 1.1 (S019)
 claim: For every nonzero primitive rational middle Hodge class, some high-degree transverse nodal hyperplane degeneration has a rational vanishing-cycle relation whose associated new middle cycle pairs nontrivially with that class.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class annihilating every new middle cycle arising from every such nodal relation in every power of the polarization
 ---
@@ -46,15 +46,16 @@ such that a new class associated through the degeneration exact sequence,
  =\langle\zeta,i_*\beta_a\rangle\ne0.
 \]
 
-Here “associated” refers to a choice of lift through the standard degeneration
-exact sequence; no canonical lift is asserted. The quotient measuring new
-middle homology has the same relation-space description in the transverse
-nodal setting. This formulation is finite-dimensional and directly
-falsifiable once a nodal degeneration is specified.
+Brick B010 now supplies the exact construction: a relation \(\beta\) lifts to
+a relative middle cycle near the vanishing neighborhoods, retracts to the
+singular fiber, and has primitive pushforward \(\gamma_\beta\) on \(X\). No
+canonical relative lift is asserted, but Saito's map to the primitive class
+used in the pairing is canonical. In the nodal case every rational relation
+has type \((0,0)\) after the Tate twist.
 
 ## Why it propagates upward
 
-The nonzero pairing forces \(\zeta|_D\ne0\). B007 then proves the rational Hodge
+The nonzero pairing forces \(\zeta|_D\ne0\) by B010. B007 then proves the rational Hodge
 Conjecture. Conversely, if HC is assumed, Thomas Theorem 1.1 constructs a
 high-degree nodal divisor carrying a middle homology class mapping to the
 Poincare dual of \(\zeta\); its new component yields the required detecting
@@ -77,16 +78,12 @@ count, or a dimension estimate proves only that the domain is nonzero. The
 class-specific nonzero pairing is precisely the missing theorem and is
 recorded as NG-009.
 
-## Next admissible attacks
+## Next admissible attack
 
-1. Derive the pairing functional from limiting mixed Hodge structure data and
-   search for a polarization/monodromy argument proving it is nonzero for a
-   chosen \(\zeta\).
-2. Seek a degeneration construction determined by the Hodge tensor itself,
-   not by an already algebraic representative.
-3. Test candidate statements first on families where the defect space and
-   monodromy representation are explicitly computable; such tests remain
-   EXPLORATORY or NUMERICAL until a universal theorem is proved.
+B011 proves that global monodromy tubes detect every primitive class. G007
+asks whether a tube detector for \(\zeta\) can be concentrated at one singular
+hyperplane as a Saito relation class. This global-to-local step is now the
+narrowest active gate.
 
 Any construction beginning with a subvariety whose class is \(\zeta\) is circular for
 this gate.

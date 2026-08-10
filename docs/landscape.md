@@ -30,6 +30,8 @@ boundary, not an induction mechanism.
 | Cattani-Deligne-Kaplan | Hodge loci are algebraic | no dominating relative Chow/Hilbert component follows |
 | admissible normal functions | BFNP attach one to a primitive Hodge class via a Deligne/absolute-Hodge lift; a nonzero boundary singularity is terminal-equivalent to HC | no theorem forces a class-specific singularity; ambient vanishing cycles do not suffice |
 | nodal defect and vanishing-cycle relations | B008 excludes smooth discriminant points; B009 computes the transverse nodal local channel as the relation space among vanishing cycles | positive defect does not force the specified Hodge class to pair nontrivially with a new middle cycle |
+| Saito relation pairing | a type-\((0,0)\) unipotent local relation gives a primitive Hodge class \(\gamma_\beta\), and its pairing exactly detects restriction to the chosen singular fiber | does not construct a suitable singular fiber or relation for a specified class |
+| Schnell tube mapping | global monodromy tubes generate all rational primitive middle cohomology when vanishing homology is nonzero | a global loop-fixed tube is not supported on one singular fiber and is not automatically a local Saito relation |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
 | reduction modulo primes | Frobenius and etale/Tate information | needs comparison, Tate-type algebraicity, and cycle lifting back to characteristic zero |
@@ -67,6 +69,9 @@ boundary, not an induction mechanism.
 11. **Defect-only fallacy:** a nonzero nodal defect or local
     intersection-cohomology group supplies a possible target, not a nonzero
     image for the specified Hodge class.
+12. **Global/local kernel fallacy:** Schnell's
+    \(\ker(g-1)\) for a global monodromy loop is not Saito's relation kernel
+    for simultaneous vanishing cycles at one singular fiber.
 
 ## Open universal core
 
@@ -82,5 +87,8 @@ assumption but does not weaken the open content.
 Bricks B008-B009 refine the latter formulation: detection cannot occur at a
 smooth discriminant point, and under a transverse nodal model its possible
 local values form the rational relation space among the vanishing cycles.
-G006 asks for a relation whose associated new middle cycle has nonzero pairing
-with the given class. This is still terminal-equivalent and remains open.
+B010 gives the exact pairing with the primitive Hodge class
+\(\gamma_\beta\). B011 independently proves that global monodromy tubes detect
+all primitive cohomology. G007 asks for a geometric concentration theorem
+from the global tube to the local relation; this is still terminal-equivalent
+and remains open.

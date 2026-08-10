@@ -10,8 +10,10 @@ Date: 2026-08-10. Overall status: **EXPLORATORY**.
 \text{universal primitive middle singularity}
 \Longleftrightarrow
 \text{singular-hyperplane detection G005}
+\Longleftrightarrow
+\text{class-specific nodal relation G006}
 \Longleftarrow
-\text{class-specific nodal relation G006}.
+\text{tube-to-local concentration G007}.
 \]
 
 The first equivalence is BFNP Theorem 1.3 and Theorems 6.5-6.6, audited in
@@ -42,43 +44,64 @@ channel is
  (a_i)\mapsto\sum_i a_i\delta_i\right).
 \]
 
-This turns the abstract local singularity into a concrete relation space but
-does not make the specified class's image nonzero.
+This turns the abstract local singularity into a concrete relation space.
+B010 strengthens the statement: every type-\((0,0)\) unipotent relation
+\(\beta\) determines a primitive Hodge class \(\gamma_\beta\), and
+
+\[
+ \zeta|_{X_p}\ne0
+ \quad\Longleftrightarrow\quad
+ \langle\zeta,\gamma_\beta\rangle\ne0
+ \text{ for some }\beta.
+\]
+
+For ordinary double points every rational relation has the required Hodge
+type. The missing input is therefore the existence of a relation outside the
+kernel of this exact pairing.
+
+## Global detector now available
+
+B011 proves that, after passing to a high enough embedding with nonzero
+vanishing homology, the global tube map is surjective onto primitive rational
+middle cohomology. Thus every nonzero primitive Hodge class has a global tube
+detector \((g,\alpha)\) with \(g\alpha=\alpha\).
+
+This does not yet give a local singularity. The global kernel
+\(\ker(g-1)\) and Saito's relation kernel at one singular fiber are different
+objects.
 
 ## Current smallest attackable brick
 
-**G006: class-specific vanishing-cycle relation.** Construct directly from
-\((X,L,\zeta)\) a transverse nodal point \(p\in|L^m|\), a relation
-\(0\ne a\in\operatorname{Rel}(\delta_i)\), and its new middle class
-\(\beta_a\in H_{2n}(X_p,\mathbf Q)\) such that
+**G007: tube-to-local-relation bridge.** Start with a Schnell tube detector for
+\(\zeta\). Construct an algebraic two-parameter degeneration that fills its
+monodromy loop and concentrates the discriminant intersections into one
+higher-codimension point \(p\), producing
+\(\beta\in R(X_p)_1^{(0,0)}\) such that
 
 \[
- \langle\zeta,i_*\beta_a\rangle\ne0.
+ \langle\zeta,\gamma_\beta\rangle\ne0.
 \]
 
-This is falsifiable by a triple \((X,L,\zeta)\) for which all such pairing
-functionals vanish for every \(m\). It implies G005 and propagates all the way
-upward by B007. Thomas's theorem gives the converse under HC, so the universal
-statement remains terminal-equivalent.
+This is falsifiable by a triple \((X,L,\zeta)\) with a global tube detector
+but no local Saito relation detector in any power. It implies G006 and
+propagates upward through B010 and B007.
 
 ## Attempt audit
 
-1. Pass to \(m\gg0\), where Lefschetz pencils have nontrivial vanishing
-   cycles - valid by BFNP Proposition 5.11.
-2. Use global monodromy to relate those cycles - valid ambient information.
-3. Move to a smooth discriminant point - **closed by B008** because its local
-   rational intersection-cohomology channel is zero.
-4. Choose a higher nodal stratum with a positive relation space - valid as a
-   source of possible local directions under B009.
-5. Conclude that the specified \(\zeta\) couples to one of those directions -
-   **invalid**. A nonzero vector space does not make the class-specific linear
-   functional nonzero.
+1. Pass to \(m\gg0\) and use B011 to choose a loop-fixed vanishing class whose
+   tube detects \(\zeta\) - valid global topology.
+2. Factor the loop into Picard-Lefschetz meridians - valid monodromy data.
+3. Fill the loop in the full projective parameter space - topologically
+   possible, but a generic filling meets several separate smooth
+   discriminant points.
+4. Declare the resulting cancellation to be a relation at one singular
+   member - **invalid**. B008 kills every smooth-point local channel, and no
+   theorem coalesces the intersections while preserving the tube and its
+   Hodge type.
 
-Steps 3 and 5 are B008 and NG-009 respectively; the ambient inference already
-failed as NG-008. Thomas's constructive nodal direction does not repair the
-gap because it begins with an algebraic representative, while his deformation
-analysis shows that the nodal obstruction space retains the embedded-cycle
-obstruction.
+Step 4 is NG-010. The open construction must create a higher discriminant
+stratum and verify the specialization through Saito's exact sequence; merely
+factoring the global monodromy does not do so.
 
 ## Secondary anchored route
 
@@ -103,5 +126,6 @@ without that assumption and is already known to be equivalent to HC.
 
 Neither route counts as general progress until its universal open gate is
 proved. A normal-function singularity criterion, a nonempty discriminant,
-nontrivial ambient monodromy, a nonzero nodal relation space, or a nodal
-dimension count is not itself a cycle construction.
+nontrivial ambient monodromy, global tube surjectivity, a nonzero nodal
+relation space, or a nodal dimension count is not itself a cycle
+construction.

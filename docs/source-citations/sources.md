@@ -312,6 +312,49 @@ Society Lecture Note Series 343 (2007), 206-263.
 - Local retrieval SHA-256:
   `4D1DB080F19E77E4627462C7684F822CE1E18EFD783E0D00ABA65BEE7DDB61A0`.
 
+## S022 - Exact local relation-pairing criterion
+
+Morihiko Saito, “Generalized Thomas hyperplane sections and relations between
+vanishing cycles,” arXiv:0806.1461v5 (2008).
+[arXiv record](https://arxiv.org/abs/0806.1461)
+
+- Checked pp. 2-3, Proposition 1 and Theorem 1: the degeneration exact
+  sequence defines the extra cohomology \(E(Y_0)\) and the unipotent
+  type-\((0,0)\) relation space \(R(Y_0)_1^{(0,0)}\); these are dual, and a
+  relation \(\beta\) gives a primitive Hodge class \(\gamma_\beta\) such that
+  \(Y_0\) detects \(\zeta\) exactly when
+  \(\langle\zeta,\gamma_\beta\rangle\ne0\) for some \(\beta\).
+- Checked pp. 3 and 8-9, Theorems 2-3 and Section 2.5: the result extends via
+  vanishing-cycle mixed Hodge modules to non-isolated singularities; for
+  ordinary double points the local vanishing group is \(\mathbf Q(-n)\) with
+  unipotent monodromy; the relative-cycle/retraction construction of
+  \(\gamma_\beta\) is explicit.
+- Scope guard: the theorem characterizes a chosen singular member but does
+  not produce one for an arbitrary Hodge class.
+- Local retrieval SHA-256:
+  DC4C2308EBA568BE14BF5027D8110ECC4FF428261E436499E4DD2AE016ACDA12.
+
+## S023 - Global tube generation of primitive cohomology
+
+Christian Schnell, “Primitive cohomology and the tube mapping,”
+*Mathematische Zeitschrift* 268 (2011), 1069-1089.
+[DOI and author PDF](https://www.math.stonybrook.edu/~cschnell/pdf/papers/tube.pdf)
+
+- Checked pp. 1-3, Theorem 1: for a smooth projective embedded \(d\)-fold with
+  nonzero rational vanishing homology in a smooth hyperplane section, the
+  tube map from pairs \((g,\alpha)\), with \(g\) a monodromy loop and
+  \(g\alpha=\alpha\), surjects onto \(H^d_{\mathrm{prim}}(X,\mathbf Q)\).
+  Dually, the map to the product of coinvariant quotients
+  \(V/(g-1)V\) is injective.
+- Checked p. 20, Section 6: the dual formulation detects every primitive
+  class by a cohomology class on the global étale space of vanishing cycles.
+- Scope guard: tube classes are global topological cycles swept through
+  smooth hyperplane sections. The theorem does not support them on a single
+  singular hyperplane, make them algebraic, or identify
+  \(\ker(g-1)\) with Saito's local relation kernel.
+- Local retrieval SHA-256:
+  38AF760A171C9373EFA0232768D8C24D5FB2F5409DFEE63646DD5CB3E55310EE.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

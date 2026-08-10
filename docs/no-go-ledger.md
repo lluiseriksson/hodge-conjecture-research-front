@@ -160,3 +160,31 @@
   \((X,L,\zeta)\) and prove
   \(\langle\zeta,i_*\beta_a\rangle\ne0\), without choosing an algebraic
   representative of \(\zeta\) and without a dimension-count substitution.
+
+## NG-010 - Global tube detection is not local singularity detection
+
+- **Label:** NO-GO
+- **Route:** invoke Schnell's surjective tube map, represent a primitive Hodge
+  class by a tube swept around a monodromy loop, and declare that tube to be
+  the relation class of a singular hyperplane.
+- **Valid input:** B011 proves that every primitive rational middle class is a
+  global tube class associated with some
+  \(\alpha\in\ker(g-1)\). B010 proves that a type-\((0,0)\) local relation
+  \(\beta\) at one singular fiber produces a primitive Hodge class
+  \(\gamma_\beta\) and gives the exact detection pairing.
+- **Invalid inference:** the global stabilizer condition
+  \(g\alpha=\alpha\) supplies a relation among the local vanishing cycles of
+  one singular fiber, or a canonical map from the tube to such a relation.
+- **Precise obstruction:** the tube loop lives entirely in the smooth
+  parameter locus. A generic filling disk meets the discriminant at several
+  separate smooth points; B008 says every such point has zero rational local
+  intersection-cohomology channel. Saito's relation kernel is attached to the
+  simultaneous vanishing data at one higher discriminant stratum, whereas
+  Schnell's kernel is \(\ker(g-1)\) for a global product of monodromies. The
+  audited sources provide no map between these kernels. Factoring \(g\) into
+  meridians does not geometrically collide their discriminant points and does
+  not preserve a type-\((0,0)\) local class.
+- **Re-entry condition:** construct an algebraic two-parameter degeneration
+  that realizes the tube on its boundary, concentrates the discriminant
+  intersections at one singular member, and proves via the vanishing-cycle
+  sequence that the resulting Saito class retains the nonzero pairing.
