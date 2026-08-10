@@ -286,7 +286,12 @@ whereas the required same-dimensional weak-abelian action would make it an
 abelian homogeneous quotient with trivial canonical bundle. G077 is the
 active subgate: construct the selected relevant grade, prove it nonzero, and
 kill every divisor-support coordinate explicitly. This is G045-G046 with
-collision provenance made explicit. G074 must then prove
+collision provenance made explicit. B116/NG092 prove that B008's
+smooth-discriminant relation vanishing cannot kill those coordinates: the
+full-support and divisor-support stalk contributions are independent.
+G078 is the active concrete test—restrict the actual pushdown to generic
+noncharacteristic transverse disks and compute the selected punctual
+projections. G074 must then prove
 ordinary liftability and preserve the nonzero prescribed pairing through
 both B022 quotients. G073 closes the source
 certificate, and G072 follows by
@@ -675,6 +680,9 @@ specialization; the cover cannot manufacture it.
 B115/NG091 exclude Ngô's weak-abelian support theorem for high-power
 hyperplane fibers by an ample-versus-trivial canonical-bundle contradiction.
 G077 must compute the selected divisor-support coordinates directly.
+B116/NG092 exclude substituting B008's smooth-point relation vanishing for
+that computation. G078 requires the actual transverse-disk punctual
+projection of the selected class.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

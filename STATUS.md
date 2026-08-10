@@ -747,6 +747,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G077 - EXPLORATORY, active smallest gate: construct the selected nonzero
   $E_\infty^{-1,0}$ class and prove every discriminant-divisor-supported
   coordinate vanishes, leaving a nonzero full-support component.
+- B116 - PROVED: B008's zero smooth-discriminant local relation group is a
+  statement about the full-support intermediate extension and does not
+  exclude a divisor-supported summand in the same ordinary stalk degree.
+- NG092 - NO-GO: smooth-point relation vanishing cannot replace the actual
+  divisor-coordinate calculation.
+- G078 - EXPLORATORY, active smallest subgate: construct the selected class,
+  restrict the actual pushdown to generic noncharacteristic transverse
+  disks, and prove every punctual divisor-support projection is zero.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

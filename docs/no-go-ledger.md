@@ -1698,3 +1698,21 @@
 - **Re-entry condition:** G077 must construct the actual selected relevant
   perverse-grade class and calculate its divisor-support coordinates
   directly. No general Ngô support theorem applies.
+
+## NG-092 - Smooth-point relation vanishing kills divisor support
+
+- **Label:** NO-GO
+- **Route:** apply B008 at a generic smooth point of every discriminant
+  divisor and use the vanishing of $IH^1_p(\mathcal H)$ to set the selected
+  divisor coordinate equal to zero.
+- **Valid input:** the full-support intermediate-extension contribution to
+  the degree-$-1$ stalk vanishes at such a point.
+- **Invalid inference:** the divisor-strict-support contribution to the same
+  ordinary stalk degree also vanishes.
+- **Precise obstruction:** B116's pure semisimple Hodge-module model
+  $\mathbf Q_B^H[2]\oplus i_*\mathbf Q_D^H[1]$ has zero degree-$-1$
+  full-support stalk and a one-dimensional divisor-supported stalk. These
+  are independent strict-support coordinates.
+- **Re-entry condition:** G078 must restrict the actual pushdown to a generic
+  noncharacteristic transverse disk, identify the punctual summand, and
+  compute the selected class's projection to it.

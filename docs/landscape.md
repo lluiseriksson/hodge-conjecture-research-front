@@ -296,6 +296,12 @@ collision theorem preserving the detector class and rational Hodge type.
 B022 specifies that the preserved datum must be nonzero after the
 equator-extension and base-locus quotients. B023 shows that pure Hurwitz
 mutation cannot supply the required topology change.
+B116 adds a support-theoretic guard at the current collision gate: B008's
+vanishing at a smooth discriminant point controls the full-support
+intermediate extension only. It does not remove a divisor-supported
+strict-support summand in the same stalk degree. NG092 quarantines that
+shortcut, and G078 requires the actual selected punctual projection on a
+generic transverse disk.
 B024 verifies global quotient-level detection for complete intersections,
 but NG-021 prevents treating this special topological generation as HC.
 B025/NG-022 exclude internal Milnor relations. B026 separates exact defect

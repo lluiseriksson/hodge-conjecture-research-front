@@ -292,6 +292,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G077: selected divisor-support exclusion}
 \Longleftarrow
+\text{G078: transverse-disk punctual coordinate computation}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -333,6 +335,12 @@ B115/NG091 exclude applying Ngô's support theorem to the high-power
 hyperplane family: its generic fiber has ample canonical bundle, incompatible
 with the required same-dimensional abelian homogeneous action. G077 must
 therefore compute and kill the selected divisor-support coordinates directly.
+B116/NG092 show that B008's smooth-discriminant vanishing concerns the
+full-support intermediate extension and cannot annihilate a divisor-supported
+summand. G078 makes the missing operation falsifiable: restrict the actual
+pushdown to a generic noncharacteristic transverse disk, identify the
+divisor term as the punctual strict-support summand, and compute the selected
+projection.
 Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
@@ -502,7 +510,9 @@ G076, the original downstairs full-support coordinate, as the active gate.
 This is G043's existing obstruction with the selected collision certificate
 included. B115/NG091 close the Ngô support-theorem shortcut. G077 is the
 active subgate: prove the relevant grade nonzero and every divisor-support
-coordinate zero. G072 is the next filtered calculation once that
+coordinate zero. B116/NG092 block the smooth-discriminant shortcut, and
+G078 is the active transverse-disk punctual-coordinate calculation. G072 is
+the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.
 
