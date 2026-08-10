@@ -1300,6 +1300,44 @@ Sigma* 13 (2025), e175;
 - Local retrieval SHA-256:
   `CF8B315F723740C08EB43995DE0C5601866DF2310A4CA04C832616ABAAB33BA7`.
 
+## S048 - The combinatorics and topology of proper toric maps
+
+Mark Andrea A. de Cataldo, Luca Migliorini, and Mircea Mustaţă, “The
+combinatorics and topology of proper toric maps,” *Journal für die reine und
+angewandte Mathematik* 744 (2018), 133-163;
+[arXiv:1407.3497](https://arxiv.org/abs/1407.3497),
+[versioned PDF](https://arxiv.org/pdf/1407.3497v2).
+
+- Checked Theorem 4.1, p. 17: for a proper toric map with simplicial source,
+  every fiber has pure rational Hodge-Tate cohomology; in particular its odd
+  cohomology vanishes.
+- Checked Theorem 5.1, pp. 20-23: for a proper toric fibration,
+  (Rf_*IC_X) decomposes into shifted intersection complexes of orbit
+  closures with constant coefficients, and the multiplicity (s_{\tau,b})
+  vanishes when (b+\dim X-\dim V(\tau)) is odd. Symmetry follows from
+  Poincare duality, and the stated inequalities require projectivity and
+  relative hard Lefschetz.
+- Checked Remark 5.2, pp. 20-21: a general proper toric map factors through a
+  toric fibration and a finite toric map. The same support multiplicities and
+  shifts remain, while finite local systems may occur on the image orbits.
+- Checked Proposition 5.4, pp. 21-22: fiber intersection cohomology vanishes
+  when the degree plus (dim X) is odd; the proof resolves the toric source
+  and invokes Theorem 4.1.
+- Checked Lemma 5.6 and the proof of Theorem 5.1, pp. 22-23: for a toric
+  fibration the direct image is constructible on torus orbits and the local
+  systems are constant; the fiber parity gives the support-shift parity.
+- Checked Theorem 6.1, pp. 23-24: when source and target are simplicial,
+  (IC_X=\mathbf Q_X[\dim X]) and (IC_V=\mathbf Q_V[\dim V]), making the
+  ordinary-degree normalization explicit. A term indexed by ((V,b)) starts
+  generically in ordinary degree (dim X-dim V+b), hence in even degree.
+- Scope guard: the paper treats globally toric maps. It does not state a
+  coefficient-sensitive global decomposition theorem for arbitrary
+  toroidal/semistable families, identify the B057-B058 specialization, or
+  control the B022 quotients and prescribed pairing. B078 imports the exact
+  positive theorem; NG055/G044 isolate the missing application.
+- Local retrieval SHA-256:
+  `E769D3C50F9499507F05A7E0E67441FD371BD874BB4AA9726923F5A5CC35FEF6`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

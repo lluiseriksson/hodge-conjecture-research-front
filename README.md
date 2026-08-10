@@ -133,8 +133,15 @@ residual G042 problem is the original G032/G031 pairing-preserving
 specialization and quotient calculation. B077 proves that the pure
 semistable pushdown has a semisimple strict-support decomposition. NG054
 prevents treating the existence of its full-support summand as class-level
-nonvanishing. G043 is now the smallest gate: compute the specialized tube's
-projection after subtracting every exceptional-support component. The
+nonvanishing. G043 asks for the specialized tube's projection after
+subtracting every exceptional-support component. B078 now audits the proper
+toric decomposition theorem: support shifts have even ordinary generic
+degree, and simplicial-source toric fibers have pure Hodge-Tate even
+cohomology. NG055 blocks applying that result directly to B071's global
+non-toric hyperplane degeneration merely because it has local toroidal
+charts. G044 is the smallest gate: prove the same exclusion with the actual
+coefficient Hodge modules and detector-degree normalization, or exhibit the
+first proper-support correction explicitly. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored

@@ -1080,3 +1080,25 @@
   create exactly such supports.
 - **Re-entry condition:** compute the strict-support projection of the actual
   B058 nearby specialization and prove it is nonzero, as required by G043.
+
+## NG-055 - Toric parity forces full-support landing
+
+- **Label:** NO-GO
+- **Route:** combine the ordinary degree-one label of the relation detector
+  with B078's even support parity and declare all proper-support components
+  of the B058 specialization zero.
+- **Valid input:** for a globally proper toric map, B078 proves that a support
+  term indexed by (V,b) occurs generically in ordinary degree
+  (dim X-dim V+b), which is even; simplicial-source toric fibers have pure
+  Hodge-Tate cohomology and no odd cohomology.
+- **Invalid inference:** the same parity applies without further work to the
+  global B071 hyperplane degeneration and to the exact Hodge module and
+  degree containing the specified tube.
+- **Precise obstruction:** B071 supplies local monomial/toroidal charts, not
+  a single globally toric family. Global non-toric fiber cohomology produces
+  coefficient Hodge modules and shifts, and no current brick identifies
+  their contribution or the detector's normalization through nearby cycles
+  and pushdown.
+- **Re-entry condition:** prove G044's coefficient-sensitive toroidal parity
+  and étale/stack gluing theorem, or compute the first odd proper-support term
+  explicitly and subtract it in G043.

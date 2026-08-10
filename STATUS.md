@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 73% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 74% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -100,7 +100,11 @@ Date: 2026-08-10
   cannot create the original boundary nonvanishing, returning the residual
   gate to G042/G032/G031. B077 proves the pure stack pushdown has a
   semisimple strict-support decomposition; NG054/G043 isolate the still-open
-  full-support projection of the specified specialized tube.
+  full-support projection of the specified specialized tube. B078 proves the
+  exact support-shift parity and fiber Hodge-Tate parity for proper toric
+  maps. NG055 shows that local toroidal charts do not automatically transfer
+  this to the global non-toric coefficient object; G044 is the resulting
+  coefficient-sensitive parity/gluing gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -378,6 +382,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G043 - EXPLORATORY, active smallest support subgate: compute the actual
   specialization and prove its projection after exceptional-support
   subtraction is nonzero and retains the prescribed pairing.
+- B078 - PROVED: in the proper toric decomposition theorem every support
+  shift has even ordinary generic degree; simplicial-source fibers have pure
+  Hodge-Tate even cohomology.
+- NG055 - NO-GO: local toroidal charts do not justify applying B078 directly
+  to the global hyperplane degeneration or the specified nearby class.
+- G044 - EXPLORATORY, active smallest technical subgate: retain the actual
+  coefficient Hodge modules and prove toroidal parity through the exact
+  pushdown and descent, or identify the first proper-support correction.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

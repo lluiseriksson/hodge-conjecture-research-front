@@ -195,15 +195,24 @@ B077 closes existence of the strict-support decomposition for the pure
 semistable pushdown: proper pushforward preserves purity, pure stack Hodge
 objects split and are semisimple, and the target-variety object decomposes by
 support. NG054 blocks object-to-class promotion. The smallest residual gate
-is now G043:
+is G043. B078 supplies an exact parity mechanism for globally proper toric
+maps, but NG055 blocks its direct use on the global non-toric hyperplane
+degeneration. The smallest attackable subgate is now G044:
 
 \[
 \text{G042/G032}
 \Longleftarrow
 \text{nonzero full-support projection G043}
 \Longleftarrow
-\text{explicit specialization and exceptional-support subtraction}.
+\text{coefficient-sensitive toroidal parity G044}
+\Longleftarrow
+\text{B078 toric parity plus exact pushdown/degree/gluing audit}.
 \]
+
+If G044 is false, its falsifier must identify the first coefficient degree
+and proper support that contributes; that term becomes the explicit
+exceptional-support subtraction required by G043. Neither branch establishes
+nonzero total specialization or either B022 quotient.
 
 An externally claimed shortcut is closed separately:
 
