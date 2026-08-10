@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 82% - independent Git repository, mandatory topology,
+- **Infrastructure:** 83% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 60% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 61% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -212,7 +212,16 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B054/G027/G015 - PROVED: iterated clean nonlinear wonderful fibers equal
   their labelled tangent wonderful models, closing the rational
   type-\((0,0)\) multipart relation channel for any number of blocks.
-- G028 - EXPLORATORY, active gate: construct a clean dimension-scaled
+- B055 - PROVED: on one connected equisingular incidence stratum, any
+  canonical relation-to-fixed-ambient local-system morphism has a constant
+  image subspace.
+- NG037 - NO-GO: monodromy inside one such component cannot sweep one
+  positive ambient image through new primitive directions.
+- G029 - EXPLORATORY, active gate: construct a topology-changing boundary
+  specialization from a chosen global tube or thimble detector to one clean
+  multipart nodal relation while preserving the B022 quotient class,
+  rational type, and nonzero specified pairing.
+- G028 - EXPLORATORY parent: construct a clean dimension-scaled
   q-block nodal incidence with positive defect, positive ambient rank, and a
   relation pairing nontrivially with a specified primitive Hodge class.
 - G014 - EXPLORATORY sufficient parent: prove that canonical primitive images from

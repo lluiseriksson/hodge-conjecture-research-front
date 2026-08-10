@@ -23,7 +23,8 @@ Two sufficient attacks feed G008:
 \Longleftarrow\text{two-matroid incidence G013}
 \Longleftarrow\text{unanchored detector spanning G014},
 \qquad
-\text{G008}\Longleftarrow\text{tube-to-local concentration G007}.
+\text{G008}\Longleftarrow\text{tube-to-local concentration G007}
+\Longleftarrow\text{topology-changing transport G029}.
 \]
 
 The fixed-carrier branch now has an additional necessary local gate:
@@ -147,7 +148,23 @@ proposal G009, now disproved by B027.
 
 ## Current smallest attackable brick
 
-**G013: class-paired two-matroid incidence.** Starting with a global tube or
+**G029: topology-changing tube-to-nodal transport.** B011 supplies a global
+tube detector for every nonzero primitive class, B022 identifies the two
+quotients before an ambient class is obtained, and B054 proves the clean
+multipart local relation channel once a nodal target is supplied. G029 asks
+for a one-parameter algebraic boundary specialization that identifies the
+chosen quotient-level detector with a rational type-\((0,0)\) nodal
+relation while retaining its nonzero pairing.
+
+B055 proves that transport inside one connected equisingular incidence
+stratum cannot achieve this: a relation-to-constant-ambient morphism of local
+systems has fixed image. NG037 therefore forces a topology-changing
+comparison or a comparison of distinct incidence components. The falsifier
+is a global detector for which every such clean nodal boundary
+specialization dies in a B022 quotient, loses rational type, or lands in the
+specified class annihilator.
+
+**G013/G028: class-paired matroid incidence parents.** Starting with a global tube or
 quotient-level thimble detector for a specified nonzero primitive Hodge class,
 construct a nodal member whose node set \(\Delta\) satisfies the exact
 rank-function form of G012. Put \(A=L^m\),
@@ -244,8 +261,9 @@ For a fixed smooth carrier \(W^n\subset X^{2n}\), Thomas' node count is
 \(d m^n+O(m^{n-1})\), while one \(L^m\)-independent block has capacity at
 most \(d m^n/n!+O(m^{n-1})\). Thus two blocks are eventually impossible for
 \(n\ge3\). G014 remains sufficient but is not proved equivalent to HC.
-The active smallest local gate is G015: extend B009's bipartite
-quasi-local relation calculation to \(q\) separately independent blocks.
+The resulting local gate was G015: extend B009's bipartite quasi-local
+relation calculation to \(q\) separately independent blocks. B054 now
+closes that gate under the explicit clean-arrangement hypothesis.
 B035 reduces its first genuinely new case to \(U_{2,5}\): after blowing up,
 the missing calculation is global intermediate-extension hypercohomology on
 an exceptional \(\mathbf P^1\) with five marked points, not the sum of its
@@ -273,11 +291,12 @@ and B051 proves G023's strict-support descent. B052 proves G024 and G019 for
 every central representable arrangement. NG036 disproves G025's analytic
 linearization, while B053 proves G026 for the exact quasi-local uniform
 normal arrangement. B054 proves G027 and promotes G015 under the explicit
-clean-arrangement hypothesis. G028 is now the smallest unresolved
-class-paired incidence gate. Only
-after a general nonuniform calculation is
-proved may the fixed-carrier branch replace the two-block inequality by
-\(|S|\le q r_A(S)\).
+clean-arrangement hypothesis. G028 is the unresolved class-paired incidence
+parent. B055 proves ambient-image rigidity on each connected equisingular
+component, NG037 closes monodromy generation as a NO-GO, and G029 is now the
+smallest topology-changing transport gate. The fixed-carrier branch may use
+the dimension-scaled inequality \(|S|\le q r_A(S)\), but no theorem yet
+connects a specified global detector to such a nodal relation.
 
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a

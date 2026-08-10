@@ -13,7 +13,7 @@ hodge_type: the selected relation must have type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is assumed or constructed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B010, B016, B028, B034, B054, G012-G015, and G019
+dependencies: B010, B016, B028, B034, B054-B055, G012-G015, G019, and NG037
 claim: For every specified nonzero primitive rational Hodge class, some high-power nodal member has a clean node incidence whose smoothing matroid partitions into a dimension-scaled number q of independent blocks, has positive adjoint defect and positive extra-to-primitive rank, and contains a rational type-(0,0) relation pairing nontrivially with the class.
 falsifier: a polarized smooth projective variety and primitive rational Hodge class for which every clean q-block nodal relation at every high power either violates the q-matroid partition inequalities, has zero adjoint/ambient rank, or has zero class pairing
 ---
@@ -40,3 +40,21 @@ model. B054 proves that increasing \(q\) causes no further local IC loss. It
 does not supply the member, the positive ambient map, or the class-specific
 pairing. Choosing an algebraic carrier with the desired class would be
 circular and remains forbidden.
+
+## Attempt 1 - Sweep one positive image by equisingular monodromy
+
+One might construct a single unanchored component with
+\(\operatorname{rank}\Phi_Y>0\), prove large monodromy on its nodes or
+relation space, and try to span the primitive Hodge homology by monodromy
+translates.
+
+B055 proves that this cannot work on one connected equisingular component.
+The canonical ambient maps, when they form the required morphism to the
+constant local system \(H_{2n}(X,\mathbf Q(n))_{\mathrm{prim}}\), have one
+fixed image subspace throughout the component. Domain monodromy acts only
+inside its fibers and kernel. This failed route is NG037.
+
+The next justified gate is G029: cross a topology-changing incidence
+boundary and prove that a chosen global tube or quotient-level thimble class
+specializes to one clean nodal relation while retaining rational Hodge type
+and nonzero pairing. This is not supplied by equisingular transport.

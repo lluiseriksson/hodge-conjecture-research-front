@@ -53,7 +53,7 @@ boundary, not an induction mechanism.
 | positive ambient-rank witness | B032 realizes defining-system-independent nodes, adjoint defect one, rank-one extra-to-primitive map, and nonzero primitive pairing on a diagonal-containing (2,2) divisor in P^2 x P^2 | the diagonal is a preselected algebraic anchor; compatibility does not supply non-circular class selection |
 | high-power positive-rank witness | B033 proves that every diagonal-containing (m,m) family for m at least 3 has a uniform smoothing matroid, a two-block partition, adjoint defect one, and ambient rank one | full symmetric monodromy closes postulation, but the primitive direction remains the preselected algebraic diagonal |
 | fixed-carrier block growth | B034 proves that Thomas' node count divided by one defining-system-independent block capacity tends to n! | two blocks cannot scale through a fixed carrier for n at least 3; a multipart local theorem or a lower-node unanchored incidence is required |
-| multipart quasi-local channel | G015 asks whether B009's relation-kernel identification survives q separately independent blocks | the bipartite source theorem cannot be iterated when unions of blocks are dependent |
+| multipart quasi-local channel | B054 closes G015 under the explicit Li clean-arrangement hypothesis: B009's relation-kernel identification survives q separately independent blocks | this is a local channel theorem and supplies no incidence or specified-class pairing |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
 | exceptional transgression | B037 proves that the resolved degree-one group is the kernel of the sole d_2:Q^5 -> H^2(P^1,ker N_E) | B038 computes the residue class and B039 isolates the downstairs summand; rational type (0,0) remains open |
@@ -78,7 +78,10 @@ boundary, not an induction mechanism.
 | exact quasi-local IC invariance | B053 proves G026 by blowing up the common stratum: the exceptional restriction is the uniform tangent arrangement and gives the same rational type-(0,0) relation channel | nonuniform cross-block dependencies require iterated centers |
 | clean-arrangement tangent channel | B054 proves G027 and G015: nonlinear clean wonderful fibers equal their labelled tangent models and preserve the full rational type-(0,0) relation channel | assumes clean incidence and supplies no specified-class pairing |
 | dimension-scaled incidence gate | G028 asks for a clean q-block nodal member with positive adjoint/ambient rank and a relation pairing with a specified primitive Hodge class | this is the genuinely geometric, non-circular obstruction after local closure |
-| arbitrary building-set gate | G019 asks for the full residue kernel, strict-support bound, and rational type-(0,0) comparison for every representable wonderful arrangement | arbitrary exceptional incidence may add coefficient-sheaf classes not seen in B044-B048 |
+| equisingular ambient-image rigidity | B055 proves the ambient image is constant on a connected stratum whenever the canonical relation maps form a morphism to fixed primitive homology | large node or relation monodromy cannot create new detector directions inside one component |
+| equisingular monodromy NO-GO | NG037 excludes sweeping one positive Saito image through primitive homology by monodromy inside one incidence component | a topology-changing boundary or distinct component is required |
+| topology-changing detector transport | G029 asks to specialize a chosen global tube/thimble detector to one clean nodal relation while preserving the B022 quotient class, rational type, and specified pairing | no audited specialization theorem supplies all three properties |
+| arbitrary building-set channel | B049-B052 prove G019: every representable wonderful arrangement has the full residue kernel, strict-support bound, and rational type-(0,0) comparison | central linear geometry only; B054 is needed for nonlinear clean germs |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -250,11 +253,12 @@ smoothing and adjoint evaluation matroids and exclude a smoothing circuit as
 a sufficient replacement. G013 is the exact geometric parent, and G014 is a
 sufficient unanchored two-block span theorem. B034 shows that the
 fixed-carrier route cannot scale that bipartite target for \(n\ge3\);
-G015 is the narrowest active local gate; G019 is its general arrangement
-subgate. B049-B052 prove it for every central representable arrangement, and
-NG036 closes analytic linearization as a NO-GO, B053 proves the exact
-quasi-local invariant-channel theorem, and B054 closes G027 and G015. G028 is
-the current class-paired incidence gate.
+G015 and its general arrangement subgates are closed by B049-B054. NG036
+closes analytic linearization as a NO-GO, while B053-B054 prove the exact
+quasi-local and nonlinear clean invariant-channel theorems. G028 is the
+class-paired incidence parent. B055/NG037 show that monodromy on one
+equisingular component cannot enlarge its fixed ambient image, so G029 is
+the current topology-changing transport gate.
 B035 makes that gate finite and explicit at its first new instance: compute
 the intermediate extension for the Picard-Lefschetz local system on the
 five-marked exceptional \(\mathbf P^1\) resolving \(U_{2,5}\). NG-033
@@ -289,6 +293,6 @@ records why double transitivity alone is insufficient. This strengthens the
 compatibility evidence but leaves G014 wholly open because the detector
 direction is still the preselected diagonal. B034 also shows that this
 two-block sufficient theorem is not recovered from HC by the standard
-fixed-carrier construction when \(n\ge3\). The active local gate G015 is to
-compute the corresponding multipart relation channel before replacing
-\(|S|\le2r_A(S)\) by dimension-scaled Edmonds inequalities.
+fixed-carrier construction when \(n\ge3\). B054 closes the corresponding
+multipart relation channel; the remaining obstruction is geometric
+realization and class-preserving topology-changing transport, now G028-G029.

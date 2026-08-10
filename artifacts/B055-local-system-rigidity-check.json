@@ -1,0 +1,15 @@
+{
+  "monodromy_matrix": [
+    [1, 1, 0],
+    [0, 1, 0],
+    [0, 0, 1]
+  ],
+  "ambient_map": [
+    [0, 0, 1]
+  ],
+  "commutes_to_constant_target": true,
+  "ambient_rank": 1,
+  "kernel_rank": 2,
+  "orbit_image_rank": 1,
+  "scope": "finite matrix illustration only; B055 is proved abstractly"
+}

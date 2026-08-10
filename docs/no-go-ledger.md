@@ -759,3 +759,24 @@
 - **Re-entry condition:** prove invariance only of the rational degree-one IC
   channel and its mixed Hodge structure under deformation to the tangent
   arrangement. This is G026.
+
+## NG-037 - Equisingular monodromy generates new ambient directions
+
+- **Label:** NO-GO
+- **Route:** find one clean multipart nodal incidence component with a
+  nonzero canonical ambient image and use large monodromy on its nodes or
+  relation vectors to span primitive rational Hodge homology.
+- **Valid input:** the relation local system can have large monodromy, and
+  B033 shows that full symmetric node monodromy can control postulation.
+- **Invalid inference:** monodromy of the domain moves its canonical image
+  through different subspaces of the fixed ambient homology of \(X\).
+- **Precise obstruction:** B055 proves that a morphism
+  \(\Phi:\mathcal E\to
+  H_{2n}(X,\mathbf Q(n))_{\mathrm{prim}}\otimes\mathbf Q_S\)
+  satisfies \(\Phi_s\rho(g)=\Phi_s\). Its image is constant on every
+  connected equisingular stratum. Monodromy may move relation vectors inside
+  the kernel but cannot create another ambient direction.
+- **Re-entry condition:** compare distinct incidence components or cross a
+  topology-changing boundary. The required specialization must survive the
+  B022 equator and base-locus quotients, acquire rational type \((0,0)\), and
+  retain nonzero pairing with the specified Hodge class. This is G029.
