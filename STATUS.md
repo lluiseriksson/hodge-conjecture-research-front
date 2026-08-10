@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 55% - independent Git repository, mandatory topology,
+- **Infrastructure:** 56% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 33% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 34% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -25,7 +25,8 @@ Date: 2026-08-10
   B024 proves complete-intersection global thimble detection. B025 proves
   that an isolated singularity's distinguished morsification cycles form a
   basis, forcing any detector relation into the global local-to-nearby-fiber
-  kernel. B026 identifies six nodal defect dimensions. B027 proves that full
+  kernel. B026 identifies the relation, extra, adjoint, desingularization,
+  and local-IC defect dimensions while separating the ambient map. B027 proves that full
   node independence forces zero high-power defect in dimension at least four,
   closing G009-G011 and forcing the partitioned target G012. B028 gives the
   exact Edmonds rank inequalities and separates the smoothing and adjoint
@@ -33,7 +34,8 @@ Date: 2026-08-10
   positive-defect configuration forces a nonisolated singular line. B030
   proves that a zero-dimensional plane complete intersection can satisfy
   isolated nodality and both rank conditions, but only in a class-blind
-  special family. None is
+  special family. B031 proves that its one-dimensional extra space maps
+  trivially to primitive ambient homology. None is
   proof-assistant formalized, and the
   partitioned nodal realization gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -94,9 +96,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   nonzero primitive class; it is not local or algebraic.
 - B025 - PROVED: distinguished morsification cycles form an integral basis
   of the isolated singularity's Milnor lattice; no internal relation exists.
-- B026 - PROVED: six nodal defect invariants have equal dimensions,
-  including vanishing relations, primitive ambient image, adjoint
-  evaluation defect, and local IC.
+- B026 - PROVED: nodal relation, extra-homology, adjoint-evaluation,
+  desingularization, and local-IC defect dimensions agree; the canonical
+  map to primitive ambient homology is a separate rank.
 - B027 - PROVED: for \(n\ge2\) at high power, full node independence forces
   zero adjoint defect and zero relation space.
 - B028 - PROVED: the two-part smoothing condition is exactly
@@ -108,9 +110,12 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B030 - PROVED: a plane-containing nodal quintic in \(\mathbf P^4\) has 16
   nodes partitioned into two quintic-independent halves while the union has
   adjoint defect one; its primitive middle target is zero.
+- B031 - PROVED: in every degree \(d\ge3\), the general plane-containing
+  nodal hypersurface has one-dimensional extra and relation spaces but its
+  canonical map to primitive ambient homology is zero.
 - G013 - EXPLORATORY, active: realize the prescribed pairing on a nodal node
-  scheme satisfying the smoothing-rank inequalities and positive adjoint
-  corank.
+  scheme satisfying the smoothing-rank inequalities, positive adjoint
+  corank, and positive rank of the canonical extra-to-primitive map.
 - G012 - EXPLORATORY parent: realize the prescribed pairing on a dependent
   node set partitioned into independently controlled subsets.
 - G009-G011 - NO-GO: their fully independent-node target has zero relation
@@ -160,6 +165,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   independent in the adjoint evaluation matroid and yield zero defect.
 - NG-026 - NO-GO: forcing adjoint dependence by overloading one line produces
   a positive-dimensional singular locus, not a nodal member.
+- NG-027 - NO-GO: positive adjoint defect or extra homology need not produce
+  any nonzero primitive ambient detector.
+- NG-028 - NO-GO: the literal Green–Griffiths equality between relation
+  dimension and primitive ambient-image dimension conflicts with B031 in
+  arbitrarily high degree and is quarantined pending a documented correction.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

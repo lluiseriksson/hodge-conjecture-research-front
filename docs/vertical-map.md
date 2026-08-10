@@ -146,7 +146,16 @@ adjoint defect to
  \qquad r_F(\Delta)<|\Delta|.
 \]
 
-The defect must carry a nonzero rational type-\((0,0)\) element
+The nonzero defect supplies an extra-homology space, but a separate condition
+must require the canonical map
+
+\[
+ \Phi_{Y_0}:E^\vee(Y_0)\longrightarrow
+ H_{2n}(X,\mathbf Q(n))_{\mathrm{prim}}
+\]
+
+to have positive rank. The relation space must then carry a rational
+type-\((0,0)\) element
 
 \[
  \beta\in\ker\!\left(\bigoplus_y M_y\otimes\mathbf Q(n)
@@ -160,10 +169,14 @@ The relation must be a genuinely global failure of the local Milnor
 lattices to inject into nearby-fiber homology. It must also survive the two
 B022 quotients.
 
-B026 identifies the relation dimension with the primitive ambient image,
-adjoint node-evaluation defect, and local IC dimension. B027 proves why only
-partwise independence is viable: full independence propagates to the adjoint
-system and kills the defect at high power in dimension at least four. B028
+B026 identifies the relation dimension with extra homology, adjoint
+node-evaluation defect, and local IC dimension, but not with the rank of
+\(\Phi_{Y_0}\). B031 proves in arbitrarily high degree that this rank may be
+zero even when all those dimensions are one, and NG-028 quarantines the
+conflicting literal Green–Griffiths ambient-image equality. B027 proves why
+only partwise independence is viable:
+full independence propagates to the adjoint system and kills the defect at
+high power in dimension at least four. B028
 then proves that a minimal smoothing dependence is still insufficient: on
 \(\mathbf P^2\times\mathbf P^2\), an \(A\)-evaluation circuit can remain
 \(F\)-independent and have zero adjoint defect. Thus both matroid conditions
@@ -179,15 +192,18 @@ isolated. The remaining incidence must produce adjoint dependence through
 distributed support or a zero-dimensional Cayley-Bacharach mechanism while
 retaining isolated first jets.
 
-B030 shows that these geometric requirements are mutually compatible. A
+B030 shows that the two evaluation-rank and isolated-nodality requirements
+are mutually compatible. A
 plane-containing quintic threefold in \(\mathbf P^4\) has sixteen nodes that
 split into two eight-point \((2,4)\) complete intersections, each independent
 for quintics, while the full \((4,4)\) set has one-dimensional quintic—and
 hence adjoint—defect. This is not a detector instance: the primitive middle
 cohomology of \(\mathbf P^4\) is zero and the plane is an algebraic anchor
-built into the equation. It isolates the remaining difficulty as
-class-directed, non-circular incidence rather than compatibility of the three
-geometric conditions.
+built into the equation. B031 extends the calculation to every degree
+\(d\ge3\) and computes the canonical extra-to-primitive map as zero. The
+remaining gate therefore has two independent vector-level parts after
+geometric realization: positive ambient rank and class-directed nonzero
+pairing.
 
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a
@@ -329,9 +345,15 @@ into the B028 two-matroid window required by G013.
     along the line, producing a positive-dimensional singular locus rather
     than a nodal member.
 14. Replace the line by a plane complete intersection - **geometrically
-    valid but class-blind**. B030 realizes nodality, the two-part partition,
-    and defect one, but its ambient primitive Hodge target is zero and the
-    construction starts from a contained algebraic plane.
+     valid but class-blind**. B030 realizes nodality, the two-part partition,
+     and defect one, but its ambient primitive Hodge target is zero and the
+     construction starts from a contained algebraic plane.
+15. Infer a nonzero ambient detector from positive extra homology -
+    **map-kernel error**. B031 gives a one-dimensional extra-homology source
+    whose canonical map to primitive ambient homology is zero.
+16. Restore injectivity by taking higher degree - **ampleness error**. B031's
+    plane-containing family exists for arbitrarily large degree; NG-028
+    quarantines the conflicting literal six-invariant source statement.
 
 Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018;
 steps 7-8 are NG-019 and NG-020; step 9 is NG-021; step 10 is NG-022;

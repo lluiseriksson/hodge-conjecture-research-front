@@ -63,7 +63,7 @@ standard rational Hodge Conjecture
   <=> primitive singular-hyperplane detection                    [B007, PROVED]
   <=> class-specific nodal vanishing-cycle relation              [B010/G006]
   <=> nonempty codimension-two local support                     [B012/G008]
-      <= class-paired two-matroid nodal incidence                [B026-B030/G013]
+      <= class-paired three-rank nodal incidence                 [B026-B031/G013]
       <= tube-to-local relation concentration                    [G007, OPEN]
 
 global input:
@@ -106,8 +106,9 @@ relation internally: its distinguished morsification cycles form an
 integral basis of its Milnor lattice. The missing relation must therefore be
 a prescribed kernel element of the map from local Milnor lattices to global
 nearby-fiber homology.
-B026 identifies the nodal relation dimension with the primitive ambient
-image, adjoint node-evaluation defect, and local IC dimension. B027 then
+B026 identifies the nodal relation dimension with extra homology, the
+adjoint node-evaluation defect, and local IC dimension, but keeps Saito's
+map from extra to primitive ambient homology as a separate rank. B027 then
 finds a fatal incompatibility in G009-G011: in complex dimension at least
 four and at sufficiently high power, full node independence forces the
 adjoint defect and relation space to vanish. The explicit primitive class on
@@ -126,6 +127,14 @@ B030 supplies a special positive witness: a plane-containing nodal quintic in
 sets while their union has adjoint defect one. This proves the geometric
 window is nonempty, but \(\mathbf P^4\) has no primitive middle Hodge class
 and the plane is a built-in algebraic anchor.
+B031 turns that limitation into a proved type guard in every degree
+\(d\ge3\): a general plane-containing nodal hypersurface has a
+one-dimensional relation and extra-homology space, while its canonical map
+to primitive ambient homology is zero. Positive adjoint defect therefore
+does not even guarantee a nonzero ambient detector. The arbitrary-degree
+family also conflicts with the literal ambient-image component of the
+six-invariant equality printed by Green–Griffiths; NG-028 quarantines that
+component instead of silently reinterpreting it.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -138,8 +147,8 @@ Green-Griffiths boundary pullbacks do not close the gap because their
 class-directed construction begins under HC. G009-G011 are now NO-GO, not
 open gates. G013 asks for a nodal member simultaneously satisfying Edmonds'
 smoothing-rank inequalities and positive adjoint corank, with a rational
-type-\((0,0)\) relation retaining the chosen nonzero pairing. The comparison
-must be computed on the full
+type-\((0,0)\) relation whose extra-to-primitive image has positive rank and
+retains the chosen nonzero pairing. The comparison must be computed on the full
 specialization complex rather than imposed cycle by cycle, and the class
 must survive both the equator-extension quotient and the pencil base-locus
 kernel. Complete-intersection surjectivity verifies that global source in one
@@ -166,9 +175,12 @@ The anchored G001/G004 route remains open as an independent secondary route.
 
 ```bash
 python verification/verify_repository.py
+python verification/verify_B031_plane_family.py
 ```
 
-The verifier checks the required directory topology, result labels, metadata
-keys on proof bricks, ledger identifiers, and the explicit non-claim banner.
-A green check certifies repository consistency only; it is not evidence for
-the conjecture.
+The repository verifier checks the required directory topology, result
+labels, metadata keys on proof bricks, ledger identifiers, and the explicit
+non-claim banner. The B031 check reproduces the exact
+complete-intersection Hilbert-function arithmetic through degree 200. Green
+checks certify consistency and that finite arithmetic subcalculation only;
+they are not evidence for the conjecture.

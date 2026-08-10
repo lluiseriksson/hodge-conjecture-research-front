@@ -3,82 +3,114 @@ brick_id: B026
 status: PROVED
 base_field: C
 variety: a smooth projective X of dimension 2n with a sufficiently ample line bundle L and a nodal hypersurface member Y_0 in |L| with node scheme Delta
-smoothness: X is smooth; Y_0 has only ordinary double points; the canonical desingularization of Y_0 is used in two of the compared invariants
-projectivity: X and Y_0 are projective
+smoothness: X is smooth; Y_0 has only ordinary double points; a nearby fiber and the canonical desingularization of Y_0 are used
+projectivity: X, Y_0, and the degeneration are projective
 dimension: dim_C X = 2n and dim_C Y_0 = 2n-1
 codimension: Y_0 has codimension 1 in X; the ambient Hodge application has middle codimension n
 coefficient_field: Q for singular homology and local intersection cohomology; C for coherent cohomology and Hodge-number dimensions
-cohomology_theory: singular homology and cohomology, vanishing cycles, local intersection cohomology, coherent sheaf cohomology of the adjoint node ideal, and the cohomology of a canonical desingularization
-hodge_type: nodal rational relations have type (0,0) after Tate twist by B010; the theorem compared here is numerical and does not identify a prescribed Hodge direction
+cohomology_theory: singular homology and cohomology, vanishing cycles, limit mixed Hodge structures, local intersection cohomology, coherent sheaf cohomology of the adjoint node ideal, and desingularization cohomology
+hodge_type: nodal rational relations have type (0,0) after Tate twist; the dimension comparison does not identify a prescribed Hodge direction
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n)); no algebraic cycle for the input Hodge class is assumed or constructed
 cycle_equivalence: rational equivalence
 scope: fiberwise
-dependencies: Green-Griffiths Section 4.2.4 (S021) and B009-B010
-claim: Under the audited high-ampleness nodal hypotheses, the dimension of the rational relation space among the nodal vanishing cycles equals the dimension of the primitive ambient homology image, the adjoint node-evaluation defect h^1(I_Delta tensor K_X tensor L^n), and the relevant local intersection-cohomology group; this numerical equality does not select a vector pairing nontrivially with a prescribed Hodge class.
-falsifier: a nodal member satisfying the stated Green-Griffiths hypotheses for which any two of their six displayed defect invariants have different dimensions
+dependencies: Saito Proposition 1 and Theorem 1 (S022), the non-rho(ii) components of Green-Griffiths Section 4.2.4 (S021), B009-B010, and the source-conflict audit B031
+claim: Under the audited nodal hypotheses, the vanishing-cycle relation dimension equals the extra homology dimension and the stated adjoint, local-intersection-cohomology, and desingularization defect dimensions; the canonical map from extra homology to primitive ambient homology is a separate map whose rank is not included in this claim.
+falsifier: nodal data satisfying the stated hypotheses for which the relation, extra, adjoint, local-IC, or stated desingularization dimensions differ
 ---
 
-# B026 - Nodal defect numbers agree
+# B026 - Nodal defect dimensions and the separate ambient map
 
 Let \(X/\mathbf C\) be smooth projective of dimension \(2n\), let \(L\) be
-sufficiently ample in the sense of Green-Griffiths Section 4.2.4, and let
-\(Y_0\in|L|\) have only nodes with reduced node scheme \(\Delta\). For a
-nearby smooth member, write \(\delta_\lambda\) for the transported vanishing
-cycles. Define
+sufficiently ample in the sense used in Green-Griffiths Section 4.2.4, and
+let \(Y_0\in|L|\) have only nodes with reduced node scheme \(\Delta\). For a
+nearby smooth member \(Y_\infty\), define
 
 \[
 \begin{aligned}
- \rho_{\mathrm{rel}}
-   &=\dim_{\mathbf Q}\operatorname{Rel}(\delta_\lambda),\\
- \rho_{\mathrm{amb}}
-   &=\dim_{\mathbf Q}\operatorname{im}\!\left(
-        H_{2n}(Y_0,\mathbf Q)\to H_{2n}(X,\mathbf Q)_{\mathrm{prim}}
-      \right),\\
- \rho_{\mathrm{adj}}
-   &=h^1\!\left(X,I_\Delta\otimes K_X\otimes L^n\right),\\
- \rho_{\mathrm{IC}}
-   &=\dim_{\mathbf Q}H^1(B^\bullet).
+ R(Y_0)&=\ker\!\left(
+   \bigoplus_y H_{2n-1}(Z_{y,\infty},\mathbf Q(n))
+   \longrightarrow H_{2n-1}(Y_\infty,\mathbf Q(n))\right),\\
+ E^\vee(Y_0)&=\operatorname{coker}\!\left(
+   H_{2n}(Y_\infty,\mathbf Q(n))
+   \longrightarrow H_{2n}(Y_0,\mathbf Q(n))\right).
 \end{aligned}
 \]
 
-The theorem on pp. 18-19 of Green-Griffiths identifies these four numbers,
-together with two equivalent desingularization/Hodge-number defects:
+Saito's exact sequence gives a canonical isomorphism between the unipotent
+type-\((0,0)\) part of \(R(Y_0)\) and the corresponding extra Hodge cycles in
+\(E^\vee(Y_0)\). For nodes, every rational relation has this type. Under the
+Green-Griffiths quasi-local nodal hypotheses, B009 also identifies the local
+intersection-cohomology channel with the relation space.
+
+Saito proves the first equality. The non-\(\rho(ii)\) components of the
+Green–Griffiths nodal defect theorem and its coherent formulation give the
+remaining numerical equalities
 
 \[
- \rho_{\mathrm{rel}}=\rho_{\mathrm{amb}}
- =\rho_{\mathrm{adj}}=\rho_{\mathrm{IC}}.
+ \dim_{\mathbf Q}R(Y_0)
+ =\dim_{\mathbf Q}E^\vee(Y_0)
+ =h^1\!\left(X,I_\Delta\otimes K_X\otimes L^n\right)
+ =\dim_{\mathbf Q}H^1(B^\bullet),
 \]
 
+together with the two stated desingularization/Hodge-number defect formulas.
 For \(L\gg0\), the coherent group is the failure of the nodes to impose
-independent conditions on
-\(H^0(X,K_X\otimes L^n)\). Thus a topological relation count can be tested
-by an algebraic evaluation defect in the chosen nodal member. B009 identifies
-the local channel with the relation space, and B010 ensures that nodal
-rational relations have type \((0,0)\) after the Tate twist.
+independent conditions on \(H^0(X,K_X\otimes L^n)\).
+
+## The ambient map is a separate rank
+
+There is a canonical morphism
+
+\[
+ \Phi_{Y_0}:E^\vee(Y_0)
+ \longrightarrow H_{2n}(X,\mathbf Q(n))_{\mathrm{prim}}.
+\]
+
+For a relation \(\beta\), Saito's class is
+\(\gamma_\beta=\Phi_{Y_0}(\beta)\). Neither Saito's theorem nor the coherent
+defect calculation says that \(\Phi_{Y_0}\) is injective. Consequently
+
+\[
+ \dim\operatorname{im}\Phi_{Y_0}
+ \le \dim E^\vee(Y_0)
+\]
+
+can be strict. B031 gives a nodal plane-quintic example where the right side
+is one and the left side is zero.
+
+## Quarantined source conflict
+
+Green–Griffiths page 18 explicitly defines its printed \(\rho(ii)\) as the
+dimension of the image of
+\(H_{2n}(Y_0)\to H_{2n}(X)_{\mathrm{prim}}\), and page 19 prints equality
+with the other five invariants. B031 gives plane-containing nodal
+hypersurfaces in \(\mathbf P^4\) of arbitrarily high degree for which the
+relation and extra-homology dimensions are one and the primitive ambient
+target is zero.
+
+Thus the literal \(\rho(i)=\rho(ii)\) component conflicts with a direct
+primary-source-backed family calculation; high ampleness does not remove
+the conflict. It is quarantined as NG-028. This brick imports only the
+non-\(\rho(ii)\) defect comparisons and does not claim a resolution of the
+printed statement.
 
 ## What the equality does and does not give
 
-The theorem proves that a positive adjoint defect is equivalent to the
-existence of at least one vanishing-cycle relation and at least one primitive
-ambient homology direction coming from \(Y_0\). It therefore upgrades a bare
-node count to an exact feasibility test.
-
-It remains a comparison of **dimensions**. It does not, as stated, construct
-a class-preserving map from a chosen global tube or thimble detector to an
-adjoint defect class, nor does positivity imply
+A positive adjoint defect proves that a nonzero relation and a nonzero extra
+homology class exist. It does **not** prove that any relation has nonzero
+primitive ambient image, much less that
 
 \[
  \langle\zeta,\gamma_\beta\rangle\ne0
 \]
 
-for a specified primitive Hodge class \(\zeta\). A nonzero detector subspace
-may lie inside the annihilator of that one functional. The missing
-vector-level, class-paired incidence statement survives only in G012's
-partwise-independent formulation.
+for a specified primitive Hodge class \(\zeta\). G013 must control both the
+rank of \(\Phi_{Y_0}\) and the selected pairing; these conditions are not
+encoded by the two evaluation matroids.
 
 ## Scope guard
 
 No special-family defect is counted as progress toward arbitrary varieties.
 The theorem starts with a selected nodal member and does not construct it
-from \(\zeta\). The equality of dimensions is not an algebraic-cycle
-construction and does not prove G012.
+from \(\zeta\). It is a dimension comparison plus a type separation, not an
+algebraic-cycle construction.

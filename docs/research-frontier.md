@@ -15,12 +15,14 @@ thimble detector, construct a nodal incidence component whose node set
 
 The first condition is exactly the existence of a partition into two
 independently controlled node blocks; the second is positive adjoint defect.
-The resulting rational type-\((0,0)\) relation must retain nonzero pairing
-with the specified Hodge class and survive the equator-extension and
-base-locus quotients. G012 is the parent partitioned-nodal gate and G008 is
-the terminal-equivalent support gate. B027 excludes full independence, while
-B028/NG-025 exclude the tempting replacement by a mere circuit of the
-smoothing matroid.
+Independently require the canonical map from the resulting extra homology to
+primitive ambient homology to have positive rank. Only then can a rational
+type-\((0,0)\) relation retain nonzero pairing with the specified Hodge class
+and survive the equator-extension and base-locus quotients. G012 is the
+parent partitioned-nodal gate and G008 is the terminal-equivalent support
+gate. B027 excludes full independence, B028/NG-025 exclude the tempting
+replacement by a mere circuit of the smoothing matroid, and B031/NG-027
+exclude inferring ambient rank from positive defect.
 
 Immediate bricks:
 
@@ -60,8 +62,11 @@ Immediate bricks:
 12. Do not seek the required relation inside one isolated singularity's
     Milnor lattice. B025 proves its morsification cycles form a basis;
     NG-022 forces the relation into the global local-to-nearby-fiber kernel.
-13. Use B026's equality of defect numbers only as a consistency test;
-    NG-023 forbids promoting positive dimension to a prescribed pairing.
+13. Use B026's equality of relation, extra-homology, coherent, and local
+    defect dimensions only as a consistency test. B031/NG-027 forbid
+    coercing a nonzero extra space into a nonzero primitive ambient image;
+    NG-023 separately forbids promoting a nonzero image to a prescribed
+    pairing.
 14. Enforce B027/NG-024: full independence is fatal in dimension at least
     four at high power; only partwise independence may be imposed.
 15. Enforce B028/NG-025: a circuit for \(A\)-evaluation may remain independent
@@ -72,9 +77,14 @@ Immediate bricks:
 17. Use B030 only as a compatibility witness: its plane-containing quintic
     realizes isolated nodes and both matroid conditions, but has no primitive
     ambient class and begins with an algebraic anchor.
-18. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+18. Carry \(\operatorname{rank}\Phi_Y>0\) as a third independent incidence
+    condition. B031 proves it does not follow from the two evaluation ranks.
+    NG-028 also forbids recovering it from the literal printed
+    Green–Griffiths \(\rho(ii)\) equality without a documented resolution of
+    that source conflict.
+19. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-19. Keep the semiregularity gate G004 as an independent secondary route.
+20. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -102,8 +112,10 @@ B024/NG-021 show that complete-intersection primitive homology is globally
 detected by the quotiented thimble group without providing local Hodge
 detectors or algebraicity. B025/NG-022 prove that a higher isolated
 singularity contributes a local Milnor basis, not an internal relation.
-B026 equates the six nodal defect dimensions, while NG-023 records that a
-positive defect does not select the prescribed pairing. B027/NG-024 then
+B026 equates the nodal relation, extra-homology, coherent, desingularization,
+and local-IC defect dimensions while keeping the ambient map separate.
+B031/NG-027 prove that the map may be zero; NG-023 then records that even a
+nonzero image need not select the prescribed pairing. B027/NG-024
 close G009-G011: full independence forces zero high-power defect for
 \(n\ge2\). G012 replaces them with B009's partitioned quasi-local model.
 B028 applies Edmonds' matroid-partition theorem to make that model exact:
@@ -111,16 +123,21 @@ partwise smoothing independence is equivalent to all inequalities
 \(|S|\le2r_A(S)\), but adjoint dependence is a second rank condition. Its
 explicit \(\mathbf P^2\times\mathbf P^2\) configuration shows that a smoothing
 circuit need not have adjoint defect (NG-025). G013 is now the narrowest gate:
-realize both rank conditions on a nodal incidence component and select a
-defect direction pairing with the prescribed class. B029/NG-026 test the
+realize both evaluation-rank conditions and positive extra-to-primitive rank
+on a nodal incidence component, then select a detector pairing with the
+prescribed class. B029/NG-026 test the
 first collinear positive-defect configuration and show that it is singular
 along its carrier line. The next construction must obtain adjoint dependence
 from distributed or genuinely zero-dimensional incidence while preserving
 isolated first jets. B030 proves that the full geometric rank package is
 nonempty for a plane-containing quintic, but the ambient primitive middle
-space is zero and its plane is a built-in algebraic anchor. The unresolved
-content is now sharply class-specific: produce such incidence from a global
-detector without presupposing an algebraic representative.
+space is zero and its plane is a built-in algebraic anchor. B031 extends the
+calculation to plane-containing hypersurfaces of every degree \(d\ge3\):
+their extra spaces have dimension one and their canonical ambient maps are
+zero. This proves that ambient rank is genuinely independent and quarantines
+the conflicting literal Green–Griffiths \(\rho(ii)\) equality as NG-028. The
+unresolved content is now sharply class-specific: produce such incidence
+from a global detector without presupposing an algebraic representative.
 G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

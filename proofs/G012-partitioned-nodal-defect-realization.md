@@ -57,9 +57,11 @@ the narrowest audited model with exactly that shape.
 ## Attempt 1 - Use an arbitrary positive defect
 
 B026 turns a positive adjoint defect into the correct relation dimension,
-but an arbitrary defect subspace may lie in \(\zeta^\perp\). It also need not
-admit a two-part independence decomposition compatible with the local
-discriminant calculation. Positivity alone is NG-023.
+but B031 shows that the entire extra space may map to zero in primitive
+ambient homology. If the ambient image is nonzero, it may still lie in
+\(\zeta^\perp\). The defect also need not admit a two-part independence
+decomposition compatible with the local discriminant calculation.
+Positivity alone is NG-027 before the class-specific NG-023.
 
 ## Attempt 2 - Choose a smoothing circuit
 

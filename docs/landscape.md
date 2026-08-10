@@ -44,11 +44,12 @@ boundary, not an induction mechanism.
 | Hurwitz equivalence | B023 shows distinguished bases in a fixed exact Morse fibration are related by invertible moves preserving boundary rank and relation-kernel dimension | cannot model a topology-changing collision or repair the matching/cusp rank mismatch |
 | complete-intersection thimble detection | B024 lifts a nonzero detector for every primitive class through the surjection from the quotiented thimble group | special-family global topology only; no one-fiber Saito class, algebraic cycle, or general reduction follows |
 | isolated-singularity morsification | B025: the \(\mu\) distinguished vanishing cycles form an integral basis of the local Milnor lattice | supplies no internal relation; a detector must arise from the global kernel of local Milnor lattices mapping to nearby-fiber homology |
-| nodal defect-number equivalence | B026 equates relation dimension, primitive ambient image, adjoint node-evaluation defect, desingularization defects, and local IC dimension | numerical equality does not select the direction pairing with a specified Hodge class |
+| nodal defect-number equivalence | B026 equates relation, extra-homology, adjoint node-evaluation, desingularization, and local-IC dimensions | the canonical map from extra homology to primitive ambient homology has an independent rank |
 | full node independence | B027 propagates defining-system interpolation to adjoint interpolation in dimension at least four at high power | the adjoint defect and relation space vanish; a viable locus must use partwise rather than full independence |
 | two-matroid nodal window | B028 uses Edmonds' theorem to characterize two independently controlled blocks by \(|S|\le2r_A(S)\), while adjoint defect is \(r_F(\Delta)<|\Delta|\) | the two rank systems need not agree; G013 must realize both and select a defect direction pairing with the specified Hodge class |
 | first-jet nodal realizability | B029 proves that too many prescribed singular points on one line force second-order vanishing along that line | abstract evaluation-rank conditions do not ensure an isolated nodal member; dependence must be supported without creating a singular carrier |
 | plane-complete-intersection witness | B030 realizes isolated nodality, a two-part independent partition, and adjoint defect one on a plane-containing quintic threefold | P^4 has zero primitive middle cohomology and the plane is a preselected algebraic anchor; no class-specific or general propagation follows |
+| extra-to-primitive map | B031 proves in every degree d at least 3 that the plane-containing relation and extra-homology spaces are one-dimensional while Saito's canonical map to primitive ambient homology is zero | positive defect does not imply a nonzero ambient detector; the literal Green-Griffiths rho(ii) equality is also quarantined |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -134,8 +135,9 @@ boundary, not an induction mechanism.
     singularity has \(\mu\) morsification cycles, but they form a basis of its
     rank-\(\mu\) Milnor lattice. Any relation must be created by the global
     local-to-nearby-fiber map, not by the isolated germ alone.
-26. **Positive-defect pairing fallacy:** B026 gives equal nonzero dimensions,
-    but the resulting detector subspace may lie in the annihilator of the
+26. **Positive-defect pairing fallacy:** B026 gives equal nonzero relation,
+    extra-homology, and coherent-defect dimensions, but this does not control
+    the rank of the map to primitive ambient homology or its pairing with the
     specified Hodge class.
 27. **Full-independence detector fallacy:** in dimension at least four and at
     high power, B027 shows that full node independence forces zero adjoint
@@ -149,6 +151,13 @@ boundary, not an induction mechanism.
     adjoint dependence may also force the defining section and every first
     normal derivative to vanish along that line, producing nonisolated
     singularities rather than nodes.
+30. **Extra-to-primitive injectivity fallacy:** B031 gives a one-dimensional
+    extra-homology space whose canonical map to primitive ambient homology is
+    zero. A nonzero source cannot be coerced into a nonzero detector.
+31. **Six-invariant import fallacy:** the literal Green–Griffiths
+    \(\rho(i)=\rho(ii)\) ambient-image component conflicts with B031 in
+    arbitrarily high degree. NG-028 requires a documented correction before
+    that component may be used.
 
 ## Open universal core
 
@@ -190,15 +199,20 @@ equator-extension and base-locus quotients. B023 shows that pure Hurwitz
 mutation cannot supply the required topology change.
 B024 verifies global quotient-level detection for complete intersections,
 but NG-021 prevents treating this special topological generation as HC.
-B025/NG-022 exclude internal Milnor relations. B026/NG-023 distinguish exact
-defect dimensions from prescribed pairings. B027/NG-024 close G009-G011 and
+B025/NG-022 exclude internal Milnor relations. B026 separates exact defect
+dimensions from the canonical ambient map. B031/NG-027 prove that this map
+can vanish before the further NG-023 class-pairing obstruction is reached.
+B027/NG-024 close G009-G011 and
 force G012's partitioned quasi-local nodal target. B028/NG-025 separate the
 smoothing and adjoint evaluation matroids and exclude a smoothing circuit as
 a sufficient replacement. G013 is the narrowest active gate: construct a
 nodal incidence component satisfying Edmonds' subset inequalities together
-with positive adjoint corank and the prescribed nonzero Saito pairing.
+with positive adjoint corank, positive extra-to-primitive rank, and the
+prescribed nonzero Saito pairing.
 B029/NG-026 further require isolated first-jet realizability and exclude the
 first line-supported positive-defect construction. B030 proves the three
-geometric conditions are compatible in a plane-containing quintic, while its
-zero primitive ambient target and built-in algebraic plane leave the
-class-specific, non-circular incidence problem untouched.
+geometric conditions are compatible in a plane-containing quintic, while
+B031 shows more generally that the extra-to-primitive map is zero throughout
+the arbitrary-degree plane-containing family and exposes NG-028. The
+independent ambient-rank condition and the class-specific, non-circular
+incidence problem remain untouched.

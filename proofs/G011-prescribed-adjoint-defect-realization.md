@@ -54,18 +54,20 @@ this proves G010 and hence the terminal-equivalent detection statement.
 
 Choose a nodal member with
 \(h^1(I_\Delta\otimes K_X\otimes L^n)>0\). B026 proves that a relation and a
-primitive ambient direction exist. It does not show that the resulting
-detector subspace is not contained in \(\zeta^\perp\), nor does it tie any
-defect vector to the chosen global detector. This is NG-023.
+nonzero extra-homology class exist. B031 shows that their canonical map to
+primitive ambient homology may be zero. Even when its image is nonzero, it
+may be contained in \(\zeta^\perp\), and no defect vector is tied to the
+chosen global detector. These are NG-027 and NG-023 respectively.
 
 ## Re-entry condition
 
 Construct a global incidence correspondence over the nodal Severi locus
 whose fiber is the adjoint evaluation cokernel, equip it with a rational
-comparison to the Saito relation local system, and prove that the section or
-cycle induced by the chosen global detector has nonzero \(\zeta\)-pairing in
-at least one fiber. The construction must not start from an algebraic
-representative of \(\zeta\).
+comparison to the Saito relation local system and its canonical
+extra-to-primitive map, and prove that the section or cycle induced by the
+chosen global detector has nonzero \(\zeta\)-pairing in at least one fiber.
+The construction must not start from an algebraic representative of
+\(\zeta\).
 
 ## Final obstruction
 

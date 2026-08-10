@@ -310,12 +310,18 @@ Society Lecture Note Series 343 (2007), 206-263.
   the parameter slice meets the partial-node strata. Thus “independent” here
   is a condition on accessible node-smoothing directions, not merely linear
   independence of the resulting vanishing cycles.
-- Checked pp. 18-19, the six-invariant theorem: for \(L\gg0\), the dimensions
-  of the vanishing-cycle relation space, the primitive ambient image, the
-  failure of the nodes to impose independent conditions on
-  \(H^0(K_X\otimes L^n)\), two desingularization defects, and
-  \(H^1(B^\bullet)\) are equal. The coherent defect is displayed as
-  \(h^1(I_\Delta\otimes K_X\otimes L^n)\).
+- Checked pp. 18-19 visually and against OCR: the paper explicitly defines
+  \(\rho(ii)\) as the dimension of the image of
+  \(H_{2n}(X_{s_0})\to H_{2n}(X)_{\mathrm{prim}}\), alongside relations,
+  adjoint evaluation defect, two desingularization defects, and
+  \(H^1(B^\bullet)\), and then prints equality of all six.
+- Source-conflict guard: B031's general plane-containing nodal
+  degree-\(d\) hypersurface in \(\mathbf P^4\) has one-dimensional relation
+  and extra homology for arbitrarily large \(d\), while the displayed
+  primitive ambient target is zero. The literal
+  \(\rho(i)=\rho(ii)\) component is therefore quarantined as NG-028 pending
+  a documented correction or different definition. B026 imports only the
+  non-\(\rho(ii)\) defect comparisons.
 - Checked p. 19: the construction of a one-dimensional generating relation
   from hypersurfaces containing a smooth codimension-\(n\) subvariety starts
   with that already-algebraic subvariety. It cannot be used to select the
@@ -339,6 +345,12 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   relation \(\beta\) gives a primitive Hodge class \(\gamma_\beta\) such that
   \(Y_0\) detects \(\zeta\) exactly when
   \(\langle\zeta,\gamma_\beta\rangle\ne0\) for some \(\beta\).
+- Checked displayed maps (0.4)-(0.5) and the proof in Section 2.4: the
+  relation first determines an element of \(E^\vee(Y_0)\), followed by a
+  canonical morphism
+  \(E^\vee(Y_0)\to H_{2n}(X,\mathbf Q(n))_{\mathrm{prim}}\) obtained from the
+  Lefschetz decomposition. No injectivity assertion is made for this second
+  map; B031 gives an explicit zero-target instance.
 - Checked pp. 3 and 8-9, Theorems 2-3 and Section 2.5: the result extends via
   vanishing-cycle mixed Hodge modules to non-isolated singularities; for
   ordinary double points the local vanishing group is \(\mathbf Q(-n)\) with
@@ -612,6 +624,14 @@ Remke Kloosterman, “Maximal families of nodal varieties with defect,”
   have the form \(\ell_1f_1+\ell_2f_2\), \(\deg f_i=d-1\), and a general
   member is nodal; this is the maximal-dimensional defect family in the
   stated setting.
+- Checked manuscript p. 7 visually, Proposition 3.7: the defect of a nodal
+  hypersurface is the failure of its nodes to impose independent conditions
+  in the displayed adjoint degree; for a degree-\(d\) hypersurface in
+  \(\mathbf P^4\), that degree is \(2d-5\).
+- Checked pp. 7-8: a general degree-\(d\) hypersurface containing a fixed
+  plane has equation \(\ell_1f_1+\ell_2f_2\) and is nodal. B031 combines
+  this with the \((d-1,d-1)\) plane Koszul resolution and Proposition 3.7
+  to obtain defect one in every degree \(d\ge3\).
 - B030 specializes to \(d=5\) and supplies its own transverse Hessian and
   Koszul calculations. The source does not assert the two-part matroid
   partition or a class-specific Hodge pairing.

@@ -1,0 +1,57 @@
+{
+  "label": "PROVED arithmetic subcheck; not a standalone geometry proof",
+  "degree_min": 3,
+  "degree_max": 200,
+  "sample_degrees": [
+    3,
+    4,
+    5,
+    10,
+    50,
+    200
+  ],
+  "formula": {
+    "node_count": "(d-1)^2",
+    "evaluation_degree": "2d-5",
+    "hilbert_value": "binom(2d-3,2)-2*binom(d-2,2)",
+    "evaluation_defect": "node_count-hilbert_value=1"
+  },
+  "samples": [
+    {
+      "degree": 3,
+      "nodes": 4,
+      "hilbert_value_at_2d_minus_5": 3,
+      "evaluation_defect": 1
+    },
+    {
+      "degree": 4,
+      "nodes": 9,
+      "hilbert_value_at_2d_minus_5": 8,
+      "evaluation_defect": 1
+    },
+    {
+      "degree": 5,
+      "nodes": 16,
+      "hilbert_value_at_2d_minus_5": 15,
+      "evaluation_defect": 1
+    },
+    {
+      "degree": 10,
+      "nodes": 81,
+      "hilbert_value_at_2d_minus_5": 80,
+      "evaluation_defect": 1
+    },
+    {
+      "degree": 50,
+      "nodes": 2401,
+      "hilbert_value_at_2d_minus_5": 2400,
+      "evaluation_defect": 1
+    },
+    {
+      "degree": 200,
+      "nodes": 39601,
+      "hilbert_value_at_2d_minus_5": 39600,
+      "evaluation_defect": 1
+    }
+  ]
+}

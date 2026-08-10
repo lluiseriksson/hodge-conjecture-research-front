@@ -472,14 +472,18 @@
 - **Route:** find a nodal member with
   \(h^1(I_\Delta\otimes K_X\otimes L^n)>0\) and conclude that it detects the
   specified primitive Hodge class.
-- **Valid input:** B026 proves that this dimension equals the dimension of
-  the nodal relation space and of a primitive ambient homology image.
+- **Valid input:** B026 proves that this dimension equals the nodal relation
+  and extra-homology dimensions. After separately proving that the
+  extra-to-primitive map has nonzero image, that detector subspace is
+  available for pairing.
 - **Invalid inference:** any nonzero detector subspace pairs nontrivially
   with the specified \(\zeta\), or a coherent defect vector is automatically
   the chosen global detector.
-- **Precise obstruction:** a positive-dimensional subspace may be contained
-  in the annihilator \(\zeta^\perp\). The audited equality is numerical and
-  does not supply the required class-paired vector-level incidence.
+- **Precise obstruction:** B031 first shows that the primitive ambient image
+  may be zero (NG-027). Even after excluding that kernel failure, a
+  positive-dimensional ambient image may be contained in the annihilator
+  \(\zeta^\perp\). Dimension does not supply the required class-paired
+  vector-level incidence.
 - **Re-entry condition:** construct a rational comparison over a nodal
   incidence locus and prove that the section induced by the chosen global
   detector has a fiber with nonzero \(\zeta\)-pairing.
@@ -546,3 +550,48 @@
 - **Re-entry condition:** seek distributed support or a genuinely
   zero-dimensional Cayley-Bacharach-type adjoint dependence, and verify the
   first-jet incidence has an isolated nodal member before invoking B026.
+
+## NG-027 - Positive extra homology need not reach primitive ambient homology
+
+- **Label:** NO-GO
+- **Route:** realize isolated nodes, a two-part smoothing partition, and
+  positive adjoint defect, then infer that some vanishing-cycle relation has
+  nonzero primitive ambient image.
+- **Valid input:** B026 identifies the adjoint defect dimension with the
+  relation and extra-homology dimensions. B030 realizes all three geometric
+  conditions on a plane-containing nodal quintic.
+- **Invalid inference:** the canonical Saito map
+  \(\Phi_Y:E^\vee(Y)\to H_{2n}(X,\mathbf Q(n))_{\mathrm{prim}}\) is injective,
+  or even nonzero, whenever its source is nonzero.
+- **Precise obstruction:** B031 has
+  \(\dim E^\vee(Y)=1\) for general plane-containing nodal hypersurfaces
+  \(Y\subset\mathbf P^4\) in every degree \(d\ge3\), while
+  \(H_4(\mathbf P^4,\mathbf Q(2))_{\mathrm{prim}}=0\). Thus
+  \(\Phi_Y=0\) and every nonzero relation has zero Saito ambient class, even
+  in arbitrarily high degree.
+- **Re-entry condition:** impose and prove a third rank condition
+  \(\operatorname{rank}\Phi_Y>0\) independently of the smoothing and adjoint
+  evaluation matroids, then prove that
+  \(\operatorname{im}\Phi_Y\not\subseteq\zeta^\perp\).
+
+## NG-028 - Literal import of the six-invariant ambient-image equality
+
+- **Label:** NO-GO
+- **Route:** use Green–Griffiths Section 4.2.4's printed
+  \(\rho(i)=\rho(ii)\) to infer that every nonzero nodal relation has a
+  nonzero primitive ambient image, or that the canonical map is injective.
+- **Valid input:** pages 18-19 explicitly define \(\rho(i)\) as relation
+  dimension and \(\rho(ii)\) as primitive ambient-image dimension, then
+  print equality of six invariants.
+- **Invalid inference:** import that component without checking it against
+  Saito's separately defined canonical map and standard defect examples.
+- **Precise obstruction:** B031 gives, for every \(d\ge3\), a general nodal
+  degree-\(d\) hypersurface containing a plane in \(\mathbf P^4\). Its
+  relation and extra-homology spaces have dimension one, while
+  \(H_4(\mathbf P^4,\mathbf Q(2))_{\mathrm{prim}}=0\), so the ambient image
+  has dimension zero. Arbitrarily high degree rules out a mere insufficient
+  ampleness explanation.
+- **Re-entry condition:** locate a published correction or an alternative
+  definition of \(\rho(ii)\), or supply a proof with hypotheses that excludes
+  the plane family. Until then, retain the non-\(\rho(ii)\) defect
+  comparisons but carry \(\operatorname{rank}\Phi_Y\) independently.

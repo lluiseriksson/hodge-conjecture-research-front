@@ -147,17 +147,20 @@ survival through the B022 quotients, and the class-specific nonzero pairing
 must each remain explicit hypotheses until geometrically proved.
 
 B026 imports equality of several **dimensions**. A typed formalization must
-not turn that equality into an unproved canonical map between the adjoint
-coherent defect and a rational Saito relation, nor infer nonzero pairing with
-a selected functional.
+distinguish a coherent defect, a rational relation space, Saito's
+extra-homology quotient, the canonical linear map from that quotient to
+primitive ambient homology, and the eventual pairing with a selected
+functional. Equal source dimensions do not make the canonical map injective
+or nonzero.
 
 B027 is a stable algebraic formalization target. From surjectivity of
 \(H^0(A)\to H^0(A|_\Delta)\), a section of
 \(M=K_X\otimes A^{n-1}\) nonzero on the finite set, and
 \(H^1(A\otimes M)=0\), multiplication proves
-\(H^1(I_\Delta\otimes A\otimes M)=0\). Coupled to B026, the detector type is
-the zero space. G012 must therefore encode partwise independence and full-set
-dependence as distinct hypotheses.
+\(H^1(I_\Delta\otimes A\otimes M)=0\). Coupled to B026, the relation and
+extra-homology types are zero, so their ambient image is also zero. G012 must
+therefore encode partwise independence and full-set dependence as distinct
+hypotheses.
 
 B028 adds a finite matroid boundary. For the representable evaluation
 matroid with rank \(r_A\), Edmonds' imported partition theorem says that
@@ -185,6 +188,14 @@ formally reduce the rank statements to the cohomology of
 \(\mathcal O_{\mathbf P^2}(k)\). Its output type must remain “special
 incidence witness”: because \(H^4_{\mathrm{prim}}(\mathbf P^4)=0\), it cannot
 be coerced into the class-paired detector interface of G013.
+
+B031 is the corresponding zero-target guard, valid in arbitrarily high
+degree. A finite formal model can carry a one-dimensional Extra type and a
+canonical map from Extra to a zero PrimitiveAmbient type. This proves that
+nontrivial Extra cannot be used as an implicit instance of a nontrivial
+range of \(\Phi\). Positive map rank and nonzero pairing must remain separate
+fields in any formal G013 interface. NG-028 also forbids importing the
+literal conflicting Green–Griffiths ambient-image equality as an axiom.
 
 Rules:
 

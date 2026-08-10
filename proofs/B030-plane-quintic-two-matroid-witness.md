@@ -113,4 +113,6 @@ The witness is a special plane-containing quintic. Moreover,
 primitive rational Hodge class \(\zeta\) whose pairing could be tested. The
 plane is an algebraic anchor built into the equation. Consequently this brick
 proves nonemptiness of the geometric rank window only; it supplies no general
-Hodge progress and no non-circular class-selection mechanism for G013.
+Hodge progress and no non-circular class-selection mechanism for G013. B031
+uses this same example to prove the stronger guard that the nonzero extra
+homology may map identically to zero in primitive ambient homology.
