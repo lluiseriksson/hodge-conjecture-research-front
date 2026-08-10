@@ -1,6 +1,16 @@
 # Research frontier
 
-## Active gate: G013
+## Active gate: G014
+
+For each smooth projective complex variety in the middle-degree reduction,
+prove that the canonical primitive images of unanchored high-power nodal
+relations satisfying B028's two-part condition span primitive rational Hodge
+homology. By B016, failure is witnessed by a nonzero primitive rational Hodge
+class annihilating every such image; success gives the class-specific
+detector required by G008. The word *unanchored* forbids first choosing an
+algebraic cycle with the desired primitive class.
+
+G013 remains the geometric parent. Its exact conditions are:
 
 For an arbitrary polarized smooth projective \(2n\)-fold, a specified
 primitive rational Hodge class, and a nonzero global tube or quotient-level
@@ -23,8 +33,11 @@ parent partitioned-nodal gate and G008 is the terminal-equivalent support
 gate. B027 excludes full independence, B028/NG-025 exclude the tempting
 replacement by a mere circuit of the smoothing matroid, and B031/NG-027
 exclude inferring ambient rank from positive defect. B032 proves the complete
-rank package is compatible in a low-degree anchored example; NG-029 forbids
-using its preselected diagonal for the arbitrary-class step.
+rank package in one low-degree anchored example. B033 proves it for every
+diagonal-containing \((m,m)\) family with \(m\ge3\), using full symmetric
+monodromy to obtain a uniform smoothing matroid and two-block partition.
+NG-029 forbids using the preselected diagonal for the arbitrary-class step;
+NG-030 forbids replacing B033's full monodromy by double transitivity alone.
 
 Immediate bricks:
 
@@ -127,10 +140,9 @@ B028 applies Edmonds' matroid-partition theorem to make that model exact:
 partwise smoothing independence is equivalent to all inequalities
 \(|S|\le2r_A(S)\), but adjoint dependence is a second rank condition. Its
 explicit \(\mathbf P^2\times\mathbf P^2\) configuration shows that a smoothing
-circuit need not have adjoint defect (NG-025). G013 is now the narrowest gate:
-realize both evaluation-rank conditions and positive extra-to-primitive rank
-on a nodal incidence component, then select a detector pairing with the
-prescribed class. B029/NG-026 test the
+circuit need not have adjoint defect (NG-025). G013 is the geometric parent;
+G014 is now the narrowest gate: span primitive rational Hodge homology by
+canonical images from unanchored two-part nodal relations. B029/NG-026 test the
 first collinear positive-defect configuration and show that it is singular
 along its carrier line. The next construction must obtain adjoint dependence
 from distributed or genuinely zero-dimensional incidence while preserving
@@ -146,8 +158,9 @@ B032 supplies the complementary positive case: its diagonal-containing
 one, rank-one ambient image, and nonzero primitive pairing. Thus the complete
 finite-rank package is geometrically compatible. NG-029 records why this is
 not general progress: the desired detector is the primitive component of the
-preselected algebraic diagonal. It is also a low-degree exception, consistent
-with B027's high-power vanishing theorem. The unresolved content is now sharply
+preselected algebraic diagonal. B033 removes the low-degree exception by
+proving the full package for every \(m\ge3\), including the two-block
+partition via full symmetric monodromy. The unresolved content is now sharply
 class-specific and non-circular: produce such incidence from a global
 detector without presupposing an algebraic representative.
 G008 remains the terminal-equivalent support

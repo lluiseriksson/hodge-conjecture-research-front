@@ -620,3 +620,22 @@
   constructed functorially from a rational Hodge class or global tube
   detector, without assuming an algebraic representative, while preserving
   all three ranks and the nonzero pairing.
+
+## NG-030 - Double transitivity as uniform position
+
+- **Label:** NO-GO
+- **Route:** combine Clemens' doubly transitive monodromy on nodes with the
+  existence of one independent subset and infer that every subset of the
+  same cardinality is independent.
+- **Valid input:** double transitivity identifies all ordered pairs of
+  distinct nodes.
+- **Invalid inference:** it identifies all subsets of every cardinality.
+- **Precise obstruction:** the Edmonds inequalities involve arbitrary
+  subsets. A 2-transitive group need not be transitive on \(s\)-subsets for
+  \(s\ge3\), so the rank-failure locus on an \(s\)-subset labeling cover need
+  not be irreducible or proper over the section space.
+- **Re-entry condition:** prove sufficiently high set-transitivity. B033
+  does this by constructing a simple double zero: its local monodromy is a
+  transposition, which together with 2-transitivity gives the full symmetric
+  group. This repairs the postulation step but not the algebraic-anchor
+  obstruction NG-029.

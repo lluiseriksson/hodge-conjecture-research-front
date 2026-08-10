@@ -674,6 +674,27 @@ Applicazioni* 36 (2025), 513-529; published online 14 February 2026.
 - Scope guard: this absence check supports only NG-028's source audit; it is
   not mathematical evidence that no correction exists elsewhere.
 
+## S034 - Monodromy framework for enumerative problems
+
+Joe Harris, “Galois groups of enumerative problems,” *Duke Mathematical
+Journal* 46 (1979), 685-724.
+[DOI](https://doi.org/10.1215/S0012-7094-79-04635-0).
+
+- The official bibliographic record was checked. Direct full-text retrieval
+  returned a publisher interstitial rather than the article, so no
+  page-specific theorem from this source is imported into B033.
+- A modern exposition was used to locate the standard strategy—multiple
+  transitivity from irreducible incidence spaces and a simple transposition
+  from one ordinary double solution—but it is not counted as primary
+  evidence.
+- B033 does not import a family-specific result from Harris. It verifies the
+  one- and two-point incidence spaces, constructs the local double zero
+  \((u^2,v)\), and proves the group-theoretic conclusion in the diagonal
+  family itself.
+- Scope guard: full symmetric monodromy controls uniform postulation of a
+  general point scheme. It supplies neither a Hodge type nor an algebraic
+  cycle and cannot select a direction paired with an arbitrary Hodge class.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

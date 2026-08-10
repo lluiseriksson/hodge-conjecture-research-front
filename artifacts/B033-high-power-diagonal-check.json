@@ -1,0 +1,57 @@
+{
+  "formulas": {
+    "node_count": "k^2-3k+3",
+    "smoothing_corank": "binomial(k-4,2)",
+    "smoothing_rank": "(k^2+3k-14)/2",
+    "two_rank_margin": "6k-17",
+    "adjoint_defect": "1"
+  },
+  "samples": [
+    {
+      "k": 6,
+      "m": 3,
+      "node_count": 21,
+      "smoothing_corank": 1,
+      "smoothing_rank": 20,
+      "two_rank_margin": 19,
+      "adjoint_defect": 1,
+      "partition_cardinality_possible": true
+    },
+    {
+      "k": 8,
+      "m": 4,
+      "node_count": 43,
+      "smoothing_corank": 6,
+      "smoothing_rank": 37,
+      "two_rank_margin": 31,
+      "adjoint_defect": 1,
+      "partition_cardinality_possible": true
+    },
+    {
+      "k": 10,
+      "m": 5,
+      "node_count": 73,
+      "smoothing_corank": 15,
+      "smoothing_rank": 58,
+      "two_rank_margin": 43,
+      "adjoint_defect": 1,
+      "partition_cardinality_possible": true
+    },
+    {
+      "k": 20,
+      "m": 10,
+      "node_count": 343,
+      "smoothing_corank": 120,
+      "smoothing_rank": 223,
+      "two_rank_margin": 103,
+      "adjoint_defect": 1,
+      "partition_cardinality_possible": true
+    }
+  ],
+  "primitive_diagonal": {
+    "gamma_square": 3,
+    "primitive_coefficient_numerator": 1,
+    "primitive_coefficient_denominator": 3,
+    "ambient_rank": 1
+  }
+}

@@ -20,7 +20,8 @@ Two sufficient attacks feed G008:
 
 \[
 \text{G008}\Longleftarrow\text{partitioned nodal realization G012}
-\Longleftarrow\text{two-matroid incidence G013},
+\Longleftarrow\text{two-matroid incidence G013}
+\Longleftarrow\text{unanchored detector spanning G014},
 \qquad
 \text{G008}\Longleftarrow\text{tube-to-local concentration G007}.
 \]
@@ -213,6 +214,17 @@ extra-to-primitive map, and nonzero pairing with the primitive diagonal
 component. The construction begins with that algebraic diagonal. NG-029
 therefore leaves the vertical arrow unchanged: G013 must create the same
 package from \(\zeta\) or a global detector without an algebraic anchor.
+
+B033 proves the same package throughout the high-power diagonal family.
+For \(k=2m\ge6\), the zeros of a general section of
+\(\Omega^1_{\mathbf P^2}(k)\) have full symmetric monodromy and uniform
+degree-(k) evaluation rank
+\((k^2+3k-14)/2\). They therefore partition into two independent blocks,
+while the adjoint defect and ambient rank remain one. This closes the
+postulation/high-power compatibility subproblem but strengthens NG-029: the
+ambient direction is still computed from the forced algebraic diagonal.
+The active formulation G014 asks whether canonical images from **unanchored**
+two-part nodal members span primitive rational Hodge homology.
 
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
 and full generation is witnessed by finitely many detector classes. This is a

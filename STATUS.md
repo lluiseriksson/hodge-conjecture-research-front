@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 58% - independent Git repository, mandatory topology,
+- **Infrastructure:** 60% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 36% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 38% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -36,9 +36,11 @@ Date: 2026-08-10
   isolated nodality and both rank conditions, but only in a class-blind
   special family. B031 proves that its one-dimensional extra space maps
   trivially to primitive ambient homology. B032 gives an anchored special
-  family where the same ambient rank is one. None is
+  family where the same ambient rank is one. B033 extends this compatibility
+  to every diagonal-containing high-power family and proves the exact
+  two-part smoothing partition by full symmetric monodromy. None is
   proof-assistant formalized, and the
-  partitioned nodal realization gate is open.
+  unanchored detector-spanning gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -117,7 +119,13 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B032 - PROVED: a diagonal-containing \((2,2)\) divisor in
   \(\mathbf P^2\times\mathbf P^2\) has seven defining-system-independent
   nodes, adjoint defect one, and a rank-one extra-to-primitive map.
-- G013 - EXPLORATORY, active: realize the prescribed pairing on a nodal node
+- B033 - PROVED: for every \(m\ge3\), the general diagonal-containing
+  \((m,m)\) divisor has a uniform smoothing evaluation matroid, a two-block
+  independent partition, adjoint defect one, and ambient rank one.
+- G014 - EXPLORATORY, active: prove that canonical primitive images from
+  unanchored high-power two-part nodal relations span primitive rational
+  Hodge homology.
+- G013 - EXPLORATORY parent: realize the prescribed pairing on a nodal node
   scheme satisfying the smoothing-rank inequalities, positive adjoint
   corank, and positive rank of the canonical extra-to-primitive map, without
   a preselected algebraic anchor.
@@ -177,6 +185,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   arbitrarily high degree and is quarantined pending a documented correction.
 - NG-029 - NO-GO: B032's positive-rank detector is supplied by a preselected
   algebraic diagonal and cannot be counted as non-circular class selection.
+- NG-030 - NO-GO: double transitivity alone does not give uniform position
+  for subsets of size at least three; B033 requires full symmetric monodromy.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

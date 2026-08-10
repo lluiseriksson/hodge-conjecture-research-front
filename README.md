@@ -63,7 +63,7 @@ standard rational Hodge Conjecture
   <=> primitive singular-hyperplane detection                    [B007, PROVED]
   <=> class-specific nodal vanishing-cycle relation              [B010/G006]
   <=> nonempty codimension-two local support                     [B012/G008]
-      <= class-paired three-rank nodal incidence                 [B026-B032/G013]
+      <= class-paired three-rank nodal incidence                 [B026-B033/G013-G014]
       <= tube-to-local relation concentration                    [G007, OPEN]
 
 global input:
@@ -77,7 +77,8 @@ secondary route:
   <= all-order semiregular propagation                           [B004, PROVED]
 ```
 
-The active gate is **G013**, an exact two-matroid form of G012 feeding G008.
+The active gate is **G014**, the non-circular spanning refinement of G013
+feeding G008.
 B012 proves
 that every nonzero primitive class
 has a nonzero global Green-Griffiths invariant and that its local invariant
@@ -141,6 +142,15 @@ independent for the defining system, adjoint defect one, and a rank-one
 extra-to-primitive map pairing nontrivially with the primitive diagonal
 component. The diagonal is a preselected algebraic anchor, so NG-029 forbids
 counting this compatibility result as progress on an arbitrary Hodge class.
+B033 removes the remaining low-degree caveat. For every \(m\ge3\), a general
+diagonal-containing \((m,m)\) divisor has \(4m^2-6m+3\) nodes whose smoothing
+evaluation matroid is uniform and partitions into two independent blocks;
+the adjoint defect and extra-to-primitive rank are both one. The proof uses
+full symmetric monodromy and a closed-rank-locus argument, not a point count.
+NG-030 records why double transitivity alone would have been insufficient.
+Because the primitive direction is still the known algebraic diagonal,
+G014 now isolates the only upward-propagating content: span the primitive
+Hodge homology by canonical images from unanchored two-part nodal relations.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -183,6 +193,7 @@ The anchored G001/G004 route remains open as an independent secondary route.
 python verification/verify_repository.py
 python verification/verify_B031_plane_family.py
 python verification/verify_B032_diagonal.py
+python verification/verify_B033_high_power_diagonal.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -190,6 +201,7 @@ labels, metadata keys on proof bricks, ledger identifiers, and the explicit
 non-claim banner. The B031 check reproduces the exact
 complete-intersection Hilbert-function arithmetic through degree 200. The
 B032 check reproduces its dimension, Chern-number, and truncated
-cohomology-ring arithmetic. Green checks certify consistency and those
+cohomology-ring arithmetic. The B033 check reproduces its general Chern,
+evaluation-rank, defect, and primitive arithmetic. Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
