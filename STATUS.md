@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 73% - independent Git repository, mandatory topology,
+- **Infrastructure:** 74% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 51% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 52% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -55,7 +55,8 @@ Date: 2026-08-10
   proves the result for every \(U_{3,r}\); B043 proves it for every simple
   uniform \(U_{d,r}\), B044 handles one dependent flat, B045 handles two
   nonnested flats sharing a branch, and B046 handles the first nested pair.
-  None is
+  B047 handles the first three-level connected-flat chain and adds a primary
+  audit of the wonderful blow-up order. None is
   proof-assistant formalized, and the
   multipart local-channel gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -179,9 +180,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   codimension-two flat gives triangular exceptional equations, no
   ordinary-degree-one lower support, and the full type-\((0,0)\) relation
   kernel.
-- G019 - EXPLORATORY, active subgate: prove or refute the corresponding
-  residue and strict-support theorem for arbitrary representable wonderful
-  building sets.
+- B047 - PROVED: an exact eleven-branch rank-five three-block arrangement
+  with a three-level connected-flat chain gives four triangular residue
+  equations and the full type-\((0,0)\) relation kernel.
+- G019 - EXPLORATORY general subgate: prove or refute the corresponding
+  theorem for arbitrary representable wonderful building sets.
+- G020 - EXPLORATORY, active finite subgate: compute a forked building set
+  with two incomparable children, their common parent, and both permissible
+  child blow-up orders.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.

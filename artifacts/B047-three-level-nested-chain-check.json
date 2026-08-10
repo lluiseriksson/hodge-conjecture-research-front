@@ -1,0 +1,34 @@
+{
+  "arrangement_rank": 5,
+  "nontrivial_connected_flats": [
+    [1, 2, 3],
+    [1, 2, 3, 4, 5],
+    [1, 2, 3, 4, 5, 6, 7],
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  ],
+  "independent_blocks": [[1, 2, 4, 6], [3, 5, 7, 8], [9, 10, 11]],
+  "block_ranks": [4, 4, 3],
+  "exceptional_fiber": "Bl_strict_plane(Bl_strict_line(Bl_point(P^4)))",
+  "branch_classes": {
+    "i_in_S": "h-e_U-e_T-e_S",
+    "i_in_T_minus_S": "h-e_U-e_T",
+    "i_in_U_minus_T": "h-e_U",
+    "i_outside_U": "h"
+  },
+  "minimum_non_full_support_degree": 2,
+  "tested_cases": [
+    {"total_span_rank": 1, "rank_S": 1, "rank_T": 1, "rank_U": 1, "resolved_kernel_dimension": 10, "relation_dimension": 10},
+    {"total_span_rank": 2, "rank_S": 2, "rank_T": 2, "rank_U": 2, "resolved_kernel_dimension": 9, "relation_dimension": 9},
+    {"total_span_rank": 3, "rank_S": 3, "rank_T": 3, "rank_U": 3, "resolved_kernel_dimension": 8, "relation_dimension": 8},
+    {"total_span_rank": 4, "rank_S": 3, "rank_T": 4, "rank_U": 4, "resolved_kernel_dimension": 7, "relation_dimension": 7},
+    {"total_span_rank": 5, "rank_S": 3, "rank_T": 5, "rank_U": 5, "resolved_kernel_dimension": 6, "relation_dimension": 6},
+    {"total_span_rank": 6, "rank_S": 3, "rank_T": 5, "rank_U": 6, "resolved_kernel_dimension": 5, "relation_dimension": 5},
+    {"total_span_rank": 7, "rank_S": 3, "rank_T": 5, "rank_U": 7, "resolved_kernel_dimension": 4, "relation_dimension": 4},
+    {"total_span_rank": 8, "rank_S": 3, "rank_T": 5, "rank_U": 7, "resolved_kernel_dimension": 3, "relation_dimension": 3},
+    {"total_span_rank": 9, "rank_S": 3, "rank_T": 5, "rank_U": 7, "resolved_kernel_dimension": 2, "relation_dimension": 2},
+    {"total_span_rank": 10, "rank_S": 3, "rank_T": 5, "rank_U": 7, "resolved_kernel_dimension": 1, "relation_dimension": 1},
+    {"total_span_rank": 11, "rank_S": 3, "rank_T": 5, "rank_U": 7, "resolved_kernel_dimension": 0, "relation_dimension": 0}
+  ],
+  "kernel_hodge_type": "(0,0)",
+  "scope": "exact arrangement, residue-matrix, and support-shift bookkeeping only"
+}

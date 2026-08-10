@@ -192,8 +192,10 @@ dimension-uniform statement for every simple uniform \(U_{d,r}\). The next
 gate G016 is closed by B044 for one dependent triple. G017 is closed by B045
 for two dependent triples sharing one branch. B046 closes the first
 nested-flat wonderful-resolution gate G018. G019 now asks for a
-building-set-wide residue and strict-support theorem; the tested examples do
-not yet supply that induction.
+building-set-wide residue and strict-support theorem. B047 proves the first
+three-level nested chain. G020 now tests a forked connected-flat poset and
+blow-up-order independence; the tested examples still do not supply a
+general induction.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -250,6 +252,7 @@ python verification/verify_B043_uniform_arbitrary_rank.py
 python verification/verify_B044_single_dependent_flat.py
 python verification/verify_B045_two_dependent_flats.py
 python verification/verify_B046_nested_dependent_flats.py
+python verification/verify_B047_three_level_nested_chain.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -281,6 +284,8 @@ The B045 check verifies the simultaneous three-class residue matrix when
 two dependent triples share a branch.
 The B046 check verifies the nested three-class residue matrix and its
 projection onto the full relation kernel over all admissible span ranks.
+The B047 check exactly enumerates the connected flats and independent blocks,
+then verifies the four-class nested-chain residue kernel over all span ranks.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

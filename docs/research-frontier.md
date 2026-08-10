@@ -86,10 +86,17 @@ the exceptional coefficients are forced to the partial sums on the nested
 flats, while the global equation remains the full vanishing-cycle relation.
 The two flat supports and the origin begin in ordinary degree two.
 
-The active falsifiable subgate is G019: prove or refute this triangular
-residue and support pattern for an arbitrary representable arrangement and
-wonderful building set. Three-or-more nested exceptional divisors are the
-first uncontrolled incidence; B044-B046 do not supply an induction theorem.
+B047 proves the first three-level chain. Its exact rank-five arrangement has
+eleven branches, only four nontrivial connected flats of ranks
+\(2<3<4<5\), and a three-block independent partition. The point-line-plane
+wonderful fiber gives four triangular residue equations, while every lower
+support begins in ordinary degree two.
+
+G019 remains the general arrangement gate. Its active finite subgate is
+G020: two incomparable rank-two flats inside one connected rank-four parent.
+After the parent blow-up the child centers become disjoint, but both residue
+rows interact with the parent row. Both permissible child orders and all
+fork-incidence supports must be audited before promotion.
 
 ## Sufficient parent: G014
 
@@ -135,13 +142,12 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Fix the first realizable arrangement with a three-element nested set in
-   its minimal wonderful building set.
-2. Compute the full iterated total-transform matrix and test whether its
-   exceptional rows remain triangular under a permissible blow-up order.
-3. Audit strict supports on every flat and nested incidence; promote a
-   building-set induction only if the ordinary-degree-one exclusion is
-   uniform.
+1. Verify G020's explicit fork has exactly the stated connected flats and a
+   multipart independent partition.
+2. Compute both child blow-up orders and compare the four divisor-class
+   residue equations canonically.
+3. Audit strict supports on the parent, children, and their product strata;
+   promote the fork only if no ordinary-degree-one term survives.
 4. If G015 holds, replace the two-block constraint by Edmonds'
    \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
    fixed-carrier constructions.

@@ -264,10 +264,10 @@ after \(\mathbf Q(n)\). B041 extends all four steps uniformly to
 non-semismall shifts for every \(U_{3,r}\). B043 proves the dimension-uniform
 \(U_{d,r}\) theorem. B044 proves the one-dependent-flat case; B045 proves
 compatibility for two nonnested dependent flats sharing a branch; and B046
-proves the first nested pair in rank four. G019 is now the smallest
-unresolved local subgate: establish the triangular residue equations and
-ordinary-degree-one strict-support exclusion for an arbitrary representable
-wonderful building set. Only after that general nonuniform calculation is
+proves the first nested pair in rank four. B047 proves a three-level nested
+chain in rank five. G019 remains the smallest unresolved general local
+subgate; G020 is its active finite fork test, with two incomparable children
+inside one connected parent. Only after a general nonuniform calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 

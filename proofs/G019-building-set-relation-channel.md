@@ -2,9 +2,9 @@
 brick_id: G019
 status: EXPLORATORY
 base_field: C
-variety: an arbitrary finite-dimensional nodal smoothing slice whose central discriminant is a representable hyperplane arrangement, together with a smooth projective wonderful resolution for a fixed building set
+variety: an arbitrary finite-dimensional nodal smoothing slice whose central discriminant is a representable hyperplane arrangement, together with a smooth wonderful resolution for a fixed building set
 smoothness: the smoothing slice and resolved space are smooth; the resolved boundary is simple normal crossing; the central projective fiber has only ordinary double points and nearby fibers are smooth
-projectivity: the wonderful blow-ups and exceptional strata are projective; the parameter calculation is local analytic, while the motivating hyperplane-section family is projective
+projectivity: the wonderful blow-up morphisms and exceptional strata are projective over their centers, and fibers over the central point are projective; the parameter calculation is local analytic, while the motivating hyperplane-section family is projective
 dimension: arbitrary parameter rank d, ambient projective variety dimension 2n, and nearby fiber dimension 2n-1
 codimension: arrangement flats have arbitrary codimension at least 2; downstream cycles have middle codimension n
 coefficient_field: Q
@@ -13,7 +13,7 @@ hodge_type: the sought downstairs degree-one relation channel must be pure type 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B041-B046, G015-G018, Green-Griffiths S021, and Saito S022/S037
+dependencies: B041-B047, G015-G018, Green-Griffiths S021, Saito S022/S037, and Li S038
 claim: For every representable central nodal arrangement and every wonderful building-set resolution, the degree-one downstairs IC stalk is canonically the full rational vanishing-cycle relation kernel and is pure type (0,0) after Q(n).
 falsifier: a realizable building set for which exceptional-incidence residues impose an extra equation or create a class, a non-full strict-support summand contributes in ordinary degree one, or the resulting rational kernel has a non-(0,0) component after Q(n)
 ---
@@ -59,10 +59,18 @@ strict-support decomposition must be over \(\mathbf Q\), and the explicit
 
 B041-B043 prove the simple uniform cases, B044 proves one dependent flat,
 B045 proves two nonnested flats sharing a branch, and B046 proves one nested
-pair. These examples do not constitute an induction over a building set:
+pair. B047 proves the first three-level nested chain using a rank-five
+eleven-branch realization whose connected flats are enumerated exactly.
+These examples do not constitute an induction over a building set:
 intersections among three or more exceptional divisors may introduce new
 incidence rows, and an arbitrary normal arrangement need not have the
 two-row form used in those bricks.
+
+The next finite subgate is G020. It replaces the chain by a fork: two
+incomparable dependent flats have a common connected parent. Their strict
+transforms become disjoint only after the parent blow-up, so the residue
+calculation must simultaneously test the shared parent equation and
+permissible-order independence.
 
 G019 constructs no algebraic cycle. Even a proof would close only the local
 arrangement part of G015; an actual multipart nodal family and a nonzero

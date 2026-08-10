@@ -4,7 +4,7 @@ status: PROVED
 base_field: C
 variety: a four-dimensional nodal smoothing slice whose central hyperplane arrangement has two nested dependent flats
 smoothness: the parameter fourfold is smooth; the central projective fiber is nodal and nearby fibers are smooth; a wonderful resolution is required
-projectivity: the wonderful blow-ups and exceptional strata are projective; the parameter calculation is local analytic, while the motivating hyperplane-section family is projective
+projectivity: the wonderful blow-up morphisms and exceptional strata are projective over their centers, and the fiber over the origin is projective; the parameter calculation is local analytic, while the motivating hyperplane-section family is projective
 dimension: parameter dimension 4, dependent flats of codimensions 2 and 3, ambient projective variety dimension 2n, and nearby fiber dimension 2n-1
 codimension: nested arrangement flats have codimensions 2 and 3; downstream cycles have middle codimension n
 coefficient_field: Q

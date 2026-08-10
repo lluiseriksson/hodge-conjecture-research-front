@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B046, G012-G014, G016-G019, Green-Griffiths S021, and Saito S022/S037
+dependencies: B009-B010, B028, B034-B047, G012-G014, G016-G020, Green-Griffiths S021, Saito S022/S037, and Li S038
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -310,6 +310,22 @@ falsifiable subgate: derive a building-set-wide triangular residue theorem
 and a uniform strict-support bound for arbitrary representable arrangements.
 Examples with at most two dependent flats do not control higher nested-set
 incidence.
+
+## Attempt 14 - Three-level nested chain
+
+B047 constructs an exact rank-five, eleven-branch realization whose only
+nontrivial connected flats form a chain of ranks \(2<3<4<5\), and whose
+ground set partitions into three independent smoothing blocks. On the
+iterated blow-up of \(\mathbf P^4\) along a point, its strict line, and its
+strict plane, the four divisor classes give one global equation and three
+partial-sum assignments. Projection remains the full relation kernel.
+
+The generic codimension-two, -three, and -four supports and the origin all
+begin in ordinary degree two; transverse product strata cannot lower that
+degree. The rational kernel is pure type \((0,0)\). This proves the first
+three-level chain but not a building-set induction. G020 is the next finite
+test: two incomparable children with a common connected parent, including
+independence from the order of the two child blow-ups.
 
 ## Propagation
 

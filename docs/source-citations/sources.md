@@ -861,6 +861,35 @@ American Mathematical Society* 46 (2009), 535-633,
   structures and does not prove that the degree-one relation group has type
   \((0,0)\).
 
+## S038 - Wonderful compactification and permissible blow-up orders
+
+Li Li, “Wonderful compactification of an arrangement of subvarieties,”
+*Michigan Mathematical Journal* 58 (2009), no. 2, 535-563,
+[arXiv record and primary PDF](https://arxiv.org/abs/math/0611412),
+[DOI](https://doi.org/10.1307/mmj/1250169076).
+
+- Checked pp. 1-2, Theorem 1.2 in the primary PDF: for a building set in a
+  nonsingular variety, the wonderful compactification is nonsingular; its
+  boundary components are nonsingular divisors meeting transversally, and a
+  collection has nonempty intersection exactly when it is a nest.
+- Checked pp. 2-3, Theorem 1.3: if every initial segment of the chosen order
+  is a building set, the wonderful compactification is the displayed
+  sequence of blow-ups along nonsingular dominant transforms. Increasing
+  dimension is listed as an admissible example.
+- Checked pp. 4-7, Definitions 2.1-2.3: arrangements use clean
+  scheme-theoretic intersections, building-set factors meet transversally,
+  and nests are induced by flags. These hypotheses apply to B047's linear
+  subspace arrangement over \(\mathbf C\).
+- B047 imports only smoothness, the permissible inclusion-compatible order,
+  SNC boundary, and nested-stratum incidence. Its exceptional fiber, divisor
+  classes, residue equations, direct-image degree bounds, and Hodge type are
+  derived inside B047; none is asserted by Li.
+- Scope guard: wonderful compactification resolves the arrangement boundary.
+  It does not identify a Picard-Lefschetz intermediate-extension stalk,
+  supply a rational type-\((0,0)\) relation, or construct an algebraic cycle.
+- Local retrieval SHA-256:
+  EE9716E639B40AE0A59CC7073CDCC5C816106F412280E76F5206D4D67B7698B9.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded
