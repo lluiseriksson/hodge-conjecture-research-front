@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 83% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 85% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -136,8 +136,12 @@ Date: 2026-08-10
   NG065 shows that marking alone does not localize B058's global detector.
   B090/NG066 prove more sharply that the positive total local boundary gives
   zero B057 coefficients for every fixed class, closing G053 as a NO-GO.
-  G054 now requires the nonlocal B058 word to survive a topology-changing
-  specialization to a local relation.
+  B091/NG067 then exclude any pure marked-Hurwitz identification of a nonzero
+  detector with that boundary. G055 now isolates the necessary nonzero
+  topology-changing specialization correction inside G054. B092/NG068 show
+  that invariant-cycle liftability and type $(0,0)$ still do not select the
+  local-relation coordinate. G056 is the geometric edge-map and coordinate
+  calculation gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -504,6 +508,21 @@ generation from the controlled partitioned nodal locus is not proved.**
   B058 distributed word through a topology-changing collision to a nonzero
   local type-(0,0) relation surviving both B022 quotients and the prescribed
   pairing.
+- B091 - PROVED: a pure marked Hurwitz comparison cannot carry a nonzero
+  B058 chain to the positive total local boundary, because B088 preserves the
+  chain while B090 makes the target extension zero.
+- NG067 - NO-GO: pure path/basis mutation cannot be the missing localization
+  mechanism.
+- G055 - EXPLORATORY, chain-level parent: construct the actual
+  rational nearby-to-special complex map and a nonzero topology-changing
+  correction with the required type, quotient survival, and pairing.
+- B092 - PROVED: identical exact nearby/special data and pure type-(0,0)
+  structures admit either a zero or nonzero map to the local relation line.
+- NG068 - NO-GO: B084 invariant-cycle surjectivity does not force a nonzero
+  B009 local-relation component.
+- G056 - EXPLORATORY, active smallest gate: construct the actual rational
+  Hodge-module edge map, kill its lift ambiguity under the quotient/pairing
+  tests, and compute a nonzero detector coordinate.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

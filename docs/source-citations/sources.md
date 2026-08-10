@@ -667,6 +667,10 @@ Computation* 93 (2024), 2985-3025.
   matrix. Equation (12) quotients its entire image from
   \(\ker\partial\), so a total-equator relation is zero in
   \(\mathcal T(Y)\).
+- B091 uses only the audited path-composition identity: marked Hurwitz moves
+  preserve the relative extension attached to the same composite path and
+  input class. Nothing in this source identifies that extension with a
+  topology-changing special-fiber relation. G055 records the missing map.
 - Scope guard: these are exact topological statements despite the paper's
   computational goal. Numerical period calculations are not used as
   evidence of algebraicity. The theorem is for generic pencils in the
@@ -893,6 +897,12 @@ American Mathematical Society* 46 (2009), 535-633,
   class liftable from the special stalk exactly when its canonical
   vanishing-cycle obstruction is zero. It supplies no unconditional or
   preferred reverse lift. B083/G048 use precisely this criterion.
+- G055 uses the same triangle only as an obstruction test. It does not infer
+  from it a chain-level morphism from the distributed thimble complex to the
+  target local monodromy complex; constructing that comparison is the gate.
+- B092/NG068 separately guard the theorem's output: surjectivity onto
+  invariant nearby classes supplies a special lift, not a map from that lift
+  to B009's local relation group and not nonvanishing of such a component.
 - Visually rechecked Theorem 1.7.1(2), printed pp. 15-16: for a proper map
   $f:X\to Y$, an open $U$ where $R^if_*IC_X$ is locally constant, a boundary
   point $u\in\overline U$, and the punctured small ball $B_u$, the natural

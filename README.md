@@ -185,8 +185,16 @@ B090/NG066 go further: a class fixed by the positive total boundary of the
 local nodal cluster has zero B057 coefficient vector, so G053 is a NO-GO.
 G054 is the smallest gate: retain the genuinely nonlocal B058 detector word
 and specialize it to a nonzero local relation while preserving both B022
-quotients, rational type, and prescribed pairing. Only then can G048 choose and audit the lift
-and G046 analyze its perverse grade. The
+quotients, rational type, and prescribed pairing. B091/NG067 prove that this
+cannot be a pure marked Hurwitz comparison: such a comparison would preserve
+the nonzero chain but identify it with B090's zero local-boundary extension.
+G055 is the active chain-level gate: construct the nonzero topology-changing
+specialization correction. B092/NG068 then show that even a type-(0,0)
+special lift does not formally select a local-relation coordinate. G056 is
+the smallest gate: construct the actual Hodge-module edge map, control lift
+ambiguity, and prove its detector coordinate survives with nonzero pairing.
+The resulting class must still pass G048's lift audit and G046's perverse-grade
+test. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
@@ -409,6 +417,7 @@ python verification/verify_B067_a2_weyl_cover.py
 python verification/verify_B073_a2_weyl_trace.py
 python verification/verify_B089_marked_plane_slice.py
 python verification/verify_B090_local_boundary_vanishing.py
+python verification/verify_B092_special_lift_countermodel.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -481,6 +490,9 @@ two-plane avoidance argument; the general statement is B089's linear
 avoidance proof.
 The B090 check verifies an exact finite model of the positive-boundary
 fixed-vector obstruction; B090's sum-of-squares argument is general.
+The B092 check reproduces the strict one-dimensional countermodel in which
+identical exact and type-(0,0) lift data admit zero or nonzero local-relation
+coordinates.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

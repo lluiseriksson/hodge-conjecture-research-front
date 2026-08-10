@@ -13,7 +13,7 @@ hodge_type: the specialized local relation must be rational type (0,0) after Q(n
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B052-B059, B082-B090, G029-G032, NG065-NG066
+dependencies: B009-B010, B022, B052-B059, B082-B091, G029-G032, NG065-NG067
 claim: For every prescribed nonzero primitive rational Hodge class, choose a nonlocal B058 detector word and a topology-changing marked collision whose nearby extension specializes to a nonzero clean-nodal local relation, survives both B022 quotients, is rational type (0,0), and retains nonzero prescribed pairing.
 falsifier: a primitive Hodge class for which every such nonlocal-to-local comparison vanishes, lands in a B022 kernel or wrong Hodge type, or becomes orthogonal to the class
 ---
@@ -37,4 +37,6 @@ $r_H$ satisfying all of:
 
 This is narrower than exact ambient-class preservation, but it still contains
 the terminal class-specific support problem. No existing degeneration brick
-proves the comparison.
+proves the comparison. B091/NG067 additionally show that the comparison
+cannot consist only of marked Hurwitz moves; G055 isolates the necessary
+topology-changing correction.

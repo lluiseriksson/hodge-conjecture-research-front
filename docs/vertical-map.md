@@ -268,7 +268,11 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G052: marked Hurwitz collision fixing }(g,\alpha)
 \Longleftarrow
-\text{G054: nonlocal detector word to local relation}.
+\text{G054: nonlocal detector word to local relation}
+\Longleftarrow
+\text{G055: nonzero topology-changing correction}
+\Longleftarrow
+\text{G056: special lift to local-relation coordinate}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -323,6 +327,17 @@ the positive total local boundary, its B057 coefficient vector is zero.
 G054 is therefore the smallest current endpoint. It must retain the nonlocal
 B058 distributed word and specialize it to a nonzero local relation while
 preserving both quotients, rational type, and nonzero prescribed pairing.
+B091/NG067 also prove that no pure marked Hurwitz comparison can implement
+this arrow: B088 would preserve the detector chain while B090 makes the
+positive local-boundary chain zero. G055 is the resulting smallest
+chain-level endpoint. It must construct the actual rational comparison and
+show that its excess over the pure-Hurwitz reference is the required nonzero
+local class.
+B092/NG068 prevent the next formal shortcut: B083-B084 liftability, even in
+pure type $(0,0)$, neither defines nor forces a component in B009's relation
+group. G056 is now the smallest endpoint. It must construct the actual
+Hodge-module edge map, control the lift torsor, and calculate the nonzero
+quotient-level paired coordinate.
 
 An externally claimed shortcut is closed separately:
 

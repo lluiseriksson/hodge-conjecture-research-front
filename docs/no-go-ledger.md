@@ -1288,3 +1288,32 @@
   the full ordered thimble extension vanish.
 - **Re-entry condition:** G054 must retain a nonlocal distributed detector
   word and prove its nonzero specialization to the local relation channel.
+
+## NG-067 - Pure marked Hurwitz transport localizes the detector
+
+- **Label:** NO-GO
+- **Route:** preserve the B058 chain solely by marked Hurwitz moves and then
+  identify it with the positive total boundary extension at the nodal target.
+- **Valid input:** B088 proves exact chain preservation under the marked
+  Hurwitz hypotheses.
+- **Invalid inference:** the preserved nonzero chain can equal the target's
+  positive total-boundary extension.
+- **Precise obstruction:** B090 makes that target extension zero; B091 turns
+  the two statements into a contradiction with B058's nonzero pairing.
+- **Re-entry condition:** construct G055's rational comparison and prove a
+  nonzero topology-changing correction with type, quotient, and pairing
+  control.
+
+## NG-068 - Invariant-cycle liftability forces a local relation
+
+- **Label:** NO-GO
+- **Route:** use B084 to lift an invariant nearby detector, note that the lift
+  is rational type $(0,0)$, and declare its B009 local component nonzero.
+- **Valid input:** B083-B084 give existence of a special lift after the exact
+  obstruction vanishes.
+- **Invalid inference:** exactness defines or makes nonzero the map from that
+  lift to the independently computed local relation group.
+- **Precise obstruction:** B092 keeps the exact sequence, lift, and Hodge type
+  fixed while choosing the missing map to be zero or the identity.
+- **Re-entry condition:** G056 must construct the geometric edge map, control
+  lift ambiguity, and calculate the specified detector coordinate.
