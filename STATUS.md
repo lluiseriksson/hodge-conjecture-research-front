@@ -2,31 +2,38 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 30% - independent Git repository, mandatory topology,
+- **Infrastructure:** 32% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 8% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 10% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
-  hyperplane detection, while B001-B004 close separate reduction and
-  semiregular propagation implications. None is proof-assistant formalized,
-  and the terminal-equivalent nonvanishing gate is open.
+  hyperplane detection; B008-B009 now isolate the admissible nodal relation
+  channel, while B001-B004 close separate reduction and semiregular
+  propagation implications. None is proof-assistant formalized, and the
+  terminal-equivalent class-specific pairing gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
-Strongest honest headline: **an audited terminal-equivalent normal-function
-gate has replaced the anchor-dependent route as the primary vertical map;
-the first monodromy/nodal construction attempt fails at a precise
-class-specific nonvanishing obstruction.**
+Strongest honest headline: **smooth discriminant points are proved useless,
+and a transverse nodal singularity channel is exactly a vanishing-cycle
+relation space; the unresolved content is to force one such relation to pair
+nontrivially with a specified Hodge class.**
 
 ## Active frontier
 
 - B007 - PROVED: universal rational HC is equivalent to nonzero
   singular-hyperplane detection for every primitive rational middle Hodge
   class.
-- G005 - EXPLORATORY, active: produce the class-specific local
-  intersection-cohomology nonvanishing without an algebraic representative.
+- B008 - PROVED: a smooth discriminant point has zero rational local
+  intersection-cohomology channel.
+- B009 - PROVED: under the stated transverse nodal hypotheses, the channel is
+  the rational relation space among vanishing cycles.
+- G006 - EXPLORATORY, active: produce a nodal relation whose associated new
+  middle cycle pairs nontrivially with the specified Hodge class.
 - NG-008 - NO-GO: high degree and nontrivial ambient vanishing cycles do not
   force this specified class to have a singularity.
+- NG-009 - NO-GO: a nonzero nodal defect/relation space does not force the
+  specified class's pairing functional to be nonzero.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

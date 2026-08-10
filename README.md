@@ -61,7 +61,7 @@ brick carries the metadata required by [docs/brick-schema.md](docs/brick-schema.
 ```text
 standard rational Hodge Conjecture
   <=> primitive singular-hyperplane detection                    [B007, PROVED]
-  <= class-specific local nonvanishing                           [G005, OPEN]
+  <= class-specific nodal vanishing-cycle relation               [G006, OPEN]
 
 secondary route:
   <=> universal middle-degree cycle construction                 [B001, PROVED]
@@ -69,11 +69,12 @@ secondary route:
   <= all-order semiregular propagation                           [B004, PROVED]
 ```
 
-The active gate is **G005**: given arbitrary
-\((X,L,\zeta)\), construct a discriminant point \(p\) at which the local
-intersection-cohomology singularity of \(\zeta\)'s normal function is nonzero,
-without assuming an algebraic representative. High degree provides
-nontrivial ambient vanishing cycles but not this class-specific projection.
+The active gate is **G006**: given arbitrary \((X,L,\zeta)\), construct a
+transverse nodal discriminant point, a rational relation among its vanishing
+cycles, and a corresponding new middle cycle pairing nontrivially with
+\(\zeta\), without assuming an algebraic representative. B008 excludes smooth
+discriminant points, and B009 identifies the nodal channel. High degree or a
+positive defect does not provide the required class-specific pairing.
 The anchored G001/G004 route remains open as an independent secondary route.
 
 ## Repository map

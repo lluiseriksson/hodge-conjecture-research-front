@@ -2,11 +2,11 @@
   "as_of": "2026-08-10",
   "terminal_problem": "standard rational Hodge Conjecture",
   "terminal_status": "OPEN",
-  "strongest_result": "B007 terminal equivalence with singular-hyperplane detection; B001 middle-degree equivalence; B002-B004 Hilbert and semiregular propagation",
-  "active_gate": "G005",
+  "strongest_result": "B007 terminal equivalence; B008 smooth-discriminant exclusion; B009 nodal relation-channel computation; B001-B004 reductions and propagation",
+  "active_gate": "G006",
   "estimates_percent": {
-    "infrastructure": 30,
-    "formal_proof_chain_closure": 8,
+    "infrastructure": 32,
+    "formal_proof_chain_closure": 10,
     "actual_general_hodge_progress": 0
   },
   "allowed_labels": [

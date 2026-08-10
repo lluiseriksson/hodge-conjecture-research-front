@@ -272,6 +272,46 @@ Geometry* 14 (2005), 177-185.
 - Local retrieval SHA-256:
   `D10590F93E62D31DCF3FAE4571CB8C2E167666D7A141FC57FB8D3C57B1551D86`.
 
+## S020 - Cohomological defect of desingularized nodal hypersurfaces
+
+Chad Schoen, “Algebraic cycles on certain desingularized nodal
+hypersurfaces,” *Mathematische Annalen* 270 (1985), 17-27.
+[GDZ scan](https://gdz.sub.uni-goettingen.de/id/PPN235181684_0270?tify=%7B%22pages%22%3A%5B23%5D%2C%22view%22%3A%22info%22%7D)
+
+- Checked pp. 17-20, Lemma 1.1, Corollary 1.2, and Proposition 1.3: for a
+  nodal hypersurface in a smooth projective variety of even dimension and the
+  indicated blowups, the new middle cohomology is isolated as an excess
+  summand; under the displayed coherent-vanishing hypotheses that summand is
+  computed by a node-defect group
+  \(H^1(P,I_S\otimes\omega_P(mX))\).
+- Scope guard: this is a theorem for the stated nodal hypersurface/blowup
+  geometry. It neither constructs a defect for an arbitrary Hodge class nor
+  reduces arbitrary smooth projective varieties to this special setting.
+- Local retrieval SHA-256:
+  `D792CF24C67E36E2907E18BFBBE9F0A1A91CF224EE76BB8F617DEA13F6EA74E5`.
+
+## S021 - Vanishing-cycle relations and singularities of normal functions
+
+Mark Green and Phillip Griffiths, “Algebraic cycles and singularities of
+normal functions I,” in *Algebraic Cycles and Motives*, London Mathematical
+Society Lecture Note Series 343 (2007), 206-263.
+[IAS author PDF](https://publications.ias.edu/sites/default/files/acycles1%28609%29.pdf)
+
+- Checked Section 4.2.3, pp. 14-15: under the local or quasi-local
+  normal-crossing hypotheses, the monodromy complex \(B^\bullet\) computes the
+  relevant local intersection cohomology, and the rational singularity group
+  injects into \(H^1(B^\bullet)\).
+- Checked Section 4.2.4, pp. 18-22: for a transverse nodal model whose nodes
+  impose independent smoothing conditions, \(H^1(B^\bullet)\) is the rational
+  relation space among the vanishing cycles. The stated partition variant
+  permits \(I=J\sqcup K\) with each part independent.
+- Scope guard: a nonzero relation space is only a possible singularity
+  channel. It does not prove that a specified Hodge class maps nontrivially
+  into it. The paper's constructions from a subvariety \(W\) already assume
+  an algebraic cycle and cannot be used circularly for G006.
+- Local retrieval SHA-256:
+  `4D1DB080F19E77E4627462C7684F822CE1E18EFD783E0D00ABA65BEE7DDB61A0`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

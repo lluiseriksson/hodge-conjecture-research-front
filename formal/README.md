@@ -21,6 +21,15 @@ BFNP singularity calculation - are not present in the current formal
 toolchain. They must be imported only as explicitly named external theorems,
 never replaced by a project-local axiom that silently asserts G005.
 
+B008-B009 add a finite-dimensional formal boundary: one can model the
+vanishing-cycle map \(\mathbf Q^r\to V\), its kernel, and the class-specific
+linear functional on that kernel. Formalizing this linear algebra would check
+the implication “nonzero pairing implies nonzero local class” and the NG-009
+warning that a nonzero domain alone proves nothing about a fixed functional.
+It would not formalize the imported geometric identification of local
+intersection cohomology with that kernel, nor prove the open nonvanishing in
+G006.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

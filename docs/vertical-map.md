@@ -9,7 +9,9 @@ Date: 2026-08-10. Overall status: **EXPLORATORY**.
 \Longleftrightarrow
 \text{universal primitive middle singularity}
 \Longleftrightarrow
-\text{singular-hyperplane detection G005}.
+\text{singular-hyperplane detection G005}
+\Longleftarrow
+\text{class-specific nodal relation G006}.
 \]
 
 The first equivalence is BFNP Theorem 1.3 and Theorems 6.5-6.6, audited in
@@ -25,32 +27,58 @@ identifies the restriction with the local intersection-cohomology singularity
 of the admissible normal function attached to \(\zeta\). No algebraic
 representative of \(\zeta\) is assumed in this formulation.
 
-## Current smallest attackable brick
+## Local channel reduction
 
-**G005-NV: class-specific local nonvanishing.** Construct directly from
-\((X,L,\zeta)\) a discriminant point \(p\in|L^m|\) such that
+B008 excludes every smooth point of the discriminant: its rational local
+intersection-cohomology group is zero. Thus a generic Lefschetz critical value
+cannot detect ζ.
+
+Under the explicit transverse nodal hypotheses of B009, the remaining local
+channel is
 
 \[
-0\ne\sigma_p(\operatorname{pr}_m^*\zeta)
-\in IH^1_p\bigl(R^{2n-1}\pi_{m,*}\mathbf Q(n)\bigr).
+ \operatorname{Rel}(\delta_i)
+ =\ker\!\left(\mathbf Q^r\to H_{2n-1}(X_s,\mathbf Q),
+ (a_i)\mapsto\sum_i a_i\delta_i\right).
 \]
 
-This is falsifiable by a triple \((X,L,\zeta)\) for which every such local
-class vanishes for all \(m\). It propagates all the way upward by B007.
+This turns the abstract local singularity into a concrete relation space but
+does not make the specified class's image nonzero.
+
+## Current smallest attackable brick
+
+**G006: class-specific vanishing-cycle relation.** Construct directly from
+\((X,L,\zeta)\) a transverse nodal point \(p\in|L^m|\), a relation
+\(0\ne a\in\operatorname{Rel}(\delta_i)\), and its new middle class
+\(\beta_a\in H_{2n}(X_p,\mathbf Q)\) such that
+
+\[
+ \langle\zeta,i_*\beta_a\rangle\ne0.
+\]
+
+This is falsifiable by a triple \((X,L,\zeta)\) for which all such pairing
+functionals vanish for every \(m\). It implies G005 and propagates all the way
+upward by B007. Thomas's theorem gives the converse under HC, so the universal
+statement remains terminal-equivalent.
 
 ## Attempt audit
 
 1. Pass to \(m\gg0\), where Lefschetz pencils have nontrivial vanishing
    cycles - valid by BFNP Proposition 5.11.
 2. Use global monodromy to relate those cycles - valid ambient information.
-3. Conclude that the specified \(\zeta\) has nonzero restriction at one
-   singular fiber - **invalid**. Ambient vanishing cycles need not couple
-   nontrivially to this class.
+3. Move to a smooth discriminant point - **closed by B008** because its local
+   rational intersection-cohomology channel is zero.
+4. Choose a higher nodal stratum with a positive relation space - valid as a
+   source of possible local directions under B009.
+5. Conclude that the specified \(\zeta\) couples to one of those directions -
+   **invalid**. A nonzero vector space does not make the class-specific linear
+   functional nonzero.
 
-Step 3 is NG-008. Thomas's nodal variant does not repair it: his construction
-of the detecting divisor begins with an algebraic representative, while his
-deformation analysis shows that the nodal obstruction space retains the
-embedded cycle obstruction.
+Steps 3 and 5 are B008 and NG-009 respectively; the ambient inference already
+failed as NG-008. Thomas's constructive nodal direction does not repair the
+gap because it begins with an algebraic representative, while his deformation
+analysis shows that the nodal obstruction space retains the embedded-cycle
+obstruction.
 
 ## Secondary anchored route
 
@@ -75,5 +103,5 @@ without that assumption and is already known to be equivalent to HC.
 
 Neither route counts as general progress until its universal open gate is
 proved. A normal-function singularity criterion, a nonempty discriminant,
-nontrivial ambient monodromy, or a nodal dimension count is not itself a cycle
-construction.
+nontrivial ambient monodromy, a nonzero nodal relation space, or a nodal
+dimension count is not itself a cycle construction.

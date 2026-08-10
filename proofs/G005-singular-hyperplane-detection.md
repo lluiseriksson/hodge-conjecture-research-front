@@ -77,13 +77,21 @@ large and deform the nodes” is not a proof of G005.
 
 ## Next justified subgate
 
+By B008, a smooth point of the discriminant has zero rational local
+intersection-cohomology target and is excluded. By B009, a transverse nodal
+stratum has a concrete target: the rational relation space among its
+vanishing cycles. The next subgate is therefore G006.
+
 Construct, directly from the rational Hodge tensor \(\zeta\) and the polarized
-variation over \(|L^m|\setminus X^\vee\), a discriminant point \(p\) with a
-provably nonzero class in
+variation over \(|L^m|\setminus X^\vee\), a nodal discriminant point \(p\), a
+nonzero relation among its vanishing cycles, and a corresponding new middle
+cycle on which \(\zeta\) pairs nontrivially. Equivalently, produce a provably
+nonzero class in
 
 \[
  IH^1_p\bigl(R^{2n-1}\pi_{m,*}\mathbf Q(n)\bigr),
 \]
 
 without using an algebraic representative of \(\zeta\). A candidate must give
-a class-specific nonvanishing theorem; ambient monodromy size is insufficient.
+a class-specific nonvanishing theorem; ambient monodromy size or positive
+nodal defect is insufficient.

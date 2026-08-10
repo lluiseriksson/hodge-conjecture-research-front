@@ -136,3 +136,27 @@
   \(0\ne\sigma_p(\operatorname{pr}_m^*\zeta)\) directly from
   \((X,L,\zeta)\), without assuming an algebraic representative and without a
   numerical dimension argument.
+
+## NG-009 - Positive nodal defect does not detect a specified class
+
+- **Label:** NO-GO
+- **Route:** construct a nodal hyperplane section with a nonzero rational
+  relation among its vanishing cycles, identify a nonzero local
+  intersection-cohomology group, and conclude that the normal function of a
+  specified nonzero Hodge class has a nonzero singularity there.
+- **Valid input:** under B009's transverse nodal hypotheses,
+  \(H^1(B^\bullet)\) is the relation space of the vanishing cycles. A positive
+  defect therefore gives a nonzero possible target for singularities.
+- **Invalid inference:** a nonzero target forces the image of every nonzero
+  primitive rational Hodge class to be nonzero.
+- **Precise obstruction:** for fixed \(\zeta\), detection is the nonvanishing of
+  the linear functional
+  \(a\mapsto\langle\zeta,i_*\beta_a\rangle\) on the relation space. Positive
+  dimension of the domain does not prevent this functional from being zero.
+  No audited monodromy theorem supplies class-specific nonvanishing. At a
+  smooth discriminant point the situation is stronger: B008 shows that the
+  rational target itself is zero.
+- **Re-entry condition:** construct a nodal relation \(a\) directly from
+  \((X,L,\zeta)\) and prove
+  \(\langle\zeta,i_*\beta_a\rangle\ne0\), without choosing an algebraic
+  representative of \(\zeta\) and without a dimension-count substitution.

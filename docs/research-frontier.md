@@ -1,34 +1,33 @@
 # Research frontier
 
-## Active gate: G004
+## Active gate: G006
 
-Test whether arbitrary algebraic anchor classes admit finite lci
-presentations with injective *combined* semiregularity map. B004 has closed the
-deformation and globalization implications once such a presentation exists.
+Given an arbitrary primitive rational middle Hodge class \(\zeta\), construct a
+transverse nodal hyperplane degeneration with a rational relation among its
+vanishing cycles whose associated new middle cycle pairs nontrivially with
+\(\zeta\). B007 shows that this propagates to the terminal conjecture; B008
+excludes smooth discriminant points; B009 identifies the nodal relation
+channel.
 
 Immediate bricks:
 
-1. **Closed NO-GO (B005):** appending rationally trivial or positive lci
-   components cannot remove an existing kernel.
-2. Test genuine replacement by smooth alterations plus pushforward, without confusing the altered
-   normal bundle with the embedded obstruction theory on the target.
-3. Check whether a rationally equivalent *replacement* can change the
-   obstruction space while preserving the class.
-4. **Obstruction isolated (B006):** B001 point products add
-   \(H^1(\mathcal O_Z)^{\oplus r}\). Compute the semiregularity map on this
-   summand or replace the product presentation.
-5. If G004 fails, return to G001 and alternative propagation mechanisms such
-   as normal-function singularities, keeping anchor existence explicit.
+1. Express the class-specific pairing on the nodal relation space in limiting
+   mixed-Hodge-structure terms with all rational structures explicit.
+2. Test whether polarization or global monodromy can force that functional to
+   be nonzero for a degeneration selected from \(\zeta\), not from an
+   algebraic representative.
+3. Audit degenerations with computable defect spaces, treating any examples
+   only as EXPLORATORY unless a universal propagation theorem is proved.
+4. Keep the semiregularity gate G004 as an independent secondary route; B005
+   and B006 still constrain stabilization and projective-product arguments.
 
-If universal stability fails, record the exact normal-bundle or obstruction
-group and move to the next mechanism; do not promote a favorable family.
+If a proposed selection theorem fails, record whether the obstruction is zero
+local IH, absence of vanishing-cycle relations, or annihilation by the
+class-specific pairing. Do not promote a favorable family.
 
-## Latest brick
+## Latest bricks
 
-B004 closes all Artin-local obstruction and proper-Hilbert globalization for
-an injectively combined semiregular presentation. The remaining issue is not
-deformation theory but universal existence of that presentation. G001 anchor
-existence remains a second, independent universal quantifier. B005 rules out
-direct-sum augmentation as a way to construct the required presentation.
-B006 shows that the B001 low-degree point-product construction is not an
-automatic source of semiregular presentations.
+B008 proves that the local rational singularity group vanishes at smooth
+discriminant points. B009 computes the transverse nodal channel as the
+relation space among vanishing cycles. G006 isolates the remaining
+class-specific nonzero pairing, while NG-009 closes the defect-only inference.

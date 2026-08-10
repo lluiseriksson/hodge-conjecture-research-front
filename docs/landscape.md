@@ -29,6 +29,7 @@ boundary, not an induction mechanism.
 | variation of Hodge structure and monodromy | controls how classes vary and identifies invariants | Hodge/invariant does not imply algebraic |
 | Cattani-Deligne-Kaplan | Hodge loci are algebraic | no dominating relative Chow/Hilbert component follows |
 | admissible normal functions | BFNP attach one to a primitive Hodge class via a Deligne/absolute-Hodge lift; a nonzero boundary singularity is terminal-equivalent to HC | no theorem forces a class-specific singularity; ambient vanishing cycles do not suffice |
+| nodal defect and vanishing-cycle relations | B008 excludes smooth discriminant points; B009 computes the transverse nodal local channel as the relation space among vanishing cycles | positive defect does not force the specified Hodge class to pair nontrivially with a new middle cycle |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
 | reduction modulo primes | Frobenius and etale/Tate information | needs comparison, Tate-type algebraicity, and cycle lifting back to characteristic zero |
@@ -63,6 +64,9 @@ boundary, not an induction mechanism.
 9. **Generic-to-every-fiber fallacy:** a theorem on a very general fiber misses
    the special Hodge loci where new classes occur.
 10. **Kahler overreach:** projectivity is essential in the official target.
+11. **Defect-only fallacy:** a nonzero nodal defect or local
+    intersection-cohomology group supplies a possible target, not a nonzero
+    image for the specified Hodge class.
 
 ## Open universal core
 
@@ -74,3 +78,9 @@ arbitrary varieties. Brick B007 gives a second exact formulation: every
 nonzero primitive middle class must restrict nontrivially to some
 high-degree singular hyperplane section. This removes the algebraic-anchor
 assumption but does not weaken the open content.
+
+Bricks B008-B009 refine the latter formulation: detection cannot occur at a
+smooth discriminant point, and under a transverse nodal model its possible
+local values form the rational relation space among the vanishing cycles.
+G006 asks for a relation whose associated new middle cycle has nonzero pairing
+with the given class. This is still terminal-equivalent and remains open.
