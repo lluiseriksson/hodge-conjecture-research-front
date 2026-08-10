@@ -1679,3 +1679,22 @@
   class and ordinary lift and prove its canonical full-support projection
   nonzero. This is G043 with the class-specific collision provenance made
   explicit, not a new reduction.
+
+## NG-091 - Ngô support applies to the hyperplane family
+
+- **Label:** NO-GO
+- **Route:** combine projectivity, generic smoothness and irreducibility with
+  Ngô's support theorem to force G076's selected class into full support.
+- **Valid input:** the universal high-power hyperplane family has those
+  three geometric properties.
+- **Invalid inference:** they imply the delta-regular weak abelian fibration
+  hypotheses.
+- **Precise obstruction:** S051 requires a same-dimensional smooth
+  commutative group scheme action with affine stabilizers and polarizable
+  Tate module. B115 proves this is impossible for sufficiently high powers:
+  the action would make a generic fiber an abelian homogeneous quotient with
+  trivial canonical bundle, while adjunction makes its canonical bundle
+  ample.
+- **Re-entry condition:** G077 must construct the actual selected relevant
+  perverse-grade class and calculate its divisor-support coordinates
+  directly. No general Ngô support theorem applies.

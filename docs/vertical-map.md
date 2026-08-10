@@ -290,6 +290,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G076: downstairs selected full-support landing}
 \Longleftarrow
+\text{G077: selected divisor-support exclusion}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -327,6 +329,10 @@ invariant full-support projection. It is the selected-excess form of G042
 and is not counted twice. B114/NG090 then show that the root cover cannot
 create this coordinate: G076 must construct the original downstairs selected
 landing. G076 is G043 with provenance made explicit, not a second reduction.
+B115/NG091 exclude applying Ngô's support theorem to the high-power
+hyperplane family: its generic fiber has ample canonical bundle, incompatible
+with the required same-dimensional abelian homogeneous action. G077 must
+therefore compute and kill the selected divisor-support coordinates directly.
 Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
@@ -494,7 +500,9 @@ class-landing clause in selected-chain coordinates, not an independent
 reduction. B114/NG090 remove the cover as a source of nonvanishing and leave
 G076, the original downstairs full-support coordinate, as the active gate.
 This is G043's existing obstruction with the selected collision certificate
-included. G072 is the next filtered calculation once that
+included. B115/NG091 close the Ngô support-theorem shortcut. G077 is the
+active subgate: prove the relevant grade nonzero and every divisor-support
+coordinate zero. G072 is the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.
 

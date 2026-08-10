@@ -13,7 +13,7 @@ hodge_type: S, S_0, t_psi, the ordinary lift, and all maps restricted to rationa
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B071-B084, B107-B114, G041-G071, G073-G076, NG050-NG090, S023, S037
+dependencies: B022, B057-B058, B071-B084, B107-B115, G041-G071, G073-G077, NG050-NG091, S023, S037
 claim: For the actual collision, construct an ordinary lift s of t_psi with its full perverse extension data and prove [s]=0 in S/(S_0+ker u), equivalently construct a corrected lift in S_0; associated-graded calculations alone are not admissible.
 falsifier: undefined ordinary lift or filtration, nonzero quotient class, a separating dual functional, wrong rational Hodge type, or use only of associated-graded ranks without the off-diagonal extension
 ---

@@ -13,7 +13,7 @@ hodge_type: selected excess and its invariant full-support projection rational t
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B071-B077, B081, B110-B114, G041-G043, G074, G076, NG050-NG054, NG086-NG090
+dependencies: B022, B057-B058, B071-B077, B081, B110-B115, G041-G043, G074, G076-G077, NG050-NG054, NG086-NG091
 claim: Construct G074's selected excess in the full global S3-equivariant nearby-cycle object and prove that its canonical relevant perverse-grade projection to the invariant full-support constituent is nonzero; a coordinate confined to the local A2 standard constituent is inadmissible.
 falsifier: undefined global selected excess, confinement to the A2 standard constituent, confinement to a proper-support summand, zero Reynolds projection in full support, or wrong rational Hodge type
 ---

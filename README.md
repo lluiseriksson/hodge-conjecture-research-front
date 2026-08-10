@@ -280,8 +280,13 @@ selected-chain coordinates, so it is not counted twice. B114/NG090 further
 show that the root cover cannot create this landing: invariant full support
 is canonically the downstairs object. G076 is therefore the active smallest
 gate—construct the original selected specialization and prove its canonical
-full-support coordinate nonzero. This is G043 with collision provenance made
-explicit. G074 must then prove
+full-support coordinate nonzero. B115/NG091 audit and exclude Ngô's support
+theorem here: a high-power hyperplane fiber has ample canonical bundle,
+whereas the required same-dimensional weak-abelian action would make it an
+abelian homogeneous quotient with trivial canonical bundle. G077 is the
+active subgate: construct the selected relevant grade, prove it nonzero, and
+kill every divisor-support coordinate explicitly. This is G045-G046 with
+collision provenance made explicit. G074 must then prove
 ordinary liftability and preserve the nonzero prescribed pairing through
 both B022 quotients. G073 closes the source
 certificate, and G072 follows by
@@ -667,6 +672,9 @@ selected class in a nonlocal invariant full-support constituent.
 The B114/NG090 check identifies that invariant coordinate with the original
 downstairs full-support coordinate. G076 must construct the original selected
 specialization; the cover cannot manufacture it.
+B115/NG091 exclude Ngô's weak-abelian support theorem for high-power
+hyperplane fibers by an ample-versus-trivial canonical-bundle contradiction.
+G077 must compute the selected divisor-support coordinates directly.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

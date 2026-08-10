@@ -13,7 +13,7 @@ hodge_type: selected specialization and its full-support coordinate rational typ
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B059, B077, B081-B084, B110-B114, G043, G047-G048, G073-G075, NG053-NG060, NG086-NG090
+dependencies: B057-B059, B077, B081-B084, B110-B115, G043, G047-G048, G073-G075, G077, NG053-NG060, NG086-NG091
 claim: Construct on the original base a collision-certified nearby class and ordinary special lift for the selected B058 detector, and prove that its canonical relevant perverse-grade projection to the full-support strict-support summand is nonzero before the B022 quotient and pairing tests.
 falsifier: undefined original specialization, nonzero vanishing-cycle obstruction, absence of an ordinary lift, confinement to the point grade or divisor/proper-support summand, zero full-support projection, or wrong rational Hodge type
 ---
@@ -40,6 +40,11 @@ B110, and a chosen total decomposition splitting is inadmissible by NG058.
 B114 then transports this established coordinate isomorphically to G075's
 invariant covered full-support coordinate. It cannot be transported in the
 opposite logical direction to manufacture nonvanishing.
+
+B115/NG091 exclude Ngô's support theorem for this universal high-power
+hyperplane family. G077 is the active subgate: compute the selected
+divisor-support coordinates in the canonical relevant grade and prove they
+vanish while the grade itself remains nonzero.
 
 ## No double counting
 

@@ -1483,6 +1483,35 @@ Sociedad Matemática Mexicana* 31 (2025), article 81;
 - Open-access HTML and theorem statements audited; no local copy is
   committed.
 
+## S051 - Ngô support theorem for delta-regular weak abelian fibrations
+
+Bao Châu Ngô, “Le lemme fondamental pour les algèbres de Lie,”
+*Publications Mathématiques de l'IHÉS* 111 (2010), 1-169;
+[journal record and full text](https://www.numdam.org/item/PMIHES_2010__111__1_0/),
+[arXiv:0801.0446](https://arxiv.org/abs/0801.0446),
+[DOI](https://doi.org/10.1007/s10240-010-0026-7).
+
+- Checked §7.1.1-§7.1.4: a weak abelian fibration consists of a proper map
+  $f:M\to S$, a smooth commutative group scheme $g:P\to S$ of the same
+  relative dimension, a fiberwise action with affine stabilizers, and a
+  polarizable Tate module.
+- Checked the delta-regular refinement in §7.1 and the support theorem and
+  support inequality in Theorem 7.2.1 and Proposition 7.2.2: the support
+  restriction uses the weak-abelian action and delta-regularity; it is not a
+  theorem for arbitrary projective maps.
+- Checked the stated full-support consequence: under the support theorem,
+  irreducibility of the geometric fibers forces supports to be the whole
+  base because the relevant top direct image has full support.
+- Scope guard: the universal high-power hyperplane family in G076 is not
+  supplied with a same-dimensional smooth commutative group scheme action,
+  affine stabilizers, polarizable Tate module, or delta-regularity. B115
+  proves more strongly that for high powers its generic fiber has ample
+  canonical bundle, incompatible with the generically homogeneous abelian
+  fibers forced by these hypotheses. Ngô's theorem therefore cannot close
+  G076.
+- Web and primary full-text retrieval audited on 2026-08-11; no local copy is
+  committed.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

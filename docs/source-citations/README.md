@@ -1,7 +1,7 @@
 # Primary-source citation audit
 
 Each source record states what was checked and, equally importantly, what the
-source does **not** prove. Web retrieval date: 2026-08-10.
+source does **not** prove. Latest web retrieval date: 2026-08-11.
 
 | ID | Primary source | Mechanism | Audit state |
 |---|---|---|---|

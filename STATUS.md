@@ -734,10 +734,19 @@ generation from the controlled partitioned nodal locus is not proved.**
   their selected coordinates vanish or survive together.
 - NG090 - NO-GO: the root cover and Reynolds projection cannot create
   full-support landing absent downstairs.
-- G076 - EXPLORATORY, active smallest gate: construct the original selected
+- G076 - EXPLORATORY parent: construct the original selected
   nearby class and ordinary lift and prove its canonical relevant
   perverse-grade full-support projection nonzero. This is G043 with
   class-specific collision provenance made explicit.
+- B115 - PROVED: sufficiently high-power hyperplane fibers cannot satisfy
+  Ngô's same-dimensional delta-regular weak-abelian hypotheses; adjunction
+  makes their canonical bundle ample, while the action would force an
+  abelian homogeneous quotient with trivial canonical bundle.
+- NG091 - NO-GO: projectivity and generic irreducibility do not make the
+  hyperplane family an Ngô fibration or force full support.
+- G077 - EXPLORATORY, active smallest gate: construct the selected nonzero
+  $E_\infty^{-1,0}$ class and prove every discriminant-divisor-supported
+  coordinate vanishes, leaving a nonzero full-support component.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
