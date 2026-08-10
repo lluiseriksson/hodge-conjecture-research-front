@@ -13,7 +13,7 @@ hodge_type: nodal rational relations have type (0,0) after Tate twist; the dimen
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n)); no algebraic cycle for the input Hodge class is assumed or constructed
 cycle_equivalence: rational equivalence
 scope: fiberwise
-dependencies: Saito Proposition 1 and Theorem 1 (S022), the non-rho(ii) components of Green-Griffiths Section 4.2.4 (S021), B009-B010, and the source-conflict audit B031
+dependencies: Saito Proposition 1 and Theorem 1 (S022), Schoen Proposition 1.3 (S020), the non-rho(ii) components of Green-Griffiths Section 4.2.4 (S021), B009-B010, and the source-conflict audit B031
 claim: Under the audited nodal hypotheses, the vanishing-cycle relation dimension equals the extra homology dimension and the stated adjoint, local-intersection-cohomology, and desingularization defect dimensions; the canonical map from extra homology to primitive ambient homology is a separate map whose rank is not included in this claim.
 falsifier: nodal data satisfying the stated hypotheses for which the relation, extra, adjoint, local-IC, or stated desingularization dimensions differ
 ---
@@ -42,9 +42,12 @@ type-\((0,0)\) part of \(R(Y_0)\) and the corresponding extra Hodge cycles in
 Green-Griffiths quasi-local nodal hypotheses, B009 also identifies the local
 intersection-cohomology channel with the relation space.
 
-Saito proves the first equality. The non-\(\rho(ii)\) components of the
-Green–Griffiths nodal defect theorem and its coherent formulation give the
-remaining numerical equalities
+Saito proves the first equality. Schoen Proposition 1.3 gives a canonical
+isomorphism between the adjoint coherent defect and the desingularized excess
+space under the displayed vanishing hypotheses. B009 supplies the quasi-local
+intersection-cohomology identification. These results triangulate the
+non-\(\rho(ii)\) components printed in the Green–Griffiths nodal defect
+theorem and give the numerical equalities
 
 \[
  \dim_{\mathbf Q}R(Y_0)
@@ -90,9 +93,11 @@ target is zero.
 
 Thus the literal \(\rho(i)=\rho(ii)\) component conflicts with a direct
 primary-source-backed family calculation; high ampleness does not remove
-the conflict. It is quarantined as NG-028. This brick imports only the
-non-\(\rho(ii)\) defect comparisons and does not claim a resolution of the
-printed statement.
+the conflict. The source itself is an extended research announcement and
+says that complete details of some results were not yet written. NG-028
+quarantines the ambient-image component. This brick uses only the
+non-\(\rho(ii)\) comparisons that are independently triangulated above and
+does not claim a resolution of the printed statement.
 
 ## What the equality does and does not give
 

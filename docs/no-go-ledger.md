@@ -582,7 +582,9 @@
   nonzero primitive ambient image, or that the canonical map is injective.
 - **Valid input:** pages 18-19 explicitly define \(\rho(i)\) as relation
   dimension and \(\rho(ii)\) as primitive ambient-image dimension, then
-  print equality of six invariants.
+  print equality of six invariants. Page 2 describes the document as an
+  extended research announcement and says some complete details were still
+  unwritten.
 - **Invalid inference:** import that component without checking it against
   Saito's separately defined canonical map and standard defect examples.
 - **Precise obstruction:** B031 gives, for every \(d\ge3\), a general nodal
@@ -593,5 +595,6 @@
   ampleness explanation.
 - **Re-entry condition:** locate a published correction or an alternative
   definition of \(\rho(ii)\), or supply a proof with hypotheses that excludes
-  the plane family. Until then, retain the non-\(\rho(ii)\) defect
-  comparisons but carry \(\operatorname{rank}\Phi_Y\) independently.
+  the plane family. A targeted search through 2026-08-10 found none. Until
+  then, retain only independently triangulated non-\(\rho(ii)\) defect
+  comparisons and carry \(\operatorname{rank}\Phi_Y\) independently.

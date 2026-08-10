@@ -284,6 +284,9 @@ hypersurfaces,” *Mathematische Annalen* 270 (1985), 17-27.
   summand; under the displayed coherent-vanishing hypotheses that summand is
   computed by a node-defect group
   \(H^1(P,I_S\otimes\omega_P(mX))\).
+- Proposition 1.3 is a proved canonical isomorphism from that coherent group
+  to the desingularized excess space. It does not identify this space with
+  the image in primitive homology of the original smooth ambient variety.
 - Scope guard: this is a theorem for the stated nodal hypersurface/blowup
   geometry. It neither constructs a defect for an arbitrary Hodge class nor
   reduces arbitrary smooth projective varieties to this special setting.
@@ -315,6 +318,12 @@ Society Lecture Note Series 343 (2007), 206-263.
   \(H_{2n}(X_{s_0})\to H_{2n}(X)_{\mathrm{prim}}\), alongside relations,
   adjoint evaluation defect, two desingularization defects, and
   \(H^1(B^\bullet)\), and then prints equality of all six.
+- Checked p. 2: the authors explicitly describe the document as an extended
+  research announcement of work in progress and state that complete details
+  of some results had not yet been written. The displayed six-invariant
+  theorem is stated without a proof there, so it is not used as a sole source
+  for any comparison that can be triangulated with Saito, Schoen, or
+  Di Gennaro–Franco.
 - Source-conflict guard: B031's general plane-containing nodal
   degree-\(d\) hypersurface in \(\mathbf P^4\) has one-dimensional relation
   and extra homology for arbitrarily large \(d\), while the displayed
@@ -322,6 +331,9 @@ Society Lecture Note Series 343 (2007), 206-263.
   \(\rho(i)=\rho(ii)\) component is therefore quarantined as NG-028 pending
   a documented correction or different definition. B026 imports only the
   non-\(\rho(ii)\) defect comparisons.
+- A targeted primary-literature search on 2026-08-10 located no erratum or
+  later correction of \(\rho(ii)\). S033 revisits a related normal-function
+  comparison but does not resolve this nodal numerical conflict.
 - Checked p. 19: the construction of a one-dimensional generating relation
   from hypersurfaces containing a smooth codimension-\(n\) subvariety starts
   with that already-algebraic subvariety. It cannot be used to select the
@@ -637,6 +649,24 @@ Remke Kloosterman, “Maximal families of nodal varieties with defect,”
   partition or a class-specific Hodge pairing.
 - Local retrieval SHA-256:
   1200097775A38569C4250703ED83F983FEA236D348A2C39EDA414E3D2A7B2FC4.
+
+## S033 - Later Green-Griffiths singularity comparison
+
+Mark Green and Phillip Griffiths, “Singularities of the infinitesimal
+invariant of normal functions,” *Rendiconti Lincei. Matematica e
+Applicazioni* 36 (2025), 513-529; published online 14 February 2026.
+[Official open-access PDF](https://content.ems.press/assets/public/full-texts/serials/rlm/36/3/14299507/online/10.4171-rlm-1080.pdf),
+[DOI](https://doi.org/10.4171/RLM/1080).
+
+- Checked the abstract and Introduction against the official PDF: the paper
+  revisits the identification between singularities of a normal function and
+  its infinitesimal invariant, presents a sketch, and says the formal proof
+  in a more general setting will appear separately.
+- Full-text searches found no occurrence of “nodal,” “defect,” or
+  \(\rho(ii)\). This later paper therefore supplies no correction or
+  reinterpretation of the Section 4.2.4 six-invariant statement in S021.
+- Scope guard: this absence check supports only NG-028's source audit; it is
+  not mathematical evidence that no correction exists elsewhere.
 
 ## Citation policy for incompletely audited mechanisms
 
