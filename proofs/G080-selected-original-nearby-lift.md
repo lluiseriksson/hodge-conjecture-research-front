@@ -1,6 +1,6 @@
 ---
 brick_id: G080
-status: EXPLORATORY
+status: NO-GO
 base_field: C with collision and Hodge data over Q
 variety: an arbitrary polarized smooth projective complex 2n-fold X, a specified primitive rational Hodge class zeta, its selected B058 detector, and the original smooth plane-net incidence family
 smoothness: X and incidence total space smooth; nearby hyperplane fibers smooth; collision target has finitely many isolated hypersurface singularities
@@ -13,15 +13,19 @@ hodge_type: no type condition on the total nearby class or ordinary lift; B119 m
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B081-B085, B092-B093, B107-B109, B110-B122, G047-G048, G071-G079, G081-G083, NG059-NG060, NG086-NG098, S022, S037
-claim: Construct a collision-certified nonzero rational nearby class t_Delta in one marked original collision disk from the selected B058 detector, preserve both B022 quotients and the nonzero pairing, and prove t_Delta lies in u_Delta(S_0); B122 gives ordinary liftability and conditional B119 then controls the relation grade.
-falsifier: undefined source realization, zero nearby class, death in a B022 quotient, zero prescribed pairing, nonzero filtered obstruction for every admissible disk, or non-clean-nodal target for B119
+dependencies: B022, B057-B059, B081-B085, B092-B093, B107-B109, B110-B123, G047-G048, G071-G079, G081-G083, NG059-NG060, NG086-NG099, S022, S037
+claim: Although every selected disk-nearby class is ordinarily liftable, no nonzero one can lie in u_Delta(S_0); the proposed route to a relation grade is impossible by B123.
+falsifier: a nonzero clean-nodal disk-nearby class with a lift in S_0
 ---
 
 # G080 — Construct the selected nearby class and ordinary lift downstairs
 
-**Status:** EXPLORATORY  
+**Status:** NO-GO
 **Parent gates:** G079 / G073
+
+B123/NG099 falsify the relation-filtered conclusion of this route. Ordinary
+liftability remains true by B122, but it lands through the ambient quotient,
+not through the specialization-kernel relation grade.
 
 The two support ambiguities are now structural:
 
@@ -54,21 +58,21 @@ Here \(\beta\) uses B120's canonical identification
 \(H^0(i_p^*K_\Delta)=H^{-1}(i_p^*K_B)\). Nonzeroness of \(t_\Delta\)
 forces nonzeroness of every lift. However B121 corrects B081's grade list:
 the constant ambient \(E_\infty^{-2,1}\) term remains, so an arbitrary
-nonzero lift need not have a relation coordinate. G083 must prove
+nonzero lift need not have a relation coordinate. The retired G083 route
+would have required
 
 \[
  t_\Delta\in u_\Delta(S_0),
 \]
 
-equivalently \(\omega_{\mathrm{fil}}(t_\Delta)=0\). Only then do B117-B119
-make the nonzero relation coordinate full-support and type \((0,0)\) after
-\(\mathbf Q(n)\).
+equivalently \(\omega_{\mathrm{fil}}(t_\Delta)=0\). B123 proves this is
+impossible for nonzero \(t_\Delta\), so B117-B119 cannot be reached by this
+route.
 
-## Current obstruction
+## Retired obstruction
 
 B122 makes the full degree-$(d+1)$ nearby target cyclically invariant and
 ordinarily liftable. NG098 therefore removes G082's raw thimble-cocycle
 condition as unnecessary. Pure Hurwitz localization remains zero by
-B090-B091. G083 is the exact remaining gate: construct the selected
-disk-nearby class, preserve both B022 quotients and the prescribed pairing,
-and kill its filtered—not monodromy—obstruction.
+B090-B091. B123/NG099 close the filtered route; G065's relative-boundary
+construction is the active replacement.

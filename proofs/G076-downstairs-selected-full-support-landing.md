@@ -47,13 +47,15 @@ specific to the original incidence map: every generic transverse Lefschetz
 slice has constant $R^{2n}$, so ${}^pH^0$ has no divisor support. G079 is
 the grade parent, and B118 removes its point-grade alternative by relative
 hard Lefschetz. B121/NG097 show that the constant ambient
-$E_\infty^{-2,1}$ grade still competes with the relation grade. G083 is the
-active subgate: construct the selected class and prove it has a lift in
-$S_0$. Its nonzero relevant coordinate is then full-support by B117-B119.
+$E_\infty^{-2,1}$ grade still competes with the relation grade. B123/NG099
+show that a nonzero nearby class cannot lift through $S_0$. G065 is the
+active replacement: construct the relation directly as the marked boundary
+of the selected relative class. Its nonzero relevant coordinate is then
+full-support by B117-B119.
 
 ## No double counting
 
 G076 is the selected-excess/source-certified formulation of G043's original
 full-support projection problem. It is not an independent reduction or a
-second piece of progress. G083 incorporates the B022, filtered-lift, and
-prescribed-pairing obligations on the selected class.
+second piece of progress. G065 incorporates the marked-boundary and ambient
+realization obligations on the selected relative class.

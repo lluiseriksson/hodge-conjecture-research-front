@@ -108,8 +108,9 @@ relation coordinate only after the selected lift is proved to lie in
 B107's filtration step \(S_0\); it does not do so for an arbitrary ordinary
 lift.
 
-The remaining obligation is G083: realize the selected class and kill its
-filtered obstruction.
+B123/NG099 show that the proposed G083 obligation is impossible for a
+nonzero nearby class. The surviving obligation is G065's relative-boundary
+construction.
 
 ## Scope guard
 

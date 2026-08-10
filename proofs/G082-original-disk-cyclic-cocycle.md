@@ -13,8 +13,8 @@ hodge_type: no type requirement on the total disk-nearby class or lift; only a s
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022-B023, B057-B059, B084-B085, B090-B091, B110-B122, G050-G051, G073-G081, NG059-NG063, NG087, NG095-NG098, S022, S037
-claim: As an optional stronger chain-level mechanism, compute and kill the raw selected thimble cocycle on one original disk while retaining both B022 quotients and the pairing; B122/NG098 prove this is not necessary for ordinary or filtered target liftability.
+dependencies: B022-B023, B057-B059, B084-B085, B090-B091, B110-B123, G050-G051, G073-G081, NG059-NG063, NG087, NG095-NG099, S022, S037
+claim: As an optional stronger chain-level mechanism, compute and kill the raw selected thimble cocycle on one original disk while retaining both B022 quotients and the pairing; B122/NG098 prove this is unnecessary for ordinary liftability, and B123/NG099 prove it cannot imply a nonzero relation-filtered lift.
 falsifier: undefined chain-to-disk-nearby map, zero B022 quotient image, nonzero cyclic obstruction for every admissible original disk, failure of J to be monodromy-stable, loss of the prescribed pairing under every kernel adjustment, or use of an exceptional altered class in place of the original class
 ---
 
@@ -85,4 +85,5 @@ nilpotent-residue form. G082 insists that the final invariant vector live in
 the original disk object and survive downstairs; a class supported only on
 an alteration's exceptional locus does not pass the gate. B090-B091 prevent
 replacing this computation by the positive nodal-boundary Hurwitz word.
-The active gate is G083's filtered special-to-nearby calculation.
+The active gate is G065's boundary-marked relative comparison; this optional
+cocycle calculation does not discharge it.

@@ -46,11 +46,10 @@ falsifier: a theorem showing that the downstream conclusion fails whenever the t
   total vector, while \(u(\beta)=f\ne0\) is type \((0,0)\). Thus an
   irrelevant Hodge component of a lift does not contaminate its relevant
   quotient.
-- **Geometric closure:** once G083 supplies a lift in $S_0$, B118 removes its
-  lower point grade and B117 makes its nonzero
-  \(E_\infty^{-1,0}\) coordinate full-support. B093 and S022 identify that channel, for a
-  clean nodal target, with a direct sum of \(\mathbf Q(0)\)'s after the Tate
-  normalization. B119 makes the required coordinate type automatic.
-- **Re-entry condition:** construct G083's selected relation-filtered lift.
-  A type condition on the total lift may still matter in a
-  different route whose relevant quotient is not already pure Tate.
+- **Geometric closure:** conditional B119 remains correct for a class already
+  in $S_0$, but B123 proves that no nonzero nearby target lifts there. The
+  condition can apply to the special relation produced through G065's
+  relative boundary, not through G083.
+- **Re-entry condition:** construct G065's selected relative boundary. A type
+  condition on the total class may still matter in a different route whose
+  relevant quotient is not already pure Tate.

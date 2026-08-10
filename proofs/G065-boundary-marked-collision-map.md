@@ -13,14 +13,14 @@ hodge_type: target relation and ambient class rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B081-B083, B093-B103, G047-G063, G066-G067, NG069-NG079, S022, S049-S050
+dependencies: B022, B057-B058, B081-B083, B093-B103, B123, G047-G063, G066-G067, NG069-NG079, NG099, S022, S049-S050
 claim: Construct in the actual collision a map of pairs F:(A,B)->(Y_c,Z_c) carrying a marked relative representative of the B057 detector to Saito's nearby pair, send its marked boundary vector to r_H(beta_sp), and construct a chain homotopy between the B057 closure/quotient realization and Saito's good-retraction ambient realization on that class.
 falsifier: no continuous comparison of pairs compatible with the collision, collision of marked boundary components with the wrong local vanishing spheres or signs, or failure of chain-homotopy compatibility between the two ambient realizations
 ---
 
 # G065 — Construct the boundary-marked collision map
 
-**Status:** EXPLORATORY
+**Status:** EXPLORATORY — active smallest gate
 
 Choose a relative pair $(A,B)$ retaining the individual boundary spheres of
 the B057 distributed thimbles and a representative
@@ -60,3 +60,9 @@ B103/NG079 sharpen this further: Saito's good retraction already supplies
 the global local/exterior map. G067 retains only the missing single-fiber
 realization of the distributed detector and its two class-specific
 identities.
+
+B123/NG099 close the opposite special-to-nearby filtered-lift direction:
+$u_\Delta(S_0)=0$. Thus G065 is the active directionally valid gate. Its
+class must live in relative homology and produce the local relation under
+the boundary map; it is not a special-stalk class mapping to a nonzero
+nearby target.

@@ -483,6 +483,14 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   $H^{d+1}(Y_p,\mathbf Q)\to H^{d+1}(Y_t,\mathbf Q)$ is surjective. This
   proves ordinary target liftability only; it does not place a lift in a
   perverse-filtration step.
+- Rechecked Proposition 1, Theorem 1, and the displayed exact sequence for
+  B123/NG099. Saito defines
+  $E(Y_p)=\ker(H^{d+1}(Y_p)\to H^{d+1}(Y_t))$ and identifies its Hodge-cycle
+  dual with the local vanishing-cycle relation space. Thus the relation/extra
+  channel is killed by specialization; the source does not obtain it by
+  lifting a nonzero nearby cohomology class. Section 2.5 instead constructs
+  the ambient class from the boundary of a relative class, matching
+  G064-G065's direction.
 - For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
   thimble pair. Naturality proves the boundary square only after a map of
   pairs is supplied. S022 does not construct such a map from an arbitrary

@@ -1766,9 +1766,8 @@
   coordinate into the remaining full-support grade, and B093/S022 make that
   clean-nodal relation grade pure $\mathbf Q(0)$ after normalization. B119
   records the exact geometric conclusion.
-- **Re-entry condition:** construct G083's nonzero rational original
-  disk-nearby class and prove it has a lift in $S_0$. Conditional B119 then
-  gives the relation-grade type; no total-lift type condition remains.
+- **Re-entry condition:** B123/NG099 prove that no nonzero nearby class has a
+  lift in $S_0$. Reverse the arrow through G065's marked relative boundary.
 
 ## NG-096 - Full plane-local invariance is required
 
@@ -1787,8 +1786,9 @@
   can hold while simultaneous invariance fails, so the latter is strictly
   stronger.
 - **Re-entry condition:** B122 proves every target class in the required
-  degree is already cyclically invariant and ordinarily liftable. Construct
-  G083 and kill its filtered obstruction instead.
+  degree is already cyclically invariant and ordinarily liftable, while
+  B123 proves its filtered obstruction cannot vanish when it is nonzero.
+  Use G065's relative-boundary construction.
 
 ## NG-097 - A nonzero ordinary lift forces a relation grade
 
@@ -1804,9 +1804,9 @@
   in that grade is a nonzero ordinary lift with zero relation coordinate.
   This also restores B092's earlier warning that an ordinary lift does not
   select the relation component.
-- **Re-entry condition:** prove G083's
-  $\omega_{\mathrm{fil}}(t_\Delta)=0$, equivalently construct a lift in
-  B107's filtration step $S_0$. Conditional B119 then applies.
+- **Re-entry condition:** B123/NG099 prove that filtered lift is impossible
+  for a nonzero nearby class. Construct the relation instead through G065's
+  marked relative boundary.
 
 ## NG-098 - The raw cyclic thimble cocycle must vanish
 
@@ -1823,6 +1823,26 @@
   target is invariant and liftable. The model
   $M(e)=e+j$, $M(j)=j$ has a nonzero raw kernel cocycle but trivial quotient
   monodromy, proving the distinction exactly.
-- **Re-entry condition:** none for ordinary liftability. The active
-  obstruction is G083's filtered class in
-  $\operatorname{im}u_\Delta/u_\Delta(S_0)$.
+- **Re-entry condition:** none for ordinary liftability. B123 computes the
+  filtered class as nonzero; use G065's relative-boundary direction.
+
+## NG-099 - A nonzero nearby class lifts through the relation step
+
+- **Label:** NO-GO
+- **Route:** construct a nonzero nearby detector $t_\Delta$ and prove
+  $t_\Delta\in u_\Delta(S_0)$ so that its special lift has a relation
+  coordinate.
+- **Valid input:** B122 makes the total special-to-nearby map surjective, and
+  the relation grade can be nonzero.
+- **Invalid inference:** the relation grade maps onto nearby cohomology.
+- **Precise obstruction:** S022's exact sequence defines the extra
+  cohomology as
+  $E(Y_p)=\ker(H^{d+1}(Y_p)\to H^{d+1}(Y_t))$. B009/B026/B093 identify its
+  relation dual with the $E_\infty^{-1,0}$ channel, and B118 removes the
+  lower point grade. B123 therefore gives
+  $S_0=E(Y_p)$ and $u_\Delta(S_0)=0$. For every nonzero nearby class,
+  $\omega_{\mathrm{fil}}(t_\Delta)=t_\Delta\ne0$.
+- **Re-entry condition:** reverse the arrow. G065 must construct a marked map
+  of pairs sending the selected B057 relative class into
+  $H_{2n}(Y_t,Z_t)$ with nonzero local boundary relation and compatible
+  primitive ambient realization. B099-B101 then propagate the pairing.

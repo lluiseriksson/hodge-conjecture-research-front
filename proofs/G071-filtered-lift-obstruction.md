@@ -1,6 +1,6 @@
 ---
 brick_id: G071
-status: EXPLORATORY
+status: NO-GO
 base_field: C with all collision, perverse-filtration, and Hodge data over Q
 variety: an arbitrary polarized smooth projective complex 2n-fold X, a specified B058 nearby detector t_psi, and an actual projective plane-net collision to a clean nodal hyperplane target H
 smoothness: X and generic hyperplane fibers smooth; target has finitely many ordinary double points; semistable source regular where required
@@ -13,14 +13,24 @@ hodge_type: S, S_0, P_psi, t_psi, and u restricted to rational type (0,0) after 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B081-B084, B107-B109, G048-G070, G072, NG059-NG085, S023, S037
-claim: For the actual class-specific collision, construct the canonical relation-grade step S_0 and the ordinarily liftable t_psi, compute omega_fil(t_psi)=[t_psi] in im(u)/u(S_0), and prove omega_fil(t_psi)=0.
-falsifier: undefined collision map or filtration step, t_psi not in im(u), nonzero quotient class, wrong rational Hodge type, or reliance on unproved perverse strictness
+dependencies: B022, B057-B058, B081-B084, B107-B109, B123, G048-G070, G072, NG059-NG085, NG099, S022-S023, S037
+claim: In the clean nodal collision, omega_fil(t_psi)=t_psi is nonzero for every nonzero nearby class because u(S_0)=0; the proposed vanishing gate is impossible.
+falsifier: a nonzero clean-nodal nearby class with omega_fil=0
 ---
 
 # G071 — Kill the filtered-lift obstruction
 
-**Status:** EXPLORATORY
+**Status:** NO-GO
+
+B123 computes the obstruction rather than merely isolating it:
+
+\[
+ \omega_{\mathrm{fil}}(t_\psi)=t_\psi
+\]
+
+for every nonzero class in the actual nearby target. Thus the boxed
+vanishing requested below cannot hold in the clean nodal model. The text is
+retained as an audit of the retired route.
 
 For the actual collision construct
 
@@ -59,8 +69,6 @@ An acceptable proof may:
 Purity, decomposition, local invariant-cycle surjectivity, or strictness for
 the Hodge filtration alone do not prove the box by NG084.
 
-Vanishing supplies the filtered lift required by G070. Only then should the
-restricted dual-cokernel/evaluation certificate be computed. G071 is the
-exact parent. B109/NG085 show that associated-graded data cannot decide its
-coset; G072 is the smallest current gate and must compute the off-diagonal
-filtered extension class.
+The active route is G065's marked relative-boundary construction. G072 may
+still diagnose abstract extension data, but it cannot make this obstruction
+vanish in the clean nodal geometry.

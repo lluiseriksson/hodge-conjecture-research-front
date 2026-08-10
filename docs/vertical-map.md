@@ -290,43 +290,22 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G076: downstairs selected full-support landing}
 \Longleftarrow
-\text{G077: selected divisor-support exclusion}
-\Longleftarrow
-\text{G078: transverse-disk punctual coordinate computation}
-\Longleftarrow
-\text{G079: selected original relevant-grade nonvanishing}
-\Longleftarrow
-\text{G080: selected nonzero original nearby class and lift}
-\Longleftarrow
-\text{G081: selected collision-invariant original nearby class}
-\Longleftarrow
-\text{G083: selected relation-filtered disk lift}
-\Longleftarrow
-\text{G060: ambiguity boundary or pairing square}
-\Longleftarrow
-\text{G061: quotient-compatible ambient morphism}
-\Longleftarrow
-\text{G062: nearby/Saito ambient-map comparison}
-\Longleftarrow
-\text{G063: good-retraction same-chain identity}
-\Longleftarrow
 \text{G064: local relative-boundary identification}
 \Longleftarrow
 \text{G065: boundary-marked collision map}
 \Longleftarrow
-\text{G066: detector localization and collapse gluing}
-\Longleftarrow
-\text{G067: single-fiber detector realization}
-\Longleftarrow
-\text{G068: selected-detector bordism obstruction}.
+\text{selected B057 relative class with marked nodal boundary}.
 \]
 
-The chain from G060 through G068 is a sufficient attack on G070's descended
-branch after G071 closes filtered liftability. B107/NG083 insert G070 because
-G059's original total-stalk functional was not canonical; B108/NG084 insert
-G071 because ordinary liftability is not perverse-filtered liftability;
-B109/NG085 insert G072 because associated-graded data omit the decisive
-off-diagonal extension. B110/NG086 correct the dependency order: G073 must
+The former chain through G070-G071 attempted to lift a nonzero nearby class
+through the relation filtration step. B107-B109 correctly isolated its
+filtered obstruction, but B123/NG099 now compute it and close the route:
+$u(S_0)=0$, so the obstruction equals the nonzero nearby class. G079-G083
+are retained as NO-GO audit records. The active direction is G065's marked
+relative-boundary map, propagating through B101 to G064 and through
+B099-B100 to Saito's primitive ambient relation class.
+
+B110/NG086 correct the dependency order: the collision must
 first construct an actual collision-certified realization of the selected
 detector as a nearby class in $\operatorname{im}u$ while retaining its
 nonzero pairing. B111/NG087 remove the stronger demand for a map on all
@@ -365,11 +344,11 @@ without requiring the total lift to be type $(0,0)$ (NG095). B120/NG096
 reduce the base to one transverse original disk, and B122 proves every class
 in the actual degree-$(d+1)$ nearby target is ordinarily liftable. NG098
 therefore retires G082's raw thimble cocycle as an optional overconstraint.
-G083 is the remaining class-specific gate: construct the selected disk class
-with both B022/pairing certificates and kill
-$\omega_{\mathrm{fil}}(t_\Delta)$.
-Only then is G072's quotient class defined. B106 proves
-that G069 does not extend this chain:
+G083's proposed filtered lift is impossible by B123/NG099. The relation
+must instead be the boundary of a selected class in
+$H_{2n}(Y_t,Z_t;\mathbf Q(n))$. G065 is the remaining class-specific gate:
+construct the marked map of pairs and the compatible ambient chain homotopy.
+B106 separately proves that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
 terminal pairing condition.
 
@@ -397,13 +376,13 @@ B084 proves that the kernel condition follows from the local invariant-cycle
 theorem once $t_\psi$ is a nearby intersection-cohomology class in a proper
 variety model and is fixed by collision monodromy. NG061 blocks replacing
 that fixed-vector calculation with the unrelated equality $g\alpha=\alpha$
-from the detector loop. G049 is therefore the current vertical endpoint.
+from the detector loop. At that audit stage, G049 was the vertical endpoint.
 
 B085 makes that endpoint computable. Because the primitive ambient quotient
 is constant, the collision defect lies in the combined B022 kernel $J$.
 Changing the thimble lift changes the defect by $(M_J-I)k$, so its cokernel
 class is the exact obstruction to an invariant lift. NG062 shows it need not
-vanish formally. G050 is therefore the smallest current endpoint.
+vanish formally. At that stage, G050 was the smallest endpoint.
 
 B086 removes the finite deck-group part of this endpoint by Reynolds
 averaging over $\mathbf Q$. In the semistable model the remaining monodromy
@@ -422,7 +401,7 @@ the required marked boundary-loop geometry. NG065 blocks identifying that
 local loop with the unrelated B058 detector. B090 then proves that the
 apparently minimal replacement G053 is impossible: if a class is fixed by
 the positive total local boundary, its B057 coefficient vector is zero.
-G054 is therefore the smallest current endpoint. It must retain the nonlocal
+G054 was therefore the smallest endpoint at that stage. It must retain the nonlocal
 B058 distributed word and specialize it to a nonzero local relation while
 preserving both quotients, rational type, and nonzero prescribed pairing.
 B091/NG067 also prove that no pure marked Hurwitz comparison can implement
@@ -458,7 +437,7 @@ special-to-nearby map $u^*$, success is exactly
 \]
 
 where $F=u^*\lambda$ in the second case. NG071 blocks assuming the second
-case a priori. G059 is the current smallest endpoint.
+case a priori. G059 was the smallest endpoint at that stage.
 B096 identifies the cokernel branch with $F\circ d\ne0$, where $d$ is the
 preceding B083 boundary map. If it vanishes, the remaining certificate is the
 single identity
@@ -468,11 +447,11 @@ single identity
 \]
 
 NG072 shows liftability does not decide which branch occurs. G060 is the
-current smallest endpoint.
+then-smallest endpoint.
 B097 proves that a commutative special/nearby morphism to the constant
 primitive ambient target forces the zero-boundary branch and the desired
 pairing identity. NG073 blocks invoking raw proper pushforward before the
-B022 kernels and B057 realization are checked. G061 is the current smallest
+B022 kernels and B057 realization are checked. G061 was the then-smallest
 endpoint.
 B098 closes the two nearby quotient checks and computes the nearby value $c$
 once the B057 chain is realized. B010 separately supplies the special Saito
@@ -483,7 +462,7 @@ relation coordinate of the actual special lift.
 B099 reads Saito §2.5 at chain level: if the special relation bounds the same
 relative chain as B057's detector, the two ambient maps agree and their value
 is $c$. NG075 blocks replacing this identity with abstract liftability. G063
-is the current smallest endpoint: build the good-retraction relative cycle,
+was the then-smallest endpoint: build the good-retraction relative cycle,
 compute its boundary, and identify it with B057's class through both B022
 quotients.
 B100 uses Saito §2.4 to remove literal representative equality: the
@@ -503,7 +482,7 @@ ambient realizations at chain level.
 B103 uses Saito §2.5 to remove a redundant part of G066: the good retraction
 is already global, is an isomorphism off the singular set, and identifies
 the relative groups. NG079 closes a second local/exterior gluing construction
-as unnecessary. G067 is the current smallest endpoint: map the distributed
+as unnecessary. G067 was the then-smallest endpoint: map the distributed
 B057 chain into $H_{2n}(Y_c,Z_c)$ and prove its marked boundary and primitive
 ambient value simultaneously.
 B104 shows a map on the whole distributed complex is unnecessary: for one
@@ -519,7 +498,7 @@ starts at the relevant filtration step $S_0$, not at the total special
 stalk. G070 is the exact parent. B108 packages its first condition as
 $\omega_{\mathrm{fil}}(t_\psi)=[t_\psi]$ in
 $\operatorname{im}u/u(S_0)$, and NG084 shows Hodge strictness does not
-annihilate this perverse-filtered class. The current smallest endpoint is
+annihilate this perverse-filtered class. The then-smallest endpoint was
 not a graded rank calculation: B109/NG085 prove the coset is the class of an
 ordinary lift in $S/(S_0+\ker u)$ and can vary while every associated-graded
 map stays fixed. B110/NG086 then expose the earlier source-typing gap: the
@@ -541,14 +520,13 @@ coordinate zero. B116/NG092 block the smooth-discriminant shortcut, and
 G078 is the transverse-disk formulation. B117/S052 close its support
 multiplicity clause for the original pushdown; NG093 guards the one-degree
 shift. B118/S022/S037 remove the point grade, with NG094 guarding the
-reflection step. B121/NG097 restore the omitted ambient grade and therefore
-the B107-B109 filtered obstruction. Conditional B119/NG095 control Hodge
-type only after that obstruction vanishes. B120-B122/NG096/NG098 remove the
-monodromy and ordinary-lift calculations. G083 is the active selected-class
-realization and filtered-lift calculation inside G081/G080. G072 is
-the next filtered calculation once that
-input exists. G060-G068 remain optional
-sufficient mechanisms for G070's second branch afterward.
+reflection step. B121/NG097 restore the omitted ambient grade; B123/NG099
+then identify the relation step with the specialization kernel and close the
+nearby-lift branch G070-G071/G079-G083. B120-B122/NG096/NG098 remain valid
+ordinary-lift audits but no longer feed the relation construction. G065 is
+the active marked relative-boundary gate. G066-G068 are stronger historical
+construction variants; B101 and B099-B100 give the propagation once G065 is
+proved.
 
 An externally claimed shortcut is closed separately:
 
@@ -684,9 +662,10 @@ For all singular members, the equality is terminal-equivalent through B007
 and B010. Restricting to fully independent-node members was the stronger
 proposal G009, now disproved by B027.
 
-## Current active geometric gate
+## Terminal sufficient geometric gate and active operational gate
 
-**G031: clean-nodal intersection with class-specific support.** Construct a
+**Terminal sufficient gate G031: clean-nodal intersection with class-specific
+support.** Construct a
 Li-clean multipart nodal member and a rational local relation \(\beta\) with
 
 \[
@@ -701,6 +680,14 @@ upgrade an arbitrary detecting singular member to this controlled locus.
 NG040 eliminates generic morsification as its proof. G033 isolates the first
 falsifiable nearby-cycle comparison obligation; B061-B062 and NG042 show why
 neither clean boundary equations nor the graph trick discharge it formally.
+
+**Active operational gate G065: boundary-marked relative comparison.**
+B123/NG099 prove that the former nonzero nearby-to-relation filtered lift is
+impossible because $S_0=\ker u_\Delta$. The valid direction is to construct
+a selected class in $H_{2n}(Y_t,Z_t;\mathbf Q(n))$ whose boundary is the
+canonical nodal relation and whose ambient realization preserves B058's
+nonzero pairing. B101 propagates such a marked map of pairs through G064;
+B099-B100 then identify the resulting primitive ambient Saito class.
 
 G030 is a stronger proposed mechanism. B011 supplies a global
 tube detector for every nonzero primitive class, B022 identifies the two

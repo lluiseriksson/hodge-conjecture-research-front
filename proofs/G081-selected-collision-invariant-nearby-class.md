@@ -1,6 +1,6 @@
 ---
 brick_id: G081
-status: EXPLORATORY
+status: NO-GO
 base_field: C with all chain, monodromy, and cohomology data over Q
 variety: an arbitrary polarized smooth projective complex 2n-fold X, a specified primitive rational Hodge class zeta, its selected B058 detector, the original plane-net incidence family, and one marked collision disk through a clean nodal target
 smoothness: X and the incidence total space smooth; nearby hyperplane fibers smooth; target fiber clean nodal with finitely many ordinary double points
@@ -13,14 +13,17 @@ hodge_type: no type condition on the total nearby class or ordinary lift; condit
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B084-B085, B090-B093, B107-B109, B110-B122, G050-G051, G071, G073-G080, G082-G083, NG059-NG060, NG087, NG095-NG098, S022, S037
-claim: Realize the selected B058 detector as a nonzero rational class t_Delta in one original collision-disk nearby object, preserve its B022 quotient and pairing certificates, and prove it has a lift in B107's relation filtration step S_0.
-falsifier: undefined chain-to-disk-nearby map, zero image after a B022 quotient, loss of the selected nonzero pairing, nonzero filtered obstruction for every admissible disk, or substitution of a semistable exceptional class for the original downstairs class
+dependencies: B022, B057-B059, B084-B085, B090-B093, B107-B109, B110-B123, G050-G051, G071, G073-G080, G082-G083, NG059-NG060, NG087, NG095-NG099, S022, S037
+claim: The proposed nonzero disk-nearby class cannot have a lift in S_0 because the relation step is the specialization kernel; the route is closed by B123/NG099.
+falsifier: a nonzero clean-nodal disk-nearby class in u_Delta(S_0)
 ---
 
 # G081 — Construct the selected collision-invariant nearby class
 
-**Status:** EXPLORATORY
+**Status:** NO-GO
+
+B123/NG099 close the filtered-lift target below. The selected relative class
+must instead enter through G065's boundary map.
 
 **Parent gate:** G080
 
@@ -63,14 +66,12 @@ A proposed construction must print:
 
 Failure of any one item falsifies the proposed G081 witness.
 
-## Current obstruction
+## Retired obstruction
 
 B122 proves every class in the actual nearby target degree is cyclically
 invariant and ordinarily liftable; NG098 retires the raw G082 cocycle as an
 overconstraint. B090-B091 still prove that a pure Hurwitz relabelling
-produces no nonzero localized excess. G083 is therefore the exact remaining
-calculation: map the distributed selected chain into one original disk and
-kill its B108 filtered obstruction without changing the B022 quotient
-pairing. A semistable cover
-may be used as a calculation device, but its exceptional classes cannot
-replace the required original class.
+produces no nonzero localized excess. The proposed G083 calculation is
+impossible by B123/NG099. A semistable cover cannot change the zero image of
+the specialization-kernel relation step. G065 instead asks for a relative
+class with the relation as its boundary.

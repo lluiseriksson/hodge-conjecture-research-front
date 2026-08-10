@@ -43,6 +43,6 @@ falsifier: a downstream construction requiring an invariant raw chain rather tha
   invariant target class. B122 proves that the actual geometric
   degree-\((d+1)\) nearby target is entirely in this latter situation and
   every target class has an ordinary special lift.
-- **Re-entry condition:** none for ordinary liftability. Compute instead
-  G083's filtered obstruction \(\omega_{\mathrm{fil}}(t_\Delta)\), which
-  decides whether a relation-grade lift exists.
+- **Re-entry condition:** none for ordinary liftability. B123 computes the
+  filtered obstruction as the nonzero target itself, so the relation must be
+  constructed through G065's relative-boundary direction.

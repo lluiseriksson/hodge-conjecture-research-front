@@ -304,13 +304,14 @@ into the relation channel. Conditional B119/NG095 control the relation-grade
 Hodge type only after filtered liftability is proved. B120-B122 and
 NG096/NG098 show that one transverse original disk suffices and every class
 in the actual target degree is ordinarily liftable; the raw B085 cocycle is
-unnecessary. G083 is the active concrete gate inside G081/G080: realize the
-selected class, preserve both B022 quotients and the pairing, and prove
-$\omega_{\mathrm{fil}}=0$. G074 must then prove
-ordinary liftability and preserve the nonzero prescribed pairing through
-both B022 quotients. G073 closes the source
-certificate, and G072 follows by
-computing the off-diagonal extension class of that actual lift.
+unnecessary. B123 then computes the missing direction: the relation step is
+the specialization kernel, $S_0=\ker u_\Delta$, hence
+$u_\Delta(S_0)=0$ and every nonzero nearby class has
+$\omega_{\mathrm{fil}}=t_\Delta\ne0$. NG099 closes G070-G083 as a NO-GO.
+The active concrete gate is G065: construct the marked map of relative pairs
+carrying the selected B057 class to a class whose boundary is the nodal
+relation, while preserving the primitive ambient realization. B101 then
+propagates it through G064 and B099-B100 to Saito's pairing class.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -560,6 +561,7 @@ python verification/verify_B114_invariant_landing.py
 python verification/verify_B119_relevant_grade_type.py
 python verification/verify_B120_one_disk.py
 python verification/verify_B121_third_grade.py
+python verification/verify_B123_specialization_kernel.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -707,9 +709,11 @@ concentration; NG094 guards the second shift. B121/NG097 restore the omitted
 constant ambient grade and make B107's filtered condition mandatory.
 Conditional B119/NG095 then control the clean-nodal relation type. B122
 makes the actual target ordinarily liftable, while NG098 removes the raw
-cyclic cocycle. G083 now requires the selected nonzero disk-nearby class,
-both B022 quotient certificates, the pairing, and vanishing of its filtered
-obstruction.
+cyclic cocycle. B123 identifies the relation step with the specialization
+kernel, so its nearby image is zero; NG099 therefore closes the entire
+filtered-lift branch G070-G083. G065 is now the active class-specific gate,
+with the relation sought as the boundary of a selected relative class rather
+than as a filtered special-to-nearby lift.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

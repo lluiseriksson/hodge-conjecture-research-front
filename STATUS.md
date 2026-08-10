@@ -179,10 +179,11 @@ Date: 2026-08-11
   G069 is only B010 in new notation. B107/NG083 correct G059's domain: its
   detector functional exists canonically only on the relevant perverse
   filtration step. B108/NG084 isolate filtered liftability as one quotient
-  coset not killed by ordinary invariant cycles or Hodge strictness. G071 is
-  the exact parent. B109/NG085 show the coset depends on off-diagonal
-  filtration-extension data invisible in every associated grade. G072 is the
-  active subgate; G070 resumes its dual certificate after coset vanishing.
+  coset not killed by ordinary invariant cycles or Hodge strictness.
+  B109/NG085 show why associated-grade data alone cannot decide it. B123
+  computes the clean-nodal geometry exactly: the relation step is the
+  specialization kernel, so its nearby image is zero. NG099 closes this
+  filtered-lift branch and makes G065's relative-boundary direction active.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -618,7 +619,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   nearby-fiber homology.
 - NG076 - NO-GO: literal equality of the relative representative and both
   kernel coordinates is not necessary.
-- G064 - EXPLORATORY, active smallest gate: map the B057 detector into
+- G064 - EXPLORATORY, boundary-identification parent: map the B057 detector into
   Saito's relative group, identify its canonical local boundary, and verify
   primitive ambient pushforward $c$.
 - B101 - PROVED: a boundary-marked map of pairs makes the relative-boundary
@@ -626,7 +627,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   B058's class $c$.
 - NG077 - NO-GO: zero total boundary in the smooth reference fiber does not
   determine a vector in the marked local relation kernel.
-- G065 - EXPLORATORY, parent marked-map gate: construct the actual marked map
+- G065 - EXPLORATORY, active smallest gate: construct the actual marked map
   of pairs, send every oriented boundary sphere to the canonical Saito local
   coordinate, and prove chain-level compatibility of the two ambient
   realizations.
@@ -790,9 +791,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   ordinarily liftable and cyclically invariant.
 - NG098 - NO-GO: killing the raw B085 thimble cocycle is unnecessary and
   does not prove filtered liftability; G082 is retained only as optional.
-- G083 - EXPLORATORY, active smallest gate: realize the selected B058 vector
-  on one transverse original disk, verify both B022 quotients and the
-  prescribed pairing, and prove $\omega_{\mathrm{fil}}(t_\Delta)=0$.
+- B123 - PROVED: on a transverse isolated clean-nodal disk, B107's relation
+  step is the extra-cohomology specialization kernel, so
+  $u_\Delta(S_0)=0$ and every nonzero nearby target has
+  $\omega_{\mathrm{fil}}(t_\Delta)=t_\Delta\ne0$.
+- NG099 - NO-GO: no nonzero nearby class can lift through the relation
+  filtration step; G070-G083 are closed in that direction.
+- G065 - EXPLORATORY, active smallest gate after direction correction:
+  construct the boundary-marked map of pairs for the selected B057 relative
+  class and preserve its primitive ambient realization.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

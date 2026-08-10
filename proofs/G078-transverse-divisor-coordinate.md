@@ -60,6 +60,6 @@ zero. It uses constancy of $R^{d+1}$; NG093 explains why the shifted-IC
 statement for $R^d$ alone would not suffice. Thus no selected punctual
 coordinate remains on the original object. What remains is G079: no
 construction yet realizes a filtered lift there. B118 eliminates the point
-grade, but B121/NG097 leave the higher constant ambient grade. G083 must
-construct the selected disk-nearby class and prove its filtered obstruction
-vanishes before the relevant grade follows.
+grade, while B121/NG097 leave the higher constant ambient grade. B123/NG099
+prove no nonzero nearby class can lift through the relation step. G065 must
+construct the selected relation instead as a marked relative boundary.

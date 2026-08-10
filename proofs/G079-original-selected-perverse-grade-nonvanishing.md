@@ -1,6 +1,6 @@
 ---
 brick_id: G079
-status: EXPLORATORY
+status: NO-GO
 base_field: C with collision and Hodge data over Q
 variety: an arbitrary polarized smooth projective complex 2n-fold X, a specified primitive rational Hodge class zeta, its selected B058 detector, and the original smooth plane-net incidence pushdown
 smoothness: X and the incidence total space smooth; generic hyperplane fibers smooth; target fiber clean nodal or A2-collision as specified; generic discriminant points Lefschetz
@@ -13,15 +13,18 @@ hodge_type: no type condition on the total nearby class or lift; the nonzero E_i
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B059, B081-B085, B092-B093, B107-B109, B110-B122, G047-G048, G071, G073-G078, G080-G083, NG059-NG060, NG086-NG098, S022, S037, S052
-claim: Construct the collision-certified selected disk-nearby class and prove it has a lift in B107's relation filtration step S_0; B117-B119 then make its nonzero E_infinity^(-1,0) coordinate full-support and type (0,0).
-falsifier: undefined original disk-nearby class, death in either B022 quotient, zero prescribed pairing, nonzero filtered obstruction for every admissible disk, zero E_infinity^(-1,0) coordinate after a filtered lift, or non-clean-nodal target
+dependencies: B057-B059, B081-B085, B092-B093, B107-B109, B110-B123, G047-G048, G071, G073-G078, G080-G083, NG059-NG060, NG086-NG099, S022, S037, S052
+claim: The nearby-to-relation-filtered formulation is impossible for a nonzero selected disk class because B123 gives u(S_0)=0; direct relative-boundary landing remains possible through G064-G065.
+falsifier: a nonzero clean-nodal nearby class in u(S_0)
 ---
 
 # G079 — Make the selected original perverse grade nonzero
 
-**Status:** EXPLORATORY  
+**Status:** NO-GO
 **Parent gates:** G078 / G077 / G076
+
+B123/NG099 close the nearby-lift formulation below. It is retained to audit
+the failed direction; G064-G065 are the active replacement.
 
 B117 removes the divisor/full-support ambiguity for the original incidence
 pushdown. The remaining class-specific obligation is therefore:
@@ -40,6 +43,9 @@ pushdown. The remaining class-specific obligation is therefore:
    coordinate, while retaining the marked collision provenance needed by
    the B022 and pairing tests.
 
+These are the retired obligations; B123 proves item 3 impossible whenever
+the selected nearby class is nonzero.
+
 B121 corrects the total-degree list: besides the relation and point grades,
 the constant ambient grade \(E_\infty^{-2,1}\) survives. Thus an ordinary
 lift is insufficient. Membership in \(S_0\) excludes that higher grade.
@@ -47,11 +53,10 @@ B118 proves the remaining lower point grade zero, and B117 proves that every
 nonzero \(E_\infty^{-1,0}\) class is already in the full-support
 strict-support summand.
 
-## Current obstruction
+## Retired obstruction
 
-No topology-changing construction yet carries the distributed B057 chain
-into one original disk-nearby object as a nonzero class with vanishing
-filtered obstruction. The semistable cover can help compute this map,
-but its exceptional support must not be substituted for the original class.
-G083 is the exact remaining construction inside G081/G080; G073-G075 retain its
-source and descent obligations.
+No topology-changing construction can carry the distributed B057 chain into
+one original disk-nearby object as a nonzero class with vanishing filtered
+obstruction: B123 makes this impossible. A semistable cover cannot change
+that conclusion. G065 retains the directionally valid relative-boundary
+obligation.

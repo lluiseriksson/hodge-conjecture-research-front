@@ -70,5 +70,7 @@ both parts of S052's Lefschetz calculation. NG093 records the shift error in
 using only the middle direct image. Thus the equations $\beta_D=0$ are now
 structural for the original pushdown. The point grade also vanishes by B118,
 but B121/NG097 correct the earlier conclusion: a nonzero ordinary lift may
-still lie in the constant ambient $E_\infty^{-2,1}$ grade. G083 must prove
-filtered liftability into $S_0$; then $[\beta_0]_{-1,0}\ne0$ follows.
+still lie in the constant ambient $E_\infty^{-2,1}$ grade. B123/NG099 close
+that filtered-lift route. G065 must construct the relation coordinate
+directly as a marked relative boundary; then its divisor coordinates vanish
+structurally by B117.
