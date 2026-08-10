@@ -1607,3 +1607,22 @@
   source map, prove $\operatorname{can}(t_\psi)=0$, choose a rational
   ordinary lift, and retain a nonzero prescribed pairing through both B022
   quotients. Only then is G072's filtered class defined.
+
+## NG-087 - A full source map is required
+
+- **Label:** NO-GO
+- **Route:** require a natural chain map on the full distributed thimble
+  complex, or a morphism on all its homology, before treating the selected
+  B058 detector.
+- **Valid input:** such a map is a useful sufficient mechanism and would
+  compare many detector classes simultaneously.
+- **Invalid inference:** it is necessary for the class-specific terminal
+  chain.
+- **Precise obstruction:** B111 shows that B083 and B109 use only one
+  nearby class and one ordinary lift; both B022 checks and the final pairing
+  are evaluations on that same class. B104/NG080 independently reduce the
+  downstream chain comparison to one detector-specific relative bordism.
+- **Re-entry condition:** G073 must construct a collision-certified
+  realization of the selected class, not a global map; it must still prove
+  ordinary liftability, rational type, both quotient survivals, and nonzero
+  prescribed pairing.

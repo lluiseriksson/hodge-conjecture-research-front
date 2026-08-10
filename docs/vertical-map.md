@@ -1,6 +1,6 @@
 # Vertical proof map
 
-Date: 2026-08-10. Overall status: **EXPLORATORY**.
+Date: 2026-08-11. Overall status: **EXPLORATORY**.
 
 ## Terminal-equivalent primary route
 
@@ -309,9 +309,11 @@ G059's original total-stalk functional was not canonical; B108/NG084 insert
 G071 because ordinary liftability is not perverse-filtered liftability;
 B109/NG085 insert G072 because associated-graded data omit the decisive
 off-diagonal extension. B110/NG086 correct the dependency order: G073 must
-first construct the actual map from the distributed detector to a nearby
-class in $\operatorname{im}u$ while retaining its nonzero pairing. Only then
-is G072's quotient class defined. B106 proves that G069 does not extend this chain:
+first construct an actual collision-certified realization of the selected
+detector as a nearby class in $\operatorname{im}u$ while retaining its
+nonzero pairing. B111/NG087 remove the stronger demand for a map on all
+distributed classes. Only then is G072's quotient class defined. B106 proves
+that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
 terminal pairing condition.
 
@@ -467,9 +469,11 @@ ordinary lift in $S/(S_0+\ker u)$ and can vary while every associated-graded
 map stays fixed. B110/NG086 then expose the earlier source-typing gap: the
 ambient B058 quotient, even with exact recovery, does not determine a nearby
 class or ordinary lift, and a pure-Hurwitz comparison kills the positive
-local detector by B091. G073 is the current smallest endpoint: construct the
-topology-changing source realization, prove ordinary liftability, and retain
-the prescribed pairing. G072 is the next filtered calculation once that
+local detector by B091. B111/NG087 further reduce the source obligation to a
+certificate for the selected detector; no global map on the thimble complex
+is necessary. G073 is the current smallest endpoint: construct that
+class-specific topology-changing realization, prove ordinary liftability,
+and retain the prescribed pairing. G072 is the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.
 

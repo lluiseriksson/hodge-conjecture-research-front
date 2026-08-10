@@ -88,10 +88,11 @@ fortiori that it does not determine B109's filtered-lift class.
 ## Dependency correction
 
 G072 remains the exact filtered calculation once its inputs exist, but it is
-not the first attackable geometric gate. G073 must first construct the
-collision-induced source map, its selected nearby class, and an ordinary
-lift while retaining a nonzero prescribed pairing. This is the typed core of
-G047-G049 and the topology-changing correction sought in G055.
+not the first attackable geometric gate. G073 must first construct a
+collision-certified realization of the selected class, its nearby class, and
+an ordinary lift while retaining a nonzero prescribed pairing. B111 shows
+that a map on every unrelated distributed class is unnecessary. This is the
+typed core of G047-G049 and the topology-changing correction sought in G055.
 
 ## Scope guard
 

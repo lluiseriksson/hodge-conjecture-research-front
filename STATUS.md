@@ -1,6 +1,6 @@
 # Status
 
-Date: 2026-08-10
+Date: 2026-08-11
 
 - **Infrastructure:** 88% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
@@ -704,9 +704,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   automatically supplies an ordinarily liftable nearby class; the
   pure-Hurwitz positive local detector also vanishes by B091.
 - G073 - EXPLORATORY, active smallest gate: construct the actual
-  topology-changing source map, prove $\operatorname{can}(t_\psi)=0$, choose
-  a rational ordinary lift, and retain nonzero prescribed pairing through
-  both B022 quotients. G072 is the next filtered calculation.
+  class-specific topology-changing realization certificate, prove
+  $\operatorname{can}(t_\psi)=0$, choose a rational ordinary lift, and retain
+  nonzero prescribed pairing through both B022 quotients. G072 is the next
+  filtered calculation.
+- B111 - PROVED: B083/B109 require only the selected nearby class and lift;
+  B104 confirms that one detector-specific comparison suffices downstream.
+- NG087 - NO-GO: a map on the entire distributed thimble complex is useful
+  but is not necessary for G073's class-specific vertical chain.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

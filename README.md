@@ -1,6 +1,6 @@
 # Rational Hodge Conjecture Research Front
 
-> **Status (2026-08-10): EXPLORATORY research programme. This repository does not prove or disprove the Hodge Conjecture.**
+> **Status (2026-08-11): EXPLORATORY research programme. This repository does not prove or disprove the Hodge Conjecture.**
 
 This is an independent, audit-first repository devoted exclusively to the
 standard **rational** Hodge Conjecture for arbitrary smooth projective complex
@@ -267,9 +267,11 @@ have opposite filtered-lift answers. NG085 blocks dimension or graded-map
 shortcuts. B110/NG086 then restore the preceding source obligation: neither
 the ambient B058 class nor a Hurwitz-fixed word constructs an ordinarily
 liftable nearby class, and the pure-Hurwitz positive local realization is
-zero by B091. G073 is the active smallest gate: construct the actual
-topology-changing source map, prove ordinary liftability, and preserve the
-nonzero prescribed pairing through both B022 quotients. G072 follows by
+zero by B091. B111/NG087 remove a remaining overconstraint: the selected
+detector needs a collision-certified realization, but no map on every
+distributed thimble class is necessary. G073 is the active smallest gate:
+construct that class-specific topology-changing certificate, prove ordinary
+liftability, and preserve the nonzero prescribed pairing through both B022 quotients. G072 follows by
 computing the off-diagonal extension class of that actual lift.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
@@ -636,8 +638,10 @@ that identical associated-graded maps can carry different filtered
 obstructions. G072 must retain and compute the off-diagonal extension.
 The B110/NG086 check shows that even exact equality of ambient detector data
 does not determine whether a proposed nearby realization has an ordinary
-lift. G073 must construct the collision-induced source map before G072 is
-defined for the selected detector.
+lift. G073 must construct a collision-certified realization of the selected
+detector before G072 is defined for it.
+B111/NG087 then reduce that requirement to one class-specific realization
+certificate; a natural map on the full distributed complex is optional.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

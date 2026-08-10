@@ -13,9 +13,9 @@ hodge_type: the source class, nearby class, ordinary lift, and ambient image rat
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B081-B084, B088-B091, B110, G047-G055, NG059-NG067, NG086, S023
-claim: Construct an actual collision-induced source realization rho carrying the selected B057 distributed class t to a nearby class t_psi in the proper IC model, prove can(t_psi)=0 and choose a rational ordinary lift s, and prove the induced ambient image still pairs nontrivially with the prescribed zeta through both B022 quotients.
-falsifier: no collision-induced source map, t_psi outside ker(can), loss in either B022 quotient, wrong rational Hodge type, or zero prescribed pairing for every admissible topology-changing comparison
+dependencies: B022, B057-B059, B081-B084, B088-B091, B110-B111, G047-G055, NG059-NG067, NG080, NG086-NG087, S023
+claim: Construct an actual class-specific collision certificate carrying the selected B057 distributed class t to a nearby class t_psi in the proper IC model, prove can(t_psi)=0 and choose a rational ordinary lift s, and prove the induced ambient image still pairs nontrivially with the prescribed zeta through both B022 quotients; no map on unrelated distributed classes is required.
+falsifier: no collision-certified realization of the selected class, t_psi outside ker(can), loss in either B022 quotient, wrong rational Hodge type, or zero prescribed pairing for every admissible topology-changing comparison
 ---
 
 # G073 — Source-realized ordinary collision lift
@@ -23,14 +23,17 @@ falsifier: no collision-induced source map, t_psi outside ker(can), loss in eith
 **Status:** EXPLORATORY
 
 For B058's selected distributed detector $t$, construct an actual projective
-collision and a morphism on the relevant chain/cohomology objects inducing
+collision and a class-specific marked comparison, chain, or relative bordism
+certifying
 
 \[
- \rho:H(C_{\mathrm{dist}})^{(0,0)}
- \longrightarrow
- P_\psi=H^{-1}(i_H^*\Psi_fK)^{(0,0)},
- \qquad t_\psi=\rho(t).
+ t\rightsquigarrow
+ t_\psi\in
+ P_\psi=H^{-1}(i_H^*\Psi_fK)^{(0,0)}.
 \]
+
+B111/NG087 show that this certificate need not extend to a map on the entire
+distributed complex.
 
 The construction must then prove all of the following on the same class:
 
@@ -51,7 +54,8 @@ required by B059; nonzero prescribed pairing is the minimal retained datum.
 G052 proposes a marking that returns $(g,\alpha)$, and B088 would then make
 the geometric extension word monodromy invariant. This attempt does not
 close the gate. It begins after the word has already been placed in the
-collision coefficient object, so it does not construct $\rho$. Even if that
+collision coefficient object, so it does not construct the selected
+realization certificate. Even if that
 typing gap were supplied, B091 proves that the pure-Hurwitz positive
 local-boundary realization of the nonzero B058 detector is zero. The route
 therefore loses the required detector channel.
