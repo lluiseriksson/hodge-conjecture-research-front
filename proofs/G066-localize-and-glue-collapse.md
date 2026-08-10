@@ -13,7 +13,7 @@ hodge_type: target local relation and ambient class must be rational type (0,0) 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B081-B083, B093-B102, G047-G063, NG069-NG078, S049-S050
+dependencies: B022, B057-B058, B081-B083, B093-B103, G047-G063, G067, NG069-NG079, S022, S049-S050
 claim: For the actual class-specific collision, localize a marked representative of the B057 detector into the disjoint union of target Milnor tubes, glue the S049 local collapsing maps to a stratified exterior trivialization, identify the resulting marked boundary with r_H(beta_sp), and construct the chain homotopy between the B057/B098 and Saito ambient realizations.
 falsifier: failure of detector localization, incompatible collar maps on Milnor boundaries, a different marked local vector, nonzero residual exterior boundary, or mismatch of the two closed ambient chains
 ---
@@ -49,3 +49,8 @@ B101 then gives the boundary and ambient equalities, while B100 removes the
 choice of relative lift. The unproved datum is the class-specific
 localization $\lambda_t$ and its collar-compatible gluing, not existence of
 the individual local collapses.
+
+B103/NG079 remove the separate gluing requirement once Saito's global good
+retraction is fixed. G067 is the minimal surviving subgate: realize the
+distributed chain in the single pair $(Y_c,Z_c)$ with the correct marked
+boundary and ambient value.

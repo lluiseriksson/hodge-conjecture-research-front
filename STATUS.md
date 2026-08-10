@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 88% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 95% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 96% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -167,7 +167,9 @@ Date: 2026-08-10
   collision map as the remaining geometric obligation. B102 supplies the
   local collapse at every isolated singularity; NG078/G066 isolate the
   still-missing localization of the distributed detector and gluing to the
-  exterior family.
+  exterior family. B103 proves Saito's good retraction already performs the
+  global gluing and identifies the relative groups; NG079/G067 reduce the
+  active gate to the single-fiber realization of the distributed chain.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -620,9 +622,18 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG078 - NO-GO: separate local collapse and boundary-specialization maps do
   not place an arbitrary distributed B057 detector inside the local Milnor
   zones or preserve its ambient closure.
-- G066 - EXPLORATORY, active smallest gate: localize the marked detector into
+- G066 - EXPLORATORY, localization-and-gluing parent: localize the marked detector into
   the disjoint Milnor tubes, glue the local collapses to a stratified exterior
   trivialization, and compare the B098 and Saito closed ambient chains.
+- B103 - PROVED: Saito's isolated-singularity good retraction is already a
+  global map, is an isomorphism off the singular set, and identifies the
+  relative groups used for the ambient class.
+- NG079 - NO-GO: after fixing that good retraction, separately rebuilding and
+  gluing local collapse maps is not the remaining detector obstruction.
+- G067 - EXPLORATORY, active smallest gate: construct the collision-induced
+  chain map from the distributed B057 thimble complex into
+  $C_*(Y_c,Z_c)$, with canonical marked boundary and primitive ambient value
+  $c$.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

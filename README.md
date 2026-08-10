@@ -237,8 +237,12 @@ coordinate from global boundary zero. G065 is the parent marked-map gate.
 B102 imports Lê-Menegon Neto's local vanishing-polyhedron collapse for each
 isolated singularity. NG078 blocks globalizing those local maps before the
 distributed detector has been localized into the Milnor tubes. G066 is the
-active minimal gate: construct that localization, glue the local collapses to
-the exterior trivialization, and compare the two closed ambient chains.
+localization-and-gluing parent. B103 observes from Saito §2.5 that the good
+retraction is already global and identifies the relevant relative groups;
+NG079 removes a second collapse-gluing construction as redundant. G067 is
+the active minimal gate: realize the distributed detector in the single
+nearby-fiber pair $(Y_c,Z_c)$ with the canonical marked boundary and ambient
+value $c$.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -474,6 +478,7 @@ python verification/verify_B099_same_relative_chain.py
 python verification/verify_B100_relative_lift_independence.py
 python verification/verify_B101_marked_boundary_naturality.py
 python verification/verify_B102_local_collapse_scope.py
+python verification/verify_B103_good_retraction_scope.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -572,6 +577,9 @@ naturality of the long exact sequence of a pair and homotopy invariance.
 The B102/NG078 check shows that fixed local collapse maps do not choose the
 preceding localization of a distributed detector; B102 itself is the
 primary-source vanishing-polyhedron theorem, not the finite model.
+The B103/NG079 check separates the already-global Saito good retraction from
+the still-missing map that realizes a distributed detector in one nearby
+relative pair.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

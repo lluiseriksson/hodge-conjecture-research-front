@@ -288,7 +288,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G065: boundary-marked collision map}
 \Longleftarrow
-\text{G066: detector localization and collapse gluing}.
+\text{G066: detector localization and collapse gluing}
+\Longleftarrow
+\text{G067: single-fiber detector realization}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -415,9 +417,15 @@ local coordinate from total boundary zero. G065 is the current smallest
 parent endpoint: construct that marked comparison in the actual collision.
 B102 supplies a local collapse at each isolated singularity. NG078 shows that
 the local maps do not choose where the distributed B057 detector enters the
-Milnor tubes. G066 is the current smallest endpoint: construct this
+Milnor tubes. G066 is the localization-and-gluing parent: construct this
 localization, glue the local and exterior maps, and compare the two absolute
 ambient realizations at chain level.
+B103 uses Saito §2.5 to remove a redundant part of G066: the good retraction
+is already global, is an isomorphism off the singular set, and identifies
+the relative groups. NG079 closes a second local/exterior gluing construction
+as unnecessary. G067 is the current smallest endpoint: map the distributed
+B057 chain into $H_{2n}(Y_c,Z_c)$ and prove its marked boundary and primitive
+ambient value simultaneously.
 
 An externally claimed shortcut is closed separately:
 

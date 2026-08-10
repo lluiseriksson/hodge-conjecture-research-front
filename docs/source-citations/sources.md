@@ -447,6 +447,13 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   relative lifts of the same boundary relation have identical primitive
   ambient images. Literal equality of the relative representatives is not
   required; identifying B057's local boundary remains the open comparison.
+- Rechecked §2.5 for B103: the good retraction $\rho:Y_c\to Y_0$ is global
+  and induces an isomorphism over $Y_0\setminus\operatorname{Sing}Y_0$.
+  With $Z_c$ defined as the union of inverse images of the singular points,
+  the paper identifies $H^j(Y_0,Z_0)$ with $H^j(Y_c,Z_c)$ and then uses the
+  dual relative cycle. Hence separate local/exterior collapse gluing is not
+  the remaining comparison; realization of B057's distributed chain in the
+  single nearby pair is.
 - For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
   thimble pair. Naturality proves the boundary square only after a map of
   pairs is supplied. S022 does not construct such a map from an arbitrary

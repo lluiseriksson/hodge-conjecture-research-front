@@ -1464,3 +1464,19 @@
 - **Re-entry condition:** G066 must construct the class-specific localization,
   glue the local collapses to the exterior trivialization, and compare the
   two closed ambient chains.
+
+## NG-079 - A second local/exterior collapse gluing is required
+
+- **Label:** NO-GO
+- **Route:** after fixing Saito's isolated-singularity setup, separately glue
+  the S049 local collapse maps to an exterior Ehresmann trivialization.
+- **Valid input:** local collapses model the topology near each isolated
+  singular point.
+- **Invalid inference:** this gluing remains a missing prerequisite for the
+  relative group and Saito ambient map.
+- **Precise obstruction:** S022 §2.5 already chooses one global good
+  retraction, isomorphic off the singular set, defines $Z_c$, and identifies
+  the relative groups. Reconstructing it does not place B057's distributed
+  chain into those groups.
+- **Re-entry condition:** G067 must construct the preceding collision-induced
+  single-fiber realization and prove its marked boundary and ambient value.
