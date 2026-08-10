@@ -1515,8 +1515,8 @@
   the ambient map $(x,y)\mapsto x$; the full ambient discrepancy is already
   zero without a relative bordism.
 - **Re-entry condition:** B106/NG082 show G069 is only the terminal
-  restatement. To retain collision provenance, compute G059's exact dual
-  cokernel/evaluation alternative.
+  restatement. B107/NG083 then restrict the collision certificate to the
+  relevant perverse-filtration step; compute G070 there.
 
 ## NG-082 - An auxiliary global detector makes the terminal scalar a collision gate
 
@@ -1533,6 +1533,24 @@
   $\langle\zeta,\Phi_{Y_0}(\beta)\rangle\ne0$; $c$ cancels. S022 and S023
   prove the local and global endpoint mechanisms separately, not the missing
   comparison.
-- **Re-entry condition:** on the actual collision coefficient object,
-  compute G059's class $[F]\in\operatorname{coker}(u^*)$; if it is zero,
-  compute the descended value $\lambda(t_\psi)$ instead.
+- **Re-entry condition:** on the actual collision coefficient object, prove
+  G070's filtered liftability and compute
+  $[F_0]\in\operatorname{coker}(u_0^*)$; if it is zero, compute the descended
+  value $\lambda(t_\psi)$ instead.
+
+## NG-083 - The associated grade defines a total-stalk detector functional
+
+- **Label:** NO-GO
+- **Route:** use the canonical perverse filtration and strict-support
+  decomposition to write a canonical $F\in S^*$ on the whole special stalk.
+- **Valid input:** the filtration, its associated grades, and strict-support
+  summands inside a perverse cohomology object are canonical.
+- **Invalid inference:** these data canonically split the filtered stalk or
+  project every class to one associated grade.
+- **Precise obstruction:** B107 shows the quotient map begins only on the
+  relevant step $S_0$. A functional $F_0\in S_0^*$ admits many extensions to
+  $S$, distinguished only by a noncanonical complement. Ordinary B083
+  liftability may also hold while filtered liftability fails.
+- **Re-entry condition:** G070 must prove
+  $t_\psi\in\operatorname{im}(u|_{S_0})$ and apply the dual certificate to
+  $u_0:S_0\to P_\psi$ and $F_0$.

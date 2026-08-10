@@ -14,7 +14,7 @@ cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is ass
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
 dependencies: B010, B058, B094-B096, B105, G059, S022-S023
-claim: B105's inequality D_zeta(c,beta) != <zeta,c> cancels c identically and is exactly Saito's terminal pairing condition; it therefore carries no collision provenance by itself. For an actual collision, B095/G059's dual alternative—nonzero [F] in coker(u^*) or zero [F] with nonzero descended evaluation on t_psi—is the exact surviving detector certificate.
+claim: B105's inequality D_zeta(c,beta) != <zeta,c> cancels c identically and is exactly Saito's terminal pairing condition; it therefore carries no collision provenance by itself. On any canonically defined collision domain, B095's dual alternative—nonzero [F] in coker(u^*) or zero [F] with nonzero descended evaluation on t_psi—is the exact detector certificate; B107/G070 correct that domain to the relevant perverse-filtration step.
 falsifier: dependence of B105's inequality on the chosen c, or finite-dimensional exact collision data in which a detecting special lift exists while both G059 branches fail, or conversely
 ---
 
@@ -95,13 +95,13 @@ displayed disjunction is necessary and sufficient for a detecting special
 lift.
 
 Consequently G060-G068 remain valid sufficient attempts to prove the
-descended second branch, but they are not the exact active gate. G059 retains
-both the favorable ambiguity branch and the descended-evaluation branch
-without forgetting collision provenance.
+descended second branch. B107 subsequently observes that G059 placed $F$ on
+too large a domain: its exact alternative must be applied to the canonical
+perverse-filtration step. G070 retains both branches there without forgetting
+collision provenance.
 
 ## Scope guard
 
 B106 is exact linear algebra plus an endpoint audit. It does not construct
 the collision map $u$, the class $t_\psi$, or the functional $F$, and it does
 not prove either G059 branch for arbitrary $X$ and $\zeta$.
-

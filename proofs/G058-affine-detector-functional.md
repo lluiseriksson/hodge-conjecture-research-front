@@ -54,3 +54,8 @@ B094 proves that this is equivalent to existence of at least one detecting
 lift. No exact recovery of B058's original ambient class and no
 ambiguity-independence is required. B095/G059 give the equivalent dual
 cokernel/evaluation certificate, which avoids choosing $\beta_0$.
+
+B107/NG083 correct the domain implicit in the displayed first arrow. The
+associated-grade quotient is canonical only on the relevant perverse
+filtration step $S_0$, not on the whole special stalk. G070 is the corrected
+filtered affine/dual gate.

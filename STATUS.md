@@ -176,9 +176,10 @@ Date: 2026-08-10
   terminal theorem only needs a nonzero scalar pairing, so G069 replaces
   coset vanishing by the exact class-specific scalar inequality. B106/NG082
   then show that the auxiliary detector cancels from that inequality, so
-  G069 is only B010 in new notation. G059 is reactivated as the exact
-  collision-provenance gate; G060-G068 are sufficient attacks on its
-  descended branch.
+  G069 is only B010 in new notation. B107/NG083 correct G059's domain: its
+  detector functional exists canonically only on the relevant perverse
+  filtration step. G070 is the exact collision-provenance gate; G060-G068
+  are sufficient attacks on its descended branch after filtered liftability.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -578,10 +579,9 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG071 - NO-GO: the special-stalk detector functional does not automatically
   descend through the special-to-nearby map; failure to descend is itself a
   success branch.
-- G059 - EXPLORATORY, active exact collision gate: compute the dual map,
-  cokernel class, and—only in the zero-cokernel branch—the descended detector
-  value. B106 shows this is the exhaustive certificate that retains the
-  actual special-to-nearby provenance.
+- G059 - EXPLORATORY, corrected parent: B106 retains its exhaustive
+  cokernel/evaluation alternative, while B107 restricts the domain from the
+  total special stalk to the canonical relation-grade filtration step.
 - B096 - PROVED: $[F]\ne0$ is equivalent to $F\circ d\ne0$ on the preceding
   long-exact boundary; if it vanishes, a square identifying
   $\lambda(t_\psi)$ with B058's nonzero pairing closes the other branch.
@@ -669,6 +669,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG082 - NO-GO: inserting B058's detector into a scalar discrepancy does
   not prove that the local relation descends from it or make the terminal
   condition easier.
+- B107 - PROVED: the canonical relation-grade functional is defined on the
+  relevant perverse filtration step $S_0$, not on the entire special stalk;
+  filtered liftability means $t_\psi\in\operatorname{im}(u|_{S_0})$ and the
+  exact dual certificate uses this restricted map.
+- NG083 - NO-GO: a canonical associated grade does not canonically split the
+  total stalk or define a total-stalk detector functional.
+- G070 - EXPLORATORY, active smallest gate: prove filtered liftability of
+  $t_\psi$, construct $F_0$ on $S_0$, and compute the filtered
+  cokernel/evaluation alternative.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -34,8 +34,8 @@ falsifier: B106's algebraic cancellation of c and the absence in S022-S023 of a 
   Saito condition. S022 constructs $\Phi_{Y_0}$ from a local relation, while
   S023 constructs global tube classes; neither source supplies the missing
   topology-changing comparison between them.
-- **Re-entry condition:** use G059's actual special-to-nearby map $u$,
-  detector class $t_\psi$, and canonical functional $F$. Prove either the
-  cokernel branch $[F]\ne0$ or, after proving $[F]=0$, the nonzero descended
-  evaluation $\lambda(t_\psi)\ne0$.
-
+- **Re-entry condition:** use G070's filtration-restricted
+  special-to-nearby map $u_0$, detector class $t_\psi$, and canonical
+  functional $F_0$. Prove either the cokernel branch $[F_0]\ne0$ or, after
+  proving $[F_0]=0$, the nonzero descended evaluation
+  $\lambda(t_\psi)\ne0$.

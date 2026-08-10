@@ -249,11 +249,13 @@ B105/NG081 make the final endpoint correction: even the zero bordism coset is
 stronger than Saito's terminal criterion. G069 writes that criterion as a
 scalar discrepancy, but B106/NG082 show that its auxiliary detector $c$
 cancels identically. It is therefore a terminal restatement, not a reduced
-collision gate. The exact active collision gate returns to G059: on the
-actual special-to-nearby object, prove either the nonzero dual-cokernel branch
-or, only in the zero-cokernel branch, a nonzero descended evaluation on the
-specified nearby detector. G060-G068 remain sufficient attacks on the latter
-branch.
+collision gate. B107/NG083 then correct the domain of the surviving dual
+certificate: the perverse associated grade defines a functional only on its
+canonical filtration step $S_0$, not on the entire special stalk. G070 is the
+active collision gate: prove $t_\psi\in\operatorname{im}(u|_{S_0})$ and then
+prove either the filtered dual-cokernel branch or, only in its zero branch, a
+nonzero descended evaluation. G060-G068 remain sufficient attacks on the
+latter branch after this filtration-compatible lift is supplied.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -493,6 +495,7 @@ python verification/verify_B103_good_retraction_scope.py
 python verification/verify_B104_bordism_obstruction_coset.py
 python verification/verify_B105_scalar_discrepancy.py
 python verification/verify_B106_detector_cancellation.py
+python verification/verify_B107_filtered_dual_certificate.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -604,6 +607,9 @@ a necessary Hodge-conjecture gate.
 The B106/NG082 check verifies that the auxiliary B058 class cancels from the
 terminal scalar inequality and restores G059's exhaustive collision
 certificate: nonzero dual cokernel, or nonzero descended evaluation.
+The B107/NG083 check verifies that this certificate must be formed on the
+canonical perverse-filtration step, exhibits a fully liftable nearby class
+with no filtered lift, and checks G070's corrected two branches.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

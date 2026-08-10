@@ -932,6 +932,12 @@ American Mathematical Society* 46 (2009), 535-633,
   perverse truncation induces a canonical perverse filtration on cohomology.
   B081 therefore moves the B058 class test to an associated-graded perverse
   piece before projecting by strict support.
+- Rechecked Remarks 1.4.2 and 1.6.2 together with Theorem 1.6.1 for
+  B107/NG083: a filtered object maps canonically to an associated grade only
+  from the corresponding filtration step. Neither degeneration nor the
+  unique strict-support decomposition inside the grade supplies a projection
+  from the entire stalk. Thus G070 must first prove liftability inside that
+  filtration step before forming its dual detector certificate.
 - Checked Section 5.5, Remark 5.5.1, triangle (39), and Theorem 5.5.3: the
   natural arrow is $i^*K\to\Psi_fK$, followed by the canonical arrow to the
   shifted vanishing-cycle term. The stalk long exact sequence makes a nearby
