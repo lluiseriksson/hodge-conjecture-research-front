@@ -1,0 +1,13 @@
+{
+  "finite_cases": {
+    "single_flat": {"branches": 4, "cycle_span_rank": 2, "flat_count": 1, "coefficient_domain_dimension": 6, "residue_rank": 4, "kernel_dimension": 2, "relation_nullity": 2},
+    "nested": {"branches": 5, "cycle_span_rank": 2, "flat_count": 2, "coefficient_domain_dimension": 9, "residue_rank": 6, "kernel_dimension": 3, "relation_nullity": 3},
+    "fork": {"branches": 6, "cycle_span_rank": 2, "flat_count": 3, "coefficient_domain_dimension": 11, "residue_rank": 7, "kernel_dimension": 4, "relation_nullity": 4}
+  },
+  "degree_one_spectral_sequence": {
+    "nonzero_source": "E2^(0,1)",
+    "constant_row_H1": 0,
+    "only_outgoing_differential": "d2 to E2^(2,0)"
+  },
+  "scope": "finite rank and spectral-position consistency only"
+}

@@ -72,4 +72,4 @@ disjoint, so their blow-ups commute. Both orders give the same classes
 on the four branch groups, hence the same global, parent, and two child
 residue equations. All non-full supports begin in ordinary degree two, and
 the downstairs relation kernel is pure type \((0,0)\). G020 is proved only
-for this fork; G019 remains open.
+for this fork; the later B052 proves G019 in general.

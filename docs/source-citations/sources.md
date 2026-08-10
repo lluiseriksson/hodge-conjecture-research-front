@@ -362,6 +362,10 @@ Society Lecture Note Series 343 (2007), 206-263.
   Its three divisor-class components and nested partial-sum equations are
   derived in B046, not imported from S021. No general building-set residue
   theorem is attributed to this source.
+- B052 uses Section 4.3.2's logarithmic residue morphism only to identify the
+  universal Postnikov transgression with the divisor-class connecting map.
+  Connectedness, spectral-sequence vanishing, the divisor basis, coefficient
+  sheaves, and the triangular kernel are proved in B049-B052.
 - Checked pp. 18-19 visually and against OCR: the paper explicitly defines
   \(\rho(ii)\) as the dimension of the image of
   \(H_{2n}(X_{s_0})\to H_{2n}(X)_{\mathrm{prim}}\), alongside relations,

@@ -103,12 +103,13 @@ fiber has intrinsic Picard basis \(h,(e_F)\), every strict branch has class
 NG035 records the failure of the stronger raw-exceptional-coordinate claim.
 B050 closes G022: the origin residue anchors the arbitrary-SNC quotient,
 giving the branch and flat coefficient sheaves with no higher sheaves and
-with rational type \((0,0)\). G019 remains the general arrangement gate, with
-B051 closes G023: the coefficient-sensitive normal-fiber amplitude and its
-dual force every lower support to begin in ordinary degree two. G024 is now
-active. The immediate bricks are the global sections of every coefficient
-support, exclusion of other total-degree-one spectral-sequence arrows, and
-identification of the transgression with B049's divisor classes.
+with rational type \((0,0)\). B051 closes G023, and B052 closes G024 and
+G019: the only total-degree-one
+arrow is B049's divisor-class residue map, whose kernel is the full rational
+type-\((0,0)\) relation space. G025 is now active. The immediate bricks are
+analytic linearization of the node-smoothing map, stratified preservation of
+the block incidence, and rational mixed-Hodge-module invariance of the IC
+stalk.
 
 ## Sufficient parent: G014
 

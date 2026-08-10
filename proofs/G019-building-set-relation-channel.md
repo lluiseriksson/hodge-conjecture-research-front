@@ -1,6 +1,6 @@
 ---
 brick_id: G019
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: an arbitrary finite-dimensional nodal smoothing slice whose central discriminant is a representable hyperplane arrangement, together with a smooth wonderful resolution for a fixed building set
 smoothness: the smoothing slice and resolved space are smooth; the resolved boundary is simple normal crossing; the central projective fiber has only ordinary double points and nearby fibers are smooth
@@ -13,7 +13,7 @@ hodge_type: the sought downstairs degree-one relation channel must be pure type 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B041-B051, G015-G018, G020-G024, Green-Griffiths S021, Saito S022/S037, and Li S038
+dependencies: B041-B052, G015-G018, G020-G024, Green-Griffiths S021, Saito S022/S037, and Li S038
 claim: For every representable central nodal arrangement and every wonderful building-set resolution, the degree-one downstairs IC stalk is canonically the full rational vanishing-cycle relation kernel and is pure type (0,0) after Q(n).
 falsifier: a realizable building set for which exceptional-incidence residues impose an extra equation or create a class, a non-full strict-support summand contributes in ordinary degree one, or the resulting rational kernel has a non-(0,0) component after Q(n)
 ---
@@ -78,9 +78,11 @@ every strict branch has class \(h-\sum_{F\subset H_i}e_F\). NG035 records
 why raw exceptional coordinates cannot be used in the arbitrary-order
 induction. B050 then proves G022's coefficient-sheaf assertion by an anchored
 SNC quotient valid at every nested stratum. B051 proves G023's universal
-strict-support bound from the normal-fiber amplitude and duality. G024 is now
-the remaining global residue-hypercohomology gate.
+strict-support bound from the normal-fiber amplitude and duality. B052 proves
+G024: connected coefficient supports and (H^1(E,K)=0) leave one residue
+transgression, and B049's matrix identifies its kernel with the full relation
+space. This proves G019.
 
-G019 constructs no algebraic cycle. Even a proof would close only the local
+G019 constructs no algebraic cycle. Its proof closes only the central
 arrangement part of G015; an actual multipart nodal family and a nonzero
 class-specific extra-to-primitive pairing would still be required upstream.
