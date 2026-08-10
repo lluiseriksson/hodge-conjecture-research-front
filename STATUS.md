@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 71% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 72% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -95,7 +95,10 @@ Date: 2026-08-10
   object-level summand; NG051/G042 isolate the still-missing class-level
   landing after both B022 quotients. B075 proves nonzero invariant transfer
   and pairing before collision; NG052 leaves only the support- and
-  quotient-controlled nearby specialization open.
+  quotient-controlled nearby specialization open. B076 proves the finite
+  trace remains a split retract after nearby cycles; NG053 shows that descent
+  cannot create the original boundary nonvanishing, returning the residual
+  gate to G042/G032/G031.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -361,6 +364,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   nonzero pairing before collision.
 - NG052 - NO-GO: this transfer identity does not automatically survive
   nearby specialization, proper-support decomposition, or the B022 kernels.
+- B076 - PROVED: finite-cover unit and normalized trace remain a split
+  retract after nearby cycles, including iterated cycles under B063.
+- NG053 - NO-GO: root-cover semistability and averaging cannot create a
+  nonzero original boundary class; they only preserve one already proved.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

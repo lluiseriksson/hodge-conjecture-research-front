@@ -1268,6 +1268,11 @@ Sigma* 13 (2025), e175;
   pp. 21-23: unipotent nearby cycles are defined on algebraic stacks and the
   coherent construction encodes compatibility with proper pushforward and
   smooth pullback.
+- Checked Theorem 3.28 and its consequence on p. 22: unipotent nearby cycles
+  form a natural transformation on the correspondence category with proper
+  left legs and smooth right legs; the authors explicitly state that this
+  expresses compatibility with proper pushforward and smooth pullback. B076
+  applies this to the finite-cover unit/trace pair.
 - Checked Proposition 3.29, p. 23: shifted unipotent nearby cycles preserve
   bounded constructible objects and are perverse exact; the rational
   realization is conservative and commutes with the construction.

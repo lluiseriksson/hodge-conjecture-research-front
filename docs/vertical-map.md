@@ -183,6 +183,14 @@ a nearby-cycle calculation. The only remaining arrow in G042 is therefore
 the support- and quotient-controlled specialization of this already nonzero
 invariant transfer.
 
+B076 closes the finite-cover part even after nearby cycles: proper
+compatibility carries unit and trace to a split retract on every iterated
+nearby-cycle object (under B063's hypothesis). NG053 gives the resulting
+NO-GO: root-cover descent cannot create the missing original boundary
+nonvanishing. Consequently G042 is not an independent route around G032; its
+residual content is precisely the original/canonical pairing-preserving
+specialization, strict-support projection, and B022 quotient calculation.
+
 An externally claimed shortcut is closed separately:
 
 \[

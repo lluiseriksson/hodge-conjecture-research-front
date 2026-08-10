@@ -1046,3 +1046,21 @@
   and proper pushdown can place it on proper support.
 - **Re-entry condition:** construct the actual semistable nearby boundary and
   verify support, both quotient maps, and the pairing as required by G042.
+
+## NG-053 - Descent creates boundary nonvanishing
+
+- **Label:** NO-GO
+- **Route:** use the root cover, semistable nearby cycles, and normalized
+  averaging to manufacture the missing nonzero detector downstairs.
+- **Valid input:** B071-B072 provide the semistable stack and its rational
+  nearby-cycle formalism; B075 supplies a nonzero invariant global transfer.
+- **Invalid inference:** the cover/descent step creates a nonzero original
+  boundary specialization.
+- **Precise obstruction:** B076 proves that finite-cover unit and normalized
+  trace remain a split pair after nearby cycles. They preserve existing
+  nonvanishing but cannot turn a zero original nearby class into a nonzero
+  one.
+- **Re-entry condition:** prove the original/canonical specialization of the
+  B058 tube is nonzero on full support, survives both B022 kernels, and keeps
+  the prescribed pairing. This is G042's residual content and returns to
+  G032/G031.

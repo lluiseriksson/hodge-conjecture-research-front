@@ -126,7 +126,11 @@ prove that its invariant component survives both B022 kernels and the
 specified pairing. B075 closes the pre-collision part: invariant sheet
 transfer has normalized trace equal to the original tube and preserves the
 nonzero pairing. NG052 shows why only the nearby-specialization, support, and
-two-quotient calculation remains open. The
+two-quotient calculation remains open. B076 further proves that finite-cover
+unit and trace remain a split retract after nearby cycles. NG053 therefore
+blocks treating the root cover as a source of new boundary nonvanishing: the
+residual G042 problem is the original G032/G031 pairing-preserving
+specialization and quotient calculation. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
