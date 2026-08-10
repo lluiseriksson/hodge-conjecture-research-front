@@ -200,8 +200,9 @@ coordinates are not order invariant. B050 proves G022's universal rational
 coefficient-sheaf formula and higher-sheaf vanishing by an anchored SNC
 quotient. B051 proves G023's universal lower strict-support bound, and B052
 proves G024 and the full G019 channel for every central representable
-arrangement. G025 now isolates the analytic-to-central comparison needed for
-G015 as stated.
+arrangement. NG036 disproves G025's stronger analytic-linearization route;
+G026 now isolates invariance of only the rational IC/MHS channel needed for
+G015.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -264,6 +265,7 @@ python verification/verify_B049_wonderful_divisor_matrix.py
 python verification/verify_B050_coefficient_sheaf.py
 python verification/verify_B051_strict_support_bound.py
 python verification/verify_B052_residue_hypercohomology.py
+python verification/verify_NG036_analytic_linearization.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -312,6 +314,9 @@ duality and strict-support argument.
 The B052 check verifies the unique total-degree-one spectral position and
 triangular residue-kernel ranks in representative flat posets. The general
 result is B052's logarithmic-residue proof.
+The NG036 check verifies pairwise quasi-local transversality, triviality of
+the five-slope projective stabilizer, and the quadratic-jet obstruction to
+simultaneous analytic linearization.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

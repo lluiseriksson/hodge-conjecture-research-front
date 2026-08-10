@@ -106,10 +106,11 @@ giving the branch and flat coefficient sheaves with no higher sheaves and
 with rational type \((0,0)\). B051 closes G023, and B052 closes G024 and
 G019: the only total-degree-one
 arrow is B049's divisor-class residue map, whose kernel is the full rational
-type-\((0,0)\) relation space. G025 is now active. The immediate bricks are
-analytic linearization of the node-smoothing map, stratified preservation of
-the block incidence, and rational mixed-Hodge-module invariance of the IC
-stalk.
+type-\((0,0)\) relation space. NG036 disproves G025's analytic-linearization
+claim using five quasi-local curved branches with a quadratic modulus. G026
+is now active. The immediate bricks are a Whitney/Thom-controlled tangent
+deformation, identification of the complement local system, and rational
+mixed-Hodge-module invariance of the degree-one IC stalk.
 
 ## Sufficient parent: G014
 

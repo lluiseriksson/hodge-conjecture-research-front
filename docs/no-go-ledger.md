@@ -731,10 +731,31 @@
   inverse image.
 - **Invalid inference:** a later dominant center always avoids the earlier
   exceptional boundary.
-- **Precise obstruction:** for a point (F) on a smooth codimension-two
-  curve (G) in a threefold, blowing up (G) first turns (F) into
+- **Precise obstruction:** for a point \(F\) on a smooth codimension-two
+  curve \(G\) in a threefold, blowing up \(G\) first turns \(F\) into
   \(\mathbf P(N_{G/Y}|_F)\subset E_G\). Blowing this center up gives
   \([D_G]=[E_G^{\rm pull}]-[E_F]\).
 - **Re-entry condition:** calculate in an inclusion-compatible order and use
   Li's canonical wonderful model to transport the intrinsic labelled
   divisors. B049 implements this repair.
+
+## NG-036 - Quasi-local implies analytically linear
+
+- **Label:** NO-GO
+- **Route:** reduce G015 to B052 by simultaneously straightening every
+  Green-Griffiths quasi-local discriminant branch to its tangent hyperplane.
+- **Valid input:** the branches are smooth; at their codimension-two common
+  intersection every pair of local equations is a coordinate system; the
+  disjoint-node monodromies commute and are unipotent.
+- **Invalid inference:** these first-order and monodromy conditions remove
+  all higher analytic moduli.
+- **Precise obstruction:** for slopes (M=\{0,1,2,4,8\}), the branches
+  (y-mx-m^4x^2=0) satisfy the quasi-local condition. Their tangent set has
+  trivial projective stabilizer, while quadratic coordinate changes alter
+  their curvature vector only by values of a cubic polynomial. The vector
+  ((m^4)_{m\in M}) is not a cubic evaluation vector, so the branches cannot
+  all be straightened. Pullback from a submersive projective five-node family
+  preserves projectivity.
+- **Re-entry condition:** prove invariance only of the rational degree-one IC
+  channel and its mixed Hodge structure under deformation to the tangent
+  arrangement. This is G026.

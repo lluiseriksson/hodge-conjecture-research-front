@@ -2,7 +2,7 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 79% - independent Git repository, mandatory topology,
+- **Infrastructure:** 80% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
 - **Formal proof-chain closure:** 57% - B007 provides a fully quantified
@@ -204,9 +204,11 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B052/G019/G024 - PROVED: for every central representable arrangement and
   building set, the downstairs degree-one IC stalk is exactly the full
   rational type-\((0,0)\) relation kernel.
-- G025 - EXPLORATORY, active subgate: compare general q-block analytic nodal
-  germs with their central representable smoothing arrangements without
-  changing the rational IC channel.
+- G025/NG036 - NO-GO: Green-Griffiths quasi-local branches need not be
+  simultaneously analytically equivalent to their tangent arrangement; an
+  explicit five-branch quadratic invariant survives in a projective family.
+- G026 - EXPLORATORY, active subgate: prove invariance only of the rational
+  degree-one IC/MHS channel under deformation to the tangent arrangement.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.

@@ -312,6 +312,12 @@ normal functions I,” in *Algebraic Cycles and Motives*, London Mathematical
 Society Lecture Note Series 343 (2007), 206-263.
 [IAS author PDF](https://publications.ias.edu/sites/default/files/acycles1%28609%29.pdf)
 
+- Rechecked Section 4.1.1, pp. 4-5 for G025/NG036: quasi-local normal
+  crossings means a union of smooth divisors such that, on a transverse
+  slice to their common intersection, every subset of at most the
+  intersection codimension of the local equations is part of a coordinate
+  system; the local monodromies must commute and be unipotent. It does not
+  assert simultaneous analytic equivalence to the tangent hyperplanes.
 - Checked Section 4.2.3, pp. 14-15: under the local or quasi-local
   normal-crossing hypotheses, the monodromy complex \(B^\bullet\) computes the
   relevant local intersection cohomology, and the rational singularity group
@@ -395,6 +401,10 @@ Society Lecture Note Series 343 (2007), 206-263.
   channel. It does not prove that a specified Hodge class maps nontrivially
   into it. The paper's constructions from a subvariety \(W\) already assume
   an algebraic cycle and cannot be used circularly for G006.
+- NG036 applies the checked definition to five smooth plane branches with
+  pairwise independent differentials. Its quadratic-jet computation shows
+  that the definition permits analytic moduli, so G025 cannot upgrade the
+  source hypothesis to simultaneous analytic linearization.
 - Local retrieval SHA-256:
   `4D1DB080F19E77E4627462C7684F822CE1E18EFD783E0D00ABA65BEE7DDB61A0`.
 

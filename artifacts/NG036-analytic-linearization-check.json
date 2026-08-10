@@ -1,0 +1,9 @@
+{
+  "slopes": [0, 1, 2, 4, 8],
+  "pair_determinants": [1, 2, 4, 8, 1, 3, 7, 2, 6, 4],
+  "projective_stabilizer_size": 1,
+  "cubic_evaluation_rank": 4,
+  "augmented_curvature_rank": 5,
+  "simultaneously_linearizable": false,
+  "scope": "quadratic-jet analytic obstruction only"
+}

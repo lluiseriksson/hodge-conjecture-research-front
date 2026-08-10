@@ -74,7 +74,8 @@ boundary, not an induction mechanism.
 | universal coefficient sheaf | B050 proves G022: the origin residue anchors every SNC cokernel, giving exactly the branch lines and exceptional W_F terms, with no higher cohomology sheaves | global residue hypercohomology and lower strict supports remain open |
 | universal strict-support bound | B051 proves G023: every non-full-support wonderful direct-image summand begins in ordinary degree at least two | does not compute global residue hypercohomology |
 | universal residue channel | B052 proves G024 and G019: B049's divisor matrix is the sole degree-one differential and its kernel is the full rational type-(0,0) relation space | central representable arrangements only |
-| analytic comparison gate | G025 asks whether a general q-block quasi-local nodal germ has the same rational IC channel as its tangent central arrangement | nonlinear and nonversal effects are unproved |
+| analytic linearization NO-GO | NG036 disproves G025: five quasi-local smooth plane branches have a quadratic analytic modulus absent from their tangent lines | analytic equivalence is stronger than the needed IC comparison |
+| IC invariance gate | G026 asks whether deformation to the tangent arrangement preserves exactly the rational degree-one IC/MHS channel | Whitney/Thom and Hodge specialization compatibility are unproved |
 | arbitrary building-set gate | G019 asks for the full residue kernel, strict-support bound, and rational type-(0,0) comparison for every representable wonderful arrangement | arbitrary exceptional incidence may add coefficient-sheaf classes not seen in B044-B048 |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
@@ -249,7 +250,8 @@ sufficient unanchored two-block span theorem. B034 shows that the
 fixed-carrier route cannot scale that bipartite target for \(n\ge3\);
 G015 is the narrowest active local gate; G019 is its general arrangement
 subgate. B049-B052 prove it for every central representable arrangement, and
-G025 is the current analytic-comparison brick needed for G015.
+NG036 closes the analytic-linearization route as a NO-GO; G026 is the
+current invariant-channel comparison brick needed for G015.
 B035 makes that gate finite and explicit at its first new instance: compute
 the intermediate extension for the Picard-Lefschetz local system on the
 five-marked exceptional \(\mathbf P^1\) resolving \(U_{2,5}\). NG-033
