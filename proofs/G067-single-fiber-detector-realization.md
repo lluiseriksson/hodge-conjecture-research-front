@@ -26,7 +26,7 @@ Let $C_{\mathrm{dist}}$ be G055's marked thimble complex for the actual B057
 word. Construct a collision-induced chain map
 
 \[
- \Lambda:C_{\mathrm{dist}}longrightarrow C_*(Y_c,Z_c;\mathbf Z)
+ \Lambda:C_{\mathrm{dist}}\longrightarrow C_*(Y_c,Z_c;\mathbf Z)
 \]
 
 and prove that the chosen detector representative $t$ maps to

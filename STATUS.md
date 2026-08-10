@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 88% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 97% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 98% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -171,8 +171,10 @@ Date: 2026-08-10
   global gluing and identifies the relative groups; NG079/G067 reduce the
   gate to the single-fiber realization of the distributed chain. B104 proves
   one class-specific relative bordism is enough and packages its exact
-  lift-independent obstruction coset; NG080/G068 remove the unnecessary
-  full-complex map.
+  lift-independent obstruction coset; NG080 removes the unnecessary
+  full-complex map. B105/NG081 correct the remaining overconstraint: Saito's
+  terminal theorem only needs a nonzero scalar pairing, so G069 replaces
+  coset vanishing by the exact class-specific scalar inequality.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -642,9 +644,19 @@ generation from the controlled partitioned nodal locus is not proved.**
   nearby-fiber ambiguity; it vanishes exactly when a relative bordism exists.
 - NG080 - NO-GO: a chain map on the entire distributed thimble complex is
   sufficient but unnecessary for the selected detector.
-- G068 - EXPLORATORY, active smallest gate: construct the collision pair,
+- G068 - EXPLORATORY, stronger optional mechanism: construct the collision pair,
   define and kill B104's obstruction coset for the selected detector, and
   make its ambient realization restrict to B098 and Saito.
+- B105 - PROVED: the exact terminal discrepancy is
+  $D_\zeta(c,\beta)=\langle\zeta,c-\Phi_{Y_0}(\beta)\rangle$, and Saito
+  detection is equivalent to
+  $D_\zeta(c,\beta)\ne\langle\zeta,c\rangle$.
+- NG081 - NO-GO: vanishing of B104's relative-bordism coset is sufficient
+  but not necessary; its primitive ambient image or its scalar pairing may
+  vanish while the coset remains nonzero.
+- G069 - EXPLORATORY, active smallest gate: construct the actual canonical
+  nodal relation and prove B105's exact scalar inequality. G068 remains a
+  stronger optional mechanism.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

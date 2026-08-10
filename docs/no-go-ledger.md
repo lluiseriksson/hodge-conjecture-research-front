@@ -1493,5 +1493,26 @@
 - **Precise obstruction:** B104 shows the selected detector only requires one
   target lift to be relatively bordant to it. The exact invariant is a
   difference coset modulo the absolute nearby-fiber lift ambiguity.
-- **Re-entry condition:** G068 must construct the collision total-space pair,
-  prove that coset vanishes, and verify the ambient realization.
+- **Re-entry condition:** G068 may construct the collision total-space pair
+  and kill the coset as a sufficient route, but B105/NG081 reduce the exact
+  terminal obligation further to G069's scalar inequality.
+
+## NG-081 - The relative-bordism obstruction coset must vanish
+
+- **Label:** NO-GO
+- **Route:** require B104's class
+  $\overline\Omega(t,\beta)$ to vanish before the collision can furnish a
+  Saito detector for the specified Hodge class.
+- **Valid input:** coset vanishing gives one relative bordism and forces full
+  compatible primitive ambient equality with B058's class $c$.
+- **Invalid inference:** full relative bordism is necessary for terminal
+  detection.
+- **Precise obstruction:** S022's criterion only asks that
+  $\langle\zeta,\Phi_{Y_0}(\beta)\rangle$ be nonzero. B105 rewrites this as
+  $D_\zeta(c,\beta)\ne\langle\zeta,c\rangle$. A nonzero relative coset can
+  die under primitive ambient realization or under the final pairing.
+- **Countermodel:** in $\mathbf Q^2$, the nonzero coset $(0,1)$ is killed by
+  the ambient map $(x,y)\mapsto x$; the full ambient discrepancy is already
+  zero without a relative bordism.
+- **Re-entry condition:** G069 must construct the actual canonical nodal
+  relation and prove B105's exact scalar inequality.

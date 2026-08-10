@@ -242,12 +242,13 @@ retraction is already global and identifies the relevant relative groups;
 NG079 removes a second collapse-gluing construction as redundant. G067 is
 the active minimal gate: realize the distributed detector in the single
 nearby-fiber pair $(Y_c,Z_c)$ with the canonical marked boundary and ambient
-value $c$. B104 then reduces the required comparison to one
-lift-independent obstruction coset in a collision total-space pair. NG080
-closes a full map on every distributed thimble as unnecessary. G068 is the
-active minimal gate: construct that pair for the selected detector and prove
-the relative-bordism obstruction coset vanishes, with compatible ambient
-realization.
+value $c$. B104 then reduces that sufficient comparison to one
+lift-independent obstruction coset in a collision total-space pair, and
+NG080 closes a full map on every distributed thimble as unnecessary.
+B105/NG081 make the final endpoint correction: even the zero bordism coset is
+stronger than Saito's terminal criterion. G069 is the active minimal gate:
+construct the canonical nodal relation and prove that its scalar ambient
+discrepancy differs from the already nonzero detector pairing.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -485,6 +486,7 @@ python verification/verify_B101_marked_boundary_naturality.py
 python verification/verify_B102_local_collapse_scope.py
 python verification/verify_B103_good_retraction_scope.py
 python verification/verify_B104_bordism_obstruction_coset.py
+python verification/verify_B105_scalar_discrepancy.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -589,6 +591,10 @@ relative pair.
 The B104/NG080 check verifies lift-independence and exact vanishing of the
 relative-bordism obstruction coset in a finite model; the general result is
 the relative-chain argument in B104.
+The B105/NG081 check verifies the exact terminal scalar identity and gives a
+finite kernel model in which the bordism coset is nonzero but its primitive
+ambient discrepancy vanishes. It prevents treating a sufficient bordism as
+a necessary Hodge-conjecture gate.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

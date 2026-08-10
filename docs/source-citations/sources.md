@@ -454,6 +454,12 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   dual relative cycle. Hence separate local/exterior collapse gluing is not
   the remaining comparison; realization of B057's distributed chain in the
   single nearby pair is.
+- Rechecked Proposition 1 and Theorem 1 for B105/NG081: the terminal
+  condition for a fixed primitive class is nonvanishing of the scalar
+  pairing with $\gamma_\beta$. The paper does not require equality with a
+  separately chosen tube class, equality of relative representatives, or
+  vanishing of a relative-bordism obstruction. Those are sufficient
+  comparison mechanisms only.
 - For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
   thimble pair. Naturality proves the boundary square only after a map of
   pairs is supplied. S022 does not construct such a map from an arbitrary
