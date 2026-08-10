@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 39% - independent Git repository, mandatory topology,
+- **Infrastructure:** 42% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 16% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 19% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -13,15 +13,19 @@ Date: 2026-08-10
   support; B013 computes the distributed Picard-Lefschetz relation; B014
   excludes a formal hypercohomology shortcut; B015 proves the
   independent-node collision model; B001-B004 close separate reduction and
-  semiregular propagation implications. None is proof-assistant formalized,
-  and the class-directed global-to-local support gate is open.
+  semiregular propagation implications; B016 closes the finite-dimensional
+  detector-span equivalence; B017 proves finite stabilization and the finite
+  certificate form. None is proof-assistant formalized, and the
+  independent-node generation gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
 Strongest honest headline: **every nonzero primitive class has a nonzero
 global Green-Griffiths invariant, but its class-specific local support can
 only occur in codimension at least two; forcing that support to be nonempty is
-the unresolved terminal-equivalent gate.**
+the unresolved terminal-equivalent gate. Detection is now exactly equivalent
+to spanning primitive rational Hodge homology by Saito detector classes;
+generation from the controlled independent-node locus is not proved.**
 
 ## Active frontier
 
@@ -46,8 +50,14 @@ the unresolved terminal-equivalent gate.**
   appear in the relevant local cohomology-sheaf degree.
 - B015 - PROVED: independent nodes give the needed normal-crossing collision
   geometry and exact local IC channel, once the nodal member is supplied.
-- G008 - EXPLORATORY, active: force a class with nonzero global invariant to
-  have a nonzero associated local invariant somewhere.
+- B016 - PROVED: a collection detects every primitive rational Hodge class
+  exactly when its Saito detector classes span primitive Hodge homology.
+- B017 - PROVED: cumulative detector spans stabilize, and full generation for
+  a fixed variety has a finite detector-basis certificate.
+- G009 - EXPLORATORY, active: prove detector generation using all
+  independent-node members across high powers.
+- G008 - EXPLORATORY parent gate: force a class with nonzero global invariant
+  to have a nonzero associated local invariant somewhere.
 - G007 - EXPLORATORY mechanism: concentrate a global tube detector into a
   Saito relation at one singular member.
 - NG-008 - NO-GO: high degree and nontrivial ambient vanishing cycles do not
@@ -60,6 +70,12 @@ the unresolved terminal-equivalent gate.**
   do not by themselves prove nonempty local support.
 - NG-012 - NO-GO: no abstract perverse-sheaf implication can replace the
   missing special geometry of the hyperplane family.
+- NG-013 - NO-GO: the Green-Griffiths boundary-pullback program does not
+  furnish unconditional class-specific nonemptiness; its nodal construction
+  starts from an HC-supplied algebraic representative.
+- NG-014 - NO-GO: multiplying defining sections raises the polarization power
+  but produces a reducible divisor, not a canonical independent-node
+  detector transfer.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

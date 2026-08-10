@@ -409,6 +409,34 @@ Mathematics, Birkhäuser, 2023, 145-160.
 - Local retrieval SHA-256:
   7F74A3068E8DFC9D8CF8C2261314EEE18433E3140B00BE4B842AC57CB4E32374.
 
+## S026 - Boundary-class program for singular loci
+
+Mark Green and Phillip Griffiths, “Algebraic cycles and singularities of
+normal functions, II,” in *Inspired by S. S. Chern*, Nankai Tracts in
+Mathematics 11 (2006), 179-268.
+[IAS record and PDF](https://publications.ias.edu/node/272),
+[publisher DOI](https://doi.org/10.1142/9789812772688_0009).
+
+- Checked pp. 1 and 6-9: the proposed rational maps to partially compactified
+  Hodge-theoretic classifying spaces pull selected boundary components back
+  to singular loci locally. For a specified primitive Hodge class, the nodal
+  model used in the construction is obtained after assuming HC and writing
+  \(k_0\zeta=[W-H]\).
+- Checked pp. 7-8: nonzero pullback of a boundary fundamental class is
+  proposed as a topological route to nonempty inverse image. The
+  class-dependent map is studied on the Noether-Lefschetz locus, and the
+  discussion explicitly sets aside noncompactness issues and describes the
+  results as preliminary.
+- Checked p. 95, conclusions (5)-(8): the expected cycle-level formula
+  contains an unspecified correction term, and defining the needed universal
+  Jacobian compactification and boundary components is listed as a major
+  remaining issue.
+- Scope guard: this is a boundary-geometry research program, not an
+  unconditional proof of singular-locus nonemptiness. Its class-directed
+  nodal construction assumes an algebraic representative via HC.
+- Local retrieval SHA-256:
+  D75371126D39CB89EC6DC1AB533654D3F8FA96DA081BC9C8EF2BC5BE9A2FAF3A.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

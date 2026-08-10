@@ -238,3 +238,52 @@
   usable local model after an independent-node hyperplane is supplied, but a
   class-directed incidence theorem must still produce that hyperplane and
   prove nonzero restriction.
+
+## NG-013 - Boundary pullback cannot start from an HC-built singularity
+
+- **Label:** NO-GO
+- **Route:** use a rational period/normal-function map
+  \(\rho_\zeta\) to a partially compactified classifying space, prove the
+  pullback of a boundary fundamental class is nonzero, and infer a
+  class-specific singular hyperplane.
+- **Valid input:** Green-Griffiths II identifies selected singular-locus
+  components locally with inverse images of Hodge-theoretic boundary
+  components and proposes boundary-class pullback as an existence mechanism.
+- **Invalid inference:** the paper supplies an unconditional global
+  class-dependent map and nonzero pullback for an arbitrary primitive Hodge
+  class.
+- **Precise obstruction:** on pp. 6-7, the nodal point for \(\zeta\) is
+  produced after assuming HC and writing
+  \(k_0\zeta=[W-H]\), then choosing a general hypersurface containing \(W\).
+  This is the desired algebraicity input. On p. 8 the boundary-pullback
+  question is explicitly posed under HC and the results are described as
+  preliminary. On p. 95 the anticipated pullback formula still contains a
+  correction term, and the relevant universal Jacobian compactification and
+  boundary components are listed as objects to define.
+- **Re-entry condition:** construct the class-dependent global map and its
+  boundary cycle without an algebraic representative of \(\zeta\), control
+  compactification and excess-intersection corrections, and prove that the
+  nonzero pullback lands on an independent-node component carrying a
+  nonzero Saito pairing.
+
+## NG-014 - Raising the polarization does not transport local detectors
+
+- **Label:** NO-GO
+- **Route:** take a Saito detector in \(|mL|\), multiply its defining section
+  by a section of \(kL\), and regard the result as the same detector in
+  \(|(m+k)L|\); conclude that the individual detector spaces are monotone.
+- **Valid input:** multiplication of sections gives a map
+  \(H^0(X,mL)\times H^0(X,kL)\to H^0(X,(m+k)L)\). B017 independently proves
+  that the cumulative spans form an ascending chain.
+- **Invalid inference:** the product section defines an independent-node
+  member and canonically preserves the local vanishing relation and Saito
+  ambient class.
+- **Precise obstruction:** the zero divisor of the product is
+  \(Y+\operatorname{div}(s)\), hence reducible with a fixed component and
+  extra intersection singularities. It is not in the B015
+  independent-node locus in general. Neither the local relation space nor
+  \(\gamma_\beta\) has a canonical comparison across this degeneration.
+- **Re-entry condition:** construct a smoothing or correspondence between
+  powers that stays in controlled independent-node strata and prove through
+  the vanishing-cycle exact sequence that it preserves the ambient detector
+  class.

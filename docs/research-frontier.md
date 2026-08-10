@@ -1,25 +1,26 @@
 # Research frontier
 
-## Active gate: G008
+## Active gate: G009
 
-Given an arbitrary nonzero primitive rational middle Hodge class \(\zeta\),
-B012 supplies a nonzero global Green-Griffiths invariant. Prove that its
-codimension-at-least-two local support is nonempty by constructing a point
-\(p\) with \(s(\zeta)_p\ne0\). B012 identifies this with nonzero restriction
-to the singular hyperplane \(X_p\); B010 then supplies a local relation
-detector, and B007 propagates to the terminal conjecture.
+For arbitrary \((X,L)\), form the rational span of all Saito detector classes
+coming from independent-node hyperplane members across sufficiently high
+powers. Prove that this span equals primitive rational Hodge homology. B016
+then detects every nonzero primitive Hodge class; B010 and B007 propagate to
+the terminal conjecture. G008 remains the terminal-equivalent parent gate.
 
 Immediate bricks:
 
-1. Search for a theorem special to universal hyperplane variations that can
-   force \(s(\zeta)_p\ne0\); B014 rules out an abstract perverse-sheaf lemma.
-2. Test Hodge-adapted projective nets: a generic net can meet a nonempty
-   codimension-two component but cannot prove that it exists.
-3. Use B015's independent-node normal-crossing model as the target for G007;
-   construct such a member from the tube or prove that the incidence choice
-   cannot be made class-blindly.
-4. Prove or refute preservation of the tube's primitive class and nonzero
-   \(\zeta\)-pairing under specialization using Saito's exact sequence.
+1. Determine whether the independent-node detector span is stable under
+   genuine geometric comparison maps between polarization powers. B017 gives
+   only non-effective cumulative stabilization; NG-014 excludes multiplication
+   of defining sections as a comparison.
+2. Compare its annihilator with the global coinvariant maps in B011, without
+   coercing global tubes into local relations.
+3. Use B015's normal-crossing model as the target for G007 and identify the
+   exact class-preserving specialization datum still absent.
+4. Audit boundary/intersection constructions that define a global incidence
+   class without using an algebraic representative of \(\zeta\); NG-013
+   excludes the HC-dependent Green-Griffiths construction.
 5. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
 6. Keep the semiregularity gate G004 as an independent secondary route.
@@ -32,11 +33,11 @@ family.
 
 ## Latest bricks
 
-B012 proves global detection, local restriction detection, and the
-codimension-two support bound. B013 derives the exact distributed relation
-from a Picard-Lefschetz factorization. B014 gives a formal hypercohomology
-countermodel, while B015 proves the desired local collision model under the
-independent-node hypothesis. G008 isolates the missing support nonemptiness
-theorem; NG-011/NG-012 forbid inferring it from global nonvanishing, a generic
-slice, or abstract perversity. G007/NG-010 remain the concrete
-tube-concentration attempt and its class-directed incidence mismatch.
+B016 proves the detector-span equivalence, and B017 reduces full generation
+for a fixed variety to a finite detector certificate without constructing
+one. G009 is the independent-node generation gate, supported locally by B015.
+Green-Griffiths II supplies a
+boundary-class program but its class-directed nodal construction assumes HC,
+recorded as NG-013. NG-014 blocks naïve detector transfer between powers.
+G008 remains the terminal-equivalent support theorem; G007/NG-010 remain the
+concrete tube-concentration attempt and its class-directed incidence mismatch.

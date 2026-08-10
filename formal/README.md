@@ -66,6 +66,19 @@ formalization can prove this countermodel using shifts and
 interface whose input includes a chosen nodal hyperplane and the explicit
 independence condition \(H^1(I_{\Delta,X}(1))=0\).
 
+B016 is a realistic finite-dimensional formalization target. Given a perfect
+pairing \(H\times H^\vee\to\mathbf Q\), a family of detector vectors spans
+\(H^\vee\) if and only if every nonzero vector of \(H\) pairs nontrivially
+with some detector. This lemma can be kernel-checked without importing open
+geometry. G009 must remain an explicit hypothesis about the geometric
+detector family; no formal span axiom may assert it.
+
+B017 is the corresponding finite-dimensional ascending-chain lemma. A formal
+version may prove stabilization and extraction of a finite basis from a full
+union. It must expose the stabilization index as non-effective and must not
+invent comparison maps between the geometric detector families at distinct
+polarization powers.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

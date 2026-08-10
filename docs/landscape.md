@@ -34,6 +34,9 @@ boundary, not an induction mechanism.
 | Schnell tube mapping | global monodromy tubes generate all rational primitive middle cohomology when vanishing homology is nonzero | a global loop-fixed tube is not supported on one singular fiber and is not automatically a local Saito relation |
 | global/local Green-Griffiths invariants | B012 proves global detection of every primitive class and high-power local detection of restriction; possible local support has codimension at least two | nonzero global hypercohomology does not force a nonzero local stalk; support nonemptiness is terminal-equivalent for Hodge classes |
 | independent-node Severi geometry | B015 gives normal-crossing discriminant branches, expected-codimension partial smoothings, and the exact local IC channel once such a nodal member is fixed | does not construct the member from a specified Hodge class or force the class-specific restriction to be nonzero |
+| detector-span formulation | B016 turns detection by any chosen singular-member collection into equality of its Saito detector span with primitive rational Hodge homology | the independent-node span equality G009 is precisely the new open generation content |
+| finite detector certificate | B017 proves cumulative spans stabilize and full generation for a fixed variety is witnessed by finitely many detector classes | gives no effective power bound, no construction, and no monotonicity for the individual power-by-power spaces |
+| classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
 | reduction modulo primes | Frobenius and etale/Tate information | needs comparison, Tate-type algebraicity, and cycle lifting back to characteristic zero |
@@ -85,6 +88,13 @@ boundary, not an induction mechanism.
 15. **Incidence-after-selection fallacy:** B015 controls the deformation
     space around a chosen independent-node hyperplane. It does not select
     that hyperplane from \(\zeta\) or prove nonzero class-specific pairing.
+16. **Boundary-pullback circularity:** a period-map boundary class can force
+    an inverse image only after the global map, compactification, and nonzero
+    pullback are independently constructed. Green-Griffiths II builds its
+    class-specific nodal model from an HC-supplied algebraic representative.
+17. **Power-monotonicity fallacy:** multiplying a section in \(|mL|\) by one
+    in \(|kL|\) produces a reducible divisor in \(|(m+k)L|\), not a
+    class-preserving transfer between independent-node detector spaces.
 
 ## Open universal core
 
@@ -109,4 +119,8 @@ fixed loop. G008 asks for a global-to-local support theorem, while G007 is its
 geometric tube-concentration mechanism; both remain terminal-equivalent and
 open after universal quantification. B014 excludes a purely formal
 hypercohomology proof, and B015 proves the desired local collision geometry
-only after the class-directed nodal member is supplied.
+only after the class-directed nodal member is supplied. B016 repackages the
+remaining content as detector-span generation. G009 asks for this generation
+on the independent-node locus and is now the active sufficient gate. B017
+gives a finite certificate if the gate is true for a fixed variety, but
+NG-014 blocks the naïve comparison between powers.

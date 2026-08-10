@@ -14,8 +14,14 @@ Date: 2026-08-10. Overall status: **EXPLORATORY**.
 \text{class-specific nodal relation G006}
 \Longleftarrow
 \text{codimension-two support realization G008}
-\Longleftarrow
-\text{tube-to-local concentration G007}.
+\]
+
+Two sufficient attacks feed G008:
+
+\[
+\text{G008}\Longleftarrow\text{independent-node detector generation G009},
+\qquad
+\text{G008}\Longleftarrow\text{tube-to-local concentration G007}.
 \]
 
 The first equivalence is BFNP Theorem 1.3 and Theorems 6.5-6.6, audited in
@@ -101,10 +107,48 @@ implication is false for intersection complexes in general, so a proof must
 use the special geometric origin of the universal hyperplane variation and
 the class \(s(\zeta)\).
 
+## Detector-span reformulation
+
+For any collection \(\mathcal C\) of singular members, B016 defines
+
+\[
+ D_{\mathcal C}=
+ \operatorname{span}_{\mathbf Q}\{\gamma_\beta:(Y,\beta)\in\mathcal C\}
+ \subseteq H_{2n}^{\mathrm{prim}}(X,\mathbf Q(n))^{(0,0)}.
+\]
+
+The Hodge-Riemann pairing is nondegenerate on primitive rational Hodge
+classes. Therefore \(\mathcal C\) detects every nonzero primitive Hodge class
+if and only if \(D_{\mathcal C}\) is the entire primitive rational Hodge
+homology. This replaces a class-by-class existence quantifier by one exact
+finite-dimensional generation obligation.
+
+For all singular members, the equality is terminal-equivalent through B007
+and B010. Restricting to independent-node members gives the stronger
+sufficient theorem G009.
+
 ## Current smallest attackable brick
 
-**G008: codimension-two support realization.** Starting from the already
-nonzero global class \(s(\zeta)\), construct a discriminant point \(p\) with
+**G009: independent-node detector generation.** Prove that the Saito classes
+from every independent-node member across sufficiently high powers span
+
+\[
+ H_{2n}^{\mathrm{prim}}(X,\mathbf Q(n))^{(0,0)}.
+\]
+
+B015 makes every local summand auditable. B016 propagates span equality to
+G008 and then B007 to HC. A falsifier is a nonzero primitive rational Hodge
+class orthogonal to all such detector classes.
+
+B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize
+and full generation is witnessed by finitely many detector classes. This is a
+finite certificate form, not an effective construction: it neither bounds the
+required powers nor rules out stabilization at a proper subspace. NG-014
+prevents treating multiplication of defining sections as a comparison
+between the individual detector spaces at different powers.
+
+The parent gate G008 remains: starting from the already nonzero global class
+\(s(\zeta)\), construct a discriminant point \(p\) with
 
 \[
  s(\zeta)_p\ne0.
@@ -121,7 +165,8 @@ concentrates the global data at one higher-codimension point and produces
 This is falsifiable by a triple \((X,L,\zeta)\) whose global invariant is
 nonzero but every high-power local stalk vanishes. It is terminal-equivalent
 after universal quantification. G007 is retained as one concrete geometric
-mechanism proposed for closing G008.
+mechanism proposed for closing G008; if its specialization can be forced into
+the B015 independent-node locus for a spanning set, it would close G009.
 
 ## Attempt audit
 
@@ -155,6 +200,16 @@ The now-exact geometric sub-obligation is:
 
 B015 controls everything local to the right-hand object. The arrow remains
 terminal-equivalent because its nonzero restriction is precisely G005.
+
+## Boundary-pullback audit
+
+Green-Griffiths II proposes detecting singular loci as inverse images of
+boundary components of partially compactified Hodge-theoretic classifying
+spaces. This does not yet supply G009. Their class-directed nodal point is
+constructed after assuming HC and writing
+\(k_0\zeta=[W-H]\); the global boundary formula is left with an unspecified
+correction term and incomplete compactification data. Treating the proposed
+boundary pullback as unconditional nonemptiness is NG-013.
 
 ## Secondary anchored route
 
