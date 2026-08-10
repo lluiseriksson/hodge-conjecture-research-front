@@ -61,5 +61,6 @@ Hilbert scheme at the anchor plus tangent surjectivity forces dominance. Ran's
 all-order theorem and B004 prove both conditions from an injectively combined
 semiregular presentation. G004 asks whether every algebraic anchor admits such
 a presentation; assuming this from moving lemmas or Chern-character
-generation is NG-005. G001, existence of an anchor on every required Hodge
-locus, remains logically separate.
+generation is NG-005. B005 further rules out repairing a bad presentation by
+appending cancelling cycles (NG-006). G001, existence of an anchor on every
+required Hodge locus, remains logically separate.

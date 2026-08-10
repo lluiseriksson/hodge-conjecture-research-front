@@ -8,11 +8,12 @@ deformation and globalization implications once such a presentation exists.
 
 Immediate bricks:
 
-1. Test stabilization by adding rationally trivial lci pairs.
-2. Test smooth alterations plus pushforward, without confusing the altered
+1. **Closed NO-GO (B005):** appending rationally trivial or positive lci
+   components cannot remove an existing kernel.
+2. Test genuine replacement by smooth alterations plus pushforward, without confusing the altered
    normal bundle with the embedded obstruction theory on the target.
-3. Test sufficiently positive complete intersections with cancelling
-   coefficients; dimension growth is not injectivity.
+3. Check whether a rationally equivalent *replacement* can change the
+   obstruction space while preserving the class.
 4. Check stability under B001's products with projective space.
 5. If G004 fails, return to G001 and alternative propagation mechanisms such
    as normal-function singularities, keeping anchor existence explicit.
@@ -25,4 +26,5 @@ group and move to the next mechanism; do not promote a favorable family.
 B004 closes all Artin-local obstruction and proper-Hilbert globalization for
 an injectively combined semiregular presentation. The remaining issue is not
 deformation theory but universal existence of that presentation. G001 anchor
-existence remains a second, independent universal quantifier.
+existence remains a second, independent universal quantifier. B005 rules out
+direct-sum augmentation as a way to construct the required presentation.

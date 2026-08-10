@@ -34,6 +34,8 @@ universal gates: anchor access and semiregular presentation.**
 - NG-004: treating semiregularity as automatic/universal - `NO-GO`.
 - NG-005: deriving combined semiregularity from moving/K-theory generation -
   `NO-GO`.
+- B005/NG-006: appending cancelling or positive cycles cannot repair a
+  noninjective combined map - `PROVED` / `NO-GO`.
 
 No line in this file is a claim that the standard rational Hodge Conjecture is
 resolved.

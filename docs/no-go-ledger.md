@@ -78,3 +78,16 @@
 - **Re-entry condition:** prove a stabilization operation that preserves the
   Chow class while explicitly killing the kernel of the combined
   semiregularity map.
+
+## NG-006 - Appending cycles cannot kill the old kernel
+
+- **Label:** NO-GO
+- **Route:** start from a non-semiregular presentation and append cancelling
+  rationally trivial pairs or sufficiently positive complete intersections
+  until the combined semiregularity map becomes injective.
+- **Precise obstruction:** the enlarged obstruction space is a direct sum and
+  the enlarged map restricts to the old combined map. Every vector in the old
+  kernel survives as the same vector with zero new coordinates. See B005.
+- **Re-entry condition:** replace the original presentation through a
+  geometric operation that changes its obstruction space; mere augmentation
+  is permanently closed.
