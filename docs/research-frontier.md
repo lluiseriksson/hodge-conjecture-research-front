@@ -30,9 +30,13 @@ Immediate bricks:
 7. Do not treat intersection-one pairs as relations; B020/NG-017 prove the
    opposite for Schnell's pair and leave the two-ODP relation computation
    open.
-8. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+8. Compute any collision on the full vanishing-cycle complex. B021/NG-018
+   rule out preserving a matching pair class by class through the cusp
+   lattice; only basis change, extra cycles, or ambient-class preservation
+   remain possible.
+9. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-9. Keep the semiregularity gate G004 as an independent secondary route.
+10. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -51,6 +55,8 @@ recorded as NG-013. NG-014 blocks naïve detector transfer between powers.
 B018/NG-015 show that class-blind tautological complete intersections cannot
 provide primitive detectors. B019/NG-016 distinguish symplectic matching
 spheres from one-fiber Hodge detectors; B020/NG-017 show that Schnell's
-intersection-one pair is independent rather than relational. G008 remains the terminal-equivalent support
+intersection-one pair is independent rather than relational. B021/NG-018
+add a rank obstruction to the direct matching-pair-to-cusp specialization.
+G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

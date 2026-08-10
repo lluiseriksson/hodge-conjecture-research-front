@@ -39,6 +39,7 @@ boundary, not an induction mechanism.
 | tautological complete intersections | their classes and multiplicities are explicit and algebraic | B018 proves their primitive projections vanish, so they cannot detect primitive middle classes |
 | symplectic matching paths | B019: two transported thimbles over distinct critical values glue to a Lagrangian sphere in the audited four-dimensional setting | no algebraic one-fiber collision, Hodge-type certificate, or Saito-class identification follows |
 | intersection-one vanishing cycles | B020: Schnell constructs a pair with intersection number one and exhibits cusp/two-node dual-plane configurations | intersection one proves independence; a two-ODP member alone supplies no relation or nonzero detector |
+| matching-to-cusp collision | B021 compares the two audited local lattices in the projective-surface setting | a class-by-class comparison is rank-incompatible; any viable bridge needs basis change, extra cycles, or ambient-class preservation |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -108,6 +109,9 @@ boundary, not an induction mechanism.
 20. **Intersection-one relation fallacy:** vanishing cycles with pairing one
     are rationally independent. The occurrence of a two-node hyperplane in
     the same discriminant slice does not by itself supply another relation.
+21. **Collision-continuity fallacy:** a matching pair spans rank at most one,
+    while the cusp pair spans rank two. Individual vanishing-cycle classes
+    cannot simply be carried unchanged through the cusp collision.
 
 ## Open universal core
 
@@ -141,5 +145,6 @@ require any successful incidence construction to create non-tautological
 primitive homology rather than recycle polarization complete intersections.
 B019/NG-016 separate matching spheres from one-fiber Hodge detectors, and
 B020/NG-017 show that Schnell's intersection-one pair is not the missing
-relation. The remaining two-critical-value route needs a new algebraic
+relation. B021/NG-018 rule out the direct class-by-class cusp comparison in
+the audited surface case. The remaining two-critical-value route needs a new algebraic
 collision theorem preserving the detector class and rational Hodge type.

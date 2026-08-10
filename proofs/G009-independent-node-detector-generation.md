@@ -13,7 +13,7 @@ hodge_type: primitive type (0,0) after Tate twist; only type-(0,0) Saito relatio
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B010, B015-B020; boundary attempt audited in S026 and matching paths in S027
+dependencies: B010, B015-B021; boundary attempt audited in S026 and matching paths in S027
 claim: The rational span of Saito detector classes from all independent-node hyperplane members in all sufficiently high powers equals the primitive rational Hodge homology of X.
 falsifier: a polarized smooth projective 2n-fold with a nonzero primitive rational Hodge cohomology class orthogonal to every Saito detector class arising from every independent-node member in every sufficiently high power
 ---
@@ -127,6 +127,21 @@ rationally independent. The dual-plane node in the same proof corresponds
 to a two-ODP hyperplane, but no relation, type-\((0,0)\) statement, or
 nonzero Saito pushforward is proved for it. Confusing either configuration
 with a detector is NG-017.
+
+## Attempt 7 - Collide the matching endpoints through a cusp
+
+The cusp/Milnor-number-two point in Schnell's general dual-plane slice is
+the simplest available collision of two vanishing directions. B021 gives a
+rank obstruction to using it as a class-by-class preserving matching
+collision: the matching cycles are equal up to sign after transport, whereas
+the cusp cycles have intersection one and span rank two. Thus the individual
+cycle classes cannot be carried unchanged through this collision.
+
+This does not exclude a transformation involving braid monodromy, additional
+vanishing cycles, or preservation only of the final ambient tube class. It
+does exclude the direct matching-pair-to-cusp-pair identification, recorded
+as NG-018. Any surviving route must compute a larger specialization complex
+rather than invoke continuity of the two individual cycles.
 
 ## Re-entry condition
 

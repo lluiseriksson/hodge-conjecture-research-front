@@ -91,7 +91,9 @@ their classes are tautological and orthogonal to primitive cohomology.
 B019-B020 exclude two further shortcuts: a symplectic matching path is a
 distinct-fiber Lagrangian construction, not a one-fiber Hodge detector, and
 Schnell's intersection-one vanishing cycles are linearly independent rather
-than a relation.
+than a relation. B021 further proves, in the audited projective-surface
+setting, that a matching pair cannot enter the rank-two cusp lattice while
+preserving both individual cycle classes.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -104,7 +106,8 @@ class-directed construction begins under HC. G009 would imply the
 terminal-equivalent support theorem, but remains open. The sharpened next
 obligation is an algebraic collision theorem that preserves a global tube
 class while producing a rational type-\((0,0)\) relation on one
-independent-node member.
+independent-node member. The comparison must be computed on the full
+specialization complex rather than imposed cycle by cycle.
 The anchored G001/G004 route remains open as an independent secondary route.
 
 ## Repository map

@@ -99,6 +99,12 @@ independent; hence they cannot inhabit a nonzero two-generator relation
 kernel. Formalizing this fact would not construct relations at other
 multi-node members.
 
+B021 composes the B019 and B020 guards: an equal-up-to-sign pair has span of
+rank at most one, so no linear class-preserving map can identify it with an
+intersection-one pair of rank two. The theorem must remain scoped to the
+audited projective-surface comparison; it is not a formal obstruction to
+higher-dimensional collision mechanisms with additional cycles.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

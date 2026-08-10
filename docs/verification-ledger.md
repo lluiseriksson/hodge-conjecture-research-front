@@ -26,6 +26,7 @@
 | B018 | polarization complete intersections have zero primitive projection and pair trivially with every primitive middle class | PROVED | cup-product calculation in proofs/B018-tautological-primitive-orthogonality.md | excludes only detectors identified with the tautological complete-intersection class |
 | B019 | a four-dimensional matching path glues thimbles over two distinct critical values into a Lagrangian sphere, not a one-fiber Hodge detector | PROVED | Auroux Definition 8.1 and pp. 2214-2215; proofs/B019-matching-path-type-separation.md | audited theorem is symplectic and four-dimensional; no algebraic collision or Hodge-type theorem |
 | B020 | Schnell's intersection-one pair is rationally independent, while the adjacent two-ODP dual-plane point carries no proved relation conclusion | PROVED | Schnell Lemma 6 and Section 3.4; proofs/B020-intersection-one-is-not-relation.md | does not decide whether other multi-node configurations can carry relations |
+| B021 | a class-by-class preserving specialization cannot send a rank-one matching pair to Schnell's rank-two cusp pair | PROVED | B019-B020 and the rank argument in proofs/B021-matching-cusp-rank-obstruction.md | does not exclude basis change, extra cycles, or preservation only of the ambient tube class |
 | G001 | every middle class has an algebraic anchor in a connected Hodge locus | EXPLORATORY | no proof | may be as hard as HC |
 | G002 | anchored Hodge locus is dominated by relative cycle space | CONDITIONAL | sufficient theorem formulated; proof only when dominance is assumed | dominance is the open content |
 | G003 | every anchored class has a B002-good cycle representative | EXPLORATORY | no proof; semiregularity source seeded | likely fails without strong lci/obstruction hypotheses |
@@ -50,6 +51,7 @@
 | NG-015 | class-blind complete intersections supply primitive detector classes | NO-GO | B018 and G009 attempt 5 | a successful construction must obtain non-tautological primitive homology from new degeneration data without assuming an algebraic representative |
 | NG-016 | a symplectic matching sphere is automatically an independent-node Saito detector | NO-GO | B019, Auroux Definition 8.1, and G009 attempt 6 | requires an algebraic collision, one-fiber relation identification, and rational type-(0,0) proof |
 | NG-017 | Schnell's intersection-one pair or the mere existence of a dual-plane two-node point supplies a local detector relation | NO-GO | B020, Schnell Lemma 6, and G009 attempt 6 | intersection one proves independence; the two-node statement has no relation or Hodge-type conclusion |
+| NG-018 | collide a matching pair through the cusp model while preserving the two individual cycle classes | NO-GO | B021 and G009 attempt 7 | source span has rank at most one while the cusp pair spans rank two |
 
 ## Promotion rule
 

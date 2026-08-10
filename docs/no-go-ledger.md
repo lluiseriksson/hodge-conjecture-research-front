@@ -355,3 +355,24 @@
   a controlled multi-node algebraic collision, exhibit a nonzero kernel
   element of rational type \((0,0)\), and prove its ambient detector class
   survives and pairs nontrivially with the specified Hodge class.
+
+## NG-018 - A matching pair cannot enter the cusp pair unchanged
+
+- **Label:** NO-GO
+- **Route:** move the two critical values of a matching path together through
+  the cusp/Milnor-number-two model and identify the two vanishing cycles
+  before and after collision class by class.
+- **Valid input:** the matching cycles are isotopic in a common smooth fiber;
+  the cusp model has two vanishing cycles.
+- **Invalid inference:** continuity alone identifies the two matching-cycle
+  classes with Schnell's two cusp-cycle classes.
+- **Precise obstruction:** the matching classes agree up to orientation, so
+  their rational span has rank at most one. The cusp cycles have intersection
+  number one and span rank two. A linear comparison preserving both
+  individual classes cannot change this rank. B021 makes the contradiction
+  explicit.
+- **Re-entry condition:** use a degeneration with a computed braid/basis
+  change or additional vanishing cycles, and prove directly on the full
+  specialization complex that the ambient tube class maps to a nonzero
+  rational type-\((0,0)\) relation. Preserving only the ambient class remains
+  logically possible but unproved.

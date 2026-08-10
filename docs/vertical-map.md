@@ -167,6 +167,14 @@ nonzero relation \(\beta\) of rational type \((0,0)\), and prove that
 \(\gamma_\beta\) preserves the chosen global tube class or at least its
 nonzero pairing with \(\zeta\).
 
+B021 tests the simplest such bridge in the only dimension covered by the
+audited matching-path source. It cannot preserve the two individual cycle
+classes through the cusp: the matching pair spans rank at most one, whereas
+the cusp pair has intersection one and spans rank two. A viable comparison
+must therefore allow braid/basis change, extra cycles, or preservation only
+of the final ambient tube class. This is a local mechanism obstruction on
+surfaces, not global Hodge progress.
+
 The parent gate G008 remains: starting from the already nonzero global class
 \(s(\zeta)\), construct a discriminant point \(p\) with
 
@@ -207,8 +215,12 @@ the B015 independent-node locus for a spanning set, it would close G009.
    produces a Lagrangian sphere from distinct critical fibers, not a local
    type-\((0,0)\) relation. Replace it by Schnell's intersection-one pair -
    **linear-algebra error**. B020 proves that pair is independent.
+6. Collide the matching endpoints through the cusp while preserving the two
+   fiber classes - **rank error**. B021 shows that rank one cannot specialize
+   class by class to the intersection-one rank-two cusp lattice.
 
-Step 4 is NG-010. Step 5 is split into NG-016 and NG-017. Inferring a nonzero local class merely from global
+Step 4 is NG-010. Step 5 is split into NG-016 and NG-017; step 6 is NG-018.
+Inferring a nonzero local class merely from global
 nonvanishing or a generic slice is NG-011. The open construction must create
 a higher discriminant stratum and verify the specialization through Saito's
 exact sequence; merely factoring the global monodromy or increasing slice

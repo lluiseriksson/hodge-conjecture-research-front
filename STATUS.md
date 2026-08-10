@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 45% - independent Git repository, mandatory topology,
+- **Infrastructure:** 46% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 21% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 22% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -18,8 +18,9 @@ Date: 2026-08-10
   certificate form; B018 excludes tautological complete-intersection
   detectors by primitive orthogonality; B019 separates symplectic matching
   paths from local Hodge detectors; B020 proves that Schnell's
-  intersection-one pair is independent, not relational. None is
-  proof-assistant formalized, and the
+  intersection-one pair is independent, not relational; B021 adds the rank
+  obstruction to a class-by-class matching-to-cusp comparison in the audited
+  surface setting. None is proof-assistant formalized, and the
   independent-node generation gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
@@ -66,6 +67,9 @@ generation from the controlled independent-node locus is not proved.**
 - B020 - PROVED: Schnell's intersection-one vanishing cycles are rationally
   independent; the adjacent two-ODP dual-plane point supplies no relation
   theorem.
+- B021 - PROVED: a rank-one matching pair cannot specialize class by class
+  to Schnell's rank-two cusp pair; basis change, extra cycles, or preservation
+  only of the ambient class remain untested.
 - G009 - EXPLORATORY, active: prove detector generation using all
   independent-node members across high powers.
 - G008 - EXPLORATORY parent gate: force a class with nonzero global invariant
@@ -94,6 +98,8 @@ generation from the controlled independent-node locus is not proved.**
   independent-node Saito detector.
 - NG-017 - NO-GO: an intersection-one pair, or a bare two-node
   discriminant point, is not a proved local detector relation.
+- NG-018 - NO-GO: the two individual matching-cycle classes cannot be
+  identified unchanged with the cusp pair across collision.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.
