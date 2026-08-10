@@ -37,12 +37,19 @@ Starting from either explicit equation in B066, construct a proper modification,
 
 Failed by B066. Both final charts have positive-dimensional singular loci over their boundary axes. NG045 records why base SNC alone is insufficient.
 
+## Attempt 2 — use the Weyl root cover
+
+B067 makes the finite cover explicit and replaces the cusp by the \(A_2\)
+reflection arrangement, but the raw total family remains singular along all
+three pair-collision sections. B068 provides simultaneous resolution for a
+surface rational double point only. NG046 shows that this dimension never
+matches the odd-dimensional hyperplane fibers in the middle-degree route.
+G037 isolates the missing dimension-uniform extension and rational descent.
+
 ## Smallest next calculation
 
-In the \(a,c\) chart, analyze
-\[
-x^3+a^2cx+a^3c^2+\sum z_i^2=0
-\]
-by weighted blowups or a finite base change adapted to weights
-\(\mathrm{wt}(x,s,t)=(2,4,6)\). Determine the exceptional strata, their monodromy, and whether a rational full-support summand descends. No such construction is yet proved in this repository.
-
+Analyze B067's factorized root-cover equation in arbitrary odd fiber
+dimension and determine whether a functorial \(S_3\)-equivariant weighted
+resolution exists. Determine the exceptional strata, their monodromy, and
+whether a rational full-support summand descends. This is G037; no such
+dimension-uniform construction is yet proved in this repository.

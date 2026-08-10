@@ -77,6 +77,9 @@ Date: 2026-08-10
   NG044 excludes the one-coordinate quasi-ordinary shortcut. B066 shows the
   raw base-resolved family is still singular over \(E_3\cup E_2\), making
   G036's total-space semistable model and rational detector descent prior.
+  B067 computes the canonical \(S_3\) root cover; B068 verifies the
+  simultaneous-resolution theorem only for surface rational double points,
+  and NG046 leaves the dimension-uniform extension G037 open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -289,6 +292,16 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G036 - EXPLORATORY, active smallest subgate: build a proper semistable
   total-space model, label pushdown supports, and preserve the rational
   quotient-level detector pairing.
+- B067 - PROVED: the A2 ordered-root map is a degree-six S3 cover, pulls the
+  cusp back to the squared reflection arrangement, and leaves three singular
+  collision sections.
+- B068 - PROVED: the Weyl-cover simultaneous-resolution theorem applies to
+  surface A2 rational double points.
+- NG046 - NO-GO: that surface theorem does not cover the odd-dimensional
+  suspended A2 fibers arising in the middle-degree Hodge reduction.
+- G037 - EXPLORATORY, active smallest subgate: construct an S3-equivariant
+  semistable model uniformly in odd fiber dimension and descend the rational
+  full-support detector pairing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

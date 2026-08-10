@@ -1,0 +1,30 @@
+{
+  "expanded_root_polynomial": "u**2*v - u**2*x + u*v**2 - u*v*x - v**2*x + x**3",
+  "invariants": {
+    "s": "-u**2 - u*v - v**2",
+    "t": "u*v*(u + v)"
+  },
+  "cusp_pullback": "-(u - v)**2*(u + 2*v)**2*(2*u + v)**2",
+  "reflection_product": "2*u**3 + 3*u**2*v - 3*u*v**2 - 2*v**3",
+  "root_hyperplanes": [
+    "u-v",
+    "2*u+v",
+    "u+2*v"
+  ],
+  "generic_cover_degree": 6,
+  "weyl_group": "S3",
+  "total_family_gradient": [
+    "-u**2 - u*v - v**2 + 3*x**2",
+    "2*z",
+    "-(2*u + v)*(-v + x)",
+    "-(-u + x)*(u + 2*v)"
+  ],
+  "singular_sections": [
+    "S12",
+    "S13",
+    "S23"
+  ],
+  "blown_up_exceptional_multiplicity": 6,
+  "strict_root_line_multiplicity": 2,
+  "scope": "r=1 symbolic check; extra quadratic suspension variables contribute independent 2*z_i derivatives"
+}

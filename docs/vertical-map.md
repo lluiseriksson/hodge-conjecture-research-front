@@ -85,6 +85,21 @@ now prior to G035: construct a proper semistable total-space model, label its
 direct-image supports, and prove rational detector descent before attempting
 the filtered \((F,V_1,V_2)\) comparison.
 
+The canonical finite-cover branch is now
+\[
+\text{G036}
+\Longleftarrow
+\text{dimension-uniform Weyl semistable descent G037}
+\Longleftarrow
+\text{explicit }S_3\text{ root cover B067}.
+\]
+B067 turns the cusp into the three-line \(A_2\) reflection arrangement but
+leaves three singular collision sections in the total family. B068 imports
+the Weyl simultaneous-resolution theorem exactly for surface rational double
+points. NG046 blocks the dimension jump: middle-degree hyperplane fibers
+have dimension \(2n-1\), never two, and no audited theorem transports the
+surface resolution and detector pairing through arbitrary suspension.
+
 An externally claimed shortcut is closed separately:
 
 \[

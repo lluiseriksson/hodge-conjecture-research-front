@@ -1123,6 +1123,34 @@ Matthieu Kochersperger, “Mixed Hodge modules without slope,”
 - Local retrieval SHA-256:
   `622B4BF768D54B86102634C867D838EAF4C608EE24CD452C313703284DC48D81`.
 
+## S043 - Weyl covers and simultaneous resolution of rational surface singularities
+
+N. I. Shepherd-Barron, “Weyl group covers for Brieskorn's resolutions
+in all characteristics and the integral cohomology of \(G/P\),”
+[arXiv:1711.10439](https://arxiv.org/abs/1711.10439),
+[versioned PDF](https://arxiv.org/pdf/1711.10439v5) (2019).
+
+- Checked pp. 1-3: the paper concerns an affine **surface** with rational
+  singularities and the Artin component of its deformation space. It recalls
+  the Brieskorn characteristic-zero simultaneous-resolution result for
+  rational double points and identifies the required finite covering through
+  the associated Weyl group.
+- Checked Theorem 1.1, p. 1, and Theorem 2.10(1), p. 9: the simultaneous-
+  resolution cover is Galois with effective Weyl-group action and quotient
+  the Artin component.
+- Checked Theorem 2.10(2)-(3), p. 9: the cover is smooth and is the base of a
+  versal deformation of the minimal resolution; reflection fixed divisors
+  are the loci where the corresponding roots survive as effective curves.
+- For type \(A_2\), the Weyl group is \(S_3\), agreeing with B067's explicit
+  ordered-root cover.
+- Scope guard: the theorem uses a minimal resolution of a surface and a root
+  configuration of exceptional \((-2)\)-curves. It does not state a
+  simultaneous-resolution or semistable-model theorem for arbitrary
+  higher-dimensional quadratic suspensions, nor any rational mixed-Hodge or
+  detector-pairing descent result. B068 and NG046 enforce this boundary.
+- Local retrieval SHA-256:
+  `5144A5F56FE7CE4BCE841D83B07B471147B88BCF8A254C7626CA346D1FA71DDD`.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

@@ -933,3 +933,22 @@
 - **Re-entry condition:** construct the total-space modification or finite
   base change explicitly, track rational descent and all direct-image
   supports, and prove detector-pairing survival as required by G036.
+
+## NG-046 - Surface simultaneous resolution handles every suspended A2 gate
+
+- **Label:** NO-GO
+- **Route:** import the Weyl simultaneous resolution of a surface \(A_2\)
+  rational double point as G036's arbitrary-dimensional total-space model.
+- **Valid input:** B068/S043 proves the surface theorem, and B067 identifies
+  the same \(S_3\) root cover algebraically.
+- **Invalid inference:** quadratic suspension automatically extends the
+  simultaneous resolution, rational MHM descent, and detector compatibility
+  to the Hodge route.
+- **Precise obstruction:** after B001, the ambient variety has dimension
+  \(2n\), so a singular hyperplane fiber has odd dimension \(2n-1\), never
+  surface dimension two. S043 is formulated using a minimal surface
+  resolution and exceptional \((-2)\)-curves; it contains no dimension-
+  uniform suspension theorem.
+- **Re-entry condition:** prove G037 for every odd fiber dimension, including
+  an \(S_3\)-equivariant semistable model, support-by-support rational
+  pushdown, and survival of the quotient-level detector pairing.

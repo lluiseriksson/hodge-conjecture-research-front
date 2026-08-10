@@ -99,7 +99,10 @@ constructs its exact three-blowup SNC cusp model; G035 is the chartwise
 one-coordinate quasi-ordinary theorem. B066 then proves that the raw
 base-resolved total family remains singular over \(E_3\cup E_2\); NG045
 rejects base-SNC as semistability, and G036 is the new total-space model and
-descent gate. The
+descent gate. B067 computes the canonical degree-six \(S_3\) root cover;
+B068 verifies simultaneous resolution only for surface \(A_2\) rational
+double points. NG046 blocks that dimension jump, leaving G037 as the
+dimension-uniform equivariant semistable-descent gate. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
