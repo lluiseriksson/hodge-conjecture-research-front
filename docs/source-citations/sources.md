@@ -472,6 +472,11 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   triangle in §2.1, specialization is therefore an isomorphism in degree
   $2n+2$. This is used only after relative hard Lefschetz moves the proposed
   point support into that high direct-image degree.
+- Rechecked Theorem 3 and the ordinary-double-point specialization in §1.4
+  for B119/NG095: every local vanishing group is $\mathbf Q(-n)$, so the
+  rational relation kernel becomes a sum of $\mathbf Q(0)$ after
+  $\mathbf Q(n)$. This statement applies to the relation-grade quotient; it
+  does not require an arbitrary total special-stalk lift to be type $(0,0)$.
 - For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
   thimble pair. Naturality proves the boundary square only after a map of
   pairs is supplied. S022 does not construct such a map from an arbitrary

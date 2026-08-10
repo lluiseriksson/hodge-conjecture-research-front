@@ -105,7 +105,7 @@ boundary, not an induction mechanism.
 | toroidal coefficient parity | B079 gives a smooth projective toroidal product whose positive-genus fiber coefficient creates an odd degree-three proper-support term | NG056 disproves coefficient-blind parity; G044 must compute the exact normal-degree plus coefficient-degree convolution for the B057 chain |
 | detector support normalization | B080 converts the degree-one relation group to normalized direct-image degree $-1$ and shows divisor $b=0$ and point $b=-1$ are both toric-parity allowed | NG057 closes parity exclusion; G045 must compute the two multiplicity spaces and actual B058 class coordinates |
 | canonical detector grade | B081 separates the full/divisor $E_\infty^{-1,0}$ grade from the point $E_\infty^{0,-1}$ grade using the canonical perverse filtration | NG058 closes a total projection from an arbitrary derived splitting; G046 is the canonical full-support landing gate |
-| proper support in the original hyperplane incidence map | B117/S052 eliminate divisor pH^0 support by transverse next-degree constancy; B118 reflects point pH^(-1) support through relative hard Lefschetz into a high direct image made constant by S022 isolated vanishing concentration | NG093-NG094 guard both degree shifts; B117-B118 apply only to the original smooth incidence pushdown, while G080 must construct the selected nonzero nearby class and lift |
+| proper support and Hodge type in the original hyperplane incidence map | B117/S052 eliminate divisor pH^0 support; B118 reflects point pH^(-1) support into a constant high direct image; B119 identifies the forced remaining clean-nodal grade as type (0,0) without a type condition on the total lift | NG093-NG095 guard the two degree shifts and the total-lift overconstraint; G081 must construct the selected nonzero collision-invariant nearby class |
 | ambient target versus collision stalk | B082 audits the B022 arrow direction: local/thimble relations map through two quotients to primitive ambient homology, with no canonical reverse lift | NG059 closes the undefined $\operatorname{sp}(c)$ shortcut; G047 must construct collision data and a relative chain before G046 can inspect a stalk class |
 | nearby-to-special lift | B083 identifies the exact triangle $i^*K\to\Psi_fK\to\Phi_fK[1]$: a nearby class lifts precisely when its canonical vanishing-cycle obstruction is zero, and lifts may be nonunique | NG060 closes an automatic reverse-specialization map; G048 is the class-specific obstruction and lift calculation |
 | local invariant-cycle lift | B084 proves that a nearby IC class fixed by local collision monodromy for a proper variety map comes from the special fiber and therefore has zero vanishing-cycle obstruction | NG061 separates detector-loop and collision-parameter monodromies; G049 must realize and fix the specified B057 class |
@@ -309,8 +309,11 @@ B118 then removes the point-supported competing grade. Relative hard
 Lefschetz reflects a hypothetical point summand of ${}^pH^{-1}$ into
 ${}^pH^1$, where it would contribute to $R^{2n+2}$; S022's isolated
 vanishing-cycle concentration makes that high sheaf constant. NG094 guards
-against applying high-degree constancy before the reflection. G080 now asks
-only for the selected nonzero original nearby class and ordinary lift.
+against applying high-degree constancy before the reflection. B119/NG095
+then prove that the forced clean-nodal relation coordinate is type $(0,0)$
+even if the total rational lift is not. G081 now asks only for the selected
+nonzero original nearby class and its full collision-monodromy invariance;
+B084 supplies the rational lift.
 B024 verifies global quotient-level detection for complete intersections,
 but NG-021 prevents treating this special topological generation as HC.
 B025/NG-022 exclude internal Milnor relations. B026 separates exact defect

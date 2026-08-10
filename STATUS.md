@@ -769,11 +769,19 @@ generation from the controlled partitioned nodal locus is not proved.**
   ${}^pH^1$, where it would create a punctual summand in $R^{2n+2}$; S022's
   isolated vanishing-cycle concentration makes that sheaf constant, so the
   point grade $E_\infty^{0,-1}$ is zero.
-- G080 - EXPLORATORY, active smallest gate: realize the selected B058
-  detector as a nonzero nearby class in the original incidence object,
-  prove its vanishing-cycle obstruction zero, and construct a rational
-  type-$(0,0)$ ordinary lift. B117-B118 then force nonzero full-support
-  relevant-grade landing.
+- B119 - PROVED: every rational ordinary lift of a nonzero nearby class has
+  a nonzero full-support $E_\infty^{-1,0}$ coordinate, and at a clean nodal
+  target B093/S022 make that relation coordinate type $(0,0)$ automatically.
+- NG095 - NO-GO: requiring the total ordinary lift to be type $(0,0)$ is
+  unnecessary; an irrelevant non-$(0,0)$ component can lie in the kernel of
+  the relevant quotient.
+- G080 - EXPLORATORY parent: a rational collision-invariant nearby class is
+  enough; B084 supplies a rational ordinary lift and B117-B119 control its
+  relevant grade.
+- G081 - EXPLORATORY, active smallest gate: realize the selected B058
+  detector as a nonzero rational class in the original nearby object,
+  verify survival of both B022 quotients and the prescribed pairing, and
+  prove invariance under every local collision-monodromy generator.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

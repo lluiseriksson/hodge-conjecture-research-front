@@ -297,10 +297,12 @@ why the shifted-IC statement for $R^{2n-1}$ alone is one degree too low.
 B118 now eliminates the other perverse-grade alternative: relative hard
 Lefschetz would reflect point support from ${}^pH^{-1}$ into
 ${}^pH^1$, where it would create a punctual summand in the constant
-$R^{2n+2}$. NG094 guards against skipping that reflection. G080 is the
-active concrete gate: construct a nonzero selected nearby class and ordinary
-lift in the original pushdown. B117-B118 then make its relevant grade
-nonzero and full-support. G074 must then prove
+$R^{2n+2}$. NG094 guards against skipping that reflection. B119/NG095 remove
+the stronger demand that the total ordinary lift be type $(0,0)$: its forced
+nonzero clean-nodal relation grade has that type automatically. G081 is the
+active concrete gate inside G080: construct a nonzero selected nearby class
+in the original pushdown and prove full local collision-monodromy invariance;
+B084 then gives a rational lift. G074 must then prove
 ordinary liftability and preserve the nonzero prescribed pairing through
 both B022 quotients. G073 closes the source
 certificate, and G072 follows by
@@ -551,6 +553,7 @@ python verification/verify_B110_source_realization.py
 python verification/verify_B112_selected_excess.py
 python verification/verify_B113_a2_excess_descent.py
 python verification/verify_B114_invariant_landing.py
+python verification/verify_B119_relevant_grade_type.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -694,8 +697,10 @@ that computation. B117/S052 close the support clause for the original
 incidence pushdown by constancy of the next direct image on every transverse
 Lefschetz disk; NG093 guards the shift. B118/S022/S037 close the competing
 point grade by relative hard Lefschetz and isolated vanishing-cycle
-concentration; NG094 guards the second shift. G080 now requires the selected
-nonzero original nearby class and ordinary lift.
+concentration; NG094 guards the second shift. B119/NG095 make the relevant
+clean-nodal coordinate type $(0,0)$ without imposing that type on the total
+lift. G081 now requires the selected nonzero original nearby class and full
+collision-monodromy invariance; B084 supplies its rational ordinary lift.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

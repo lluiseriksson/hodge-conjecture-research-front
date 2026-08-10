@@ -298,6 +298,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G080: selected nonzero original nearby class and lift}
 \Longleftarrow
+\text{G081: selected collision-invariant original nearby class}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -352,9 +354,12 @@ shifted-IC theorem for $R^{2n-1}$ alone does not imply this. G079 is the
 remaining grade parent. B118 then removes its point-grade alternative:
 relative hard Lefschetz reflects any point support into ${}^pH^1$, but
 S022 makes the resulting $R^{2n+2}$ locally constant. NG094 records why
-high-degree constancy is unusable before this reflection. G080 is the
-remaining class-specific gate: construct a nonzero original nearby class
-and ordinary lift; its relevant coordinate is then nonzero and full-support.
+high-degree constancy is unusable before this reflection. B119/NG095 then
+remove the unnecessary demand that the total ordinary lift be type
+$(0,0)$: B093/S022 make the forced nonzero full-support clean-nodal relation
+grade pure Tate automatically. G081 is the remaining class-specific gate:
+construct a nonzero original nearby class fixed by the full local collision
+monodromy. B084 then supplies the rational ordinary lift.
 Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
@@ -528,8 +533,9 @@ coordinate zero. B116/NG092 block the smooth-discriminant shortcut, and
 G078 is the transverse-disk formulation. B117/S052 close its support
 multiplicity clause for the original pushdown; NG093 guards the one-degree
 shift. B118/S022/S037 remove the point grade, with NG094 guarding the
-reflection step. G080 is the active selected-class realization and ordinary
-lift calculation. G072 is
+reflection step. B119/NG095 make the relevant grade type $(0,0)$ without a
+type condition on the total lift. G081 is the active selected-class
+realization and collision-invariance calculation inside G080. G072 is
 the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.

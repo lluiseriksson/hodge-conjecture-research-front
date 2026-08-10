@@ -1749,3 +1749,23 @@
 - **Re-entry condition:** B118 applies relative hard Lefschetz supportwise,
   reflecting the term into ${}^pH^1$ and hence the genuinely constant
   $R^{d+3}$. The contradiction then becomes valid.
+
+## NG-095 - The total ordinary lift must be type (0,0)
+
+- **Label:** NO-GO
+- **Route:** require the entire rational ordinary special-stalk lift to be a
+  Hodge class before using its canonical relation-grade coordinate.
+- **Valid input:** the eventual nodal relation coordinate used by B010 must
+  be rational type $(0,0)$ after $\mathbf Q(n)$.
+- **Invalid inference:** all irrelevant components of the total lift must
+  have the same type.
+- **Precise obstruction:** in the rational Hodge morphism
+  $u:\mathbf Q(0)\oplus\mathbf Q(-1)\to\mathbf Q(0)$ that projects to the
+  first factor, $e_0+e_1$ is not a total type-$(0,0)$ vector but maps to the
+  nonzero type-$(0,0)$ vector $e_0$. B117-B118 force the geometric detector
+  coordinate into the remaining full-support grade, and B093/S022 make that
+  clean-nodal relation grade pure $\mathbf Q(0)$ after normalization. B119
+  records the exact geometric conclusion.
+- **Re-entry condition:** construct G081's nonzero rational original nearby
+  class and prove full local collision-monodromy invariance. B084 then gives
+  the rational lift; no total-lift type condition remains.

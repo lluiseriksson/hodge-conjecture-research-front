@@ -9,13 +9,13 @@ dimension: dim_C X = 2n; hyperplane fibers dimension 2n-1; plane base dimension 
 codimension: middle cycle codimension n; the former competing point support has base codimension two and is excluded by B118
 coefficient_field: Q
 cohomology_theory: selected relative thimble chains, original nearby and special mixed Hodge-module stalks, canonical perverse filtration, strict support, and the local invariant-cycle triangle
-hodge_type: selected nearby class, special lift, and E_infinity^(-1,0) coordinate rational type (0,0) after Q(n)
+hodge_type: no type condition on the total nearby class or lift; the nonzero E_infinity^(-1,0) clean-nodal coordinate is rational type (0,0) after Q(n) by B119
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B059, B081-B084, B110-B118, G047-G048, G073-G078, G080, NG059-NG060, NG086-NG094, S022, S037, S052
-claim: Construct the collision-certified selected nearby class and ordinary special lift directly in the original incidence pushdown and prove that the lift has a nonzero canonical E_infinity^(-1,0) coordinate; B117 then makes this coordinate full-support automatically.
-falsifier: undefined original nearby class, nonzero vanishing-cycle obstruction, absence of an ordinary lift, zero E_infinity^(-1,0) coordinate, confinement to E_infinity^(0,-1), wrong rational Hodge type, or loss of the prescribed detector provenance
+dependencies: B057-B059, B081-B084, B110-B119, G047-G048, G073-G078, G080-G081, NG059-NG060, NG086-NG095, S022, S037, S052
+claim: Construct the collision-certified selected nearby class and rational ordinary special lift directly in the original incidence pushdown; B117-B119 then force the lift to have a nonzero full-support type-(0,0) canonical E_infinity^(-1,0) coordinate.
+falsifier: undefined original nearby class, failure of full collision-monodromy invariance, absence of an ordinary lift, zero E_infinity^(-1,0) coordinate, confinement to E_infinity^(0,-1), non-clean-nodal target, or loss of the prescribed detector provenance
 ---
 
 # G079 — Make the selected original perverse grade nonzero
@@ -36,8 +36,9 @@ pushdown. The remaining class-specific obligation is therefore:
    [\beta]_{E_\infty^{-1,0}}\ne0;
    \]
 
-4. verify type \((0,0)\) after \(\mathbf Q(n)\) and retain the marked
-   collision provenance needed by the B022 and pairing tests.
+4. use B119 to obtain type \((0,0)\) after \(\mathbf Q(n)\) on this
+   coordinate, while retaining the marked collision provenance needed by
+   the B022 and pairing tests.
 
 The only remaining support alternative at detector total degree \(-1\) is
 the point-supported grade \(E_\infty^{0,-1}\). B118 now proves that this
@@ -49,7 +50,8 @@ full-support strict-support summand.
 ## Current obstruction
 
 No topology-changing construction yet carries the distributed B057 chain
-into the original nearby-cycle object as a nonzero class with an ordinary
-lift. The semistable cover can help compute this map, but its exceptional
-support must not be substituted for the original class. G080 is the exact
-remaining construction; G073-G075 retain its source and descent obligations.
+into the original nearby-cycle object as a nonzero class fixed by the full
+local collision monodromy. The semistable cover can help compute this map,
+but its exceptional support must not be substituted for the original class.
+G081 is the exact remaining construction inside G080; G073-G075 retain its
+source and descent obligations.
