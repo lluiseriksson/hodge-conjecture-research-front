@@ -1,0 +1,26 @@
+{
+  "finite_cases": {
+    "independent": {
+      "vanishing_cycle_rank": 4,
+      "anchor_rank": 4,
+      "coefficient_dimensions": [1, 2, 3],
+      "degree_one_dimension": 6,
+      "higher_terms_zero": true
+    },
+    "repeated_cycle": {
+      "vanishing_cycle_rank": 2,
+      "anchor_rank": 2,
+      "coefficient_dimensions": [1, 1],
+      "degree_one_dimension": 2,
+      "higher_terms_zero": true
+    },
+    "dependent_triple": {
+      "vanishing_cycle_rank": 2,
+      "anchor_rank": 2,
+      "coefficient_dimensions": [2, 2],
+      "degree_one_dimension": 4,
+      "higher_terms_zero": true
+    }
+  },
+  "scope": "finite anchored-quotient consistency only"
+}

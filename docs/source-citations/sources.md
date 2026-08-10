@@ -432,6 +432,12 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
 - B043 applies Proposition 1.7 at arbitrary-depth SNC strata, but only after
   the uniform-matroid geometry proves that at most \(d\) total boundary
   components meet and all pairwise logarithm products vanish.
+- B050 uses the full formula (1.4.1), not only its Hodge-number consequence:
+  the intermediate-extension stalk is the cohomology of the subcomplex with
+  degree-one term \(\bigoplus\operatorname{Im}N_i\) and higher terms the
+  images of residue products. Its own Picard-Lefschetz argument proves that
+  all products vanish and that the origin residue canonically splits the
+  degree-one quotient at every wonderful stratum.
 - Rechecked the proof of Theorem 3 in Section 2.7. The unipotent nodal
   vanishing cohomology is one-dimensional and pure of weight \(2n\), hence
   \(\mathbf Q(-n)\); after the \(\mathbf Q(n)\) normalization used in the

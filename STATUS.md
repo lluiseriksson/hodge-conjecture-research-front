@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 76% - independent Git repository, mandatory topology,
+- **Infrastructure:** 77% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 54% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 55% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -59,7 +59,8 @@ Date: 2026-08-10
   audit of the wonderful blow-up order. B048 handles the first fork and both
   permissible child orders. B049 proves the universal intrinsic Picard basis
   and strict-branch formula for all representable wonderful building sets;
-  NG035 records the failed raw-coordinate induction. None is
+  NG035 records the failed raw-coordinate induction. B050 proves the
+  universal rational coefficient-sheaf formula on their SNC strata. None is
   proof-assistant formalized, and the
   multipart local-channel gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -194,10 +195,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   permissible order; the geometric residue matrix is triangular.
 - NG035 - NO-GO: raw exceptional classes are not order invariant in a reverse
   nested blow-up; the intrinsic boundary basis is essential.
+- B050/G022 - PROVED: the anchored SNC quotient gives exactly the branch and
+  flat coefficient sheaves, no higher sheaves, and rational type \((0,0)\).
 - G019 - EXPLORATORY general subgate: prove or refute the corresponding
   theorem for arbitrary representable wonderful building sets.
-- G022 - EXPLORATORY, active subgate: prove the universal coefficient-sheaf
-  incidence and exclude higher coefficient cohomology on wonderful fibers.
+- G023 - EXPLORATORY, active subgate: prove that lower strict-support summands
+  in arbitrary wonderful direct images cannot contribute in ordinary degree
+  one.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.

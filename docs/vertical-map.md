@@ -268,9 +268,10 @@ proves the first nested pair in rank four. B047 proves a three-level nested
 chain in rank five, and B048 proves the first fork with order-independent
 child blow-ups. B049 proves G021's universal intrinsic divisor matrix for
 all building sets and permissible orders; NG035 excludes raw-coordinate
-order invariance. G019 remains the smallest unresolved general local subgate,
-and G022 isolates its coefficient-sheaf induction. Strict-support and Hodge
-comparisons remain separate. Only after a general nonuniform calculation is
+order invariance. B050 proves G022's universal coefficient-sheaf induction.
+G019 remains the smallest unresolved general local subgate, and G023 isolates
+its strict-support descent. Global hypercohomology remains separate. Only
+after a general nonuniform calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 

@@ -1,6 +1,6 @@
 ---
 brick_id: G022
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: the SNC boundary on the wonderful resolution of an arbitrary central representable nodal discriminant arrangement
 smoothness: the parameter slice and wonderful resolution are smooth, and the resolved boundary is simple normal crossing
@@ -13,7 +13,7 @@ hodge_type: after Q(n), every proposed degree-one branch or exceptional coeffici
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B042-B049, G019-G021, Green-Griffiths S021, and Saito S022
+dependencies: B042-B050, G019-G021, Green-Griffiths S021, Li S038, and Saito S022
 claim: On every wonderful fiber, the unshifted intermediate-extension complex has constant degree-zero sheaf K, degree-one sheaf equal to the generization-compatible sum of the branch coefficient lines and exceptional W_F sheaves, and no higher cohomology sheaves.
 falsifier: an SNC incidence stratum whose local intermediate-extension complex has an additional degree-one quotient, a nonzero cohomology sheaf in degree at least two, or a generization map not induced by the evident inclusions among W_F and branch lines
 ---
@@ -44,12 +44,13 @@ glue to
  \mathcal H^{\ge2}=0.
 \]
 
-The tested chain and fork arrangements satisfy this formula, but they do not
-prove it for arbitrary nested-set incidence. A proof must work over
-\(\mathbf Q\), not merely in the complex face-quiver category excluded by
-NG-034, and must verify compatibility at intersections of arbitrarily many
-boundary divisors.
+B050 proves the formula over \(\mathbf Q\) at arbitrary nested-set incidence.
+The origin residue anchors the local cokernel, and the equality
+\(\ker N_E=\bigcap_i\ker N_i\) makes the quotient split canonically into the
+other incident residue images. Pairwise residue products vanish, so no
+higher term survives. The construction commutes with generization and Li's
+canonical order comparison.
 
 G022 controls neither global cohomology of these sheaves nor lower strict
-supports under the proper direct image. Even if proved, G019 would still
-require those two audits before G015 could be promoted.
+supports under the proper direct image. G019 still requires those two audits
+before G015 can be promoted. The first is isolated as G023.

@@ -101,11 +101,12 @@ B049 closes G021's order-independent geometric induction. Every wonderful
 fiber has intrinsic Picard basis \(h,(e_F)\), every strict branch has class
 \(h-\sum_{F\subset H_i}e_F\), and the geometric residue matrix is triangular.
 NG035 records the failure of the stronger raw-exceptional-coordinate claim.
-G019 remains the general arrangement gate, with G022 now active: compute the
-degree-one coefficient sheaf for arbitrary nested-set incidence and exclude
-higher cohomology sheaves. The immediate bricks are an arbitrary-SNC local
-stalk calculation, its lift-quotient/generization maps, and either a proof of
-\(\mathcal H^{\ge2}=0\) or a precise counterexample.
+B050 closes G022: the origin residue anchors the arbitrary-SNC quotient,
+giving the branch and flat coefficient sheaves with no higher sheaves and
+with rational type \((0,0)\). G019 remains the general arrangement gate, with
+G023 now active. The immediate bricks are a normal-fiber formula for an
+arbitrary nested support, exact ambient/support shift bookkeeping, and either
+a proof that ordinary degree one is impossible or a concrete counterexample.
 
 ## Sufficient parent: G014
 
