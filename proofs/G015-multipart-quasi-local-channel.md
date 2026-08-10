@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B043, G012-G014, G016, Green-Griffiths S021, and Saito S022/S037
+dependencies: B009-B010, B028, B034-B044, G012-G014, G016-G017, Green-Griffiths S021, and Saito S022/S037
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -258,6 +258,23 @@ This exhausts the simple uniform case but not G015. G016 now fixes the
 narrowest nonuniform test: seven rank-three branches with exactly one
 dependent triple. Its second wonderful-model blow-up is the first place
 where a dependent-flat exceptional divisor may alter the relation channel.
+
+## Attempt 11 - One dependent flat
+
+B044 proves G016. On \(Z=\operatorname{Bl}_p\mathbf P^2\), the new
+exceptional curve has coefficient
+\(W_F=\operatorname{span}\{\delta_1,\delta_2,\delta_3\}\). In the basis
+\(h,e\), the residue equations are the global relation equation and the
+assignment of the exceptional coefficient to the partial triple sum.
+Projection is therefore an isomorphism onto the full relation space.
+
+The composite map has possible strict support on the dependent flat, but
+all such summands begin in ordinary degree two. The degree-one downstairs
+IC stalk remains the pure type-\((0,0)\) relation kernel.
+
+G017 is the next test: two dependent triples share one branch. Its two
+exceptional equations share one vanishing-cycle coefficient and must be
+checked simultaneously before any induction over a building set is valid.
 
 ## Propagation
 

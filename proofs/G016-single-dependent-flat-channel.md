@@ -1,6 +1,6 @@
 ---
 brick_id: G016
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: a three-dimensional nodal smoothing slice with seven central discriminant hyperplanes whose matroid has exactly one dependent triple, together with its wonderful resolution
 smoothness: the parameter threefold is smooth; the central projective fiber has seven ordinary double points and nearby fibers are smooth; the unresolved projectivized divisor has one triple point
@@ -13,7 +13,7 @@ hodge_type: the sought downstairs degree-one relation channel must be pure of ty
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B035-B043, and G015
+dependencies: B009-B010, B035-B044, and G015
 claim: For a rank-three seven-branch arrangement with exactly one dependent triple and no other dependent triple, the wonderful-resolution degree-one IC channel descends to the full rational vanishing-cycle relation kernel and is pure type (0,0) after Q(n).
 falsifier: a wonderful exceptional-flat stratum that kills a rational relation, creates a spurious degree-one class, contributes a degree-one proper-direct-image summand, or changes the Tate type
 ---
@@ -64,15 +64,39 @@ three branch residues or imposes an additional quotient on the global
 seven-cycle relation kernel. Then audit the perverse shifts for the
 two-stage proper map.
 
+## Resolution of the gate
+
+B044 performs this calculation. The fiber over the origin is
+\(Z=\operatorname{Bl}_p\mathbf P^2\). If \(C\) is its exceptional curve,
+the degree-one sheaf is
+
+\[
+ (W_F)_C\oplus\bigoplus_{i=1}^7\mathbf Q_{M_i},
+ \qquad W_F=\operatorname{span}\{\delta_1,\delta_2,\delta_3\}.
+\]
+
+In the divisor-class basis \(h,e\), the residue equations are
+
+\[
+ \sum_{i=1}^7a_i\delta_i=0,
+ \qquad
+ w=\sum_{i=1}^3a_i\delta_i.
+\]
+
+Thus projection to \((a_i)\) identifies the resolved kernel with the full
+seven-cycle relation space. The composite direct image can have strict
+support on the dependent flat, but its curve-supported and point-supported
+summands begin in ordinary degree two. Degree one is the downstairs
+full-support IC stalk, and Saito's normalization makes it pure type
+\((0,0)\).
+
 ## Propagation
 
-G016 is the first nonuniform-flat test of G015. A positive result would
-justify induction over a building set of dependent flats only after proving
-compatibility for nested flats. A failure would identify nonuniform
-incidence, rather than the number of smoothing blocks, as the local
-topological obstruction.
+G016 is the first proved nonuniform-flat test of G015. It justifies moving
+to several flats only after proving compatibility for overlapping or nested
+building-set centers.
 
 ## Scope guard
 
-G016 is unproved. It assumes no desired algebraic cycle and makes no claim
-about arbitrary arrangements or the general Hodge Conjecture.
+G016 assumes no desired algebraic cycle and makes no claim about arbitrary
+arrangements or the general Hodge Conjecture.

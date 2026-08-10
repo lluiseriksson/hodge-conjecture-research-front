@@ -70,10 +70,16 @@ ordinary degrees \(2,3,4\). B043 extends the calculation to every simple
 uniform \(U_{d,r}\): point-supported terms range from ordinary degree \(2\)
 to \(2d-2\), never degree one.
 
-The active falsifiable subgate is G016, the smallest nonuniform test: a
-rank-three seven-branch arrangement with exactly one dependent triple. Its
-wonderful resolution requires a second blow-up over that flat, and the new
-exceptional incidence differential has not been computed.
+The first nonuniform subgate G016 is closed by B044. On
+\(\operatorname{Bl}_p\mathbf P^2\), the exceptional-flat residue coefficient
+is forced to the partial triple sum, and the remaining equation is exactly
+the full seven-cycle relation. Flat-supported direct-image summands begin in
+ordinary degree two.
+
+The active falsifiable subgate is G017: two dependent triples share one
+branch. Their two exceptional residue equations both contain the shared
+vanishing-cycle coefficient, so compatibility must be proved before any
+building-set induction.
 
 ## Sufficient parent: G014
 
@@ -119,13 +125,12 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Compute G016's second-exceptional local sheaf, residue differential, and
-   gluing to the three branches through the dependent flat.
-2. Audit the perverse support shifts for the composite two-stage blow-up and
-   determine whether ordinary degree one remains the full-support IC stalk.
-3. If G016 succeeds, formulate the nested-flat induction required for a
-   general wonderful resolution; if it fails, record the lost or spurious
-   relation as a NO-GO.
+1. Compute G017's residue map in the divisor-class basis
+   \(h,e_{123},e_{145}\) and test projection onto the global relation space.
+2. Audit all strict supports for the two dependent flats and their common
+   branch.
+3. If G017 succeeds, test a genuinely nested building-set pair in rank at
+   least four; if it fails, record the lost or spurious relation as a NO-GO.
 3. If G015 holds, replace the two-block constraint by Edmonds'
    \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
    fixed-carrier constructions.

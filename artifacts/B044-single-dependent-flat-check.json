@@ -1,0 +1,28 @@
+{
+  "exceptional_fiber": "Bl_p(P^2)",
+  "divisor_classes": {"C": "e", "M_1_to_3": "h-e", "M_4_to_7": "h"},
+  "residue_equations": [
+    "sum_1^7 a_i delta_i = 0",
+    "w - sum_1^3 a_i delta_i = 0"
+  ],
+  "tested_cases": [
+    {"flat_span_rank": 1, "total_span_rank": 1, "resolved_kernel_dimension": 6, "relation_dimension": 6},
+    {"flat_span_rank": 1, "total_span_rank": 2, "resolved_kernel_dimension": 5, "relation_dimension": 5},
+    {"flat_span_rank": 1, "total_span_rank": 3, "resolved_kernel_dimension": 4, "relation_dimension": 4},
+    {"flat_span_rank": 1, "total_span_rank": 4, "resolved_kernel_dimension": 3, "relation_dimension": 3},
+    {"flat_span_rank": 1, "total_span_rank": 5, "resolved_kernel_dimension": 2, "relation_dimension": 2},
+    {"flat_span_rank": 2, "total_span_rank": 2, "resolved_kernel_dimension": 5, "relation_dimension": 5},
+    {"flat_span_rank": 2, "total_span_rank": 3, "resolved_kernel_dimension": 4, "relation_dimension": 4},
+    {"flat_span_rank": 2, "total_span_rank": 4, "resolved_kernel_dimension": 3, "relation_dimension": 3},
+    {"flat_span_rank": 2, "total_span_rank": 5, "resolved_kernel_dimension": 2, "relation_dimension": 2},
+    {"flat_span_rank": 2, "total_span_rank": 6, "resolved_kernel_dimension": 1, "relation_dimension": 1},
+    {"flat_span_rank": 3, "total_span_rank": 3, "resolved_kernel_dimension": 4, "relation_dimension": 4},
+    {"flat_span_rank": 3, "total_span_rank": 4, "resolved_kernel_dimension": 3, "relation_dimension": 3},
+    {"flat_span_rank": 3, "total_span_rank": 5, "resolved_kernel_dimension": 2, "relation_dimension": 2},
+    {"flat_span_rank": 3, "total_span_rank": 6, "resolved_kernel_dimension": 1, "relation_dimension": 1},
+    {"flat_span_rank": 3, "total_span_rank": 7, "resolved_kernel_dimension": 0, "relation_dimension": 0}
+  ],
+  "non_full_support_H1_contribution": 0,
+  "kernel_hodge_type": "(0,0)",
+  "scope": "exact residue-matrix and shift bookkeeping only"
+}

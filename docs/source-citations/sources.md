@@ -350,6 +350,10 @@ Society Lecture Note Series 343 (2007), 206-263.
   \(\mathbf P^{d-1}\), every branch residue has the same hyperplane class,
   and the degree-one connecting morphism is still the sum of residues. The
   uniform SNC and direct-image arguments are proved inside B043.
+- B044 uses the same SNC residue morphism on
+  \(\operatorname{Bl}_p\mathbf P^2\), but the two divisor-class components
+  and the coefficient (W_F\) on the new exceptional curve are computed
+  inside B044; they are not asserted by S021.
 - Checked pp. 18-19 visually and against OCR: the paper explicitly defines
   \(\rho(ii)\) as the dimension of the image of
   \(H_{2n}(X_{s_0})\to H_{2n}(X)_{\mathrm{prim}}\), alongside relations,
@@ -835,6 +839,10 @@ American Mathematical Society* 46 (2009), 535-633,
   \([-(d-2),d-2]\) from the exceptional cohomological amplitude before
   invoking Saito decomposition. The source supplies decomposition and
   strict support, not the amplitude estimate.
+- B044 uses Saito decomposition only after separately auditing the generic
+  dependent-flat stratum and the origin. The possible strict support on the
+  flat is retained and shifted explicitly; it is not discarded by a
+  semismall shortcut.
 - Scope guard: the theorem separates the downstairs full-support IC summand
   from point-supported summands. It does not calculate the latter's Hodge
   structures and does not prove that the degree-one relation group has type
