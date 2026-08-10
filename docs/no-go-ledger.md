@@ -1661,3 +1661,21 @@
   global coefficient object and prove a nonzero invariant full-support
   projection in the canonical perverse grade. This is G042's existing
   class-landing obligation in selected-chain coordinates.
+
+## NG-090 - The root cover creates full-support landing
+
+- **Label:** NO-GO
+- **Route:** pass to the semistable $S_3$ root cover and use its invariant
+  full-support summand to obtain a nonzero selected coordinate without
+  proving the original downstairs specialization coordinate is nonzero.
+- **Valid input:** the cover supplies a canonical invariant full-support
+  Hodge object and exact rational averaging.
+- **Invalid inference:** those operations create class-level nonvanishing.
+- **Precise obstruction:** B114 applies B074/B076 on the canonical perverse
+  grade: covered invariants and the original full-support object are
+  isomorphic, with unit and normalized trace inverse. Their selected
+  coordinates vanish or do not vanish together.
+- **Re-entry condition:** G076 must construct the original selected nearby
+  class and ordinary lift and prove its canonical full-support projection
+  nonzero. This is G043 with the class-specific collision provenance made
+  explicit, not a new reduction.

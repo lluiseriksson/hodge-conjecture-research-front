@@ -288,6 +288,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G075: global invariant full-support excess landing}
 \Longleftarrow
+\text{G076: downstairs selected full-support landing}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -322,7 +324,10 @@ construct and evaluate that selected excess. B113/NG089 exclude a purely
 local $A_2$ calculation because its rational $S_3$ descent is zero. G075 is
 the first admissible class-landing calculation: prove a nonzero global
 invariant full-support projection. It is the selected-excess form of G042
-and is not counted twice. Only then is G072's quotient class defined. B106 proves
+and is not counted twice. B114/NG090 then show that the root cover cannot
+create this coordinate: G076 must construct the original downstairs selected
+landing. G076 is G043 with provenance made explicit, not a second reduction.
+Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
 terminal pairing condition.
@@ -486,7 +491,10 @@ identify G074 as its selected-excess subgate. B113/NG089 then eliminate the
 isolated $A_2$ lattice: G075 must compute a nonzero invariant full-support
 component in the global coefficient object. This is exactly G042's first
 class-landing clause in selected-chain coordinates, not an independent
-reduction. G072 is the next filtered calculation once that
+reduction. B114/NG090 remove the cover as a source of nonvanishing and leave
+G076, the original downstairs full-support coordinate, as the active gate.
+This is G043's existing obstruction with the selected collision certificate
+included. G072 is the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.
 

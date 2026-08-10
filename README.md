@@ -273,10 +273,15 @@ distributed thimble class is necessary. B112/NG088 then isolate its selected
 excess cycle and prove that even a fully marked common boundary leaves its
 homology class arbitrary. B113/NG089 then exclude the isolated local
 $A_2$ lattice: its normalized rational $S_3$ trace is zero. G075 is the
-active smallest gate: construct the selected excess in the full global
+global covered parent: construct the selected excess in the full global
 coefficient object and prove nonzero invariant full-support landing in the
 canonical perverse grade. This is G042's first class-landing clause in
-selected-chain coordinates, so it is not counted twice. G074 must then prove
+selected-chain coordinates, so it is not counted twice. B114/NG090 further
+show that the root cover cannot create this landing: invariant full support
+is canonically the downstairs object. G076 is therefore the active smallest
+gate—construct the original selected specialization and prove its canonical
+full-support coordinate nonzero. This is G043 with collision provenance made
+explicit. G074 must then prove
 ordinary liftability and preserve the nonzero prescribed pairing through
 both B022 quotients. G073 closes the source
 certificate, and G072 follows by
@@ -526,6 +531,7 @@ python verification/verify_B109_filtered_extension_class.py
 python verification/verify_B110_source_realization.py
 python verification/verify_B112_selected_excess.py
 python verification/verify_B113_a2_excess_descent.py
+python verification/verify_B114_invariant_landing.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -658,6 +664,9 @@ the actual selected topology-changing chain.
 The B113/NG089 check proves that an excess confined to the local $A_2$
 standard representation has zero rational descent. G075 must locate the
 selected class in a nonlocal invariant full-support constituent.
+The B114/NG090 check identifies that invariant coordinate with the original
+downstairs full-support coordinate. G076 must construct the original selected
+specialization; the cover cannot manufacture it.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

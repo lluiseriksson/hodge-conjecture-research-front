@@ -725,10 +725,19 @@ generation from the controlled partitioned nodal locus is not proved.**
   trivial-isotypic component.
 - NG089 - NO-GO: a nonzero local $A_2$ excess upstairs cannot be averaged
   into G074's rational detector downstairs.
-- G075 - EXPLORATORY, active smallest gate: compute the selected excess in
+- G075 - EXPLORATORY parent: compute the selected excess in
   the full global equivariant nearby-cycle object and prove nonzero invariant
   full-support landing in the canonical perverse grade. This is the
   selected-chain formulation of G042's first landing clause.
+- B114 - PROVED: on the canonical perverse-grade full-support summand,
+  covered $S_3$ invariants are canonically the original downstairs object;
+  their selected coordinates vanish or survive together.
+- NG090 - NO-GO: the root cover and Reynolds projection cannot create
+  full-support landing absent downstairs.
+- G076 - EXPLORATORY, active smallest gate: construct the original selected
+  nearby class and ordinary lift and prove its canonical relevant
+  perverse-grade full-support projection nonzero. This is G043 with
+  class-specific collision provenance made explicit.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

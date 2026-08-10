@@ -13,7 +13,7 @@ hodge_type: the selected excess and induced nearby class rational type (0,0) aft
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B071-B077, B081, B083-B084, B088-B091, B110-B113, G041-G043, G055, G073, G075, NG050-NG054, NG086-NG089, S023
+dependencies: B022, B057-B059, B071-B077, B081, B083-B084, B088-B091, B110-B114, G041-G043, G055, G073, G075-G076, NG050-NG054, NG086-NG090, S023
 claim: For the selected detector t, construct an actual topology-changing comparison chain gamma_sp and a marked pure-Hurwitz reference gamma_H with the same boundary, compute the excess class [gamma_sp-gamma_H], and prove that it induces an ordinarily liftable rational type-(0,0) nearby class surviving both B022 quotients with nonzero prescribed pairing.
 falsifier: inability to construct either selected chain with a common marked boundary, zero or undefined excess, wrong Hodge type, nonzero vanishing-cycle obstruction, death in a B022 kernel, or zero pairing for every admissible collision
 ---

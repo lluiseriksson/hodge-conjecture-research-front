@@ -64,3 +64,10 @@ point term is the separate
 \(E_\infty^{0,-1}\) grade; only the divisor term shares
 \(E_\infty^{-1,0}\) with full support. Project that grade by its canonical
 strict-support decomposition before applying the two B022 quotient maps.
+
+## Selected-source formulation
+
+B114/NG090 later show that the root cover cannot create the missing
+full-support coordinate. G076 is this gate with the B111 class-specific
+collision certificate made explicit. It is not a distinct reduction and
+must not be counted separately from G043.

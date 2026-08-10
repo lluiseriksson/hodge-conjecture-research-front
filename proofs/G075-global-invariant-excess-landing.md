@@ -13,7 +13,7 @@ hodge_type: selected excess and its invariant full-support projection rational t
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B058, B071-B077, B081, B110-B113, G041-G043, G074, NG050-NG054, NG086-NG089
+dependencies: B022, B057-B058, B071-B077, B081, B110-B114, G041-G043, G074, G076, NG050-NG054, NG086-NG090
 claim: Construct G074's selected excess in the full global S3-equivariant nearby-cycle object and prove that its canonical relevant perverse-grade projection to the invariant full-support constituent is nonzero; a coordinate confined to the local A2 standard constituent is inadmissible.
 falsifier: undefined global selected excess, confinement to the A2 standard constituent, confinement to a proper-support summand, zero Reynolds projection in full support, or wrong rational Hodge type
 ---
@@ -38,8 +38,12 @@ standard representation. B077/NG054 exclude inferring class landing from the
 mere existence of the full-support object, and B081 requires the canonical
 perverse grade rather than a chosen total splitting.
 
-After this landing is proved, G074 must still establish ordinary liftability,
-survival through both B022 kernels, and nonzero prescribed pairing.
+B114/NG090 show that the finite cover cannot create this landing. G076 is
+the active subgate: construct the original downstairs selected
+specialization and prove its canonical full-support projection nonzero.
+After that landing is transported back to the cover, G074 must still
+establish survival through both B022 kernels, filtered liftability, and
+nonzero prescribed pairing.
 
 ## No double counting
 
