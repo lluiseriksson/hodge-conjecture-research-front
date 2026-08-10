@@ -123,7 +123,10 @@ Date: 2026-08-10
   local invariant-cycle theorem, that proper-variety IC classes fixed by
   collision monodromy satisfy this kernel condition. NG061 separates that
   monodromy from B057's detector-loop monodromy. G049 is the resulting
-  class-realization and fixed-vector gate.
+  class-realization and fixed-vector gate. B085/NG062 then show that a fixed
+  ambient quotient class can have a nonfixed thimble lift. Its defect defines
+  a lift-independent class in $\operatorname{coker}(M_J-I)$, and G050 is the
+  exact kernel-cocycle gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -448,9 +451,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   hence kills its B083 obstruction.
 - NG061 - NO-GO: B057 detector-loop invariance does not automatically imply
   invariance under the separate collision-parameter monodromy.
-- G049 - EXPLORATORY, active smallest gate: realize the specified B057 chain
+- G049 - EXPLORATORY, governing fixed-vector gate: realize the specified B057 chain
   as a nearby IC class in a proper collision model and prove that exact class
   is fixed by collision monodromy.
+- B085 - PROVED: over a constant ambient quotient, the collision defect of a
+  thimble lift lies in the combined B022 kernel and defines a lift-independent
+  cokernel class; an invariant lift exists exactly when it vanishes.
+- NG062 - NO-GO: a fixed ambient primitive class need not have a fixed
+  thimble lift because monodromy may shear by a B022-kernel vector.
+- G050 - EXPLORATORY, active smallest exact gate: compute the actual kernel
+  monodromy and kill $[M_{\mathrm{coll}}t-t]$ in
+  $\operatorname{coker}(M_J-I)$.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

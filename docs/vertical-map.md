@@ -259,7 +259,10 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \text{G048: }\mathrm{can}(t_\psi)=0\text{ and choose a special lift}
 \Longleftarrow
 \text{G049: }T_{\mathrm{coll}}t_\psi=t_\psi
-\text{ in a proper IC model}.
+\text{ in a proper IC model}
+\Longleftarrow
+\text{G050: }[M_{\mathrm{coll}}t-t]=0
+\text{ in }\operatorname{coker}(M_J-I).
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -287,6 +290,12 @@ theorem once $t_\psi$ is a nearby intersection-cohomology class in a proper
 variety model and is fixed by collision monodromy. NG061 blocks replacing
 that fixed-vector calculation with the unrelated equality $g\alpha=\alpha$
 from the detector loop. G049 is therefore the current vertical endpoint.
+
+B085 makes that endpoint computable. Because the primitive ambient quotient
+is constant, the collision defect lies in the combined B022 kernel $J$.
+Changing the thimble lift changes the defect by $(M_J-I)k$, so its cokernel
+class is the exact obstruction to an invariant lift. NG062 shows it need not
+vanish formally. G050 is therefore the smallest current endpoint.
 
 An externally claimed shortcut is closed separately:
 

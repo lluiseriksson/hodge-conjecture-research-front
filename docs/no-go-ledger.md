@@ -1210,3 +1210,20 @@
 - **Re-entry condition:** prove G049 by realizing the B057 vector in nearby
   intersection cohomology and computing
   $T_{\mathrm{coll}}t_\psi=t_\psi$ for that exact class.
+
+## NG-062 - A fixed ambient class has a fixed thimble lift
+
+- **Label:** NO-GO
+- **Route:** use constancy of the B058 primitive ambient class to conclude
+  that its chosen B057 thimble lift is fixed by collision monodromy.
+- **Valid input:** the B022 quotient map is monodromy equivariant and the
+  ambient primitive local system is constant.
+- **Invalid inference:** a lift of a fixed quotient vector must itself be
+  fixed.
+- **Precise obstruction:** monodromy may shear the lift by an equator or
+  base-locus kernel vector. B085 proves that the defect defines a class in
+  $\operatorname{coker}(M_J-I)$; the fixed quotient supplies no formal
+  reason for that class to vanish.
+- **Re-entry condition:** compute the actual braid action, combined kernel
+  $J$, and B057 vector in G050, then exhibit a kernel adjustment killing the
+  defect.

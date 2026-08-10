@@ -58,5 +58,6 @@ in such a proper collision model, or proving the corresponding stack
 extension. It also requires invariance under the collision-parameter
 monodromy. B057 proves invariance under the detector loop $g$ in the
 hyperplane complement; those are different actions. G049 isolates both
-remaining obligations. Finally, surjectivity alone does not choose a lift or
+remaining obligations, and B085/G050 reduce exact invariance to a
+kernel-valued cokernel class. Finally, surjectivity alone does not choose a lift or
 prove that a lift has the required type and pairing.
