@@ -1,6 +1,6 @@
 ---
 brick_id: G026
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: a Green-Griffiths quasi-local normal-crossing nodal smoothing germ and the central arrangement of its tangent smoothing forms
 smoothness: the base and discriminant branches are smooth and their intersections satisfy the quasi-local coordinate condition; nearby fibers are smooth and the central fiber is nodal
@@ -13,23 +13,21 @@ hodge_type: the comparison must preserve the pure type-(0,0) degree-one channel 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B009-B010, B052, G015, G019, G025, and NG036
+dependencies: B009-B010, B043, B052-B053, G015, G019, G025, and NG036
 claim: Although a quasi-local discriminant need not be analytically linearizable, its degree-one rational intermediate-extension stalk and mixed Hodge structure are canonically invariant under deformation to the tangent central arrangement, compatibly with the vanishing-cycle relation map.
 falsifier: a quasi-local equisingular deformation whose degree-one IC dimension, rational lattice, Hodge filtration, or canonical map to the vanishing-cycle relation space changes between the curved and tangent fibers
 ---
 
 # G026 - Quasi-local IC invariance without linearization
 
-NG036 rules out simultaneous analytic straightening. The remaining theorem
-needed for G015 is weaker: construct a deformation-to-the-normal-cone family
-from the curved divisor germ to its tangent arrangement and prove that the
-degree-one intermediate-extension channel is locally constant as a rational
-mixed Hodge structure.
+NG036 rules out simultaneous analytic straightening. B053 proves the weaker
+invariant-channel theorem directly. Blowing up the common stratum gives a
+one-step SNC resolution whose exceptional normal fiber is the uniform
+tangent arrangement. The divisor incidences, monodromy residues, coefficient
+sheaves, transgression, and degree-one support bound depend only on the
+normal covectors. Both the curved germ and tangent model are canonically the
+same rational type-((0,0)) relation kernel.
 
-A valid proof must supply a Whitney/Thom stratification for the whole
-deformation, identify the Picard-Lefschetz local system on the complements,
-and show that nearby-cycle specialization commutes with intermediate
-extension in the required degree. Topological constancy alone does not
-automatically identify the Hodge filtration, while equality of tangent cones
-alone does not give topological constancy. B052 applies only after this
-comparison is established.
+This closes the exact Green-Griffiths quasi-local case. It does not yet cover
+the nonuniform cross-block dependencies allowed by G015's proposed
+multipart analogue; that clean-arrangement comparison is G027.

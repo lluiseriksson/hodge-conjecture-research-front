@@ -405,6 +405,11 @@ Society Lecture Note Series 343 (2007), 206-263.
   pairwise independent differentials. Its quadratic-jet computation shows
   that the definition permits analytic moduli, so G025 cannot upgrade the
   source hypothesis to simultaneous analytic linearization.
+- B053 uses the same checked definition positively: the coordinate-subset
+  condition makes the normal covectors uniform, so the common-stratum
+  blow-up has the projectivized tangent arrangement as an SNC exceptional
+  divisor. The source is not cited for the blow-up, residue, support, or
+  Hodge calculations, which are proved in B053 from B043 and B050-B052.
 - Local retrieval SHA-256:
   `4D1DB080F19E77E4627462C7684F822CE1E18EFD783E0D00ABA65BEE7DDB61A0`.
 

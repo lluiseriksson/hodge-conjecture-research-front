@@ -271,8 +271,9 @@ all building sets and permissible orders; NG035 excludes raw-coordinate
 order invariance. B050 proves G022's universal coefficient-sheaf induction,
 and B051 proves G023's strict-support descent. B052 proves G024 and G019 for
 every central representable arrangement. NG036 disproves G025's analytic
-linearization; G026 is the smallest unresolved invariant-channel comparison
-needed to promote G015 as stated. Only
+linearization, while B053 proves G026 for the exact quasi-local uniform
+normal arrangement. G027 is the smallest unresolved nonlinear nonuniform
+comparison needed to promote G015 as stated. Only
 after a general nonuniform calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).

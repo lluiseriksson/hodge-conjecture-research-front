@@ -107,10 +107,12 @@ with rational type \((0,0)\). B051 closes G023, and B052 closes G024 and
 G019: the only total-degree-one
 arrow is B049's divisor-class residue map, whose kernel is the full rational
 type-\((0,0)\) relation space. NG036 disproves G025's analytic-linearization
-claim using five quasi-local curved branches with a quadratic modulus. G026
-is now active. The immediate bricks are a Whitney/Thom-controlled tangent
-deformation, identification of the complement local system, and rational
-mixed-Hodge-module invariance of the degree-one IC stalk.
+claim using five quasi-local curved branches with a quadratic modulus. B053
+proves G026 by the common-stratum blow-up: the exceptional restriction and
+residues are exactly the uniform tangent model. G027 is now active. The
+immediate bricks are compatibility of successive normal cones, preservation
+of the labelled building-set poset, and transport of B049-B052 through a
+nonlinear wonderful resolution.
 
 ## Sufficient parent: G014
 

@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B052, G012-G014, G016-G026, NG036, Green-Griffiths S021, Saito S022/S037, and Li S038
+dependencies: B009-B010, B028, B034-B053, G012-G014, G016-G027, NG036, Green-Griffiths S021, Saito S022/S037, and Li S038
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -380,6 +380,16 @@ rational relation space, and B051 descends it without contamination. G025
 attempted the analytic comparison, but NG036 disproves simultaneous
 linearization even for five quasi-local plane branches. G026 now asks only
 for invariance of the rational IC/MHS channel under tangent degeneration.
+
+## Attempt 20 - Quasi-local tangent invariance
+
+B053 proves G026 without analytic linearization. The exact
+Green-Griffiths coordinate-subset condition makes the normal covectors
+uniform; blowing up the common stratum produces B043's projectivized tangent
+arrangement, with the same residues and degree-one type-((0,0)) relation
+kernel. G027 is the remaining nonlinear multipart gate because cross-block
+dependencies require several compatible wonderful centers rather than this
+single uniform blow-up.
 
 ## Propagation
 

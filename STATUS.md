@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 80% - independent Git repository, mandatory topology,
+- **Infrastructure:** 81% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 57% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 58% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -207,8 +207,11 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G025/NG036 - NO-GO: Green-Griffiths quasi-local branches need not be
   simultaneously analytically equivalent to their tangent arrangement; an
   explicit five-branch quadratic invariant survives in a projective family.
-- G026 - EXPLORATORY, active subgate: prove invariance only of the rational
-  degree-one IC/MHS channel under deformation to the tangent arrangement.
+- B053/G026 - PROVED: the common blow-up canonically identifies the exact
+  quasi-local degree-one IC/MHS channel with its uniform tangent arrangement.
+- G027 - EXPLORATORY, active subgate: extend the comparison to nonlinear
+  clean arrangements with nonuniform cross-block dependencies and iterated
+  wonderful centers.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.
