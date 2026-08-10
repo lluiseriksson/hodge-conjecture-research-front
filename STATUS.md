@@ -775,13 +775,17 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG095 - NO-GO: requiring the total ordinary lift to be type $(0,0)$ is
   unnecessary; an irrelevant non-$(0,0)$ component can lie in the kernel of
   the relevant quotient.
-- G080 - EXPLORATORY parent: a rational collision-invariant nearby class is
-  enough; B084 supplies a rational ordinary lift and B117-B119 control its
-  relevant grade.
-- G081 - EXPLORATORY, active smallest gate: realize the selected B058
-  detector as a nonzero rational class in the original nearby object,
-  verify survival of both B022 quotients and the prescribed pairing, and
-  prove invariance under every local collision-monodromy generator.
+- B120 - PROVED: after proper base change to one marked original collision
+  disk, cyclic invariance gives a special lift in $H^0(i^*K_\Delta)$, which
+  is canonically the required $H^{-1}(i^*K_B)$ by the normal-slice shift.
+- NG096 - NO-GO: simultaneous invariance under the entire plane-local
+  fundamental group is strictly stronger than necessary; one disk suffices.
+- G080/G081 - EXPLORATORY parents: a rational cyclic-invariant class on one
+  original disk is enough; B120/B084 supply the lift and B117-B119 control
+  its relevant grade.
+- G082 - EXPLORATORY, active smallest gate: realize the selected B058 vector
+  on one marked original collision disk, verify both B022 quotients and the
+  prescribed pairing, and kill its cyclic B085 kernel cocycle explicitly.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

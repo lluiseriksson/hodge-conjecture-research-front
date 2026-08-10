@@ -299,10 +299,12 @@ Lefschetz would reflect point support from ${}^pH^{-1}$ into
 ${}^pH^1$, where it would create a punctual summand in the constant
 $R^{2n+2}$. NG094 guards against skipping that reflection. B119/NG095 remove
 the stronger demand that the total ordinary lift be type $(0,0)$: its forced
-nonzero clean-nodal relation grade has that type automatically. G081 is the
-active concrete gate inside G080: construct a nonzero selected nearby class
-in the original pushdown and prove full local collision-monodromy invariance;
-B084 then gives a rational lift. G074 must then prove
+nonzero clean-nodal relation grade has that type automatically. B120/NG096
+remove simultaneous invariance under the entire plane-local group: cyclic
+invariance on one marked original collision disk suffices, because
+$H^0(i^*K_\Delta)=H^{-1}(i^*K_B)$. G082 is the active concrete gate inside
+G081/G080: realize the selected class on that disk, preserve both B022
+quotients and the pairing, and kill its B085 cyclic cocycle. G074 must then prove
 ordinary liftability and preserve the nonzero prescribed pairing through
 both B022 quotients. G073 closes the source
 certificate, and G072 follows by
@@ -554,6 +556,7 @@ python verification/verify_B112_selected_excess.py
 python verification/verify_B113_a2_excess_descent.py
 python verification/verify_B114_invariant_landing.py
 python verification/verify_B119_relevant_grade_type.py
+python verification/verify_B120_one_disk.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -699,8 +702,10 @@ Lefschetz disk; NG093 guards the shift. B118/S022/S037 close the competing
 point grade by relative hard Lefschetz and isolated vanishing-cycle
 concentration; NG094 guards the second shift. B119/NG095 make the relevant
 clean-nodal coordinate type $(0,0)$ without imposing that type on the total
-lift. G081 now requires the selected nonzero original nearby class and full
-collision-monodromy invariance; B084 supplies its rational ordinary lift.
+lift. B120/NG096 show that one marked original collision disk and its cyclic
+monodromy suffice. G082 now requires the selected nonzero disk-nearby class,
+both B022 quotient certificates, the pairing, and vanishing of its cyclic
+B085 cocycle; B084 then supplies the rational ordinary lift.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

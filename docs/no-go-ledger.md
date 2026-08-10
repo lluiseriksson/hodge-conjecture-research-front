@@ -1766,6 +1766,26 @@
   coordinate into the remaining full-support grade, and B093/S022 make that
   clean-nodal relation grade pure $\mathbf Q(0)$ after normalization. B119
   records the exact geometric conclusion.
-- **Re-entry condition:** construct G081's nonzero rational original nearby
-  class and prove full local collision-monodromy invariance. B084 then gives
+- **Re-entry condition:** construct G082's nonzero rational original
+  disk-nearby class and kill its cyclic B085 obstruction. B120/B084 then give
   the rational lift; no total-lift type condition remains.
+
+## NG-096 - Full plane-local invariance is required
+
+- **Label:** NO-GO
+- **Route:** require the selected nearby vector to be fixed under every loop
+  in the punctured smooth locus of a two-dimensional plane neighborhood.
+- **Valid input:** local invariant cycles requires invariance for the base on
+  which the proper map is being considered.
+- **Invalid inference:** that base must be the whole plane germ.
+- **Precise obstruction:** B120 restricts the original proper incidence map
+  to one marked algebraic curve and its analytic disk. The disk-normalized
+  special group $H^0(i^*K_\Delta)$ is exactly the required plane-normalized
+  group $H^{-1}(i^*K_B)$. Cyclic invariance therefore gives the needed
+  special class. The explicit $\mathbf Z^2$ model in NG096 and
+  `verification/verify_B120_one_disk.py` also proves that cyclic invariance
+  can hold while simultaneous invariance fails, so the latter is strictly
+  stronger.
+- **Re-entry condition:** construct G082's selected class on one original
+  collision disk and kill $[(M_\Delta-I)t]$ in
+  $\operatorname{coker}(M_\Delta-I:J_\Delta\to J_\Delta)$.

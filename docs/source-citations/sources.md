@@ -988,6 +988,12 @@ American Mathematical Society* 46 (2009), 535-633,
   theorem to kill B083's obstruction for collision-monodromy-invariant
   nearby classes. The audit does not extend the statement silently from
   varieties to stacks or identify detector-loop with collision monodromy.
+- Rechecked the same theorem after proper base change to a marked algebraic
+  curve for B120/NG096. On its punctured analytic disk the invariant target
+  is the kernel of one cyclic monodromy operator. With
+  $K_\Delta=a^*K_B[-1]$, its special group $H^0(i^*K_\Delta)$ is canonically
+  $H^{-1}(i^*K_B)$; the source theorem does not require simultaneous
+  invariance for approach directions omitted by this curve.
 - Coefficient guard: the displayed de Cataldo-Migliorini theorem is stated
   for the constant source sheaf. B039 does not extrapolate it to arbitrary
   coefficients. Instead, it proves the necessary perverse stalk/costalk

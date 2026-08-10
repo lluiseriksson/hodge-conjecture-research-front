@@ -13,9 +13,9 @@ hodge_type: no type condition on the total nearby class or ordinary lift; B119 m
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B081-B084, B110-B119, G047-G048, G073-G079, G081, NG059-NG060, NG086-NG095, S022, S037
-claim: Construct a collision-certified nonzero rational nearby class t_psi in the original incidence object from the selected B058 detector and prove it invariant under the full local collision monodromy; B084 supplies a rational ordinary lift, while B117-B119 force its relevant coordinate to be nonzero, full-support, and type (0,0).
-falsifier: undefined source realization, zero nearby class, failure of full collision-monodromy invariance, absence of an ordinary lift, non-clean-nodal target for B119, or loss of selected detector provenance
+dependencies: B022, B057-B059, B081-B085, B110-B120, G047-G048, G073-G079, G081-G082, NG059-NG060, NG086-NG096, S022, S037
+claim: Construct a collision-certified nonzero rational nearby class t_Delta in one marked original collision disk from the selected B058 detector and kill its cyclic B085 obstruction; B120/B084 supply a rational ordinary lift, while B117-B119 force its relevant coordinate to be nonzero, full-support, and type (0,0).
+falsifier: undefined source realization, zero nearby class, nonzero cyclic obstruction for every admissible disk, absence of an ordinary lift, non-clean-nodal target for B119, or loss of selected detector provenance
 ---
 
 # G080 — Construct the selected nearby class and ordinary lift downstairs
@@ -33,24 +33,27 @@ type calculation. It remains to construct, on the original incidence
 object, a single nonzero rational class
 
 \[
- t_\psi\in H^{-1}(i_p^*\Psi K)
+ t_\Delta\in H^0(i_p^*\Psi K_\Delta)
 \]
 
 with a collision certificate from the selected B057 chain and prove that it
-is fixed by the full local collision monodromy. B084 then proves
+is fixed by the cyclic monodromy of one marked original collision disk.
+B120/B084 then prove
 
 \[
- \operatorname{can}(t_\psi)=0,
+ \operatorname{can}(t_\Delta)=0,
 \]
 
 and choose
 
 \[
  0\ne\beta\in H^{-1}(i_p^*K),
- \qquad u(\beta)=t_\psi.
+ \qquad u_\Delta(\beta)=t_\Delta,
 \]
 
-Nonzeroness of \(t_\psi\) forces nonzeroness of every lift. B081 together
+Here \(\beta\) uses B120's canonical identification
+\(H^0(i_p^*K_\Delta)=H^{-1}(i_p^*K_B)\). Nonzeroness of \(t_\Delta\)
+forces nonzeroness of every lift. B081 together
 with B117-B118 then places a nonzero component in
 \(E_\infty^{-1,0}\), already in full support. B093/S022 and B119 prove that
 this clean-nodal relation coordinate is automatically type \((0,0)\) after
@@ -59,9 +62,11 @@ type was unnecessary.
 
 ## Current obstruction
 
-B084 supplies the rational lift after collision-monodromy invariance is
-proved, but it does not realize B058's distributed detector in the original
-nearby object or show that realization nonzero. Pure Hurwitz localization is
-zero by B090-B091. G081 is the exact remaining gate: construct the
-topology-changing selected excess, its nonzero original-downstairs image,
-and the full collision-invariance certificate.
+B120/B084 supply the rational lift after cyclic disk-monodromy invariance is
+proved, but they do not realize B058's distributed detector in the original
+disk-nearby object or show that realization nonzero. Pure Hurwitz
+localization is zero by B090-B091. G082 is the exact remaining gate inside G081: construct
+the topology-changing selected excess on one original disk, prove its
+nonzero downstairs B022 image, and kill its cyclic kernel-valued cocycle.
+NG096 records why simultaneous invariance in every plane-local direction is
+not required.

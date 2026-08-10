@@ -300,6 +300,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G081: selected collision-invariant original nearby class}
 \Longleftarrow
+\text{G082: original-disk cyclic kernel cocycle}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -357,9 +359,13 @@ S022 makes the resulting $R^{2n+2}$ locally constant. NG094 records why
 high-degree constancy is unusable before this reflection. B119/NG095 then
 remove the unnecessary demand that the total ordinary lift be type
 $(0,0)$: B093/S022 make the forced nonzero full-support clean-nodal relation
-grade pure Tate automatically. G081 is the remaining class-specific gate:
-construct a nonzero original nearby class fixed by the full local collision
-monodromy. B084 then supplies the rational ordinary lift.
+grade pure Tate automatically. B120/NG096 remove the further overconstraint
+of simultaneous invariance in the punctured plane germ: after proper base
+change, cyclic invariance on one marked original collision disk gives the
+same required special-fiber class, with the shift
+$H^0(i^*K_\Delta)=H^{-1}(i^*K_B)$. G082 is the remaining class-specific
+gate: realize the selected vector on that disk and kill its B085 cyclic
+kernel cocycle.
 Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
@@ -534,8 +540,9 @@ G078 is the transverse-disk formulation. B117/S052 close its support
 multiplicity clause for the original pushdown; NG093 guards the one-degree
 shift. B118/S022/S037 remove the point grade, with NG094 guarding the
 reflection step. B119/NG095 make the relevant grade type $(0,0)$ without a
-type condition on the total lift. G081 is the active selected-class
-realization and collision-invariance calculation inside G080. G072 is
+type condition on the total lift. B120/NG096 reduce collision invariance to
+one original marked disk. G082 is the active selected-class realization and
+cyclic-cocycle calculation inside G081/G080. G072 is
 the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.

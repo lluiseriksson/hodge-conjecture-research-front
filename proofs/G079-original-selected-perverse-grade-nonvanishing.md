@@ -13,9 +13,9 @@ hodge_type: no type condition on the total nearby class or lift; the nonzero E_i
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B059, B081-B084, B110-B119, G047-G048, G073-G078, G080-G081, NG059-NG060, NG086-NG095, S022, S037, S052
+dependencies: B057-B059, B081-B085, B110-B120, G047-G048, G073-G078, G080-G082, NG059-NG060, NG086-NG096, S022, S037, S052
 claim: Construct the collision-certified selected nearby class and rational ordinary special lift directly in the original incidence pushdown; B117-B119 then force the lift to have a nonzero full-support type-(0,0) canonical E_infinity^(-1,0) coordinate.
-falsifier: undefined original nearby class, failure of full collision-monodromy invariance, absence of an ordinary lift, zero E_infinity^(-1,0) coordinate, confinement to E_infinity^(0,-1), non-clean-nodal target, or loss of the prescribed detector provenance
+falsifier: undefined original disk-nearby class, nonzero cyclic B085 obstruction for every admissible disk, absence of an ordinary lift, zero E_infinity^(-1,0) coordinate, confinement to E_infinity^(0,-1), non-clean-nodal target, or loss of the prescribed detector provenance
 ---
 
 # G079 — Make the selected original perverse grade nonzero
@@ -50,8 +50,8 @@ full-support strict-support summand.
 ## Current obstruction
 
 No topology-changing construction yet carries the distributed B057 chain
-into the original nearby-cycle object as a nonzero class fixed by the full
-local collision monodromy. The semistable cover can help compute this map,
+into one original disk-nearby object as a nonzero class with vanishing cyclic
+B085 obstruction. The semistable cover can help compute this map,
 but its exceptional support must not be substituted for the original class.
-G081 is the exact remaining construction inside G080; G073-G075 retain its
+G082 is the exact remaining construction inside G081/G080; G073-G075 retain its
 source and descent obligations.
