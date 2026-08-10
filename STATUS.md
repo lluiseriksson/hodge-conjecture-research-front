@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 87% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 88% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -144,7 +144,9 @@ Date: 2026-08-10
   the full-support perverse stalk. NG069 closes G056's noncanonical direct
   total-stalk projection. B094/NG070 then show that G057's demand for
   ambiguity-independence is stronger than necessary. G058 is the exact affine
-  lift-torsor pairing gate.
+  lift-torsor pairing gate. B095 dualizes it into a cokernel/evaluation
+  dichotomy; NG071 blocks assuming the detector functional descends. G059 is
+  the resulting intrinsic two-case calculation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -535,9 +537,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   detecting lift exists exactly when $F(\beta_0)\ne0$ or $F(A)\ne0$.
 - NG070 - NO-GO: detection does not require the ambiguity space to lie in
   the kernel of the detector functional; ambiguity can create a good lift.
-- G058 - EXPLORATORY, active smallest gate: construct the type-(0,0) lift
+- G058 - EXPLORATORY, exact affine parent: construct the type-(0,0) lift
   torsor and canonical scalar functional for the actual collision and verify
   B094's exact disjunction.
+- B095 - PROVED: the affine criterion is equivalent to either
+  $[F]\ne0$ in $\operatorname{coker}u^*$ or, when $F=u^*\lambda$, the
+  descended value $\lambda(t_\psi)\ne0$.
+- NG071 - NO-GO: the special-stalk detector functional does not automatically
+  descend through the special-to-nearby map; failure to descend is itself a
+  success branch.
+- G059 - EXPLORATORY, active smallest gate: compute the dual map, cokernel
+  class, and—only in the zero-cokernel branch—the descended detector value.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

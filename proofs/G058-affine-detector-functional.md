@@ -13,7 +13,7 @@ hodge_type: lift torsor and ambiguity restricted to rational type (0,0) after Q(
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B081-B084, B093-B094, G048-G055, NG068-NG070
+dependencies: B009-B010, B022, B081-B084, B093-B095, G048-G055, NG068-NG071
 claim: For the actual collision, prove the rational type-(0,0) lift torsor is nonempty and compute the canonical quotient-level pairing functional F so that, for one lift beta_0 and ambiguity space A, F(beta_0) is nonzero or F(A) is nonzero.
 falsifier: no type-(0,0) lift, an undefined canonical functional, or simultaneous vanishing F(beta_0)=0 and F(A)=0 for every admissible collision
 ---
@@ -52,4 +52,5 @@ The exact gate is the disjunction
 
 B094 proves that this is equivalent to existence of at least one detecting
 lift. No exact recovery of B058's original ambient class and no
-ambiguity-independence is required.
+ambiguity-independence is required. B095/G059 give the equivalent dual
+cokernel/evaluation certificate, which avoids choosing $\beta_0$.

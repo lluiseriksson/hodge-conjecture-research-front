@@ -272,7 +272,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G055: nonzero topology-changing correction}
 \Longleftarrow
-\text{G058: affine detector functional nonzero}.
+\text{G058: affine detector functional nonzero}
+\Longleftarrow
+\text{G059: dual cokernel/evaluation certificate}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -350,6 +352,17 @@ functional, existence is exactly
 \]
 
 G058 is the resulting minimal endpoint.
+B095 rewrites the same endpoint without choosing a base lift. For the dual
+special-to-nearby map $u^*$, success is exactly
+
+\[
+ [F]\ne0\text{ in }\operatorname{coker}u^*
+ \quad\text{or}\quad
+ [F]=0\text{ and }\lambda(t_\psi)\ne0,
+\]
+
+where $F=u^*\lambda$ in the second case. NG071 blocks assuming the second
+case a priori. G059 is the current smallest endpoint.
 
 An externally claimed shortcut is closed separately:
 

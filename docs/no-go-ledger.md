@@ -1348,3 +1348,17 @@
   lift has value zero.
 - **Re-entry condition:** G058 must compute $F(\beta_0)$ and $F(A)$ and prove
   that they do not vanish simultaneously.
+
+## NG-071 - The detector functional automatically descends
+
+- **Label:** NO-GO
+- **Route:** regard the special-stalk detector functional as the pullback of a
+  nearby-stalk functional without checking the lift ambiguity.
+- **Valid input:** if $F$ annihilates $\ker u$, finite-dimensional duality does
+  give $F=u^*\lambda$.
+- **Invalid inference:** that annihilation is automatic.
+- **Precise obstruction:** B095 identifies it with
+  $[F]=0$ in $\operatorname{coker}u^*$. If the class is nonzero, descent fails
+  but an ambiguity-adjusted detecting lift already exists.
+- **Re-entry condition:** G059 must compute the cokernel class first and the
+  descended evaluation only in its zero branch.
