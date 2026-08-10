@@ -13,7 +13,7 @@ hodge_type: detector target is rational type (0,0) after Q(n); coefficient Hodge
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B057-B058, B071-B078, G043, NG055
+dependencies: B057-B058, B071-B079, G043, NG055-NG056
 claim: In the exact perverse degree containing the B057-B058 nearby specialization, every proper-support constituent of the B071 pushdown is excluded by a coefficient-sensitive toroidal parity or amplitude bound, so the class has full support whenever its total specialization is nonzero.
 falsifier: an odd coefficient shift, nontrivial descent local system, or boundary gluing term that contributes on proper support in the detector degree
 ---
@@ -49,9 +49,9 @@ Then
    the B057 thimble-extension chain.
 3. On every toroidal chart, separate the toric normal factor from the
    coefficient Hodge module contributed by the global fiber stratum.
-4. Prove the coefficient factor cannot shift a proper-support constituent
-   into the detector degree, and check descent across chart overlaps and
-   finite stabilizers.
+4. Convolve the normal support degree with every coefficient degree, as
+   B079 shows is necessary, and prove none equals the detector degree; then
+   check descent across chart overlaps and finite stabilizers.
 5. If step 4 fails, exhibit the first support and coefficient degree that
    does contribute; that datum becomes the explicit subtraction term in
    G043.
@@ -59,8 +59,10 @@ Then
 ## Current evidence and boundary
 
 B078 proves the needed parity only for the globally toric constant/IC model.
-B076 controls the finite-cover trace, and B077 supplies the decomposition,
-but neither identifies the coefficient-sensitive local summands. NG055
-therefore blocks promotion. This gate does not yet prove that the total
+B079/NG056 prove that arbitrary coefficient convolution can create odd
+proper-support terms, so a coefficient-blind extension is false. B076
+controls the finite-cover trace, and B077 supplies the decomposition, but
+neither identifies the coefficient index of the B057 chain. NG055 therefore
+blocks promotion. This gate does not yet prove that the total
 specialization is nonzero, survive either B022 quotient, or retain the
 prescribed pairing.

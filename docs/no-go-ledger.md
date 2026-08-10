@@ -1102,3 +1102,22 @@
 - **Re-entry condition:** prove G044's coefficient-sensitive toroidal parity
   and étale/stack gluing theorem, or compute the first odd proper-support term
   explicitly and subtract it in G043.
+
+## NG-056 - Coefficient-blind toroidal parity
+
+- **Label:** NO-GO
+- **Route:** extend B078 chartwise and assert that even toric normal degree
+  forces even total proper-support degree for every projective toroidal
+  family, regardless of the coefficient system along the stratum.
+- **Valid input:** the toric normal exceptional term in B079 occurs in
+  ordinary degree two.
+- **Invalid inference:** tensoring with global fiber cohomology preserves that
+  parity.
+- **Precise obstruction:** for
+  (operatorname{Bl}_0(\mathbf A^2)\times C\to\mathbf A^2), where (C) has
+  positive genus, Kunneth produces the nonzero proper-support term
+  (H^1(C,\mathbf Q)(-1)_0[-3]). The map is smooth-factor toroidal and
+  projective, yet the total support degree is odd.
+- **Re-entry condition:** in G044 compute the exact convolution of normal
+  support degree with coefficient degree and compare it with the B057
+  detector degree. A matching degree must be retained and subtracted in G043.

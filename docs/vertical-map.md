@@ -214,6 +214,14 @@ and proper support that contributes; that term becomes the explicit
 exceptional-support subtraction required by G043. Neither branch establishes
 nonzero total specialization or either B022 quotient.
 
+B079 shows that the coefficient warning is substantive, not merely formal.
+For the projective toroidal product
+(operatorname{Bl}_0(\mathbf A^2)\times C\to\mathbf A^2), the even normal
+exceptional degree two convolves with (H^1(C)) to give an odd
+point-supported degree-three term. NG056 therefore rules out a universal
+coefficient-blind parity theorem. G044 must establish the exact index equality
+or inequality for the B057 coefficient object.
+
 An externally claimed shortcut is closed separately:
 
 \[

@@ -139,9 +139,12 @@ toric decomposition theorem: support shifts have even ordinary generic
 degree, and simplicial-source toric fibers have pure Hodge-Tate even
 cohomology. NG055 blocks applying that result directly to B071's global
 non-toric hyperplane degeneration merely because it has local toroidal
-charts. G044 is the smallest gate: prove the same exclusion with the actual
-coefficient Hodge modules and detector-degree normalization, or exhibit the
-first proper-support correction explicitly. The
+charts. B079/NG056 make the coefficient problem concrete: multiplying a
+toric blowup by a positive-genus curve creates an odd degree-three
+proper-support term from (H^1(C)). G044 is therefore the smallest gate:
+compute the exact normal-degree plus coefficient-degree convolution for the
+B057 chain, rather than invoking blanket parity, and either exclude or
+identify the first proper-support correction. The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
 completion to a finite Galois average over the original field. G014 remains a sufficient unanchored
