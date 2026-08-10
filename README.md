@@ -183,8 +183,10 @@ does retain the full relation kernel. B039 then uses the rational
 Hodge-module direct image and strict-support decomposition to prove that
 point-supported blow-up summands occur only in ordinary degree two. Thus the
 downstairs degree-one IC stalk is exactly that relation kernel. The active
-subgate is now its rational Hodge type and Tate normalization; extension to
-general multipart arrangements remains separate.
+subgate is closed by B040: after the explicit \(\mathbf Q(n)\) normalization,
+the five crossing groups are \(\mathbf Q(0)\), so the relation kernel is pure
+of type \((0,0)\). The next justified test is the full \(U_{2,r}\) family;
+higher-rank multipart arrangements remain separate.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -234,6 +236,7 @@ python verification/verify_B036_exceptional_gluing_rank.py
 python verification/verify_B037_exceptional_transgression.py
 python verification/verify_B038_exceptional_residue.py
 python verification/verify_B039_downstairs_ic.py
+python verification/verify_B040_exceptional_hodge_type.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -251,6 +254,8 @@ The B037 check audits the resulting two-row spectral-sequence dimensions.
 The B038 check verifies the exact residue-map ranks and kernels.
 The B039 check verifies the surface shifts and the absence of a
 point-supported contribution in ordinary degree one.
+The B040 check verifies the finite Tate-source and relation-kernel Hodge
+number bookkeeping.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

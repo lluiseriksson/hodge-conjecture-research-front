@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009, B028, B034-B039, G012-G014, Green-Griffiths S021, and Saito S037
+dependencies: B009-B010, B028, B034-B040, G012-G014, Green-Griffiths S021, and Saito S022/S037
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -182,6 +182,23 @@ minimal \(U_{2,5}\) arrangement. It does not close G015: the next falsifiable
 obligation is to compute the Hodge structure and Tate normalization of this
 specific relation kernel. Only after that comparison succeeds is extension
 to arbitrary multipart arrangements justified.
+
+## Attempt 7 - Compute the Tate type
+
+B040 applies Saito Proposition 1.7 at the five resolved crossings. With the
+explicit \(\mathbf Q(n)\) normalization from B010, every local crossing group
+is \(\mathbf Q(0)\). The B038 transgression is a morphism of rational mixed
+Hodge structures, so its kernel is a sub-Hodge structure of
+\(\mathbf Q(0)^5\), hence is pure of type \((0,0)\). B039 transfers that
+structure to the downstairs IC stalk.
+
+Thus the full rational topological and Hodge-theoretic statement is proved
+for the minimal \(U_{2,5}\) model. G015 remains open because this rank-two
+calculation does not control wonderful resolutions of higher-rank
+arrangements or their additional exceptional-stratum differentials. The
+next falsifiable subgate is to generalize first to \(U_{2,r}\), where the
+exceptional locus is still a single marked \(\mathbf P^1\), before allowing
+higher arrangement rank.
 
 ## Propagation
 

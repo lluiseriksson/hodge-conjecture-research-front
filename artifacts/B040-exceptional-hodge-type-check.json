@@ -1,0 +1,13 @@
+{
+  "tate_normalization": "Q(n) on vanishing homology",
+  "local_crossing_groups": "five copies of Q(0)",
+  "transgression_category": "rational mixed Hodge structures",
+  "cases": [
+    {"cycle_span_rank": 1, "source": "Q(0)^5", "source_hodge_numbers": {"h(0,0)": 5}, "relation_dimension": 4, "kernel_hodge_numbers": {"h(0,0)": 4}},
+    {"cycle_span_rank": 2, "source": "Q(0)^5", "source_hodge_numbers": {"h(0,0)": 5}, "relation_dimension": 3, "kernel_hodge_numbers": {"h(0,0)": 3}},
+    {"cycle_span_rank": 3, "source": "Q(0)^5", "source_hodge_numbers": {"h(0,0)": 5}, "relation_dimension": 2, "kernel_hodge_numbers": {"h(0,0)": 2}},
+    {"cycle_span_rank": 4, "source": "Q(0)^5", "source_hodge_numbers": {"h(0,0)": 5}, "relation_dimension": 1, "kernel_hodge_numbers": {"h(0,0)": 1}},
+    {"cycle_span_rank": 5, "source": "Q(0)^5", "source_hodge_numbers": {"h(0,0)": 5}, "relation_dimension": 0, "kernel_hodge_numbers": {"h(0,0)": 0}}
+  ],
+  "scope": "finite rank and Hodge-number bookkeeping only"
+}

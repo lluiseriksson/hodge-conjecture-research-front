@@ -257,9 +257,11 @@ form \(\mathbf Q^5\) and that the required global differential can only be
 relation kernel. B039 proves that additional strict-support summands under
 the blow-up are point-supported in ordinary degree two, so this group is
 the downstairs degree-one IC stalk. NG-034 prevents using a complex
-face-quiver calculation alone for the remaining rational Hodge-type step.
-Only after that comparison and the general multipart calculation are proved
-may the fixed-carrier branch replace the two-block inequality by
+face-quiver calculation alone for the rational Hodge-type step; B040 instead
+uses Saito's mixed-Hodge-module calculation to prove pure type \((0,0)\)
+after \(\mathbf Q(n)\). The next subgate is \(U_{2,r}\), followed by
+higher-rank multipart arrangements. Only after that general calculation is
+proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 
 B017 proves that, for a fixed \(X\), the cumulative detector spans stabilize

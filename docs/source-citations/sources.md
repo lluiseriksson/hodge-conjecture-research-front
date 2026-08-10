@@ -394,6 +394,17 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   ordinary double points the local vanishing group is \(\mathbf Q(-n)\) with
   unipotent monodromy; the relative-cycle/retraction construction of
   \(\gamma_\beta\) is explicit.
+- Rechecked Section 1.4, especially formula (1.4.1) and Proposition 1.7, for
+  B040. In a normal-crossing polydisk, the degree-one IC stalk is computed by
+  Saito's image-of-monodromy subcomplex in mixed Hodge modules. If
+  \(N_iN_j=0\) and every \(\operatorname{Im}N_i\subset H(-1)\) is a sum of
+  one-dimensional mixed Hodge structures, Proposition 1.7 proves that the
+  dimension of its \((0,0)\) Hodge classes equals the full degree-one
+  dimension. B040 applies this only at the resolved two-branch crossings.
+- Rechecked the proof of Theorem 3 in Section 2.7. The unipotent nodal
+  vanishing cohomology is one-dimensional and pure of weight \(2n\), hence
+  \(\mathbf Q(-n)\); after the \(\mathbf Q(n)\) normalization used in the
+  relation complex, the generator is \(\mathbf Q(0)\).
 - Scope guard: the theorem characterizes a chosen singular member but does
   not produce one for an arbitrary Hodge class.
 - Local retrieval SHA-256:
@@ -739,9 +750,9 @@ arrangements,” [arXiv:1810.13126](https://arxiv.org/abs/1810.13126).
 - These are candidate tools for G015 because the node-smoothing parameters
   define a central hyperplane arrangement and the required object is an
   intermediate extension. B036 now fixes the target calculation for
-  \(U_{2,5}\): instantiate this image module and test whether its exceptional
-  differential is \(e_i\mapsto\delta_i\). That instantiation and Saito's
-  type-\((0,0)\) comparison remain undone.
+  \(U_{2,5}\); B037-B040 compute the same object by the logarithmic-residue
+  and mixed-Hodge-module route. No rational Hodge conclusion is imported
+  from Bapat's complex face algebra.
 - Scope guard: an arrangement-quiver model by itself does not imply that the
   degree-one stalk equals the full vanishing-cycle relation kernel. A
   dependent \(q\)-block example must be computed explicitly before any
