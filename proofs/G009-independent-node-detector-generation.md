@@ -13,7 +13,7 @@ hodge_type: primitive type (0,0) after Tate twist; only type-(0,0) Saito relatio
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B010, B015, B016, B017, and B018; boundary attempt audited in S026
+dependencies: B010, B015-B020; boundary attempt audited in S026 and matching paths in S027
 claim: The rational span of Saito detector classes from all independent-node hyperplane members in all sufficiently high powers equals the primitive rational Hodge homology of X.
 falsifier: a polarized smooth projective 2n-fold with a nonzero primitive rational Hodge cohomology class orthogonal to every Saito detector class arising from every independent-node member in every sufficiently high power
 ---
@@ -110,6 +110,24 @@ classes, but their existence and ambient pushforward would require a new
 argument; they do not follow from the imposed complete intersection. The
 tautological-incidence shortcut is NG-015.
 
+## Attempt 6 - Use a matching path or an intersection-one pair
+
+Matching paths show that two thimbles over distinct critical values can glue
+to a Lagrangian middle sphere. B019 keeps the output type
+honest: the construction is symplectic, the endpoints are distinct singular
+fibers, and no theorem identifies the sphere with a type-\((0,0)\) Saito
+class at one simultaneous-node member. Colliding the two endpoints while
+preserving the ambient class and Hodge type is exactly the missing algebraic
+specialization theorem. Treating the matching sphere itself as a G009
+detector is NG-016.
+
+Schnell's Lemma 6 also does not supply the desired local relation. B020 shows
+that its two vanishing cycles have intersection number one and are therefore
+rationally independent. The dual-plane node in the same proof corresponds
+to a two-ODP hyperplane, but no relation, type-\((0,0)\) statement, or
+nonzero Saito pushforward is proved for it. Confusing either configuration
+with a detector is NG-017.
+
 ## Re-entry condition
 
 Construct a boundary or incidence class on the universal hyperplane
@@ -119,4 +137,7 @@ pairing, and identify the resulting point with an independent-node Saito
 detector. Equivalently, construct a class-preserving map from Schnell tube
 generators into \(D_{\mathrm{ind}}(X,L)\). The construction must create
 non-tautological primitive ambient homology rather than importing it through
-an already-algebraic non-tautological subvariety.
+an already-algebraic non-tautological subvariety. A two-critical-value route
+must additionally prove an algebraic collision theorem identifying the
+matching sphere with a one-fiber relation class and preserving rational
+type \((0,0)\).

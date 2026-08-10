@@ -37,6 +37,8 @@ boundary, not an induction mechanism.
 | detector-span formulation | B016 turns detection by any chosen singular-member collection into equality of its Saito detector span with primitive rational Hodge homology | the independent-node span equality G009 is precisely the new open generation content |
 | finite detector certificate | B017 proves cumulative spans stabilize and full generation for a fixed variety is witnessed by finitely many detector classes | gives no effective power bound, no construction, and no monotonicity for the individual power-by-power spaces |
 | tautological complete intersections | their classes and multiplicities are explicit and algebraic | B018 proves their primitive projections vanish, so they cannot detect primitive middle classes |
+| symplectic matching paths | B019: two transported thimbles over distinct critical values glue to a Lagrangian sphere in the audited four-dimensional setting | no algebraic one-fiber collision, Hodge-type certificate, or Saito-class identification follows |
+| intersection-one vanishing cycles | B020: Schnell constructs a pair with intersection number one and exhibits cusp/two-node dual-plane configurations | intersection one proves independence; a two-ODP member alone supplies no relation or nonzero detector |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
@@ -100,6 +102,12 @@ boundary, not an induction mechanism.
     polarization divisors has class proportional to \(c_1(L)^n\), hence zero
     primitive projection. Making its degrees larger cannot produce a
     primitive detector.
+19. **Matching-path type fallacy:** gluing two thimbles over distinct
+    critical values gives a symplectic Lagrangian sphere, not automatically
+    a rational type-\((0,0)\) relation at one algebraic singular member.
+20. **Intersection-one relation fallacy:** vanishing cycles with pairing one
+    are rationally independent. The occurrence of a two-node hyperplane in
+    the same discriminant slice does not by itself supply another relation.
 
 ## Open universal core
 
@@ -131,3 +139,7 @@ gives a finite certificate if the gate is true for a fixed variety, but
 NG-014 blocks the naïve comparison between powers. B018/NG-015 further
 require any successful incidence construction to create non-tautological
 primitive homology rather than recycle polarization complete intersections.
+B019/NG-016 separate matching spheres from one-fiber Hodge detectors, and
+B020/NG-017 show that Schnell's intersection-one pair is not the missing
+relation. The remaining two-critical-value route needs a new algebraic
+collision theorem preserving the detector class and rational Hodge type.

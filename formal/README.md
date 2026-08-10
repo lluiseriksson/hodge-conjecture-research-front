@@ -86,6 +86,19 @@ be formalized independently of the open detector geometry and used as a type
 guard preventing tautological complete intersections from inhabiting the
 primitive detector interface.
 
+B019 adds a type-level separation suitable for formal interfaces: a matching
+path has two distinct critical endpoints and returns an ambient Lagrangian
+sphere, whereas a Saito detector takes one singular fiber and a vector in its
+vanishing-cycle relation kernel. No coercion between these types is valid
+without an explicit algebraic collision morphism and Hodge-compatibility
+proof.
+
+B020 adds an elementary executable guard. In a skew pairing, vectors
+\(\delta_1,\delta_2\) with \((\delta_1,\delta_2)=1\) are linearly
+independent; hence they cannot inhabit a nonzero two-generator relation
+kernel. Formalizing this fact would not construct relations at other
+multi-node members.
+
 Rules:
 
 - no `sorry`, admitted theorem, or project-local axiom may carry open

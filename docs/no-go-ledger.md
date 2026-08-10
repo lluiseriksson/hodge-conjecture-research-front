@@ -309,3 +309,49 @@
   non-tautological Saito detector class with controlled ambient pushforward,
   without choosing a non-tautological algebraic subvariety representing the
   desired Hodge direction.
+
+## NG-016 - Matching spheres are not automatically local Hodge detectors
+
+- **Label:** NO-GO
+- **Route:** choose a matching path between two Lefschetz critical values,
+  glue the thimbles to a Lagrangian sphere, and declare its homology class to
+  be an independent-node Saito detector.
+- **Valid input:** B019 and Auroux's Definition 8.1 give an embedded
+  Lagrangian sphere from two isotopic vanishing cycles transported to a
+  smooth midpoint fiber.
+- **Invalid inference:** the two endpoints are simultaneous nodes on one
+  algebraic hyperplane, or the matching sphere equals
+  \(\gamma_\beta\) for a rational type-\((0,0)\) local relation.
+- **Precise obstruction:** the matching path runs between distinct critical
+  values of a symplectic pencil. Its output is a real Lagrangian sphere. The
+  cited construction supplies neither an algebraic collision into one
+  singular member nor a mixed-Hodge comparison proving that the resulting
+  class lies in Saito's local relation channel. Even for the audited
+  projective surfaces, Hodge type is not automatic and codimension one is a
+  special already-known Hodge case.
+- **Re-entry condition:** construct a holomorphic two-parameter deformation
+  that collides the two critical values into an independent-node member,
+  identify the specialized matching class with \(\gamma_\beta\), and prove
+  \(\beta\in R(Y)_1^{(0,0)}\) while preserving the nonzero ambient pairing.
+
+## NG-017 - Intersection-one vanishing cycles do not form a relation
+
+- **Label:** NO-GO
+- **Route:** use Schnell's two vanishing cycles from Section 3.4, or the
+  occurrence of a node in a general plane section of the dual variety, as
+  the two-node relation required by B009-B010.
+- **Valid input:** Schnell proves that for even-dimensional \(X\) there are
+  vanishing cycles \(\delta_1,\delta_2\) with
+  \((\delta_1,\delta_2)=1\), and records that a dual-plane node represents a
+  hyperplane with two ordinary double points.
+- **Invalid inference:** \(\delta_1-\delta_2=0\), or every simultaneous
+  two-node hyperplane has a nonzero rational type-\((0,0)\) relation.
+- **Precise obstruction:** intersection number one makes the constructed
+  pair rationally linearly independent. Schnell obtains that pair from the
+  cusp/Milnor-number-two case. The neighboring statement about a two-ODP
+  hyperplane asserts only the singularity configuration; it supplies no
+  dependence, Hodge type, or nonzero Saito pushforward.
+- **Re-entry condition:** independently compute the vanishing-cycle map for
+  a controlled multi-node algebraic collision, exhibit a nonzero kernel
+  element of rational type \((0,0)\), and prove its ambient detector class
+  survives and pairs nontrivially with the specified Hodge class.

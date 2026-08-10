@@ -348,6 +348,13 @@ Christian Schnell, “Primitive cohomology and the tube mapping,”
   \(V/(g-1)V\) is injective.
 - Checked p. 20, Section 6: the dual formulation detects every primitive
   class by a cohomology class on the global étale space of vanishing cycles.
+- Checked author-PDF pp. 12-13, Section 3.4 and Lemma 6: when
+  \(d=\dim X\) is even, Schnell constructs vanishing cycles
+  \(\delta_1,\delta_2\) with intersection number one. In a general plane
+  section of the dual variety, a node corresponds to a hyperplane with two
+  ordinary double points, while a cusp corresponds to one singularity of
+  Milnor number two; the cusp supplies the intersection-one pair. This pair
+  is linearly independent, not a local relation.
 - Scope guard: tube classes are global topological cycles swept through
   smooth hyperplane sections. The theorem does not support them on a single
   singular hyperplane, make them algebraic, or identify
@@ -436,6 +443,34 @@ Mathematics 11 (2006), 179-268.
   nodal construction assumes an algebraic representative via HC.
 - Local retrieval SHA-256:
   D75371126D39CB89EC6DC1AB533654D3F8FA96DA081BC9C8EF2BC5BE9A2FAF3A.
+
+## S027 - Matching paths and Lagrangian spheres
+
+Denis Auroux, “The canonical pencils on Horikawa surfaces,”
+*Geometry & Topology* 10 (2006), 2173-2217.
+[Journal PDF](https://msp.org/gt/2006/10-4/gt-v10-n4-p04-p.pdf),
+[DOI](https://doi.org/10.2140/gt.2006.10.2173).
+
+- Checked p. 2173: title, author, publication scope, and the fact that the
+  paper studies the canonical Lefschetz pencils of two particular Horikawa
+  surfaces.
+- Checked pp. 2214-2215, Definition 8.1 and Question 8.2: in the
+  four-dimensional setting, a matching path is an embedded arc with two
+  critical endpoints whose two transported vanishing cycles are isotopic in
+  the smooth midpoint fiber. Gluing the thimbles gives an embedded
+  Lagrangian sphere. The construction is explicitly symplectic and is
+  formulated across two critical values, not as simultaneous nodes of one
+  singular fiber.
+- Checked pp. 2214-2215: repeated Dehn twists yield basic matching paths,
+  while the attempted “exotic” relations in the Horikawa examples can lead
+  only to immersed paths/spheres. The paper itself asks how to algebraize the
+  embedded-versus-immersed distinction.
+- Scope guard: the result does not identify a matching sphere with a Saito
+  relation class at one algebraic hyperplane, assert Hodge type, or construct
+  an algebraic cycle on an arbitrary smooth projective variety. The audited
+  theorem is four-dimensional and the examples are a special family.
+- Local retrieval SHA-256:
+  B2857F36D1059F55F160B6D6058EA7F4E7E10EECE2F885913F59432E8A55775E.
 
 ## Citation policy for incompletely audited mechanisms
 

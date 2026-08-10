@@ -88,6 +88,10 @@ geometry. B017 shows that generation for a fixed variety has a finite
 detector-basis certificate, but supplies no effective bound or certificate.
 B018 excludes polarization complete intersections as primitive detectors:
 their classes are tautological and orthogonal to primitive cohomology.
+B019-B020 exclude two further shortcuts: a symplectic matching path is a
+distinct-fiber Lagrangian construction, not a one-fiber Hodge detector, and
+Schnell's intersection-one vanishing cycles are linearly independent rather
+than a relation.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -97,7 +101,10 @@ member. A generic pencil misses the support, a net can meet it only after
 nonemptiness is known, and B014 rules out an abstract hypercohomology shortcut.
 Green-Griffiths boundary pullbacks do not close the gap because their
 class-directed construction begins under HC. G009 would imply the
-terminal-equivalent support theorem, but remains open.
+terminal-equivalent support theorem, but remains open. The sharpened next
+obligation is an algebraic collision theorem that preserves a global tube
+class while producing a rational type-\((0,0)\) relation on one
+independent-node member.
 The anchored G001/G004 route remains open as an independent secondary route.
 
 ## Repository map

@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 43% - independent Git repository, mandatory topology,
+- **Infrastructure:** 45% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 20% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 21% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -16,7 +16,10 @@ Date: 2026-08-10
   semiregular propagation implications; B016 closes the finite-dimensional
   detector-span equivalence; B017 proves finite stabilization and the finite
   certificate form; B018 excludes tautological complete-intersection
-  detectors by primitive orthogonality. None is proof-assistant formalized, and the
+  detectors by primitive orthogonality; B019 separates symplectic matching
+  paths from local Hodge detectors; B020 proves that Schnell's
+  intersection-one pair is independent, not relational. None is
+  proof-assistant formalized, and the
   independent-node generation gate is open.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
@@ -57,6 +60,12 @@ generation from the controlled independent-node locus is not proved.**
   a fixed variety has a finite detector-basis certificate.
 - B018 - PROVED: polarization complete intersections have zero primitive
   projection and cannot pair with primitive middle classes.
+- B019 - PROVED: in the audited four-dimensional theorem a matching path
+  glues thimbles over distinct critical values into a Lagrangian sphere; it
+  does not produce a one-fiber type-\((0,0)\) Saito relation.
+- B020 - PROVED: Schnell's intersection-one vanishing cycles are rationally
+  independent; the adjacent two-ODP dual-plane point supplies no relation
+  theorem.
 - G009 - EXPLORATORY, active: prove detector generation using all
   independent-node members across high powers.
 - G008 - EXPLORATORY parent gate: force a class with nonzero global invariant
@@ -81,6 +90,10 @@ generation from the controlled independent-node locus is not proved.**
   detector transfer.
 - NG-015 - NO-GO: class-blind polarization complete intersections are
   tautological and cannot themselves supply primitive detector classes.
+- NG-016 - NO-GO: a symplectic matching sphere is not automatically an
+  independent-node Saito detector.
+- NG-017 - NO-GO: an intersection-one pair, or a bare two-node
+  discriminant point, is not a proved local detector relation.
 - S019/Thomas: the stronger nodal criterion is also equivalent to HC, but its
   constructive direction starts with an algebraic cycle; deforming the nodal
   divisor retains the embedded-cycle obstruction.

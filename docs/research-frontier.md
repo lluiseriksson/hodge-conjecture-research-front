@@ -24,9 +24,15 @@ Immediate bricks:
 5. Require every proposed incidence source to have a non-tautological
    primitive ambient class; B018/NG-015 exclude complete intersections of
    polarization divisors as detectors.
-5. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
+6. Test an algebraic collision bridge from distinct-fiber matching thimbles
+   to one independent-node Saito relation; B019/NG-016 show that the
+   symplectic matching-path theorem does not provide this bridge.
+7. Do not treat intersection-one pairs as relations; B020/NG-017 prove the
+   opposite for Schnell's pair and leave the two-ODP relation computation
+   open.
+8. Keep the type-\((0,0)\), rational, and unipotent conditions explicit;
    nodal fibers satisfy them automatically, arbitrary singularities do not.
-6. Keep the semiregularity gate G004 as an independent secondary route.
+9. Keep the semiregularity gate G004 as an independent secondary route.
 
 If support realization fails, record whether the obstruction is an empty
 local edge support, nonexistence of the required higher discriminant
@@ -43,6 +49,8 @@ Green-Griffiths II supplies a
 boundary-class program but its class-directed nodal construction assumes HC,
 recorded as NG-013. NG-014 blocks naïve detector transfer between powers.
 B018/NG-015 show that class-blind tautological complete intersections cannot
-provide primitive detectors. G008 remains the terminal-equivalent support
+provide primitive detectors. B019/NG-016 distinguish symplectic matching
+spheres from one-fiber Hodge detectors; B020/NG-017 show that Schnell's
+intersection-one pair is independent rather than relational. G008 remains the terminal-equivalent support
 theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

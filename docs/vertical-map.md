@@ -155,6 +155,18 @@ close G009 by using only polarization complete intersections as its ambient
 detectors. Any successful degeneration must create genuinely
 non-tautological primitive homology.
 
+B019-B020 isolate the minimal two-critical-value attempt. A symplectic
+matching path glues thimbles over two distinct critical values into a
+Lagrangian sphere, but it is not a simultaneous-node relation and has no
+automatic Hodge type. Schnell's intersection-one pair is rationally
+independent, while the nearby statement that a dual-plane node represents a
+two-ODP hyperplane supplies no relation theorem. Thus the smallest new
+geometric datum remains an **algebraic collision comparison**: specialize
+distinct-fiber thimble data to one independent-node member, identify a
+nonzero relation \(\beta\) of rational type \((0,0)\), and prove that
+\(\gamma_\beta\) preserves the chosen global tube class or at least its
+nonzero pairing with \(\zeta\).
+
 The parent gate G008 remains: starting from the already nonzero global class
 \(s(\zeta)\), construct a discriminant point \(p\) with
 
@@ -191,8 +203,12 @@ the B015 independent-node locus for a spanning set, it would close G009.
    local IC channel when an independent-node member is already supplied, but
    it neither constructs that member from the tube nor preserves the
    class-specific pairing.
+5. Replace the missing collision by a matching path - **type error**. B019
+   produces a Lagrangian sphere from distinct critical fibers, not a local
+   type-\((0,0)\) relation. Replace it by Schnell's intersection-one pair -
+   **linear-algebra error**. B020 proves that pair is independent.
 
-Step 4 is NG-010. Inferring a nonzero local class merely from global
+Step 4 is NG-010. Step 5 is split into NG-016 and NG-017. Inferring a nonzero local class merely from global
 nonvanishing or a generic slice is NG-011. The open construction must create
 a higher discriminant stratum and verify the specialization through Saito's
 exact sequence; merely factoring the global monodromy or increasing slice
