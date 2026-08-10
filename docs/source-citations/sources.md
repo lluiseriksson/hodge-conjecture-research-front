@@ -442,6 +442,11 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   primitive part. Thus equality with B057's ambient class follows if the
   collision comparison identifies $\gamma'$ with the same relative chain;
   the source does not prove that identification for an arbitrary B057 word.
+- Rechecked Section 2.4, printed p. 8, together with §2.5 for B100: the image
+  of nearby/limit middle homology in $H_{2n}(X)$ is nonprimitive. Hence two
+  relative lifts of the same boundary relation have identical primitive
+  ambient images. Literal equality of the relative representatives is not
+  required; identifying B057's local boundary remains the open comparison.
 - Rechecked Section 1.4, especially formula (1.4.1) and Proposition 1.7, for
   B040. In a normal-crossing polydisk, the degree-one IC stalk is computed by
   Saito's image-of-monodromy subcomplex in mixed Hodge modules. If

@@ -1416,5 +1416,18 @@
   and have the same local boundary and B022 quotient classes.
 - **Precise obstruction:** B083 lifts form a torsor, while relative lifts of a
   fixed boundary can differ by absolute, equator, or base-locus classes.
-- **Re-entry condition:** G063 must construct the good-retraction comparison
-  and verify boundary plus both quotient identities explicitly.
+- **Re-entry condition:** B100 removes literal representative equality; G064
+  must construct the relative comparison, identify its boundary, and retain
+  primitive ambient pushforward.
+
+## NG-076 - The relative representatives must be identical
+
+- **Label:** NO-GO
+- **Route:** require Saito's chosen $\gamma'$ to equal the B057 chain in the
+  full relative group and in both B022 kernel coordinates.
+- **Valid input:** equality would imply equality of primitive ambient classes.
+- **Invalid inference:** it is necessary.
+- **Precise obstruction:** B100 proves any two lifts of the same local
+  boundary differ by nearby homology whose image in $X$ is nonprimitive.
+- **Re-entry condition:** G064 must identify the local boundary and primitive
+  pushforward; representative equality is not required.

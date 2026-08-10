@@ -13,7 +13,7 @@ hodge_type: local relation and ambient image rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B022, B057-B058, B081-B083, B093-B099, G047-G062, NG069-NG075
+dependencies: B009-B010, B022, B057-B058, B081-B083, B093-B100, G047-G062, G064, NG069-NG076
 claim: Construct Saito's good-retraction relative class gamma' for the canonical full-support relation coordinate of a special lift, prove its boundary is that coordinate, and identify gamma' with the B057 detector chain after both B022 quotients.
 falsifier: failure of the relative comparison map, a different boundary relation, discrepancy by an equator or base-locus class affecting the ambient image, or failure to identify the B057 chain
 ---
@@ -24,7 +24,7 @@ falsifier: failure of the relative comparison map, a different boundary relation
 
 For the isolated clean nodal target, choose Saito's good retraction
 $\rho:Y_c\to Y_0$ and vanishing neighborhood $Z_c$. For a relevant special
-lift $\beta_{mathrm{sp}}$, let $r_H(\beta_{mathrm{sp}})$ be its canonical
+lift $\beta_{\mathrm{sp}}$, let $r_H(\beta_{\mathrm{sp}})$ be its canonical
 full-support relation coordinate. Construct
 
 \[
@@ -33,13 +33,15 @@ full-support relation coordinate. Construct
 
 and prove all four identities:
 
-1. $\partial\gamma'=r_H(\beta_{mathrm{sp}})$;
+1. $\partial\gamma'=r_H(\beta_{\mathrm{sp}})$;
 2. under the collision comparison, $\gamma'$ is the B057 relative extension
    $\tau_g(\alpha)$;
 3. the comparison respects the equator-extension quotient; and
 4. it respects the base-locus quotient.
 
 B099 then gives
-$\gamma_{r_H(\beta_{mathrm{sp}})}=c$ and the prescribed pairing is nonzero.
+$\gamma_{r_H(\beta_{\mathrm{sp}})}=c$ and the prescribed pairing is nonzero.
 The gate asks for equality of actual relative classes, not merely equality of
-dimensions, monodromy invariance, or existence of some lift.
+dimensions, monodromy invariance, or existence of some lift. B100/NG076 show
+that this representative equality is sufficient but unnecessarily strong.
+G064 retains only boundary identification and primitive pushforward.

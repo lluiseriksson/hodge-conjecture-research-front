@@ -31,6 +31,6 @@ The ambiguity is material: B083 lifts form a torsor, and relative lifts of a
 fixed boundary can differ by absolute or B022-kernel classes. B099 applies
 only after the same-chain comparison is proved.
 
-The re-entry condition is G063: construct the good-retraction relative-chain
-map and verify the boundary, both quotient classes, and equality with B057's
-specified chain.
+B100/NG076 remove literal chain equality. The re-entry condition is G064:
+construct the relative comparison, identify its boundary, and retain the
+primitive ambient pushforward.

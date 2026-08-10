@@ -59,4 +59,5 @@ B098 gives $q_P(t)=c$, so
 
 The theorem is a same-chain compatibility statement. B083 liftability alone
 does not identify its special relation coordinate with the boundary of this
-particular relative cycle. NG075/G063 isolate that chain-level obligation.
+particular relative cycle. B100 shows literal representative equality is not
+needed; the minimal remaining obligation is G064's boundary identification.

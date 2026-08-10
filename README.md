@@ -226,6 +226,13 @@ the B057 detector under the good retraction. NG075 blocks obtaining this
 chain identity from a cohomological lift alone. G063 is the active gate:
 construct and compare that relative class, its boundary, and both B022
 quotients.
+B100 sharpens Saito's construction further: any two relative lifts of the
+same boundary relation have the same primitive ambient image because their
+difference comes from nonprimitive nearby-fiber homology. NG076 therefore
+closes literal same-chain equality as an unnecessary requirement. G064 is the
+active minimal gate: place the B057 detector in Saito's relative group,
+identify its boundary with the canonical local relation, and retain its
+primitive ambient value $c$.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -457,6 +464,7 @@ python verification/verify_B096_boundary_pairing_dichotomy.py
 python verification/verify_B097_constant_target_square.py
 python verification/verify_B098_two_quotient_map.py
 python verification/verify_B099_same_relative_chain.py
+python verification/verify_B100_relative_lift_independence.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -546,6 +554,9 @@ The B098 check verifies a finite model of independence from both B022 kernel
 coordinates; the general statement is B022's two exact quotients plus B057.
 The B099 check verifies a finite same-chain boundary/ambient model; the
 general result follows from Saito §2.5's good-retraction construction.
+The B100 check verifies a finite model in which different relative
+representatives with one boundary have the same primitive ambient image;
+Saito §2.4 proves the general nonprimitive-ambiguity statement.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

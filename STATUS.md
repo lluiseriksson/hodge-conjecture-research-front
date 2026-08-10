@@ -5,7 +5,7 @@ Date: 2026-08-10
 - **Infrastructure:** 87% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 92% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 93% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -159,6 +159,9 @@ Date: 2026-08-10
   B010's special Saito ambient class. B099 proves that comparison whenever
   Saito's good-retraction relative cycle is the same B057 chain. NG075/G063
   isolate this exact chain identity, boundary, and quotient compatibility.
+  B100 proves literal representative equality is unnecessary because
+  relative-lift ambiguity has nonprimitive ambient image. NG076/G064 reduce
+  the gate to local boundary identification plus primitive pushforward.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -585,9 +588,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   is B057's chain, the special class equals $c$.
 - NG075 - NO-GO: B083 special-stalk liftability does not identify the lift
   with Saito's specific relative cycle.
-- G063 - EXPLORATORY, active smallest gate: construct Saito's relative cycle,
+- G063 - EXPLORATORY, stronger same-chain gate: construct Saito's relative cycle,
   prove its boundary is the canonical full-support relation, and identify it
   with the B057 chain through both B022 quotients.
+- B100 - PROVED: any two Saito relative lifts of the same local relation have
+  the same primitive ambient image; their difference comes from nonprimitive
+  nearby-fiber homology.
+- NG076 - NO-GO: literal equality of the relative representative and both
+  kernel coordinates is not necessary.
+- G064 - EXPLORATORY, active smallest gate: map the B057 detector into
+  Saito's relative group, identify its canonical local boundary, and verify
+  primitive ambient pushforward $c$.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

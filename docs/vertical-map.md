@@ -282,7 +282,9 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G062: nearby/Saito ambient-map comparison}
 \Longleftarrow
-\text{G063: good-retraction same-chain identity}.
+\text{G063: good-retraction same-chain identity}
+\Longleftarrow
+\text{G064: local relative-boundary identification}.
 \]
 
 G045 remains the multiplicity audit, but the point term is a separate
@@ -398,6 +400,11 @@ is $c$. NG075 blocks replacing this identity with abstract liftability. G063
 is the current smallest endpoint: build the good-retraction relative cycle,
 compute its boundary, and identify it with B057's class through both B022
 quotients.
+B100 uses Saito §2.4 to remove literal representative equality: the
+difference between two lifts of one boundary has nonprimitive ambient image.
+NG076 closes G063's stronger requirement as unnecessary. G064 is the current
+smallest endpoint: construct the relative comparison, prove its boundary is
+the canonical full-support relation, and retain primitive ambient value $c$.
 
 An externally claimed shortcut is closed separately:
 
