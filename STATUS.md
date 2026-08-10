@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 71% - independent Git repository, mandatory topology,
+- **Infrastructure:** 72% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 49% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 50% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -171,8 +171,10 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B044/G016 - PROVED: for one dependent triple, the two-class wonderful
   residue kernel is the full relation space and flat-supported summands do
   not affect ordinary degree one.
-- G017 - EXPLORATORY, active subgate: compute two dependent triples sharing
-  one branch.
+- B045/G017 - PROVED: two dependent triples sharing one branch give
+  compatible exceptional equations and the full relation kernel.
+- G018 - EXPLORATORY, active subgate: compute the first nested pair of
+  dependent flats in rank four.
 - G015 - EXPLORATORY, active: extend B009's quasi-local relation-channel
   calculation from two independently smoothable blocks to a
   dimension-scaled number of blocks.

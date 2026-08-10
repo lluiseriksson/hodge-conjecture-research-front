@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B044, G012-G014, G016-G017, Green-Griffiths S021, and Saito S022/S037
+dependencies: B009-B010, B028, B034-B045, G012-G014, G016-G018, Green-Griffiths S021, and Saito S022/S037
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -275,6 +275,18 @@ IC stalk remains the pure type-\((0,0)\) relation kernel.
 G017 is the next test: two dependent triples share one branch. Its two
 exceptional equations share one vanishing-cycle coefficient and must be
 checked simultaneously before any induction over a building set is valid.
+
+## Attempt 12 - Two dependent flats
+
+B045 proves G017. The fiber is the blow-up of \(\mathbf P^2\) at the two
+triple points. In the basis \(h,e_A,e_B\), the exceptional equations
+independently assign the two partial cycle sums, even though both contain
+\(a_1\delta_1\). The remaining equation is precisely the global relation.
+The two flat-supported summands again begin in ordinary degree two.
+
+G018 is the first genuinely nested-center gate in rank four. Unlike G017,
+its wonderful centers do not become disjoint after the origin blow-up, so
+both the residue matrix and strict-support incidence require a new audit.
 
 ## Propagation
 

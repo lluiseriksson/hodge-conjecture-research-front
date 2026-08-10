@@ -190,7 +190,8 @@ of type \((0,0)\). B041 extends the complete argument to every
 statement for every \(U_{3,r}\), including \(U_{3,7}\). B043 proves the
 dimension-uniform statement for every simple uniform \(U_{d,r}\). The next
 gate G016 is closed by B044 for one dependent triple. G017 now tests two
-dependent triples sharing one branch.
+dependent triples sharing one branch; B045 closes that test. G018 is the
+first nested-flat wonderful-resolution gate.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -245,6 +246,7 @@ python verification/verify_B041_uniform_rank_two.py
 python verification/verify_B042_uniform_rank_three.py
 python verification/verify_B043_uniform_arbitrary_rank.py
 python verification/verify_B044_single_dependent_flat.py
+python verification/verify_B045_two_dependent_flats.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -272,6 +274,8 @@ The B043 check verifies uniform incidence depths and the point-support shift
 range through parameter dimension ten.
 The B044 check verifies the two divisor-class residue equations for every
 possible dependent-flat and total cycle-span rank.
+The B045 check verifies the simultaneous three-class residue matrix when
+two dependent triples share a branch.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

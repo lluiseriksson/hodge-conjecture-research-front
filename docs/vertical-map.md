@@ -264,7 +264,8 @@ after \(\mathbf Q(n)\). B041 extends all four steps uniformly to
 non-semismall shifts for every \(U_{3,r}\). B043 proves the dimension-uniform
 \(U_{d,r}\) theorem. G016 is the next subgate: one dependent triple requires
 a second wonderful-model exceptional divisor. B044 proves that case; G017
-tests two dependent triples sharing a branch. Only after the general
+tests two dependent triples sharing a branch, and B045 proves compatibility.
+G018 is the first nested-flat subgate. Only after the general
 nonuniform calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).

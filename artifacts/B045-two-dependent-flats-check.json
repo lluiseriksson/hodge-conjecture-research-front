@@ -1,0 +1,24 @@
+{
+  "exceptional_fiber": "Bl_(p_A,p_B)(P^2)",
+  "divisor_classes": {
+    "C_A": "e_A",
+    "C_B": "e_B",
+    "M_1": "h-e_A-e_B",
+    "M_2_M_3": "h-e_A",
+    "M_4_M_5": "h-e_B",
+    "M_6_M_7": "h"
+  },
+  "residue_components": ["global", "flat_A_partial_sum", "flat_B_partial_sum"],
+  "tested_cases": [
+    {"total_span_rank": 1, "flat_A_span_rank": 1, "flat_B_span_rank": 1, "resolved_kernel_dimension": 6, "relation_dimension": 6},
+    {"total_span_rank": 2, "flat_A_span_rank": 2, "flat_B_span_rank": 2, "resolved_kernel_dimension": 5, "relation_dimension": 5},
+    {"total_span_rank": 3, "flat_A_span_rank": 3, "flat_B_span_rank": 3, "resolved_kernel_dimension": 4, "relation_dimension": 4},
+    {"total_span_rank": 4, "flat_A_span_rank": 3, "flat_B_span_rank": 3, "resolved_kernel_dimension": 3, "relation_dimension": 3},
+    {"total_span_rank": 5, "flat_A_span_rank": 3, "flat_B_span_rank": 3, "resolved_kernel_dimension": 2, "relation_dimension": 2},
+    {"total_span_rank": 6, "flat_A_span_rank": 3, "flat_B_span_rank": 3, "resolved_kernel_dimension": 1, "relation_dimension": 1},
+    {"total_span_rank": 7, "flat_A_span_rank": 3, "flat_B_span_rank": 3, "resolved_kernel_dimension": 0, "relation_dimension": 0}
+  ],
+  "non_full_support_H1_contribution": 0,
+  "kernel_hodge_type": "(0,0)",
+  "scope": "exact residue-matrix and shift bookkeeping only"
+}

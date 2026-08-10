@@ -1,6 +1,6 @@
 ---
 brick_id: G017
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: a three-dimensional nodal smoothing slice with seven central discriminant hyperplanes and exactly two dependent triples sharing one branch
 smoothness: the parameter threefold is smooth; the central projective fiber has seven ordinary double points and nearby fibers are smooth; the projectivized arrangement has exactly two triple points
@@ -13,7 +13,7 @@ hodge_type: the sought downstairs degree-one relation channel must be pure of ty
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B043-B044, G015-G016
+dependencies: B043-B045, G015-G016
 claim: For seven rank-three branches with dependent triples {1,2,3} and {1,4,5} and no others, the wonderful-resolution degree-one IC channel is the full rational relation kernel of pure type (0,0) after Q(n).
 falsifier: interaction between the two exceptional-flat residue equations kills a relation, creates a class, or introduces an ordinary-degree-one non-full-support summand
 ---
@@ -42,4 +42,19 @@ partial sum on its dependent triple. The shared branch tests whether those
 two equations remain compatible rather than silently double-counting
 \(\delta_1\).
 
-G017 is unproved and constructs no algebraic cycle.
+B045 proves that the residue equations are
+
+\[
+ \sum_i a_i\delta_i=0,
+ \quad
+ w_A=\sum_{i\in\{1,2,3\}}a_i\delta_i,
+ \quad
+ w_B=\sum_{i\in\{1,4,5\}}a_i\delta_i.
+\]
+
+The exceptional classes are independent, so the shared branch creates no
+compatibility obstruction. Projection to \((a_i)\) is the full relation
+kernel. Flat- and point-supported direct-image summands begin in ordinary
+degree two, and the downstairs group is pure type \((0,0)\).
+
+G017 constructs no algebraic cycle and does not cover nested flats.

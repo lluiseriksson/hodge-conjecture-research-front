@@ -354,6 +354,9 @@ Society Lecture Note Series 343 (2007), 206-263.
   \(\operatorname{Bl}_p\mathbf P^2\), but the two divisor-class components
   and the coefficient (W_F\) on the new exceptional curve are computed
   inside B044; they are not asserted by S021.
+- B045 applies the residue sequence on the blow-up of \(\mathbf P^2\) at two
+  points. The three divisor-class components and simultaneous partial-sum
+  equations are derived in B045, not imported from S021.
 - Checked pp. 18-19 visually and against OCR: the paper explicitly defines
   \(\rho(ii)\) as the dimension of the image of
   \(H_{2n}(X_{s_0})\to H_{2n}(X)_{\mathrm{prim}}\), alongside relations,
@@ -843,6 +846,8 @@ American Mathematical Society* 46 (2009), 535-633,
   dependent-flat stratum and the origin. The possible strict support on the
   flat is retained and shifted explicitly; it is not discarded by a
   semismall shortcut.
+- B045 repeats this support audit for two disjoint strict transforms of
+  dependent flats; it makes no claim about nested centers.
 - Scope guard: the theorem separates the downstairs full-support IC summand
   from point-supported summands. It does not calculate the latter's Hodge
   structures and does not prove that the degree-one relation group has type

@@ -76,10 +76,14 @@ is forced to the partial triple sum, and the remaining equation is exactly
 the full seven-cycle relation. Flat-supported direct-image summands begin in
 ordinary degree two.
 
-The active falsifiable subgate is G017: two dependent triples share one
-branch. Their two exceptional residue equations both contain the shared
-vanishing-cycle coefficient, so compatibility must be proved before any
-building-set induction.
+G017 is closed by B045: the two exceptional equations occupy independent
+divisor classes and merely assign their two partial cycle sums, despite the
+shared branch. The full relation equation remains unchanged.
+
+The active falsifiable subgate is G018, a rank-four arrangement with nested
+dependent flats of codimensions two and three. Its wonderful centers do not
+become disjoint after the first blow-up, so B045's support argument cannot be
+iterated without computing their exceptional incidence.
 
 ## Sufficient parent: G014
 
@@ -125,12 +129,12 @@ algebraic carrier while retaining two blocks.
 
 Immediate bricks:
 
-1. Compute G017's residue map in the divisor-class basis
-   \(h,e_{123},e_{145}\) and test projection onto the global relation space.
-2. Audit all strict supports for the two dependent flats and their common
-   branch.
-3. If G017 succeeds, test a genuinely nested building-set pair in rank at
-   least four; if it fails, record the lost or spurious relation as a NO-GO.
+1. Fix a realizable minimal rank-four nested-flat arrangement and its exact
+   building set.
+2. Compute the divisor classes and residue coefficients on the nested
+   exceptional fiber.
+3. Audit strict supports on both flats and their incidence; then promote the
+   relation kernel or record the precise failure as a NO-GO.
 3. If G015 holds, replace the two-block constraint by Edmonds'
    \(|S|\le q r_A(S)\), with \(q\) allowed to scale at least as \(n!\) in
    fixed-carrier constructions.

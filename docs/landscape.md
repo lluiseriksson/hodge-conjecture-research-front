@@ -66,6 +66,8 @@ boundary, not an induction mechanism.
 | first nonuniform gate | G016 fixes rank three with seven branches and exactly one dependent triple | the second exceptional divisor's incidence differential and composite proper-direct-image shifts are uncomputed |
 | single dependent flat | B044 proves G016: on Bl_p(P^2), the exceptional-flat coefficient is forced to the partial triple sum and the residue kernel is the full relation space | compatibility for several or nested dependent flats remains open |
 | two dependent flats | G017 fixes two dependent triples sharing one branch as the next test | their exceptional residue equations share a vanishing-cycle coefficient and have not been audited together |
+| two-flat compatibility | B045 proves that two non-nested dependent-flat equations remain independent bookkeeping constraints even when the triples share a branch | arbitrarily many and nested flats remain open |
+| nested-flat gate | G018 fixes nested codimension-two and codimension-three flats in rank four | exceptional-divisor incidence and strict supports are uncomputed |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
 | spreading out | places data over a finitely generated field/base | spreading a class is not spreading a cycle that does not yet exist |
