@@ -68,3 +68,10 @@ showing the residual full-support projection is nonzero. Then apply the two
 B022 kernel maps. B076 transports any proved nonzero class through the root
 cover and back. The calculation must use the actual non-equator coefficients;
 the total-equator vector is already zero by NG038.
+
+## Selected-excess cross-identification
+
+B112-B113 and NG088-NG089 later express the same first class-landing problem
+for G074's selected topology-changing excess. G075 is that selected-chain
+formulation: its nonzero invariant full-support projection is not a new
+reduction and must not be counted separately from G042.

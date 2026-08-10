@@ -69,3 +69,7 @@ non-equator thimble chain and separating:
 
 Then test its projection to B074's known trivial summand and the restricted
 Saito pairing.
+
+G075 later isolates the same nonzero invariant full-support landing for the
+class-specific excess used by G074. It is a coordinate-level restatement of
+this first obligation, not an independent route.

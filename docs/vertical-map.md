@@ -286,6 +286,8 @@ arbitrary derived splitting. The corrected vertical endpoint is
 \Longleftarrow
 \text{G074: selected topology-changing excess class}
 \Longleftarrow
+\text{G075: global invariant full-support excess landing}
+\Longleftarrow
 \text{G060: ambiguity boundary or pairing square}
 \Longleftarrow
 \text{G061: quotient-compatible ambient morphism}
@@ -316,7 +318,11 @@ detector as a nearby class in $\operatorname{im}u$ while retaining its
 nonzero pairing. B111/NG087 remove the stronger demand for a map on all
 distributed classes. B112/NG088 then show that a common fully marked boundary
 defines an excess cycle but does not determine its homology class. G074 must
-construct and evaluate that selected excess. Only then is G072's quotient class defined. B106 proves
+construct and evaluate that selected excess. B113/NG089 exclude a purely
+local $A_2$ calculation because its rational $S_3$ descent is zero. G075 is
+the first admissible class-landing calculation: prove a nonzero global
+invariant full-support projection. It is the selected-excess form of G042
+and is not counted twice. Only then is G072's quotient class defined. B106 proves
 that G069 does not extend this chain:
 after cancellation of its auxiliary $c$, G069 is identical to B010's
 terminal pairing condition.
@@ -476,9 +482,11 @@ class or ordinary lift, and a pure-Hurwitz comparison kills the positive
 local detector by B091. B111/NG087 further reduce the source obligation to a
 certificate for the selected detector; no global map on the thimble complex
 is necessary. G073 is the exact source-realization parent. B112/NG088
-identify G074 as its smallest subgate: compute the actual selected excess
-rather than infer it from the marked boundary, then prove ordinary
-liftability and retain the prescribed pairing. G072 is the next filtered calculation once that
+identify G074 as its selected-excess subgate. B113/NG089 then eliminate the
+isolated $A_2$ lattice: G075 must compute a nonzero invariant full-support
+component in the global coefficient object. This is exactly G042's first
+class-landing clause in selected-chain coordinates, not an independent
+reduction. G072 is the next filtered calculation once that
 input exists. G060-G068 remain optional
 sufficient mechanisms for G070's second branch afterward.
 

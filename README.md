@@ -271,10 +271,14 @@ zero by B091. B111/NG087 remove a remaining overconstraint: the selected
 detector needs a collision-certified realization, but no map on every
 distributed thimble class is necessary. B112/NG088 then isolate its selected
 excess cycle and prove that even a fully marked common boundary leaves its
-homology class arbitrary. G074 is the active smallest gate: construct the
-actual selected topology-changing chain, compute its excess over the
-pure-Hurwitz reference, prove ordinary liftability, and preserve the nonzero
-prescribed pairing through both B022 quotients. G073 then closes the source
+homology class arbitrary. B113/NG089 then exclude the isolated local
+$A_2$ lattice: its normalized rational $S_3$ trace is zero. G075 is the
+active smallest gate: construct the selected excess in the full global
+coefficient object and prove nonzero invariant full-support landing in the
+canonical perverse grade. This is G042's first class-landing clause in
+selected-chain coordinates, so it is not counted twice. G074 must then prove
+ordinary liftability and preserve the nonzero prescribed pairing through
+both B022 quotients. G073 closes the source
 certificate, and G072 follows by
 computing the off-diagonal extension class of that actual lift.
 The
@@ -521,6 +525,7 @@ python verification/verify_B108_filtered_lift_obstruction.py
 python verification/verify_B109_filtered_extension_class.py
 python verification/verify_B110_source_realization.py
 python verification/verify_B112_selected_excess.py
+python verification/verify_B113_a2_excess_descent.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -650,6 +655,9 @@ certificate; a natural map on the full distributed complex is optional.
 The B112/NG088 check proves that equal marked boundaries define an excess
 cycle but permit arbitrary excess homology. G074 must construct and evaluate
 the actual selected topology-changing chain.
+The B113/NG089 check proves that an excess confined to the local $A_2$
+standard representation has zero rational descent. G075 must locate the
+selected class in a nonlocal invariant full-support constituent.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

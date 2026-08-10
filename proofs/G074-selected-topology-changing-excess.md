@@ -13,7 +13,7 @@ hodge_type: the selected excess and induced nearby class rational type (0,0) aft
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B022, B057-B059, B083-B084, B088-B091, B110-B112, G055, G073, NG086-NG088, S023
+dependencies: B022, B057-B059, B071-B077, B081, B083-B084, B088-B091, B110-B113, G041-G043, G055, G073, G075, NG050-NG054, NG086-NG089, S023
 claim: For the selected detector t, construct an actual topology-changing comparison chain gamma_sp and a marked pure-Hurwitz reference gamma_H with the same boundary, compute the excess class [gamma_sp-gamma_H], and prove that it induces an ordinarily liftable rational type-(0,0) nearby class surviving both B022 quotients with nonzero prescribed pairing.
 falsifier: inability to construct either selected chain with a common marked boundary, zero or undefined excess, wrong Hodge type, nonzero vanishing-cycle obstruction, death in a B022 kernel, or zero pairing for every admissible collision
 ---
@@ -54,8 +54,12 @@ The gate is passed only by proving on this exact class:
 B091 shows that the pure-Hurwitz reference alone cannot carry the detector.
 B112/NG088 show that the common marked boundary does not compute the excess:
 the actual collision chain must be constructed and its homology coordinate
-evaluated. A map on unrelated thimble classes is not required by B111.
+evaluated. B113/NG089 further exclude computing it solely in the local
+$A_2$ root lattice, whose rational $S_3$ descent is zero. G075 is the active
+subgate: land the selected excess nontrivially in the global invariant
+full-support constituent. A map on unrelated thimble classes is not required
+by B111.
 
-G074 is the class-specific core of G055 and the current smallest geometric
-subgate of G073. It does not assume that the desired Hodge class is
+G074 is the class-specific core of G055 and the parent of G075. It does not
+assume that the desired Hodge class is
 algebraic.

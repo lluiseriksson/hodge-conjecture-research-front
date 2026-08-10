@@ -716,10 +716,19 @@ generation from the controlled partitioned nodal locus is not proved.**
   excess cycle, but that boundary permits every excess homology class.
 - NG088 - NO-GO: marked boundary equality cannot supply nonvanishing, Hodge
   type, B022 survival, or the prescribed pairing of the excess.
-- G074 - EXPLORATORY, active smallest gate: construct the actual selected
+- G074 - EXPLORATORY parent: construct the actual selected
   topology-changing chain and compute its excess over the pure-Hurwitz
   reference with ordinary liftability, rational type, both quotient
   survivals, and nonzero prescribed pairing.
+- B113 - PROVED: a selected excess confined to the local $A_2$ root lattice
+  has zero rational $S_3$ descent; nonzero descent requires a nonlocal
+  trivial-isotypic component.
+- NG089 - NO-GO: a nonzero local $A_2$ excess upstairs cannot be averaged
+  into G074's rational detector downstairs.
+- G075 - EXPLORATORY, active smallest gate: compute the selected excess in
+  the full global equivariant nearby-cycle object and prove nonzero invariant
+  full-support landing in the canonical perverse grade. This is the
+  selected-chain formulation of G042's first landing clause.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

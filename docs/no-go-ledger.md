@@ -1644,3 +1644,20 @@
   chain and compute its excess against the Hurwitz reference, including
   ordinary liftability, rational type, both B022 quotients, and nonzero
   prescribed pairing.
+
+## NG-089 - A purely local A2 excess descends nontrivially
+
+- **Label:** NO-GO
+- **Route:** compute a nonzero selected excess solely in the local $A_2$
+  root lattice on the ordered-root cover and descend it by normalized
+  $S_3$ trace.
+- **Valid input:** the local excess can be nonzero upstairs, and rational
+  finite-group averaging is defined.
+- **Invalid inference:** its invariant projection is nonzero.
+- **Precise obstruction:** B113 applies B073's exact matrices: the rational
+  $A_2$ lattice is the standard $S_3$ representation and the Reynolds
+  projector vanishes identically on it.
+- **Re-entry condition:** G075 must compute the selected excess in the full
+  global coefficient object and prove a nonzero invariant full-support
+  projection in the canonical perverse grade. This is G042's existing
+  class-landing obligation in selected-chain coordinates.
