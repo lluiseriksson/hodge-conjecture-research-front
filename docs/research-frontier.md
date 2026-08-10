@@ -97,12 +97,15 @@ three-block partition. The parent blow-up separates the two child planes, so
 their blow-ups commute; both orders give the same global, parent, and child
 residue equations. Every lower support begins in ordinary degree two.
 
-G019 remains the general arrangement gate. Its active subgate G021 isolates
-the order-independent geometric induction: prove that every wonderful fiber
-has Picard basis \(h,(e_F)\) and every strict branch has class
-\(h-\sum_{F\subset H_i}e_F\). This would make the divisor-class residue
-matrix triangular for arbitrary building sets, but would not yet control the
-degree-one coefficient sheaf or perverse strict supports.
+B049 closes G021's order-independent geometric induction. Every wonderful
+fiber has intrinsic Picard basis \(h,(e_F)\), every strict branch has class
+\(h-\sum_{F\subset H_i}e_F\), and the geometric residue matrix is triangular.
+NG035 records the failure of the stronger raw-exceptional-coordinate claim.
+G019 remains the general arrangement gate, with G022 now active: compute the
+degree-one coefficient sheaf for arbitrary nested-set incidence and exclude
+higher cohomology sheaves. The immediate bricks are an arbitrary-SNC local
+stalk calculation, its lift-quotient/generization maps, and either a proof of
+\(\mathcal H^{\ge2}=0\) or a precise counterexample.
 
 ## Sufficient parent: G014
 

@@ -876,6 +876,16 @@ Li Li, “Wonderful compactification of an arrangement of subvarieties,”
   is a building set, the wonderful compactification is the displayed
   sequence of blow-ups along nonsingular dominant transforms. Increasing
   dimension is listed as an admissible example.
+- Checked Definition 2.7 and Proposition 2.8: a center contained in the
+  blow-up center has dominant transform equal to its full inverse image, and
+  blowing a minimal building element produces the stated induced
+  arrangement and building set.
+- Checked Lemma 2.9: the strict/dominant transforms retain the required clean
+  intersections; incomparable transforms become disjoint when their
+  intersection is the blown center. This supports the inclusion-order
+  induction, not the false arbitrary-order avoidance claim in NG035.
+- Checked Definition 2.12 and Proposition 2.13: the inclusion-compatible
+  iterated blow-up construction yields the wonderful compactification.
 - Checked pp. 4-7, Definitions 2.1-2.3: arrangements use clean
   scheme-theoretic intersections, building-set factors meet transversally,
   and nests are induced by flags. These hypotheses apply to B047's linear
@@ -887,10 +897,11 @@ Li Li, “Wonderful compactification of an arrangement of subvarieties,”
 - B048 uses the same theorem for the fork's smooth/SNC resolution. The
   disjointness of the two child transforms, commutation of their blow-ups,
   divisor classes, and residue equations are proved inside B048.
-- G021 asks for a general order-independent divisor-class induction. Li's
-  theorem supplies the permissible smooth blow-up orders and identifies the
-  boundary divisors, but it is not cited as already proving G021's explicit
-  Picard-basis and total-transform formula.
+- B049 uses these results to prove the Picard basis and multiplicity-one
+  branch formula in inclusion order and then transport the intrinsic
+  labelled divisors through Theorems 1.2-1.3. Li does not itself state the
+  explicit formula. NG035 records why raw exceptional coordinates from a
+  reverse nested order cannot replace this intrinsic comparison.
 - Scope guard: wonderful compactification resolves the arrangement boundary.
   It does not identify a Picard-Lefschetz intermediate-extension stalk,
   supply a rational type-\((0,0)\) relation, or construct an algebraic cycle.

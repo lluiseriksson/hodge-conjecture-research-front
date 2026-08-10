@@ -719,3 +719,22 @@
   construct the corresponding rational mixed Hodge module or compare it
   directly with Saito's local class, including the Tate twist, weights, and
   Hodge filtration.
+
+## NG-035 - Raw exceptional classes are order invariant
+
+- **Label:** NO-GO
+- **Route:** prove G021 stepwise in an arbitrary permissible order by claiming
+  that no later dominant center is contained in an earlier exceptional
+  divisor.
+- **Valid input:** Li permits orders whose prefixes are building sets and
+  defines the dominant transform of a contained subvariety as its full
+  inverse image.
+- **Invalid inference:** a later dominant center always avoids the earlier
+  exceptional boundary.
+- **Precise obstruction:** for a point (F) on a smooth codimension-two
+  curve (G) in a threefold, blowing up (G) first turns (F) into
+  \(\mathbf P(N_{G/Y}|_F)\subset E_G\). Blowing this center up gives
+  \([D_G]=[E_G^{\rm pull}]-[E_F]\).
+- **Re-entry condition:** calculate in an inclusion-compatible order and use
+  Li's canonical wonderful model to transport the intrinsic labelled
+  divisors. B049 implements this repair.

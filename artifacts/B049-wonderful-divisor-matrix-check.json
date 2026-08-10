@@ -1,0 +1,36 @@
+{
+  "finite_cases": {
+    "one_flat": {
+      "branches": 7,
+      "flats": 1,
+      "branch_class_vectors": [[1, -1], [1, -1], [1, -1], [1, 0], [1, 0], [1, 0], [1, 0]],
+      "incidence_rank": 1,
+      "exceptional_block_determinant": 1
+    },
+    "two_overlapping_flats": {
+      "branches": 7,
+      "flats": 2,
+      "branch_class_vectors": [[1, -1, -1], [1, -1, 0], [1, -1, 0], [1, 0, -1], [1, 0, -1], [1, 0, 0], [1, 0, 0]],
+      "incidence_rank": 2,
+      "exceptional_block_determinant": 1
+    },
+    "three_level_chain": {
+      "branches": 11,
+      "flats": 3,
+      "branch_class_vectors": [[1, -1, -1, -1], [1, -1, -1, -1], [1, -1, -1, -1], [1, -1, -1, 0], [1, -1, -1, 0], [1, -1, 0, 0], [1, -1, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0]],
+      "incidence_rank": 3,
+      "exceptional_block_determinant": 1
+    },
+    "fork": {
+      "branches": 11,
+      "flats": 3,
+      "branch_class_vectors": [[1, -1, -1, 0], [1, -1, -1, 0], [1, -1, -1, 0], [1, -1, 0, -1], [1, -1, 0, -1], [1, -1, 0, -1], [1, -1, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0]],
+      "incidence_rank": 3,
+      "exceptional_block_determinant": 1
+    }
+  },
+  "reverse_chain_raw_basis": ["h", "E_G", "E_F"],
+  "reverse_chain_intrinsic_basis": ["h", "D_G=E_G-E_F", "D_F=E_F"],
+  "basis_change_determinant": 1,
+  "scope": "finite incidence and basis-change consistency only"
+}

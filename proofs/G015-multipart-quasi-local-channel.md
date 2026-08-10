@@ -13,7 +13,7 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B048, G012-G014, G016-G021, Green-Griffiths S021, Saito S022/S037, and Li S038
+dependencies: B009-B010, B028, B034-B049, G012-G014, G016-G022, Green-Griffiths S021, Saito S022/S037, and Li S038
 claim: The B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
 falsifier: a q-block transverse nodal local model whose blocks are separately independently smoothable but whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
 ---
@@ -342,6 +342,16 @@ prove G015. G021 isolates the next induction brick: establish the divisor
 basis and strict-branch class formula for every wonderful building set and
 every permissible order. The coefficient-sheaf and support induction remain
 separate even if that geometric theorem succeeds.
+
+## Attempt 16 - Universal intrinsic divisor matrix
+
+B049 proves G021 by using an inclusion-compatible order and then Li's
+canonical identification of every permissible order with the intrinsically
+labelled wonderful model. NG035 falsifies the stronger raw-coordinate claim:
+in reverse nested order a later dominant center can lie inside an earlier
+exceptional divisor, changing its strict-transform class. Thus the geometric
+residue matrix is now closed, while G022 isolates the still-unproved
+universal coefficient-sheaf incidence and higher-cohomology vanishing.
 
 ## Propagation
 

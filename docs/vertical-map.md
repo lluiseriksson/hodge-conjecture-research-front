@@ -266,10 +266,11 @@ non-semismall shifts for every \(U_{3,r}\). B043 proves the dimension-uniform
 compatibility for two nonnested dependent flats sharing a branch; and B046
 proves the first nested pair in rank four. B047 proves a three-level nested
 chain in rank five, and B048 proves the first fork with order-independent
-child blow-ups. G019 remains the smallest unresolved general local subgate;
-G021 now isolates its universal divisor-matrix induction. The coefficient
-sheaf and strict-support inductions remain separate. Only after a general
-nonuniform calculation is
+child blow-ups. B049 proves G021's universal intrinsic divisor matrix for
+all building sets and permissible orders; NG035 excludes raw-coordinate
+order invariance. G019 remains the smallest unresolved general local subgate,
+and G022 isolates its coefficient-sheaf induction. Strict-support and Hodge
+comparisons remain separate. Only after a general nonuniform calculation is
 proved may the fixed-carrier branch replace the two-block inequality by
 \(|S|\le q r_A(S)\).
 

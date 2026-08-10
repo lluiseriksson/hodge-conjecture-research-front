@@ -13,7 +13,7 @@ hodge_type: the sought downstairs degree-one relation channel must be pure type 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B041-B048, G015-G018, G020-G021, Green-Griffiths S021, Saito S022/S037, and Li S038
+dependencies: B041-B049, G015-G018, G020-G022, Green-Griffiths S021, Saito S022/S037, and Li S038
 claim: For every representable central nodal arrangement and every wonderful building-set resolution, the degree-one downstairs IC stalk is canonically the full rational vanishing-cycle relation kernel and is pure type (0,0) after Q(n).
 falsifier: a realizable building set for which exceptional-incidence residues impose an extra equation or create a class, a non-full strict-support summand contributes in ordinary degree one, or the resulting rational kernel has a non-(0,0) component after Q(n)
 ---
@@ -72,12 +72,12 @@ transforms become disjoint only after the parent blow-up, so the residue
 calculation must simultaneously test the shared parent equation and
 permissible-order independence. B048 proves that finite case.
 
-G021 now isolates the geometric part that all tested examples share: prove
-for an arbitrary building set that the exceptional divisor classes form the
-expected free Picard basis and that every strict branch has class
-\(h-\sum_{F\subset H_i}e_F\), independently of permissible blow-up order.
-Even a proof of G021 would leave the coefficient-sheaf and strict-support
-parts of G019 open.
+B049 proves G021's geometric part for every building set and permissible
+order: the intrinsic boundary classes form the expected Picard basis and
+every strict branch has class \(h-\sum_{F\subset H_i}e_F\). NG035 records
+why raw exceptional coordinates cannot be used in the arbitrary-order
+induction. The active subgate G022 is now the coefficient-sheaf assertion;
+the strict-support and rational Hodge audits remain separate afterward.
 
 G019 constructs no algebraic cycle. Even a proof would close only the local
 arrangement part of G015; an actual multipart nodal family and a nonzero

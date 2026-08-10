@@ -194,8 +194,10 @@ for two dependent triples sharing one branch. B046 closes the first
 nested-flat wonderful-resolution gate G018. G019 now asks for a
 building-set-wide residue and strict-support theorem. B047 proves the first
 three-level nested chain, and B048 proves the first fork with two commuting
-child orders. G021 now isolates the universal divisor-matrix induction; the
-tested examples still do not control arbitrary coefficient-sheaf incidence.
+child orders. B049 proves G021's universal intrinsic divisor matrix for all
+building sets and permissible orders. NG035 records why raw exceptional
+coordinates are not order invariant. G022 now isolates the unresolved
+universal coefficient-sheaf incidence and higher-cohomology vanishing.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -254,6 +256,7 @@ python verification/verify_B045_two_dependent_flats.py
 python verification/verify_B046_nested_dependent_flats.py
 python verification/verify_B047_three_level_nested_chain.py
 python verification/verify_B048_forked_building_set.py
+python verification/verify_B049_wonderful_divisor_matrix.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -290,6 +293,9 @@ then verifies the four-class nested-chain residue kernel over all span ranks.
 The B048 check enumerates the fork, proves the child quotient directions are
 disjoint, compares both branch-class matrices, and verifies the relation
 kernel over all span ranks.
+The B049 check verifies finite incidence matrices and the unimodular
+raw-to-intrinsic basis change in the reverse nested order. Its general proof
+is the geometric argument in B049, not the finite computation.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
