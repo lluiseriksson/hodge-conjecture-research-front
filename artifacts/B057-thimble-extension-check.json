@@ -1,0 +1,16 @@
+{
+  "factor_count": 12,
+  "total_monodromy": [
+    [1, 0],
+    [0, 1]
+  ],
+  "input_class": [1, 0],
+  "extension_coefficients": [0, -1, -1, 0, -1, 1, 0, 1, 1, 0, 1, -1],
+  "extension_nonzero": true,
+  "boundary": [0, 0],
+  "boundary_kernel_dimension": 10,
+  "equator_image_rank": 2,
+  "equator_quotient_dimension": 8,
+  "chosen_extension_quotient_class_zero": true,
+  "scope": "finite Picard-Lefschetz composition and equator-quotient illustration only"
+}

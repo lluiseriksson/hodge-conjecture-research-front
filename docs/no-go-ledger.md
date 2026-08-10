@@ -780,3 +780,23 @@
   topology-changing boundary. The required specialization must survive the
   B022 equator and base-locus quotients, acquire rational type \((0,0)\), and
   retain nonzero pairing with the specified Hodge class. This is G029.
+
+## NG-038 - The total pencil equator is the detector relation
+
+- **Label:** NO-GO
+- **Route:** factor the total equator of a complete generic Lefschetz pencil
+  into all its meridians, apply B013 to an invariant class, and promote the
+  telescoping relation to a nonzero ambient detector.
+- **Valid input:** B057 identifies the telescoping coefficients with the
+  actual coefficients in the ordered thimble-extension chain.
+- **Invalid inference:** the total-equator extension survives the first
+  B022 quotient.
+- **Precise obstruction:** S029 equations (42)-(43) identify the coefficient
+  matrix with \(T_\infty\), while equation (12) defines
+  \(\mathcal T(Y)=\ker\partial/\operatorname{im}T_\infty\). Hence every
+  invariant total-equator vector is zero in \(\mathcal T(Y)\), even when its
+  thimble coefficients are nonzero.
+- **Re-entry condition:** retain the actual non-equator detector loop placed
+  in a generic plane net by B056. Track its B057 extension chain through a
+  topology-changing collision and prove equality with a local Saito ambient
+  class. This is G030.

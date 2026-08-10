@@ -1,20 +1,23 @@
 # Research frontier
 
-## Active gate: G029
+## Active gate: G030
 
-Starting with a global tube detector from B011, or a quotient-level thimble
-detector from B024 where available, construct a topology-changing algebraic
-specialization to one clean \(q\)-block nodal member. The resulting rational
-relation must survive both B022 quotients, have type \((0,0)\) after
-\(\mathbf Q(n)\), and retain nonzero pairing with the specified primitive
-Hodge class.
+Starting with a B056 detector loop in a generic projective plane net and its
+explicit B057 thimble extension chain, construct a topology-changing
+algebraic specialization to one clean \(q\)-block nodal member. The
+specialized rational relation must have type \((0,0)\) after
+\(\mathbf Q(n)\) and its Saito ambient image must equal the original
+primitive tube class, not merely span a positive-dimensional subspace.
 
 B055 proves why an equisingular monodromy argument cannot supply this
 specialization. Whenever the relation spaces and Saito ambient maps form a
 morphism to the constant primitive homology of \(X\), their image subspace is
 constant on each connected incidence stratum. NG037 records the failed
-route. G029 therefore requires a non-invertible boundary comparison, not
-transport inside one component.
+route. B056 then localizes every global detector to a two-parameter net, and
+B057 identifies its distributed Picard-Lefschetz relation with the actual
+extension chain. NG038 proves that replacing this loop by a complete
+pencil's total equator kills the class in the first B022 quotient. G030 must
+retain the genuine non-equator loop or construct a transverse defect class.
 
 ## Closed local gate: G015
 
@@ -120,10 +123,11 @@ claim using five quasi-local curved branches with a quadratic modulus. B053
 proves G026 by the common-stratum blow-up. B054 then proves G027 and G015:
 Li's clean-transform induction identifies every nonlinear central fiber with
 its labelled tangent wonderful model, so the full multipart relation channel
-survives. G028 is the class-paired incidence parent. B055/NG037 exclude
-equisingular monodromy as a way to enlarge one ambient image, and G029 is now
-active: a topology-changing boundary transport must preserve the global
-detector, rational type, and specified nonzero pairing.
+survives. G028-G029 are the class-paired incidence and transport parents.
+B055/NG037 exclude equisingular monodromy. B056-B057 put the actual detector
+and its extension chain in one plane net, while NG038 excludes the total
+pencil equator. G030 is now active: collide that non-equator chain while
+preserving its exact ambient class and rational Hodge type.
 
 ## Sufficient parent: G014
 
@@ -177,10 +181,10 @@ Attack ledger:
 3. Construct an algebraic incidence component satisfying the multipart
    inequalities and the independent condition \(r_F(\Delta)<|\Delta|\);
    then prove it actually occurs as the node set of a hypersurface member.
-4. Cross a topology-changing boundary and compare its defect space with the
-   global coinvariant maps in B011; B055 rules out equisingular transport.
-5. Use G015's proved quasi-local partition model as the target for G007 and identify
-   the exact class-preserving specialization datum still absent.
+4. Use B056-B057 to keep the actual detector loop and extension chain in a
+   generic plane net; NG038 forbids replacing it by a total pencil equator.
+5. Construct G030's topology-changing specialization square into G015's
+   proved clean multipart target, preserving the exact ambient class.
 6. Audit boundary/intersection constructions that define a global incidence
    class without using an algebraic representative of \(\zeta\); NG-013
    excludes the HC-dependent Green-Griffiths construction.
@@ -277,8 +281,9 @@ and G014 is a sufficient unanchored two-block span theorem. B034 shows that
 the standard fixed-carrier route needs asymptotically at least \(n!\)
 blocks. B049-B054 now close G015's multipart relation channel under the
 explicit clean-arrangement hypothesis. B055/NG037 then show that
-equisingular monodromy cannot enlarge one fixed ambient image; G029 is the
-active topology-changing transport gate. B029/NG-026 test the
+equisingular monodromy cannot enlarge one fixed ambient image. B056-B057
+localize and identify the detector chain, and NG038 kills the total-equator
+shortcut; G030 is the active class-preserving collision gate. B029/NG-026 test the
 first collinear positive-defect configuration and show that it is singular
 along its carrier line. The next construction must obtain adjoint dependence
 from distributed or genuinely zero-dimensional incidence while preserving

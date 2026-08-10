@@ -24,7 +24,8 @@ Two sufficient attacks feed G008:
 \Longleftarrow\text{unanchored detector spanning G014},
 \qquad
 \text{G008}\Longleftarrow\text{tube-to-local concentration G007}
-\Longleftarrow\text{topology-changing transport G029}.
+\Longleftarrow\text{topology-changing transport G029}
+\Longleftarrow\text{plane-net collision G030}.
 \]
 
 The fixed-carrier branch now has an additional necessary local gate:
@@ -148,13 +149,15 @@ proposal G009, now disproved by B027.
 
 ## Current smallest attackable brick
 
-**G029: topology-changing tube-to-nodal transport.** B011 supplies a global
+**G030: plane-net class-preserving collision.** B011 supplies a global
 tube detector for every nonzero primitive class, B022 identifies the two
 quotients before an ambient class is obtained, and B054 proves the clean
-multipart local relation channel once a nodal target is supplied. G029 asks
-for a one-parameter algebraic boundary specialization that identifies the
-chosen quotient-level detector with a rational type-\((0,0)\) nodal
-relation while retaining its nonzero pairing.
+multipart local relation channel once a nodal target is supplied. B056
+places the chosen detector loop in a generic projective plane net, and B057
+identifies B013's distributed relation with its actual thimble extension
+chain and primitive ambient class. G030 asks for a topology-changing
+specialization of that chain to a rational type-\((0,0)\) nodal relation
+whose Saito ambient image is exactly the same class.
 
 B055 proves that transport inside one connected equisingular incidence
 stratum cannot achieve this: a relation-to-constant-ambient morphism of local
@@ -163,6 +166,11 @@ comparison or a comparison of distinct incidence components. The falsifier
 is a global detector for which every such clean nodal boundary
 specialization dies in a B022 quotient, loses rational type, or lands in the
 specified class annihilator.
+
+NG038 further excludes the simplest one-parameter replacement: the total
+equator of a complete Lefschetz pencil is exactly
+\(\tau_\infty(\alpha)\) and is zero in \(\mathcal T(Y)\). The collision must
+retain the non-equator loop from B056 or create a transverse defect class.
 
 **G013/G028: class-paired matroid incidence parents.** Starting with a global tube or
 quotient-level thimble detector for a specified nonzero primitive Hodge class,
@@ -293,8 +301,10 @@ linearization, while B053 proves G026 for the exact quasi-local uniform
 normal arrangement. B054 proves G027 and promotes G015 under the explicit
 clean-arrangement hypothesis. G028 is the unresolved class-paired incidence
 parent. B055 proves ambient-image rigidity on each connected equisingular
-component, NG037 closes monodromy generation as a NO-GO, and G029 is now the
-smallest topology-changing transport gate. The fixed-carrier branch may use
+component, and NG037 closes monodromy generation as a NO-GO. B056-B057
+localize and identify the global detector chain; NG038 closes the total
+equator as a NO-GO; and G030 is now the smallest class-preserving collision
+gate. The fixed-carrier branch may use
 the dimension-scaled inequality \(|S|\le q r_A(S)\), but no theorem yet
 connects a specified global detector to such a nodal relation.
 

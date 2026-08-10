@@ -81,6 +81,10 @@ boundary, not an induction mechanism.
 | equisingular ambient-image rigidity | B055 proves the ambient image is constant on a connected stratum whenever the canonical relation maps form a morphism to fixed primitive homology | large node or relation monodromy cannot create new detector directions inside one component |
 | equisingular monodromy NO-GO | NG037 excludes sweeping one positive Saito image through primitive homology by monodromy inside one incidence component | a topology-changing boundary or distinct component is required |
 | topology-changing detector transport | G029 asks to specialize a chosen global tube/thimble detector to one clean nodal relation while preserving the B022 quotient class, rational type, and specified pairing | no audited specialization theorem supplies all three properties |
+| plane-net localization | B056 proves every Schnell detector pair can be represented in a generic projective plane net with the same primitive ambient tube class | reduces the parameter dimension to two but does not produce a collision point |
+| tube/thimble chain identity | B057 proves B013's distributed coefficients are the coefficients in the ordered thimble-extension expression and retain the Schnell ambient class | the chain is still distributed among separate meridians and has no local Hodge type |
+| total-equator NO-GO | NG038 proves the total-equator vector of one complete pencil is in \(\operatorname{im}\tau_\infty\) and vanishes in \(\mathcal T(Y)\) | the actual detector must remain a non-equator loop in the plane net |
+| plane-net collision gate | G030 asks for a topology-changing specialization of B057's chain to one clean nodal relation with identical primitive ambient class and rational type (0,0) | no audited nearby-cycle or incidence theorem gives the required commutative square |
 | arbitrary building-set channel | B049-B052 prove G019: every representable wonderful arrangement has the full residue kernel, strict-support bound, and rational type-(0,0) comparison | central linear geometry only; B054 is needed for nonlinear clean germs |
 | classifying-space boundary pullback | Green-Griffiths II models selected singular loci as inverse images of boundary components and proposes a cohomological nonemptiness test | the class-directed nodal construction assumes HC; the global formula is programmatic and contains unresolved compactification/correction data |
 | degenerations | limiting mixed Hodge structures, vanishing cycles, specialization | a special-fiber cycle may fail to lift; type and rationality can jump |
@@ -257,8 +261,10 @@ G015 and its general arrangement subgates are closed by B049-B054. NG036
 closes analytic linearization as a NO-GO, while B053-B054 prove the exact
 quasi-local and nonlinear clean invariant-channel theorems. G028 is the
 class-paired incidence parent. B055/NG037 show that monodromy on one
-equisingular component cannot enlarge its fixed ambient image, so G029 is
-the current topology-changing transport gate.
+equisingular component cannot enlarge its fixed ambient image. B056-B057
+reduce the chosen detector to an explicit extension chain in a generic plane
+net, while NG038 excludes the total-pencil equator. G030 is the current
+class-preserving collision gate.
 B035 makes that gate finite and explicit at its first new instance: compute
 the intermediate extension for the Picard-Lefschetz local system on the
 five-marked exceptional \(\mathbf P^1\) resolving \(U_{2,5}\). NG-033
@@ -295,4 +301,4 @@ direction is still the preselected diagonal. B034 also shows that this
 two-block sufficient theorem is not recovered from HC by the standard
 fixed-carrier construction when \(n\ge3\). B054 closes the corresponding
 multipart relation channel; the remaining obstruction is geometric
-realization and class-preserving topology-changing transport, now G028-G029.
+realization and class-preserving topology-changing transport, now G028-G030.

@@ -13,7 +13,7 @@ hodge_type: the terminal nodal relation must be rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative of the input class may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B010-B013, B022-B025, B054-B055, G007, NG023, and NG037
+dependencies: B010-B013, B022-B025, B054-B057, G007, NG023, and NG037-NG038
 claim: Every nonzero global tube detector pairing with a specified primitive rational Hodge class admits a topology-changing algebraic specialization to one clean q-block nodal member and a rational relation whose B022 quotient-level ambient image preserves a nonzero pairing with that class.
 falsifier: a global tube detector for which every clean multipart nodal boundary specialization either has zero relation, dies in an equator or base-locus quotient, loses rational type (0,0), or has ambient image in the class annihilator
 ---
@@ -55,3 +55,31 @@ type and class-pairing preservation. This gate would supply G028's
 class-directed part once the target incidence ranks exist; it does not itself
 prove those ranks, assume an algebraic representative of \(\zeta\), or
 construct one.
+
+## Attempt 2 - Reduce the detector to a plane net
+
+B056 proves this reduction. Nonzero vanishing homology makes the dual
+discriminant an irreducible hypersurface, and the Zariski plane-section
+theorem identifies the fundamental group of its full complement with that
+of a generic projective plane section. Thus the chosen Schnell pair
+\((g,\alpha)\) and its nonzero ambient tube class may be represented inside
+one two-parameter linear net.
+
+B057 then closes the chain-level comparison omitted from the first
+formulation of G029. Under a Picard-Lefschetz meridian factorization,
+B013's telescoping coefficients are exactly the coefficients of the ordered
+thimble-extension chain tracing \(\alpha\), and this chain maps to the original
+Schnell tube class.
+
+## Attempt 3 - Use the total equator of one pencil
+
+NG038 proves this route fails. S029 equations (42)-(43) identify the total
+equator's B057 vector with \(\tau_\infty(\alpha)\), and the definition
+\(\mathcal T(Y)=\ker\partial/\operatorname{im}\tau_\infty\) kills it.
+Replacing the actual detector loop by the full pencil equator destroys the
+ambient class before any collision.
+
+G030 is now the smallest gate: retain the non-equator loop in the plane net
+and construct a topology-changing specialization square whose local Saito
+class has exactly the same primitive ambient image and rational type
+\((0,0)\).

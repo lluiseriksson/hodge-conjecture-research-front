@@ -480,6 +480,13 @@ Christian Schnell, “Primitive cohomology and the tube mapping,”
   \(V/(g-1)V\) is injective.
 - Checked p. 20, Section 6: the dual formulation detects every primitive
   class by a cohomology class on the global étale space of vanishing cycles.
+- Rechecked pp. 1 and 6-7 for B056-B057: a monodromy-fixed class traces a
+  cycle along its loop, well defined modulo reference-fiber homology.
+  Schnell's Lemma 3 proves that nonzero vanishing homology makes the dual
+  variety an irreducible hypersurface. On pp. 12-13 he chooses a general
+  projective plane through the base point and explicitly invokes the
+  Lefschetz-Zariski isomorphism
+  \(\pi_1(\mathbf P^2\setminus C)\simeq\pi_1(P^{\rm sm})\).
 - Checked author-PDF pp. 12-13, Section 3.4 and Lemma 6: when
   \(d=\dim X\) is even, Schnell constructs vanishing cycles
   \(\delta_1,\delta_2\) with intersection number one. In a general plane
@@ -648,6 +655,18 @@ Computation* 93 (2024), 2985-3025.
   \(0\to K\to\mathcal T(Y)\to PH_n(X)\to0\), and the middle homology of the
   blowup splits noncanonically into the thimble, reference-fiber, and
   lower-fiber summands.
+- Rechecked pp. 5-7, equations (5), (7), and (10), for B057: extension along
+  a composite path is the sum of the successively transported extensions;
+  its boundary is monodromy minus the identity; and a Lefschetz-meridian
+  extension is the corresponding intersection coefficient times its
+  thimble. These formulas identify B013's telescoping vector with the actual
+  tube extension chain.
+- Rechecked pp. 15-16, equations (42)-(43), for NG038: the total-equator
+  extension matrix is
+  \(T_1+T_2M_1+\cdots+T_rM_{r-1}\cdots M_1\), exactly the B057 coefficient
+  matrix. Equation (12) quotients its entire image from
+  \(\ker\partial\), so a total-equator relation is zero in
+  \(\mathcal T(Y)\).
 - Scope guard: these are exact topological statements despite the paper's
   computational goal. Numerical period calculations are not used as
   evidence of algebraicity. The theorem is for generic pencils in the
@@ -947,6 +966,31 @@ Li Li, “Wonderful compactification of an arrangement of subvarieties,”
   supply a rational type-\((0,0)\) relation, or construct an algebraic cycle.
 - Local retrieval SHA-256:
   EE9716E639B40AE0A59CC7073CDCC5C816106F412280E76F5206D4D67B7698B9.
+
+## S039 - Zariski fundamental-group reduction to a plane
+
+Shulim Kaliman, “Uniform Zariski's Theorem On Fundamental Groups,”
+arXiv:alg-geom/9711033 (1997).
+[arXiv record and PDF](https://arxiv.org/abs/alg-geom/9711033).
+
+- Checked p. 1: Kaliman states the classical projective Zariski theorem in
+  the exact form used here. For a hypersurface \(H\subset\mathbf P^N\),
+  \(N\ge3\), and a generic projective plane \(A\), inclusion induces
+  \[
+  \pi_1(A\setminus H)\xrightarrow{\sim}
+  \pi_1(\mathbf P^N\setminus H).
+  \]
+- Triangulated with Schnell S023, pp. 12-13: Schnell applies this theorem to
+  a general plane through the reference hyperplane and the irreducible dual
+  hypersurface \(X^\vee\), obtaining
+  \(\pi_1(\mathbf P^2\setminus C)\simeq\pi_1(P^{\rm sm})\).
+- B056 uses only this fixed-hypersurface projective theorem. It does not use
+  Kaliman's stronger uniform affine-family result.
+- Scope guard: the theorem moves a loop into a two-parameter net. It does
+  not move it into a pencil, collide discriminant points, preserve a local
+  Hodge type through specialization, or construct an algebraic cycle.
+- Local retrieval SHA-256:
+  A647D8043EF7548CFE77BD8D3523E01479619B20F380AFD1C5AE4D17076E909E.
 
 ## Citation policy for incompletely audited mechanisms
 

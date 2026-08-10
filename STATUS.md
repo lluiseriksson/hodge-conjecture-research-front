@@ -2,10 +2,10 @@
 
 Date: 2026-08-10
 
-- **Infrastructure:** 83% - independent Git repository, mandatory topology,
+- **Infrastructure:** 84% - independent Git repository, mandatory topology,
   metadata contract, page-level source audits, verification script, and CI
   seed exist.
-- **Formal proof-chain closure:** 61% - B007 provides a fully quantified
+- **Formal proof-chain closure:** 63% - B007 provides a fully quantified
   conventional equivalence from the terminal conjecture to singular
   hyperplane detection; B008-B010 isolate and compute the exact local
   relation-pairing channel; B011 supplies global tube detection; B012
@@ -217,7 +217,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   image subspace.
 - NG037 - NO-GO: monodromy inside one such component cannot sweep one
   positive ambient image through new primitive directions.
-- G029 - EXPLORATORY, active gate: construct a topology-changing boundary
+- B056 - PROVED: every Schnell detector loop and its ambient tube class may
+  be represented inside one generic projective plane net.
+- B057 - PROVED: B013's distributed relation is the actual thimble
+  extension chain tracing the detector, with the same primitive ambient
+  tube class.
+- NG038 - NO-GO: the total equator of one complete pencil lies in
+  \(\operatorname{im}\tau_\infty\) and vanishes in the first B022 quotient.
+- G030 - EXPLORATORY, active gate: collide the actual non-equator plane-net
+  detector chain to one clean multipart nodal relation while preserving its
+  exact primitive ambient class and rational type \((0,0)\).
+- G029 - EXPLORATORY parent: construct a topology-changing boundary
   specialization from a chosen global tube or thimble detector to one clean
   multipart nodal relation while preserving the B022 quotient class,
   rational type, and nonzero specified pairing.
