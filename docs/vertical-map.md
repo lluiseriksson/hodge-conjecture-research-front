@@ -1941,18 +1941,30 @@ every even \(d\ge8\), standard quadrics force point rank at least \(4d\)
 and exclude equality, while all nonstandard polarizations force point
 rank at least \(4d+4\). Consequently every degree-two candidate has
 \(s\ge6d\), closing G167 and every layer \(s\le6d-1\). The next
-balanced signature is
+balanced signature was
 
 \[
  \delta_1=3d,\qquad N=8d+2,\qquad
  \dim E_1=4d+1=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{************************************************************************************}
 \]
 
+B245 excludes the remaining standard polarization at this rank. In the
+residual-\(U\) branch a third tangent contributes at least \(d-3>1\).
+In the other branch every possible rank-one continuation leaves
+annihilator \(\operatorname{Sym}^2K\), with contact locus in a
+projective three-space of point rank at most ten. Hence G168 and the odd
+layer \(6d+1\) are NO-GO. The next balanced signature is
+
+\[
+ \delta_1=3d+1,\qquad N=8d+4,\qquad
+ \dim E_1=4d+2=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{*************************************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G168: construct the slope-six balanced core}
+ \text{G169: construct one dimension beyond slope six}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

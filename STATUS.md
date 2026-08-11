@@ -1228,9 +1228,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G167 - NO-GO: its fixed-additive slope-four layer lies below the
   slope-six floor on every valid even quadric of dimension at least eight.
 - NG202 - NO-GO: no m=2 quadric candidate survives with \(s\le6d-1\).
-- G168 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=6d,\delta_1=3d\) and construct the balanced
-  length-\(8d+2\), dimension-\(4d+1\) self-dual code with every detector
+- B245 - PROVED: the standard slope-six boundary fails through residual
+  third-tangent rank and projective-three-space contact confinement.
+- G168 - NO-GO: the layers \(s=6d\) and \(s=6d+1\) fail on every valid
+  even quadric of dimension at least eight.
+- NG203 - NO-GO: the standard polarization cannot rescue G168.
+- G169 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=6d+2,\delta_1=3d+1\) and construct the balanced
+  length-\(8d+4\), dimension-\(4d+2\) self-dual code with every detector
   clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`

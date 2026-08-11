@@ -3954,3 +3954,26 @@
   HC remain open.
 - **Re-entry condition:** G168 begins at
   \(s=6d,\delta_1=3d,N=8d+2,h_Z(1)=4d+1\).
+
+## NG-203 - Survive the standard slope-six boundary
+
+- **Label:** NO-GO
+- **Route:** use the only remaining \(A=O_Q(1)\) polarization at
+  \(h_Z(1)=4d+1\).
+- **Valid premise:** one point-span dimension remains beyond B244's
+  standard equality obstruction.
+- **Invalid inference:** it absorbs a third residual tangent or a point
+  outside the conic-plus-point contact locus.
+- **Residual obstruction:** on the smaller quadric \(Q(U)\), a third
+  residual tangent contributes at least \(d-3>1\).
+- **Contact obstruction:** every other possible rank-one continuation
+  leaves annihilator \(\operatorname{Sym}^2K\), whose common contact
+  locus lies in a projective three-space of point rank at most ten.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge8\), is a
+  valid input. Special-family success elsewhere cannot rescue G168.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G168 and both layers \(6d,6d+1\) are closed. G148 and
+  HC remain open.
+- **Re-entry condition:** G169 begins at
+  \(s=6d+2,\delta_1=3d+1,N=8d+4,h_Z(1)=4d+2\).
