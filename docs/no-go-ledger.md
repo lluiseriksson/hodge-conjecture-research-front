@@ -3569,8 +3569,8 @@
   primitive polarization with empty defect locus.
 - **Detector guard:** this closes only the fixed-A subbranches
   G149-G151, not G148, G152, or HC.
-- **Re-entry condition:** the exceptional alternative was tested by
-  G152 and closed by B228/NG187; move to G153 at slack two.
+- **Re-entry condition:** B228/NG187 close first slack and B230 closes
+  every layer through nine; move to G154 at slack ten.
 
 ## NG-187 - Use an exceptional polarization to rescue first slack
 
@@ -3591,4 +3591,26 @@
   nor nonalgebraicity of any unknown Hodge class.
 - **Conclusion:** G149-G152's first-slack specialization is closed,
   while G148 and HC remain open.
-- **Re-entry condition:** none at first slack; move to G153 at slack two.
+- **Re-entry condition:** B230 closes every layer through nine; move to
+  G154 at slack ten.
+
+## NG-188 - Realize the universal gate with slack at most nine
+
+- **Label:** NO-GO
+- **Route:** keep the excess \(s=N-D_{2n}(m)\) uniformly small while
+  varying the degree and polarization.
+- **Valid premise:** positive slack avoids the exact equality
+  Gauss-fiber obstruction.
+- **Invalid inference:** one of the first nine layers must work on
+  every primitive target.
+- **Precise obstruction:** B230 exhausts every degree on
+  \((Q^4,a-b)\). For \(m=2,s\le9\), two double jets cannot fit
+  independently in the point span; for \(m\ge3,s\le14\), the analogous
+  statement holds for two triple jets. Quadric defect chords force an
+  isotropic plane, contradicting full tangent absorption or quartic rank.
+- **Detector guard:** the argument constructs no ODP profile, rational
+  relation, specified pairing, algebraic cycle, proof, or disproof of HC.
+- **Conclusion:** every degree is excluded through slack nine. The
+  stronger \(m\ge3\) exclusion persists through slack fourteen.
+- **Re-entry condition:** G154 starts at \(m=2,s=10,\delta_1=5\), the
+  first signature not excluded by the quadric test.

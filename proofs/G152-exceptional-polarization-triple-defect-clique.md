@@ -46,4 +46,5 @@ B228 tests every remaining polarization on the valid primitive input
 locus. For \(O_Q(1)\), B227 forces every defect chord to be a line on
 the quadric, so a complete clique lies in one isotropic \(\mathbf P^2\).
 Its quartic point rank is at most 15, below the required 16. Thus G152
-is **NO-GO** as universally quantified. G153 moves to second slack.
+is **NO-GO** as universally quantified. G153 moved to second slack;
+B230 subsequently closed every degree through slack nine.

@@ -1127,9 +1127,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B229 - PROVED: at second slack, \(m=2\) is viable with a self-dual
   length-\(4n+4\), dimension-\(2n+2\) point code and a complete
   bitangent-secant clique obligation.
-- G153 - EXPLORATORY, active smallest branch: construct that
-  self-associated bitangent core with every degree-two ODP, Kuranishi,
-  rational-type, and specified-pairing clause.
+- G153 - NO-GO: on \(Q^4\), the isotropic-plane bitangent clique cannot
+  absorb the full \(O_Q(2)\) tangent osculators.
+- B230 - PROVED: \(Q^4\) excludes \(m=2\) through slack nine and every
+  \(m\ge3\) through slack fourteen; hence no degree works for \(s\le9\).
+- NG188 - NO-GO: universally bounded slack at most nine cannot realize
+  G148.
+- G154 - EXPLORATORY, active smallest branch: at
+  \(m=2,s=10,\delta_1=5\), construct the balanced length-\(4n+12\),
+  dimension-\(2n+6\) self-dual code with every detector clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

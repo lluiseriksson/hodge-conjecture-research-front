@@ -1,6 +1,6 @@
 ---
 brick_id: G153
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex 2n-fold X with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen exceptional very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have the prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,7 +13,7 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B229, G013, G090-G148, NG106-NG187, S082-S083
+dependencies: B007-B010, B134-B230, G013, G090-G148, NG106-NG187, S082-S083
 claim: For every arbitrary primitive target (X,zeta), choose an exceptional very ample A and construct H=A^2 plus a reduced Z of 4n+4 points whose H-evaluation columns are self-associated of rank 2n+2, whose span contains every marked tangent space as a hyperplane, whose every A-secant is tangent at both endpoints, and which realizes every degree-two G144 ODP-profile, holonomy, finite-Kuranishi, rational-type, and specified-pairing clause.
 falsifier: one primitive target for which no choice of very ample A admits the displayed self-associated bitangent clique coupled to every ODP, rationality, Hodge-type, and pairing obligation
 ---
@@ -40,3 +40,12 @@ the complete adjacent profile and finite Kuranishi closure, a
 full-support rational type-\((0,0)\) relation, and nonzero Saito pairing
 with the specified \(\zeta\). None of these clauses follows from the
 self-associated or bitangent configuration alone.
+
+B230 tests the valid primitive input \((Q^4,a-b)\). Every power
+\(A=O_Q(k)\), \(k\ge2\), has no double-defect pair. For \(A=O_Q(1)\),
+all bitangent chords lie on \(Q\), so the clique lies in an isotropic
+\(\mathbf P^2=\mathbf P(W)\). Its H-point span lies in
+\(\operatorname{Sym}^2W\), but the full \(O_Q(2)\) tangent osculator at
+\([v]\) contains \(v\mathbin{\odot}u\) for
+\(u\in v^\perp\setminus W\). Hence the required tangent absorption is
+impossible. G153 is **NO-GO**; B230 extends this through slack nine.

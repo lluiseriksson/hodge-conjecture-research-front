@@ -33,5 +33,5 @@ falsifier: on Q^4 every very ample A=O_Q(k) is excluded by B228
   to certify a valid input. No unknown Hodge class is assumed algebraic.
 - **Conclusion:** G152 and the entire first-slack specialization are
   **NO-GO**. G148 and the rational Hodge Conjecture remain open.
-- **Re-entry condition:** none for universal first slack; move to the
-  second-slack rank layer.
+- **Re-entry condition:** B230 closes every layer through nine; move to
+  G154 at slack ten.

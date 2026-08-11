@@ -950,10 +950,27 @@ B229 opens the next justified layer. At \(m=2\) and slack \(s=2\),
 \(N=4n+4\), the \(H=A^2\) point code has dimension \(2n+2\) and is
 diagonally self-dual. Every marked tangent space is a hyperplane in its
 span, every pair fails \(A^2\)-interpolation on two double neighborhoods,
-and every A-secant is bitangent. G153 is now the smallest branch:
+and every A-secant is bitangent. G153 was the resulting smallest branch:
 construct this self-associated bitangent core on every primitive target
 together with the full ODP, Kuranishi, rational-type, and specified-pairing
 package.
+
+B230 closes substantially more. On the valid input \((Q^4,a-b)\), every
+\(m=2\) candidate through slack nine forces a double-jet defect clique
+inside an isotropic plane, but its \(O_Q(2)\) point span cannot contain
+the full quadric tangent spaces. For every \(m\ge3\), the same argument
+with triple jets and quartic rank excludes slack through fourteen.
+Consequently every degree is excluded for \(0\le s\le9\), and G153 is
+**NO-GO** (NG188). The first signature surviving this test is G154:
+
+\[
+ m=2,\qquad s=10,\qquad \delta_1=5,\qquad
+ N=4n+12,\qquad h_Z(1)=2n+6=N/2.
+\]
+
+Its degree-one code is again diagonally self-dual, but its span is now
+large enough that two tangent jet spaces need not collide. G154 asks for
+that balanced code with the complete degree-two detector package.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the

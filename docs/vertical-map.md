@@ -1676,6 +1676,35 @@ A-secant. The corrected sufficient branch is
  \text{ with every degree-two detector clause}. \tag{**********************************************************}
 \]
 
+B230 tests that branch and the surrounding band on \(Q^4\). For
+\(m=2,s\le9\), the degree-one span has dimension at most nine, so every
+pair of five-dimensional tangent jets is defective. The resulting
+isotropic-plane clique has span in \(\operatorname{Sym}^2W\), which
+cannot contain \(v\mathbin{\odot}v^\perp\). For \(m\ge3,s\le14\), the
+degree-two span has dimension at most 29, so every pair of
+15-dimensional second osculators is defective; isotropic-plane quartic
+rank is only 15 although \(\delta_2\ge1\). Therefore
+
+\[
+ \text{all degrees with }0\le s\le9\text{ are NO-GO}. \tag{***********************************************************}
+\]
+
+At slack ten, every \(m\ge3\) branch is still excluded. The first
+quadric-surviving \(m=2\) signature has
+
+\[
+ \delta_1=5,\qquad N=4n+12,\qquad
+ \dim E_1=2n+6=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{************************************************************}
+\]
+
+Thus the corrected vertical branch is
+
+\[
+ \text{G148}\Longleftarrow
+ \text{G154: construct the tenth-slack balanced degree-two core}
+ \text{ with every detector clause}. \tag{*************************************************************}
+\]
+
 Two sufficient attacks feed G008:
 
 \[

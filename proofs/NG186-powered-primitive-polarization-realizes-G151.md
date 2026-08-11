@@ -35,5 +35,5 @@ falsifier: if A=B^ell with ell>=2, then A^4=B^(4ell) has exponent at least eight
   fixed primitive input with no candidate.
 - **Detector guard:** this falsifies G149-G151's fixed-A universal
   formulations, not G148, G152, or the Hodge Conjecture.
-- **Re-entry condition:** G152 tested the exceptional low-polarization
-  alternative; B228/NG187 closed it, so move to G153 at slack two.
+- **Re-entry condition:** B228/NG187 close first slack and B230 closes
+  every layer through nine; move to G154 at slack ten.
