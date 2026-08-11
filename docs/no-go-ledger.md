@@ -3569,8 +3569,9 @@
   primitive polarization with empty defect locus.
 - **Detector guard:** this closes only the fixed-A subbranches
   G149-G151, not G148, G152, or HC.
-- **Re-entry condition:** B228/NG187 close first slack and B230 closes
-  every layer through nine; move to G154 at slack ten.
+- **Re-entry condition:** B228/NG187 close first slack, B230 closes
+  every layer through nine, and B231 later forces dimension-scaled slack;
+  move to G155.
 
 ## NG-187 - Use an exceptional polarization to rescue first slack
 
@@ -3591,8 +3592,8 @@
   nor nonalgebraicity of any unknown Hodge class.
 - **Conclusion:** G149-G152's first-slack specialization is closed,
   while G148 and HC remain open.
-- **Re-entry condition:** B230 closes every layer through nine; move to
-  G154 at slack ten.
+- **Re-entry condition:** B230 closes every layer through nine and B231
+  later closes every fixed bound; move to G155's dimension-scaled threshold.
 
 ## NG-188 - Realize the universal gate with slack at most nine
 
@@ -3612,5 +3613,55 @@
   relation, specified pairing, algebraic cycle, proof, or disproof of HC.
 - **Conclusion:** every degree is excluded through slack nine. The
   stronger \(m\ge3\) exclusion persists through slack fourteen.
-- **Re-entry condition:** G154 starts at \(m=2,s=10,\delta_1=5\), the
-  first signature not excluded by the quadric test.
+- **Re-entry condition:** G154 was the first signature not excluded by
+  \(Q^4\), but B231 later falsifies its dimension-independent slack.
+  Move to G155 with \(s=2d+2\).
+
+## NG-189 - Realize the universal gate with a dimension-independent slack
+
+- **Label:** NO-GO
+- **Route:** fix a finite \(S\) and seek a G148 construction with
+  \(s=N-D_{2n}(m)\le S\) in every even dimension.
+- **Valid premise:** strict slack avoids equality saturation and may be
+  chosen separately from the degree and polarization.
+- **Invalid inference:** the excess can remain bounded while the dimension
+  and local jet lengths grow.
+- **Precise obstruction:** B231 proves on the valid input \(Q^d\) that
+  \(m=2\) requires \(s\ge2d+2\), while \(m\ge3\) requires
+  \(s\ge\binom{d+2}{2}\). Choosing even \(d\) with \(S<2d+2\) excludes
+  every degree and every \(O_Q(k)\).
+- **Geometric mechanism:** below the thresholds every marked pair is
+  double- or triple-jet defective. Powered polarizations separate those
+  jets. Under \(O_Q(1)\), the chords confine the marked points to a totally
+  isotropic \(W\), but the required tangent or second osculator contains a
+  tensor outside \(\operatorname{Sym}^2W\) or \(\operatorname{Sym}^4W\).
+- **Detector guard:** the known algebraic ruling difference only certifies
+  the test input. No unknown Hodge class, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is obtained.
+- **Conclusion:** G154 and every fixed finite slack specialization are
+  closed. G148 and HC remain open.
+- **Re-entry condition:** dimension-scaled slack is necessary, but B232
+  later excludes the first two such layers. Move to G156.
+
+## NG-190 - Treat the first dimension-scaled floor as realizable
+
+- **Label:** NO-GO
+- **Route:** set \(m=2,s=2d+2,\delta_1=d+1\), so two tangent jet
+  spaces have exactly the dimension of the point span.
+- **Valid premise:** the B231 pairwise direct-sum inequality is no longer
+  violated at equality.
+- **Invalid inference:** equality leaves enough room for the remaining
+  \(N-2\) marked points.
+- **Precise obstruction:** B232 proves that powered polarizations separate
+  two doubles and a third point. Under \(O_Q(1)\), an all-defective set is
+  isotropically impossible; a nonorthogonal pair has disjoint tangent
+  osculators that fill the entire span, whose symmetric-square
+  decomposition contains only the two original quadric points.
+- **Odd-layer guard:** at \(s=2d+3\), the integral budget still has
+  \(\delta_1\le d+1\), so the same obstruction applies.
+- **Detector guard:** no ODP profile, rational relation, specified pairing,
+  algebraic cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G155 and both slack layers \(2d+2,2d+3\) are closed.
+  G148 and HC remain open.
+- **Re-entry condition:** G156 begins at the next balanced signature
+  \(s=2d+4,\delta_1=d+2\).

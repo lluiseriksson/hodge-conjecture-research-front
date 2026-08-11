@@ -1689,19 +1689,64 @@ rank is only 15 although \(\delta_2\ge1\). Therefore
  \text{all degrees with }0\le s\le9\text{ are NO-GO}. \tag{***********************************************************}
 \]
 
-At slack ten, every \(m\ge3\) branch is still excluded. The first
-quadric-surviving \(m=2\) signature has
+At slack ten, every \(m\ge3\) branch is still excluded on \(Q^4\). The
+first signature surviving that one test has
 
 \[
  \delta_1=5,\qquad N=4n+12,\qquad
  \dim E_1=2n+6=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{************************************************************}
 \]
 
+G154 incorrectly promoted this \(d=4\) threshold to every dimension.
+B231 repeats the audit on \(Q^d\), \(d=2n\ge4\), and proves
+
+\[
+ m=2\Longrightarrow s\ge2d+2,\qquad
+ m\ge3\Longrightarrow s\ge\binom{d+2}{2}. \tag{*************************************************************}
+\]
+
+Indeed, below either threshold every pair of tangent or second-osculating
+jet spaces must collide. Powered polarizations separate the relevant
+fat points. For \(O_Q(1)\), the defect chords confine all marked points
+to a totally isotropic \(W\), while the required osculator contains
+\(v\mathbin{\odot}u\) or \(v^3\mathbin{\odot}u\) with
+\(u\in v^\perp\setminus W\). This lies outside
+\(\operatorname{Sym}^2W\) or \(\operatorname{Sym}^4W\). Hence G154 and
+every dimension-independent bounded-slack specialization are NO-GO.
+
+At equality in the smaller degree-two threshold, B231 forces
+
+\[
+ s=2d+2,\qquad \delta_1=d+1,\qquad N=4d+4,\qquad
+ \dim E_1=2d+2=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**************************************************************}
+\]
+
+B232 then excludes this boundary and the adjacent odd layer. For
+\(A=O_Q(k)\), \(k\ge2\), B215 separates two double neighborhoods plus
+a third reduced point, which impose \(2d+3\) conditions on the
+\((2d+2)\)-dimensional boundary span. For \(k=1\), either all pairs are
+orthogonal and B231 applies, or a nonorthogonal pair has disjoint tangent
+osculators filling the span. In the decomposition
+\(V=\langle v,w\rangle\perp U\), that span is
+\(\langle v^2,vU,w^2,wU\rangle\); a third square has an unavoidable
+\(vw\) or \(\operatorname{Sym}^2U\) component. Therefore
+
+\[
+ m=2\Longrightarrow s\ge2d+4. \tag{***************************************************************}
+\]
+
+At equality, the first unexcluded rank is
+
+\[
+ \delta_1=d+2,\qquad N=4d+6,\qquad
+ \dim E_1=2d+3=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{****************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G154: construct the tenth-slack balanced degree-two core}
+ \text{G156: construct the next balanced degree-two core}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

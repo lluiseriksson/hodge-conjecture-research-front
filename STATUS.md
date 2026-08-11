@@ -1133,9 +1133,25 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(m\ge3\) through slack fourteen; hence no degree works for \(s\le9\).
 - NG188 - NO-GO: universally bounded slack at most nine cannot realize
   G148.
-- G154 - EXPLORATORY, active smallest branch: at
-  \(m=2,s=10,\delta_1=5\), construct the balanced length-\(4n+12\),
-  dimension-\(2n+6\) self-dual code with every detector clause.
+- B231 - PROVED: on \(Q^d\), every \(m=2\) candidate requires
+  \(s\ge2d+2\), every \(m\ge3\) candidate requires
+  \(s\ge\binom{d+2}{2}\), and the first degree-two threshold is balanced.
+- G154 - NO-GO: fixed slack ten survives \(Q^4\) only; \(Q^6\) forces
+  pairwise double-jet defect and contradicts tangent absorption.
+- NG189 - NO-GO: no dimension-independent finite slack bound can realize
+  universal G148.
+- B232 - PROVED: the B231 boundary span cannot contain a third marked
+  point after absorbing two independent tangent osculators; hence every
+  \(m=2\) candidate has \(s\ge2d+4\), and powers \(A=B^\ell\),
+  \(\ell\ge3\), are excluded at equality.
+- G155 - NO-GO: the first dimension-scaled threshold \(s=2d+2\), and
+  also the adjacent odd layer \(s=2d+3\), fail on the even quadric.
+- NG190 - NO-GO: merely fitting two tangent jet spaces at the B231
+  boundary does not leave room for the remaining marked points.
+- G156 - EXPLORATORY, active smallest branch: in dimension \(d=2n\), use
+  \(m=2,s=2d+4,\delta_1=d+2\) and construct the balanced
+  length-\(4d+6\), dimension-\(2d+3\) self-dual code with every detector
+  clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

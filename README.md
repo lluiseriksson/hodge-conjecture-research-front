@@ -961,16 +961,63 @@ inside an isotropic plane, but its \(O_Q(2)\) point span cannot contain
 the full quadric tangent spaces. For every \(m\ge3\), the same argument
 with triple jets and quartic rank excludes slack through fourteen.
 Consequently every degree is excluded for \(0\le s\le9\), and G153 is
-**NO-GO** (NG188). The first signature surviving this test is G154:
+**NO-GO** (NG188). The first signature surviving only this
+four-dimensional test was G154:
 
 \[
  m=2,\qquad s=10,\qquad \delta_1=5,\qquad
  N=4n+12,\qquad h_Z(1)=2n+6=N/2.
 \]
 
-Its degree-one code is again diagonally self-dual, but its span is now
-large enough that two tangent jet spaces need not collide. G154 asks for
-that balanced code with the complete degree-two detector package.
+Its degree-one code is again diagonally self-dual, and on \(Q^4\) two
+tangent jet spaces can fit independently. B231 performs the missing
+dimension audit. On \(Q^d\), \(d=2n\ge4\), every degree-two candidate
+requires
+
+\[
+ s\ge2d+2,
+\]
+
+while every \(m\ge3\) candidate requires
+
+\[
+ s\ge c_d=\binom{d+2}{2}.
+\]
+
+Thus \(Q^6\) already falsifies G154's fixed slack ten, and NG189 records
+the stronger **NO-GO**: no finite slack bound independent of dimension
+can realize G148. The resulting gate was G155, at the exact degree-two
+threshold
+
+\[
+ m=2,\qquad s=2d+2,\qquad \delta_1=d+1,\qquad
+ N=4d+4,\qquad h_Z(1)=2d+2=N/2.
+\]
+
+G155 asked for this dimension-scaled self-dual code together with the
+complete detector package. B232 attacks the boundary rank itself. If two
+standard-quadric tangent osculators are independent, they fill the whole
+\((2d+2)\)-dimensional span, and its symmetric-square decomposition
+contains no third quadric point. If every pair is defective, isotropic
+confinement again contradicts tangent absorption. Powered polarizations
+are excluded by mixed interpolation on two doubles plus a third point.
+The same rank persists at odd slack \(2d+3\). Hence G155 is **NO-GO**
+(NG190), and every degree-two candidate must satisfy
+
+\[
+ s\ge2d+4.
+\]
+
+The active gate is G156, the next balanced signature:
+
+\[
+ m=2,\qquad s=2d+4,\qquad \delta_1=d+2,\qquad
+ N=4d+6,\qquad h_Z(1)=2d+3=N/2.
+\]
+
+It must realize the complete ODP, Kuranishi, rational-type, and
+specified-pairing package; B232 also excludes polarizations
+\(A=B^\ell\) with \(\ell\ge3\) at this threshold.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1560,6 +1607,8 @@ python verification/verify_B212_very_ample_window.py
 python verification/verify_B213_relation_transport.py
 python verification/verify_B214_second_jet_floor.py
 python verification/verify_B215_simultaneous_jet_floor.py
+python verification/verify_B231_dimension_scaled_slack.py
+python verification/verify_B232_threshold_span.py
 ```
 
 The repository verifier checks the required directory topology, result

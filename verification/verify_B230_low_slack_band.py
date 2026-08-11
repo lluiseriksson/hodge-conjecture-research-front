@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact bounded checks for B230/NG188/G154; not a proof of HC."""
+"""Exact bounded checks for B230/NG188 and the Q^4 G154 signature."""
 
 from fractions import Fraction
 
@@ -50,6 +50,7 @@ def main() -> None:
     assert rank(sym_w + [p_times_u]) == 7
 
     # The first Q^4-surviving m=2 signature is slack ten, delta_1=5.
+    # B231 later shows that fixing this slack in all dimensions is NO-GO.
     d = 4
     slack = 10
     delta_1 = 5
@@ -59,15 +60,18 @@ def main() -> None:
     assert h_1 == 10 == length // 2
     assert slack - 2 * delta_1 == 0
 
-    # General even dimension d=2n has the G154 dimensions.
+    # The fixed-slack formula is balanced in every dimension, but balance
+    # does not prevent pairwise defect once d>4.
     for n in range(1, 9):
         d = 2 * n
         length = 2 * (d + 1) + 10
         h_1 = d + 1 + 5
         assert length == 4 * n + 12
         assert h_1 == 2 * n + 6 == length // 2
+        if d > 4:
+            assert h_1 < 2 * (d + 1)
 
-    print("PASS: B230 low-slack exclusion and G154 first survivor")
+    print("PASS: B230 low-slack exclusion and Q^4-only G154 signature")
 
 
 if __name__ == "__main__":

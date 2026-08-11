@@ -1,6 +1,6 @@
 ---
 brick_id: G154
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex 2n-fold X with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have the prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,7 +13,7 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B230, G013, G090-G148, NG106-NG188, S082-S083
+dependencies: B007-B010, B134-B231, G013, G090-G148, NG106-NG189, S081-S083
 claim: For every arbitrary primitive target (X,zeta), choose a very ample A and construct H=A^2, m=2, and a reduced Z of N=4n+12 points satisfying the complete G144 package with h_Z(1)=2n+6, full-support relation transport E_1 isomorphic to R_1, a diagonally self-dual degree-one code, every ODP-profile, holonomy and finite-Kuranishi clause, rational type (0,0), and nonzero specified pairing.
 falsifier: one primitive target for which no choice of A realizes the displayed tenth-slack balanced code together with all geometric, rationality, Hodge-type, and pairing obligations
 ---
@@ -49,5 +49,25 @@ G154 asks for this first quadric-surviving balanced code together with
 every central ODP, profile, holonomy, finite Kuranishi, rational
 type-\((0,0)\), and specified-pairing clause.
 
-G154 is a sufficient specialization of G148. No marked scheme, detector,
-pairing, or cycle is currently constructed.
+This reasoning only tests \(Q^4\). G154 quantifies over every even
+dimension. B231 applies the same rank budget to the valid input
+\((Q^6,a-b)\). Here a double neighborhood has length seven, whereas
+
+\[
+ h_Z(1)=6+6=12<14. \tag{4}
+\]
+
+Every marked pair must therefore be double-jet defective. Powered
+polarizations are excluded by B215. For \(A=O_Q(1)\), B229 makes every
+chord bitangent, so the marked representatives span a totally isotropic
+\(W\). Their \(O_Q(2)\) point span lies in
+\(\operatorname{Sym}^2W\), but the full tangent osculator contains
+\(v\mathbin{\odot}u\) for \(u\in v^\perp\setminus W\). This contradicts
+G144 tangent absorption.
+
+Thus G154 is **NO-GO**. Its error was promoting the first signature that
+survives the four-dimensional quadric to a dimension-independent universal
+signature. B231/NG189 show that every fixed finite slack bound fails in high
+enough even dimension. G155 was the first dimension-scaled re-entry, but
+B232 subsequently excludes it and the adjacent odd layer. The active gate
+is G156 at \(s=2d+4\). G148 and the Hodge Conjecture remain open.
