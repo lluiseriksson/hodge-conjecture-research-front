@@ -60,9 +60,11 @@ its parameter in this intersection.
 
 ## Consequence
 
-The smallest active obligation is geometric incidence, recorded as G084.
-B012 gives only \(\operatorname{codim}\Sigma_{\zeta,m}\ge2\); it neither
-proves this support nonempty nor forces it to meet the clean nodal locus.
+The clean-nodal obligation is geometric incidence, recorded as G084. B127
+then splits it into terminal support nonemptiness G008 and conditional cleanup
+G085. B012 gives only \(\operatorname{codim}\Sigma_{\zeta,m}\ge2\); it
+neither proves this support nonempty nor forces it to meet the clean nodal
+locus.
 
 ## Scope guard
 

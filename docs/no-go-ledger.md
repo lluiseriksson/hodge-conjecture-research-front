@@ -816,8 +816,8 @@
   \(D=\mathbf Q(1,1)\). The subspace \(D\) detects \(\zeta\), but
   \(c\notin D\).
 - **Re-entry condition:** retain exact equality only as the stronger G030
-  mechanism. B125 reduces the necessary G031 condition to active G084's
-  clean-support incidence.
+  mechanism. B125 reduces G031 to G084's clean-support incidence; B127/NG102
+  then identify active terminal gate G008 inside it and separate cleanup G085.
 
 ## NG-040 - Generic morsification preserves local detection
 
@@ -1864,9 +1864,9 @@
   when $\Phi_{Y_0}(\beta)=c$, so G065 already contains G030's exact-target
   obligation.
 - **Re-entry condition:** prove G030's equality using genuinely new collision
-  geometry, or abandon the preselected target and attack G084's strictly
-  weaker clean-support incidence. Representative choice alone cannot reopen
-  the route.
+  geometry, or abandon the preselected target and attack G008's strictly
+  weaker support-nonemptiness gate. Representative choice alone cannot
+  reopen the route.
 
 ## NG-101 - Local A2 nodalization supplies a clean relation
 
@@ -1886,4 +1886,23 @@
 - **Re-entry condition:** construct a global topology-changing deformation
   that adds or recollides critical points outside the single versal germ and
   prove preservation of the class-specific restriction/pairing. This is the
-  remaining G084/G032 obligation.
+  remaining conditional cleanup G085/G032 obligation after G008.
+
+## NG-102 - Clean incidence is smaller than support nonemptiness
+
+- **Label:** NO-GO
+- **Route:** replace the universally quantified support-nonemptiness theorem
+  G008 by G084 and count the clean-locus intersection as a smaller terminal
+  gate.
+- **Valid input:** B125 proves G084 is exactly the clean-nodal formulation of
+  G031, and any G084 witness is a valid nonzero local restriction witness.
+- **Invalid inference:** adding the condition that the support point lie in
+  the Li-clean multipart nodal locus makes the terminal obligation smaller.
+- **Precise obstruction:** B007/B127 give
+  \(\mathrm{HC}_{\mathbf Q}\Longleftrightarrow G008\), while set-theoretically
+  \(G084\Rightarrow G008\). The reverse implication needs the separate
+  cleanup theorem G085. BFNP Theorem 1.3 proves the terminal equivalence but
+  contains no clean-locus conclusion.
+- **Re-entry condition:** prove G085 from a nonempty class-specific support,
+  with all specialization, rationality, and pairing data explicit. Until
+  then G084 is a stronger sufficient program, not a reduction below HC.

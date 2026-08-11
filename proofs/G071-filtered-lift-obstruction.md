@@ -71,6 +71,7 @@ the Hodge filtration alone do not prove the box by NG084.
 
 The directionally valid collision route is G065's marked relative-boundary
 construction, but B124 shows it is an exact-target mechanism rather than the
-minimal gate. G084 is active under G031. G072 may
+minimal gate. G084 is the stronger clean program under G031; G008 is active.
+G072 may
 still diagnose abstract extension data, but it cannot make this obstruction
 vanish in the clean nodal geometry.

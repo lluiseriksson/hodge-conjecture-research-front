@@ -78,10 +78,11 @@ secondary route:
   <= all-order semiregular propagation                           [B004, PROVED]
 ```
 
-The active gate is **G084**, the exact support-incidence subgate of G031:
-force the class-specific local restriction support to meet the Li-clean
-multipart nodal locus. B125 proves that the detecting relation and its Hodge
-type are automatic after this incidence point is found. B059 proves that
+The active terminal gate is **G008**: force the class-specific local
+restriction support to be nonempty. B127 confirms from BFNP that its
+universal form is exactly equivalent to rational HC. The stronger clean-nodal
+program splits as G008 plus conditional cleanup G085; B125 then supplies the
+detecting relation after a clean incidence point is found. B059 proves that
 G030's demand to recover one preselected global tube
 class exactly is sufficient but strictly stronger than the terminal pairing
 criterion; NG039 prevents counting that equality as necessary. G031 remains
@@ -462,7 +463,8 @@ equator of one pencil, whose vector lies in
 B058 strengthens the source choice: the ambient tube class itself may be
 chosen rational type \((0,0)\) while retaining the specified nonzero pairing.
 B059/NG039 distinguish the needed pairing from G030's stronger exact-class
-collision square; B125 isolates G084 as the active clean-support incidence.
+collision square. B125 identifies G084's clean-support incidence, while B127
+splits it into active terminal gate G008 plus conditional cleanup G085.
 B011 and B013 provide a global tube and a distributed
 Picard-Lefschetz relation; G007 records the still-unproved attempt to
 concentrate them at one higher discriminant stratum while preserving rational
@@ -568,6 +570,7 @@ python verification/verify_B121_third_grade.py
 python verification/verify_B123_specialization_kernel.py
 python verification/verify_B124_relative_lift_target_rigidity.py
 python verification/verify_B126_a2_no_multinode.py
+python verification/verify_B127_gate_split.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -720,10 +723,10 @@ kernel, so its nearby image is zero; NG099 therefore closes the entire
 filtered-lift branch G070-G083. G065 has the correct boundary direction, but
 B124/NG100 prove that its primitive-value clause is exactly the stronger
 preselected-target condition; changing the relative lift cannot tune it.
-G031 remains the active parent; B125 isolates G084 as its exact minimal
-support-incidence gate. B126/NG101 prove that a local suspended $A_2$ versal
-deformation contains no multipart nodal fiber, so a global topology-changing
-construction is required.
+G031 remains a stronger clean-nodal parent. B125 identifies its exact G084
+incidence, and B127/NG102 split that into active terminal gate G008 plus
+conditional cleanup G085. B126/NG101 prove that a local suspended $A_2$
+versal deformation contains no multipart nodal fiber.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

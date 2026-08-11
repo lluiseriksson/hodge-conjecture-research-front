@@ -54,7 +54,7 @@ boundary, not an induction mechanism.
 | high-power positive-rank witness | B033 proves that every diagonal-containing (m,m) family for m at least 3 has a uniform smoothing matroid, a two-block partition, adjoint defect one, and ambient rank one | full symmetric monodromy closes postulation, but the primitive direction remains the preselected algebraic diagonal |
 | fixed-carrier block growth | B034 proves that Thomas' node count divided by one defining-system-independent block capacity tends to n! | two blocks cannot scale through a fixed carrier for n at least 3; a multipart local theorem or a lower-node unanchored incidence is required |
 | multipart quasi-local channel | B054 closes G015 under the explicit Li clean-arrangement hypothesis: B009's relation-kernel identification survives q separately independent blocks | this is a local channel theorem and supplies no incidence or specified-class pairing |
-| clean-support incidence | B125 proves G031 is exactly $\Sigma_{\zeta,m}\cap C_m^{clean}\ne\varnothing$ for some high power | G084 is active; B012 gives only a codimension bound and no support nonemptiness |
+| terminal support versus clean incidence | B127 proves G008 is terminal-equivalent support nonemptiness and G084 adds conditional cleanup G085 | G008 is active; B012 gives only a codimension bound and no support nonemptiness |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -127,7 +127,7 @@ boundary, not an induction mechanism.
 | Saito good-retraction chain | B099 proves the special Saito ambient class equals c when its defining relative cycle is the same B057 chain through both quotients | NG075: a special-stalk lift does not identify that relative representative; G063 is the chain-identity gate |
 | Saito relative-lift ambiguity | B100 proves every relative lift of one local relation has the same primitive ambient image because the difference is nonprimitive | NG076 closes literal same-chain equality; G064 retains boundary identification and primitive pushforward only |
 | marked local boundary comparison | B101 proves boundary naturality for a marked map of pairs and ambient equality for chain-homotopy-compatible realization maps | NG077: global zero boundary does not identify the local relation vector; G065 must construct the marked collision map |
-| relative-lift target rigidity | B124 proves primitive realization is constant on the affine torsor of lifts of one relation | NG100: lift ambiguity cannot tune the value to B058's preselected c; G065 contains G030's exact-target equality and is stronger than active G084 |
+| relative-lift target rigidity | B124 proves primitive realization is constant on the affine torsor of lifts of one relation | NG100: lift ambiguity cannot tune the value to B058's preselected c; G065 contains G030's exact-target equality and is stronger than active G008 |
 | isolated local collapse versus global detector | B102 imports the vanishing-polyhedron collapse at each isolated singularity; S050 gives a local boundary specialization | NG078: neither local theorem localizes the distributed detector or glues its ambient closure; G066 is the exact local-to-global gate |
 | global good retraction versus detector realization | B103 proves Saito's good retraction already globalizes the local/exterior topology and identifies the relative groups | NG079: rebuilding collapse gluing is redundant; G067 must realize the distributed chain in the single nearby-fiber pair |
 | selected-detector relative bordism | B104 identifies a lift-independent obstruction coset modulo absolute nearby-fiber ambiguity and proves its vanishing is equivalent to one relative bordism | NG080: a full complex map is unnecessary; B105/NG081 show even coset vanishing is stronger than the terminal pairing condition |
@@ -322,9 +322,10 @@ is $\ker u_\Delta$, so its nearby image is zero and a nonzero target has
 $\omega_{\mathrm{fil}}\ne0$. NG099 records G070-G083 as a NO-GO. G065's
 relative-boundary direction is valid, but B124/NG100 prove that its ambient
 clause already requires G030's exact target. G031's nonzero-pairing
-construction is the narrower parent; B125 isolates G084 as the active exact
-support-incidence gate. B126/NG101 exclude a local suspended-$A_2$ versal
-cleanup.
+construction is the narrower clean parent; B125 isolates G084 as its exact
+support-incidence subprogram. B127/NG102 split it into active terminal gate
+G008 and conditional cleanup G085. B126/NG101 exclude a local suspended-$A_2$
+versal cleanup.
 B024 verifies global quotient-level detection for complete intersections,
 but NG-021 prevents treating this special topological generation as HC.
 B025/NG-022 exclude internal Milnor relations. B026 separates exact defect

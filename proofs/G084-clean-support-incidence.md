@@ -13,14 +13,14 @@ hodge_type: zeta and the automatically supplied nodal relation rational type (0,
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B007, B010, B012, B014, B054, B064, B125-B126, G008, G031-G032, NG011-NG012, NG040, NG101
+dependencies: B007, B010, B012, B014, B054, B064, B125-B127, G008, G031-G032, G085, NG011-NG012, NG040, NG101-NG102
 claim: For every nonzero primitive rational Hodge class zeta, there is a sufficiently high power m such that its local restriction support Sigma_(zeta,m) meets the Li-clean multipart nodal locus C_m^(clean).
 falsifier: a smooth projective complex 2n-fold and nonzero primitive rational Hodge class whose local support avoids every Li-clean multipart nodal locus in every sufficiently high hyperplane system
 ---
 
 # G084 — Force the clean support incidence
 
-**Status:** EXPLORATORY — active smallest gate
+**Status:** EXPLORATORY — stronger clean-nodal program, not the terminal minimum
 
 Prove for every allowed \((X,\zeta)\) that
 
@@ -32,6 +32,10 @@ Prove for every allowed \((X,\zeta)\) that
 B125 proves that this single incidence supplies the relation, rational Hodge
 type, and nonzero Saito pairing required by G031. B007 then propagates to the
 standard rational Hodge Conjecture.
+
+B127/NG102 correct its role: the formula contains G008's terminal-equivalent
+support nonemptiness plus G085's conditional cleanup. G084 is sufficient but
+strictly more structured than the active terminal gate G008.
 
 ## Attempt 1 — Dimension and generic slicing
 

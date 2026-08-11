@@ -13,14 +13,14 @@ hodge_type: primitive rational type (0,0) input and a rational type-(0,0) local 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative of the input class may be assumed
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B007, B009-B010, B012, B054, B056-B059, B125, G008, G028-G030, G084, and NG037-NG039
+dependencies: B007, B009-B010, B012, B054, B056-B059, B125, B127, G008, G028-G030, G084-G085, NG037-NG039, and NG102
 claim: For every nonzero primitive rational Hodge class zeta, some sufficiently high hyperplane family contains a Li-clean multipart nodal member Y_p and a rational local relation beta whose Saito ambient class pairs nontrivially with zeta.
 falsifier: a smooth projective complex 2n-fold and nonzero primitive rational Hodge class for which every clean multipart nodal local relation in every sufficiently high hyperplane family has ambient image orthogonal to zeta
 ---
 
 # G031 - Clean-nodal intersection with class-specific support
 
-**Status:** EXPLORATORY — active parent; exact incidence subgate G084
+**Status:** EXPLORATORY — stronger clean-nodal parent; exact incidence subprogram G084
 
 ## Falsifiable theorem
 
@@ -52,7 +52,9 @@ the single incidence
  \Sigma_{\zeta,m}\cap C_m^{\mathrm{clean}}\ne\varnothing
 \]
 
-for some high power. G084 is this exact active subgate.
+for some high power. G084 is this exact clean subprogram. B127/NG102 split
+it into active terminal support nonemptiness G008 and conditional cleanup
+G085.
 
 This theorem is a sufficient mechanism, not a known equivalent
 reformulation: HC guarantees a detecting singular member by B007, but no

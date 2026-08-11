@@ -158,10 +158,10 @@ B055/NG037 exclude equisingular monodromy. B056-B057 put the actual detector
 and its extension chain in one plane net, while NG038 excludes the total
 pencil equator. B058 lets the ambient tube target itself be chosen rational
 type \((0,0)\). B059/NG039 show that preserving that exact target is stronger
-than necessary. B125 makes G031 exactly a support-incidence problem, and
-G084 is now active: force the class-specific local support to meet the clean
-nodal locus. B126/NG101 exclude doing this inside a suspended $A_2$ local
-versal slice.
+than necessary. B125 makes G031 exactly a clean support-incidence problem.
+B127/NG102 split G084 into active terminal support gate G008 plus conditional
+cleanup G085. B126/NG101 exclude performing that cleanup inside a suspended
+$A_2$ local versal slice.
 
 ## Sufficient parent: G014
 
@@ -320,8 +320,10 @@ explicit clean-arrangement hypothesis. B055/NG037 then show that
 equisingular monodromy cannot enlarge one fixed ambient image. B056-B057
 localize and identify the detector chain, NG038 kills the total-equator
 shortcut, and B058 chooses its ambient target in rational Hodge homology;
-G031 is the clean-nodal pairing parent, and B125 isolates G084 as its active
-support-incidence gate. B059/NG039 show that G030's
+G031 is the clean-nodal pairing parent, and B125 isolates G084 as its exact
+support-incidence subprogram. B127/NG102 restore G008 as the active
+terminal-equivalent gate and isolate G085 as conditional cleanup.
+B059/NG039 show that G030's
 exact class recovery is an optional stronger mechanism. B124/NG100 further
 prove that Saito relative-lift ambiguity cannot tune a fixed relation to that
 preselected target, so G065 remains inside the stronger G030 branch.

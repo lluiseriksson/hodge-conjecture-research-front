@@ -13,12 +13,14 @@ hodge_type: primitive (n,n) input; local Green-Griffiths invariant and Saito rel
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B007, B010, B012, B014, B015, and the attempted mechanisms B011 and B013
+dependencies: B007, B010-B012, B014-B015, B127, G084-G085, NG102, and the attempted mechanisms B011 and B013
 claim: For every nonzero primitive rational Hodge class zeta, there is a sufficiently high embedding for which the associated local Green-Griffiths invariant is nonzero at some discriminant point, equivalently Sing(zeta) is nonempty for that embedding.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class whose local Green-Griffiths invariant vanishes at every parameter point for every sufficiently high power
 ---
 
 # G008 - Codimension-two support realization
+
+**Status:** EXPLORATORY — active terminal-equivalent gate
 
 ## Falsifiable theorem sought
 
@@ -42,6 +44,10 @@ conclusion is equivalent, again by B012, to finding a singular hyperplane
 \(X_p\) with \(\zeta|_{X_p}\ne0\). Hence B007 propagates the universal theorem
 to the standard rational Hodge Conjecture. G008 is therefore an exact
 terminal gate, not partial algebraicity progress.
+
+B127/NG102 restore this as the active minimum after auditing the stronger
+clean-nodal program: G084 equals G008 plus the independent conditional
+cleanup G085.
 
 ## Attempt 1 - Restrict the global class to a generic pencil
 

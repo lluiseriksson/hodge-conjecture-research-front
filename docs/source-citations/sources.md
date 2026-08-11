@@ -122,6 +122,10 @@ admissible normal functions,” *Inventiones Mathematicae* 177 (2009), 599-629.
   after clearing denominators; no integral HC is asserted.
 - Does not provide: an unconditional class-specific nonzero restriction or
   singularity. The equivalence is a terminal reformulation, not a solution.
+- B127/NG102 audit: Theorem 1.3 quantifies only non-torsion/nonzero
+  singularity; it contains no clean-nodal incidence condition. Thus it
+  confirms G008 as the terminal-equivalent support gate but supplies neither
+  G008 unconditionally nor the additional cleanup G085.
 - Local retrieval SHA-256:
   `B71C1EFBBBCB46BF639749D5384E7768FE557FA0E622E9D0667FAB3B84352668`.
 

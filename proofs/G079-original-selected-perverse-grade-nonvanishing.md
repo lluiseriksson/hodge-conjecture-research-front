@@ -25,8 +25,8 @@ falsifier: a nonzero clean-nodal nearby class in u(S_0)
 
 B123/NG099 close the nearby-lift formulation below. It is retained to audit
 the failed direction; G064-G065 are a directionally valid but exact-target
-replacement. B124 restores G031 as the narrower parent, and B125 isolates
-active subgate G084.
+replacement. B124 restores G031 as the narrower clean parent; B125 isolates
+G084, and B127/NG102 restore G008 as the active terminal-equivalent gate.
 
 B117 removes the divisor/full-support ambiguity for the original incidence
 pushdown. The remaining class-specific obligation is therefore:

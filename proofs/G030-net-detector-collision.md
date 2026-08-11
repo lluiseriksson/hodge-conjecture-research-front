@@ -106,5 +106,5 @@ only
 Exact recovery of the independently selected \(c\) is sufficient but
 strictly stronger in linear algebra. NG039 therefore closes the use of G030
 as the smallest necessary gate. G030 remains a valid exploratory geometric
-theorem, but B125 isolates G084 as the active support-incidence formulation
-under G031.
+theorem. B125 isolates G084 as the clean support-incidence formulation under
+G031, and B127/NG102 restore G008 as the active terminal-equivalent gate.

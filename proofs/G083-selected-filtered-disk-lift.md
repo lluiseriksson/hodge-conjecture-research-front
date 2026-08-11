@@ -87,4 +87,4 @@ vanishes on that vector. B123 now proves that no such filtered lift exists
 for a nonzero vector. The valid reversed direction is G065: construct the
 Saito relation as a marked relative boundary, where it belongs to the
 specialization kernel rather than mapping out of it. B124/NG100 show that
-this exact-target construction is stronger than active gate G084.
+this exact-target construction is stronger than active gate G008.
