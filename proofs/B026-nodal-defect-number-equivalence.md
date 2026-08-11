@@ -39,8 +39,9 @@ nearby smooth member \(Y_\infty\), define
 Saito's exact sequence gives a canonical isomorphism between the unipotent
 type-\((0,0)\) part of \(R(Y_0)\) and the corresponding extra Hodge cycles in
 \(E^\vee(Y_0)\). For nodes, every rational relation has this type. Under the
-Green-Griffiths quasi-local nodal hypotheses, B009 also identifies the local
-intersection-cohomology channel with the relation space.
+Green-Griffiths quasi-local nodal hypotheses, B009/B134 identify the
+cohomological local intersection-cohomology channel with the dual relation
+space, hence with the same dimension and Tate type.
 
 Saito proves the first equality. Schoen Proposition 1.3 gives a canonical
 isomorphism between the adjoint coherent defect and the desingularized excess

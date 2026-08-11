@@ -13,8 +13,8 @@ hodge_type: after Saito's standard Q(n) vanishing-homology normalization, the do
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B010, B035-B039, Saito Section 1.4 Proposition 1.7 and Theorem 3 (S022), and Hodge-module functoriality (S037)
-claim: In the minimal U_(2,5) multipart model, the rational Hodge structure on the downstairs degree-one IC stalk identified in B039 is the full vanishing-cycle relation kernel with pure Tate type (0,0) after the Q(n) normalization.
+dependencies: B010, B035-B039, B134, Saito Section 1.4 Proposition 1.7 and Theorem 3 (S022), and Hodge-module functoriality (S037)
+claim: In the minimal U_(2,5) multipart model, the polarized homological model of the downstairs degree-one IC stalk is the full vanishing-cycle relation kernel; intrinsically the cohomological stalk is its dual, with pure Tate type (0,0) after Q(n).
 falsifier: a resolved crossing group with a non-(0,0) Hodge component after Q(n), a transgression that is not a morphism of mixed Hodge structures, or a B039 descent map that fails to preserve the Hodge-module structure
 ---
 

@@ -13,8 +13,8 @@ hodge_type: after the Q(n) normalization, the downstairs degree-one IC stalk is 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B035-B042, Green-Griffiths S021, and Saito S022/S037
-claim: For every d at least 2 and every r at least d, the downstairs degree-one IC stalk of a simple uniform U_(d,r) Picard-Lefschetz nodal arrangement is canonically the full rational vanishing-cycle relation kernel and is pure of type (0,0) after Q(n).
+dependencies: B035-B042, B134, Green-Griffiths S021, and Saito S022/S037
+claim: For every d at least 2 and r at least d, the polarized homological model dual to the downstairs degree-one cohomological IC stalk of a simple uniform U_(d,r) nodal arrangement is the full rational relation kernel, and both are pure type (0,0) after Q(n).
 falsifier: a uniform incidence stratum producing cohomology beyond the direct sum of its incident branch generators, a residue transgression different from e_i -> delta_i, a point-supported blow-up summand in ordinary degree one, or a non-(0,0) kernel component after Q(n)
 ---
 

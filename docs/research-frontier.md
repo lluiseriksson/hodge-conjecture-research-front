@@ -27,6 +27,22 @@ a possible stronger mechanism; G031 records the actual clean-nodal pairing
 obligation. Its decisive unknown is still class-controlled incidence, not
 linear algebra.
 
+## Duality correction at the active local target
+
+B134 audits Saito equations (0.3)-(0.5) against the de
+Cataldo-Migliorini local invariant. The cohomological stalk is
+
+\[
+ E(Y_p)=R(Y_p)^\vee,
+\]
+
+and the specified incidence coordinate is the functional
+\(\beta\mapsto\langle\zeta,\gamma_\beta\rangle\). The local-arrangement
+kernel calculations are polarized homological models of this dual channel.
+NG107 forbids using \(R(Y_p)\ne0\) as proof that the functional is nonzero.
+This correction sharpens G088 but does not reduce its terminal-equivalent
+existence content.
+
 G032 separates the extra cleanup content from terminal support nonemptiness:
 starting with any detecting singular member, deform it to the Li-clean nodal
 locus while preserving a nonzero pairing. The first attempt fails. By B025,

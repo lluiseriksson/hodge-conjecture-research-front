@@ -13,8 +13,8 @@ hodge_type: the sought downstairs degree-one relation channel must be pure of ty
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B035-B044, and G015
-claim: For a rank-three seven-branch arrangement with exactly one dependent triple and no other dependent triple, the wonderful-resolution degree-one IC channel descends to the full rational vanishing-cycle relation kernel and is pure type (0,0) after Q(n).
+dependencies: B009-B010, B035-B044, B134, and G015
+claim: For the stated one-dependent-triple arrangement, the polarized homological model dual to the downstairs cohomological IC channel is the full rational relation kernel, and both are pure type (0,0) after Q(n).
 falsifier: a wonderful exceptional-flat stratum that kills a rational relation, creates a spurious degree-one class, contributes a degree-one proper-direct-image summand, or changes the Tate type
 ---
 

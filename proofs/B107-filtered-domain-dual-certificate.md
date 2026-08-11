@@ -13,9 +13,9 @@ hodge_type: all domains, maps, relation coordinates, and functionals restricted 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B010, B081, B083, B093-B095, B106, G057-G059, NG069, S037
-claim: The perverse associated grade defines the Saito detector functional canonically only on the relevant filtration step S_0, not on the entire special stalk S. A nearby class has an admissible relation-grade lift exactly when it lies in the image of u_0=u|_(S_0), and then B095's exact dual certificate must be formed with u_0 and F_0 on S_0.
-falsifier: a canonical total-stalk projection supplied by perverse filtration alone, an admissible filtered lift outside im(u_0), or filtered finite-dimensional data for which the u_0 dual alternative disagrees with direct evaluation on the filtered lift torsor
+dependencies: B010, B081, B083, B093-B095, B106, B134, G057-G059, NG069, NG107, S037
+claim: The perverse associated grade canonically maps the relevant filtration step S_0 to the dual relation space R(H)^vee, not to R(H); after an actual relation beta is selected, evaluation defines F_(0,beta) on S_0 and B095's exact lift certificate applies to u_0 and F_(0,beta), while neither the total-stalk projection nor beta is supplied by the filtration.
+falsifier: a canonical map from the cohomological associated grade to an unpolarized relation vector without dualization, an admissible filtered lift outside im(u_0), or filtered finite-dimensional data for which the u_0 dual alternative disagrees with direct evaluation after beta is fixed
 ---
 
 # B107 — The dual certificate lives on the filtered domain
@@ -41,24 +41,33 @@ between increasing and decreasing perverse filtrations.
 
 B081 gives the quotient $S_0\to S_0/S_{<0}$ canonically. Inside that grade,
 the strict-support decomposition canonically projects to the full-support
-summand, and B093 identifies its stalk with the relation space. Hence there
-is a canonical map
+summand, and B093/B134 identify its stalk with the **dual** relation space.
+Hence there is a canonical map
 
 \[
- r:S_0\longrightarrow R(H)_1^{(0,0)}.
+ r^\vee:S_0\longrightarrow R(H)_1^{(0,0),\vee}.
 \]
 
-Composing with Saito's ambient map and pairing with the specified primitive
-Hodge class gives
+Only after choosing an actual relation
 
 \[
- F_0:S_0\longrightarrow\mathbf Q.
+ \beta\in R(H)_1^{(0,0)}
 \]
+
+does evaluation give a scalar functional
+
+\[
+ F_{0,\beta}(s)=r^\vee(s)(\beta):S_0\longrightarrow\mathbf Q.
+\]
+
+Perverse filtration does not select \(\beta\). NG107 forbids manufacturing
+one by treating the cohomological stalk as its homological dual.
 
 ## No canonical extension to the total stalk
 
 Perverse filtration does not give a map $S\to S_0/S_{<0}$. It gives a map
-only from $S_0$. Extending $F_0$ to $S$ requires choosing a complement. In
+only from $S_0$. Even after \(\beta\) is supplied, extending
+$F_{0,\beta}$ to $S$ requires choosing a complement. In
 the elementary model
 
 \[
@@ -103,22 +112,23 @@ If this holds, its admissible lift set is the affine torsor
  =s_0+(\ker u\cap S_0).
 \]
 
-Apply B095 to $u_0:S_0\to P_\psi$ and $F_0\in S_0^*$. A detecting
+Apply B095 to $u_0:S_0\to P_\psi$ and
+$F_{0,\beta}\in S_0^*$. A detecting
 admissible lift exists exactly in the two disjoint cases
 
 \[
  \boxed{
- [F_0]\ne0\text{ in }\operatorname{coker}(u_0^*)
+ [F_{0,\beta}]\ne0\text{ in }\operatorname{coker}(u_0^*)
  \quad\text{or}\quad
- [F_0]=0\text{ and }\lambda(t_\psi)\ne0,
+ [F_{0,\beta}]=0\text{ and }\lambda(t_\psi)\ne0,
  }
 \]
 
-where $F_0=u_0^*\lambda$ in the second branch. The value on $t_\psi$ is
+where $F_{0,\beta}=u_0^*\lambda$ in the second branch. The value on $t_\psi$ is
 independent of the choice of $\lambda$ because $t_\psi\in\operatorname{im}u_0$.
 
 ## Scope guard
 
-B107 does not prove $t_\psi\in\operatorname{im}u_0$ or compute either dual
-branch. It corrects the domain on which those obligations are well-defined.
-
+B107 does not select \(\beta\), prove
+$t_\psi\in\operatorname{im}u_0$, or compute either dual branch. It corrects
+both the domain and the intrinsic dual typing of those obligations.

@@ -13,7 +13,7 @@ hodge_type: the nodal relation/extra grade is type (0,0) after Q(n); the vanishi
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed or constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B026, B081, B093, B107-B109, B117-B122, S022, S037
+dependencies: B009-B010, B026, B081, B093, B107-B109, B117-B122, B134, S022, S037
 claim: In the clean nodal original disk, B107's relation filtration step S_0 is the extra-cohomology kernel of specialization H^(d+1)(Y_p)->H^(d+1)(Y_t); hence u_Delta(S_0)=0 and every nonzero nearby class has nonzero filtered obstruction.
 falsifier: a class in the clean-nodal relation grade with nonzero specialization, or a nonzero nearby class lying in u_Delta(S_0)
 ---
@@ -43,8 +43,9 @@ Define the extra cohomology
 \]
 
 Saito identifies its dual with the relation kernel among the local vanishing
-cycles. B009/B093 identify that same relation channel with the full-support
-\(E_\infty^{-1,0}\) stalk grade. Thus the relation grade in the special
+cycles. B009/B093/B134 identify the full-support
+\(E_\infty^{-1,0}\) cohomological stalk grade with the dual relation
+channel, namely the extra cohomology itself. Thus this grade in the special
 group is precisely the extra-cohomology subspace killed by specialization.
 
 B118 proves that the lower point grade \(E_\infty^{0,-1}\) vanishes in the

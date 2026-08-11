@@ -13,8 +13,8 @@ hodge_type: after the Q(n) normalization, the downstairs degree-one IC stalk is 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B015, B041-B046, G019, Green-Griffiths S021, Saito S022/S037, and Li S038
-claim: For the explicit rank-five arrangement whose nontrivial connected flats form one chain of ranks 2, 3, 4, and 5, the wonderful-resolution degree-one IC channel is canonically the full rational vanishing-cycle relation kernel and is pure type (0,0) after Q(n).
+dependencies: B015, B041-B046, B134, G019, Green-Griffiths S021, Saito S022/S037, and Li S038
+claim: For the explicit rank-five nested-chain arrangement, the polarized homological model dual to the downstairs cohomological IC channel is the full rational relation kernel, and both are pure type (0,0) after Q(n).
 falsifier: an unintended connected flat in the explicit realization, a nontriangular four-class residue equation, a non-full-support summand contributing in ordinary degree one, or a non-(0,0) kernel component after Q(n)
 ---
 

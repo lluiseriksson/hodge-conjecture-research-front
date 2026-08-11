@@ -72,10 +72,11 @@ support point.
    section \(h_m(\zeta)\). NG105 removes the noncanonical smooth-open map
    comparison. The sole remaining issue is G088: the specified section may
    still be killed by filtered differentials at every boundary stalk.
-7. **Generic codimension-two nodal boundary:** insufficient. B133 computes
-   the two-branch target as the vanishing-cycle relation kernel. NG106 shows
-   it is zero for independent cycles, so a generic transverse double node
-   supplies no escape target.
+7. **Generic codimension-two nodal boundary:** insufficient. B133-B134
+   compute the two-branch cohomological target as the dual of the
+   vanishing-cycle relation kernel. NG106 shows it is zero for independent
+   cycles; NG107 shows a nonzero kernel still does not force the specified
+   functional to be nonzero.
 
 Thus the next proof must calculate the composite
 

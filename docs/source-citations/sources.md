@@ -429,6 +429,14 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   relation \(\beta\) gives a primitive Hodge class \(\gamma_\beta\) such that
   \(Y_0\) detects \(\zeta\) exactly when
   \(\langle\zeta,\gamma_\beta\rangle\ne0\) for some \(\beta\).
+- Rechecked equation (0.3), Theorem 1(i), and the proof in Section 2.4 for
+  B134/NG107: the **cohomological** intermediate-extension stalk is
+  \(E(Y_0)\), while the homological relation space is canonically
+  \(E(Y_0)^\vee\). Thus a local incidence class is intrinsically a functional
+  on relations. Proposition 1.7 identifies the two normal-crossing maps as
+  adjoints under polarization and proves the dimension comparison; it does
+  not turn the specified cohomology class into a canonically selected
+  relation vector.
 - Checked displayed maps (0.4)-(0.5) and the proof in Section 2.4: the
   relation first determines an element of \(E^\vee(Y_0)\), followed by a
   canonical morphism
@@ -608,6 +616,12 @@ Society* 137 (2009), 3593-3600.
   global perverse component gives the local component. These inputs yield
   the two-row edge sequence and identify its section stalks with
   \(s(\zeta)_p\).
+- Rechecked Definition 3.3 and Proposition 3.8 against S022 equation (0.3)
+  for B134: after the high-power support simplification,
+  \(s(\zeta)_p=[\zeta|_{X_p}]_{00}\) is the same canonical restriction
+  cocycle in the full-support cohomological IC stalk. Combined with S022 it
+  is the functional
+  \(\beta\mapsto\langle\zeta,\gamma_\beta\rangle\), not a relation vector.
 - Scope guard: nonzero global invariant does not in the paper imply a
   nonzero local invariant. Nonemptiness of the local singularity locus for
   every primitive Hodge class is the Thomas/Hodge-conjecture condition.
@@ -923,7 +937,8 @@ arrangements,” [arXiv:1810.13126](https://arxiv.org/abs/1810.13126).
   and mixed-Hodge-module route. No rational Hodge conclusion is imported
   from Bapat's complex face algebra.
 - Scope guard: an arrangement-quiver model by itself does not imply that the
-  degree-one stalk equals the full vanishing-cycle relation kernel. A
+  polarized homological model is the full relation kernel or that the
+  cohomological stalk is its dual. A
   dependent \(q\)-block example must be computed explicitly before any
   promotion.
 
@@ -939,8 +954,8 @@ variations,” *Annals of Mathematics* 143 (1996), 131-148.
   that setting.
 - This supports the relevance of commuting monodromy to G015, but the
   official scope does not state the B035 calculation: it does not identify
-  the downstairs intermediate-extension stalk with the full relation kernel
-  for the \(U_{2,5}\) arrangement or remove point-supported summands after
+  the polarized homological model with the full relation kernel, the
+  cohomological stalk with its dual, or remove point-supported summands after
   the blow-up.
 - No theorem from S036 is used to promote the unresolved IC or type-\((0,0)\)
   comparison. B035's promoted content is the elementary arrangement,

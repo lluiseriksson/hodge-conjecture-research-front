@@ -13,8 +13,8 @@ hodge_type: the sought downstairs degree-one relation channel must be pure of ty
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B043-B045, G015-G016
-claim: For seven rank-three branches with dependent triples {1,2,3} and {1,4,5} and no others, the wonderful-resolution degree-one IC channel is the full rational relation kernel of pure type (0,0) after Q(n).
+dependencies: B043-B045, B134, G015-G016
+claim: For the stated two-dependent-flat arrangement, the polarized homological model dual to the downstairs cohomological IC channel is the full rational relation kernel, and both are pure type (0,0) after Q(n).
 falsifier: interaction between the two exceptional-flat residue equations kills a relation, creates a class, or introduces an ordinary-degree-one non-full-support summand
 ---
 

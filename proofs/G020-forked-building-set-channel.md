@@ -13,8 +13,8 @@ hodge_type: the sought downstairs degree-one relation channel must be pure type 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B045-B048, G019, Green-Griffiths S021, Saito S022/S037, and Li S038
-claim: For the explicit rank-five fork arrangement, the wonderful-resolution degree-one IC channel is independent of the order of the two child blow-ups and is canonically the full rational type-(0,0) vanishing-cycle relation kernel.
+dependencies: B045-B048, B134, G019, Green-Griffiths S021, Saito S022/S037, and Li S038
+claim: For the explicit rank-five fork arrangement, the channel is blow-up-order independent; its polarized homological model is the full type-(0,0) relation kernel and its cohomological stalk is the dual.
 falsifier: the common-parent exceptional equation couples the two child partial sums, the two permissible child orders give different kernels, a fork-incidence strict support contributes in ordinary degree one, or the kernel has a non-(0,0) component after Q(n)
 ---
 

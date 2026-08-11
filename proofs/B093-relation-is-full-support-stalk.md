@@ -13,9 +13,9 @@ hodge_type: the nodal relation group is rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence in the terminal application
 scope: relative and fiberwise
-dependencies: B009-B010, B052, B080-B081
-claim: On the plane base, if L=R^(2n-1)h_*Q on the smooth locus and P=j_!*L[2], then the nodal relation group is canonically H^(-1)(i_H^*P); inside a proper direct image it is reached only through the canonical E_infinity^(-1,0) perverse grade and the full-support strict-support summand.
-falsifier: a different perverse shift for L on the plane base, or a clean nodal model where H^(-1)(i_H^*P) is not the B009/B052 relation group
+dependencies: B009-B010, B052, B080-B081, B134
+claim: On the plane base, if L=R^(2n-1)h_*Q on the smooth locus and P=j_!*L[2], then H^(-1)(i_H^*P) is canonically the dual of the nodal relation group; inside a proper direct image it is reached only through the canonical E_infinity^(-1,0) perverse grade and the full-support strict-support summand.
+falsifier: a different perverse shift for L on the plane base, or a clean nodal model where H^(-1)(i_H^*P) is not canonically dual to the B009/B052 relation group
 ---
 
 # B093 — The local relation is the full-support perverse stalk
@@ -36,15 +36,17 @@ exact shift identity
  H^1(j_{!*}L)_H=H^{-1}(i_H^*P).
 \]
 
-B009 identifies the left side with the rational relation space among the
-nodal vanishing cycles, and B052 proves the same identification and type
-$(0,0)$ for the clean arrangement channel. Thus
+B009 and B134 identify the left side with the dual of the rational relation
+space among the nodal vanishing cycles, and B052 proves the same rank and
+type $(0,0)$ for the clean arrangement channel. Thus
 
 \[
- R(H)_1^{(0,0)}\simeq H^{-1}(i_H^*P)^{(0,0)}
+ R(H)_1^{(0,0),\vee}\simeq H^{-1}(i_H^*P)^{(0,0)}
 \]
 
-canonically, with the Tate twist understood.
+canonically, with the Tate twist understood. A polarization can model this
+dual by a kernel, but a specified cohomological class remains a functional
+on relations.
 
 If $P$ occurs inside a proper pushdown complex $K$, B081 supplies the exact
 access route: first pass the total class in $H^{-1}(i_H^*K)$ to the canonical

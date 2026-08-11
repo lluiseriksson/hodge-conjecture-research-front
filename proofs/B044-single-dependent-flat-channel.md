@@ -13,8 +13,8 @@ hodge_type: after the Q(n) normalization, the downstairs degree-one IC stalk is 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B035-B043, G016, Green-Griffiths S021, and Saito S022/S037
-claim: For the rank-three seven-branch arrangement with exactly one dependent triple, the two-stage wonderful-resolution degree-one IC channel descends canonically to the full rational vanishing-cycle relation kernel and is pure type (0,0) after Q(n).
+dependencies: B035-B043, B134, G016, Green-Griffiths S021, and Saito S022/S037
+claim: For the rank-three seven-branch arrangement with exactly one dependent triple, the polarized homological model dual to the two-stage downstairs cohomological IC channel is the full rational relation kernel, and both are pure type (0,0) after Q(n).
 falsifier: a second-exceptional residue equation independent of the dependent-triple span equation, a positive-flat or point strict-support summand in ordinary degree one, or a non-(0,0) kernel component after Q(n)
 ---
 

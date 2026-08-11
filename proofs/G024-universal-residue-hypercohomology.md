@@ -13,8 +13,8 @@ hodge_type: the desired degree-one kernel is required to be pure type (0,0) afte
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B038-B052, G019-G023, Green-Griffiths S021, Saito S022/S037, and Li S038
-claim: The only differential affecting total degree one on every wonderful fiber is the divisor-class-weighted residue map from B050's coefficient sections, its equations are exactly B049's global and flat partial-sum rows, and its kernel is canonically the full vanishing-cycle relation space.
+dependencies: B038-B052, B134, G019-G023, Green-Griffiths S021, Saito S022/S037, and Li S038
+claim: In the polarized homological model, the only differential affecting total degree one is the divisor-class-weighted residue map, with B049's rows and kernel the full relation space; the cohomological IC target is the dual kernel.
 falsifier: a nonconstant global section of a coefficient support, an additional spectral-sequence differential entering total degree one, a residue extension class not equal to the corresponding divisor class, or a kernel different from the full relation space
 ---
 
@@ -39,7 +39,7 @@ divisor-class-weighted residue map. In the basis (h,(e_F)), it must be
 
 The independent divisor basis forces each (w_F) to be the
 corresponding partial sum and leave exactly
-(\sum_i a_i\delta_i=0\). B052 proves that all coefficient supports are
-connected, (H^1(E,K)=0), and no other spectral-sequence arrow affects total
+\(\sum_i a_i\delta_i=0\). B052 proves that all coefficient supports are
+connected, \(H^1(E,K)=0\), and no other spectral-sequence arrow affects total
 degree one. The logarithmic residue extension is the divisor-class-weighted
 map, so its kernel is exactly the full relation space.

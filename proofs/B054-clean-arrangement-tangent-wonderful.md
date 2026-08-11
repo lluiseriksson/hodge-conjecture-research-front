@@ -13,8 +13,8 @@ hodge_type: the downstairs degree-one channel is pure type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B049-B053, Li Definitions 2.1-2.3 and Proposition 2.8/Lemma 2.9 (S038), and Saito S022/S037
-claim: The labelled central fiber of every nonlinear clean wonderful discriminant resolution is canonically the wonderful model of its tangent arrangement; residues and the degree-one rational IC/MHS channel agree, so the downstairs channel is the full type-(0,0) vanishing-cycle relation kernel.
+dependencies: B049-B053, B134, Li Definitions 2.1-2.3 and Proposition 2.8/Lemma 2.9 (S038), and Saito S022/S037
+claim: The labelled central fiber of every nonlinear clean wonderful discriminant resolution is canonically the wonderful model of its tangent arrangement; residues and the degree-one rational IC/MHS channel agree, with polarized homological model the full type-(0,0) vanishing-cycle relation kernel and cohomological stalk its dual.
 falsifier: an iterated center whose intersection with the central fiber is not the corresponding transformed projectivized normal flat, a clean transform not preserved by Li's induction, a higher-jet-dependent boundary valuation, or disagreement of the residue/support complexes
 ---
 
@@ -104,7 +104,8 @@ transgression has kernel
  \operatorname{span}_{\mathbf Q}\{\delta_i\}\right).
 \]
 
-The comparison is rational and every coefficient is \(\mathbf Q(0)\) after
+This kernel is the polarized homological model; the cohomological IC stalk
+is its dual by B134. The comparison is rational and every coefficient is \(\mathbf Q(0)\) after
 the \(\mathbf Q(n)\) normalization, so it preserves the pure type-\((0,0)\)
 mixed Hodge structure.
 

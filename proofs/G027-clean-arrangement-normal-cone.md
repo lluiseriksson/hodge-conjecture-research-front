@@ -13,8 +13,8 @@ hodge_type: the comparison must preserve the pure type-(0,0) degree-one channel 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B052-B054, G019, G026, Li S038, and Saito S022/S037
-claim: For every clean nonlinear discriminant arrangement with representable tangent matroid, the wonderful resolution has the same degree-one rational IC/MHS channel as the tangent central arrangement, canonically equal to the full vanishing-cycle relation kernel.
+dependencies: B052-B054, B134, G019, G026, Li S038, and Saito S022/S037
+claim: For every clean nonlinear discriminant arrangement with representable tangent matroid, the wonderful resolution has the same degree-one rational IC/MHS channel as the tangent arrangement; its polarized homological model is the full relation kernel and the cohomological stalk is the dual.
 falsifier: a clean stratum whose normal cone or dominant transform changes the labelled wonderful fiber, a higher-jet-dependent residue, a new degree-one coefficient or strict-support term, or failure of rational Hodge compatibility
 ---
 

@@ -13,9 +13,9 @@ hodge_type: the sought relation channel must retain rational type (0,0) after Ta
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B028, B034-B054, NG036, Green-Griffiths S021, Saito S022/S037, and Li S038
-claim: Under the explicit Li clean-arrangement hypothesis, the B009 quasi-local identification of the degree-one local intersection-cohomology channel with the full rational vanishing-cycle relation space extends from two independently smoothable blocks to q blocks.
-falsifier: a q-block transverse nodal local model satisfying the stated clean-arrangement and independent-smoothing hypotheses whose degree-one local intersection-cohomology channel is not the full rational relation kernel or does not carry the required type-(0,0) comparison
+dependencies: B009-B010, B028, B034-B054, B134, NG036, Green-Griffiths S021, Saito S022/S037, and Li S038
+claim: Under the explicit Li clean-arrangement hypothesis, the B009 polarized homological kernel model extends from two independently smoothable blocks to q blocks; the cohomological IC channel is canonically the dual relation space.
+falsifier: a q-block model satisfying the hypotheses whose homological model is not the full relation kernel, whose cohomological channel is not its dual, or whose type-(0,0) comparison fails
 ---
 
 # G015 - Multipart quasi-local relation channel
@@ -216,8 +216,9 @@ residue transgression is
 \]
 
 point-supported direct-image summands occur only in ordinary degree two,
-and the source is \(\mathbf Q(0)^r\). Hence the downstairs degree-one IC
-stalk is the full type-\((0,0)\) relation kernel for every \(r\ge3\).
+and the source is \(\mathbf Q(0)^r\). Hence the polarized homological model
+is the full type-\((0,0)\) relation kernel for every \(r\ge3\), while the
+cohomological stalk is its dual by B134.
 
 The narrowest unresolved higher-rank gate is \(U_{3,7}\). Its exceptional
 \(\mathbf P^2\) contains seven pairwise-transverse lines and their

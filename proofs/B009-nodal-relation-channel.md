@@ -13,9 +13,9 @@ hodge_type: the input class is primitive (n,n); the channel statement itself is 
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n)); no surjectivity is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: Green-Griffiths Section 4.2.3 and 4.2.4 (S021); BFNP Theorem 2.11 (S009)
-claim: In the stated transverse nodal local model, the degree-one local monodromy/intersection-cohomology channel is isomorphic to the Q-vector space of relations among the nodal vanishing cycles.
-falsifier: a family satisfying the stated local hypotheses for which H^1(B^bullet) is not isomorphic to the rational relation space of its vanishing cycles
+dependencies: Green-Griffiths Section 4.2.3 and 4.2.4 (S021); BFNP Theorem 2.11 (S009); Saito equations (0.3)-(0.4) and Proposition 1.7 (S022); B134
+claim: In the stated transverse nodal local model, the degree-one cohomological monodromy/intersection-cohomology channel is canonically dual to the Q-vector space of relations among the nodal vanishing cycles; a polarized coefficient-kernel model has the same rank and Tate type.
+falsifier: a family satisfying the stated local hypotheses for which the degree-one cohomological channel is not canonically dual to the rational relation space, or their dimensions differ
 ---
 
 # B009 - Nodal relation channel
@@ -36,7 +36,8 @@ normal-crossing case, the local monodromy complex has
  B^0=V,\qquad B^1=\bigoplus_i N_iV,
 \]
 
-with its Koszul boundary. Green-Griffiths Section 4.2.4 computes
+with its Koszul boundary. Green-Griffiths Section 4.2.4 computes the
+homological relation model
 
 \[
  H^1(B^\bullet)\simeq
@@ -47,15 +48,23 @@ with its Koszul boundary. Green-Griffiths Section 4.2.4 computes
 Their more general local statement permits a partition \(I=J\sqcup K\) for
 which the nodes in each part are independent and obtains the same relation
 space. Section 4.2.3 identifies this monodromy cohomology with the relevant
-local intersection-cohomology group under the local/quasi-local
-normal-crossing hypotheses.
+local intersection-cohomology channel under the local/quasi-local
+normal-crossing hypotheses. Intrinsically, Saito equations (0.3)-(0.4) give
+
+\[
+ \mathcal H^{-d+1}(IC(V))_p\simeq R(Y_p)^\vee.
+\]
+
+The kernel displayed above is therefore the polarized homological model (or
+dual) of the cohomological stalk. B134 fixes this convention at class level.
 
 ## Detection consequence
 
-If the vanishing cycles are rationally independent, this channel is zero and
-no normal-function singularity can occur through it. If relations exist, the
-target is merely nonzero: detection of a specified class \(\zeta\) additionally
-requires its singularity to have a nonzero component in that relation space.
+If the vanishing cycles are rationally independent, the relation space and
+its dual channel are zero and no normal-function singularity can occur
+through it. If relations exist, the target is merely nonzero: detection of a
+specified class \(\zeta\) additionally requires its dual functional to
+evaluate nontrivially on some relation.
 The latter does not follow from the dimension of the relation space.
 
 ## Scope guard

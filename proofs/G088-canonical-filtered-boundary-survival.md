@@ -13,8 +13,8 @@ hodge_type: primitive rational type (r,r), normalized to (0,0) after Q(r)
 cycle_class_map: CH^r(X)_Q -> H^(2r)(X,Q(r)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B009, B012, B026-B027, B128, B130-B133, G008, G086-G087, NG103-NG106, S009, S021-S024, S037, S053
-claim: For every nonzero primitive rational Hodge class zeta, for some sufficiently high power and some discriminant point p, the canonical projective filtered section h_m(zeta) survives the filtered stalk spectral sequence to the nonzero rational ordinary class e_m(s_m(zeta))_p in H^(-d+1)(IC(V_m))_p.
+dependencies: B007-B009, B012, B026-B027, B128, B130-B134, G008, G086-G087, NG103-NG107, S009, S021-S024, S037, S053
+claim: For every nonzero primitive rational Hodge class zeta, for some sufficiently high power and some discriminant point p, the canonical projective filtered section h_m(zeta) survives the filtered stalk spectral sequence to the nonzero rational ordinary class e_m(s_m(zeta))_p in H^(-d+1)(IC(V_m))_p; at a clean nodal point this class is the dual relation functional beta |-> <zeta,gamma_beta>.
 falsifier: a smooth projective complex 2r-fold and nonzero primitive rational Hodge class for which the canonical section is killed in every discriminant stalk for every sufficiently high power
 ---
 
@@ -58,20 +58,27 @@ point of the discriminant, B008 gives a zero rational local IC channel. Any
 survivor must therefore occur on a support stratum of codimension at least
 two, consistently with B012.
 
-B133 computes the minimal clean nodal case. At a quasi-local
-normal-crossing point with vanishing cycles \(\delta_i\), the ordinary
-target is
+B133-B134 compute the minimal clean nodal case. At a quasi-local
+normal-crossing point with vanishing cycles \(\delta_i\), put
 
 \[
- \ker\!\left(\mathbf Q^r\longrightarrow
+ R_p=\ker\!\left(\mathbf Q^r\longrightarrow
  H_{2r-1}(X_s,\mathbf Q(r))\right).
+\]
+
+The ordinary cohomological target is \(R_p^\vee\), and the specified class
+is
+
+\[
+ \lambda_{\zeta,p}(\beta)=\langle\zeta,\gamma_\beta\rangle.
 \]
 
 For two branches this target is nonzero only when the two nonzero vanishing
 cycles are proportional. NG106 therefore closes the generic transverse
 double-node shortcut. G088 may still use a class-directed two-cycle relation
-or a higher multipart relation, but it must prove a nonzero coordinate for
-the specified incidence class.
+or a higher multipart relation, but it must prove
+\(\lambda_{\zeta,p}(\beta)\ne0\) for an actual relation. NG107 forbids
+replacing this functional by a canonically selected relation vector.
 
 Thus G088 requires an actual codimension-two-or-higher calculation of the
 minimal-extension filtered differentials. Global nonvanishing, Nori

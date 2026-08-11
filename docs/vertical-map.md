@@ -11,7 +11,7 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \Longleftrightarrow
 \text{singular-hyperplane detection G005}
 \Longleftrightarrow
-\text{class-specific nodal relation G006}
+\text{nonzero dual relation functional B134/G006}
 \Longleftarrow
 \text{codimension-two support realization G008}
 \Longleftrightarrow
@@ -22,8 +22,10 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
 themselves imply boundary survival. B133 adds the necessary local condition
-that the target vanishing cycles have a nonzero rational relation; NG106
-shows a generic independent double node fails it.
+that the target vanishing cycles have a nonzero rational relation; B134
+types the cohomological target as its dual and identifies the class with
+\(\beta\mapsto\langle\zeta,\gamma_\beta\rangle\). NG106 excludes a generic
+independent double node, while NG107 excludes the selected-vector shortcut.
 
 Two sufficient attacks feed G008:
 
@@ -740,11 +742,12 @@ projective strictness to obtain its nonzero filtered section
 \(h_m(\zeta)\). NG105 records why neither the smooth-open Corollary 5.2 proof
 nor an arbitrary decomposition splitting gives this comparison. Thus the
 first half of G087 is discharged. G088 is the sole remaining step: prove
-failure of filtered cancellation at one discriminant stalk. B133 identifies
-the minimal two-branch ordinary target with
-\(\ker(\mathbf Q^2\to\langle\delta_1,\delta_2\rangle)\). NG106 therefore
-excludes a generic transverse independent double node; the target needs a
-genuine relation before any class coordinate can survive.
+failure of filtered cancellation at one discriminant stalk. B133-B134
+identify the minimal two-branch cohomological target with the dual of
+\(\ker(\mathbf Q^2\to\langle\delta_1,\delta_2\rangle)\), and its class with
+evaluation against Saito's ambient detector. NG106 excludes a generic
+transverse independent double node; NG107 shows that a nonzero kernel alone
+still does not supply the specified functional.
 
 **Stronger clean program G084.** Prove
 
@@ -1033,9 +1036,10 @@ class cancels in ordinary de Rham cohomology on the smooth locus. B131-B132
 canonically identify the rational incidence class with its projective
 filtered realization; NG105 closes the smooth-open and chosen-splitting
 routes. G088 must now prove noncancellation specifically at a discriminant
-stalk. By B133/NG106, even the smallest codimension-two nodal candidate must
-have dependent vanishing cycles; parameter codimension alone supplies no
-target.
+stalk. By B133-B134/NG106-NG107, even the smallest codimension-two nodal
+candidate must have dependent vanishing cycles and a nonzero value of the
+dual incidence functional; parameter codimension and relation rank alone do
+not supply it.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces

@@ -13,7 +13,7 @@ hodge_type: primitive type (n,n), normalized to (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B008-B009, B020, B027, B133, G088, S009, S021
+dependencies: B008-B009, B020, B027, B133-B134, G088, S009, S021
 claim: A generic transverse codimension-two intersection of two nodal discriminant branches automatically supplies a nonzero ordinary target for the canonical B132 filtered section.
 falsifier: two rationally independent nonzero vanishing cycles, for which B133 gives a zero relation kernel and zero local IC target
 ---
@@ -30,7 +30,7 @@ falsifier: two rationally independent nonzero vanishing cycles, for which B133 g
   discriminant.
 - **Invalid inference:** two branches automatically give a nonzero
   degree-one IC channel.
-- **Precise obstruction:** B133 computes the target as
+- **Precise obstruction:** B133-B134 compute the target as the dual of
 
   \[
   \ker\!\left(\mathbf Q^2
@@ -38,7 +38,8 @@ falsifier: two rationally independent nonzero vanishing cycles, for which B133 g
   H_{2n-1}(X_s,\mathbf Q(n))\right).
   \]
 
-  It is zero when the two vanishing cycles are independent. B020's audited
+  The kernel and its dual are zero when the two vanishing cycles are
+  independent. B020's audited
   intersection-one pair is explicitly independent, and B027 proves more
   generally that full node independence kills the high-power relation
   channel.

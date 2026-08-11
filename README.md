@@ -61,7 +61,7 @@ brick carries the metadata required by [docs/brick-schema.md](docs/brick-schema.
 ```text
 standard rational Hodge Conjecture
   <=> primitive singular-hyperplane detection                    [B007, PROVED]
-  <=> class-specific nodal vanishing-cycle relation              [B010/G006]
+  <=> nonzero functional on a nodal relation                    [B010/B134]
   <=> nonempty codimension-two local support                     [B012/G008]
   <=> universal-incidence edge escape                            [B128/G086]
       <= canonical filtered boundary survival                   [B131-B132/G088]
@@ -99,6 +99,20 @@ projectivity, full support, geometric polarizable weight-\(-1\) coefficients,
 purity, hard Lefschetz, and rational type \((0,0)\) do not suffice. The exact
 universal-incidence origin \([q_m^*\zeta]_{00}\) is indispensable.
 
+B134 corrects an important duality convention in the local chain. For the
+cohomological variation, the ordinary boundary stalk is intrinsically the
+dual \(R(Y_p)^\vee\) of the homological vanishing-cycle relation space, and
+the specified class is
+
+\[
+ \beta\longmapsto\langle\zeta,\gamma_\beta\rangle.
+\]
+
+Earlier kernel calculations retain their rank, vanishing, and Tate-type
+conclusions as polarized homological models. They do not select a relation
+vector. See [docs/duality-conventions.md](docs/duality-conventions.md) and
+NG107.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -110,10 +124,11 @@ first-Leray transgression is nonzero. B132 starts from the canonical
 incidence class on full projective (P_m) and uses projective strictness to
 construct its nonzero filtered section. NG105 closes the smooth-open and
 chosen-splitting comparisons. G088 now asks only for noncancellation at one
-discriminant stalk. B133 computes its minimal two-branch target as the
-rational relation kernel of the two vanishing cycles. NG106 shows that a
-generic transverse double node has zero target when those cycles are
-independent; codimension two alone is not enough.
+discriminant stalk. B133-B134 compute its minimal two-branch cohomological
+target as the dual relation kernel and identify the specified class as the
+Saito pairing functional. NG106 shows that a generic transverse double node
+has zero target when those cycles are independent; NG107 shows a nonzero
+kernel alone is still insufficient.
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -603,6 +618,7 @@ python verification/verify_B129_projective_escape.py
 python verification/verify_B130_nori_higgs_indices.py
 python verification/verify_B131_B132_filtered_incidence.py
 python verification/verify_B133_two_branch_relation.py
+python verification/verify_B134_dual_relation_coordinate.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -767,10 +783,11 @@ B130/NG104 close the direct Nori/Higgs inference: associated-graded
 nonvanishing is cancelled in ordinary de Rham cohomology over the smooth
 locus. B131-B132 canonically identify the rational incidence class with its
 projective filtered realization; NG105 rejects the nonproper smooth-open
-shortcut. B133/NG106 further show that its smallest local model needs a
-genuine vanishing-cycle relation: a generic independent double node has zero
-ordinary target. G088 isolates the remaining class-specific
-boundary-survival calculation.
+shortcut. B133-B134/NG106-NG107 further show that its smallest local model
+needs a genuine vanishing-cycle relation and a nonzero value of the dual
+incidence functional: a generic independent double node has zero ordinary
+target. G088 isolates the remaining class-specific boundary-survival
+calculation.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

@@ -13,8 +13,8 @@ hodge_type: the degree-one channel and its tangent-arrangement comparison are pu
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B043, B050-B052, G019, G025-G026, NG036, Green-Griffiths S021, and Saito S022/S037
-claim: For every Green-Griffiths quasi-local normal-crossing nodal germ, blowing up the common stratum identifies its downstairs degree-one rational IC/MHS channel canonically with that of the uniform central tangent arrangement and hence with the full vanishing-cycle relation kernel.
+dependencies: B009-B010, B043, B050-B052, B134, G019, G025-G026, NG036, Green-Griffiths S021, and Saito S022/S037
+claim: For every Green-Griffiths quasi-local normal-crossing nodal germ, blowing up the common stratum identifies its downstairs degree-one rational IC/MHS channel canonically with that of the uniform central tangent arrangement; its polarized homological model is the full vanishing-cycle relation kernel and the cohomological stalk is the dual kernel.
 falsifier: failure of one-step SNC resolution, a nonuniform exceptional tangent arrangement, a residue depending on higher branch jets, a different exceptional degree-one complex, or lower-support contamination in degree one
 ---
 
@@ -55,7 +55,7 @@ resolution.
 
 ## Independence from higher jets
 
-The exceptional intersections (L_i) use only (ell_i). A loop around
+The exceptional intersections \(L_i\) use only \(\ell_i\). A loop around
 (widetilde D_i) has residue (N_i), while a loop around (E) has
 
 \[
@@ -73,15 +73,16 @@ complex is therefore exactly B043's (U_{c,r}) complex:
  \mathcal H^{\ge2}=0.
 \]
 
-Every (L_i) has class (h), (H^1(E,K)=0), and the unique
+Every \(L_i\) has class \(h\), \(H^1(E,K)=0\), and the unique
 total-degree-one transgression is
 
 \[
  (a_i)\longmapsto h\otimes\sum_i a_i\delta_i.
 \]
 
-Thus the exceptional hypercohomology is canonically the full relation
-kernel. The same normal-fiber amplitude as B043/B051 puts every proper
+Thus the polarized homological exceptional hypercohomology is canonically
+the full relation kernel, while the cohomological group is its dual. The
+same normal-fiber amplitude as B043/B051 puts every proper
 strict-support summand first in ordinary degree two, so proper base change
 identifies this group with the downstairs degree-one IC stalk.
 
@@ -89,14 +90,15 @@ identifies this group with the downstairs degree-one IC stalk.
 
 The central tangent arrangement has the same (E,L_i,N_E,N_i) data.
 Projection to the labelled branch coefficients canonically identifies both
-degree-one groups with
+dual homological models with
 
 \[
  \ker\!\left(\mathbf Q^r\xrightarrow{e_i\mapsto\delta_i}
  \operatorname{span}\{\delta_i\}\right).
 \]
 
-All branch images are \(\mathbf Q(0)\) after the \(\mathbf Q(n)\) twist and
+The cohomological stalks are the duals of these kernels. All branch images
+are \(\mathbf Q(0)\) after the \(\mathbf Q(n)\) twist and
 the residue differential is a rational mixed-Hodge morphism. Hence this
 comparison preserves the pure type-\((0,0)\) structure. No Whitney
 trivialization or simultaneous analytic coordinate change is needed.

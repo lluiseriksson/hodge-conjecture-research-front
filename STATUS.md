@@ -200,8 +200,12 @@ Date: 2026-08-11
   the smooth-open/chosen-splitting identification. G088 isolates the sole
   remaining discriminant-stalk survival calculation. B133/NG106 compute its
   minimal codimension-two model: independent double-node cycles give zero
-  target, so a genuine class-directed relation is necessary. G008 remains
-  the terminal-equivalent obligation.
+  target, so a genuine class-directed relation is necessary. B134 then
+  corrects the intrinsic typing: the cohomological target is
+  \(E(Y_p)=R(Y_p)^\vee\), and the specified class is the functional
+  \(\beta\mapsto\langle\zeta,\gamma_\beta\rangle\). NG107 quarantines the
+  selected-relation-vector shortcut. G008 remains the terminal-equivalent
+  obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -408,11 +412,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   B131-B132; its residual boundary-survival half is G088.
 - G088 - EXPLORATORY: prove that the canonical B132 section survives at a
   discriminant stalk to the nonzero rational B128 edge class.
-- B133 - PROVED: at a quasi-local normal-crossing nodal point the ordinary
-  target is the rational vanishing-cycle relation kernel; for two nonzero
-  cycles it is nonzero only when they are proportional.
+- B133-B134 - PROVED: at a quasi-local normal-crossing nodal point the
+  homological model is the relation kernel, the intrinsic cohomological
+  target is its dual, and the specified class evaluates
+  \(\beta\) as \(\langle\zeta,\gamma_\beta\rangle\). For two nonzero cycles
+  the target is nonzero only when they are proportional.
 - NG106 - NO-GO: a generic transverse codimension-two double node does not
   force G088 survival; independent cycles give a zero target.
+- NG107 - NO-GO: a cohomological incidence class is a functional on
+  relations, not a canonically selected relation vector.
 - B126 - PROVED: the suspended $A_2$ miniversal slice has exactly one
   singular point on every discriminant fiber and no two-node member.
 - NG101 - NO-GO: local $A_2$ versal nodalization cannot supply a clean
@@ -534,7 +542,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   pushdown and descent, or identify the first proper-support correction.
 - B079 - PROVED: the projective toroidal product of a toric surface blowup
   with a positive-genus curve has a nonzero odd degree-three point-supported
-  summand (H^1(C,\mathbf Q)(-1)).
+  summand \(H^1(C,\mathbf Q)(-1)\).
 - NG056 - NO-GO: even normal toric degree does not imply even total support
   degree without tracking global fiber coefficient cohomology.
 - B080 - PROVED: the degree-one relation detector is normalized direct-image
@@ -872,7 +880,7 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G008 - EXPLORATORY, active terminal-equivalent gate. G065 remains a
   stronger exact-target collision mechanism.
 - B128/G086 - PROVED/EXPLORATORY: G008 is exactly incidence-class escape
-  from (H^1(P_m,\mathcal H^{-d_m}K_m)).
+  from \(H^1(P_m,\mathcal H^{-d_m}K_m)\).
 - B129/NG103 - PROVED/NO-GO: the full formal projective Hodge package does
   not force that escape; only universal-incidence origin remains available.
 - B130/NG104 - PROVED/NO-GO: Nori-Brogan detects the primitive Higgs class,
@@ -882,9 +890,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133/NG106 - PROVED/NO-GO: the minimal two-branch target is a relation
-  kernel, not an automatic codimension-two contribution; independent double
-  nodes cannot support the survivor.
+- B133-B134/NG106-NG107 - PROVED/NO-GO: the minimal two-branch
+  cohomological target is the dual relation kernel and the class is its
+  evaluation functional; independent nodes and relation-rank-only arguments
+  cannot support the survivor.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

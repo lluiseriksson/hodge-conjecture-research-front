@@ -13,8 +13,8 @@ hodge_type: the resulting degree-one group is pure type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B038-B051, G019-G024, Green-Griffiths S021, Saito S022/S037, and Li S038
-claim: The degree-one wonderful-fiber hypercohomology, and hence the downstairs IC stalk, is canonically the full rational vanishing-cycle relation kernel for every representable central nodal arrangement and every building set, and it is pure type (0,0) after Q(n).
+dependencies: B038-B051, B134, G019-G024, Green-Griffiths S021, Saito S022/S037, and Li S038
+claim: For every representable central nodal arrangement and every building set, the polarized coefficient-kernel model of degree-one wonderful-fiber hypercohomology is the full rational vanishing-cycle relation kernel; intrinsically the downstairs cohomological IC stalk is its dual, and both are pure type (0,0) after Q(n).
 falsifier: nonzero H^1 of the constant row, a disconnected coefficient divisor, another spectral-sequence arrow affecting total degree one, a residue extension not represented by its divisor class, failure of the triangular kernel calculation, or lower-support contamination
 ---
 
@@ -25,8 +25,10 @@ channel. It combines, rather than repeats, B049-B051.
 
 ## The only total-degree-one term
 
-Let (E=E_{\mathcal B}) be the wonderful fiber and (A|_E) the unshifted
-complex. B050 gives only two ordinary cohomology sheaves:
+Let \(E=E_{\mathcal B}\) be the wonderful fiber and
+\(A^\vee|_E\) the unshifted polarized homological, equivalently
+Verdier-dual, coefficient model. B050 gives only two ordinary cohomology
+sheaves:
 
 \[
  \mathcal H^0=K_E,
@@ -37,8 +39,8 @@ complex. B050 gives only two ordinary cohomology sheaves:
 \]
 
 The variety (E) is obtained from projective space by blow-ups along smooth
-connected centers. The degree-one blow-up formula leaves (H^1) unchanged,
-so (H^1(E,\mathbf Q)=0), and hence (H^1(E,K)=0). Every strict branch and
+connected centers. The degree-one blow-up formula leaves \(H^1\) unchanged,
+so \(H^1(E,\mathbf Q)=0\), and hence \(H^1(E,K)=0\). Every strict branch and
 every boundary divisor is connected: each begins as a connected projective
 linear space or a projective bundle over a connected center, and subsequent
 blow-ups preserve connectedness. Therefore
@@ -57,9 +59,9 @@ possible differential from it is
  d_2:E_2^{0,1}\longrightarrow E_2^{2,0}=H^2(E,K).
 \]
 
-There is no incoming differential and every (d_r) for (r\ge3) lands in
+There is no incoming differential and every \(d_r\) for \(r\ge3\) lands in
 a negative coefficient-sheaf degree. Thus
-(mathbb H^1(E,A|_E)=\ker d_2).
+\(\mathbb H^1(E,A^\vee|_E)=\ker d_2\).
 
 ## Identification of the transgression
 
@@ -88,22 +90,31 @@ The divisor classes are independent. Hence every kernel vector satisfies
  w_F=\sum_{F\subset H_i}a_i\delta_i,
 \]
 
-and every relation ((a_i)) has one unique such lift. Projection to branch
-coordinates therefore gives the canonical isomorphism
+and every relation \((a_i)\) has one unique such lift. Projection to branch
+coordinates therefore gives the polarized homological kernel model
 
 \[
- \mathbb H^1(E,A|_E)
+ \mathbb H^1(E,A^\vee|_E)
  \simeq
  \ker\!\left(\mathbf Q^r\xrightarrow{e_i\mapsto\delta_i}W\right).
 \]
 
 ## Descent, Hodge type, and scope
 
-B051 proves that no lower strict support contributes in ordinary degree one,
-so this is canonically \(H^1(IC_B(L_{\mathbf Q})_0)\). All coefficient
-spaces are sums of \(\mathbf Q(0)\) after \(\mathbf Q(n)\), and the residue
-map is a morphism of rational mixed Hodge structures. Its kernel is therefore
-pure type ((0,0)).
+B051 applied to the dual model proves that no lower strict support
+contributes in ordinary degree one. Saito's canonical pairing, audited in
+B134, gives the intrinsic typing
+
+\[
+ H^1(IC_B(L_{\mathbf Q})_0)
+ \simeq
+ \ker(\mathbf Q^r\to W)^\vee.
+\]
+
+Thus the displayed kernel is the polarized homological model, not a license
+to turn a specified cohomological class into a relation vector. All
+coefficient spaces are sums of \(\mathbf Q(0)\) after \(\mathbf Q(n)\), and
+duality preserves this pure Tate type.
 
 This closes the local theorem for central representable arrangements. It
 does not yet prove that every analytic multipart model in G015 is reduced to

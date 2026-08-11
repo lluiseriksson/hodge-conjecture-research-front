@@ -1984,7 +1984,8 @@
 - **Valid input:** the fiber has two independently smoothable nodes and the
   discriminant is locally normal crossing.
 - **Invalid inference:** two branches imply nonzero degree-one local IC.
-- **Precise obstruction:** B133 identifies the target with the kernel of
+- **Precise obstruction:** B133-B134 identify the intrinsic cohomological
+  target with the dual of the kernel of
   \(\mathbf Q^2\to H_{2n-1}(X_s,\mathbf Q(n))\) sending the standard basis
   to the two vanishing cycles. Independent cycles give zero kernel. B020's
   intersection-one pair is an explicit audited independent pair.
@@ -1992,3 +1993,26 @@
   vanishing cycles and prove a nonzero class-specific relation coordinate;
   otherwise use a higher multipart relation point. Either route remains
   inside G088.
+
+## NG-107 - A cohomological local class is a selected relation vector
+
+- **Label:** NO-GO
+- **Route:** read the degree-one cohomological IC stalk literally as the
+  vanishing-cycle relation kernel and infer that a nonzero relation space
+  gives a nonzero incidence class.
+- **Valid input:** the polarized residue calculations determine the correct
+  rank and pure Tate type, and may model the dual channel by a coefficient
+  kernel.
+- **Invalid inference:** the specified cohomological class canonically
+  selects a homological relation vector.
+- **Precise obstruction:** B134 audits Saito's exact typing
+
+  \[
+  E(Y_p)=\mathcal H^{-d+1}(IC(V))_p=R(Y_p)^\vee.
+  \]
+
+  The incidence class is the functional
+  \(\beta\mapsto\langle\zeta,\gamma_\beta\rangle\). It can be zero when
+  \(R(Y_p)\ne0\). Polarization does not remove this class-specific scalar.
+- **Re-entry condition:** construct an actual relation \(\beta\) at an
+  actual boundary point and prove the B134 evaluation is nonzero.

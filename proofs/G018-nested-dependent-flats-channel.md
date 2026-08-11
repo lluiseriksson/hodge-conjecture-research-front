@@ -13,8 +13,8 @@ hodge_type: the sought degree-one relation channel must be pure type (0,0) after
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B043-B046 and G015-G017
-claim: For a rank-four nodal arrangement with one dependent codimension-three flat contained in one dependent codimension-two flat, the wonderful-resolution degree-one IC channel remains the full rational type-(0,0) relation kernel.
+dependencies: B043-B046, B134, and G015-G017
+claim: For the stated nested-flat arrangement, the polarized homological model dual to the downstairs cohomological IC channel remains the full rational type-(0,0) relation kernel.
 falsifier: a nested exceptional-divisor incidence imposes an additional relation, creates a class, or contributes a non-full-support summand in ordinary degree one
 ---
 

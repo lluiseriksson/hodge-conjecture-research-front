@@ -13,8 +13,8 @@ hodge_type: the relation channel is rational type (0,0) after Q(n); no nonzero c
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B008-B010, B026, B128, B132, G088, S009, S021-S022, S024
-claim: At a quasi-local normal-crossing nodal point p, the only possible ordinary target of the canonical filtered section is the rational relation kernel ker(Q^r -> H_(2n-1)(X_s,Q)); hence independent vanishing cycles force every B132 associated-graded stalk class to die, and for r=2 a nonzero target requires the two nonzero cycles to be proportional.
+dependencies: B008-B010, B026, B128, B132, B134, G088, S009, S021-S022, S024
+claim: At a quasi-local normal-crossing nodal point p, the intrinsic ordinary cohomological target of the canonical filtered section is the dual of the rational relation kernel ker(Q^r -> H_(2n-1)(X_s,Q)); hence independent vanishing cycles force every B132 associated-graded stalk class to die, and for r=2 a nonzero target requires the two nonzero cycles to be proportional.
 falsifier: a transverse nodal point whose vanishing cycles are independent but whose degree-minus-d-plus-one full-support IC stalk is nonzero, or two nonzero independent cycles with nonzero relation kernel
 ---
 
@@ -31,7 +31,8 @@ smoothable nodes and quasi-local normal-crossing discriminant branches. Let
 \]
 
 be the Picard-Lefschetz vanishing cycles in a nearby smooth fiber. B009
-computes the full-support degree-one local IC channel as
+computes the polarized homological model of the full-support degree-one
+local IC channel as
 
 \[
  R_p=
@@ -42,10 +43,17 @@ computes the full-support degree-one local IC channel as
  \partial(e_i)=\delta_i.
 \]
 
+B134 supplies the intrinsic typing
+
+\[
+ \mathcal H^{-d+1}(IC(V))_p\simeq R_p^\vee.
+\]
+
 B128 identifies this ordinary stalk with the target in which a local
 incidence edge class \(s_m(\zeta)_p\) must land. Consequently any filtered
 stalk representative of the canonical B132 section that survives to
-ordinary cohomology must land in \(R_p\).
+ordinary cohomology is a functional on \(R_p\), not a selected vector of
+\(R_p\).
 
 ## Minimal codimension-two case
 
@@ -60,12 +68,13 @@ For \(r=2\),
  \langle\delta_1,\delta_2\rangle_{\mathbf Q}\right).
 \]
 
-Thus:
+Thus the dual target has the same dimension, and:
 
 - if \(\delta_1,\delta_2\) are independent, \(R_p=0\);
 - if both are nonzero and proportional, then \(\dim_{\mathbf Q}R_p=1\);
 - writing \(\delta_2=c\delta_1\), a generator is
-  \(c e_1-e_2\).
+  \(c e_1-e_2\), while the cohomological coordinate is evaluation on this
+  generator.
 
 Therefore a transverse double-node point can support G088 only when its two
 vanishing cycles form a rational matching relation. Merely having a
@@ -73,7 +82,8 @@ codimension-two intersection of discriminant branches is insufficient.
 
 ## Scope guard
 
-B133 gives a necessary local receptacle and its exact rank. It does not
+B133 gives a necessary local receptacle and its exact rank. B134 identifies
+the specified functional on it. B133 does not
 construct a proportional two-node fiber, does not show that
 \(s_m(\zeta)_p\) has nonzero coordinate in the one-dimensional kernel, and
 does not prove the canonical filtered section survives. Those are

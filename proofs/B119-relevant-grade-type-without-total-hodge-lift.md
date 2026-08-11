@@ -13,7 +13,7 @@ hodge_type: the total ordinary lift need not be type (0,0); conditional on a non
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed or constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B040, B081, B093, B107-B108, B117-B118, B121, NG097, S022, S037
+dependencies: B009-B010, B040, B081, B093, B107-B108, B117-B118, B121, B134, NG097, S022, S037
 claim: At a clean nodal collision, if a nonzero nearby class has a special lift beta_0 in B107's relation filtration step S_0, then beta_0 has a nonzero full-support E_infinity^(-1,0) coordinate automatically of rational type (0,0) after Q(n), without any type assumption on the total lift.
 falsifier: a nonzero filtered lift in S_0 with zero relation grade after B118, a surviving divisor summand in pH^0, or a rational vector in the nodal relation group that is not type (0,0) after Q(n)
 ---
@@ -69,19 +69,19 @@ summand.
 
 On the smooth locus, \({}^pH^0(K)\) is the middle direct-image local system
 shifted by the base dimension. Its constant ambient part has zero
-degree-\(-1\) stalk at \(p\). B093 therefore identifies the full-support
-degree-\(-1\) stalk with the nodal relation group
+degree-\(-1\) stalk at \(p\). B093/B134 therefore identify the full-support
+degree-\(-1\) cohomological stalk with the dual nodal relation group
 
 \[
- H^{-1}(i_p^*j_{!*}L[2])\simeq R(p)_1.
+ H^{-1}(i_p^*j_{!*}L[2])\simeq R(p)_1^\vee.
 \]
 
 Saito's Theorem 3 in S022 identifies each ordinary-double-point local
 vanishing group with \(\mathbf Q(-n)\). Consequently the rational relation
-kernel, after the normalization \(\mathbf Q(n)\), is a direct sum of copies
-of \(\mathbf Q(0)\). B040 records the same mixed-Hodge conclusion in the
-explicit arrangement calculation. Every rational vector in this relation
-group is therefore of Hodge type \((0,0)\).
+kernel and its dual, after the normalization \(\mathbf Q(n)\), are direct
+sums of copies of \(\mathbf Q(0)\). B040 records the same mixed-Hodge
+conclusion in the explicit arrangement calculation. Every rational vector
+in this dual relation group is therefore of Hodge type \((0,0)\).
 
 Thus the nonzero canonical full-support coordinate of \(\beta_0\) has the
 required type even when \(\beta_0\) itself is mixed or has other Hodge

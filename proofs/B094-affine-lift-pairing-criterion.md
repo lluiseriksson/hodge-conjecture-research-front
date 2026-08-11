@@ -13,7 +13,7 @@ hodge_type: all lift and ambiguity vectors are restricted to the rational type-(
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no cycle is constructed
 cycle_equivalence: rational equivalence in the terminal application
 scope: relative and fiberwise
-dependencies: B010, B022, B059, B083, B093
+dependencies: B010, B022, B059, B083, B093, B134
 claim: If the rational type-(0,0) lifts of a fixed nearby detector form the affine torsor beta_0+A and F is the scalar obtained by canonical relation-grade landing, both B022 quotients, and pairing with the prescribed Hodge class, then a detecting lift exists exactly when F(beta_0) is nonzero or F(A) is nonzero; ambiguity-independence is equivalent to the strictly stronger condition F(A)=0.
 falsifier: an affine rational lift torsor and linear detector functional for which the stated disjunction does not characterize existence of a nonzero value
 ---
@@ -30,9 +30,9 @@ By B083 it is an affine rational space
 \]
 
 where $A$ is the type-$(0,0)$ part of the lift-ambiguity image. Once G057's
-canonical associated-grade and full-support operations are defined, compose
-them with the two B022 quotient maps and the pairing with the prescribed
-Hodge class. This gives a rational linear functional
+canonical associated-grade and full-support operations and the required
+homological relation input are defined, B134 types the cohomological grade
+as a dual relation space. Evaluation gives a rational linear functional
 
 \[
  F:S^{(0,0)}\longrightarrow\mathbf Q.
