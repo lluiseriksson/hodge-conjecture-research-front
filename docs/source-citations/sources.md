@@ -1882,6 +1882,72 @@ Applied Algebra* 213 (2009), 1865-1889.
   a rational vanishing-cycle relation, a specified Hodge pairing, or an
   algebraic cycle.
 
+## S062 - Partial first-derivative interpolation
+
+Maria Chiara Brambilla and Giorgio Ottaviani, “On partial polynomial
+interpolation,” *Linear Algebra and its Applications* 435 (2011),
+1415-1445. [DOI](https://doi.org/10.1016/j.laa.2011.03.024),
+[arXiv](https://arxiv.org/abs/0705.4448).
+
+- Checked arXiv v3, pp. 1-3, Theorems 1.1-1.2. In characteristic zero and
+  degree \(d\ne2\), general points \(p_i\) with general derivative subspaces
+  \(A_i\) impose the expected \(\sum_i(a_i+1)\) conditions, capped by the
+  dimension of the polynomial space, except for the five explicitly listed
+  cases. Degree two has the separate criterion of Theorem 1.2.
+- Checked the local ideal immediately after Theorem 1.2:
+  \(\mathfrak m_{p_i}^2\subset I_i\subset\mathfrak m_{p_i}\), and the
+  corresponding scheme has length \(a_i+1\). Thus B149's oriented
+  half-double scheme on \(\mathbf P^{2n}\) is the case \(a_i=n\).
+- None of Theorem 1.1's exceptions matches ambient dimension \(2n\) with
+  \(a_i=n\): the even-dimensional exceptions use full double points
+  \(a_i=2n\), while the remaining exceptions have odd ambient dimension.
+  B150 therefore obtains maximal rank for general oriented half-doubles in
+  projective space when \(d\ne2\).
+- Scope guard: the theorem concerns general points and general partial
+  derivative subspaces on projective space. G094 requires a highly special
+  configuration on an arbitrary \(X\), compatible with prescribed nodal
+  Hessians, nonlinear smooth excess, vanishing cycles, and a specified
+  Hodge pairing. Generic maximal rank proves no nonexistence for that special
+  locus.
+
+## S063 - Interpolation on curvilinear jets
+
+J. Alexander and A. Hirschowitz, “Interpolation on Jets,” *Journal of
+Algebra* 192 (1997), 412-417.
+[arXiv](https://arxiv.org/abs/alg-geom/9703028).
+
+- Checked pp. 1-3, Definition 1.1 and Theorem 1.2. For lines in general
+  position and generic curvilinear jets of prescribed lengths on those
+  lines, the degree-\(d\) evaluation map has maximal rank exactly under the
+  stated numerical condition \(C(n,d)\).
+- A B149 local half-double scheme is the union of \(n\) independent
+  length-two curvilinear jets **with the same support**. S063's theorem uses
+  a generic union of point-line pairs and does not cover this collision.
+  Splitting the common support changes the nodal scheme and cannot be used
+  as an equality or a detector-preserving deformation.
+- Scope guard: S063 is useful as generic-independence evidence and as a
+  degeneration input, not as a theorem about the special coalesced oriented
+  schemes required by G094.
+
+## S064 - Differential degeneration of zero-dimensional schemes
+
+Laurent Evain, “Dimension of linear systems: a combinatorial and
+differential approach,” arXiv:alg-geom/9709032 (1997).
+[arXiv](https://arxiv.org/abs/alg-geom/9709032).
+
+- Checked pp. 1 and 12, Theorems 13-14. Under the displayed residual-slice
+  equalities, a monomial staircase scheme may be specialized toward a
+  divisor, and the limiting linear system is contained in an explicitly
+  described residual system. Semicontinuity then gives the asserted upper
+  bound on the dimension through a general staircase scheme.
+- This supplies a rigorous framework for testing collisions or
+  specializations of B149's oriented schemes. The inequality direction does
+  not construct a special superabundant scheme, prove that a proposed limit
+  retains nodal Hessians, or transport a vanishing-cycle/Hodge pairing.
+- Scope guard: no Evain degeneration is counted toward G094 until its trace,
+  residual, flatness, Hessian, integration, and specified-pairing data are
+  all verified for the actual family.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

@@ -184,6 +184,13 @@ repackages the condition as a length-\((n+1)N\) oriented half-double scheme
 imposing at most \(R+n\) conditions. G094 asks for that superabundant scheme
 with every Hessian, integration, and pairing condition; NG120 excludes a
 bounded-support high-power version.
+B150/S062 now exclude general projective-space data: partial first-derivative
+interpolation has maximal rank, and none of the source exceptions matches
+half-dimensional orientations in \(\mathbf P^{2n}\). B151 refines the special
+case into an exact dichotomy. Either one node already has local projected-jet
+defect, or every node block is surjective and all blocks factor through one
+common \(n\)-dimensional quotient. G095 asks for a carrier-free geometric
+realization of one branch; NG121 blocks the general-data shortcut.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -716,6 +723,8 @@ python verification/verify_B146_hessian_isotropy.py
 python verification/verify_B147_carrier_lagrangian.py
 python verification/verify_B148_carrier_motion_rank.py
 python verification/verify_B149_oriented_half_double_defect.py
+python verification/verify_B150_partial_interpolation_scope.py
+python verification/verify_B151_synchronized_blocks.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -912,6 +921,10 @@ sets its projected-gradient rank bound to \(n\); NG119 excludes a posteriori
 Lagrangian choices on generic jet-surjective data. B149/G094 translate the
 gate to oriented half-double interpolation, and NG120 forces its support to
 grow with the polarization.
+B150-B151/G095/NG121 then show that the needed scheme is necessarily
+special: general partial jets have maximal rank, while every rank-\(n\)
+candidate has either a local block defect or a globally synchronized
+quotient.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

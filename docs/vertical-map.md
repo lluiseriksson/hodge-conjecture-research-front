@@ -30,6 +30,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{carrier-free split Lagrangian jet core G093}
 \Longleftarrow
 \text{oriented half-double superabundance G094}
+\Longleftarrow
+\text{local block defect or carrier-free synchronization G095}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -82,6 +84,16 @@ evaluation on a length-\((n+1)N\) oriented half-double scheme: rank at most
 NG120 excludes every bounded-\(N\) high-power version by uniform relative
 Serre vanishing, so any scalable attempt must retain B141's superlinear
 support growth.
+B150 then applies S062's partial-interpolation theorem: general oriented
+half-doubles in \(\mathbf P^{2n}\) have maximal rank and no exception matches
+the half-dimensional orientation, so NG121 excludes the general-data route.
+B151 gives the exhaustive special-data dichotomy at rank at most \(n\):
+either one node block already has local derivative defect, or all surjective
+blocks have the same kernel and are identified through one common
+\(n\)-dimensional quotient. G095 asks for a carrier-free geometric
+realization of either branch, followed by B146 isotropy, smooth integration,
+and the nonzero specified pairing. S063 does not allow the coalesced jets to
+be split, while S064 supplies only one-sided degeneration bounds.
 
 Two sufficient attacks feed G008:
 

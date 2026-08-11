@@ -2260,3 +2260,18 @@
 - **Re-entry condition:** grow \(N\) superlinearly as required by B141 and
   construct the Hessian-compatible oriented defect, smooth integration, and
   nonzero specified pairing together.
+
+## NG-121 - Use general oriented half-doubles
+
+- **Label:** NO-GO
+- **Route:** choose general supports and general orientations in
+  \(\mathbf P^{2n}\) and expect their number to force G094 superabundance.
+- **Valid input:** each local scheme has the exact B149 length \(n+1\).
+- **Invalid inference:** general partial derivative data fail maximal rank.
+- **Precise obstruction:** S062/B150 proves maximal rank for \(d\ne2\);
+  none of the five source exceptions matches ambient dimension \(2n\) and
+  half-double length \(n+1\). In the injective range no nonzero containing
+  form exists; in the surjective range the rank is
+  \((n+1)N>R+n\).
+- **Re-entry condition:** construct a special configuration in B151's local
+  defect or synchronized branch and verify all G095 conditions.
