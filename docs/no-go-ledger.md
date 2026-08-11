@@ -2770,3 +2770,24 @@
   split the finite étale algebra into labelled factors, and track all
   degrees and denominators before invoking B180. Detector clauses remain
   separate.
+
+## NG-146 - Central separation bounds idempotent complexity
+
+- **Label:** NO-GO
+- **Route:** use only the finite étale rank and the nonzero central gaps of
+  a separator to assign a uniform complexity bound to the labelled
+  idempotents.
+- **Valid input:** B182 proves the idempotents exist analytically because
+  the separator differences are units.
+- **Invalid inference:** their inverse units or algebraic coefficients have
+  bounded degree or become visible at a bounded jet order.
+- **Precise obstruction:**
+  \(A_m=\mathbf C\{y\}[z]/((z-y^m)(z-1))\) has rank two and central
+  separator values \(0,1\) for every \(m\), but its idempotents contain
+  \((1-y^m)^{-1}\) and first vary in order \(m\).
+- **Morse guard:** this is the critical algebra of a cubic family with
+  derivative \((z-y^m)(z-1)\); both Hessians are units near the origin.
+- **Re-entry condition:** G115 must start from the complete equations and
+  track the characteristic polynomial, discriminant inverse, Hensel roots,
+  and idempotents quantitatively. Conormal jets and detector clauses remain
+  separate.

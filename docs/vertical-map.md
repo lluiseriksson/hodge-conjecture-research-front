@@ -569,6 +569,25 @@ finite étale critical algebra into labelled factors, and track every
 separator discriminant, localization denominator, restriction, and degree.
 NG145 forbids applying B180 to the unlabelled value resultant itself.
 
+B182 closes the qualitative part of G114. If a separator \(\lambda\) has
+distinct central values, its characteristic polynomial has simple roots
+and splits analytically. The Lagrange idempotents
+
+\[
+ e_i=\prod_{j\ne i}
+ \frac{\lambda-\lambda_j}{\lambda_i-\lambda_j}
+\]
+
+split the finite étale critical algebra into labelled rank-one factors and
+recover each critical value even when several values equal zero.
+
+The remaining gate is quantitative. G115 must bound the lifted roots,
+inverse separator discriminant, idempotents, restrictions to \(F_B\), and
+resulting simple value equations. NG146 shows that rank and central
+separation alone do not do this: the rank-two algebra with roots
+\(y^m,1\) has the same central split for all \(m\), while its idempotents
+contain \((1-y^m)^{-1}\) and first vary in order \(m\).
+
 Two sufficient attacks feed G008:
 
 \[

@@ -483,6 +483,23 @@ separating algebraic critical-point coordinate and effective splitting of
 the finite étale critical algebra before G113. NG145 blocks using the
 unlabelled or squarefree value resultant as that splitting.
 
+B182 closes existence of the labelled analytic splitting. For a finite
+étale critical algebra \(A\) and separator \(\lambda\) with distinct
+central values, its characteristic polynomial splits analytically and the
+Lagrange elements
+
+\[
+ e_i=\prod_{j\ne i}
+ \frac{\lambda-\lambda_j}{\lambda_i-\lambda_j}
+\]
+
+are orthogonal labelled idempotents. They recover the quartic values
+\((0,1,0)\) without confusing the two zeros. G115 now asks for effective
+bounds on these roots, denominator inverses, idempotents, and branch
+equations. NG146 shows why rank and central separation are insufficient:
+the rank-two algebra with roots \(y^m,1\) has idempotents involving
+\((1-y^m)^{-1}\), first varying in order \(m\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1040,6 +1057,7 @@ python verification/verify_B178_differential_escape.py
 python verification/verify_B179_conormal_defect.py
 python verification/verify_B180_effective_algebraic_bound.py
 python verification/verify_B181_resultant_collision.py
+python verification/verify_B182_etale_idempotents.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1300,7 +1318,8 @@ fixed finite-jet promotion. B180/G113 recover a finite certificate only
 from an explicit full-incidence degree bound; NG144 shows that algebraicity
 without this complexity audit supplies no uniform order. B181/G114 add the
 prior labelled-splitting obligation; NG145 proves the value resultant
-collides the nodal labels.
+collides the nodal labels. B182 closes analytic splitting, while G115/NG146
+isolate the still-open effective complexity of its idempotents.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

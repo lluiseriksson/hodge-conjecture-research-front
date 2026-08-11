@@ -746,6 +746,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   and track degrees and denominators effectively.
 - NG145 - NO-GO: neither the multiple value resultant nor its squarefree
   specialization supplies individual tracked branches.
+- B182 - PROVED: a central separator splits the finite étale analytic
+  critical algebra uniquely into labelled rank-one factors via explicit
+  Lagrange idempotents, even when critical values coincide.
+- G115 - EXPLORATORY: bound the characteristic roots, separator inverse,
+  idempotents, and labelled critical-value equations effectively in the
+  full incidence.
+- NG146 - NO-GO: rank and central separator gaps do not bound complexity;
+  roots \(y^m,1\) give idempotents with \((1-y^m)^{-1}\) and arbitrarily
+  late variation.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1308,6 +1317,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   tracked elimination degree; NG144 forbids omitting that quantitative
   datum. B181/G114 expose the preceding labelled étale splitting step;
   NG145 rules out the unlabelled resultant shortcut.
+  B182 closes qualitative analytic splitting; G115/NG146 isolate its
+  unresolved effective degree and denominator audit.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
