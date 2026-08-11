@@ -2750,3 +2750,23 @@
   degree bound after every full-incidence restriction, étale coordinate,
   and elimination step; then the required jets and detector clauses must
   still be proved.
+
+## NG-145 - The value resultant gives simple labelled branches
+
+- **Label:** NO-GO
+- **Route:** eliminate the critical-point coordinates to the single
+  resultant \(\operatorname{Res}(f',w-f)\) and apply B180 to each node.
+- **Valid input:** the resultant vanishes exactly at the unordered set of
+  critical values, with multiplicity.
+- **Invalid inference:** it is simple in \(w\) at a value shared by
+  several distinct critical points or remembers their labels.
+- **Precise obstruction:** for \(f=(z^2-1)^2\), the distinct Morse points
+  \(-1,0,1\) have values \(0,1,0\), and the resultant is
+  \(256w^2(w-1)\). Its \(w\)-derivative vanishes at zero.
+- **Squarefree guard:** replacing the specialized resultant by
+  \(w(w-1)\) collapses the two zero-value labels and does not construct
+  their nearby analytic branches.
+- **Re-entry condition:** G114 must choose a critical-point separator,
+  split the finite étale algebra into labelled factors, and track all
+  degrees and denominators before invoking B180. Detector clauses remain
+  separate.

@@ -738,6 +738,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG144 - NO-GO: algebraicity alone gives no uniform order;
   \(P_m=z-y^m\) has growing degree and first conormal term in degree
   \(m-1\).
+- B181 - PROVED: the critical-value resultant is the unlabelled product
+  \(\prod_j(w-\tau_j)\); at an \(N\)-node collision it contains \(w^N\)
+  and is not a simple branch equation.
+- G114 - EXPLORATORY: separate the critical points by an algebraic
+  primitive element, split the local étale algebra into labelled factors,
+  and track degrees and denominators effectively.
+- NG145 - NO-GO: neither the multiple value resultant nor its squarefree
+  specialization supplies individual tracked branches.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1298,7 +1306,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   isolate its exact conormal target, and NG143 excludes bounded-jet
   substitutes. B180/G113 give a conditional effective escape through a
   tracked elimination degree; NG144 forbids omitting that quantitative
-  datum.
+  datum. B181/G114 expose the preceding labelled étale splitting step;
+  NG145 rules out the unlabelled resultant shortcut.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

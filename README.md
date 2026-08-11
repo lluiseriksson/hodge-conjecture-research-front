@@ -468,6 +468,21 @@ degree bound from the full algebraic critical incidence. NG144 blocks
 dropping the bound: \(P_m=z-y^m\) has degree \(m\), and the first visible
 conormal term occurs in degree \(m-1\).
 
+B181 then finds an obstruction before degree estimation: the global
+critical-value resultant is
+
+\[
+ \operatorname{Res}_z(f'_t,w-f_t)
+ =\text{unit}\prod_j(w-\tau_j(t)).
+\]
+
+At an \(N\)-node member it contains \(w^N\), so it is not simple in the
+value coordinate and cannot label individual nodes. In the exact model
+\(f=(z^2-1)^2\), it is \(256w^2(w-1)\). G114 therefore asks for a
+separating algebraic critical-point coordinate and effective splitting of
+the finite étale critical algebra before G113. NG145 blocks using the
+unlabelled or squarefree value resultant as that splitting.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1024,6 +1039,7 @@ python verification/verify_B177_symmetry_ceiling.py
 python verification/verify_B178_differential_escape.py
 python verification/verify_B179_conormal_defect.py
 python verification/verify_B180_effective_algebraic_bound.py
+python verification/verify_B181_resultant_collision.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1282,7 +1298,9 @@ Gauss--Manin flatness does not provide the required scalar connection.
 B179/G112 name the exact conormal morphism to kill; NG143 excludes every
 fixed finite-jet promotion. B180/G113 recover a finite certificate only
 from an explicit full-incidence degree bound; NG144 shows that algebraicity
-without this complexity audit supplies no uniform order.
+without this complexity audit supplies no uniform order. B181/G114 add the
+prior labelled-splitting obligation; NG145 proves the value resultant
+collides the nodal labels.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

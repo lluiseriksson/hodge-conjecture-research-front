@@ -549,6 +549,26 @@ checks. NG144 shows why every quantitative clause is necessary:
 visible conormal term in degree \(m-1\). Mere algebraicity or Noetherianity
 does not produce an embedding-independent finite certificate.
 
+B181 identifies a prior obstruction to G113. For a polynomial Morse
+family,
+
+\[
+ \operatorname{Res}_z(f'_t,w-f_t)
+ =\text{unit}\prod_j(w-\tau_j(t)).
+\]
+
+All \(N\) tracked nodal values equal zero at the central member, so the
+resultant contains \(w^N\) and fails B180's simple-root hypothesis. The
+quartic \((z^2-1)^2\) gives the exact factor
+\(256w^2(w-1)\). Squarefree specialization removes multiplicity only by
+forgetting the two zero-value labels.
+
+G114 is therefore logically prior to the degree computation in G113: use
+an algebraic function separating the distinct critical points, split the
+finite étale critical algebra into labelled factors, and track every
+separator discriminant, localization denominator, restriction, and degree.
+NG145 forbids applying B180 to the unlabelled value resultant itself.
+
 Two sufficient attacks feed G008:
 
 \[
