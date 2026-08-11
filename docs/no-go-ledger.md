@@ -3859,3 +3859,25 @@
   HC remain open.
 - **Re-entry condition:** G164 begins at
   \(s=4d+10,\delta_1=2d+5\).
+
+## NG-199 - Use a higher or standard polarization at G164
+
+- **Label:** NO-GO
+- **Route:** retain \(O_Q(k\ge3)\), or use \(O_Q(1)\) uniformly in
+  dimensions at least six.
+- **Valid premise:** G164 has three point-span dimensions beyond the
+  three tangent osculators.
+- **Invalid inference:** those dimensions absorb every later marked
+  tangent for one of these polarizations.
+- **Higher-power obstruction:** a six-factor construction gives a value
+  or transverse first-jet separator at the seventh point.
+- **Standard obstruction:** quotient ranks close every \(d\ge8\). In
+  \(d=6\), residual equality contains no third point, and the other branch
+  has contact locus only one plane conic plus one point.
+- **Detector guard:** no ODP package, rational detector, specified pairing,
+  cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G164's necessary quadric test survives only through
+  \(O_Q(2)\) for \(d\ge6\), and through \(O_Q(1)\) or \(O_Q(2)\) for
+  \(d=4\). The floor remains \(s=4d+10\); G164 and HC remain open.
+- **Re-entry condition:** attack G165's square-polarized incidence and the
+  exceptional standard \(Q^4\) branch.

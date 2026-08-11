@@ -1162,6 +1162,22 @@ At exponent six, three doubles plus three reduced points now fill the
 span. Absorption of a fourth reduced point or tangent, together with all
 detector obligations, remains open.
 
+B241 sharpens the active audit without changing the floor. A sextic
+value/first-jet separator excludes every \(O_Q(k\ge3)\). Standard
+quadrics are excluded in all dimensions \(d\ge6\), including the
+dimension-six equality case. Consequently G164 can survive its necessary
+quadric test only through
+
+\[
+ O_Q(2)\quad(d\ge6),\qquad
+ O_Q(1)\text{ or }O_Q(2)\quad(d=4).
+\]
+
+The operational gate is G165: construct the complete square-polarized
+G164 package on every even quadric of dimension at least six and settle
+the exceptional \(Q^4\) alternatives. This is a necessary survival test,
+not general progress by a special-family theorem.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1760,6 +1776,7 @@ python verification/verify_B237_contact_dichotomy.py
 python verification/verify_B238_three_double_boundary.py
 python verification/verify_B239_one_beyond_three_double.py
 python verification/verify_B240_two_beyond_three_double.py
+python verification/verify_B241_G164_polarization_reduction.py
 ```
 
 The repository verifier checks the required directory topology, result

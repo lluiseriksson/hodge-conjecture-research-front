@@ -1208,6 +1208,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(m=2,s=4d+10,\delta_1=2d+5\) and construct the balanced
   length-\(6d+12\), dimension-\(3d+6\) self-dual code with every detector
   clause.
+- B241 - PROVED: G164's necessary quadric test excludes every
+  \(O_Q(k\ge3)\) and excludes the standard polarization for \(d\ge6\);
+  the slack floor remains \(4d+10\).
+- NG199 - NO-GO: higher powers and higher-dimensional standard quadrics do
+  not survive G164.
+- G165 - EXPLORATORY, active operational survival gate: realize the full
+  G164 package with \(A=O_Q(2)\) for every even \(d\ge6\), and with
+  \(A=O_Q(1)\) or \(O_Q(2)\) on \(Q^4\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

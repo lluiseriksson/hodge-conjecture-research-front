@@ -1894,6 +1894,21 @@ The active balanced boundary is
  \dim E_1=3d+6=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{********************************************************************************}
 \]
 
+B241 does not raise this boundary. It excludes every \(O_Q(k\ge3)\)
+polarization and the standard polarization in dimensions \(d\ge6\).
+Thus the necessary quadric-survival test becomes
+
+\[
+ \text{G164}\Longrightarrow
+ \text{G165: }A=O_Q(2)\ (d\ge6),\quad
+ A\in\{O_Q(1),O_Q(2)\}\ (d=4), \tag{*********************************************************************************}
+\]
+
+with the complete ODP, Kuranishi, rational-type, and specified-pairing
+package still required. This implication is adversarial: success on
+quadrics does not reduce the general problem, while failure for one
+quadric falsifies G164.
+
 Thus the corrected vertical branch is
 
 \[
