@@ -2428,6 +2428,12 @@ mixed budgets cannot reach a fourth escape. G204 retains only
 nonstandard rank 133 in that row. Every detector obligation remains
 open.
 
+B284 closes G204 on \(Q^{20}\): standard ranks 144 through 147 project
+to ranks 102 through 105 on \(Q^{18}\), below its floor 134, and their
+mixed budgets cannot reach a fourth escape. G205 retains only
+nonstandard rank 147 in that row. Every detector obligation remains
+open.
+
 Two sufficient attacks feed G008:
 
 \[

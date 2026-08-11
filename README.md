@@ -1693,6 +1693,11 @@ and three minimal escapes leave at most seven dimensions before a
 rank-eleven fourth escape. NG240 makes G203 **NO-GO** and G204 is
 active with only nonstandard rank-133 survivors in dimension 18.
 
+B284 excludes standard ranks 144 through 147 on \(Q^{20}\): residual
+\(Q^{18}\) ranks 102 through 105 are below 134, and the mixed budget
+leaves at most five dimensions before a rank-13 fourth escape. NG241
+makes G204 **NO-GO** and G205 retains only nonstandard rank 147 there.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2335,6 +2340,7 @@ python verification/verify_NG237_next_cubic_quartic.py
 python verification/verify_B281_quartic_strong_separation.py
 python verification/verify_B282_cubic_strong_separation.py
 python verification/verify_B283_standard_d18_band.py
+python verification/verify_B284_standard_d20_band.py
 ```
 
 The repository verifier checks the required directory topology, result
