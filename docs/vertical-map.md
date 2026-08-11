@@ -346,6 +346,26 @@ The vertical route retains G107 only as a sufficient optional branch; the
 smallest exact active gate remains G100's direct analytic syzygy lifting
 with the specified pairing.
 
+B172 tests a different sufficient mechanism directly at G100. For a
+Jacobi-proper affine polynomial Morse family, a bounded-degree numerator
+\(f_tA\) gives a residue identity among **all** critical values. After
+partitioning tracked and auxiliary critical points, its exact obstruction
+to becoming a tracked-value syzygy is the auxiliary residue class
+
+\[
+ [\rho_A]\in\mathcal O/I_\tau.
+\]
+
+If \(N-R\) admissible selectors kill this class and their central rows span
+\(\ker(d\tau_0)^*\), B156 gives \(H_\tau=0\). NG136 shows that Jacobi's
+theorem does not supply those selectors automatically: even
+\(f_t=(z^2-1)^2+t\), whose two tracked values already have an exact syzygy,
+places every numerator \(f_tA\) above the allowed degree and leaves a
+nonzero residue at infinity. Thus the next residue-specific gate is an
+explicit bounded-degree interpolation theorem for the complete critical
+configuration, followed by projective-boundary and detector audits. Until
+that theorem is proved, the exact active gate remains G100.
+
 Two sufficient attacks feed G008:
 
 \[

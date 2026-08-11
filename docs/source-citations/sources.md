@@ -2087,6 +2087,37 @@ of algebraic maps,” *Algebraic Geometry* 5 (2018), 114–130.
   class-directed germ, a nonzero Saito pairing, or algebraicity of a Hodge
   class.
 
+## S069 - Jacobi global residues and the Cayley--Bacharach guard
+
+Alekos Vidras and Alain Yger, “On some generalizations of Jacobi's residue
+formula,” *Annales scientifiques de l'École Normale Supérieure* 34 (2001),
+131--157. [Primary article and metadata](https://www.numdam.org/articles/10.1016/s0012-9593(00)01056-9/),
+[primary PDF](https://www.numdam.org/article/ASENS_2001_4_34_1_131_0.pdf).
+
+Eduardo Cattani, David Cox, and Alicia Dickenstein, “Residues in Toric
+Varieties,” *Compositio Mathematica* 108 (1997), 35--76.
+[arXiv:alg-geom/9506024](https://arxiv.org/abs/alg-geom/9506024).
+
+- Audited Vidras--Yger equation (1.2) and Theorem 1.1: if a polynomial map
+  \(P=(P_1,\ldots,P_d)\) has the stated Jacobi/properness condition, then the
+  global residue of \(Q\) vanishes for
+  \(\deg Q<\sum_j\delta_j-d\). Under the classical highest-homogeneous-part
+  condition this is \(\deg Q\le\sum_j\deg P_j-d-1\).
+- At a simple zero, the local residue is \(Q(p)/J_P(p)\). Applied to
+  \(P=\nabla f_t\), this gives the inverse-Hessian weights used in B172.
+- Audited Vidras--Yger Theorem 4.1: below the same critical degree, a
+  hypersurface through all but one simple zero must contain the last. This
+  Cayley--Bacharach consequence is a direct warning that low-degree
+  selectors cannot be assumed freely.
+- Cattani--Cox--Dickenstein is retained as primary toric context: on a
+  simplicial complete toric variety, the toric residue is a sum of local
+  residues. B172 does not import a toric selector or projective-boundary
+  theorem from it.
+- Scope guard: these residue theorems sum over complete critical schemes and
+  impose degree/Newton-polytope and infinity hypotheses. They do not select
+  the tracked nodes, produce Hodge type or rational structure, or prove a
+  nonzero Saito pairing.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

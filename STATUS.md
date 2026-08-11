@@ -668,6 +668,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(\tau=(x,(1+y)x)\) has ideal \((x)\) but \(\det(d\tau)=x\).
 - Gate correction: G107 is optional and strictly stronger than necessary;
   G100 direct analytic syzygy lifting remains the exact active clause.
+- B172 - PROVED: in a Jacobi-proper affine polynomial Morse family,
+  bounded-degree selectors killing the auxiliary residue class modulo
+  `I_tau` give analytic tracked-value syzygies; `N-R` spanning rows force
+  `H_tau=0`.
+- NG136 - NO-GO: Jacobi's theorem does not construct those selectors.
+  The family `f_t=(z^2-1)^2+t` has an exact tracked syzygy, but every
+  numerator `f_t A` exceeds the allowed degree and the would-be value
+  residue has a nonzero infinity contribution.
+- Resource policy: B140 and every heavy or unbounded verification are
+  excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
+  contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
 - B169 - PROVED: in an exhaustive tracked-ODP neighborhood, actual
   ambient microsupport absorption and full-envelope absorption are both
   equivalent to persistence of every node, \(H_\tau=0\), and analytic
@@ -1204,6 +1215,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   without a full-system determinantal theorem. B171/NG135 show that this
   attack also imposes mixed Hessian equations absent from \(H_\tau=0\), so
   it remains optional rather than replacing G100.
+  B172/NG136 test global residues instead: the Jacobi formula supplies a
+  conditional selector certificate, but its critical-degree bound and the
+  auxiliary/infinity residue are new explicit obligations, not automatic
+  syzygies. G100 remains open.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

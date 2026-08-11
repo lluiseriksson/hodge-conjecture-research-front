@@ -2544,3 +2544,26 @@
 - **Re-entry condition:** verify B171's mixed equations and every higher
   determinantal condition directly if pursuing optional G107. Otherwise
   return to the exact G100 syzygy gate and its specified pairing.
+
+## NG-136 - Global residues automatically isolate tracked nodes
+
+- **Label:** NO-GO
+- **Route:** apply the Jacobi global residue theorem to the gradient of a
+  polynomial chart and read off all analytic syzygies among the tracked
+  nodal critical values.
+- **Valid input:** B172 proves that admissible numerators of the form
+  \(f_tA\) give the required syzygies when their auxiliary residue vanishes
+  modulo the tracked value ideal and their central rows span every relation.
+- **Invalid inference:** the residue theorem itself constructs those
+  numerators or removes auxiliary critical points and infinity terms.
+- **Precise obstruction:** for \(f_t=(z^2-1)^2+t\), the tracked values at
+  \(z=\pm1\) have the exact syzygy \(t-t=0\). Yet
+  \(\deg f_t=4\), while the one-variable Jacobi bound for
+  \(f_t'=4z(z^2-1)\) is one. The would-be critical-value residue equals
+  \(-1/4\), the uncancelled infinity contribution.
+- **Scope guard:** this is an affine mechanism counterexample, not a Hodge
+  counterexample and not an exclusion of every possible residue method.
+- **Re-entry condition:** prove a bounded-degree selector theorem for the
+  complete critical configuration, kill the auxiliary class in
+  \(\mathcal O/I_\tau\), control the projective boundary, and retain rational
+  type, primitive ambient image, and the specified nonzero pairing.

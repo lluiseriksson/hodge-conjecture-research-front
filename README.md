@@ -364,6 +364,15 @@ already has \(H_\tau=0\) and a smooth factorized node ideal while
 sufficient route. The exact active gate remains G100's analytic syzygy
 lifting with the nonzero specified pairing.
 
+B172 then audits a direct global-residue attack on G100. Jacobi's formula
+does yield analytic tracked-value syzygies when bounded-degree numerators
+annihilate every auxiliary critical residue and span the central relation
+space. It does not construct those selectors. NG136 gives the exact guard:
+`f_t=(z^2-1)^2+t` already has the tracked syzygy `t-t=0`, but every
+critical-value numerator exceeds the Jacobi degree bound and leaves a
+nonzero residue at infinity. Residues therefore reduce G100 to a new global
+selector/interpolation obligation; they do not close it.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -911,6 +920,7 @@ python verification/verify_B168_normal_cone.py
 python verification/verify_B169_microlocal_syzygy.py
 python verification/verify_B170_critical_rank.py
 python verification/verify_B171_mixed_determinant.py
+python verification/verify_B172_residue_selector.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1149,6 +1159,9 @@ rank of evaluation at the moving critical configuration, with
 affine-linearity alone excluded as its source.
 B171/NG135 prove that this branch is strictly stronger than \(H_\tau=0\);
 it is optional rather than a replacement for G100.
+B172/NG136 reduce a Jacobi-residue attack to bounded-degree selectors for
+the complete critical configuration and show that neither degree
+admissibility nor removal of auxiliary/infinity residues is automatic.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
