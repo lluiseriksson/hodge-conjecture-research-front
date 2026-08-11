@@ -1677,6 +1677,16 @@ records why it cannot close the degree-six case: seven supports are
 already beyond the sextic emptiness range. G202 is active for the cubic
 exact-rank separator. No detector or cycle is constructed.
 
+B282 closes that cubic gate using the extra B260 independence. Relative
+to any eighth point, failure of two disjoint good pairs would place six
+of seven supports on one line; at least five would belong to \(P_6\),
+forcing its rank to be at most \(6d+3<6d+6\). Two pair hyperplanes,
+three singleton hyperplanes, and one common hyperplane therefore give
+the required sextic separator. NG239 makes G200 **NO-GO** and G203 is
+active at rank 105 on \(Q^{14}\), rank 119 on \(Q^{16}\), the standard
+rows 18--22, and \(7d+7\) thereafter. No detector or cycle is
+constructed.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2317,6 +2327,7 @@ python verification/verify_B279_standard_d16.py
 python verification/verify_B280_standard_d16_band.py
 python verification/verify_NG237_next_cubic_quartic.py
 python verification/verify_B281_quartic_strong_separation.py
+python verification/verify_B282_cubic_strong_separation.py
 ```
 
 The repository verifier checks the required directory topology, result

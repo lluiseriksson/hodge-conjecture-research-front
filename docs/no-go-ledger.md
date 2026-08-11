@@ -4801,3 +4801,21 @@
   is produced.
 - **Re-entry condition:** prove G202 using the exact-rank cubic
   geometry rather than ambient cardinality alone.
+
+## NG-239 - Retain cubic rank \(7d+6\)
+
+- **Label:** NO-GO
+- **Route:** realize the final cubic branch of G200.
+- **Matching obstruction:** failure of two disjoint secants avoiding an
+  eighth point places six of seven supports on one line through it.
+- **Rank obstruction:** at least five of B260's supports would be
+  collinear, forcing total six-double rank at most
+  \(6d+3<6d+6\).
+- **Separator:** one common, two pair, and three singleton hyperplanes
+  form a sextic double on all seven supports and non-double at the
+  eighth.
+- **Boundary consequence:** G200 is NO-GO and G203 is active.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack G203 and retain every G144 clause.

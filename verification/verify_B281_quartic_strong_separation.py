@@ -46,11 +46,11 @@ require(
 )
 require(
     "proofs/G202-cubic-exact-rank-separation.md",
-    ("brick_id: G202", "status: EXPLORATORY", "F_x|_{2x}\\ne0", "active"),
+    ("brick_id: G202", "status: PROVED", "F_x|_{2x}\\ne0", "B282"),
 )
 require(
     "proofs/G200-cubic-two-row-boundary.md",
-    ("brick_id: G200", "status: EXPLORATORY", "A=O_Q(3)", "B281"),
+    ("brick_id: G200", "status: NO-GO", "A=O_Q(3)", "B282"),
 )
 
 print("PASS: B281 quartic strong separation, NG238, and cubic gate G202")

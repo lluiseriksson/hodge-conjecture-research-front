@@ -66,7 +66,7 @@ require(
 )
 require(
     "proofs/G200-cubic-two-row-boundary.md",
-    ("brick_id: G200", "status: EXPLORATORY", "AA(16)=118", "active"),
+    ("brick_id: G200", "status: NO-GO", "AA(16)=118", "B282"),
 )
 
 print("PASS: B280 standard Q16 six-rank band, G199 no-go, and G200 boundary")

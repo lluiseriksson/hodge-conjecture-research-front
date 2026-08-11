@@ -1,6 +1,6 @@
 ---
 brick_id: G201
-status: EXPLORATORY
+status: PROVED
 base_field: C
 variety: the smooth split even-dimensional quadric Q^d with d=2n>=14, primitive ruling difference zeta=a-b, cubic or quartic A=O_Q(k) for k=3,4, H=A^2, six independent double supports P6, and a seventh support u in the nonplanar exact-rank branch of G200
 smoothness: Q^d and the seven reduced supports are smooth and distinct; no central ODP package is assumed or constructed
@@ -13,9 +13,9 @@ hodge_type: zeta is nonzero primitive rational type (n,n); no rational type-(0,0
 cycle_class_map: CH^n(Q^(2n))_Q -> H^(2n)(Q^(2n),Q(n)); the ruling difference only certifies the universal test input
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B196, B260-B272, B278, G200, NG237, S081, S084
-claim: For k=3 and k=4, every nonplanar seven-support configuration on Q^d with double-support rank exactly 7d+6 admits, for each x outside the seven supports, a section F_x in H0(Q,I_(2P7)(2k)) whose restriction to 2x is nonzero. Consequently its tangent span cannot absorb the N=2(7d+6) distinct supports required by G200.
-falsifier: a nonplanar exact-rank-d residual configuration with an eighth distinct tangent osculator contained in the seven-support span, or a failure of the separator criterion
+dependencies: B196, B260-B282, G200, G202, NG237-NG239, S081, S084-S085
+claim: B281-B282 prove the quartic and cubic separator clauses for every admissible seven-support configuration, hence in particular for the nonplanar exact-rank branch.
+falsifier: an admissible cubic or quartic seven-support span containing an eighth distinct tangent osculator, or failure of B281 or B282
 ---
 
 # G201 — Nonplanar exact-rank separation gate
@@ -44,9 +44,7 @@ would exclude the nonplanar branch. The already-audited planar
 classification could then be treated separately.
 
 G201 is falsifiable by one explicit exact-rank configuration and one
-eighth absorbed support. No such classification or separator is yet
-proved. It constructs no ODP package, rational detector, specified
-pairing, cycle, proof, or disproof of HC.
-
-B281 subsequently proves (2) for \(k=4\) without a planar assumption.
-The unresolved cubic clause is isolated as G202.
+eighth absorbed support. B281 proves (2) for \(k=4\), and B282 proves
+it for \(k=3\), both without a planar assumption. Thus G201 is PROVED.
+It constructs no ODP package, rational detector, specified pairing,
+cycle, proof, or disproof of HC.

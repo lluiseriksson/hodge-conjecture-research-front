@@ -159,8 +159,8 @@ require(
     ("brick_id: NG228", "status: NO-GO", "G192", "quartic equality"),
 )
 require(
-    "proofs/G202-cubic-exact-rank-separation.md",
-    ("brick_id: G202", "status: EXPLORATORY", "B281", "active"),
+    "proofs/G203-all-nonstandard-next-boundary.md",
+    ("brick_id: G203", "status: EXPLORATORY", "B282", "active"),
 )
 
 print("PASS: B272 quartic exclusion, NG228, and current downstream boundary")

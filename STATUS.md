@@ -1373,25 +1373,29 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G199 - NO-GO: B280 excludes its sole standard rank-113 survivor on
   the valid \(Q^{16}\) input, together with the next five standard
   ranks.
-- G200 - EXPLORATORY, active: classify cubic equality at rank 104 on
-  \(Q^{14}\), cubic equality at rank 118 on \(Q^{16}\), standard
-  equality in dimensions 18--20, the standard/cubic tie at \(d=22\),
-  and cubic equality for even \(d\ge24\), retaining every G144
-  detector clause. B281 removes the quartic branch.
+- G200 - NO-GO: B281-B282 exclude its quartic and cubic rank-104
+  survivors on the valid \(Q^{14}\) input.
 - NG237 - NO-GO: B271-B272 cannot simply be extended from rank
   \(7d+5\) to \(7d+6\), because B264 permits a nonplanar residual
   branch of exact rank \(d\).
-- G201 - EXPLORATORY, operational inside G200: classify every
-  nonplanar exact-rank-\(d\) seven-support branch and separate every
-  eighth tangent osculator by a sextic or octic.
+- G201 - PROVED: B281-B282 separate every eighth tangent osculator in
+  the quartic and cubic branches.
 - B281 - PROVED: every seven-support \(O_Q(8)\) tangent span on
   \(Q^d\), \(d\ge14\), absorbs no eighth tangent osculator; quartic
   rank \(7d+6\) is impossible and its floor is at least \(7d+7\).
 - NG238 - NO-GO: S085's ambient strong-base-locus threshold cannot
   close the cubic branch because \(r=7\) is beyond the degree-six
   emptiness range and does not encode B260/B264's exact-rank subclass.
-- G202 - EXPLORATORY, active inside G200: prove the remaining cubic
-  exact-rank-\(d\) seven-support separator theorem.
+- G202 - PROVED: B282 proves the cubic seven-support separator using
+  two disjoint good pairs.
+- B282 - PROVED: independence of \(P_6\) forbids the only matching
+  obstruction, so every admissible seven-support \(O_Q(6)\) tangent
+  span absorbs no eighth; the cubic floor is at least \(7d+7\).
+- NG239 - NO-GO: cubic rank \(7d+6\) cannot survive; G200 is NO-GO.
+- G203 - EXPLORATORY, active: classify rank 105 on \(Q^{14}\), the
+  all-polarization rank-119 tie on \(Q^{16}\), standard equality in
+  dimensions 18--22, and nonstandard equality \(7d+7\) for even
+  \(d\ge24\), retaining every G144 detector clause.
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
   six cubic double supports are independent and the seventh residual
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
@@ -1453,18 +1457,20 @@ generation from the controlled partitioned nodal locus is not proved.**
   residual ranks 79 through 84 on \(Q^{14}\) and impossible mixed
   budgets; the standard floor is at least 119.
 - NG236 - NO-GO: no standard rank from 113 through 118 survives on
-  \(Q^{16}\); G200 is the active piecewise boundary.
+  \(Q^{16}\); G200 is reached, later closed by B281-B282.
 - NG237 - NO-GO: planar weak-del-Pezzo or four-point arguments do not
   address B264's exact-rank nonplanar branch at the active
   cubic/quartic boundary.
-- G201 - EXPLORATORY: the smallest current obligation is the
-  nonplanar exact-rank separator theorem; B281 proves its quartic half.
+- G201 - PROVED: B281-B282 prove both exact-rank separator clauses.
 - B281 - PROVED: one common and seven individual hyperplanes separate
   every eighth \(O_Q(8)\) tangent osculator from seven supports.
 - NG238 - NO-GO: ambient Veronese emptiness does not apply to seven
   supports in degree six.
-- G202 - EXPLORATORY: the cubic exact-rank separator is the smallest
-  current obligation; G200 remains active.
+- G202 - PROVED: the cubic exact-rank separator is B282.
+- B282 - PROVED: five collinear members would violate P6 independence;
+  two disjoint good pairs therefore give a degree-six separator.
+- NG239 - NO-GO: cubic rank \(7d+6\) is impossible.
+- G203 - EXPLORATORY: the next piecewise boundary is active.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

@@ -2412,6 +2412,16 @@ ambient Veronese threshold, but NG238 blocks using it for cubic degree
 six at seven supports. G202 is the remaining exact-rank cubic
 separator; G200 and every detector obligation remain open.
 
+B282 proves G202 using the independence of B260's six double blocks.
+If two disjoint secants avoiding the eighth point did not exist, six
+of seven supports would be collinear with it; at least five members of
+\(P_6\) would then force rank at most \(6d+3<6d+6\). The two pair
+hyperplanes, three singleton hyperplanes, and one common hyperplane
+give a sextic separator. Thus cubic rank \(7d+6\) is impossible, G200
+is NO-GO, and G203 is active at the common next boundary \(7d+7\)
+outside the remaining standard rows. Every detector obligation remains
+open.
+
 Two sufficient attacks feed G008:
 
 \[
