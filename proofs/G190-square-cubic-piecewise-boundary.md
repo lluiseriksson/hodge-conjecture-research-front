@@ -50,3 +50,9 @@ NG222 shows that a single good variable edge cannot improve B261 in
 the totally orthogonal locus. The narrowest re-entry is to prove that
 the sum of at least two variable-edge images supplies the missing jet,
 or to exclude that locus by a stronger geometric argument.
+
+B264 proves the two-edge image-sum theorem outside one explicit
+residual locus. Thus cubic/quartic equality can survive only when the
+six independent-double supports lie in a projective plane through the
+seventh point. Classifying or excluding that planar locus is now the
+narrowest branch of G190.

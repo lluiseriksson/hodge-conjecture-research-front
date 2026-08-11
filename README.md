@@ -1475,6 +1475,15 @@ space, so each restriction has rank exactly \(d-1\), not \(d\).
 Further progress at G190 must combine multiple edge images or rule out
 this totally orthogonal configuration by additional geometry.
 
+B264 carries out the two-edge comparison. If one selected pair line is
+not tangent at \(u\), its image already has rank \(d\). Otherwise the
+annihilator planes of two edges project to their endpoint planes in
+\(T_uQ\); distinct endpoint planes give combined rank at least \(d\).
+Connectivity of B260's selected graphs shows that failure forces all
+six supports into one \(\mathbf P^2\) through \(u\). Hence cubic or
+quartic equality at \(7d+5\) is now confined to that planar locus;
+G190 remains open there.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2097,6 +2106,7 @@ python verification/verify_B261_variable_edge_seventh_jet.py
 python verification/verify_B262_standard_third_parametric_band.py
 python verification/verify_B263_standard_third_escape_equality.py
 python verification/verify_NG222_single_edge_kernel.py
+python verification/verify_B264_two_edge_jet_dichotomy.py
 ```
 
 The repository verifier checks the required directory topology, result

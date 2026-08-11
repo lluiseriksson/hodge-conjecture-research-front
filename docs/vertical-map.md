@@ -2190,8 +2190,10 @@ The smallest current attack inside G190 is the cubic/quartic
 seventh-jet equality. NG222 proves that one good variable edge cannot
 by itself improve B261: a totally orthogonal split configuration keeps
 the tangent-hyperplane kernel in every edge space. The next justified
-subgate is therefore a multi-edge image-sum theorem, with an explicit
-separate treatment of that totally orthogonal locus.
+subgate is therefore a multi-edge image-sum theorem. B264 proves that
+the sum of two edge images has rank at least \(d\) unless all six
+supports lie in one \(\mathbf P^2\) through \(u\). The smallest live
+brick is now classification or exclusion of this planar residual locus.
 
 Two sufficient attacks feed G008:
 

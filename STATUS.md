@@ -1340,6 +1340,10 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG222 - NO-GO: good-edge avoidance alone cannot remove B261's
   tangent-hyperplane kernel; a split totally orthogonal configuration
   has rank exactly \(d-1\) for every single edge.
+- B264 - PROVED: two selected edge images have combined seventh-jet
+  rank at least \(d\) unless all six independent-double supports lie
+  in one \(\mathbf P^2\) through \(u\); cubic/quartic equality is
+  confined to that planar locus.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
