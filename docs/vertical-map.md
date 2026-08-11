@@ -17,8 +17,11 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \Longleftrightarrow
 \text{incidence edge escape exclusion G086}
 \Longleftarrow
-\text{filtered incidence boundary survival G087}
+\text{canonical filtered boundary survival G088}
 \]
+
+G088 has the proved prerequisites B131-B132; those prerequisites do not by
+themselves imply boundary survival.
 
 Two sufficient attacks feed G008:
 
@@ -725,9 +728,17 @@ H^{r,r}_{\rm prim}(X)\otimes\mathcal O_P
 NG104 proves why this still does not enter B128's local Betti row: over the
 smooth locus, \(\operatorname{DR}(M)\simeq V_{\mathbf C}[d]\), so its ordinary
 degree-\(-d+1\) cohomology sheaf is zero while the Higgs-graded cohomology can
-be nonzero. Brogan also leaves the Leray-incidence map comparison unchecked.
-G087 therefore asks for canonical map identification and failure of filtered
-cancellation at one discriminant stalk.
+be nonzero.
+
+B131 removes the rational map ambiguity: Nori connectivity, Deligne Leray
+degeneration, and weak Lefschetz give a canonical nonzero first-Leray
+transgression of every primitive class. B132 then starts from the canonical
+global class \(s_m(\zeta)\) on the full projective parameter space and uses
+projective strictness to obtain its nonzero filtered section
+\(h_m(\zeta)\). NG105 records why neither the smooth-open Corollary 5.2 proof
+nor an arbitrary decomposition splitting gives this comparison. Thus the
+first half of G087 is discharged. G088 is the sole remaining step: prove
+failure of filtered cancellation at one discriminant stalk.
 
 **Stronger clean program G084.** Prove
 
@@ -1012,9 +1023,11 @@ universal-incidence pullback is the remaining usable structure.
 
 B130/NG104 further exclude a direct Nori-connectivity shortcut. The
 primitive class is visible in the associated-graded Higgs complex, but that
-class cancels in ordinary de Rham cohomology on the smooth locus. G087 must
-identify the incidence section and prove noncancellation specifically at a
-discriminant stalk.
+class cancels in ordinary de Rham cohomology on the smooth locus. B131-B132
+canonically identify the rational incidence class with its projective
+filtered realization; NG105 closes the smooth-open and chosen-splitting
+routes. G088 must now prove noncancellation specifically at a discriminant
+stalk.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces

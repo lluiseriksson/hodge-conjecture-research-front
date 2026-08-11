@@ -194,9 +194,12 @@ Date: 2026-08-11
   geometric weight-$-1$ countermodel on every projective space. G086 leaves
   the universal-incidence origin as the active operational datum. B130/NG104
   then show that Nori connectivity detects the primitive Higgs component but
-  not the ordinary local Betti class. G087 isolates map identification and
-  discriminant-stalk survival. G008 remains the terminal-equivalent
-  obligation.
+  not the ordinary local Betti class. B131 proves the canonical rational
+  first-Leray transgression is nonzero, and B132 realizes the specified
+  incidence class as a nonzero projective filtered section. NG105 rejects
+  the smooth-open/chosen-splitting identification. G088 isolates the sole
+  remaining discriminant-stalk survival calculation. G008 remains the
+  terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -393,8 +396,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth locus.
 - NG104 - NO-GO: nonzero associated-graded Higgs cohomology cannot be read
   directly as a nonzero local rational Betti invariant.
-- G087 - EXPLORATORY: identify the primitive Higgs section with the canonical
-  incidence class and prove its filtered survival at a discriminant stalk.
+- B131 - PROVED: the primitive kernel at Leray grade zero transgresses
+  injectively and canonically to the vanishing-cohomology grade one.
+- B132 - PROVED: projective strictness realizes the canonical incidence class
+  as a specified nonzero filtered-de-Rham section on full projective P.
+- NG105 - NO-GO: the smooth-open Corollary 5.2 proof and an arbitrary
+  decomposition splitting do not identify the specified class.
+- G087 - EXPLORATORY: its map-identification half is discharged by
+  B131-B132; its residual boundary-survival half is G088.
+- G088 - EXPLORATORY: prove that the canonical B132 section survives at a
+  discriminant stalk to the nonzero rational B128 edge class.
 - B126 - PROVED: the suspended $A_2$ miniversal slice has exactly one
   singular point on every discriminant fiber and no two-node member.
 - NG101 - NO-GO: local $A_2$ versal nodalization cannot supply a clean
@@ -859,8 +870,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   not force that escape; only universal-incidence origin remains available.
 - B130/NG104 - PROVED/NO-GO: Nori-Brogan detects the primitive Higgs class,
   but smooth-locus filtered cancellation blocks a local Betti conclusion.
-- G087 - EXPLORATORY incidence-specific mechanism: prove map identification
-  and discriminant-stalk survival.
+- B131-B132/NG105 - PROVED/NO-GO: the specified rational incidence class now
+  has a canonical nonzero projective filtered realization; the nonproper
+  smooth-open and arbitrary-splitting comparisons are closed.
+- G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
+  survival of that canonical section.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

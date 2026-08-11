@@ -174,12 +174,14 @@ the next proof must use the exact universal-incidence origin of
 
 B130 now audits the strongest immediate incidence-specific input. Nori
 connectivity and Brogan Corollary 4.1 place the primitive \((r,r)\) component
-in (mathcal H^{-d+1}\operatorname{gr}^{F}_{-r}\operatorname{DR}(M)).
+in \(\mathcal H^{-d+1}\operatorname{gr}^{F}_{-r}\operatorname{DR}(M)\).
 NG104 shows that this is not the local Betti sheaf: on \(P^{\rm sm}\), the
-ordinary degree-(-d+1) de Rham cohomology vanishes while the Higgs-graded
-cohomology can be nonzero. The primary source also leaves its Leray map
-unidentified with the abstract primitive map. G087 is the resulting filtered
-incidence boundary-survival gate.
+ordinary degree-\(-d+1\) de Rham cohomology vanishes while the Higgs-graded
+cohomology can be nonzero. B131 proves the canonical rational first-Leray
+transgression is nonzero. B132 uses projective strictness on full \(P_m\) to
+realize the specified incidence class as a nonzero filtered section. NG105
+closes the smooth-open and arbitrary-splitting comparisons. G088 is the
+resulting filtered incidence boundary-survival gate.
 
 ## Sufficient parent: G014
 
@@ -368,6 +370,7 @@ class-specific and non-circular: produce such incidence from a global
 detector without presupposing an algebraic representative.
 G008 remains the terminal-equivalent support theorem. B128/G086 give its
 exact edge-escape form, while B129/NG103 close the formal projective-Hodge
-shortcut. B130/NG104 close the direct Nori/Higgs shortcut and leave G087's
-map identification plus discriminant-stalk survival. G007/NG-010 remain the
-concrete tube-concentration attempt and its class-directed incidence mismatch.
+shortcut. B130/NG104 close the direct Nori/Higgs shortcut; B131-B132/NG105
+discharge canonical map identification and leave G088's discriminant-stalk
+survival. G007/NG-010 remain the concrete tube-concentration attempt and its
+class-directed incidence mismatch.

@@ -964,6 +964,10 @@ American Mathematical Society* 46 (2009), 535-633,
   intersection complexes with local-system coefficients. Saito states the
   exposition with \(k=\mathbf R\) for simplicity after explicitly allowing
   a subfield \(k\subset\mathbf R\); B039 uses \(k=\mathbf Q\).
+- Rechecked the strictness clause of Theorem (0.3.1) for B132: the filtered
+  \(D\)-module direct image under a projective morphism is strict. Applied to
+  \(P\to\mathrm{pt}\), this identifies the associated graded of intersection
+  cohomology with hypercohomology of the associated-graded de Rham complex.
 - Checked Saito Theorem (0.6) and formula (0.7), pp. 128-129. For geometric
   local-system coefficients, proper direct images of intersection complexes
   decompose into shifted intersection complexes. The local variation in
@@ -988,6 +992,10 @@ American Mathematical Society* 46 (2009), 535-633,
   perverse truncation induces a canonical perverse filtration on cohomology.
   B081 therefore moves the B058 class test to an associated-graded perverse
   piece before projecting by strict support.
+- Rechecked de Cataldo-Migliorini Theorem 1.2.1 for B131: for a smooth
+  projective family, the rational Leray spectral sequence degenerates at
+  E2. This is the family form of Deligne's primary degeneration theorem
+  audited separately as S054.
 - Rechecked Remarks 1.4.2 and 1.6.2 together with Theorem 1.6.1 for
   B107/NG083: a filtered object maps canonically to an associated grade only
   from the corresponding filtration step. Neither degeneration nor the
@@ -1639,6 +1647,20 @@ Daniel Brogan, “Nori's connectivity theorem from the perspective of
   map from primitive cohomology through the Leray filtration, but explicitly
   says it only seems likely to be the Corollary 4.1 map and that the
   coincidence was not checked.
+- Rechecked the proof of Corollary 5.2 for B131-B132/NG105. The step from
+  global sections of the primitive bundle on the smooth locus to the
+  finite-dimensional primitive space is invalid in general: the complement
+  of the discriminant hypersurface has nonconstant regular functions. The
+  same passage uses associated-graded filtered hypercohomology on the
+  nonproper smooth locus without the projective strictness available on the
+  full parameter space. B131 proves rational first-Leray nonvanishing
+  independently; B132 gives the valid filtered realization on full
+  projective P.
+- The displayed Corollary 5.2 conclusion uses primitive cohomology in degree
+  n, while Corollary 4.1 at k=n+1, the proof's Hodge summands of total degree
+  n+1, and the incidence total degree all require primitive cohomology in
+  degree n+1. This is treated as an index typo, not as a theorem supplying
+  G088.
 - Scope guard: on \(P^{\rm sm}\), \(\operatorname{DR}(M)\) resolves the shifted
   vanishing local system and has no ordinary cohomology sheaf in degree
   \(-d+1\), even when the cohomology of its associated-graded Higgs complex
@@ -1647,6 +1669,26 @@ Daniel Brogan, “Nori's connectivity theorem from the perspective of
   \(s_m(\zeta)\).
 - Primary full text retrieved and audited on 2026-08-11; no local copy is
   committed.
+
+## S054 - Lefschetz criterion and Leray degeneration
+
+Pierre Deligne, “Théorème de Lefschetz et critères de dégénérescence de
+suites spectrales,” *Publications Mathématiques de l'IHÉS* 35 (1969),
+107-126. [DOI](https://doi.org/10.1007/BF02698925),
+[official PDF](https://pmihes.centre-mersenne.org/item/10.1007/BF02698925.pdf).
+
+- Checked Proposition 2.1, pp. 110-111: the relative Lefschetz condition
+  splits the derived direct image into its cohomology sheaves and therefore
+  degenerates the Leray spectral sequence.
+- Checked cases 2.6.2-2.6.3, p. 112: a proper smooth Kähler family, and in
+  particular a complex smooth projective family with a relatively ample line
+  bundle, satisfies the relative Lefschetz condition for constant complex
+  coefficients. Vanishing after tensoring with C implies degeneration for
+  the rational spectral sequence used in B131.
+- B131 applies this only over the smooth parameter locus, where both the
+  product family and universal incidence are smooth and projective. It does
+  not extend the ordinary local system across the discriminant or imply a
+  nonzero boundary stalk.
 
 ## Citation policy for incompletely audited mechanisms
 

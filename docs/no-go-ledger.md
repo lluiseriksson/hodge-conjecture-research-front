@@ -1948,6 +1948,29 @@
   \(H^{r,r}_{\rm prim}(X)\otimes\mathcal O\). The filtered differentials
   perform an actual cancellation. Brogan p. 14 also says the Leray-incidence
   map was not checked to coincide with the abstract Corollary 4.1 map.
-- **Re-entry condition:** prove G087 by identifying the canonical incidence
-  section and showing its filtered cancellation fails at some discriminant
-  stalk, with rational realization and strict support checked.
+- **Re-entry condition:** B132 now identifies the canonical projective
+  filtered section. Prove G088 by showing its cancellation fails at some
+  discriminant stalk, with rational realization and strict support checked.
+
+## NG-105 - Smooth-open Higgs globalization identifies the incidence class
+
+- **Label:** NO-GO
+- **Route:** use the proof of Brogan Corollary 5.2 over the smooth parameter
+  locus, or choose a decomposition-theorem splitting, to label the primitive
+  Higgs section by the specified incidence class.
+- **Valid input:** Corollary 4.1 computes the primitive Higgs cohomology
+  bundle, and the later Leray construction is canonical on the smooth locus.
+- **Invalid inference:** global sections of that bundle on the nonproper
+  discriminant complement equal the finite primitive space and filtered
+  hypercohomology is strict there in the projective sense.
+- **Precise obstruction:** if the discriminant is F=0 and G is a same-degree
+  homogeneous polynomial not proportional to F, then G/F is a nonconstant
+  regular function on the complement. Thus global sections of the primitive
+  bundle are generally larger than the primitive vector space. The cited
+  displayed proof does not control the filtered cancellations on this open
+  base. A chosen derived decomposition is independently noncanonical by
+  S037/B081.
+- **Re-entry condition:** B131 proves rational first-Leray nonvanishing, and
+  B132 starts with the canonical incidence class on full projective P, where
+  projective strictness gives its nonzero filtered realization. Only G088
+  boundary survival remains.

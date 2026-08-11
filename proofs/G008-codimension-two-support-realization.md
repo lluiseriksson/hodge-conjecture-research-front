@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; local Green-Griffiths invariant and Saito rel
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B007, B010-B012, B014-B015, B127-B130, G084-G087, NG102-NG104, and the attempted mechanisms B011 and B013
+dependencies: B007, B010-B012, B014-B015, B127-B132, G084-G088, NG102-NG105, and the attempted mechanisms B011 and B013
 claim: For every nonzero primitive rational Hodge class zeta, there is a sufficiently high embedding for which the associated local Green-Griffiths invariant is nonzero at some discriminant point, equivalently Sing(zeta) is nonempty for that embedding.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class whose local Green-Griffiths invariant vanishes at every parameter point for every sufficiently high power
 ---
@@ -113,11 +113,27 @@ H^{r,r}_{\rm prim}(X)\otimes\mathcal O_P
 
 NG104 closes the direct inference to local support. On the smooth locus,
 \(\operatorname{DR}(M)\simeq V_{\mathbf C}[d]\), so its ordinary
-degree-(-d+1\) cohomology sheaf is zero: filtered differentials cancel the
+degree-\(-d+1\) cohomology sheaf is zero: filtered differentials cancel the
 nonzero Higgs class. Brogan also explicitly leaves the comparison between
-the Leray-incidence map and the abstract Corollary 4.1 map unchecked. G087
-therefore requires both canonical map identification and failure of that
-cancellation at a discriminant stalk.
+the Leray-incidence map and the abstract Corollary 4.1 map unchecked. This
+left two obligations in G087; Attempt 6 resolves the first one canonically.
+
+## Attempt 6 - Canonicalize on the full projective parameter space
+
+B131 proves, without a decomposition splitting, that every nonzero primitive
+class has a nonzero rational first-Leray transgression in
+(H^1(P^{\rm sm},V_{\mathbf Q})). B132 then starts from the canonical
+incidence class \(s_m(\zeta)\) on full projective \(P_m\) and uses projective
+filtered strictness to construct its specified nonzero section
+\(h_m(\zeta)\). NG105 records why the smooth-open Corollary 5.2 proof and an
+arbitrary decomposition splitting do not provide this comparison.
+
+This discharges G087's map-identification half but not local support. The
+section is necessarily killed in ordinary de Rham cohomology on the smooth
+locus and may still be killed at every boundary stalk. G088 isolates the
+exact remaining calculation: prove that the canonical section survives at
+some codimension-at-least-two discriminant point to the rational ordinary IC
+edge class.
 
 ## Smallest concrete obligation
 
@@ -135,7 +151,8 @@ type-\((0,0)\) relation. The unsupported step is precisely the production of
 the point \(p\); a generic slice or a global tube cannot substitute for it.
 
 Equivalently by B128, prove that the incidence class avoids the bottom-row
-escape space for some high power. This is G086.
+escape space for some high power. This is G086, operationally attacked by
+the canonical filtered-survival statement G088.
 
 ## Re-entry condition
 

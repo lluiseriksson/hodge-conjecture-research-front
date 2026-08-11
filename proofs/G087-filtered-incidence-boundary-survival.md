@@ -13,8 +13,8 @@ hodge_type: primitive rational type (r,r), normalized to (0,0) after Q(r)
 cycle_class_map: CH^r(X)_Q -> H^(2r)(X,Q(r)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007, B012, B128-B130, G008, G086, NG103-NG104, S024, S053
-claim: For every nonzero primitive rational Hodge class zeta, at some sufficiently high power the Brogan primitive Higgs section corresponding to zeta is identified with the filtered de Rham realization of [q^*zeta]_(00), and at some discriminant point it survives the filtered stalk spectral sequence to a nonzero rational class in H^(-d+1)(IC(V))_p.
+dependencies: B007, B012, B128-B132, G008, G086, G088, NG103-NG105, S024, S037, S053-S054
+claim: For every nonzero primitive rational Hodge class zeta, its canonical incidence class has the nonzero projective filtered realization h_m(zeta) of B132, and for some sufficiently high power that specified section survives at a discriminant stalk to a nonzero rational class in H^(-d+1)(IC(V))_p.
 falsifier: a smooth projective complex 2r-fold and nonzero primitive rational Hodge class for which the canonical map identification fails or every corresponding Higgs class is killed at every discriminant stalk for all high powers
 ---
 
@@ -32,7 +32,7 @@ vanishing-cohomology variation. B130 supplies the primitive Hodge component
  \operatorname{DR}(M_m).
 \]
 
-For a specified rational (0\ne\zeta), prove both:
+For a specified rational \(0\ne\zeta\), the two original obligations were:
 
 1. **Map identification.** The section corresponding to \(\zeta\) is the
    filtered de Rham realization of the canonical incidence component
@@ -45,12 +45,22 @@ For a specified rational (0\ne\zeta), prove both:
    \mathcal H^{-d_m+1}(IC(V_m))_p.
    \]
 
-The rational structure and Tate twist must be checked after the complex
-filtered calculation. Survival gives G086 by B128 and hence G008.
+## First obligation discharged
+
+B131 proves the canonical rational first-Leray transgression is nonzero.
+B132 works on the full projective parameter space, applies projective
+strictness to the already-canonical class \(s_m(\zeta)\), and constructs its
+nonzero section \(h_m(\zeta)\). This avoids any need to equate the canonical
+map with a source-labelled map obtained from a noncanonical decomposition
+splitting. NG105 records why the smooth-open proof cannot supply that
+comparison.
+
+The remaining boundary-survival obligation is now G088. The rational
+structure, Tate twist, and strict support must be checked after the complex
+filtered stalk calculation. Survival gives G086 by B128 and hence G008.
 
 ## Falsifiable failure modes
 
-- the Leray-incidence map differs from Brogan's decomposition-theorem map;
 - the relevant filtered differential kills the section at every boundary
   stalk;
 - a complex survivor does not lie in the rational realization;
@@ -58,5 +68,5 @@ filtered calculation. Survival gives G086 by B128 and hence G008.
 
 On \(P_m^{\rm sm}\), B130 proves that cancellation is mandatory. Therefore a
 proof must calculate how the minimal extension changes the filtered
-differentials at the discriminant; smooth-locus connectivity alone cannot
-close G087.
+differentials at the discriminant; smooth-locus connectivity and projective
+global strictness alone cannot close G087/G088.

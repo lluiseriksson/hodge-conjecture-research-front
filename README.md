@@ -64,7 +64,7 @@ standard rational Hodge Conjecture
   <=> class-specific nodal vanishing-cycle relation              [B010/G006]
   <=> nonempty codimension-two local support                     [B012/G008]
   <=> universal-incidence edge escape                            [B128/G086]
-      <= filtered incidence boundary survival                   [B130/G087]
+      <= canonical filtered boundary survival                   [B131-B132/G088]
       <= class-paired multipart nodal incidence                  [B026-B058/G028-G029]
       <= clean-nodal class-specific support intersection         [G031, OPEN]
           <= exact plane-net class-preserving collision          [G030, STRONGER]
@@ -105,9 +105,12 @@ primitive \((r,r)\) component in
 \(\mathcal H^{-d+1}\operatorname{gr}^{F}_{-r}\operatorname{DR}(M)\), but
 NG104 proves that this is not yet local Betti support: on the smooth locus,
 \(\mathcal H^{-d+1}\operatorname{DR}(M)=0\), so filtered differentials cancel
-the Higgs class. Brogan also leaves the Leray-incidence map comparison
-unchecked. G087 now asks for that identification and for noncancellation at
-one discriminant stalk.
+the Higgs class. B131 proves independently that the canonical rational
+first-Leray transgression is nonzero. B132 starts from the canonical
+incidence class on full projective (P_m) and uses projective strictness to
+construct its nonzero filtered section. NG105 closes the smooth-open and
+chosen-splitting comparisons. G088 now asks only for noncancellation at one
+discriminant stalk.
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -595,6 +598,7 @@ python verification/verify_B126_a2_no_multinode.py
 python verification/verify_B127_gate_split.py
 python verification/verify_B129_projective_escape.py
 python verification/verify_B130_nori_higgs_indices.py
+python verification/verify_B131_B132_filtered_incidence.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -757,8 +761,9 @@ countermodel to every formal shortcut, leaving G086's incidence-specific
 escape exclusion as the active operational statement.
 B130/NG104 close the direct Nori/Higgs inference: associated-graded
 nonvanishing is cancelled in ordinary de Rham cohomology over the smooth
-locus. G087 isolates the remaining map-identification and boundary-survival
-calculation.
+locus. B131-B132 canonically identify the rational incidence class with its
+projective filtered realization; NG105 rejects the nonproper smooth-open
+shortcut. G088 isolates the remaining boundary-survival calculation.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

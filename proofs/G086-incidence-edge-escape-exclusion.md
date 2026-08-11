@@ -13,7 +13,7 @@ hodge_type: primitive rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007, B012, B128-B130, G008, G087, NG103-NG104, S024, S053
+dependencies: B007, B012, B128-B132, G008, G087-G088, NG103-NG105, S024, S037, S053-S054
 claim: For every nonzero primitive rational Hodge class zeta, for some sufficiently high m the canonical incidence class s_m(zeta) does not lie in the escape image H^1(P_m,H^(-d_m)K_m) inside IH^1(P_m,K_m), where K_m=IC(R^(2n-1)pi_(m,*)Q(n)).
 falsifier: an arbitrary smooth projective complex 2n-fold and nonzero primitive rational Hodge class whose incidence class lies in the escape image for every sufficiently high m
 ---
@@ -64,7 +64,14 @@ support point.
    \(\mathcal H^{-d+1}\operatorname{gr}_F\operatorname{DR}(M)\) class can
    be nonzero while \(\mathcal H^{-d+1}\operatorname{DR}(M)\) is zero on
    the smooth locus. The source also leaves the Leray-map identification
-   unchecked. G087 isolates map identification and boundary survival.
+   unchecked. B131-B132 now solve that identification canonically on full
+   projective \(P\); NG105 closes the smooth-open comparison.
+6. **Canonical projective filtered realization:** still insufficient.
+   B131 proves the rational first-Leray transgression is nonzero, and B132
+   canonically realizes \(s_m(\zeta)\) as the nonzero projective filtered
+   section \(h_m(\zeta)\). NG105 removes the noncanonical smooth-open map
+   comparison. The sole remaining issue is G088: the specified section may
+   still be killed by filtered differentials at every boundary stalk.
 
 Thus the next proof must calculate the composite
 

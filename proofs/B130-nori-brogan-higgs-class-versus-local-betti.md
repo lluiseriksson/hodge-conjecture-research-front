@@ -13,7 +13,7 @@ hodge_type: primitive type (r,r), equivalently rational type (0,0) after Q(r)
 cycle_class_map: CH^r(X)_Q -> H^(2r)(X,Q(r)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007, B012, B128-B129, G008, G086-G087, NG103-NG104, S053 Theorem 1.1, Corollary 4.1, Corollary 5.2, and pp. 13-14
+dependencies: B007, B012, B128-B132, G008, G086-G088, NG103-NG105, S037, S053 Theorem 1.1, Corollary 4.1, Corollary 5.2, and pp. 13-14
 claim: In the universal high-power family, Nori connectivity and Brogan's filtered D-module calculation place every primitive (r,r) component in H^(-d+1)gr_F^(-r)DR(M), but on the smooth locus H^(-d+1)DR(M) is zero; hence Higgs-graded nonvanishing does not imply a local Betti invariant, and the Leray incidence map is not proved in the source to equal the abstract decomposition-theorem map.
 falsifier: failure of Brogan's index specialization k=2r, b=r, or nonzero degree-minus-d-plus-one ordinary de Rham cohomology sheaf of a local system shifted by d on P_sm
 ---
@@ -93,13 +93,21 @@ states that it seems likely to be the Corollary 4.1 map, but that the
 coincidence was not checked. It therefore cannot be silently identified with
 \([q^*\zeta]_{00}\).
 
+NG105 further audits the smooth-open globalization used in the proof of
+Corollary 5.2: (H^0(P^{\rm sm},\mathcal O)) is not generally
+(\mathbf C), and projective filtered strictness cannot be invoked on that
+open base in the displayed way. B131 proves the rational first-Leray
+nonvanishing independently. B132 repairs the filtered identification on the
+full projective (P), starting from the canonical incidence class rather
+than a chosen decomposition splitting.
+
 ## Consequence
 
 Nori connectivity proves smooth-family incidence control, and Brogan
-computes its Higgs-graded avatar. Neither proves survival in the ordinary
-rational local cohomology sheaf at a discriminant point. G087 records the
-two missing obligations: identify the incidence class and prove boundary
-survival.
+computes its Higgs-graded avatar. B131-B132 now canonically attach that avatar
+to the incidence class on full projective (P). None of these results proves
+survival in the ordinary rational local cohomology sheaf at a discriminant
+point. That exact residual obligation is G088.
 
 ## Scope guard
 
