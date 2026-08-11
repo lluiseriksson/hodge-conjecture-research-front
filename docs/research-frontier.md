@@ -106,7 +106,15 @@ the singular locus. Thus
  |\Delta_m|\ge5(mn-c)-10.
 \]
 
-NG113 closes the entire smaller range. This is not counted as a new
+NG113 closes that smaller range. B141 applies S060 for an arbitrary fixed
+carrier degree \(E\). B140's uniform component lemma excludes the resulting
+carrier, giving
+
+\[
+ \frac{|\Delta_m|}{mn-c}\longrightarrow\infty.
+\]
+
+NG114 therefore closes every fixed linear node budget. This is not counted as a new
 sufficient reduction: isolated nodality at the new boundary, the two-matroid
 inequalities, the ambient-map rank, and the specified B135 pairing all remain
 unproved.

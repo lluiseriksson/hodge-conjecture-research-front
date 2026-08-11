@@ -13,7 +13,7 @@ hodge_type: the specified class and sought Saito relation have rational type (0,
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B009-B013, B016, B022-B032, B135-B140, NG109-NG113, and S056-S059
+dependencies: B009-B013, B016, B022-B032, B135-B141, NG109-NG114, and S056-S060
 claim: Every specified primitive rational Hodge class with a nonzero global detector admits a high-degree nodal member whose node scheme satisfies the two-part smoothing-matroid inequalities, has positive adjoint evaluation defect, and contains a rational Saito relation whose ambient class retains nonzero pairing with the specified class.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class for which every nodal node scheme satisfying the two-part matroid inequalities either has zero adjoint defect or has detector image contained in the class annihilator
 ---
@@ -55,11 +55,11 @@ equivalently \(\sum_i b_i a_i\ne0\) for some
 \(b\in\ker\Delta\). B136 first shows that the number of nodes cannot remain
 bounded. B137 makes the requirement quantitative. After fixing a very ample
 \(H\), choosing \(c\ge0\) with \(K_X\otimes H^c\) globally generated, and
-putting \(A_m=H^m\), B140 now requires every viable isolated-nodal member to
+putting \(A_m=H^m\), B141 now requires every viable isolated-nodal sequence to
 satisfy
 
 \[
- |\Delta_m|\ge 5(mn-c)-10.
+ \frac{|\Delta_m|}{mn-c}\longrightarrow\infty.
 \]
 
 This is an exact rank-function version of G012. B028 removes the ambiguity
@@ -113,8 +113,9 @@ repeat NG-013.
 
 Construct an algebraic incidence component on which the Edmonds inequalities
 hold fiberwise, the adjoint corank is positive, and the first-jet conditions
-still have isolated nodal solutions. Its node count must meet B140's floor
-\(5(mn-c)-10\), not merely escape every fixed bound. The support must be
+still have isolated nodal solutions. Its node count must meet B141's
+superlinear floor, not merely escape every fixed bound or cross one linear
+threshold. The support must be
 distributed or use
 a genuinely zero-dimensional Cayley-Bacharach mechanism rather than
 overloading one low-degree carrier. Then build a rational comparison from its

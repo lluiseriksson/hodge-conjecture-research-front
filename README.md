@@ -142,7 +142,10 @@ normalization/conormal argument excludes the entire range through
 \(4(mn-c)-5\); NG112 records that quartic-linear NO-GO. B140 uses the
 \(h=5\) case S059 and a uniform component-separation lemma for singular or
 reducible quartic carriers. It excludes the range through
-\(5(mn-c)-11\), recorded as NG113.
+\(5(mn-c)-11\), recorded as NG113. B141 then audits Banerjee's arbitrary
+fixed-degree carrier theorem S060. Combined with B140's uniform component
+lemma, it proves \(|\Delta_m|/(mn-c)\to\infty\); NG114 closes every fixed
+linear node budget.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -164,8 +167,8 @@ restricted inequality was \(c a_1-a_2\ne0\), but B136/NG109 close every
 uniformly bounded-node realization in the stable high-power regime. The
 active clean-nodal construction obligation is G013: a growing multipart
 configuration meeting B138's triple-linear floor and having nonzero B135
-residue-cokernel class. It must now meet B140's stronger floor
-\(5(mn-c)-10\).
+residue-cokernel class. B141 now requires its node count to grow genuinely
+superlinearly in \(m\).
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -663,6 +666,7 @@ python verification/verify_B138_triple_linear_floor.py
 python verification/verify_B139_quartic_linear_floor.py
 # Resource policy: execute this verifier on Colab Pro+ CPU/high-RAM only.
 python verification/verify_B140_quintic_linear_floor.py
+python verification/verify_B141_superlinear_floor.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -838,7 +842,8 @@ bound. B137/NG110 strengthen this to the explicit lower bound
 \(2(mn-c)+2\). B138/NG111 close the conic boundary and every larger
 cardinality through \(3(mn-c)-1\). B139/NG112 extend the exclusion through
 \(4(mn-c)-5\). B140/NG113 extend the exclusion through
-\(5(mn-c)-11\); the first open count is now \(5(mn-c)-10\).
+\(5(mn-c)-11\). B141/NG114 close every fixed linear budget; the first open
+regime is now \(|\Delta_m|=\omega(m)\).
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

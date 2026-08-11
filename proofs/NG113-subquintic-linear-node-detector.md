@@ -33,7 +33,8 @@ falsifier: B140, which puts a minimal degree-(mn-c) evaluation circuit on a degr
   curve duality force one integral component of degree \(e\) to carry
   \(e(mn-c)-O(1)\) nodes. Bounded conormal degrees then force that component
   into the hypersurface singular locus.
-- **Re-entry condition:** use at least \(5(mn-c)-10\) nodes and prove all
+- **Re-entry condition:** B141 subsequently requires superlinear node
+  growth; with such growth prove all
   remaining G013 conditions: isolated first jets, multipart smoothability,
   positive adjoint defect, positive ambient rank, and a nonzero B135
   residue-cokernel value for the specified rational Hodge class.

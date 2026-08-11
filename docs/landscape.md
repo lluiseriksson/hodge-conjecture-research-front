@@ -64,6 +64,7 @@ boundary, not an induction mechanism.
 | triple-linear isolated-node floor | B138 extracts a minimal CB(mn-c) circuit and uses S057 plus line/conic conormal bounds to require at least 3(mn-c) nodes | NG111 closes the entire line/conic-carrier range; no incidence at the new boundary or class-specific B135 value is constructed |
 | quartic-linear isolated-node floor | B139 applies S058's h=4 theorem and normalization/conormal bounds for integral and reducible cubic carriers to require at least 4(mn-c)-4 nodes | NG112 closes every smaller cardinality; no incidence at the new boundary, ambient rank, or class-specific B135 value is constructed |
 | quintic-linear isolated-node floor | B140 applies S059's h=5 theorem and a uniform Hilbert-family component-separation/first-jet lemma to require at least 5(mn-c)-10 nodes | NG113 closes every smaller cardinality; no incidence at the new boundary, ambient rank, or class-specific B135 value is constructed |
+| superlinear isolated-node floor | B141 combines S060's arbitrary fixed-degree carrier theorem with B140's uniform component lemma to prove that the normalized node count tends to infinity | NG114 closes every fixed linear budget; no superlinear G013 incidence, ambient rank, or class-specific B135 value is constructed |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -438,3 +439,11 @@ duality then forces \(e(mn-c)-O(1)\) circuit points on an occupied component,
 and uniform conormal slopes make it singular. S059 therefore raises the
 necessary G013 floor to \(5(mn-c)-10\), with NG113 closing the smaller
 range. No class-specific boundary point is produced.
+
+B141 then removes the artificial stopping point at Picoco's \(h=5\).
+Banerjee's S060 gives a carrier of degree at most \(E\) below
+\(Et-f_N(E)\) for every fixed \(E\). B140 already treats every fixed carrier
+degree, so choosing \(E\) arbitrarily proves
+\(|\Delta_m|/(mn-c)\to\infty\). NG114 closes all \(O(m)\) clean-nodal
+models. The theorem is ineffective in \(E\) and gives no stronger explicit
+growth rate.

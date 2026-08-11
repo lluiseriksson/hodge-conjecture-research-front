@@ -183,4 +183,5 @@ assumed isolated-nodal defect. Therefore
 This theorem does not treat the boundary \(5t_m-10\), construct a node
 scheme, establish either G013 matroid/rank condition, evaluate the B135
 residue quotient, or construct an algebraic cycle. It is only a necessary
-high-power incidence bound.
+high-power incidence bound. B141 subsequently supersedes every fixed linear
+floor by proving \(|\Delta_m|/t_m\to\infty\).

@@ -209,8 +209,8 @@ Date: 2026-08-11
   \(\delta_2=c\delta_1\), the scalar coordinate is \(c a_1-a_2\); NG108
   shows nonzero individual residues may be a coboundary. B136/NG109 close
   every uniformly bounded-node version of this route in the stable
-  high-power regime. B140/NG113 further require at least
-  \(5(mn-c)-10\) nodes for \(A_m=H^m\). G013 is the next clean construction
+  high-power regime. B141/NG114 further require
+  \(|\Delta_m|/(mn-c)\to\infty\) for \(A_m=H^m\). G013 is the next clean construction
   gate, with that quantitative floor and a nonzero B135 quotient. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -449,8 +449,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   integral component of every degree-at-most-four carrier into the singular
   locus, giving the floor \(5(mn-c)-10\).
 - NG113 - NO-GO: every cardinality through \(5(mn-c)-11\) is excluded.
+- B141 - PROVED: S060 supplies carriers of every fixed degree; B140's
+  component lemma then forces \(|\Delta_m|/(mn-c)\to\infty\).
+- NG114 - NO-GO: every fixed linear node budget \(C(mn-c)+D\) is excluded.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
-  \(5(mn-c)-10\) multipart nodes with the required two-matroid inequalities and
+  a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
   class.
 - NG106 - NO-GO: a generic transverse codimension-two double node does not
@@ -928,13 +931,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B140/G089/NG106-NG113 - PROVED/NO-GO: the minimal
+- B133-B141/G089/NG106-NG114 - PROVED/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
   force survival. Uniform high-power separation closes every bounded-node
   version, and Cayley-Bacharach carrier geometry forces G013's multipart
-  node count to be at least \(5(mn-c)-10\).
+  node count to be superlinear in \(m\).
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

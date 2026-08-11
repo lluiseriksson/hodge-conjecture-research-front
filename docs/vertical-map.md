@@ -34,9 +34,9 @@ proves the entire bounded-node target vanishes in sufficiently high powers.
 Thus G089/NG109 close the two-branch scalable route; G013 must use a growing
 multipart configuration. B137/NG110 quantify “growing”: after fixing
 \(K_X\otimes H^c\) globally generated, isolated nodal defect in \(|H^m|\)
-first requires \(2(mn-c)+2\) nodes. B140/NG113 strengthen the current floor
-to \(5(mn-c)-10\) by excluding all degree-at-most-four
-Cayley-Bacharach carriers.
+first requires \(2(mn-c)+2\) nodes. B141/NG114 strengthen the current floor
+to \(|\Delta_m|/(mn-c)\to\infty\) by excluding every fixed-degree
+Cayley-Bacharach carrier and hence every linear node budget.
 
 Two sufficient attacks feed G008:
 
@@ -763,7 +763,7 @@ still does not supply the specified functional; NG108 shows that nonzero
 individual residues can be coboundaries. B136 then proves that every bounded
 node count has zero relation target in the stable high-power regime. G089 is
 therefore NO-GO there. B137 strengthens the necessary cardinality to
-\(2(mn-c)+2\), while B140 further strengthens it to \(5(mn-c)-10\). G013 is
+\(2(mn-c)+2\), while B141 further strengthens it to superlinear growth. G013 is
 the next clean route.
 
 **Stronger clean program G084.** Prove
@@ -1060,8 +1060,8 @@ not supply it. B136/NG109 exclude every uniformly bounded nodal model after
 raising the power. B137/NG110 exclude every model with at most
 \(2(mn-c)+1\) nodes, B138/NG111 extend the exclusion through
 \(3(mn-c)-1\), B139/NG112 extend it through \(4(mn-c)-5\), and B140/NG113
-extend it through \(5(mn-c)-11\). Any
-scalable G013 attack must cross that quantitative floor
+extend it through \(5(mn-c)-11\), and B141/NG114 exclude all \(O(m)\)
+counts. Any scalable G013 attack must cross that superlinear floor
 with a multipart node set and prove a nonzero B135 residue quotient.
 
 Equivalently, construct an algebraic two-parameter degeneration that

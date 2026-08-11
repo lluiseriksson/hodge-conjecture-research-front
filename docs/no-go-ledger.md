@@ -2130,6 +2130,25 @@
   regularity. A bounded-degree multiplier isolates an integral component,
   and curve duality forces \(e(mn-c)-O(1)\) circuit points on it. Uniform
   conormal slopes then put that component in the singular locus.
-- **Re-entry condition:** use at least \(5(mn-c)-10\) nodes and prove isolated
+- **Re-entry condition:** B141 subsequently requires genuinely superlinear
+  growth; with that growth prove isolated
   first jets, multipart smoothability, both G013 rank systems, and a nonzero
+  B135 residue-cokernel value for the specified rational Hodge class.
+
+## NG-114 - Keep any fixed linear node budget
+
+- **Label:** NO-GO
+- **Route:** allow \(|\Delta_m|\le C(mn-c)+D\) for arbitrary but fixed
+  constants \(C,D\).
+- **Valid input:** every earlier explicit floor is linear and can be crossed
+  by increasing \(C\).
+- **Invalid inference:** no low-degree carrier theorem remains after the
+  explicit \(h\le5\) Picoco cases.
+- **Precise obstruction:** choose a fixed integer \(E>C\). S060 applies for
+  \(t_m\gg E\) and puts the intrinsic minimal \(\mathrm{CB}(t_m)\) circuit
+  on a degree-at-most-\(E\) curve. B140's arbitrary fixed-degree component
+  lemma forces an integral component into the singular locus. Equivalently,
+  B141 proves \(|\Delta_m|/t_m\to\infty\).
+- **Re-entry condition:** use a genuinely superlinear multipart node scheme,
+  prove isolated first jets and both G013 rank systems, and obtain a nonzero
   B135 residue-cokernel value for the specified rational Hodge class.

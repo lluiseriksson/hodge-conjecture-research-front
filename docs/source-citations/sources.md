@@ -1821,6 +1821,35 @@ and Applications,” *Journal of Algebra* 631 (2023), 332-354.
   lies in \(X\). It supplies no vanishing-cycle relation, Hodge pairing, or
   algebraic cycle. Those implications are not attributed to the source.
 
+## S060 - Arbitrary fixed-degree carriers for small CB sets
+
+Ishan Banerjee, “Error terms for the motives of discriminant complements
+and a Cayley-Bacharach theorem,” arXiv:2403.07272 (2024).
+[arXiv](https://arxiv.org/abs/2403.07272),
+[HTML](https://arxiv.org/html/2403.07272v1).
+
+- Checked Theorem 1.13: for each fixed \(e\ge1\) and \(d\gg e\), a
+  \(\mathrm{CB}(d)\) set \(Z\subset\mathbf P^N\) with
+
+  \[
+   |Z|<ed-f_N(e)
+  \]
+
+  lies on a curve of degree at most \(e\). The positive increasing function
+  \(f_N\) depends on the ambient dimension but not on \(d\).
+- Audited the proof in Section 2. It inducts on projective dimension using
+  reduced generic projections (Proposition 2.2), intersects two cones
+  (Proposition 2.3), removes the bounded residual set (Proposition 2.4), and
+  applies the minimal-carrier lower bound (Proposition 2.5). The base case is
+  the plane theorem, Proposition 2.1.
+- B141 fixes \(e\) before sending \(d=t_m\) to infinity. B140's uniform
+  component lemma then excludes the resulting carrier. Letting the fixed
+  integer \(e\) be arbitrary proves a superlinear limit.
+- Scope guard: the preprint gives no effective formula for \(f_N(e)\) or
+  the threshold hidden in \(d\gg e\). It does not permit \(e=e(d)\), so B141
+  claims only \(\omega(d)\), not a quadratic or other explicit floor. It
+  constructs no nodes, vanishing-cycle relation, Hodge pairing, or cycle.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded
