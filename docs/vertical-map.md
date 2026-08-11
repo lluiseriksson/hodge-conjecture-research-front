@@ -2010,18 +2010,29 @@ quotient has rank at most \(3(d-2)+3\), below B246's standard floor
 rank-one annihilators survives; a filled span has contact in
 \(\mathbf P^4\), while a span leaving one or two dimensions is exceeded
 by the next tangent's rank \(d-4\). Thus G175 and \(s=8d-3\) are
-NO-GO. The next signature is
+NO-GO.
+
+B253 runs the same audit with
+\(h_Z(1)=5d-1+q\), \(0\le q\le d-7\). The residual budget is at most
+\(4d-10<5d-13\), while the worst mixed budget is
+\(q+2\le d-5<d-4\). Hence the standard floor is \(6d-7\).
+B249's nonstandard floors then give the common floor \(5d+3\).
+G176-G178 and every layer through \(s=8d+3\) are NO-GO. The next
+signature is
 
 \[
- \delta_1=4d-1,\qquad N=10d,\qquad
- \dim E_1=5d=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+ \delta_1=4d+2,\qquad N=10d+6,\qquad
+ \dim E_1=5d+3=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
 \]
+
+On every even quadric \(d\ge12\), only the square polarization
+\(A=O_Q(2)\) survives at this boundary.
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G176: construct three ranks beyond slope-eight equality}
+ \text{G179: construct the square five-double boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

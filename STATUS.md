@@ -1271,9 +1271,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   by at least \(d-4\).
 - G175 - NO-GO: the layers \(s=8d-4,8d-3\) fail.
 - NG210 - NO-GO: standard survival two ranks beyond slope eight.
-- G176 - EXPLORATORY, active smallest branch: construct the balanced
-  package with \(s=8d-2,\delta_1=4d-1,N=10d\), and
-  \(h_Z(1)=5d=N/2\).
+- B253 - PROVED: the parametric band
+  \(h_Z(1)=5d-1+q,\ 0\le q\le d-7\), is impossible for the standard
+  polarization; hence its floor is \(6d-7\), while the common floor is
+  \(5d+3\) and \(s\ge8d+4\).
+- G176 - NO-GO: the layers \(s=8d-2,8d-1\) fail.
+- G177 - NO-GO: the layers \(s=8d,8d+1\) fail.
+- G178 - NO-GO: the layers \(s=8d+2,8d+3\) fail.
+- NG211 - NO-GO: standard survival through the parametric band.
+- G179 - EXPLORATORY, active smallest branch: construct the square
+  boundary package with \(s=8d+4,\delta_1=4d+2,N=10d+6\), and
+  \(h_Z(1)=5d+3=N/2\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

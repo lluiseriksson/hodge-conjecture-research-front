@@ -1286,15 +1286,22 @@ all-residual quotient has rank at most \(3(d-2)+3\), strictly below
 B246's standard floor \(5(d-2)-3\). Every mixed branch either fills
 while retaining a projective-four-space contact bound or leaves at
 most two dimensions, fewer than the next tangent's \(d-4\) residual
-dimensions. Hence G175 and \(s=8d-3\) are **NO-GO** (NG210). The active
-smallest gate is G176:
+dimensions. Hence G175 and \(s=8d-3\) are **NO-GO** (NG210).
+
+B253 makes that argument parametric. For
+\(h_Z(1)=5d-1+q\), \(0\le q\le d-7\), the residual branch lies below
+B246 and the worst mixed branch leaves \(q+2\le d-5<d-4\)
+dimensions. Therefore the standard polarization requires
+\(h_Z(1)\ge6d-7\). Combining this with B249 raises the common floor to
+\(h_Z(1)\ge5d+3\) and \(s\ge8d+4\). G176-G178 and all adjacent odd
+layers are **NO-GO** (NG211). The active smallest gate is G179:
 
 \[
- m=2,\qquad s=8d-2,\qquad \delta_1=4d-1,\qquad
- N=10d,\qquad h_Z(1)=5d=N/2.
+ m=2,\qquad s=8d+4,\qquad \delta_1=4d+2,\qquad
+ N=10d+6,\qquad h_Z(1)=5d+3=N/2.
 \]
 
-Only the standard quadric polarization survives this new rank test.
+On even quadrics \(d\ge12\), only \(A=O_Q(2)\) survives this rank test.
 This remains only a necessary window; every geometric and detector
 obligation is open.
 
@@ -1908,6 +1915,7 @@ python verification/verify_B249_slope_eight_floor.py
 python verification/verify_B250_standard_slope_eight_equality.py
 python verification/verify_B251_standard_one_beyond_slope_eight.py
 python verification/verify_B252_standard_two_beyond_slope_eight.py
+python verification/verify_B253_standard_parametric_band.py
 ```
 
 The repository verifier checks the required directory topology, result

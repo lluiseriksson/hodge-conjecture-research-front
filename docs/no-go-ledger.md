@@ -4158,3 +4158,28 @@
   and HC remain open.
 - **Re-entry condition:** G176 begins at
   \(s=8d-2,\delta_1=4d-1,N=10d,h_Z(1)=5d\).
+
+## NG-211 - Survive the standard parametric band
+
+- **Label:** NO-GO
+- **Route:** continue the standard polarization through
+  \(h_Z(1)=5d-1+q\), \(0\le q\le d-7\).
+- **Valid premise:** the last mixed quotient grows with \(q\).
+- **Invalid inference:** it reaches the next tangent before the square
+  polarization re-enters.
+- **Residual obstruction:** the residual budget is at most
+  \(4d-10<5d-13\), below B246 on \(Q^{d-2}\).
+- **Mixed obstruction:** the worst remaining budget is
+  \(q+2\le d-5<d-4\), while \(\operatorname{Sym}^2J\) forces at least
+  \(d-4\) dimensions from the next tangent.
+- **Common-floor consequence:** B249 and B253 give
+  \(h_Z(1)\ge5d+3\) and \(s\ge8d+4\) for every polarization.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge10\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G176-G178 and every layer through \(s=8d+3\) are
+  closed. G148 and HC remain open.
+- **Re-entry condition:** G179 begins at
+  \(s=8d+4,\delta_1=4d+2,N=10d+6,h_Z(1)=5d+3\); only
+  \(A=O_Q(2)\) survives on even quadrics \(d\ge12\).

@@ -39,7 +39,7 @@ require(
 )
 require(
     "proofs/G176-three-beyond-slope-eight.md",
-    ("brick_id: G176", "status: EXPLORATORY", "N=10d", "h_Z(1)=5d"),
+    ("brick_id: G176", "status: NO-GO", "N=10d", "h_Z(1)=5d", "G179"),
 )
 require(
     "proofs/NG210-standard-two-beyond-slope-eight-survival.md",
