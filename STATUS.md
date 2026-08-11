@@ -215,9 +215,10 @@ Date: 2026-08-11
   isolated nodes, an optimal \(n!\)-block uniform matroid, defect one, and
   ambient rank one. B143 proves the nonlinear discriminant is Li clean and
   its unique primitive local functional is nonzero. The result remains
-  anchored to a known algebraic fiber. Universal G028 is the next clean
-  construction gate: produce the same package from an arbitrary
-  \((X,\zeta)\) without an algebraic representative. G008
+  anchored to a known algebraic fiber. B144 reduces the clean clause to one
+  saturated smooth codimension-rank germ; G090 asks for it from an arbitrary
+  \((X,\zeta)\). NG115 proves B132's constant filtered section cannot define
+  it. Universal G028 remains the construction gate. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
@@ -467,6 +468,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   uniform arrangement; intersections beyond the smoothing rank equal the
   smooth moving-fiber incidence. B054/B134-B135 give a nonzero local
   primitive functional. Only the anchored special family is covered.
+- B144 - PROVED: a uniform conormal arrangement containing a smooth
+  codimension-rank germ in every branch is automatically Li clean, and all
+  rank-or-larger intersections equal that germ.
+- G090 - EXPLORATORY: construct such a saturated simultaneous-node germ,
+  a uniform node set, and a nonzero Saito pairing from arbitrary
+  \((X,\zeta)\) without an algebraic carrier; a scalable sequence must also
+  obey B141's superlinear floor.
+- NG115 - NO-GO: B132's filtered incidence section is constant and nonzero,
+  not an equation for that germ; its ordinary survival locus is G088 itself.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -946,7 +956,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B143/G089/NG106-NG114 - PROVED/NO-GO: the minimal
+- B133-B144/G089-G090/NG106-NG115 - PROVED/EXPLORATORY/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
@@ -955,7 +965,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   node count to be superlinear in \(m\). B142 shows that this scale and the
   finite matroid/ambient conditions coexist on a product fiber; B143 closes
   the clean/B135 construction there. The algebraic anchor prevents any
-  arbitrary-class propagation.
+  arbitrary-class propagation. B144/G090 isolate a carrier-free saturated
+  stratum as the replacement, while NG115 blocks the filtered-zero-locus
+  shortcut.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

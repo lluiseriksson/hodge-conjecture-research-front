@@ -2152,3 +2152,25 @@
 - **Re-entry condition:** use a genuinely superlinear multipart node scheme,
   prove isolated first jets and both G013 rank systems, and obtain a nonzero
   B135 residue-cokernel value for the specified rational Hodge class.
+
+## NG-115 - Treat the filtered section as a nodal-stratum equation
+
+- **Label:** NO-GO
+- **Route:** use B132's canonical nonzero filtered section
+  \(h_m(\zeta)\) as an equation, zero locus, or already-proved support locus
+  defining G090's saturated simultaneous-node germ.
+- **Valid input:** the section is canonical, projective, nonzero, and
+  constructed from the universal incidence class without an algebraic
+  representative of \(\zeta\).
+- **Invalid inference:** it unconditionally defines a nonempty smooth
+  codimension-\(R\) nodal stratum.
+- **Precise obstruction:** B132 identifies its coherent target with
+  \(H_{\mathrm{prim}}^{n,n}(X)\otimes\mathcal O_{P_m}\), so
+  \(h_m(\zeta)\) is constant and nonzero and has empty zero locus. Its
+  ordinary local survival locus is exactly the unresolved G088/G008
+  support. B129/NG103 prove that the formal projective Hodge package cannot
+  force such survival. Even a survivor would not supply uniform nodality,
+  smoothness, or saturated codimension.
+- **Re-entry condition:** construct an actual simultaneous-node germ from
+  the special universal-hyperplane incidence geometry, verify its conormal
+  matroid and codimension, and only then apply B144.

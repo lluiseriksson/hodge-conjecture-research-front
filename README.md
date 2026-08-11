@@ -66,6 +66,7 @@ standard rational Hodge Conjecture
   <=> universal-incidence edge escape                            [B128/G086]
       <= canonical filtered boundary survival                   [B131-B132/G088]
       <= class-paired multipart nodal incidence                  [B026-B058/G028-G029]
+      <= unanchored saturated deepest stratum                    [B144/G090]
       <= clean-nodal class-specific support intersection         [G031, OPEN]
           <= exact plane-net class-preserving collision          [G030, STRONGER]
 
@@ -154,6 +155,11 @@ fiber is preselected and algebraic, this is compatibility evidence only.
 B143 proves that its nonlinear labeled discriminant is Li clean: every
 intersection beyond the uniform rank equals the smooth moving-fiber
 incidence. B054 and B134-B135 then give a nonzero local residue functional.
+B144 abstracts the clean step: any uniform conormal arrangement containing
+an actual smooth codimension-rank deepest germ is automatically Li clean.
+G090 asks for that germ without an algebraic carrier. NG115 shows that
+B132's constant nonzero filtered section is not its equation; its ordinary
+survival locus is exactly the unresolved G088 support.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -680,6 +686,7 @@ python verification/verify_B140_quintic_linear_floor.py
 python verification/verify_B141_superlinear_floor.py
 python verification/verify_B142_dimension_scaled_fiber.py
 python verification/verify_B143_fiber_clean_arrangement.py
+python verification/verify_B144_saturated_stratum.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -860,7 +867,9 @@ regime is now \(|\Delta_m|=\omega(m)\). B142 realizes that regime with
 \(m^n\) anchored nodes and the optimal \(n!\)-block capacity, but does not
 construct an arbitrary-class detector. B143 proves its nonlinear
 discriminant is clean and its local primitive functional is nonzero; the
-algebraic anchor is the remaining obstruction.
+algebraic anchor is the remaining obstruction. B144/G090 isolate its
+replacement as a saturated simultaneous-node germ; NG115 excludes obtaining
+that germ merely by taking a locus of the canonical filtered section.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

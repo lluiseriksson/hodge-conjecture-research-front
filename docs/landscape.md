@@ -67,6 +67,8 @@ boundary, not an induction mechanism.
 | superlinear isolated-node floor | B141 combines S060's arbitrary fixed-degree carrier theorem with B140's uniform component lemma to prove that the normalized node count tends to infinity | NG114 closes every fixed linear budget; no superlinear G013 incidence, ambient rank, or class-specific B135 value is constructed |
 | superlinear factorial-block witness | B142 constructs on P^n x P^n a fiber-containing (m,m) divisor with m^n isolated nodes, uniform smoothing matroid partitionable into n! blocks, defect one, ambient rank one, and nonzero primitive pairing | the fiber is a preselected algebraic anchor; B143 closes clean/B135 compatibility but not arbitrary-class selection |
 | clean anchored product detector | B143 proves the B142 nonlinear labeled discriminant is Li clean, with every intersection beyond rank equal to the smooth moving-fiber incidence; B054/B134-B135 give a nonzero local primitive functional | this completes G028 only for the special product family and cannot be imported without an algebraic carrier |
+| saturated-stratum clean criterion | B144 proves that a uniform conormal arrangement containing one smooth codimension-rank germ in every branch is automatically Li clean | G090 must construct that germ and the nonzero pairing without an algebraic carrier |
+| filtered-section stratum shortcut | NG115 audits B132's canonical filtered section as a proposed source of the saturated germ | the section is constant and nonzero; its ordinary survival locus is exactly G088 and supplies no nodal geometry |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -462,3 +464,11 @@ Li clean. The unique primitive pairing makes the local residue functional
 nonzero. The complete package is still confined to the anchored product
 family and supplies no unanchored class-directed incidence on an arbitrary
 variety.
+
+B144 removes the product geometry from the clean-intersection argument.
+Uniform branch conormals plus one actual smooth codimension-rank germ
+contained in all branches force every deep intersection to equal that germ.
+G090 is the corresponding unanchored sufficient gate. Its first attempted
+input fails: NG115 observes that B132's filtered incidence section is a
+constant nonzero section, not a discriminant equation, and its ordinary
+survival support is exactly G088.

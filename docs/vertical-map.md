@@ -19,7 +19,9 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \Longleftarrow
 \text{canonical filtered boundary survival G088}
 \Longleftarrow
-\text{growing multipart residue incidence G013}
+\text{growing multipart residue incidence G013/G028}
+\Longleftarrow
+\text{unanchored saturated-stratum construction G090}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -42,7 +44,10 @@ that this surviving scale is attainable on an anchored product fiber:
 one, and ambient rank one. B143 proves its nonlinear discriminant is Li
 clean and its local B135 functional is nonzero. It still does not propagate
 upward because the construction starts from an algebraic carrier rather
-than an arbitrary class.
+than an arbitrary class. B144 shows that the clean step would propagate from
+any carrier-free smooth codimension-rank germ contained in all uniform node
+branches. G090 asks for exactly that object. NG115 proves that the canonical
+filtered section does not define it.
 
 Two sufficient attacks feed G008:
 
@@ -1071,6 +1076,9 @@ counts. B142 crosses that superlinear floor in an anchored product family
 with \(m^n\) nodes and an \(n!\)-block uniform matroid. B143 verifies its
 nonlinear clean incidence and nonzero B135 quotient. Any scalable general
 G013/G028 attack must reproduce that package without an algebraic anchor.
+B144/G090 reduce the nonlinear-clean part to constructing one saturated
+smooth deepest germ; NG115 excludes taking it to be a locus of B132's
+constant filtered section.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces
