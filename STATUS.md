@@ -1308,10 +1308,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   floor is \(6d-5\) and \(s\ge10d-12\).
 - G184 - NO-GO: the layers \(s=10d-14,10d-13\) fail.
 - NG216 - NO-GO: standard survival at second slope-ten equality.
-- G185 - EXPLORATORY, active smallest branch: construct the third
-  standard slope-ten package with
-  \(s=10d-12,\delta_1=5d-6,N=12d-10\), and
-  \(h_Z(1)=6d-5=N/2\); only \(A=O_Q(1)\) survives the quadric rank audit.
+- B259 - PROVED: the two-step nested escape excludes the standard band
+  \(6d-5\le h_Z(1)\le7d-13\), so the standard floor is \(7d-12\);
+  the common floor is \(F(d)=\min(7d-12,6d+6)\).
+- G185 - NO-GO: every common layer below the piecewise floor fails.
+- NG217 - NO-GO: standard survival through the second parametric band.
+- G186 - EXPLORATORY, active smallest branch: construct the piecewise
+  boundary package with \(h_Z(1)=F(d)\),
+  \(\delta_1=F(d)-d-1\), \(s=2(F(d)-d-1)\), and \(N=2F(d)\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

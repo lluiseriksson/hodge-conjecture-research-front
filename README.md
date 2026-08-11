@@ -1365,8 +1365,31 @@ descended escape of rank at least \(d-5\). Hence the common floor is
 \]
 
 On even quadrics \(d\ge14\), only \(A=O_Q(1)\) survives at equality.
-This remains only a necessary window; every geometric and detector
-obligation is open.
+B259 makes the nested escape parametric. For
+\(q=d-4+r\), \(0\le r\le d-8\), the first escape leaves at most
+\(r+2\le d-6\), strictly below the second escape \(d-5\). The
+residual smaller-quadric branch is also below B246. Thus the standard
+floor jumps to \(7d-12\). Together with the nonstandard floor \(6d+6\),
+the common floor is
+
+\[
+ F(d)=\min\{7d-12,6d+6\},\qquad
+ s\ge\min\{12d-26,10d+10\}.
+\]
+
+G185 and every lower common layer are **NO-GO** (NG217). The active
+smallest gate is the piecewise boundary G186:
+
+\[
+ h_Z(1)=F(d),\qquad
+ \delta_1=F(d)-d-1,\qquad
+ s=2(F(d)-d-1),\qquad N=2F(d).
+\]
+
+At equality, only \(A=O_Q(1)\) remains for \(d=14,16\); all
+polarization types meet the numerical floor at \(d=18\); and only
+\(A=O_Q(k)\), \(k\ge2\), remain for even \(d\ge20\). This is still only
+a necessary window; every geometric and detector obligation is open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1984,6 +2007,7 @@ python verification/verify_B255_higher_power_five_double.py
 python verification/verify_B256_cubic_six_double_floor.py
 python verification/verify_B257_standard_first_slope_ten.py
 python verification/verify_B258_standard_second_slope_ten.py
+python verification/verify_B259_standard_second_parametric_band.py
 ```
 
 The repository verifier checks the required directory topology, result

@@ -56,11 +56,11 @@ require(
 )
 require(
     "proofs/G185-standard-third-slope-ten-boundary.md",
-    ("brick_id: G185", "status: EXPLORATORY", "q=d-4", "N=12d-10"),
+    ("brick_id: G185", "status: NO-GO", "B259", "N=12d-10"),
 )
 require(
     "proofs/NG216-standard-second-slope-ten-equality-survival.md",
     ("brick_id: NG216", "status: NO-GO", "d-5>1", "G185"),
 )
 
-print("PASS: B258 second standard slope-ten equality, G184-G185, and NG216")
+print("PASS: B258 second standard slope-ten equality, G184-G185 transition, and NG216")

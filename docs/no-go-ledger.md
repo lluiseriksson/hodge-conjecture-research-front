@@ -4324,3 +4324,30 @@
 - **Re-entry condition:** G185 begins at
   \(s=10d-12,\delta_1=5d-6,N=12d-10,h_Z(1)=6d-5\), with only
   \(A=O_Q(1)\) surviving at equality.
+
+## NG-217 - Survive the second standard parametric band
+
+- **Label:** NO-GO
+- **Route:** retain \(A=O_Q(1)\) with
+  \(6d-5\le h_Z(1)\le7d-13\).
+- **Valid premise:** the residual budgets grow with
+  \(q=d-4+r\), \(0\le r\le d-8\).
+- **Invalid inference:** they reach the second nested tangent.
+- **Residual obstruction:** the projected smaller-quadric rank is at
+  most \(5d-15<5d-13\), below B246.
+- **First escape:** every mixed budget is at most \(d-2+r\), and the
+  first tangent contributes at least \(d-4\).
+- **Second escape:** at most \(r+2\le d-6\) remains, below the descended
+  rank-one escape \(d-5\).
+- **Standard-floor consequence:** \(h_Z(1)\ge7d-12\).
+- **Common-floor consequence:** with B254-B256,
+  \(h_Z(1)\ge F(d)=\min(7d-12,6d+6)\) and
+  \(s\ge\min(12d-26,10d+10)\).
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G185 and every lower common layer are closed. G148
+  and HC remain open.
+- **Re-entry condition:** G186 begins at the piecewise signature
+  \(h_Z(1)=F(d)\), \(s=2(F(d)-d-1)\), \(N=2F(d)\).

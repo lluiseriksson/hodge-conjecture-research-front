@@ -2088,13 +2088,33 @@ NO-GO, and the common floor is \(6d-5\). The next signature is
 \]
 
 Only \(A=O_Q(1)\) survives this equality audit on even quadrics
-\(d\ge14\).
+\(d\ge14\). B259 makes the nested escape parametric for
+\(q=d-4+r\), \(0\le r\le d-8\). After the first tangent at most
+\(r+2\le d-6\) dimensions remain, below the second escape \(d-5\);
+the residual smaller-quadric branch is also below B246. Hence the
+standard floor is \(7d-12\), and the common floor is
+
+\[
+ F(d)=\min\{7d-12,6d+6\}. \tag{***************************************************************************************}
+\]
+
+G185 and every lower common layer are NO-GO. The next signature is
+
+\[
+ \dim E_1=F(d),\quad \delta_1=F(d)-d-1,\quad
+ s=2(F(d)-d-1),\quad N=2F(d),\quad
+ E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+\]
+
+Equality leaves only the standard polarization for \(d=14,16\), all
+polarization types at \(d=18\), and only nonstandard polarizations for
+even \(d\ge20\).
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G185: construct the third standard slope-ten boundary}
+ \text{G186: construct the piecewise post-standard-band boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 
