@@ -1346,9 +1346,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G190 - NO-GO: no rank-\(7d+5\) cubic/quartic survivor exists in even
   dimension at least 24.
 - NG223 - NO-GO: planar cubic/quartic equality survival.
-- G191 - EXPLORATORY, active smallest branch: classify square equality
-  for \(d=14,16,18,20\), standard equality at \(d=22\), and
-  cubic/quartic equality for every even \(d\ge24\), retaining every
+- B266 - PROVED: after three minimal standard escapes only one
+  dimension remains, below the fourth rank \(d-7\); the standard floor
+  is \(8d-16\) for even \(d\ge16\).
+- G191 - NO-GO: the unique rank-159 standard survivor at \(d=22\)
+  fails.
+- NG224 - NO-GO: one residual dimension after the third escape.
+- G192 - EXPLORATORY, active smallest branch: classify square equality
+  for \(d=14,16,18,20\), the standard/cubic/quartic tie at \(d=22\),
+  and cubic/quartic equality for every even \(d\ge24\), retaining every
   G144 detector clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`

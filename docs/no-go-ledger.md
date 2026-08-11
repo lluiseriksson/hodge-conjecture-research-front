@@ -4510,3 +4510,30 @@
 - **Conclusion:** G190 is closed as a universal gate; the surviving
   regimes pass to G191. G148 and HC remain open.
 - **Re-entry condition:** G191 uses B265's \(M(d)\) and survivor table.
+
+## NG-224 - One residual dimension after the third escape
+
+- **Label:** NO-GO
+- **Route:** retain \(A=O_Q(1)\) at \(h_Z(1)=8d-17\).
+- **Valid premise:** the three minimal contractions total \(3d-15\)
+  against a budget \(3d-14\).
+- **Invalid inference:** the remaining one dimension can absorb another
+  marked tangent.
+- **Residual obstruction:** B259 excludes the projected
+  \(Q^{d-2}\) branch for every even \(d\ge16\).
+- **Filled-span obstruction:** any fill after the first three escapes
+  confines the points to \(\mathbf P^5\), \(\mathbf P^6\), or
+  \(\mathbf P^7\), with quadratic point rank at most 36.
+- **Fourth-escape obstruction:** in the only unfilled case,
+  \(\operatorname{Sym}^2J_3\) survives with \(\dim J_3=d-6\), so the
+  next tangent contributes at least \(d-7>1\).
+- **Floor consequence:** the standard floor is \(h_Z(1)\ge8d-16\).
+- **Common-floor consequence:** B260-B266 give \(P(d)=6d+6\) for
+  \(d=14,16,18,20\) and \(P(d)=7d+6\) for every even \(d\ge22\).
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge16\), is a
+  valid input. No special-family result is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G191 is closed as a universal gate; the surviving
+  regimes pass to G192. G148 and HC remain open.
+- **Re-entry condition:** G192 uses B266's \(P(d)\) and survivor table.

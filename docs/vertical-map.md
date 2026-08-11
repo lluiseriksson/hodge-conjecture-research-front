@@ -2209,6 +2209,21 @@ The smallest live equality classes are now square \(k=2\) in
 dimensions \(14,16,18,20\), standard \(k=1\) in dimension \(22\), and
 cubic/quartic \(k=3,4\) in every even dimension at least \(24\).
 
+B266 excludes the standard value \(8d-17\) for even \(d\ge16\): after
+three minimal escapes only one dimension remains, below the fourth
+rank \(d-7\), while every filled alternative has point rank at most
+36. Thus G191 is NO-GO and the corrected branch is
+
+\[
+ \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
+ \Longleftarrow\text{G192: construct the square/cubic boundary}
+ \Longleftarrow\text{piecewise equality classification plus the full G144 package}.
+\]
+
+At G192 the survivors are \(k=2\) in dimensions \(14,16,18,20\),
+\(k=1,3,4\) at \(d=22\), and \(k=3,4\) in every even dimension at
+least \(24\).
+
 Two sufficient attacks feed G008:
 
 \[

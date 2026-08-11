@@ -1505,6 +1505,24 @@ dimensions, the standard polarization at \(d=22\), and the cubic or
 quartic polarization for even \(d\ge24\). This remains only a
 necessary special-input obstruction.
 
+B266 excludes the next standard value \(8d-17\) for every even
+\(d\ge16\). Three minimal escapes leave only one dimension, while the
+fourth contributes at least \(d-7\); any earlier fill has quadratic
+point rank at most 36. Thus G191 is **NO-GO** (NG224), and the active
+gate G192 has
+
+\[
+P(d)=
+\begin{cases}
+6d+6,&d=14,16,18,20,\\
+7d+6,&d\ge22\text{ even}.
+\end{cases}
+\]
+
+Equality leaves \(k=2\) in the four low dimensions, \(k=1,3,4\) at
+\(d=22\), and \(k=3,4\) for even \(d\ge24\). Every detector and cycle
+obligation remains open.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2129,6 +2147,7 @@ python verification/verify_B263_standard_third_escape_equality.py
 python verification/verify_NG222_single_edge_kernel.py
 python verification/verify_B264_two_edge_jet_dichotomy.py
 python verification/verify_B265_planar_two_edge_unit.py
+python verification/verify_B266_standard_one_beyond_third_escape.py
 ```
 
 The repository verifier checks the required directory topology, result
