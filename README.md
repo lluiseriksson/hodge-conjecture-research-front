@@ -815,13 +815,15 @@ then force the piecewise floor \(N\ge C_{2n}(m)\): \(2(2n+1)\) for
 G143 is the refined construction gate; NG176 closes every smaller
 second-jet window.
 
-B215 interpolates \(q\) complete triple neighborhoods and \(t\) reduced
-points simultaneously in degree \(3q+t-1\). Hence every lower point span
-has rank at least
+B215 interpolates \(q\) triple neighborhoods, \(u\) double neighborhoods,
+and \(t\) reduced points simultaneously in degree \(3q+2u+t-1\). Hence
+every lower point span has rank at least
 \[
 L_d(k)=\binom{d+2}{2}\left\lfloor\frac{k+1}{3}\right\rfloor
-      +((k+1)\bmod3).
+      +\phi_d((k+1)\bmod3),
 \]
+where \(\phi_d(0)=0\), \(\phi_d(1)=1\), and
+\(\phi_d(2)=d+1\).
 Combining this with B213 gives the stronger floor \(N\ge D_{2n}(m)\),
 which grows with slope \(\binom{2n+2}{2}/3\). G144 is the refined gate;
 NG177 excludes retaining only the one-point B214 estimate.

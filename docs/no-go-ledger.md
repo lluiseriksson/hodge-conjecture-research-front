@@ -3401,9 +3401,10 @@
   \(\binom{2n+2}{2}\) dimensions.
 - **Invalid inference:** no universally independent family of several
   marked second osculators can be forced.
-- **Precise obstruction:** B215 interpolates \(q\) triple neighborhoods
-  and \(t\) reduced points in degree \(3q+t-1\), giving ranks
-  \(L_{2n}(k)\); B213 then forces \(N\ge D_{2n}(m)\).
+- **Precise obstruction:** B215 interpolates \(q\) triple,
+  \(u\) double, and \(t\) reduced neighborhoods in degree
+  \(3q+2u+t-1\), giving ranks \(L_{2n}(k)\); B213 then forces
+  \(N\ge D_{2n}(m)\).
 - **Detector guard:** simultaneous interpolation supplies no central
   profile, holonomy, rational detector, pairing, or cycle.
 - **Re-entry condition:** work inside G144's node window with every

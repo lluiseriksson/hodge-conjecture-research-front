@@ -15,7 +15,7 @@ cycle_equivalence: rational equivalence
 scope: absolute
 dependencies: B213-B215, G143-G144
 claim: Treat B214's one-point second-jet floor C_(2n)(m) as the final universal node constraint and search for G143 below D_(2n)(m).
-falsifier: B215 simultaneously interpolates q triple neighborhoods and t reduced points in degree 3q+t-1, forcing lower ranks L_(2n)(k) and N>=D_(2n)(m)
+falsifier: B215 simultaneously interpolates q triple, u double, and t reduced neighborhoods in degree 3q+2u+t-1, forcing lower ranks L_(2n)(k) and N>=D_(2n)(m)
 ---
 
 # NG177 — Second jets cannot be counted one point at a time
@@ -27,11 +27,12 @@ falsifier: B215 simultaneously interpolates q triple neighborhoods and t reduced
 - **Invalid inference:** different marked second osculators have no
   universally forced independent subfamilies.
 
-B215 isolates \(q\) triple neighborhoods and \(t\) simple marked points
-by products of separating sections. In degree \(3q+t-1\), their complete
-jet spaces are independent. Lower absorption places the resulting
-\(qc_{2n}+t\) dimensions inside the point span. B213 then forces
-\(N\ge D_{2n}(m)\).
+B215 isolates \(q\) triple neighborhoods, \(u\) double neighborhoods,
+and \(t\) simple marked points by products of separating sections. In
+degree \(3q+2u+t-1\), their complete jet spaces are independent. Lower
+absorption places the resulting
+\(qc_{2n}+u(2n+1)+t\) dimensions inside the point span. B213 then
+forces \(N\ge D_{2n}(m)\).
 
 - **Precise obstruction:** omitted simultaneous mixed-jet interpolation.
 - **Re-entry condition:** work inside G144's node window while retaining

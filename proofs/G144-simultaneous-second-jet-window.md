@@ -14,7 +14,7 @@ cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of the input class is
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
 dependencies: B007-B010, B134-B215, G013, G090-G143, NG106-NG177, S065-S076
-claim: For arbitrary (X,zeta), construct every G143 clause with N>=D_(2n)(m) from B215, lower ranks at least L_(2n)(k) in every 2<=k<m, all complementary relation-transport maps, the distinguished central profile, G130 holonomy and congruence, and every rational detector clause.
+claim: For arbitrary (X,zeta), construct every G143 clause with N>=D_(2n)(m), lower ranks at least L_(2n)(k)=c_(2n) floor((k+1)/3)+phi_(2n)((k+1) mod 3), where phi_(2n)(0)=0, phi_(2n)(1)=1, and phi_(2n)(2)=2n+1, all complementary relation-transport maps, the distinguished central profile, G130 holonomy and congruence, and every rational detector clause.
 falsifier: a node count below D_(2n)(m), failure of a mixed-jet rank or relation-transport map, a degenerate profile, failure of G130, or loss of any detector clause
 ---
 
@@ -23,32 +23,31 @@ falsifier: a node count below D_(2n)(m), failure of a mixed-jet rank or relation
 Let
 
 \[
- c_{2n}=\binom{2n+2}{2}.
+ c_{2n}=\binom{2n+2}{2},\qquad
+ \phi_{2n}(0)=0,\quad\phi_{2n}(1)=1,\quad
+ \phi_{2n}(2)=2n+1. \tag{1}
 \]
 
 For arbitrary \((X,\zeta)\), construct the complete G143 package with
 
 \[
- N\ge D_{2n}(2)=2(2n+1), \tag{1}
+ N\ge D_{2n}(2)=2(2n+1), \tag{2}
 \]
 
 and, for \(m\ge3\),
 
 \[
  N\ge D_{2n}(m)=
- \begin{cases}
- c_{2n}m/3+2n+1,&3\mid m,\\
- c_{2n}\left\lfloor\dfrac{m+2}{3}\right\rfloor
- +((m+2)\bmod3),&3\nmid m.
- \end{cases} \tag{2}
+ c_{2n}\left\lfloor\frac{m+2}{3}\right\rfloor
+ +\phi_{2n}((m+2)\bmod3). \tag{3}
 \]
 
-Every lower degree \(2\le k<m\) must have point-span rank at least
+Every lower degree \(1\le k<m\) must have point-span rank at least
 
 \[
  L_{2n}(k)=
  c_{2n}\left\lfloor\frac{k+1}{3}\right\rfloor
- +((k+1)\bmod3), \tag{3}
+ +\phi_{2n}((k+1)\bmod3), \tag{4}
 \]
 
 and the same full-support degree-\(m\) relation must realize every B213

@@ -1011,8 +1011,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   window while retaining the central profile and arbitrary-class detector.
 - NG176 - NO-GO: lower point spans cannot be counted as merely
   tangent-sized once \(k\ge2\).
-- B215 - PROVED: \(H^{3q+t-1}\) simultaneously interpolates \(q\) triple
-  neighborhoods and \(t\) reduced points. This forces lower ranks
+- B215 - PROVED: \(H^{3q+2u+t-1}\) simultaneously interpolates \(q\)
+  triple, \(u\) double, and \(t\) reduced neighborhoods. This forces lower ranks
   \(L_{2n}(k)\) and the optimized node floor \(D_{2n}(m)\).
 - G144 - EXPLORATORY: realize G143 inside the simultaneous mixed-jet
   window while retaining profile, holonomy, and arbitrary-class detector.
