@@ -4863,3 +4863,18 @@
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
 - **Re-entry condition:** attack G206 and retain every G144 clause.
+
+## NG-243 - Retain the standard tie at G206
+
+- **Label:** NO-GO
+- **Route:** realize standard rank 119 on \(Q^{16}\).
+- **Residual obstruction:** projected rank 85 lies below the
+  \(Q^{14}\) floor 108.
+- **Equality obstruction:** four minimal escapes exactly consume the
+  budget and force a filled \(\mathbf P^8\) contact locus of rank 45.
+- **Boundary consequence:** G206 remains open only through
+  nonstandard polarizations; G207 is operationally active.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack G207 and retain every G144 clause.

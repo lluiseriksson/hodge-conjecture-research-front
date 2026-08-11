@@ -2440,6 +2440,12 @@ budgets cannot reach a fourth escape. G206 is the uniform boundary
 \(7d+7\) for every even \(d\ge14\). Every detector obligation remains
 open.
 
+B286 removes the only standard tie from G206. Standard rank 119 on
+\(Q^{16}\) reaches exact fourth-escape equality, forcing a filled
+\(\mathbf P^8\) contact locus of quadratic rank 45. G207 retains the
+same uniform rank \(7d+7\) using only nonstandard polarizations. Every
+detector obligation remains open.
+
 Two sufficient attacks feed G008:
 
 \[

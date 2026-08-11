@@ -1408,8 +1408,12 @@ generation from the controlled partitioned nodal locus is not proved.**
   impossible; its standard floor is at least 162.
 - NG242 - NO-GO: the standard dimension-22 branch does not survive.
 - G206 - EXPLORATORY, active: classify the uniform equality \(7d+7\)
-  for every even \(d\ge14\), with the standard polarization tied only
-  at \(d=16\).
+  for every even \(d\ge14\).
+- B286 - PROVED: standard rank 119 on \(Q^{16}\) forces fourth-escape
+  equality and a filled \(\mathbf P^8\) contact locus of rank 45.
+- NG243 - NO-GO: the sole standard tie in G206 does not survive.
+- G207 - EXPLORATORY, operationally active inside G206: classify the
+  uniform rank \(7d+7\) using only nonstandard polarizations.
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
   six cubic double supports are independent and the seventh residual
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
@@ -1494,6 +1498,9 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B285 - PROVED: the \(Q^{22}\) standard floor is at least 162.
 - NG242 - NO-GO: standard ranks 160 and 161 do not survive.
 - G206 - EXPLORATORY: the uniform \(7d+7\) boundary is active.
+- B286 - PROVED: the \(Q^{16}\) standard floor is at least 120.
+- NG243 - NO-GO: standard rank 119 does not survive.
+- G207 - EXPLORATORY: the uniform nonstandard refinement is active.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

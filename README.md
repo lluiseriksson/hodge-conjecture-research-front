@@ -1703,6 +1703,12 @@ residual \(Q^{20}\) ranks 114 and 115 are below 148, while the mixed
 budget leaves at most three dimensions before a rank-15 fourth escape.
 NG242 makes G205 **NO-GO** and G206 is the uniform boundary \(7d+7\).
 
+B286 removes G206's sole standard tie. On \(Q^{16}\), rank 119 leaves
+exactly the rank-nine fourth escape; equality fills and confines every
+support to \(\mathbf P^8\), of quadratic rank 45. NG243 records the
+standard route as **NO-GO**. G207 is the operational uniform
+nonstandard refinement at the unchanged rank \(7d+7\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2347,6 +2353,7 @@ python verification/verify_B282_cubic_strong_separation.py
 python verification/verify_B283_standard_d18_band.py
 python verification/verify_B284_standard_d20_band.py
 python verification/verify_B285_standard_d22_band.py
+python verification/verify_B286_standard_d16_equality.py
 ```
 
 The repository verifier checks the required directory topology, result
