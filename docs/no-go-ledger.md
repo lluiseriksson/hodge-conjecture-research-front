@@ -2662,3 +2662,26 @@
 - **Re-entry condition:** construct \(d-R\) ideal-preserving analytic
   fields to all orders from the full complete-linear-system incidence, as
   in G109, while retaining every detector clause.
+
+## NG-141 - A positive symmetry orbit spans the logarithmic kernel
+
+- **Label:** NO-GO
+- **Route:** use a connected polarized-automorphism orbit preserving the
+  nodal ideal and count its positive dimension as the full G109 frame.
+- **Valid input:** B177 proves that every fundamental field is logarithmic
+  and that its value lies in \(\ker d\tau_0\).
+- **Invalid inference:** a positive orbit has the full dimension \(d-R\).
+- **Precise obstruction:** for
+  \(\tau=(u,(1+v)u)\) on \(\mathbf C^3\), one has
+  \(I_\tau=(u)\) and
+  \(\ker d\tau_0=\mathbf C\partial_v\oplus
+  \mathbf C\partial_w\). Translation in \(w\) preserves both branches
+  but supplies only \(\partial_w\).
+- **Dimension guard:** symmetry fields contribute exactly
+  \(r_A=\dim T_0(A\cdot0)\); any completion needs at least
+  \(d-R-r_A\) independent residual values.
+- **Scope guard:** this is a local spanning obstruction, not a Hodge
+  counterexample. A special variety with a large automorphism orbit cannot
+  stand in for arbitrary smooth projective varieties.
+- **Re-entry condition:** compute the actual orbit tangent, then construct
+  the quotient frame in G110 and retain every detector clause.

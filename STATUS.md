@@ -706,6 +706,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG140 - NO-GO: central Zariski tangent directions do not integrate
   automatically; for \((x,y^2)\), all ideal-preserving derivations vanish
   at the origin while the tangent kernel is one-dimensional.
+- B177 - PROVED: ideal-preserving fundamental fields span exactly the
+  tangent to their symmetry orbit, of rank \(r_A\), and leave a residual
+  quotient of dimension \(d-R-r_A\).
+- G110 - EXPLORATORY: construct a logarithmic frame of that symmetry
+  quotient in the full complete system with every detector clause.
+- NG141 - NO-GO: positive symmetry-orbit dimension is not spanning; the
+  model \(\tau=(u,(1+v)u)\) has a two-dimensional kernel but a selected
+  translation orbit of dimension one.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1257,7 +1265,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   do not determine \(H_\tau\); the labelled scheme-theoretic intersection
   is missing. B176/G109 give the correct labelled logarithmic criterion,
   equivalent to G100. NG140 proves that the central tangent kernel alone
-  does not integrate to the required ideal-preserving orbit.
+  does not integrate to the required ideal-preserving orbit. B177/G110
+  remove the exact automorphism-orbit tangent and expose the residual
+  quotient; NG141 forbids replacing its dimension by mere symmetry
+  invariance.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

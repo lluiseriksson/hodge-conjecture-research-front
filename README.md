@@ -414,6 +414,22 @@ detector clause. NG140 shows why tangent data alone is insufficient:
 for \(I_\tau=(x,y^2)\), every ideal-preserving vector field vanishes at
 the origin although \(\ker d\tau_0\) is one-dimensional.
 
+B177 next audits polarized symmetries as a source of the G109 fields. A
+connected ideal-preserving action contributes exactly the tangent space
+to its orbit, of rank \(r_A\), leaving
+
+\[
+ Q_A=\ker d\tau_0/T_0(A\cdot0),
+ \qquad \dim Q_A=d-R-r_A.
+\]
+
+G110 asks for a logarithmic frame of this quotient. NG141 blocks counting
+mere positive orbit dimension as spanning: for
+\(\tau=(u,(1+v)u)\) on \(\mathbf C^3\), translation in \(w\) preserves
+the ideal but supplies only one of the two kernel directions. For
+\(r_A=0\), G110 is exactly G109, so symmetry gives no general-case
+shortcut.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -966,6 +982,7 @@ python verification/verify_B173_selector_duality.py
 python verification/verify_B174_auxiliary_torsor.py
 python verification/verify_B175_free_discriminant.py
 python verification/verify_B176_logarithmic_orbit.py
+python verification/verify_B177_symmetry_ceiling.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1216,7 +1233,9 @@ discriminant does not see the hidden generator of the labelled
 simultaneous-node ideal. B176 turns labelled logarithmic transitivity into
 an exact equivalent certificate, while NG140 blocks automatic integration
 of the Zariski tangent kernel. G109 is the resulting full-system attack
-form and remains open.
+form and remains open. B177/G110 quotient out only the genuine
+polarized-automorphism orbit; NG141 shows that positive symmetry dimension
+alone cannot span the logarithmic kernel.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

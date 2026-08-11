@@ -457,6 +457,29 @@ proof: for \(I_\tau=(x,y^2)\), the tangent kernel is
 evaluates to zero. Thus infinitesimal tangent directions do not integrate
 automatically, and G109 remains equivalent to the unresolved G100 gate.
 
+B177 isolates the only automatic contribution from a connected symmetry
+action preserving the labelled ideal. Its fundamental fields evaluate to
+exactly
+
+\[
+ T_0(A\cdot0)\subseteq\ker d\tau_0,
+\]
+
+with rank \(r_A\). The residual gate G110 is therefore
+
+\[
+ Q_A=\ker d\tau_0/T_0(A\cdot0),
+ \qquad
+ \dim Q_A=d-R-r_A,
+\]
+
+and asks for that many additional ideal-preserving directions with every
+detector clause retained. NG141 shows that a positive-dimensional orbit
+need not span: \(w\)-translation in the smooth model
+\(\tau=(u,(1+v)u)\) covers only one of the two kernel directions. If
+\(r_A=0\), G110 is identical to G109. Hence automorphism symmetry is a
+verified partial input for symmetric members, not a general reduction.
+
 Two sufficient attacks feed G008:
 
 \[
