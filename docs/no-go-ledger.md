@@ -3530,3 +3530,23 @@
   rational Hodge type, or the specified pairing.
 - **Re-entry condition:** construct G150 by a non-complete-intersection
   scheme or a proved twist correction preserving every detector clause.
+
+## NG-185 - Import an abstract self-associated set as G151
+
+- **Label:** NO-GO
+- **Route:** use S082's two-orthogonal-bases construction in a free
+  \(\mathbf P^{c_{2n}}\) and count its \(2c_{2n}+2\) points as G151.
+- **Valid input:** the resulting evaluation matrix has exactly B225's
+  diagonal self-duality.
+- **Invalid inference:** an abstract projective configuration lies on
+  the fixed \(H^2(X)\)-image and satisfies its marked osculator incidence.
+- **Precise obstruction:** S082 contains no solution of
+  \(p_i\in X\) and
+  \(\widehat O^{(2)}_{p_i}(H^2)\subset S_{2,Z}^{(0)}\) for arbitrary X.
+  Its Theorem 7.3 additionally requires a one-condition quadratic defect
+  to promote self-association to arithmetic Gorensteinness.
+- **Detector guard:** orthogonal bases and Gorenstein coordinate rings
+  provide no ODP Hessians, rational type-\((0,0)\) vanishing-cycle
+  relation, specified pairing, or algebraic cycle.
+- **Re-entry condition:** construct the full fixed-X degree-five
+  self-associated osculator package stated in G151.

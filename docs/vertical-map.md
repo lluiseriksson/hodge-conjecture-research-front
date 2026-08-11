@@ -1514,7 +1514,8 @@ Equality alone forced the common tangent plane, so G148 neither assumes
 nor seeks a Gauss fiber. The strict-slack branch and the terminal Hodge
 Conjecture remain open.
 
-B222 resolves the rank geometry of the first slack layer. For \(m\ge3\),
+B222 resolves the rank geometry of the first slack layer. Away from the
+diagonal complementary case,
 
 \[
 \begin{aligned}
@@ -1534,7 +1535,7 @@ vertical branch is
 
 \[
 \text{G148}\Longleftarrow
-\text{G149: }H=A^2,\ m\ge3,\ N=D_{2n}(m)+1,
+\text{G149: }H=A^2,\ m\ge5,\ N=D_{2n}(m)+1,
 (\delta_2,\delta_c)=(1,0),
 \text{ with the full G144 detector package}.
 \tag{***********************************************}
@@ -1544,6 +1545,11 @@ B220 supplies the injective Gauss map and B222 forces the displayed
 signature conditional on existence. NG183 blocks the converse
 inference: neither result constructs the marked ODP incidence or
 rational specified-pairing detector.
+
+The low-degree audit is essential. At \(m=3\), the complementary
+degree-one rank equals \(d+1\) and recreates a common tangent plane. At
+\(m=4\), the split is \((2,2)\), so \(2\delta_2\le1\) contradicts
+injective Gauss. Hence one-node slack starts only at \(m=5\).
 
 B223 makes the two surviving transport isomorphisms one exact finite
 condition:
@@ -1578,6 +1584,30 @@ so H-power divisors canonically target \(H^{m-2}|_Z\) only if
 \((\mathbf P^n\times\mathbf P^n,O(2,4))\), where the identity is
 impossible. S070 supports the fixed complementary-degree rule but
 constructs no twist correction, doubled jets, or Hodge detector.
+
+At \(m=5\), B225 computes
+
+\[
+N=2c_{2n}+2,\qquad
+\dim E_2=\dim E_3=c_{2n}+1,\qquad
+D_tE_2=E_3=E_2^{\perp_\lambda}.
+\tag{***************************************************}
+\]
+
+Absorbing \(D_t\) into the weights makes \(E_2\) self-dual. S082
+identifies its columns as a self-associated set. The next vertical gate is
+
+\[
+\text{G150}\Longleftarrow
+\text{G151: embed a self-associated }(2c_{2n}+2)\text{-point set in }
+H^2(X)
+\text{ with all osculator/ODP/detector clauses}.
+\tag{****************************************************}
+\]
+
+NG185 prevents replacing this fixed-\(X\) incidence by an abstract
+self-associated configuration. S082 Theorem 7.3 also requires a separate
+one-condition quadratic defect before arithmetic Gorensteinness follows.
 
 Two sufficient attacks feed G008:
 

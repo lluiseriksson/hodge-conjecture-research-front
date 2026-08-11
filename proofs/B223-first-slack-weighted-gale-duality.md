@@ -5,7 +5,7 @@ base_field: C
 variety: a smooth projective complex d-fold with a G149 first-slack marked scheme Z and a full-support degree-m value relation lambda
 smoothness: X and Z are smooth and reduced; central ODP and incidence smoothness are inherited from G149 and not constructed
 projectivity: X, the complete H^2 and H^(m-2) systems, their evaluation configurations, and the marked scheme are projective
-dimension: dim X=d; N=D_d(m)+1, m>=3, dim E_2=c_d+1, and dim E_(m-2)=L_d(m-2)
+dimension: dim X=d; N=D_d(m)+1, m>=5, dim E_2=c_d+1, and dim E_(m-2)=L_d(m-2)
 codimension: the two complementary evaluation codes are exact weighted orthogonal complements, equivalently weighted Gale dual configurations
 coefficient_field: C for fibers, evaluation codes, lambda, and Gale duality; Q detector structure remains separate
 cohomology_theory: coherent restriction to the reduced point scheme and finite-dimensional duality

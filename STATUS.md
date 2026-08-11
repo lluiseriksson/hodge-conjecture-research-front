@@ -1078,9 +1078,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(N>D_{2n}(m)\); no common-tangent fiber may be assumed.
 - B222 - PROVED: for \(N=D_d(m)+s\), the slack splits exactly between
   two lower-rank excesses and equal complementary transport cokernels;
-  injective Gauss forces the degree-two excess to be positive.
-- G149 - EXPLORATORY, active smallest branch: for every arbitrary input,
-  use \(H=A^2\), \(m\ge3\), and \(N=D_{2n}(m)+1\) to realize the full
+  injective Gauss forces the degree-two excess to be positive. The
+  corrected low-degree audit excludes one slack node for \(m=2,3,4\).
+- G149 - EXPLORATORY, sufficient first-slack branch: for every arbitrary input,
+  use \(H=A^2\), \(m\ge5\), and \(N=D_{2n}(m)+1\) to realize the full
   G144 package with degree-two excess one and both transports isomorphic.
 - NG183 - NO-GO: squaring the polarization and adding one slack node
   constrain any candidate but construct neither its ODP scheme nor its
@@ -1092,12 +1093,24 @@ generation from the controlled partitioned nodal locus is not proved.**
   adjunction complement
   \(\omega_X\otimes\bigotimes_iL_i\otimes H^{-2}\), which need not be
   \(H^{m-2}\).
-- G150 - EXPLORATORY, active finite core: construct the first-slack
+- G150 - EXPLORATORY, weighted-Gale finite core: construct the first-slack
   weighted Gale pair on the same reduced scheme carrying all G149
   doubled/tripled-jet, ODP, rational-type, and pairing clauses.
 - NG184 - NO-GO: H-power complete intersections do not universally
   realize G150; the polarized product
   \((\mathbf P^n\times\mathbf P^n,O(2,4))\) has the wrong canonical twist.
+- S082 - primary audit: Eisenbud-Popescu Definitions 1.1 and 2.1,
+  Theorems 7.1, 7.3, and 8.1 identify Gale duality, self-association,
+  its Gorenstein guard, and the two-orthogonal-bases model.
+- B225 - PROVED: the first viable one-slack degree is \(m=5\); its
+  degree-two evaluation code has length \(2c_{2n}+2\), dimension
+  \(c_{2n}+1\), and is diagonally self-dual.
+- G151 - EXPLORATORY, active smallest gate: construct that
+  self-associated point set inside the fixed \(H^2(X)\)-image with all
+  second-osculator, ODP, rational-type, and specified-pairing clauses.
+- NG185 - NO-GO: an abstract self-associated or arithmetically
+  Gorenstein set in free projective space does not solve the fixed-X
+  osculator incidence or construct a Hodge detector.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

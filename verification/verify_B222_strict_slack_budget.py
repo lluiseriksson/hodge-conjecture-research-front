@@ -27,7 +27,14 @@ def main() -> None:
                 if slack == 1:
                     assert delta_1 == 0
 
-        for m in range(3, 31):
+        # m=3: first slack forces h_1=d+1, hence a common tangent.
+        assert lower_rank(d, 1) == d + 1
+
+        # m=4: the complementary split is diagonal, so 2*delta_2<=s.
+        first_slack = 1
+        assert not any(2 * delta <= first_slack for delta in range(1, 5))
+
+        for m in range(5, 31):
             base = floor_d(d, m)
             assert base == c_d + lower_rank(d, m - 2)
             for slack in range(0, 9):

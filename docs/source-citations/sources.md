@@ -2497,6 +2497,40 @@ doi:10.24033/bsmf.2209.
   uses it to falsify the universal equality mechanism G145-G147, not as
   progress toward proving or disproving the rational Hodge Conjecture.
 
+## S082 - Gale transform, self-association, and the Gorenstein guard
+
+David Eisenbud and Sorin Popescu, “The Projective Geometry of the Gale
+Transform,” *Journal of Algebra* **230** (2000), no. 1, 127–173,
+doi:10.1006/jabr.1999.7940.
+[Author-hosted primary PDF](https://eisenbud.github.io/papers/pdfs/2000-003.pdf),
+[arXiv:math/9807127](https://arxiv.org/abs/math/9807127).
+
+- Audited Definition 1.1, journal p. 132: two point configurations with
+  coordinate matrices \(G,G'\) are Gale transforms when
+  \(G^{\mathsf T}DG'=0\) for a nonsingular diagonal \(D\). This is the
+  exact matrix convention used in B223 and B225.
+- Audited Definition 2.1, journal p. 134: for a finite Gorenstein scheme,
+  Gale transform is annihilator duality under the perfect Serre trace
+  pairing. This supports the distinction between abstract finite-scheme
+  duality and the fixed ambient H-power evaluation systems.
+- Audited Theorem 7.1, journal pp. 154–155: for a degree-\(2r+2\)
+  finite Gorenstein scheme in \(\mathbf P^r\), self-association is
+  equivalent to the stated codegree-one quadratic condition and to a
+  trace functional annihilating the square of the linear series while
+  generating the dual module.
+- Audited Theorem 7.3, journal p. 156: a nondegenerate degree-\(2r+2\)
+  finite scheme is arithmetically Gorenstein exactly when it is
+  self-associated **and** fails by one to impose independent conditions
+  on quadrics. B225 does not establish this extra quadratic condition.
+- Audited Theorem 8.1, journal p. 158: a reduced self-associated set of
+  \(2r+2\) points is exactly a union of two bases orthogonal for one
+  nonsingular symmetric bilinear form.
+- G151/NG185 scope guard: the paper classifies abstract configurations
+  in a free projective space. It provides no theorem embedding them in
+  the fixed \(H^2(X)\)-image of an arbitrary smooth projective variety,
+  no common second-osculator incidence, ODP jet package, rational Hodge
+  detector, specified pairing, or cycle.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

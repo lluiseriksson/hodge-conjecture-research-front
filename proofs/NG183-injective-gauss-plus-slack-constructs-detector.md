@@ -5,7 +5,7 @@ base_field: C
 variety: an arbitrary smooth projective complex 2n-fold re-embedded by a squared very ample polarization H=A^2
 smoothness: X is smooth; no marked scheme, ODP divisor, or incidence germ is supplied by tangent separation
 projectivity: the complete H embedding and its injective Gauss map are projective
-dimension: dim X=2n; the proposed shortcut targets N=D_(2n)(m)+1 and m>=3
+dimension: dim X=2n; the corrected proposed shortcut targets N=D_(2n)(m)+1 and m>=5
 codimension: Gauss injectivity forces only one degree-two rank excess in any candidate; it does not construct the codimension-n detector or cycle
 coefficient_field: C for polarization and rank constraints; Q detector and specified Hodge class data remain absent
 cohomology_theory: coherent first and second principal parts only; no rational vanishing-cycle mixed Hodge structure is constructed

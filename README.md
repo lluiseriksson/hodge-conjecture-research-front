@@ -877,14 +877,15 @@ the surviving strict-slack gate: construct the complete G144 package
 with \(N>D_{2n}(m)\), where common tangency is no longer forced.
 
 B222 quantifies the first strict layer. For
-\(N=D_d(m)+s\), \(m\ge3\), the degree-two and complementary-rank
+\(N=D_d(m)+s\), the degree-two and complementary-rank
 excesses \(\delta_2,\delta_c\) satisfy
 \(\delta_2+\delta_c\le s\), and both transport cokernels have dimension
 \(s-\delta_2-\delta_c\). If the H-Gauss map is injective, then
 \(\delta_2\ge1\). Consequently \(s=1\) forces
-\((\delta_2,\delta_c)=(1,0)\) and both transports remain isomorphisms;
-for \(m=2\), one slack node is impossible. G149 is the sharpened active
-branch: use a squared very ample polarization \(H=A^2\), \(m\ge3\), and
+\((\delta_2,\delta_c)=(1,0)\) and both transports remain isomorphisms
+when \(m\ge5\). The diagonal and tangent cases show that one slack node
+is impossible for \(m=2,3,4\). G149 is the sharpened sufficient branch:
+use a squared very ample polarization \(H=A^2\), \(m\ge5\), and
 \(N=D_{2n}(m)+1\) to construct the entire G144 detector package with
 this exact rank signature. NG183 records that Gauss injectivity and the
 rank budget do not construct the marked ODP scheme or rational detector.
@@ -903,8 +904,22 @@ with
 automatically with \(H^{m-2}|_Z\). On
 \(\mathbf P^n\times\mathbf P^n\) polarized by \(H=O(2,4)\), no
 intersection of divisors in H-powers corrects that canonical twist.
-G150 is the active core-construction gate; NG184 closes only the naive
+G150 is the resulting Gale core; NG184 closes only the naive
 complete-intersection residue route.
+
+B225 isolates the first possible degree, \(m=5\). Then
+\[
+N=2c_{2n}+2,\qquad \dim E_2=\dim E_3=c_{2n}+1.
+\]
+Multiplication by an H-section nonzero on \(Z\) identifies \(E_2\) and
+\(E_3\), so the weighted Gale pair becomes a self-dual code and the
+degree-two columns form a self-associated set in
+\(\mathbf P^{c_{2n}}\). S082 audits Eisenbud–Popescu's intrinsic
+classification. G151 is the new active gate: embed such a
+self-associated set in the fixed \(H^2(X)\)-image with every marked
+second-osculator, ODP, rational-type, and specified-pairing clause.
+NG185 blocks importing an abstract pair of orthogonal bases or a
+Gorenstein point set as that fixed-\(X\) construction.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the

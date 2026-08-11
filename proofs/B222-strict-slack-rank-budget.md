@@ -14,7 +14,7 @@ cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)) is downstream and unused
 cycle_equivalence: rational equivalence
 scope: absolute
 dependencies: B196, B213-B217, B220-B221, G144-G148
-claim: For m>=3, if delta_2=h_Z(2)-c_d and delta_c=h_Z(m-2)-L_d(m-2), then delta_2,delta_c>=0, delta_2+delta_c<=s, and both complementary transport cokernels have dimension s-delta_2-delta_c. If the H-Gauss map is injective and N>1, delta_2>=1; hence at s=1 one has (delta_2,delta_c)=(1,0) and both transports are isomorphisms. For m=2, delta_1=h_Z(1)-(d+1) satisfies 2delta_1<=s, and injective Gauss forces delta_1>=1, so s=1 is impossible.
+claim: For m>=3, if delta_2=h_Z(2)-c_d and delta_c=h_Z(m-2)-L_d(m-2), then delta_2,delta_c>=0, delta_2+delta_c<=s, and both complementary transport cokernels have dimension s-delta_2-delta_c. Injective Gauss forces delta_2>=1. At s=1 there is no candidate for m=2,3,4; for m>=5 one has (delta_2,delta_c)=(1,0) and both transports are isomorphisms.
 falsifier: a G144 rank tuple violating the slack identities, unequal complementary cokernel dimensions, or an injective-Gauss candidate with zero degree-two excess and more than one marked point
 ---
 
@@ -74,13 +74,23 @@ injective H-Gauss map and \(N>1\) force
  \delta_2\ge1. \tag{5}
 \]
 
-At the first strict layer \(s=1\), equations (3) and (5) give
+At the first strict layer \(s=1\), equations (3) and (5) give formally
 
 \[
  (\delta_2,\delta_c)=(1,0), \tag{6}
 \]
 
-and (4) makes both transports isomorphisms.
+and (4) makes both transports isomorphisms. This conclusion represents
+an actual rank signature only when the complementary degrees are
+compatible:
+
+- If \(m=3\), then \(m-2=1\) and \(\delta_c=0\) says
+  \(h_Z(1)=d+1\). Tangent absorption makes all marked tangent spaces
+  equal, contradicting injective Gauss.
+- If \(m=4\), then \(m-2=2\), so \(\delta_c=\delta_2\). Equation (3)
+  reads \(2\delta_2\le s\), which contradicts
+  \(\delta_2\ge1\) at \(s=1\).
+- Hence (6) is viable only for \(m\ge5\).
 
 ## Birth degree two
 

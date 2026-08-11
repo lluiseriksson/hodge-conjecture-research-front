@@ -42,6 +42,7 @@ source does **not** prove. Latest web retrieval date: 2026-08-11.
 | S079 | Griffiths-Harris (1979) | Bertini for a linear system with base locus | Appendix A.6 smooth-away-from-base statement and B219 affine-slice scope checked |
 | S080 | Bauer-Szemberg (1997) | higher-order embeddings and jet-ampleness | definitions and abelian tensor-product scope checked; B220 uses a separate elementary arbitrary-X argument |
 | S081 | Le Potier-Banica (1993) | integral cohomology of even quadrics and maximal ruling classes | Section 2.4 and Proposition 2.5 checked; Picard and Gauss conclusions in B221 are derived separately |
+| S082 | Eisenbud-Popescu (2000) | Gale transform, self-associated sets, and Gorenstein guard | Definitions 1.1/2.1 and Theorems 7.1, 7.3, 8.1 checked; no fixed-X osculator or Hodge construction |
 
 “Seeded” means the citation is identified but no theorem depending decisively
 on it may be promoted until the exact statement and proof context are checked.
