@@ -242,6 +242,8 @@ Date: 2026-08-11
   vanishing is independent of the mixed condition. B154/G098 identify the
   canonical corrected cubic Kuranishi tensor after full quadratic
   vanishing; NG124 proves second-order flatness need not integrate.
+  B155/G099 replace the infinite hierarchy by an equivalent rank-\(R\)
+  analytic factorization; NG125 excludes every fixed finite truncation.
   Universal G028 remains the construction gate. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -572,6 +574,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   term, then retain the nonzero specified pairing.
 - NG124 - NO-GO: \(\tau=(x,x+y^3)\) has zero quadratic obstruction but a
   nonreduced simultaneous-node germ.
+- B155 - PROVED: smooth reduced height-\(R\) excess, identically zero
+  Kuranishi germ, and a factorization \(\tau=A f\) with \(f\) submersive and
+  \(A(0)\) rank \(R\) are equivalent.
+- G099 - EXPLORATORY: construct that all-order factorization carrier-free
+  while retaining the specified detector pairing.
+- NG125 - NO-GO: no fixed finite list of Kuranishi tensors certifies
+  integration; \((x,x+y^m)\) defeats any chosen order.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1051,7 +1060,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B154/G089-G098/NG106-NG124 - PROVED/EXPLORATORY/NO-GO: the minimal
+- B133-B155/G089-G099/NG106-NG125 - PROVED/EXPLORATORY/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
@@ -1078,7 +1087,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   first factorization. B153/G097 isolate the canonical pure second-order
   class, while NG123 blocks inferring its vanishing from mixed isotropy.
   B154/G098 begin the higher-order integration chain, and NG124 blocks
-  stopping at second order.
+  stopping at second order. B155/G099 identify the equivalent all-order
+  factorization, while NG125 blocks every finite truncation.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

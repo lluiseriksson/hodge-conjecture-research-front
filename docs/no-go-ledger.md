@@ -2321,3 +2321,19 @@
   \((x,y^3)\) is nonreduced.
 - **Re-entry condition:** compute and kill B154's canonical cubic tensor,
   then prove all higher tensors vanish and retain the specified pairing.
+
+## NG-125 - Stop at any fixed Kuranishi order
+
+- **Label:** NO-GO
+- **Route:** choose a fixed \(k\), verify
+  \(\kappa_2=\cdots=\kappa_k=0\), and infer smooth reduced excess.
+- **Valid input:** every first nonzero homogeneous Kuranishi term obstructs
+  integration.
+- **Invalid inference:** no obstruction can first appear above \(k\).
+- **Precise obstruction:** for every \(m>k\),
+  \(\tau_m(x,y)=(x,x+y^m)\) has the same \(k\)-jet as the smooth factorized
+  germ \((x,x)\), but its simultaneous-node ideal is the nonreduced
+  \((x,y^m)\).
+- **Re-entry condition:** prove the structural all-order factorization
+  \(\tau=A f\) of B155/G099, or an equivalent identity for the entire
+  analytic Kuranishi germ, then verify the specified pairing.

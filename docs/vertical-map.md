@@ -38,6 +38,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{canonical pure Hessian vanishing G097}
 \Longleftarrow
 \text{cubic and all-order Kuranishi vanishing G098}
+\Longleftarrow
+\text{carrier-free rank-R factorization G099}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -137,6 +139,22 @@ from spatial two- and three-jets plus the second-order implicit correction.
 NG124's nodal model \(\tau=(x,x+y^3)\) proves complete second-order
 flatness can still give a nonreduced germ. G098 requires \(\kappa_3=0\) and
 then \(\kappa\equiv0\) to all orders before any pairing can propagate.
+B155 prevents an infinite order-by-order detour. It proves the equivalence
+
+\[
+ \text{smooth reduced height-}R
+ \Longleftrightarrow
+ \kappa\equiv0
+ \Longleftrightarrow
+ \tau=A f,
+\]
+
+where \(f\) is an \(R\)-dimensional submersion and \(A(0)\) has rank \(R\).
+For every finite \(k\), NG125 chooses
+\(\tau_m=(x,x+y^m)\), \(m>k\), which agrees through order \(k\) with a
+factorized smooth germ but remains nonreduced. G099 is therefore the
+structural all-order gate: construct the factorization without an algebraic
+carrier and retain every class-specific detector condition.
 
 Two sufficient attacks feed G008:
 

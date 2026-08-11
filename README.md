@@ -210,6 +210,18 @@ condition, its first possible term is a canonical cubic tensor. NG124 gives
 the explicit nodal model \(\tau=(x,x+y^3)\): all second-order tests vanish,
 but the node germ \((x,y^3)\) is nonreduced. G098 therefore asks first for
 cubic vanishing and ultimately for \(\kappa\equiv0\).
+B155 replaces an impossible infinite checklist with an exact structural
+certificate:
+
+\[
+\text{smooth reduced excess}\Longleftrightarrow
+\kappa\equiv0\Longleftrightarrow\tau=A f,
+\]
+
+where \(f\) is a submersion to \(\mathbf C^R\) and \(A(0)\) has rank \(R\).
+NG125 proves that no fixed finite Kuranishi truncation suffices, using
+\(\tau_m=(x,x+y^m)\) at arbitrarily high \(m\). G099 asks for the rank
+factorization without a preselected algebraic carrier.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -747,6 +759,7 @@ python verification/verify_B151_synchronized_blocks.py
 python verification/verify_B152_mixed_hessian_corank.py
 python verification/verify_B153_pure_hessian_obstruction.py
 python verification/verify_B154_cubic_kuranishi.py
+python verification/verify_B155_all_order_factorization.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -956,6 +969,9 @@ condition; higher-order integration begins only after both are closed.
 B154/G098/NG124 expose the first higher obstruction explicitly: quadratic
 flatness does not imply integration, and the corrected cubic Kuranishi
 tensor must vanish before any all-order claim.
+B155/G099/NG125 show that finite continuation cannot finish the job: a
+structural rank-\(R\) factorization of the full analytic critical-value map
+is required.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
