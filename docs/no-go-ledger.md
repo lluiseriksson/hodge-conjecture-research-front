@@ -4183,3 +4183,31 @@
 - **Re-entry condition:** G179 begins at
   \(s=8d+4,\delta_1=4d+2,N=10d+6,h_Z(1)=5d+3\); only
   \(A=O_Q(2)\) survives on even quadrics \(d\ge12\).
+
+## NG-212 - Survive the square five-double boundary
+
+- **Label:** NO-GO
+- **Route:** attain \(h_Z(1)=5d+3\) with \(A=O_Q(2)\).
+- **Valid premise:** B249 exhibited only \(d-1\) residual jets after
+  four independent doubles.
+- **Invalid inference:** the full quartic system cannot supply the two
+  missing jets or another complete double block.
+- **First span escape:** quartic point rank on \(\mathbf P^3\) is at
+  most \(35<5d+3\), forcing a fifth point outside.
+- **Second span escape:** quartic point rank on \(\mathbf P^4\) is at
+  most \(70<5d+3\) for \(d\ge14\), forcing a sixth point outside.
+- **Separator:** at each escape, a hyperplane square times
+  \(H^0(O_Q(2))\) vanishes on all preceding doubles and supplies all
+  \(d+1\) jets at the new point.
+- **Square-floor consequence:** \(h_Z(1)\ge6d+6\).
+- **Common-floor consequence:** B249, B253, and B254 give
+  \(h_Z(1)\ge5d+5\) and \(s\ge8d+8\) for every polarization.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G179-G180 and every layer through \(s=8d+7\) are
+  closed. G148 and HC remain open.
+- **Re-entry condition:** G181 begins at
+  \(s=8d+8,\delta_1=4d+4,N=10d+10,h_Z(1)=5d+5\), with only
+  \(A=O_Q(k)\), \(k\ge3\), surviving.

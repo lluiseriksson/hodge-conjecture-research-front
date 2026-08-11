@@ -1294,14 +1294,23 @@ B246 and the worst mixed branch leaves \(q+2\le d-5<d-4\)
 dimensions. Therefore the standard polarization requires
 \(h_Z(1)\ge6d-7\). Combining this with B249 raises the common floor to
 \(h_Z(1)\ge5d+3\) and \(s\ge8d+4\). G176-G178 and all adjacent odd
-layers are **NO-GO** (NG211). The active smallest gate is G179:
+layers are **NO-GO** (NG211).
+
+B254 strengthens the square branch. Quartic point-rank bounds on
+\(\mathbf P^3\) and \(\mathbf P^4\) force successive fifth and sixth
+points outside the preceding spans; a hyperplane square times
+\(H^0(O_Q(2))\) supplies each full double neighborhood. Thus
+\(A=O_Q(2)\) requires \(h_Z(1)\ge6d+6\). With B249 and B253, the
+common floor becomes \(h_Z(1)\ge5d+5\), \(s\ge8d+8\). G179-G180 and
+their odd layers are **NO-GO** (NG212). The active smallest gate is
+G181:
 
 \[
- m=2,\qquad s=8d+4,\qquad \delta_1=4d+2,\qquad
- N=10d+6,\qquad h_Z(1)=5d+3=N/2.
+ m=2,\qquad s=8d+8,\qquad \delta_1=4d+4,\qquad
+ N=10d+10,\qquad h_Z(1)=5d+5=N/2.
 \]
 
-On even quadrics \(d\ge12\), only \(A=O_Q(2)\) survives this rank test.
+On even quadrics \(d\ge14\), only \(A=O_Q(k)\), \(k\ge3\), survives.
 This remains only a necessary window; every geometric and detector
 obligation is open.
 
@@ -1916,6 +1925,7 @@ python verification/verify_B250_standard_slope_eight_equality.py
 python verification/verify_B251_standard_one_beyond_slope_eight.py
 python verification/verify_B252_standard_two_beyond_slope_eight.py
 python verification/verify_B253_standard_parametric_band.py
+python verification/verify_B254_square_six_double_floor.py
 ```
 
 The repository verifier checks the required directory topology, result

@@ -2017,22 +2017,29 @@ B253 runs the same audit with
 \(4d-10<5d-13\), while the worst mixed budget is
 \(q+2\le d-5<d-4\). Hence the standard floor is \(6d-7\).
 B249's nonstandard floors then give the common floor \(5d+3\).
-G176-G178 and every layer through \(s=8d+3\) are NO-GO. The next
-signature is
+G176-G178 and every layer through \(s=8d+3\) are NO-GO.
+
+B254 replaces B249's square estimate by six independent double blocks.
+The quartic point-rank bounds \(35\) on \(\mathbf P^3\) and \(70\) on
+\(\mathbf P^4\) force two successive span escapes, and a hyperplane
+square times \(O_Q(2)\) supplies all first jets at each new point. Thus
+the square floor is \(6d+6\). Combining this with B249 and B253 gives
+the common floor \(5d+5\). G179-G180 and every layer through
+\(s=8d+7\) are NO-GO. The next signature is
 
 \[
- \delta_1=4d+2,\qquad N=10d+6,\qquad
- \dim E_1=5d+3=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+ \delta_1=4d+4,\qquad N=10d+10,\qquad
+ \dim E_1=5d+5=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
 \]
 
-On every even quadric \(d\ge12\), only the square polarization
-\(A=O_Q(2)\) survives at this boundary.
+On every even quadric \(d\ge14\), only \(A=O_Q(k)\), \(k\ge3\),
+survives at this boundary.
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G179: construct the square five-double boundary}
+ \text{G181: construct the higher-power five-double boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

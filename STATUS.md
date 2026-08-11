@@ -1279,9 +1279,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G177 - NO-GO: the layers \(s=8d,8d+1\) fail.
 - G178 - NO-GO: the layers \(s=8d+2,8d+3\) fail.
 - NG211 - NO-GO: standard survival through the parametric band.
-- G179 - EXPLORATORY, active smallest branch: construct the square
-  boundary package with \(s=8d+4,\delta_1=4d+2,N=10d+6\), and
-  \(h_Z(1)=5d+3=N/2\).
+- B254 - PROVED: two successive hyperplane-square extensions force six
+  independent double neighborhoods for \(A=O_Q(2)\), so its floor is
+  \(6d+6\); the common floor is \(5d+5\) and \(s\ge8d+8\).
+- G179 - NO-GO: the layers \(s=8d+4,8d+5\) fail.
+- G180 - NO-GO: the layers \(s=8d+6,8d+7\) fail.
+- NG212 - NO-GO: square survival at the former five-double boundary.
+- G181 - EXPLORATORY, active smallest branch: construct the higher-power
+  boundary package with \(s=8d+8,\delta_1=4d+4,N=10d+10\), and
+  \(h_Z(1)=5d+5=N/2\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

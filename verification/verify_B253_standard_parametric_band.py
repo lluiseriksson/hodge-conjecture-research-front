@@ -69,7 +69,7 @@ require(
 )
 require(
     "proofs/G179-square-five-double-boundary.md",
-    ("brick_id: G179", "status: EXPLORATORY", "A=O_Q(2)", "N=10d+6"),
+    ("brick_id: G179", "status: NO-GO", "B254", "G181", "N=10d+6"),
 )
 require(
     "proofs/NG211-standard-parametric-band-survival.md",
