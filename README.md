@@ -552,6 +552,16 @@ promoting that result: the affine-linear ODP charts
 \(x+yw+w^2/2+a w^3\) and \(x+yw+w^2/2+b w^3\) have equal quadratic
 critical-value terms but cubic escape \((a-b)y^3+O(y^4)\).
 
+B187 strengthens the necessary quadratic rank defect. A uniform value
+matroid has a relation \(c\) with every coordinate nonzero, so its weighted
+inverse-Hessian form is nondegenerate on all \(2nN\) gradient coordinates.
+Consequently \(\kappa_2=0\) forces
+\(\operatorname{rank}D\le nN\) and first-jet defect at least
+\((n+1)N-R\). G120 asks first for one such class-directed global
+Lagrangian channel. NG151 shows why this is weaker than the split carrier
+model: the diagonal in \(H\oplus H\) is maximal isotropic for
+\(B\oplus(-B)\), yet projects fully to each node.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1114,6 +1124,7 @@ python verification/verify_B183_unit_invariance.py
 python verification/verify_B184_etale_carrier.py
 python verification/verify_B185_incidence_carrier.py
 python verification/verify_B186_kuranishi_ladder.py
+python verification/verify_B187_full_support_ceiling.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1388,7 +1399,9 @@ G118: prove the finitely many conormal coefficients vanish, together with
 the still-unconstructed class-directed detector geometry. B186 rewrites
 those coefficients as the finite Kuranishi ladder
 \(\kappa_2,\ldots,\kappa_{E^{M+1}}\). G119 isolates the quadratic rung, and
-NG150 proves it cannot automatically kill the cubic rung.
+NG150 proves it cannot automatically kill the cubic rung. B187/G120 sharpen
+the quadratic precursor to a global rank-\(nN\) Lagrangian ceiling; NG151
+prevents counting that global condition as a nodewise split core.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

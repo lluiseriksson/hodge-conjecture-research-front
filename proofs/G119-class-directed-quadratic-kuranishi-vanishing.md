@@ -49,3 +49,11 @@ specified nonzero Saito pairing.
 
 Even success at G119 would close only the quadratic rung. NG150 proves that
 the cubic rung does not follow formally.
+
+## First linear-algebra precursor after B187
+
+For a no-coloop value matroid, B187 selects a full-support relation and
+forces \(\operatorname{rank}D\le nN\). G120 isolates the weaker precursor
+of realizing one such global Lagrangian channel with the class-directed
+detector. NG151 shows that this global condition does not provide the
+nodewise split Lagrangian core used by anchored constructions.

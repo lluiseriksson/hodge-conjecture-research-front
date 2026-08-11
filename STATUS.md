@@ -792,6 +792,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG150 - NO-GO: quadratic Kuranishi vanishing does not promote to cubic
   vanishing; two affine-linear ODP charts can agree through degree two and
   have escape \((a-b)y^3+O(y^4)\).
+- B187 - PROVED: a no-coloop value matroid contains a full-support relation;
+  its Hessian form is nondegenerate and forces
+  \(\operatorname{rank}D\le nN\), improving B146's corank floor to \(nN\).
+- G120 - EXPLORATORY: construct one such class-directed global Lagrangian
+  conditional-gradient channel with positive defect, rational type, and
+  nonzero specified pairing as a necessary precursor to G119.
+- NG151 - NO-GO: a maximal global relation Lagrangian need not split by
+  node; the diagonal in \(H\oplus H\) projects fully to both blocks.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1365,6 +1373,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   remaining finite conormal coefficients, class direction, and detector.
   B186 decomposes them as a finite Kuranishi ladder. G119 is its quadratic
   first rung, while NG150 forces an independent cubic step afterward.
+  B187 improves the quadratic rank ceiling to \(nN\); G120 isolates that
+  global precursor, and NG151 blocks a nodewise-splitting shortcut.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

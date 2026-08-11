@@ -2886,3 +2886,27 @@
 - **Re-entry condition:** after G119 kills the quadratic tensor, construct
   a separate cubic-vanishing mechanism and then continue through every
   finite rung required by G118. Hodge detector clauses remain attached.
+
+## NG-151 - A global Lagrangian splits nodewise
+
+- **Label:** NO-GO
+- **Route:** saturate B187's \(nN\) ceiling for one full-support relation
+  and infer the split nodewise conormal Lagrangians of B147-G093.
+- **Valid input:** a maximal isotropic subspace for the nondegenerate
+  full-support relation form is a global Lagrangian.
+- **Invalid inference:** the global Lagrangian respects the direct-sum
+  decomposition into nodal Hessian blocks.
+- **Precise obstruction:** for \(N=2,R=1\), take identical
+  \(2n\)-dimensional nondegenerate spaces \((H,B)\) and relation
+  \(c=(1,-1)\). The diagonal
+  \[
+  U=\{(v,v):v\in H\}\subset(H\oplus H,B\oplus(-B))
+  \]
+  is isotropic of dimension \(2n=nN\), hence maximal, but both projections
+  \(U\to H\) are isomorphisms.
+- **Splitting guard:** \(U\) is not contained in
+  \(\Lambda_1\oplus\Lambda_2\) for any proper nodewise maximal isotropics.
+  One relation also does not impose the quadrics for every other relation.
+- **Re-entry condition:** G120 uses only the global condition proved
+  necessary by B187. Any nodewise split core or full G119 vanishing needs a
+  separate geometric construction with every detector clause.

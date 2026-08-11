@@ -156,3 +156,10 @@ Hessian-compatible failure of conditional gradient interpolation.
 This is only a necessary second-order condition. It neither integrates
 the isotropic tangent data through all higher orders nor produces the
 class-specific rational relation required by G091.
+
+## Strengthening after B187
+
+The support-\((R+1)\) estimate above is valid but not sharp when the value
+matroid has no coloops. B187 chooses a relation with full support \(N\);
+its relation form is nondegenerate on all \(2nN\) gradient coordinates and
+improves the conditional-gradient corank floor to \(nN\).

@@ -693,6 +693,40 @@ affine-linear ODP charts with equal quadratic critical values and unequal
 cubic spatial coefficients have \(\kappa_2=0\) but
 \(\kappa_3\ne0\).
 
+B187 sharpens the first quadratic necessity before any attempt at G119.
+For a no-coloop value matroid, the relation space is not contained in any
+coordinate hyperplane. Over \(\mathbf C\), it therefore contains
+\(c=(c_i)\) with every \(c_i\ne0\). The weighted form
+
+\[
+ q_c=\bigoplus_i c_iB_i
+\]
+
+is nondegenerate on the \(2nN\)-dimensional gradient target. Hence
+
+\[
+ \kappa_2=0
+ \Longrightarrow
+ \operatorname{rank}D\le nN,
+ \qquad
+ \operatorname{defect}(j^1_ZL)\ge(n+1)N-R.
+\]
+
+This improves B146's earlier corank floor \(n(R+1)\) to \(nN\) for every
+uniform \(U_{R,N}\) configuration. G120 is the narrower precursor to G119:
+construct one such class-directed global Lagrangian channel with the
+specified detector.
+
+Coefficient guard: B187's full-support \(c\) lies in the complex
+value-relation space. It is only a witness for the gradient rank bound and
+must not be identified with the rational vanishing-cycle/Saito detector.
+
+NG151 records the exact limitation. For \(N=2,R=1\), the diagonal in
+\((H\oplus H,B\oplus(-B))\) is a maximal global Lagrangian and saturates
+the \(nN\) ceiling, but projects isomorphically to both nodal blocks. Thus
+B187 gives no nodewise split conormal core and no automatic isotropy for
+the remaining relations.
+
 Two sufficient attacks feed G008:
 
 \[
