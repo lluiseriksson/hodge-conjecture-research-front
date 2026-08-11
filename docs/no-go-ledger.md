@@ -4694,3 +4694,21 @@
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
 - **Re-entry condition:** attack G196 and retain every G144 clause.
+
+## NG-233 - Retain standard ranks 102–107 on \(Q^{14}\)
+
+- **Label:** NO-GO
+- **Route:** retain the G196 standard rank 102 or one of the next five
+  integer layers on \(Q^{14}\).
+- **Residual obstruction:** B262 specializes to \(Q^{12}\) and excludes
+  all projected ranks 72–77.
+- **Mixed obstruction:** ranks through 106 leave fewer than six
+  dimensions for a fifth escape. Rank 107 forces that escape and a
+  filled \(\mathbf P^9\) contact locus of rank 55.
+- **Rank consequence:** the \(Q^{14}\) standard floor is at least 108.
+- **Boundary consequence:** G196 is NO-GO and G197 is active with only
+  cubic/quartic survivors in dimension 14.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack G197 and retain every G144 clause.

@@ -2365,6 +2365,14 @@ G195 is NO-GO. The active branch is G196 with \(V(14)=102\); every other
 row is unchanged, and every relation, ODP, Kuranishi, rational-type,
 and specified-pairing clause remains open.
 
+B277 applies the next recursive band: B262 excludes ranks 72–77 on
+\(Q^{12}\), hence standard ranks 102–107 on \(Q^{14}\). The last layer
+fills after a fifth minimal escape and has only a \(\mathbf P^9\)
+quadratic contact locus. Thus G196 is NO-GO. G197 is active at rank 103
+on \(Q^{14}\), where the standard polarization is now excluded and only
+cubic/quartic equality remains. All detector and cycle obligations stay
+open.
+
 Two sufficient attacks feed G008:
 
 \[

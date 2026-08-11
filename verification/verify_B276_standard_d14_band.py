@@ -74,7 +74,7 @@ require(
 )
 require(
     "proofs/G196-standard-cubic-piecewise-boundary.md",
-    ("brick_id: G196", "status: EXPLORATORY", "V(14)=102", "active"),
+    ("brick_id: G196", "status: NO-GO", "V(14)=102", "B277"),
 )
 
-print("PASS: B276 Q12/Q14 five-rank band, G195 no-go, and G196 boundary")
+print("PASS: B276 Q12/Q14 five-rank band and current G195-G196 states")

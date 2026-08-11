@@ -29,7 +29,8 @@ falsifier: a standard tangent-absorbing Q^14 candidate of rank 97 through 101 or
   escape and then confines every marked point to \(\mathbf P^8\), of
   quadratic point rank 45.
 - **Rank consequence:** the \(Q^{14}\) standard floor is at least 102.
-- **Boundary consequence:** G195 is NO-GO and G196 is active.
+- **Boundary consequence at this checkpoint:** G195 is NO-GO and G196
+  is reached. B277 later closes G196 and activates G197.
 - **Detector guard:** no relation, ODP package, Kuranishi vanishing,
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
