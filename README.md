@@ -1187,15 +1187,32 @@ single valid input falsifies the universal G164/G165 claims; the
 unresolved standard \(Q^4\) special case cannot rescue them. Hence G164,
 G165, and the odd layer \(4d+11\) are **NO-GO** (NG200).
 
-The active gate is G166:
+The next gate was G166:
 
 \[
  m=2,\qquad s=4d+12,\qquad \delta_1=2d+6,\qquad
  N=6d+14,\qquad h_Z(1)=3d+7=N/2.
 \]
 
-All polarizations re-enter the audit at this larger rank. Every detector
-obligation remains open.
+All polarizations re-enter the audit at this larger rank. B243 closes
+them on one valid input. Four-double interpolation excludes
+\(O_Q(k\ge4)\); a point off the three-line triangle supplies the missing
+sextic jets for \(k=3\); the square residual system has jet rank at least
+\(d-2\ge2\), although G166 leaves only one dimension; and the standard
+quotients fail for \(d\ge8\).
+
+Thus \(Q^8\) excludes every very ample polarization. It falsifies G166's
+universal claim and the equal-rank odd layer \(4d+13\) (NG201).
+
+The active gate is G167:
+
+\[
+ m=2,\qquad s=4d+14,\qquad \delta_1=2d+7,\qquad
+ N=6d+16,\qquad h_Z(1)=3d+8=N/2.
+\]
+
+All polarizations re-enter at this new rank. Every geometric and
+detector obligation remains open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1797,6 +1814,7 @@ python verification/verify_B239_one_beyond_three_double.py
 python verification/verify_B240_two_beyond_three_double.py
 python verification/verify_B241_G164_polarization_reduction.py
 python verification/verify_B242_square_G164_exclusion.py
+python verification/verify_B243_quadric_G166_exclusion.py
 ```
 
 The repository verifier checks the required directory topology, result

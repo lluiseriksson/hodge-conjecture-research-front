@@ -3904,3 +3904,29 @@
   G148 and HC remain open.
 - **Re-entry condition:** G166 begins at
   \(s=4d+12,\delta_1=2d+6,N=6d+14,h_Z(1)=3d+7\).
+
+## NG-201 - Survive G166 through a quadric polarization
+
+- **Label:** NO-GO
+- **Route:** choose some very ample \(A=O_Q(k)\) at the G166 rank.
+- **Valid premise:** G166 leaves one dimension beyond B242's
+  six-support square span.
+- **Invalid inference:** that one dimension absorbs the next full tangent
+  osculator for some polarization.
+- **Powered obstruction:** B215 excludes \(k\ge4\) using four doubles.
+  For \(k=3\), a point off the three-line triangle supplies all residual
+  first jets in dimensions at least six.
+- **Square obstruction:** the residual quartic system restricts to every
+  next double neighborhood with rank at least \(d-2\ge2\).
+- **Standard obstruction:** for \(d\ge8\), residual tangent pairs exceed
+  the \(d+5\) quotient, while a tangent outside the three-point plane
+  contributes at least \(d-2>5\).
+- **Universal-quantifier guard:** \(Q^8\) is a valid input and every
+  \(k\ge1\) fails there. No special-family success is promoted to a
+  general theorem.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G166 and both layers \(4d+12,4d+13\) are closed. G148
+  and HC remain open.
+- **Re-entry condition:** G167 begins at
+  \(s=4d+14,\delta_1=2d+7,N=6d+16,h_Z(1)=3d+8\).

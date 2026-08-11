@@ -1216,9 +1216,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG199 - NO-GO: higher powers and higher-dimensional standard quadrics do
   not survive G164.
 - NG200 - NO-GO: the square polarization cannot rescue G164.
-- G166 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=4d+12,\delta_1=2d+6\) and construct the balanced
-  length-\(6d+14\), dimension-\(3d+7\) self-dual code with every detector
+- B243 - PROVED: four-double interpolation, sextic and quartic residual
+  jets, and standard tangent quotients exclude every polarization on
+  \(Q^8\) at the G166 rank.
+- G166 - NO-GO: the layers \(s=4d+12\) and \(s=4d+13\) fail on the valid
+  \(Q^8\) universal-quantifier test.
+- NG201 - NO-GO: no quadric polarization can rescue G166.
+- G167 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=4d+14,\delta_1=2d+7\) and construct the balanced
+  length-\(6d+16\), dimension-\(3d+8\) self-dual code with every detector
   clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
