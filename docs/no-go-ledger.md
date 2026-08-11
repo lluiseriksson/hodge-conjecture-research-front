@@ -3879,5 +3879,28 @@
 - **Conclusion:** G164's necessary quadric test survives only through
   \(O_Q(2)\) for \(d\ge6\), and through \(O_Q(1)\) or \(O_Q(2)\) for
   \(d=4\). The floor remains \(s=4d+10\); G164 and HC remain open.
-- **Re-entry condition:** attack G165's square-polarized incidence and the
-  exceptional standard \(Q^4\) branch.
+- **Re-entry condition:** B242 later excludes the square branch; use the
+  valid \(Q^6\) input to close G164 and move to G166.
+
+## NG-200 - Use the square polarization to survive G164
+
+- **Label:** NO-GO
+- **Route:** use \(A=O_Q(2)\) after B241 removes every other
+  higher-dimensional quadric polarization.
+- **Valid premise:** three doubles plus three values fit the G164 span.
+- **Invalid inference:** every later marked tangent remains absorbed.
+- **Base-locus obstruction:** after choosing one point off the triangle,
+  the residual quartic value base locus lies on at most two lines, whose
+  point rank is too small.
+- **First-jet obstruction:** a sixth point outside that locus fills the
+  span; four hyperplanes give a value or transverse first-jet separator
+  at every seventh point.
+- **Universal-quantifier guard:** on \(Q^6\), B241 leaves no other
+  polarization. The unresolved standard \(Q^4\) special case cannot
+  rescue a claim required for every input.
+- **Detector guard:** no ODP package, rational detector, specified pairing,
+  cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G164, G165, and both layers \(4d+10,4d+11\) are closed.
+  G148 and HC remain open.
+- **Re-entry condition:** G166 begins at
+  \(s=4d+12,\delta_1=2d+6,N=6d+14,h_Z(1)=3d+7\).

@@ -1151,7 +1151,7 @@ locus has point rank at most nine. Thus G163 and \(4d+9\) are
  s\ge4d+10.
 \]
 
-The active gate is G164:
+The next gate was G164:
 
 \[
  m=2,\qquad s=4d+10,\qquad \delta_1=2d+5,\qquad
@@ -1173,10 +1173,29 @@ quadric test only through
  O_Q(1)\text{ or }O_Q(2)\quad(d=4).
 \]
 
-The operational gate is G165: construct the complete square-polarized
-G164 package on every even quadric of dimension at least six and settle
-the exceptional \(Q^4\) alternatives. This is a necessary survival test,
-not general progress by a special-family theorem.
+The operational gate was G165: construct the complete square-polarized
+G164 package on every even quadric of dimension at least six.
+
+B242 closes that route. After choosing a point off the triangle of three
+doubles, the residual quartic value base locus lies on at most two
+lines, of insufficient point rank. A sixth point outside that locus
+fills the span, and four hyperplanes give a value or transverse first-jet
+separator at every seventh point. Thus \(O_Q(2)\) is impossible.
+
+On \(Q^6\), B241 had already excluded every other polarization. This
+single valid input falsifies the universal G164/G165 claims; the
+unresolved standard \(Q^4\) special case cannot rescue them. Hence G164,
+G165, and the odd layer \(4d+11\) are **NO-GO** (NG200).
+
+The active gate is G166:
+
+\[
+ m=2,\qquad s=4d+12,\qquad \delta_1=2d+6,\qquad
+ N=6d+14,\qquad h_Z(1)=3d+7=N/2.
+\]
+
+All polarizations re-enter the audit at this larger rank. Every detector
+obligation remains open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1777,6 +1796,7 @@ python verification/verify_B238_three_double_boundary.py
 python verification/verify_B239_one_beyond_three_double.py
 python verification/verify_B240_two_beyond_three_double.py
 python verification/verify_B241_G164_polarization_reduction.py
+python verification/verify_B242_square_G164_exclusion.py
 ```
 
 The repository verifier checks the required directory topology, result

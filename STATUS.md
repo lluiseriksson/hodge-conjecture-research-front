@@ -1204,18 +1204,22 @@ generation from the controlled partitioned nodal locus is not proved.**
   even quadric.
 - NG198 - NO-GO: two dimensions beyond three tangent osculators do not
   realize G148.
-- G164 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=4d+10,\delta_1=2d+5\) and construct the balanced
-  length-\(6d+12\), dimension-\(3d+6\) self-dual code with every detector
-  clause.
 - B241 - PROVED: G164's necessary quadric test excludes every
-  \(O_Q(k\ge3)\) and excludes the standard polarization for \(d\ge6\);
-  the slack floor remains \(4d+10\).
+  \(O_Q(k\ge3)\) and excludes the standard polarization for \(d\ge6\).
+- B242 - PROVED: the residual quartic base locus has rank too small, and
+  every seventh point has a quartic value or transverse first-jet
+  separator.
+- G164 - NO-GO: the layers \(s=4d+10\) and \(s=4d+11\) fail on the valid
+  \(Q^6\) universal-quantifier test.
+- G165 - NO-GO: the square-polarized survival gate fails in every even
+  dimension.
 - NG199 - NO-GO: higher powers and higher-dimensional standard quadrics do
   not survive G164.
-- G165 - EXPLORATORY, active operational survival gate: realize the full
-  G164 package with \(A=O_Q(2)\) for every even \(d\ge6\), and with
-  \(A=O_Q(1)\) or \(O_Q(2)\) on \(Q^4\).
+- NG200 - NO-GO: the square polarization cannot rescue G164.
+- G166 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=4d+12,\delta_1=2d+6\) and construct the balanced
+  length-\(6d+14\), dimension-\(3d+7\) self-dual code with every detector
+  clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

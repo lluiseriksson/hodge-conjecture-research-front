@@ -1,6 +1,6 @@
 ---
 brick_id: G164
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex d-fold X of even dimension d=2n with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,7 +13,7 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B241, G013, G090-G148, NG106-NG199, S081-S083
+dependencies: B007-B010, B134-B242, G013, G090-G148, NG106-NG200, S081-S083
 claim: For every arbitrary primitive target (X,zeta) of dimension d=2n, choose a very ample A and construct H=A^2 plus a reduced Z of N=6d+12 points satisfying the complete G144 package with slack s=4d+10, h_Z(1)=3d+6, an isomorphic full-support relation transport, a diagonally self-dual degree-one code, every ODP-profile, holonomy and finite-Kuranishi clause, rational type (0,0), and nonzero specified pairing.
 falsifier: one primitive target for which no choice of A realizes the three-beyond-three-double balanced code together with every geometric, rationality, Hodge-type, and pairing obligation
 ---
@@ -53,3 +53,9 @@ test and removes the standard polarization in dimensions \(d\ge6\).
 Thus G164 remains open only through G165: the square polarization in
 every even dimension at least six, together with the standard or square
 exception on \(Q^4\). No floor increase follows from this reduction.
+
+B242 excludes the square polarization in every even dimension. In
+particular, \(Q^6\) has no surviving polarization, so the universal G164
+claim and its adjacent odd layer \(4d+11\) are **NO-GO**. The standard
+\(Q^4\) branch need not be decided to obtain this falsifier. The next
+gate is G166 at \(s=4d+12,\delta_1=2d+6\). G148 and HC remain open.

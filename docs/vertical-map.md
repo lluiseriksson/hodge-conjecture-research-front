@@ -1887,7 +1887,7 @@ Therefore
  m=2\Longrightarrow s\ge4d+10. \tag{*******************************************************************************}
 \]
 
-The active balanced boundary is
+The next balanced boundary was
 
 \[
  \delta_1=2d+5,\qquad N=6d+12,\qquad
@@ -1909,11 +1909,26 @@ package still required. This implication is adversarial: success on
 quadrics does not reduce the general problem, while failure for one
 quadric falsifies G164.
 
+B242 proves that G165 fails: after three quartic tangent osculators and
+two values, the residual value base locus lies on at most two lines.
+Choosing a sixth point outside it fills the G164 span, while four
+hyperplanes give a value or transverse first-jet separator at every
+seventh point. Hence \(O_Q(2)\) is impossible in every even dimension.
+
+On \(Q^6\), B241 had already excluded every other polarization. Thus
+G164, G165, and the odd layer \(4d+11\) are NO-GO by a valid
+universal-quantifier falsifier. The next balanced signature is
+
+\[
+ \delta_1=2d+6,\qquad N=6d+14,\qquad
+ \dim E_1=3d+7=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**********************************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G164: construct three dimensions beyond three doubles}
+ \text{G166: construct four dimensions beyond three doubles}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 
