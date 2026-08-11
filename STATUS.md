@@ -192,8 +192,11 @@ Date: 2026-08-11
   versal cleanup. B128 gives G008's exact two-row edge sequence. B129/NG103
   then close the formal projective-Hodge shortcut with a full-support
   geometric weight-$-1$ countermodel on every projective space. G086 leaves
-  the universal-incidence origin as the active operational datum. G008
-  remains the terminal-equivalent obligation.
+  the universal-incidence origin as the active operational datum. B130/NG104
+  then show that Nori connectivity detects the primitive Higgs component but
+  not the ordinary local Betti class. G087 isolates map identification and
+  discriminant-stalk survival. G008 remains the terminal-equivalent
+  obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -376,14 +379,22 @@ generation from the controlled partitioned nodal locus is not proved.**
   it to meet a Li-clean multipart nodal locus.
 - B128 - PROVED: the global incidence class has a canonical edge section;
   its stalks are exactly the local invariants, and empty support is
-  equivalent to landing in (H^1(P_m,\mathcal H^{-d_m}K_m)).
+  equivalent to landing in \(H^1(P_m,\mathcal H^{-d_m}K_m)\).
 - B129 - PROVED: on every projective space, a full-support geometric
-  polarizable weight-(-1) IC can have nonzero rational type-((0,0))
-  (IH^1) and zero local target sheaf.
+  polarizable weight-\(-1\) IC can have nonzero rational type-\((0,0)\)
+  \(IH^1\) and zero local target sheaf.
 - NG103 - NO-GO: projectivity, full support, geometric origin, purity, hard
   Lefschetz, and Hodge type do not force local support.
 - G086 - EXPLORATORY: prove that the actual universal-incidence class escapes
   the bottom row for some high power; this is G008's operational form.
+- B130 - PROVED: Nori connectivity and Brogan's formula place the primitive
+  \((r,r)\) component in degree \(-d+1\) of the associated-graded Higgs
+  complex, while ordinary de Rham cohomology in that degree vanishes on the
+  smooth locus.
+- NG104 - NO-GO: nonzero associated-graded Higgs cohomology cannot be read
+  directly as a nonzero local rational Betti invariant.
+- G087 - EXPLORATORY: identify the primitive Higgs section with the canonical
+  incidence class and prove its filtered survival at a discriminant stalk.
 - B126 - PROVED: the suspended $A_2$ miniversal slice has exactly one
   singular point on every discriminant fiber and no two-node member.
 - NG101 - NO-GO: local $A_2$ versal nodalization cannot supply a clean
@@ -846,6 +857,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   from (H^1(P_m,\mathcal H^{-d_m}K_m)).
 - B129/NG103 - PROVED/NO-GO: the full formal projective Hodge package does
   not force that escape; only universal-incidence origin remains available.
+- B130/NG104 - PROVED/NO-GO: Nori-Brogan detects the primitive Higgs class,
+  but smooth-locus filtered cancellation blocks a local Betti conclusion.
+- G087 - EXPLORATORY incidence-specific mechanism: prove map identification
+  and discriminant-stalk survival.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

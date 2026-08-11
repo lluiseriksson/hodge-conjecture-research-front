@@ -13,7 +13,7 @@ hodge_type: primitive rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007, B012, B128-B129, G008, NG103, S024
+dependencies: B007, B012, B128-B130, G008, G087, NG103-NG104, S024, S053
 claim: For every nonzero primitive rational Hodge class zeta, for some sufficiently high m the canonical incidence class s_m(zeta) does not lie in the escape image H^1(P_m,H^(-d_m)K_m) inside IH^1(P_m,K_m), where K_m=IC(R^(2n-1)pi_(m,*)Q(n)).
 falsifier: an arbitrary smooth projective complex 2n-fold and nonzero primitive rational Hodge class whose incidence class lies in the escape image for every sufficiently high m
 ---
@@ -59,6 +59,12 @@ support point.
    that \(s_m(\zeta)\) is the canonical \([q_m^*\zeta]_{00}\) component for
    the universal hyperplane incidence, not an arbitrary \(IH^1\) Hodge
    class.
+5. **Nori connectivity and the primitive Higgs class:** insufficient.
+   B130/NG104 show that Brogan's incidence-specific
+   \(\mathcal H^{-d+1}\operatorname{gr}_F\operatorname{DR}(M)\) class can
+   be nonzero while \(\mathcal H^{-d+1}\operatorname{DR}(M)\) is zero on
+   the smooth locus. The source also leaves the Leray-map identification
+   unchecked. G087 isolates map identification and boundary survival.
 
 Thus the next proof must calculate the composite
 

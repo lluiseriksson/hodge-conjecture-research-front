@@ -1927,3 +1927,27 @@
   \(s_m(\zeta)=[q_m^*\zeta]_{00}\) and prove G086. Formal Hodge-module data
   on projective space cannot distinguish the incidence class from B129's
   escape class.
+
+## NG-104 - Nori-Brogan Higgs nonvanishing is local Betti support
+
+- **Label:** NO-GO
+- **Route:** apply Nori connectivity and Brogan Corollary 4.1 to obtain the
+  primitive \((r,r)\) bundle in
+  \(\mathcal H^{-d+1}\operatorname{gr}_F^{-r}\operatorname{DR}(M)\), then
+  read it as a nonzero local Green-Griffiths invariant.
+- **Valid input:** B130 checks the exact specialization
+  \(n_B=2r-1\), \(k=2r\), \(b=r\) and the resulting Hodge component for
+  every \(r\ge2\).
+- **Invalid inference:** cohomology of the associated-graded filtered de
+  Rham complex equals the associated graded of ordinary de Rham cohomology.
+- **Precise obstruction:** on \(P^{\rm sm}\), the minimal extension restricts
+  to a flat local system and
+  \(\operatorname{DR}(M)\simeq V_{\mathbf C}[d]\). Hence
+  \(\mathcal H^{-d+1}\operatorname{DR}(M)=0\) there although Brogan's
+  Higgs-graded cohomology sheaf can equal the nonzero bundle
+  \(H^{r,r}_{\rm prim}(X)\otimes\mathcal O\). The filtered differentials
+  perform an actual cancellation. Brogan p. 14 also says the Leray-incidence
+  map was not checked to coincide with the abstract Corollary 4.1 map.
+- **Re-entry condition:** prove G087 by identifying the canonical incidence
+  section and showing its filtered cancellation fails at some discriminant
+  stalk, with rational realization and strict support checked.

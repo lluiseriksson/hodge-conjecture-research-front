@@ -1615,6 +1615,39 @@ Supérieure* 38 (2005), 365-386;
   or prove any Hodge class algebraic.
 - Primary full text audited on 2026-08-11; no local copy is committed.
 
+## S053 - Nori connectivity from the filtered D-module viewpoint
+
+Daniel Brogan, “Nori's connectivity theorem from the perspective of
+\(D\)-modules,” arXiv:2209.13683 (2022).
+[arXiv record](https://arxiv.org/abs/2209.13683),
+[primary PDF](https://arxiv.org/pdf/2209.13683).
+
+- Checked pp. 1-2, Theorem 1.1 and Proposition 1.3: for a smooth projective
+  variety of dimension \(n+1\) and sufficiently high universal hyperplanes,
+  restriction from \(P^{\rm sm}\times X\) to the smooth incidence family is
+  an isomorphism below degree \(2n\) and injective in degree \(2n\); the
+  filtered \(D\)-module statement computes graded de Rham cohomology sheaves
+  of the vanishing-cohomology module.
+- Checked pp. 11-13 and Corollary 4.1: the only nonconstant direct-image
+  Hodge module is the minimal extension \(M\) of the vanishing-cohomology
+  variation. Specializing \(k=n+1\), \(b=r\), and \(n=2r-1\) identifies
+  \(H^{r,r}_{\rm prim}(X)\otimes\mathcal O_P\) with
+  \(\mathcal H^{-d+1}\operatorname{gr}^{F}_{-r}\operatorname{DR}(M)\) for
+  \(r\ge2\).
+- Checked pp. 13-14, Corollary 5.2 and the subsequent Leray construction:
+  the calculation continues over \(P^{\rm sm}\). The author constructs a
+  map from primitive cohomology through the Leray filtration, but explicitly
+  says it only seems likely to be the Corollary 4.1 map and that the
+  coincidence was not checked.
+- Scope guard: on \(P^{\rm sm}\), \(\operatorname{DR}(M)\) resolves the shifted
+  vanishing local system and has no ordinary cohomology sheaf in degree
+  \(-d+1\), even when the cohomology of its associated-graded Higgs complex
+  in that degree is nonzero. The source does not prove a local Betti
+  singularity at the discriminant and does not identify one with
+  \(s_m(\zeta)\).
+- Primary full text retrieved and audited on 2026-08-11; no local copy is
+  committed.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

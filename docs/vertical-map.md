@@ -16,6 +16,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{codimension-two support realization G008}
 \Longleftrightarrow
 \text{incidence edge escape exclusion G086}
+\Longleftarrow
+\text{filtered incidence boundary survival G087}
 \]
 
 Two sufficient attacks feed G008:
@@ -710,6 +712,23 @@ weight-\(-1\) coefficients, purity, hard Lefschetz, and rational type
 \((0,0)\) do not force escape. The next argument must use the exact incidence
 origin \([q_m^*\zeta]_{00}\).
 
+B130 then applies the incidence-specific Nori-Brogan calculation. With
+ambient dimension \(2r\), Brogan's \(n_B=2r-1\), \(k=2r\), and \(b=r\), it
+gives
+
+\[
+H^{r,r}_{\rm prim}(X)\otimes\mathcal O_P
+\simeq
+\mathcal H^{-d+1}\operatorname{gr}^{F}_{-r}\operatorname{DR}(M).
+\]
+
+NG104 proves why this still does not enter B128's local Betti row: over the
+smooth locus, \(\operatorname{DR}(M)\simeq V_{\mathbf C}[d]\), so its ordinary
+degree-\(-d+1\) cohomology sheaf is zero while the Higgs-graded cohomology can
+be nonzero. Brogan also leaves the Leray-incidence map comparison unchecked.
+G087 therefore asks for canonical map identification and failure of filtered
+cancellation at one discriminant stalk.
+
 **Stronger clean program G084.** Prove
 
 \[
@@ -990,6 +1009,12 @@ B128 restates this as G086: prove that the canonical incidence class does
 not lie in \(H^1(P_m,\mathcal H^{-d_m}K_m)\) for some high power. B129/NG103
 exclude proving that statement from the ambient formal Hodge package; the
 universal-incidence pullback is the remaining usable structure.
+
+B130/NG104 further exclude a direct Nori-connectivity shortcut. The
+primitive class is visible in the associated-graded Higgs complex, but that
+class cancels in ordinary de Rham cohomology on the smooth locus. G087 must
+identify the incidence section and prove noncancellation specifically at a
+discriminant stalk.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces

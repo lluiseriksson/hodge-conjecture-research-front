@@ -64,6 +64,7 @@ standard rational Hodge Conjecture
   <=> class-specific nodal vanishing-cycle relation              [B010/G006]
   <=> nonempty codimension-two local support                     [B012/G008]
   <=> universal-incidence edge escape                            [B128/G086]
+      <= filtered incidence boundary survival                   [B130/G087]
       <= class-paired multipart nodal incidence                  [B026-B058/G028-G029]
       <= clean-nodal class-specific support intersection         [G031, OPEN]
           <= exact plane-net class-preserving collision          [G030, STRONGER]
@@ -97,6 +98,16 @@ exclude that landing. B129/NG103 show on every \(\mathbf P^d\) that
 projectivity, full support, geometric polarizable weight-\(-1\) coefficients,
 purity, hard Lefschetz, and rational type \((0,0)\) do not suffice. The exact
 universal-incidence origin \([q_m^*\zeta]_{00}\) is indispensable.
+
+B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
+calculation with the exact universal-hyperplane indices. It finds the
+primitive \((r,r)\) component in
+\(\mathcal H^{-d+1}\operatorname{gr}^{F}_{-r}\operatorname{DR}(M)\), but
+NG104 proves that this is not yet local Betti support: on the smooth locus,
+\(\mathcal H^{-d+1}\operatorname{DR}(M)=0\), so filtered differentials cancel
+the Higgs class. Brogan also leaves the Leray-incidence map comparison
+unchecked. G087 now asks for that identification and for noncancellation at
+one discriminant stalk.
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -583,6 +594,7 @@ python verification/verify_B124_relative_lift_target_rigidity.py
 python verification/verify_B126_a2_no_multinode.py
 python verification/verify_B127_gate_split.py
 python verification/verify_B129_projective_escape.py
+python verification/verify_B130_nori_higgs_indices.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -743,6 +755,10 @@ B128 identifies G008 with the nonvanishing edge image of the universal
 incidence class. B129/NG103 provide a projective full-support geometric Hodge
 countermodel to every formal shortcut, leaving G086's incidence-specific
 escape exclusion as the active operational statement.
+B130/NG104 close the direct Nori/Higgs inference: associated-graded
+nonvanishing is cancelled in ordinary de Rham cohomology over the smooth
+locus. G087 isolates the remaining map-identification and boundary-survival
+calculation.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

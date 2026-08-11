@@ -172,6 +172,15 @@ rational type-\((0,0)\) \(IH^1\) class and zero local target sheaf. Therefore
 the next proof must use the exact universal-incidence origin of
 \(s_m(\zeta)\), not only projectivity, purity, hard Lefschetz, or Hodge type.
 
+B130 now audits the strongest immediate incidence-specific input. Nori
+connectivity and Brogan Corollary 4.1 place the primitive \((r,r)\) component
+in (mathcal H^{-d+1}\operatorname{gr}^{F}_{-r}\operatorname{DR}(M)).
+NG104 shows that this is not the local Betti sheaf: on \(P^{\rm sm}\), the
+ordinary degree-(-d+1) de Rham cohomology vanishes while the Higgs-graded
+cohomology can be nonzero. The primary source also leaves its Leray map
+unidentified with the abstract primitive map. G087 is the resulting filtered
+incidence boundary-survival gate.
+
 ## Sufficient parent: G014
 
 For each smooth projective complex variety in the middle-degree reduction,
@@ -359,5 +368,6 @@ class-specific and non-circular: produce such incidence from a global
 detector without presupposing an algebraic representative.
 G008 remains the terminal-equivalent support theorem. B128/G086 give its
 exact edge-escape form, while B129/NG103 close the formal projective-Hodge
-shortcut. G007/NG-010 remain the concrete tube-concentration attempt and its
-class-directed incidence mismatch.
+shortcut. B130/NG104 close the direct Nori/Higgs shortcut and leave G087's
+map identification plus discriminant-stalk survival. G007/NG-010 remain the
+concrete tube-concentration attempt and its class-directed incidence mismatch.

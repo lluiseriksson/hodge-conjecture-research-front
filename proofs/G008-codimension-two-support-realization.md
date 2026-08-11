@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; local Green-Griffiths invariant and Saito rel
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B007, B010-B012, B014-B015, B127-B129, G084-G086, NG102-NG103, and the attempted mechanisms B011 and B013
+dependencies: B007, B010-B012, B014-B015, B127-B130, G084-G087, NG102-NG104, and the attempted mechanisms B011 and B013
 claim: For every nonzero primitive rational Hodge class zeta, there is a sufficiently high embedding for which the associated local Green-Griffiths invariant is nonzero at some discriminant point, equivalently Sing(zeta) is nonempty for that embedding.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class whose local Green-Griffiths invariant vanishes at every parameter point for every sufficiently high power
 ---
@@ -99,6 +99,25 @@ escape row while its local target sheaf vanishes everywhere.
 The surviving input must therefore be the exact universal-incidence origin
 \(s_m(\zeta)=[q_m^*\zeta]_{00}\). G086 records the resulting edge-survival
 obligation. It is an operational form of G008, not a smaller terminal gate.
+
+## Attempt 5 - Apply Nori connectivity to the universal incidence
+
+B130 specializes Nori's theorem and Brogan's filtered \(D\)-module formula
+to the exact middle Hodge component. It produces
+
+\[
+H^{r,r}_{\rm prim}(X)\otimes\mathcal O_P
+\simeq
+\mathcal H^{-d+1}\operatorname{gr}^{F}_{-r}\operatorname{DR}(M).
+\]
+
+NG104 closes the direct inference to local support. On the smooth locus,
+\(\operatorname{DR}(M)\simeq V_{\mathbf C}[d]\), so its ordinary
+degree-(-d+1\) cohomology sheaf is zero: filtered differentials cancel the
+nonzero Higgs class. Brogan also explicitly leaves the comparison between
+the Leray-incidence map and the abstract Corollary 4.1 map unchecked. G087
+therefore requires both canonical map identification and failure of that
+cancellation at a discriminant stalk.
 
 ## Smallest concrete obligation
 
