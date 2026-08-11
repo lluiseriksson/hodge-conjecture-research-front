@@ -54,3 +54,7 @@ type-\((0,0)\) detector with nonzero specified pairing.
 G130 is the current smallest algebraic construction gate inside G129. It
 does not claim that the quadratic congruence implies any higher rung or
 produces an algebraic cycle.
+B201 decomposes the next cubic rung into a pure \(U^3\) tensor and a mixed
+\(\overline K\,U^2\) Hessian filter. G131 records their simultaneous
+vanishing as the next operational gate; NG163 prevents replacing it by
+formal normalization of the central member alone.

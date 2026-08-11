@@ -899,6 +899,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   the rational detector.
 - NG162 - NO-GO: \(F\) and every other point-ideal generator vanish on
   \(Z\), so none can supply B200's full-support multiplier \(t\).
+- B201 - PROVED: after quadratic closure, the cubic tensor has only the
+  pure block \(\Theta\) on \(U^3\) and the mixed block
+  \(\Xi:\overline K\to(\mathcal T/S)\otimes\operatorname{Sym}^2U^*\);
+  all blocks with at least two double directions vanish.
+- G131 - EXPLORATORY: kill both \(\Theta\) and \(\Xi\) in the full
+  projective tangent system while retaining G130 and the rational detector.
+- NG163 - NO-GO: formal Morse normalization of \(F\) on the selected
+  \(U\)-slice does not control Hessians of the omitted double directions.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1498,6 +1506,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   NG161 excludes the unaugmented transverse complete-intersection model.
   B200/G130 express holonomy and the multiplier by one global quadratic
   congruence; NG162 forces an ambient multiplier outside the point ideal.
+  B201/G131 split the cubic rung into pure and mixed filters; NG163 excludes
+  central formal normalization as a proof of full cubic vanishing.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

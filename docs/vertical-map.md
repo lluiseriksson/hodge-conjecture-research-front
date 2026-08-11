@@ -1040,6 +1040,30 @@ tensor with value multiplier. G130 is therefore the current smallest
 algebraic gate inside the new-double branch. NG162 records that \(t\) must
 lie outside \(J_m\), since every ideal generator has zero value vector.
 
+B201 decomposes the next rung after \(\kappa_2=0\). In the full projective
+value-zero tangent kernel
+
+\[
+ \ker E=U\oplus\overline K,\qquad
+ \overline K=H^0(I_{2Z}H^m)/\mathbf CF,
+\]
+
+all cubic blocks containing at least two \(\overline K\) inputs vanish.
+The remaining exact obligations are
+
+\[
+ \Theta\in(\mathcal T/S)\otimes\operatorname{Sym}^3U^*=0,
+\qquad
+ \Xi:\overline K\to
+ (\mathcal T/S)\otimes\operatorname{Sym}^2U^*=0. \tag{**************}
+\]
+
+Here \(\Xi(a)(b,c)\) is the class of the node vector obtained by contracting
+the Hessian of \(a\) with the two inverse-Hessian transports of \(b,c\).
+G131 is the next cubic gate. NG163 records that a formal Morse normal form
+for \(F\) can at most address the pure block; it does not synchronize every
+double direction in \(\overline K\).
+
 Two sufficient attacks feed G008:
 
 \[

@@ -700,6 +700,14 @@ this congruence inside the class-directed augmented generator package.
 NG162 records that neither \(F\) nor any other ideal generator can serve
 as \(t\), because every such section has zero values on \(Z\).
 
+B201 decomposes the cubic Kuranishi tensor on the full value-zero tangent
+kernel \(U\oplus\overline K\). Only two blocks can survive: a pure
+\(U^3\) tensor \(\Theta\) and a mixed Hessian map
+\(\Xi:\overline K\to(\mathcal T/S)\otimes\operatorname{Sym}^2U^*\).
+G131 asks to kill both. NG163 excludes normalizing only the central Morse
+germ, because that does not constrain Hessians of all omitted double
+directions in \(\overline K\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1274,6 +1282,7 @@ python verification/verify_B196_tangent_span.py
 python verification/verify_B197_B198_birth_window.py
 python verification/verify_B199_nodal_generator.py
 python verification/verify_B200_quadratic_congruence.py
+python verification/verify_B201_cubic_filters.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1581,6 +1590,8 @@ the nodal divisor.
 B200/G130 replace the remaining quadratic holonomy/multiplier package by a
 third-neighborhood congruence; NG162 forces its multiplier to come from
 outside the point ideal.
+B201/G131 isolate the exact pure and mixed cubic filters; NG163 blocks
+promoting a nodewise formal Morse normalization to full cubic closure.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

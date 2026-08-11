@@ -3143,3 +3143,22 @@
 - **Re-entry condition:** construct an ambient
   \(t\in H^0(H^m)\setminus J_m\) with nowhere-zero values and prove
   \(tF-\mu_2(Q)\in H^0(I_Z^3H^{2m})\), retaining every higher obligation.
+
+## NG-163 - Promote a formal Morse normal form to full cubic closure
+
+- **Label:** NO-GO
+- **Route:** formally normalize the central section \(F\) to its common
+  quadratic form on the selected \(U\)-slice and infer \(\kappa_3=0\).
+- **Valid input:** nodewise formal coordinates remove higher spatial terms
+  of the fixed central ODP germ.
+- **Invalid inference:** those coordinate changes synchronize every
+  parameter direction in the full projective tangent system.
+- **Precise obstruction:** B201's mixed block evaluates the independent
+  Hessians of all
+  \(\overline K=H^0(I_{2Z}H^m)/\mathbf CF\) directions. Central
+  normalization imposes no vanishing of this map.
+- **Detector guard:** a selected formal slice neither proves reduced
+  full-incidence integration nor retains the rational detector and pairing.
+- **Re-entry condition:** prove both \(\Theta=0\) and \(\Xi=0\) in G131
+  without deleting \(\overline K\), then proceed separately to the quartic
+  and every later finite rung.
