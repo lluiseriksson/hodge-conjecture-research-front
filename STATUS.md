@@ -1352,9 +1352,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   is \(8d-16\) for even \(d\ge16\), removing the standard tie at
   \(d=22\) without closing G190.
 - NG224 - NO-GO: one residual dimension after the third escape.
-- G190 - EXPLORATORY, restored active smallest branch: exclude or
-  classify cubic/quartic equality \(7d+5\) on B264's planar locus for
-  every even \(d\ge22\), while retaining every G144 detector clause.
+- G190 - EXPLORATORY, active smallest branch: classify square equality
+  for \(d=14,16,18,20\) and quartic equality for every even
+  \(d\ge22\), while retaining every G144 detector clause.
 - G191 - CONDITIONAL: inactive boundary requiring a valid replacement
   for B265.
 - G192 - CONDITIONAL: inactive downstream boundary requiring closure
@@ -1364,11 +1364,18 @@ generation from the controlled partitioned nodal locus is not proved.**
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
 - NG225 - NO-GO: no further sextic interpolation can exclude that
   equality witness; G190 must now address its detector and ODP clauses.
-- B269 - PROVED: every eighth distinct double neighborhood raises
-  B268's exact rank; its seven-support witness cannot extend to the
+- B269 - PROVED: every eighth distinct double neighborhood raises the
+  rank of any \(3+3\) seven-support configuration.
+- NG226 - NO-GO: no exact \(3+3\) witness extends to the
   \(N=2(7d+5)\) marked scheme required by G190.
-- NG226 - NO-GO: direct promotion of B268 is closed, but other planar
-  cubic configurations and the quartic branch remain unclassified.
+- B270 - PROVED: rank-one residual sextic jets force rank-one cubic
+  jets, so every cubic through the seven plane points is singular at
+  the seventh point.
+- B271 - PROVED: the degree-three weak-del-Pezzo root and fiber
+  classification forces the planar equality configuration to be
+  \(3+3\) on two lines through the seventh point.
+- NG227 - NO-GO: B269 then prevents an eighth absorbed double, excluding
+  cubic equality for all even \(d\ge22\); quartic equality remains.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

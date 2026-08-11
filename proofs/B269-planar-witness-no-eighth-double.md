@@ -2,11 +2,11 @@
 brick_id: B269
 status: PROVED
 base_field: C
-variety: the smooth split even-dimensional quadric X=Q^d with d=2n>=22, B268's isotropic plane Pi and seven supports P7, cubic A=O_Q(3), and H=O_Q(6)
+variety: the smooth split even-dimensional quadric X=Q^d with d=2n>=22, an isotropic plane Pi, two generator lines through u carrying three further supports each, cubic A=O_Q(3), and H=O_Q(6)
 smoothness: Q^d, Pi, and every reduced support are smooth; no central ODP divisor or incidence package is asserted
 projectivity: the split quadric, isotropic plane, its two generator lines, the complete sextic embedding, and restrictions to double finite schemes are projective
-dimension: dim X=d=2n>=22; the seven double neighborhoods have rank 7d+5, and every eighth distinct double neighborhood raises that rank by at least one
-codimension: the primitive codimension-n ruling difference remains only a universal test input; the theorem obstructs extending B268's exact seven-support rank witness to G190's reduced marked scheme of length N=2(7d+5)
+dimension: dim X=d=2n>=22; every eighth distinct double neighborhood raises the rank of any such seven-support 3+3 configuration by at least one; at cubic equality the initial rank is 7d+5
+codimension: the primitive codimension-n ruling difference remains only a universal test input; the theorem obstructs extending any exact 3+3 seven-support cubic equality witness to G190's reduced marked scheme of length N=2(7d+5)
 coefficient_field: Q for the explicit planar coordinates and connector lines, Q for the ruling difference, and C for global sections and first jets
 cohomology_theory: rational singular cohomology and coherent restriction to double finite schemes
 hodge_type: the ruling difference is nonzero primitive rational type (n,n); no rational type-(0,0) detector is constructed
@@ -14,18 +14,20 @@ cycle_class_map: CH^n(Q^(2n))_Q -> H^(2n)(Q^(2n),Q(n)); algebraicity of an arbit
 cycle_equivalence: rational equivalence
 scope: absolute
 dependencies: B196, B213, B268, G190, S081
-claim: For B268's seven supports P7 on Q^d, every point x outside P7 admits a sextic section vanishing on 2P7 but not on 2x. Hence the dual span of 2P7 contains no eighth tangent osculator, and B268's exact rank witness cannot itself extend to the N=2(7d+5) reduced marked scheme required by G190.
+claim: Let P7 consist of u and three distinct points on each of two distinct generator lines through u in an isotropic plane of Q^d. Every point x outside P7 admits a sextic section vanishing on 2P7 but not on 2x. Hence the dual span of 2P7 contains no eighth tangent osculator, and no exact cubic 3+3 equality witness can extend to the N=2(7d+5) reduced marked scheme required by G190.
 falsifier: a point x outside P7 for which every sextic vanishing doubly at P7 also vanishes doubly at x, failure of the connector-product construction on Pi, failure of the square-hyperplane construction off Pi, or a G190 marked scheme extending the exact B268 supports without increasing h_Z(1)
 ---
 
-# B269 — The exact planar witness absorbs no eighth double
+# B269 — No planar \(3+3\) witness absorbs an eighth double
 
-Retain B268's affine coordinates on the isotropic plane:
+Choose affine coordinates on the isotropic plane:
 
 \[
- u=(0,0),\qquad p_i=(i,0),\qquad q_i=(0,i),
- \qquad i=1,2,3. \tag{1}
+ u=(0,0),\qquad p_i=(a_i,0),\qquad q_i=(0,b_i),
+ \qquad i=1,2,3, \tag{1}
 \]
+
+where the \(a_i\) and the \(b_i\) are nonzero and pairwise distinct.
 
 Write \(L_p,L_q\) for the two coordinate generator lines and
 \(\ell_p,\ell_q\) for their linear equations.
@@ -89,7 +91,7 @@ at \(x\); hence \(dF_x(x)\ne0\). In either case (2) holds.
 
 ## Consequence for G190
 
-B268 gives
+If the configuration occurs at cubic equality, its rank is
 
 \[
  \operatorname{rank}\bigl(H^0(Q,O_Q(6))\to
@@ -109,7 +111,7 @@ point span. Since G190 requires
 the exact B268 support configuration cannot be extended to the required
 marked scheme.
 
-This rejects only the direct promotion of B268. It does not classify
-all planar cubic equality configurations, construct an ODP package,
-produce a rational detector or specified pairing, construct a cycle,
-or prove or disprove HC.
+This rejects every direct promotion after a \(3+3\) classification.
+It does not itself prove that all planar cubic equality configurations
+have that form, construct an ODP package, produce a rational detector
+or specified pairing, construct a cycle, or prove or disprove HC.

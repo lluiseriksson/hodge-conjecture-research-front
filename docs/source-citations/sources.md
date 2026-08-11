@@ -2559,6 +2559,43 @@ Projective Spaces,” *Communications in Algebra* **40** (2012), no. 10,
   package, rational type-\((0,0)\) detector, specified Hodge pairing,
   algebraic cycle, or Hodge-Conjecture reduction.
 
+## S084 - Weak degree-three del Pezzo anticanonical fibers
+
+Michel Demazure, “Surfaces de Del Pezzo: III - Positions presque
+générales” and “IV - Systèmes anticanoniques,” in *Séminaire sur les
+singularités des surfaces*, Lecture Notes in Mathematics **777**
+(Springer, 1980), 23–69.
+[NUMDAM III](https://www.numdam.org/item/SSS_1976-1977____A6_0/),
+[NUMDAM IV](https://www.numdam.org/item/SSS_1976-1977____A7_0/).
+
+Régis Blache and Emmanuel Hallouin, “Classification of Singular Del
+Pezzo Surfaces over Finite Fields,” arXiv:2301.13582 (2023).
+[arXiv](https://arxiv.org/abs/2301.13582).
+
+- Audited Demazure III, Section 2, Theorem 1: for ordinary distinct
+  points, almost general position is equivalent to no four collinear
+  points and no seven points on one irreducible conic, together with the
+  infinitely-near condition, which is vacuous here.
+- Audited Demazure III, Section 7, Theorem 2: effective roots are
+  generated uniquely by the irreducible effective roots; this supports
+  the use of their intersection graph after the direct degree-one/two
+  root calculation in B271.
+- Audited Demazure IV, Section 1, Proposition 1, and Section 2,
+  Corollary 1 to Proposition 2: the schematic fiber of the complete
+  linear-system morphism is its fixed fundamental cycle.
+- Audited Blache-Hallouin pp. 5–9, especially Definition 1.2,
+  Proposition 1.7, Lemma 1.12, Remark 2.2, and Theorem 2.3: for degree
+  at least three the anticanonical image is the anticanonical model;
+  in degree three it is a cubic surface, and the morphism is the minimal
+  resolution whose nontrivial schematic fibers are the fundamental
+  cycles of the connected \((-2)\)-curve configurations.
+- B271 scope: the source theorem is used only on the auxiliary blow-up
+  of \(\mathbf P^2\) at six distinct complex points. B271 derives the
+  allowed root classes and their \(A_1/A_2\) incidence directly.
+- Scope guard: neither source constructs G190's marked scheme, ODP
+  incidence, Kuranishi vanishing, rational Hodge detector, specified
+  pairing, algebraic cycle, or a proof or disproof of HC.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

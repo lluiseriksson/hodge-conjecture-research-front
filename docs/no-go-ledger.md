@@ -4560,10 +4560,10 @@
   Kuranishi vanishing, rational type, and specified pairing on or beyond
   B268's witness.
 
-## NG-226 - Extend B268 to the required marked scheme
+## NG-226 - Extend a \(3+3\) witness to the required marked scheme
 
 - **Label:** NO-GO
-- **Route:** retain B268's exact rank while adjoining the remaining
+- **Route:** retain an exact \(3+3\) rank while adjoining the remaining
   supports required by G190.
 - **Exact obstruction:** B269 constructs for every \(x\notin P_7\) a
   sextic vanishing on \(2P_7\) but not on \(2x\).
@@ -4572,10 +4572,29 @@
 - **Cardinality mismatch:** G190 requires \(N=2(7d+5)>7\), while tangent
   absorption would put every marked double neighborhood in the same
   rank-\((7d+5)\) span.
-- **Scope guard:** only the explicit B268 configuration is excluded;
-  other planar cubic configurations and the quartic branch remain open.
+- **Scope guard:** the separator applies to every \(3+3\) configuration;
+  B271 separately proves that cubic equality forces this form.
 - **Detector guard:** no relation, ODP package, Kuranishi vanishing,
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
-- **Re-entry condition:** classify every planar equality first-jet base
-  scheme or attack quartic equality.
+- **Re-entry condition:** attack quartic equality.
+
+## NG-227 - Retain cubic planar equality
+
+- **Label:** NO-GO
+- **Route:** realize G190 with \(A=O_Q(3)\) at rank \(7d+5\).
+- **Jet reduction:** B270 transfers rank-one residual sextic jets to
+  zero differential of the cubic anticanonical system.
+- **Root classification:** B271 proves that the six-point blow-up has
+  only line/conic roots with connected components \(A_1/A_2\).
+- **Fiber obstruction:** the audited anticanonical fiber theorem forces
+  the zero differential to occur at an \(A_2\) intersection, giving
+  complementary collinear triples through \(u\).
+- **Extension obstruction:** generalized B269 separates every eighth
+  double from every such \(3+3\) span.
+- **Cardinality contradiction:** G190 requires \(N=2(7d+5)>7\) absorbed
+  marked tangent osculators.
+- **Conclusion:** cubic equality is impossible for every even
+  \(d\ge22\).
+- **Re-entry condition:** audit quartic equality in those dimensions;
+  the low-dimensional square branch remains separate.

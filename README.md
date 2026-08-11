@@ -1541,6 +1541,17 @@ NG226 records that B268 cannot be promoted directly to the required
 \(N=2(7d+5)\) marked scheme. This does not exclude other planar
 equality configurations or the quartic branch.
 
+B270-B271 close that remaining classification gap. Rank-one residual
+plane sextic jets force the cubic system through the six supports to
+have zero projective differential at \(u\). On the blow-up of the plane,
+the effective \((-2)\)-curves are exactly three-point lines or one
+six-point conic; their connected components are \(A_1\) or \(A_2\).
+The audited anticanonical-fiber theorem then forces an \(A_2\)
+intersection, hence complementary collinear triples through \(u\).
+B269 excludes every eighth double for every such \(3+3\) configuration,
+so NG227 closes cubic equality for all even \(d\ge22\). G190 retains the
+quartic branch there and the square branch in dimensions 14–20.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2169,6 +2180,7 @@ python verification/verify_B266_standard_one_beyond_third_escape.py
 python verification/verify_B267_planar_product_jet_cancellation.py
 python verification/verify_B268_planar_cubic_equality.py
 python verification/verify_B269_planar_witness_no_eighth.py
+python verification/verify_B270_B271_cubic_equality.py
 ```
 
 The repository verifier checks the required directory topology, result

@@ -2211,14 +2211,14 @@ and all such images coincide. The claimed cubic/quartic floor
 B266 independently excludes the standard value \(8d-17\) for even
 \(d\ge16\): after three minimal escapes only one dimension remains,
 below the fourth rank \(d-7\). It removes the standard tie at \(d=22\)
-without changing the common floor. The corrected active branch is
+without changing the common floor. At the B267 checkpoint the branch was
 
 \[
  \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
  \Longleftarrow\text{G190: planar cubic/quartic equality plus the full G144 package}.
 \]
 
-The audited survivors are \(k=2\) in dimensions \(14,16,18,20\) and
+The survivors at that checkpoint were \(k=2\) in dimensions \(14,16,18,20\) and
 the B264 planar \(k=3,4\) branch in every even dimension at least 22.
 G191 and G192 are conditional downstream boundaries only.
 
@@ -2239,10 +2239,10 @@ branch therefore refines to
 The equality rank is PROVED, but every term on the right remains open.
 
 B269 adds the marked-scheme extension test. Its separator construction
-shows that no eighth double neighborhood is absorbed by B268's
+shows that no eighth double neighborhood is absorbed by any \(3+3\)
 rank-\((7d+5)\) span. Since G190 needs \(N=2(7d+5)\) distinct marked
-points, the explicit witness cannot propagate upward. The live branch
-is therefore
+points, such a witness cannot propagate upward. Before B271, the live
+branch was therefore
 
 \[
  \text{G190}
@@ -2258,6 +2258,22 @@ is therefore
 followed, in either case, by every relation, ODP, Kuranishi,
 rational-type, and specified-pairing obligation. B269 does not supply
 those clauses.
+
+B270-B271 close the cubic classification alternative. Residual sextic
+rank one forces zero differential of the anticanonical cubic system.
+On the six-point plane blow-up, the direct root calculation and S084
+leave only \(A_1/A_2\) fundamental cycles; zero differential forces the
+\(A_2\) intersection and hence a \(3+3\) line partition. Generalized
+B269 then forbids every eighth absorbed double. Therefore
+
+\[
+ \text{G190 high-dimensional branch}
+ \Longleftarrow
+ \text{quartic equality for even }d\ge22,
+\]
+
+while the square equality branch remains in dimensions
+\(14,16,18,20\). Every detector and cycle obligation is still open.
 
 Two sufficient attacks feed G008:
 

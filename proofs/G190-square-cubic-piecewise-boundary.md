@@ -13,9 +13,9 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B007-B010, B134-B269, G013, G090-G148, G172, NG106-NG226, S081-S083
+dependencies: B007-B010, B134-B271, G013, G090-G148, G172, NG106-NG227, S081-S084
 claim: For every arbitrary primitive target (X,zeta) of even dimension d>=14, choose A and construct the complete G144 package at m=2, h_Z(1)=K(d), delta_1=K(d)-d-1, slack s_4(d)=2(K(d)-d-1), and N=2K(d), retaining the full relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing clauses.
-falsifier: one primitive target for which no polarization realizes the piecewise package; after B266-B268, even quadrics leave k=2 for d=14,16,18,20 and an exact coherent-rank k=3 witness for every even d>=22, but no complete detector package
+falsifier: one primitive target for which no polarization realizes the piecewise package; after B266-B271, even quadrics leave k=2 for d=14,16,18,20 and only k=4 for every even d>=22, with no complete detector package
 ---
 
 # G190 — The square/cubic piecewise boundary
@@ -34,14 +34,13 @@ where
 \begin{array}{c|c|c|c}
  d & K(d) & s_4(d) & \text{polarizations not yet excluded}\\ \hline
  14,16,18,20 & 6d+6 & 10d+10 & A=O_Q(2)\\
- 22 & 159 & 272 & A=O_Q(1),O_Q(3),O_Q(4)\\
- d\ge24\text{ even} & 7d+5 & 12d+8 & A=O_Q(3),O_Q(4).
+ 22 & 159 & 272 & A=O_Q(4)\\
+ d\ge24\text{ even} & 7d+5 & 12d+8 & A=O_Q(4).
 \end{array} \tag{2}
 \]
 
 G190 is the next falsifiable gate: classify equality in the square
-low-dimensional cases and the cubic/quartic high-dimensional cases,
-including the standard tie at \(d=22\), then retain every G144
+low-dimensional cases and the quartic high-dimensional cases, then retain every G144
 relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing
 clause. Rank survival alone would not construct an algebraic cycle or
 prove or disprove HC.
@@ -83,3 +82,14 @@ the same rank-\((7d+5)\) span. NG226 closes only that promotion route.
 The next smallest gate is to classify all planar cubic equality
 first-jet base schemes, or to audit the quartic equality branch; the
 full detector package remains open.
+
+B270-B271 now classify every cubic equality configuration. Rank-one
+plane sextic jets collapse the anticanonical differential; the
+six-point weak-del-Pezzo root and fundamental-cycle classification
+forces complementary collinear triples through \(u\). Generalized B269
+then separates every eighth double, contradicting the required
+\(N=2(7d+5)\) marked supports. NG227 excludes \(A=O_Q(3)\) for every
+even \(d\ge22\). G190 remains EXPLORATORY with square equality in
+dimensions \(14,16,18,20\) and quartic equality for every even
+\(d\ge22\); no relation, ODP, Kuranishi, rational-type, or specified
+pairing clause has been constructed.

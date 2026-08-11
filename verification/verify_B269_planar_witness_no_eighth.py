@@ -45,7 +45,7 @@ require(
         "status: PROVED",
         "F_x=E^2M^4",
         "every eighth distinct double neighborhood",
-        "cannot be extended",
+        "no exact cubic 3+3 equality witness",
         "prove or disprove HC",
     ),
 )
@@ -54,7 +54,7 @@ require(
     (
         "brick_id: NG226",
         "status: NO-GO",
-        "not every planar cubic equality configuration",
+        "every \\(3+3\\) configuration",
         "G190",
     ),
 )
