@@ -1337,6 +1337,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   for \(d=14,16,18,20\), the standard/cubic/quartic tie at \(d=22\),
   and cubic/quartic equality for every even \(d\ge24\), retaining every
   G144 detector clause.
+- NG222 - NO-GO: good-edge avoidance alone cannot remove B261's
+  tangent-hyperplane kernel; a split totally orthogonal configuration
+  has rank exactly \(d-1\) for every single edge.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

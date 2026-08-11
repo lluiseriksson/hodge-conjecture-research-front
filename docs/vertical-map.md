@@ -2186,6 +2186,13 @@ dimensions, \(k=1,3,4\) at \(d=22\), and \(k=3,4\) for every even
  \Longleftarrow\text{piecewise equality classification plus the full G144 package}.
 \]
 
+The smallest current attack inside G190 is the cubic/quartic
+seventh-jet equality. NG222 proves that one good variable edge cannot
+by itself improve B261: a totally orthogonal split configuration keeps
+the tangent-hyperplane kernel in every edge space. The next justified
+subgate is therefore a multi-edge image-sum theorem, with an explicit
+separate treatment of that totally orthogonal locus.
+
 Two sufficient attacks feed G008:
 
 \[

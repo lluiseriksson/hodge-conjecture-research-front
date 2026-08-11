@@ -4460,3 +4460,28 @@
 - **Conclusion:** G189 is closed as a universal gate; the surviving
   equality regimes pass to G190. G148 and HC remain open.
 - **Re-entry condition:** G190 uses B263's \(K(d)\) and survivor table.
+
+## NG-222 - Remove the tangent kernel with one good edge
+
+- **Label:** NO-GO
+- **Route:** strengthen B261 by claiming that any good pair edge has
+  seventh first-jet rank \(d\).
+- **Valid premise:** a good pair line avoids the seventh point \(u\).
+- **Invalid inference:** it therefore avoids the tangent hyperplane
+  kernel at \(u\).
+- **Countermodel:** on a split quadric take \(u=[e_0]\) and
+  \(p_i=[e_i]\), \(1\le i\le6\), in a hyperbolic basis. Every pair line
+  avoids \(u\), but every \(p_i\) lies in \(u^\perp\).
+- **Kernel obstruction:** \(T_uQ=\mathbf P(u^\perp)\) contains every
+  pair line, so its linear equation belongs to every variable-edge
+  space and spans the restriction kernel.
+- **Rank consequence:** every single-edge image has rank exactly
+  \(d-1\), the B261 bound.
+- **Universal-quantifier guard:** the countermodel refutes only the
+  proposed one-edge lemma; it is not promoted to a G190 construction.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** the one-edge route cannot raise the cubic/quartic
+  floor from \(7d+5\) to \(7d+6\). G190 remains open.
+- **Re-entry condition:** combine at least two variable-edge images or
+  exclude the totally orthogonal configuration using stronger geometry.

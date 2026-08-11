@@ -45,3 +45,8 @@ including the standard tie at \(d=22\), then retain every G144
 relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing
 clause. Rank survival alone would not construct an algebraic cycle or
 prove or disprove HC.
+
+NG222 shows that a single good variable edge cannot improve B261 in
+the totally orthogonal locus. The narrowest re-entry is to prove that
+the sum of at least two variable-edge images supplies the missing jet,
+or to exclude that locus by a stronger geometric argument.

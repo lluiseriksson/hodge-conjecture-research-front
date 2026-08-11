@@ -1468,6 +1468,13 @@ Equality leaves \(k=2\) in the four low dimensions, \(k=1,3,4\) at
 \(d=22\), and \(k=3,4\) for even \(d\ge24\). All detector and cycle
 obligations remain open.
 
+NG222 blocks the tempting one-edge upgrade of B261. On a split quadric,
+six supports can all lie in \(T_uQ\) while every pair edge still avoids
+\(u\). Then the tangent hyperplane belongs to every variable-edge
+space, so each restriction has rank exactly \(d-1\), not \(d\).
+Further progress at G190 must combine multiple edge images or rule out
+this totally orthogonal configuration by additional geometry.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2089,6 +2096,7 @@ python verification/verify_B260_seventh_point_polarization.py
 python verification/verify_B261_variable_edge_seventh_jet.py
 python verification/verify_B262_standard_third_parametric_band.py
 python verification/verify_B263_standard_third_escape_equality.py
+python verification/verify_NG222_single_edge_kernel.py
 ```
 
 The repository verifier checks the required directory topology, result
