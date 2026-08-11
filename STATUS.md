@@ -1297,10 +1297,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(6d+6\), while the common floor is \(6d-7\) and \(s\ge10d-16\).
 - G182 - NO-GO: every layer through \(s=10d-17\) fails.
 - NG214 - NO-GO: cubic survival below six double blocks.
-- G183 - EXPLORATORY, active smallest branch: construct the first
+- B257 - PROVED: exact \(d-4\) contraction at the first standard
+  slope-ten equality leaves a projective-five-space contact locus of
+  quadratic point rank at most 21; the common floor is \(6d-6\) and
+  \(s\ge10d-14\).
+- G183 - NO-GO: the layers \(s=10d-16,10d-15\) fail.
+- NG215 - NO-GO: standard survival at first slope-ten equality.
+- G184 - EXPLORATORY, active smallest branch: construct the second
   standard slope-ten package with
-  \(s=10d-16,\delta_1=5d-8,N=12d-14\), and
-  \(h_Z(1)=6d-7=N/2\); only \(A=O_Q(1)\) survives the quadric rank audit.
+  \(s=10d-14,\delta_1=5d-7,N=12d-12\), and
+  \(h_Z(1)=6d-6=N/2\); only \(A=O_Q(1)\) survives the quadric rank audit.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

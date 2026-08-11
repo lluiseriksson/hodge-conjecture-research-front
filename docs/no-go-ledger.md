@@ -4269,3 +4269,32 @@
 - **Re-entry condition:** G183 begins at
   \(s=10d-16,\delta_1=5d-8,N=12d-14,h_Z(1)=6d-7\), with only
   \(A=O_Q(1)\) surviving at equality.
+
+## NG-215 - Survive the first standard slope-ten equality
+
+- **Label:** NO-GO
+- **Route:** attain \(h_Z(1)=6d-7\) with \(A=O_Q(1)\).
+- **Valid premise:** B253's final branch leaves exactly \(d-4\)
+  dimensions, equal to the first rank-one escape bound.
+- **Invalid inference:** equality of those dimensions allows a large
+  filled contact locus.
+- **Exact-rank obstruction:** contraction of
+  \(\operatorname{Sym}^2J\), \(\dim J=d-3\), has rank \(d-3\) unless
+  the last point \(x\) lies in \(J\). The budget forces \(x\in J\).
+- **Residual-annihilator obstruction:**
+  \(\operatorname{Sym}^2(J\cap x^\perp)\) remains after the tangent at
+  \(x\), and \(\dim(J\cap x^\perp)=d-4\).
+- **Point-rank obstruction:** every later contact lies in a
+  \(\mathbf P^5\), of quadratic point rank at most twenty-one, below
+  \(6d-7\).
+- **Common-floor consequence:** \(h_Z(1)\ge6d-6\) and
+  \(s\ge10d-14\) for every polarization.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G183 and \(s=10d-15\) are closed. G148 and HC remain
+  open.
+- **Re-entry condition:** G184 begins at
+  \(s=10d-14,\delta_1=5d-7,N=12d-12,h_Z(1)=6d-6\), with only
+  \(A=O_Q(1)\) surviving at equality.

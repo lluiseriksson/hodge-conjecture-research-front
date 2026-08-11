@@ -1336,6 +1336,21 @@ The active smallest gate is G183:
 \]
 
 On even quadrics \(d\ge14\), only \(A=O_Q(1)\) survives at equality.
+B257 excludes that first standard equality. Every B253 branch is still
+strictly too small except its final \(d-4\) case. Exact contraction
+there forces the last point into \(J\), leaving
+\(\operatorname{Sym}^2(J\cap x^\perp)\) in the annihilator of the filled
+span. Its contact locus lies in \(\mathbf P^5\), of quadratic point rank
+at most 21, a contradiction. Hence the common floor becomes
+\(h_Z(1)\ge6d-6\), \(s\ge10d-14\). G183 and its odd layer are
+**NO-GO** (NG215). The active smallest gate is G184:
+
+\[
+ m=2,\qquad s=10d-14,\qquad \delta_1=5d-7,\qquad
+ N=12d-12,\qquad h_Z(1)=6d-6=N/2.
+\]
+
+On even quadrics \(d\ge14\), only \(A=O_Q(1)\) survives at equality.
 This remains only a necessary window; every geometric and detector
 obligation is open.
 
@@ -1953,6 +1968,7 @@ python verification/verify_B253_standard_parametric_band.py
 python verification/verify_B254_square_six_double_floor.py
 python verification/verify_B255_higher_power_five_double.py
 python verification/verify_B256_cubic_six_double_floor.py
+python verification/verify_B257_standard_first_slope_ten.py
 ```
 
 The repository verifier checks the required directory topology, result

@@ -71,11 +71,11 @@ require(
 )
 require(
     "proofs/G183-standard-first-slope-ten-boundary.md",
-    ("brick_id: G183", "status: EXPLORATORY", "A=O_Q(1)", "N=12d-14"),
+    ("brick_id: G183", "status: NO-GO", "B257", "N=12d-14"),
 )
 require(
     "proofs/NG214-cubic-six-point-survival.md",
     ("brick_id: NG214", "status: NO-GO", "h_Z(1)\\ge6d+6", "G183"),
 )
 
-print("PASS: B256 cubic six-double floor, G182-G183, and NG214")
+print("PASS: B256 cubic six-double floor, G182-G183 transition, and NG214")

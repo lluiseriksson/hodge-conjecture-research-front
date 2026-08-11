@@ -2061,13 +2061,27 @@ are NO-GO. The next signature is
 \]
 
 Only \(A=O_Q(1)\) survives this equality audit on even quadrics
+\(d\ge14\). B257 excludes the first standard equality. All B253
+branches remain strictly excluded except the final \(d-4\)-budget case.
+Exact contraction there forces \(x\in J\) and leaves
+\(\operatorname{Sym}^2(J\cap x^\perp)\) in the filled annihilator.
+The resulting contact locus is a \(\mathbf P^5\) of quadratic point rank
+at most 21. Thus G183 and \(s=10d-15\) are NO-GO, and the common floor
+is \(6d-6\). The next signature is
+
+\[
+ \delta_1=5d-7,\qquad N=12d-12,\qquad
+ \dim E_1=6d-6=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+\]
+
+Only \(A=O_Q(1)\) survives this equality audit on even quadrics
 \(d\ge14\).
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G183: construct the first standard slope-ten boundary}
+ \text{G184: construct the second standard slope-ten boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 
