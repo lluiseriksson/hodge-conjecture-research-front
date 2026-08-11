@@ -13,7 +13,7 @@ hodge_type: zeta and the selected local relation functional have type (0,0) afte
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative of zeta may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007, B010, B026-B028, B054, B128, B134-B144, G008, G028, G088, and NG103
+dependencies: B007, B010, B026-B028, B054, B128, B134-B145, and NG103
 claim: For every specified nonzero primitive rational Hodge class, some sufficiently high nodal member has a uniform node set U_(R,N), a smooth codimension-R germ contained in every labeled node branch, positive adjoint defect, and a rational relation whose Saito ambient class pairs nontrivially with the specified class; any construction repeated along unbounded powers must obey B141's superlinear node floor.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class for which every high-power uniform nodal member either lacks a saturated smooth deepest germ, has zero adjoint or ambient rank, or has all relation images in zeta-perp
 ---
@@ -101,3 +101,9 @@ an actual simultaneous-node germ with the exact codimension matching its
 uniform smoothing rank. Then prove that its unique or selected adjoint
 relation has nonzero B134 functional. No audited theorem presently supplies
 this object for arbitrary \((X,\zeta)\).
+
+B145 now removes one ambiguity: \(F\) is produced whenever the universal
+ordered-node incidence is smooth at a dependent nodal point with its exact
+tangent codimension \(2nN+R\). G091 is that rank-smooth excess formulation.
+NG116 proves that the generic jet-surjective incidence has \(R=N\) and zero
+adjoint defect, so the target must be a genuinely excess component.

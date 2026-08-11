@@ -160,6 +160,11 @@ an actual smooth codimension-rank deepest germ is automatically Li clean.
 G090 asks for that germ without an algebraic carrier. NG115 shows that
 B132's constant nonzero filtered section is not its equation; its ordinary
 survival locus is exactly the unresolved G088 support.
+B145 computes the ordered-node incidence tangent exactly: Hessian inversion
+identifies it with the kernel of value evaluation. Thus the required germ is
+the image of a smooth excess component of codimension \(2nN+R\). G091 asks
+for that component with nonzero pairing; NG116 excludes the generic
+jet-surjective incidence because it has \(R=N\) and zero defect.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -687,6 +692,7 @@ python verification/verify_B141_superlinear_floor.py
 python verification/verify_B142_dimension_scaled_fiber.py
 python verification/verify_B143_fiber_clean_arrangement.py
 python verification/verify_B144_saturated_stratum.py
+python verification/verify_B145_ordered_node_tangent.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -870,6 +876,9 @@ discriminant is clean and its local primitive functional is nonzero; the
 algebraic anchor is the remaining obstruction. B144/G090 isolate its
 replacement as a saturated simultaneous-node germ; NG115 excludes obtaining
 that germ merely by taking a locus of the canonical filtered section.
+B145/G091 turn the replacement into a smooth excess ordered-node component;
+NG116 shows that the generic expected-codimension component is too
+transverse and has no relation.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

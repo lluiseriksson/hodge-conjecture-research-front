@@ -69,6 +69,8 @@ boundary, not an induction mechanism.
 | clean anchored product detector | B143 proves the B142 nonlinear labeled discriminant is Li clean, with every intersection beyond rank equal to the smooth moving-fiber incidence; B054/B134-B135 give a nonzero local primitive functional | this completes G028 only for the special product family and cannot be imported without an algebraic carrier |
 | saturated-stratum clean criterion | B144 proves that a uniform conormal arrangement containing one smooth codimension-rank germ in every branch is automatically Li clean | G090 must construct that germ and the nonzero pairing without an algebraic carrier |
 | filtered-section stratum shortcut | NG115 audits B132's canonical filtered section as a proposed source of the saturated germ | the section is constant and nonzero; its ordinary survival locus is exactly G088 and supplies no nodal geometry |
+| ordered-node tangent reduction | B145 identifies the incidence tangent at N nodes with the kernel of value evaluation by inverting the nodal Hessians | G091 must construct a rank-smooth excess component with R<N and nonzero specified pairing |
+| generic ordered incidence | NG116 audits the first-jet-surjective expected-codimension component | value rank is N, so B027-B028 force zero adjoint defect and relation space |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -472,3 +474,11 @@ G090 is the corresponding unanchored sufficient gate. Its first attempted
 input fails: NG115 observes that B132's filtered incidence section is a
 constant nonzero section, not a discriminant equation, and its ordinary
 survival support is exactly G088.
+
+B145 makes the saturated-stratum construction intrinsic. At an ordered
+nodal pair, the Hessians uniquely solve for node motion, leaving precisely
+the kernel of value evaluation in the hyperplane direction. A smooth
+incidence point of codimension \(2nN+R\) therefore projects to B144's germ.
+G091 asks for such a component with \(R<N\) and nonzero pairing. NG116
+excludes the generic first-jet-surjective component: it has \(R=N\) and no
+adjoint relation.

@@ -22,6 +22,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{growing multipart residue incidence G013/G028}
 \Longleftarrow
 \text{unanchored saturated-stratum construction G090}
+\Longleftarrow
+\text{class-directed smooth excess incidence G091}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -47,7 +49,10 @@ upward because the construction starts from an algebraic carrier rather
 than an arbitrary class. B144 shows that the clean step would propagate from
 any carrier-free smooth codimension-rank germ contained in all uniform node
 branches. G090 asks for exactly that object. NG115 proves that the canonical
-filtered section does not define it.
+filtered section does not define it. B145 identifies the object with the
+image of a smooth excess point of the ordered-node incidence; G091 is the
+resulting construction gate, and NG116 excludes its generic transverse
+component.
 
 Two sufficient attacks feed G008:
 
@@ -1078,7 +1083,9 @@ nonlinear clean incidence and nonzero B135 quotient. Any scalable general
 G013/G028 attack must reproduce that package without an algebraic anchor.
 B144/G090 reduce the nonlinear-clean part to constructing one saturated
 smooth deepest germ; NG115 excludes taking it to be a locus of B132's
-constant filtered section.
+constant filtered section. B145/G091 further reduce the germ to a
+rank-smooth excess ordered-node component. NG116 proves the generic
+jet-surjective incidence has zero relation and cannot be used.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces

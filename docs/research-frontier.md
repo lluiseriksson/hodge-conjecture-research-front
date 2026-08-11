@@ -149,6 +149,15 @@ is constant and nonzero, hence has empty zero locus, while its ordinary
 survival locus is precisely the unresolved G088 support and carries no
 automatic nodal or smooth-stratum structure.
 
+B145 computes the universal ordered-node tangent space. The nondegenerate
+node Hessians eliminate node motion uniquely, so the projected tangent is
+exactly the kernel of value evaluation. Consequently a smooth incidence
+point of codimension \(2nN+R\) produces B144's saturated codimension-\(R\)
+germ without mentioning a carrier. G091 is the resulting class-directed
+excess-incidence gate. NG116 closes the generic attempt: first-jet
+surjectivity gives \(R=N\), and B027-B028 then force zero adjoint defect and
+zero local relation.
+
 G032 separates the extra cleanup content from terminal support nonemptiness:
 starting with any detecting singular member, deform it to the Li-clean nodal
 locus while preserving a nonzero pairing. The first attempt fails. By B025,

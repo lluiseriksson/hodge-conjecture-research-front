@@ -108,4 +108,6 @@ B144 constructs none of those inputs. In particular, choosing \(F\) as an
 incidence of divisors containing an algebraic carrier retains the
 circularity of NG-029 for arbitrary Hodge classes. The criterion separates
 the clean-geometry obligation from the class-directed construction; it does
-not resolve the latter.
+not resolve the latter. B145 subsequently identifies \(F\) intrinsically as
+the image of a rank-smooth excess component of the ordered-node incidence,
+reducing its construction to G091.

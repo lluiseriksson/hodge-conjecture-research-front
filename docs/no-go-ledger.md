@@ -2174,3 +2174,21 @@
 - **Re-entry condition:** construct an actual simultaneous-node germ from
   the special universal-hyperplane incidence geometry, verify its conormal
   matroid and codimension, and only then apply B144.
+
+## NG-116 - Use the generic ordered-node incidence
+
+- **Label:** NO-GO
+- **Route:** use a generic first-jet-surjective ordered \(N\)-node incidence
+  as the smooth saturated component required by G091.
+- **Valid input:** the principal-parts evaluation is surjective for
+  sufficiently jet-ample systems and general configurations, making the
+  incidence smooth of expected codimension \((2n+1)N\).
+- **Invalid inference:** this transverse incidence carries positive adjoint
+  defect or a nonzero vanishing-cycle relation.
+- **Precise obstruction:** jet surjectivity forces the node values to impose
+  \(N\) independent conditions. B027-B028 then propagate independence to
+  \(K_X\otimes L^n\) in the high-power range, so the adjoint defect,
+  relation space, and detector channel are zero.
+- **Re-entry condition:** construct a nodal point with value rank \(R<N\)
+  where the ordered incidence remains smooth of the exact smaller
+  codimension \(2nN+R\), and prove a nonzero class-specific Saito pairing.
