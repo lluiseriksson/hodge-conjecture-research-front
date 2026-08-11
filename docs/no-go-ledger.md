@@ -2212,3 +2212,20 @@
   degeneracy, integrate it through all higher orders to a reduced smooth
   height-\(R\) smoothing ideal, and prove the nonzero class-specific pairing
   in G092.
+
+## NG-118 - Universalize the carrier Lagrangian core
+
+- **Label:** NO-GO
+- **Route:** for every nonzero primitive rational Hodge class \(\zeta\),
+  choose an algebraic middle-dimensional carrier \(W\) pairing nontrivially
+  with \(\zeta\), then apply S019 and B147.
+- **Valid input:** the carrier conormals are maximal inverse-Hessian
+  isotropic subspaces and explain the anchored smooth-excess examples.
+- **Invalid inference:** such an algebraic detecting carrier is available
+  before rational HC is proved.
+- **Precise obstruction:** Hodge-Riemann nondegeneracy plus B016's
+  annihilator argument shows that algebraic classes detecting every nonzero
+  Hodge class span the entire Hodge space. A nonalgebraic carrier has no
+  algebraic ideal or cycle class for the required projective incidence.
+- **Re-entry condition:** construct G093's split Lagrangian jet core and its
+  nonzero specified Saito pairing without selecting an algebraic carrier.

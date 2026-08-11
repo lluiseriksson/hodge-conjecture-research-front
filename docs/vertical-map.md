@@ -26,6 +26,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{class-directed smooth excess incidence G091}
 \Longleftarrow
 \text{Hessian-isotropic integrable excess G092}
+\Longleftarrow
+\text{carrier-free split Lagrangian jet core G093}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -57,7 +59,16 @@ resulting construction gate, and NG116 excludes its generic transverse
 component. B146 proves that any surviving uniform excess component must
 also lose at least \(n(R+1)\) conditional-gradient dimensions in a common
 Hessian-isotropic subspace. G092 is the refined construction gate; NG117
-excludes obtaining it from value-rank degeneracy alone.
+excludes obtaining it from value-rank degeneracy alone. B147 computes the
+anchored mechanism exactly: at a transverse normal-derivative node on a
+smooth middle-dimensional carrier, the carrier conormal is a maximal
+inverse-Hessian-isotropic space and fixed-carrier deformation gradients
+land there. NG118 prevents using this as a universal argument, because an
+algebraic carrier pairing nontrivially with every specified class already
+implies the middle rational HC (and smooth embedded carriers may be a
+stronger requirement). G093 is the smallest finite-jet construction
+gate: reproduce and integrate the split Lagrangian package without a
+preselected algebraic carrier, then retain the nonzero specified pairing.
 
 Two sufficient attacks feed G008:
 

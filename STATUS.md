@@ -224,7 +224,10 @@ Date: 2026-08-11
   B146 proves that smooth excess also forces every value relation to vanish
   on a Hessian quadratic form; uniform rank \(R\) costs at least
   \(n(R+1)\) conditional-gradient dimensions. G092 is the refined gate and
-  NG117 excludes determinantal value-rank drop by itself.
+  NG117 excludes determinantal value-rank drop by itself. B147 identifies
+  carrier conormals as the exact nodewise Lagrangian core in the anchored
+  examples. NG118 blocks choosing such a carrier universally, while G093
+  asks for its finite jet package without an algebraic carrier.
   Universal G028 remains the construction gate. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -501,6 +504,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG117 - NO-GO: a determinantal node-value rank drop has the desired
   tangent dimension but need not be reduced or smooth; conditional-gradient
   surjectivity gives an explicit quadratic obstruction.
+- B147 - PROVED: at a transverse normal-derivative node on a smooth
+  middle-dimensional carrier, its conormal is maximal isotropic for the
+  inverse nodal Hessian; fixed-carrier gradients land in that Lagrangian.
+- NG118 - NO-GO: selecting an algebraic carrier with nonzero pairing for
+  every specified Hodge class already implies middle rational HC; requiring
+  smooth embedded carriers may be stronger.
+- G093 - EXPLORATORY: construct the split Lagrangian jet core without an
+  algebraic carrier, integrate it to G092's smooth height-\(R\) germ, and
+  retain the nonzero specified pairing.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -980,7 +992,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B146/G089-G092/NG106-NG117 - PROVED/EXPLORATORY/NO-GO: the minimal
+- B133-B147/G089-G093/NG106-NG118 - PROVED/EXPLORATORY/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
@@ -994,7 +1006,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   shortcut. B145/G091 identify the replacement with a smooth excess
   ordered-node component, and NG116 blocks the generic transverse locus.
   B146/G092 add the necessary Hessian-isotropic conditional-gradient
-  degeneracy; NG117 blocks value-rank determinantal arguments alone.
+  degeneracy; NG117 blocks value-rank determinantal arguments alone. B147
+  identifies the anchored conormal Lagrangian core; NG118 blocks its
+  circular universalization, and G093 isolates its carrier-free jet analogue.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

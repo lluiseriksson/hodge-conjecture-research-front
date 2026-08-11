@@ -272,6 +272,11 @@ Geometry* 14 (2005), 177-185.
   invokes the local criterion that a simple zero of the differential gives
   an ordinary double point. B032 verifies this normal-jet mechanism directly
   for the diagonal in \(\mathbf P^2\times\mathbf P^2\).
+- B147 reuses only this audited local mechanism: in coordinates adapted to
+  the carrier, it computes the nodal Hessian and proves that the carrier
+  conormal is maximal isotropic for the inverse-Hessian form. The universal
+  construction in Theorem 4.2 still assumes the algebraic carrier and is not
+  imported as progress toward HC.
 - Rechecked the displayed Theorem 4.2 proof for B034: it states that the
   number of nodes of the generic fixed-carrier hypersurface is exactly
   \(c_n(N^*_{Z/X}(NH))\). B034 combines this primary statement with

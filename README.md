@@ -170,6 +170,13 @@ Hessian quadratic form on conditional gradients. For a uniform
 \(U_{R,N}\) matroid, smooth excess forces conditional-gradient corank at
 least \(n(R+1)\). G092 asks for that isotropic degeneracy and its
 higher-order integration; NG117 excludes bare determinantal value-rank drop.
+B147 now identifies the anchored source: conormals of a smooth
+middle-dimensional carrier are maximal inverse-Hessian-isotropic spaces,
+and fixed-carrier deformation gradients land in their split sum. NG118
+records why choosing such a carrier for an arbitrary specified class is
+circular. G093 asks for the same finite jet package without an algebraic
+carrier, followed by higher-order integration and the nonzero specified
+Saito pairing.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -699,6 +706,7 @@ python verification/verify_B143_fiber_clean_arrangement.py
 python verification/verify_B144_saturated_stratum.py
 python verification/verify_B145_ordered_node_tangent.py
 python verification/verify_B146_hessian_isotropy.py
+python verification/verify_B147_carrier_lagrangian.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -888,6 +896,9 @@ transverse and has no relation.
 B146/G092 expose a second independent requirement: uniform excess needs a
 large common Hessian-isotropic failure of conditional gradient
 interpolation, and NG117 blocks inferring smoothness from value-rank drop.
+B147 identifies the conormal Lagrangian core behind anchored carrier
+examples; NG118 blocks importing that carrier universally, and G093 isolates
+the carrier-free split-Lagrangian jet construction as the next test.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
