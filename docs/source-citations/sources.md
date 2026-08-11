@@ -1713,6 +1713,30 @@ suites spectrales,” *Publications Mathématiques de l'IHÉS* 35 (1969),
   not extend the ordinary local system across the discriminant or imply a
   nonzero boundary stalk.
 
+## S055 - Hilbert schemes of points and uniform relative Serre vanishing
+
+The Stacks Project, current cited tags:
+[Hilbert scheme of points, Section 44.2](https://stacks.math.columbia.edu/tag/0B94),
+[properness of the fixed-Hilbert-polynomial functor, Lemma 108.7.7](https://stacks.math.columbia.edu/tag/0DPH),
+and
+[relative Serre vanishing, Lemma 30.16.2](https://stacks.math.columbia.edu/tag/02O1).
+
+- Checked Section 44.2: \(\operatorname{Hilb}^k(X)\) represents finite flat
+  degree-\(k\) subschemes and carries the universal finite flat family.
+- Checked Lemma 108.7.7: for projective \(X/\mathbf C\), the fixed Hilbert
+  polynomial component used for length-\(k\) subschemes is proper.
+- Checked Lemma 30.16.2: for a proper morphism over a Noetherian base, a
+  coherent sheaf, and a relatively ample line bundle, all positive higher
+  direct images vanish after a single sufficiently high twist, uniformly
+  over the base.
+- B136 applies this to the universal ideal on
+  \(X\times\operatorname{Hilb}^k(X)\). Finite flat base change turns the
+  resulting pushforward surjection into simultaneous separation of every
+  length-\(k\) subscheme by \(L^m\). Only finitely many \(k\le N\) are used.
+- Scope guard: the threshold depends on \(X,L,N\). The theorem proves
+  bounded-node vanishing, not existence of any growing node configuration or
+  nonzero class-specific residue.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

@@ -2036,3 +2036,26 @@
   both entries nonzero while its relation evaluation \(c q-c q\) vanishes.
 - **Re-entry condition:** construct the boundary point and prove the
   lift-invariant mismatch \(c a_1-a_2\ne0\), as in G089.
+
+## NG-109 - Increase power while keeping a bounded node model
+
+- **Label:** NO-GO
+- **Route:** use higher embeddings to gain flexibility while keeping exactly
+  two, or any uniformly bounded number of, nodal branches carrying the B135
+  residue quotient.
+- **Valid input:** high powers improve global generation and jet separation.
+- **Invalid inference:** that improvement preserves a nonzero adjoint defect
+  or vanishing-cycle relation.
+- **Precise obstruction:** B136 applies relative Serre vanishing uniformly
+  over every \(\operatorname{Hilb}^k(X)\), \(k\le N\). For \(m\gg0\), all
+  such finite schemes impose independent conditions on \(L^m\); B027 then
+  gives
+
+  \[
+  H^1(I_\Delta\otimes K_X\otimes(L^m)^n)=0,\qquad R(Y)=0.
+  \]
+
+  For \(N=2\), G089's proportional-pair target is absent.
+- **Re-entry condition:** use G013's growing multipart incidence, retain
+  isolated nodes and adjoint defect, and prove its B135 quotient class is
+  nonzero for the specified Hodge class.

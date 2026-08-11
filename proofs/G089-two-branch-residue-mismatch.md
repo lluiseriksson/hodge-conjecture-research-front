@@ -1,6 +1,6 @@
 ---
 brick_id: G089
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary polarized smooth projective complex 2n-fold X with a specified nonzero primitive rational Hodge class and a sought high-power two-node hyperplane member
 smoothness: X and nearby fibers are smooth; the sought member has exactly two ordinary double points and a quasi-local normal-crossing two-branch discriminant germ
@@ -13,14 +13,14 @@ hodge_type: the input and the dual relation functional are rational type (0,0) a
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007, B010, B128, B133-B135, G008, G086, G088, NG106-NG108, S021-S024
-claim: For every nonzero primitive rational Hodge class zeta, some sufficiently high hyperplane system has a two-node normal-crossing point p with delta_2=c delta_1 nonzero such that the canonical normal-function residue coefficients satisfy c a_1-a_2 nonzero.
-falsifier: a smooth projective complex 2n-fold and nonzero primitive rational Hodge class for which every proportional two-node normal-crossing point in every sufficiently high hyperplane system has c a_1-a_2=0
+dependencies: B007, B010, B027, B128, B133-B136, G008, G086, G088, NG106-NG109, S021-S024, S055
+claim: Close G088 in the stable high-power regime by a two-node normal-crossing point p with delta_2=c delta_1 nonzero and canonical residue mismatch c a_1-a_2 nonzero.
+falsifier: B136 with N=2, which proves that every sufficiently high two-node member has zero relation space
 ---
 
 # G089 — Force a two-branch residue mismatch
 
-**Status:** EXPLORATORY — smallest clean two-branch specialization of G088
+**Status:** NO-GO — bounded two-branch specialization of G088
 
 For the canonical rational normal function attached to
 
@@ -68,7 +68,7 @@ two branch residues. The primary sources identify the residue quotient but
 provide no unconditional theorem forcing this mismatch for arbitrary
 \((X,\zeta)\).
 
-## Re-entry condition
+## Former construction obligation
 
 Produce class-directed two-node incidence and compute the two residues
 modulo their common evaluation direction. Equivalently, construct the
@@ -78,5 +78,25 @@ relation \(c e_1-e_2\) and prove
  \langle\zeta,\gamma_{c e_1-e_2}\rangle\ne0.
 \]
 
-This is a sufficient restricted attack on G088, not a claim that every
-detecting singularity can be replaced by a two-node fiber.
+Before B136, this was a sufficient restricted attack on G088; no claim was
+made that every detecting singularity could be replaced by a two-node fiber.
+
+## Decisive high-power obstruction
+
+B136 applies relative Serre vanishing uniformly over
+\(\operatorname{Hilb}^2(X)\). For every sufficiently high \(m\), any two
+distinct points impose independent conditions on \(L^m\), and B027 then
+forces the adjoint defect and vanishing-cycle relation space of every
+two-node member of \(|L^m|\) to be zero. Therefore the prerequisite
+
+\[
+ \delta_2=c\delta_1\ne0
+\]
+
+cannot occur in the stable high-power regime. The scalar computation is
+correct but its target space is absent.
+
+Exceptional finite low powers are not excluded, but they cannot support the
+proposed asymptotic universal construction. NG109 records the broader
+bounded-node obstruction. The next scalable clean-nodal gate is G013, where
+the node count must grow with the embedding power.

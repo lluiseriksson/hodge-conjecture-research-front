@@ -125,9 +125,12 @@ a local lift of the canonical normal function has nodal residues
 \]
 
 For the minimal proportional pair \(\delta_2=c\delta_1\), its only
-lift-invariant coordinate is \(c a_1-a_2\). G089 asks for a class-directed
-point where this scalar is nonzero. NG108 blocks using nonzero individual
-branch residues: the entire vector \(q(1,c)\) is a coboundary.
+lift-invariant coordinate is \(c a_1-a_2\). NG108 blocks using nonzero
+individual branch residues: the entire vector \(q(1,c)\) is a coboundary.
+B136 then proves uniformly that every bounded node scheme has zero adjoint
+defect and zero relation channel in all sufficiently high embedding powers.
+Thus G089 is NO-GO as a scalable two-node route, and NG109 forces the next
+clean attack back to G013 with node count growing with the embedding power.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -144,8 +147,11 @@ discriminant stalk. B133-B135 compute its minimal two-branch cohomological
 target as a residue cokernel dual to the relation kernel. NG106 shows that a
 generic transverse double node has zero target when those cycles are
 independent; NG107 shows a nonzero kernel alone is insufficient; NG108 shows
-that nonzero individual residues may still be a coboundary. G089 is the
-exact restricted inequality \(c a_1-a_2\ne0\).
+that nonzero individual residues may still be a coboundary. G089's exact
+restricted inequality was \(c a_1-a_2\ne0\), but B136/NG109 close every
+uniformly bounded-node realization in the stable high-power regime. The
+active clean-nodal construction obligation is G013: a growing multipart
+configuration with nonzero B135 residue-cokernel class.
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -637,6 +643,7 @@ python verification/verify_B131_B132_filtered_incidence.py
 python verification/verify_B133_two_branch_relation.py
 python verification/verify_B134_dual_relation_coordinate.py
 python verification/verify_B135_residue_cokernel.py
+python verification/verify_B136_bounded_nodes.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -805,7 +812,10 @@ shortcut. B133-B135/NG106-NG108 further show that its smallest local model
 needs a genuine vanishing-cycle relation and a nonzero residue-cokernel
 coordinate: a generic independent double node has zero ordinary target, and
 nonzero branch residues can still be a coboundary. G088 is the unrestricted
-boundary-survival gate; G089 is its exact proportional-pair specialization.
+boundary-survival gate. G089 was its exact proportional-pair specialization;
+B136/NG109 close that specialization as a scalable high-power route and
+require any clean-nodal replacement to use a node count escaping every fixed
+bound.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

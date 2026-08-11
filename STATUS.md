@@ -206,9 +206,12 @@ Date: 2026-08-11
   \(\beta\mapsto\langle\zeta,\gamma_\beta\rangle\). NG107 quarantines the
   selected-relation-vector shortcut. B135 gives the exact residue quotient
   \([a]\in\operatorname{coker}\Delta^\ast\). For
-  \(\delta_2=c\delta_1\), G089 is the scalar gate \(c a_1-a_2\ne0\);
-  NG108 shows nonzero individual residues may be a coboundary. G008 remains
-  the terminal-equivalent obligation.
+  \(\delta_2=c\delta_1\), the scalar coordinate is \(c a_1-a_2\); NG108
+  shows nonzero individual residues may be a coboundary. B136/NG109 close
+  every uniformly bounded-node version of this route in the stable
+  high-power regime. G013 is the next clean construction gate, with growing
+  node count and nonzero B135 quotient. G008 remains the terminal-equivalent
+  obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -421,8 +424,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(\beta\) as \(\langle\zeta,\gamma_\beta\rangle\). For two nonzero cycles
   the target is nonzero only when they are proportional; then the exact
   residue coordinate is \(c a_1-a_2\).
-- G089 - EXPLORATORY: construct a class-directed proportional two-node point
-  and prove its residue mismatch \(c a_1-a_2\ne0\).
+- B136 - PROVED: for every fixed node bound \(N\), all length-at-most-\(N\)
+  node schemes impose independent conditions in sufficiently high embedding
+  powers; B026-B027 then force zero adjoint defect and zero relation channel.
+- G089/NG109 - NO-GO: a proportional two-node detector, or any uniformly
+  bounded-node replacement, cannot provide a scalable high-power route.
+  Exceptional finite low powers are not excluded.
+- G013 - EXPLORATORY, active clean-nodal gate: construct a growing multipart
+  node scheme with the required two-matroid inequalities and a nonzero B135
+  residue-cokernel class paired with the specified Hodge class.
 - NG106 - NO-GO: a generic transverse codimension-two double node does not
   force G088 survival; independent cycles give a zero target.
 - NG107 - NO-GO: a cohomological incidence class is a functional on
@@ -898,11 +908,12 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B135/G089/NG106-NG108 - PROVED/EXPLORATORY/NO-GO: the minimal
+- B133-B136/G089/NG106-NG109 - PROVED/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
-  force survival.
+  force survival. Uniform high-power separation closes every bounded-node
+  version, so G013's multipart node count must grow.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -19,7 +19,7 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \Longleftarrow
 \text{canonical filtered boundary survival G088}
 \Longleftarrow
-\text{two-branch residue mismatch G089}
+\text{growing multipart residue incidence G013}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -28,9 +28,11 @@ that the target vanishing cycles have a nonzero rational relation; B134
 types the cohomological target as its dual and identifies the class with
 \(\beta\mapsto\langle\zeta,\gamma_\beta\rangle\). NG106 excludes a generic
 independent double node, while NG107 excludes the selected-vector shortcut.
-B135 expresses the functional as a residue cokernel; for
-\(\delta_2=c\delta_1\), G089 asks exactly for \(c a_1-a_2\ne0\), and NG108
-excludes nonzero individual residues as a substitute.
+B135 expresses the functional as a residue cokernel. For
+\(\delta_2=c\delta_1\), the coordinate would be \(c a_1-a_2\), but B136
+proves the entire bounded-node target vanishes in sufficiently high powers.
+Thus G089/NG109 close the two-branch scalable route; G013 must use a growing
+multipart configuration.
 
 Two sufficient attacks feed G008:
 
@@ -754,8 +756,9 @@ evaluation against Saito's ambient detector and with the residue quotient
 \([a]\in\operatorname{coker}\Delta^\ast\). NG106 excludes a generic
 transverse independent double node; NG107 shows that a nonzero kernel alone
 still does not supply the specified functional; NG108 shows that nonzero
-individual residues can be coboundaries. G089 is the exact proportional-pair
-criterion \(c a_1-a_2\ne0\).
+individual residues can be coboundaries. B136 then proves that every bounded
+node count has zero relation target in the stable high-power regime. G089 is
+therefore NO-GO there, and G013 is the next clean route.
 
 **Stronger clean program G084.** Prove
 
@@ -1047,8 +1050,9 @@ routes. G088 must now prove noncancellation specifically at a discriminant
 stalk. By B133-B135/NG106-NG108, even the smallest codimension-two nodal
 candidate must have dependent vanishing cycles and a nonzero value of the
 dual incidence functional; parameter codimension and relation rank alone do
-not supply it. In the proportional two-branch specialization G089, this is
-the explicit lift-invariant residue mismatch \(c a_1-a_2\ne0\).
+not supply it. B136/NG109 exclude every uniformly bounded nodal model after
+raising the power. Any scalable G013 attack must use growing multipart node
+sets and prove a nonzero B135 residue quotient.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces

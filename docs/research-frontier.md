@@ -56,6 +56,15 @@ exactly \(c a_1-a_2\ne0\). G089 is the falsifiable two-branch construction
 gate. The attempted inference from nonzero individual residues fails:
 \(q(1,c)\) is a nonzero coboundary, recorded as NG108.
 
+B136 then closes G089 as a **high-power** mechanism. Relative Serre
+vanishing over \(\operatorname{Hilb}^k(X)\) proves that, for every fixed
+\(N\), all node schemes of length at most \(N\) impose independent
+conditions on \(L^m\) once \(m\) is large. B027 forces their adjoint defect
+and relation channel to vanish. NG109 records the general bounded-node
+failure. The next scalable clean gate is therefore G013: its multipart node
+count must grow with \(m\), satisfy the two-matroid/isolated-jet conditions,
+and carry a nonzero B135 residue-cokernel class.
+
 G032 separates the extra cleanup content from terminal support nonemptiness:
 starting with any detecting singular member, deform it to the Li-clean nodal
 locus while preserving a nonzero pairing. The first attempt fails. By B025,
