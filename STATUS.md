@@ -198,8 +198,10 @@ Date: 2026-08-11
   first-Leray transgression is nonzero, and B132 realizes the specified
   incidence class as a nonzero projective filtered section. NG105 rejects
   the smooth-open/chosen-splitting identification. G088 isolates the sole
-  remaining discriminant-stalk survival calculation. G008 remains the
-  terminal-equivalent obligation.
+  remaining discriminant-stalk survival calculation. B133/NG106 compute its
+  minimal codimension-two model: independent double-node cycles give zero
+  target, so a genuine class-directed relation is necessary. G008 remains
+  the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -406,6 +408,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   B131-B132; its residual boundary-survival half is G088.
 - G088 - EXPLORATORY: prove that the canonical B132 section survives at a
   discriminant stalk to the nonzero rational B128 edge class.
+- B133 - PROVED: at a quasi-local normal-crossing nodal point the ordinary
+  target is the rational vanishing-cycle relation kernel; for two nonzero
+  cycles it is nonzero only when they are proportional.
+- NG106 - NO-GO: a generic transverse codimension-two double node does not
+  force G088 survival; independent cycles give a zero target.
 - B126 - PROVED: the suspended $A_2$ miniversal slice has exactly one
   singular point on every discriminant fiber and no two-node member.
 - NG101 - NO-GO: local $A_2$ versal nodalization cannot supply a clean
@@ -875,6 +882,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
+- B133/NG106 - PROVED/NO-GO: the minimal two-branch target is a relation
+  kernel, not an automatic codimension-two contribution; independent double
+  nodes cannot support the survivor.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -1974,3 +1974,21 @@
   B132 starts with the canonical incidence class on full projective P, where
   projective strictness gives its nonzero filtered realization. Only G088
   boundary survival remains.
+
+## NG-106 - A generic transverse double node forces boundary survival
+
+- **Label:** NO-GO
+- **Route:** use the smallest allowed codimension-two stratum, a transverse
+  intersection of two nodal discriminant branches, as an automatic nonzero
+  target for the canonical B132 section.
+- **Valid input:** the fiber has two independently smoothable nodes and the
+  discriminant is locally normal crossing.
+- **Invalid inference:** two branches imply nonzero degree-one local IC.
+- **Precise obstruction:** B133 identifies the target with the kernel of
+  \(\mathbf Q^2\to H_{2n-1}(X_s,\mathbf Q(n))\) sending the standard basis
+  to the two vanishing cycles. Independent cycles give zero kernel. B020's
+  intersection-one pair is an explicit audited independent pair.
+- **Re-entry condition:** in the two-branch case, construct proportional
+  vanishing cycles and prove a nonzero class-specific relation coordinate;
+  otherwise use a higher multipart relation point. Either route remains
+  inside G088.

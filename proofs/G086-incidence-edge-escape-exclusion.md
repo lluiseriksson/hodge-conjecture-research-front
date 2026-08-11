@@ -13,7 +13,7 @@ hodge_type: primitive rational type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007, B012, B128-B132, G008, G087-G088, NG103-NG105, S024, S037, S053-S054
+dependencies: B007-B012, B026-B027, B128-B133, G008, G087-G088, NG103-NG106, S009, S021-S024, S037, S053-S054
 claim: For every nonzero primitive rational Hodge class zeta, for some sufficiently high m the canonical incidence class s_m(zeta) does not lie in the escape image H^1(P_m,H^(-d_m)K_m) inside IH^1(P_m,K_m), where K_m=IC(R^(2n-1)pi_(m,*)Q(n)).
 falsifier: an arbitrary smooth projective complex 2n-fold and nonzero primitive rational Hodge class whose incidence class lies in the escape image for every sufficiently high m
 ---
@@ -72,6 +72,10 @@ support point.
    section \(h_m(\zeta)\). NG105 removes the noncanonical smooth-open map
    comparison. The sole remaining issue is G088: the specified section may
    still be killed by filtered differentials at every boundary stalk.
+7. **Generic codimension-two nodal boundary:** insufficient. B133 computes
+   the two-branch target as the vanishing-cycle relation kernel. NG106 shows
+   it is zero for independent cycles, so a generic transverse double node
+   supplies no escape target.
 
 Thus the next proof must calculate the composite
 

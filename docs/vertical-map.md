@@ -21,7 +21,9 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
-themselves imply boundary survival.
+themselves imply boundary survival. B133 adds the necessary local condition
+that the target vanishing cycles have a nonzero rational relation; NG106
+shows a generic independent double node fails it.
 
 Two sufficient attacks feed G008:
 
@@ -738,7 +740,11 @@ projective strictness to obtain its nonzero filtered section
 \(h_m(\zeta)\). NG105 records why neither the smooth-open Corollary 5.2 proof
 nor an arbitrary decomposition splitting gives this comparison. Thus the
 first half of G087 is discharged. G088 is the sole remaining step: prove
-failure of filtered cancellation at one discriminant stalk.
+failure of filtered cancellation at one discriminant stalk. B133 identifies
+the minimal two-branch ordinary target with
+\(\ker(\mathbf Q^2\to\langle\delta_1,\delta_2\rangle)\). NG106 therefore
+excludes a generic transverse independent double node; the target needs a
+genuine relation before any class coordinate can survive.
 
 **Stronger clean program G084.** Prove
 
@@ -1027,7 +1033,9 @@ class cancels in ordinary de Rham cohomology on the smooth locus. B131-B132
 canonically identify the rational incidence class with its projective
 filtered realization; NG105 closes the smooth-open and chosen-splitting
 routes. G088 must now prove noncancellation specifically at a discriminant
-stalk.
+stalk. By B133/NG106, even the smallest codimension-two nodal candidate must
+have dependent vanishing cycles; parameter codimension alone supplies no
+target.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces

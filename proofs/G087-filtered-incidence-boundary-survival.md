@@ -13,7 +13,7 @@ hodge_type: primitive rational type (r,r), normalized to (0,0) after Q(r)
 cycle_class_map: CH^r(X)_Q -> H^(2r)(X,Q(r)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007, B012, B128-B132, G008, G086, G088, NG103-NG105, S024, S037, S053-S054
+dependencies: B007-B012, B026-B027, B128-B133, G008, G086, G088, NG103-NG106, S009, S021-S024, S037, S053-S054
 claim: For every nonzero primitive rational Hodge class zeta, its canonical incidence class has the nonzero projective filtered realization h_m(zeta) of B132, and for some sufficiently high power that specified section survives at a discriminant stalk to a nonzero rational class in H^(-d+1)(IC(V))_p.
 falsifier: a smooth projective complex 2r-fold and nonzero primitive rational Hodge class for which the canonical map identification fails or every corresponding Higgs class is killed at every discriminant stalk for all high powers
 ---

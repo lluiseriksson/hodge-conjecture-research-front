@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; local Green-Griffiths invariant and Saito rel
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B007, B010-B012, B014-B015, B127-B132, G084-G088, NG102-NG105, and the attempted mechanisms B011 and B013
+dependencies: B007-B012, B014-B015, B026-B027, B127-B133, G084-G088, NG102-NG106, and the attempted mechanisms B011 and B013
 claim: For every nonzero primitive rational Hodge class zeta, there is a sufficiently high embedding for which the associated local Green-Griffiths invariant is nonzero at some discriminant point, equivalently Sing(zeta) is nonempty for that embedding.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class whose local Green-Griffiths invariant vanishes at every parameter point for every sufficiently high power
 ---
@@ -134,6 +134,20 @@ locus and may still be killed at every boundary stalk. G088 isolates the
 exact remaining calculation: prove that the canonical section survives at
 some codimension-at-least-two discriminant point to the rational ordinary IC
 edge class.
+
+## Attempt 7 - Use the first codimension-two nodal stratum
+
+B133 specializes the ordinary target at a quasi-local normal-crossing nodal
+point to the relation kernel of its vanishing cycles. For exactly two
+branches this kernel is nonzero only if the two nonzero cycles are
+proportional. NG106 closes the generic transverse double-node route:
+independent cycles give a zero stalk before the specified class is even
+tested.
+
+Thus parameter codimension two is only a support bound. A successful G088
+point must first carry a genuine rational vanishing-cycle relation and must
+then receive the canonical incidence class nontrivially. Neither property
+follows from a dimension count or generic transversality.
 
 ## Smallest concrete obligation
 

@@ -110,7 +110,10 @@ first-Leray transgression is nonzero. B132 starts from the canonical
 incidence class on full projective (P_m) and uses projective strictness to
 construct its nonzero filtered section. NG105 closes the smooth-open and
 chosen-splitting comparisons. G088 now asks only for noncancellation at one
-discriminant stalk.
+discriminant stalk. B133 computes its minimal two-branch target as the
+rational relation kernel of the two vanishing cycles. NG106 shows that a
+generic transverse double node has zero target when those cycles are
+independent; codimension two alone is not enough.
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -599,6 +602,7 @@ python verification/verify_B127_gate_split.py
 python verification/verify_B129_projective_escape.py
 python verification/verify_B130_nori_higgs_indices.py
 python verification/verify_B131_B132_filtered_incidence.py
+python verification/verify_B133_two_branch_relation.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -763,7 +767,10 @@ B130/NG104 close the direct Nori/Higgs inference: associated-graded
 nonvanishing is cancelled in ordinary de Rham cohomology over the smooth
 locus. B131-B132 canonically identify the rational incidence class with its
 projective filtered realization; NG105 rejects the nonproper smooth-open
-shortcut. G088 isolates the remaining boundary-survival calculation.
+shortcut. B133/NG106 further show that its smallest local model needs a
+genuine vanishing-cycle relation: a generic independent double node has zero
+ordinary target. G088 isolates the remaining class-specific
+boundary-survival calculation.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

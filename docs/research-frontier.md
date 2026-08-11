@@ -181,7 +181,10 @@ cohomology can be nonzero. B131 proves the canonical rational first-Leray
 transgression is nonzero. B132 uses projective strictness on full \(P_m\) to
 realize the specified incidence class as a nonzero filtered section. NG105
 closes the smooth-open and arbitrary-splitting comparisons. G088 is the
-resulting filtered incidence boundary-survival gate.
+resulting filtered incidence boundary-survival gate. B133 computes its
+minimal normal-crossing two-branch target: it is nonzero only when the two
+vanishing cycles are proportional. NG106 closes the generic independent
+double-node shortcut.
 
 ## Sufficient parent: G014
 
@@ -372,5 +375,6 @@ G008 remains the terminal-equivalent support theorem. B128/G086 give its
 exact edge-escape form, while B129/NG103 close the formal projective-Hodge
 shortcut. B130/NG104 close the direct Nori/Higgs shortcut; B131-B132/NG105
 discharge canonical map identification and leave G088's discriminant-stalk
-survival. G007/NG-010 remain the concrete tube-concentration attempt and its
-class-directed incidence mismatch.
+survival. B133/NG106 require a genuine vanishing-cycle relation even in the
+minimal codimension-two model. G007/NG-010 remain the concrete
+tube-concentration attempt and its class-directed incidence mismatch.
