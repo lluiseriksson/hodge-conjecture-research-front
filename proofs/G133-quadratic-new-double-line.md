@@ -54,3 +54,6 @@ All adjacent extinction, one-node determination, value-matroid, rational
 detector, and specified-pairing clauses remain attached. G133 is a
 sufficient subgate of G132; the alternative triple-hidden branch remains
 open.
+B204 identifies the quadratic quotient as the degree-\(m\) indecomposable
+part of a graded profile module. G134 records the corresponding primitive
+profile birth; NG166 excludes producing it by multiplying a lower profile.

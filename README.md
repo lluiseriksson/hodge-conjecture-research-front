@@ -725,6 +725,16 @@ the profile quotient is exactly the nondegenerate line
 \(\mathbf C[q_{t,Q}]\). NG165 blocks counting an arbitrary lift before
 removing decomposable profiles and triple corrections.
 
+B204 makes the quadratic quotient itself graded. If \(W_k\) is the space
+of liftable quadratic profiles and \(E_a\) the degree-\(a\) value image,
+then
+\[
+\rho(P_m)=\sum_{a=1}^mE_aW_{m-a}.
+\]
+G134 asks for a genuinely primitive nondegenerate line in the resulting
+degree-\(m\) quotient. NG166 excludes obtaining that line by multiplying a
+lower profile: every such product is decomposable by construction.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1302,6 +1312,7 @@ python verification/verify_B200_quadratic_congruence.py
 python verification/verify_B201_cubic_filters.py
 python verification/verify_B202_selective_lift.py
 python verification/verify_B203_generator_filtration.py
+python verification/verify_B204_profile_module.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1616,6 +1627,8 @@ selective connecting-map kernel; NG164 blocks automatic Serre-vanishing
 lifting because it destroys the required jet defect.
 B203/G133 refine that kernel to the unique new double-generator line;
 NG165 separates coherent lift existence from graded minimality.
+B204/G134 express the same line as a primitive graded quadratic-profile
+birth; NG166 excludes inheritance by value multiplication.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

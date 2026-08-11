@@ -3196,3 +3196,20 @@
 - **Re-entry condition:** prove G133's one-dimensional quotient conditions
   or construct the alternative triple-hidden branch, with ODPs and every
   detector clause.
+
+## NG-166 - Multiply a lower quadratic profile into the birth degree
+
+- **Label:** NO-GO
+- **Route:** choose \(w\in W_{m-a}\), multiply by \(e\in E_a\), and count
+  \(ew\) as G134's primitive quadratic profile.
+- **Valid input:** a nowhere-zero value multiplier injects the lower
+  profile and may preserve nondegeneracy.
+- **Invalid inference:** the transported profile is indecomposable in
+  degree \(m\).
+- **Precise obstruction:** B204 places \(ew\) in
+  \(E_aW_{m-a}\), one of the summands quotiented out in G134.
+- **Detector guard:** a zero indecomposable class cannot supply G129's new
+  double generator or any class-specific detector.
+- **Re-entry condition:** construct a genuinely primitive nondegenerate
+  profile line in G134 and retain the triple-hidden, ODP, rank, and detector
+  conditions.

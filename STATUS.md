@@ -921,6 +921,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   quadratic-profile quotient exactly \(\mathbf C[q_{t,Q}]\).
 - NG165 - NO-GO: a liftable profile can remain decomposable; existence in
   \(\ker\partial_Z\) does not imply a new class in \(K_m/P_m\).
+- B204 - PROVED: the profile spaces \(W_k\) form a graded module under
+  value multiplication and
+  \(\rho(P_m)=\sum_{a=1}^mE_aW_{m-a}\).
+- G134 - EXPLORATORY: construct a one-dimensional primitive,
+  nondegenerate degree-\(m\) profile quotient and eliminate triple-hidden
+  generators.
+- NG166 - NO-GO: multiplying a lower profile always lands in the
+  decomposable denominator of G134's quotient.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1525,7 +1533,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   B202/G132 isolate the selective quadratic lift inside G130; NG164 blocks
   blanket cohomology vanishing because it removes the first-jet defect.
   B203/G133 isolate the quadratic-new minimal line; NG165 blocks counting
-  any coherent lift as a minimal generator.
+  any coherent lift as a minimal generator. B204/G134 identify that line
+  as a primitive graded profile birth; NG166 excludes multiplication from
+  lower degrees.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -1108,6 +1108,29 @@ Then \(K_m/P_m\) is exactly G129's one-dimensional new double line.
 NG165 records that \(\partial_Z(q)=0\) alone proves only lift existence,
 not survival modulo lower products.
 
+B204 packages the quadratic profiles into
+
+\[
+W_k=\operatorname{im}\!\left[
+H^0(I_Z^2H^k)\to H^0((I_Z^2/I_Z^3)H^k)
+\right],
+\]
+
+with value multiplication \(E_aW_k\subset W_{a+k}\). Under lower
+extinction,
+
+\[
+\rho(P_m)=\sum_{a=1}^mE_aW_{m-a},\qquad
+\frac{\ker\partial_Z}{\rho(P_m)}
+=\frac{W_m}{\sum_{a=1}^mE_aW_{m-a}}. \tag{*****************}
+\]
+
+G134 is the primitive quadratic-profile birth:
+the quotient in (*****************) must be the nondegenerate line
+\(\mathbf C[q_{t,Q}]\), while \(H^0(I_Z^3H^m)\subset P_m\).
+NG166 records that multiplication from any lower \(W_k\) is zero in this
+quotient.
+
 Two sufficient attacks feed G008:
 
 \[
