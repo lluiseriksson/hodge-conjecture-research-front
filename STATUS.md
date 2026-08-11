@@ -1392,10 +1392,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   obstruction, so every admissible seven-support \(O_Q(6)\) tangent
   span absorbs no eighth; the cubic floor is at least \(7d+7\).
 - NG239 - NO-GO: cubic rank \(7d+6\) cannot survive; G200 is NO-GO.
-- G203 - EXPLORATORY, active: classify rank 105 on \(Q^{14}\), the
-  all-polarization rank-119 tie on \(Q^{16}\), standard equality in
-  dimensions 18--22, and nonstandard equality \(7d+7\) for even
-  \(d\ge24\), retaining every G144 detector clause.
+- G203 - NO-GO: B283 excludes its sole standard rank-128 survivor on
+  the valid \(Q^{18}\) input.
+- B283 - PROVED: standard ranks 128 through 133 on \(Q^{18}\) are
+  impossible; the standard floor is at least 134.
+- NG240 - NO-GO: the standard dimension-18 branch does not survive.
+- G204 - EXPLORATORY, active: classify nonstandard equality in
+  dimensions 14, 16, and 18, standard equality in dimensions 20 and
+  22, and nonstandard equality for even \(d\ge24\).
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
   six cubic double supports are independent and the seventh residual
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
@@ -1470,7 +1474,10 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B282 - PROVED: five collinear members would violate P6 independence;
   two disjoint good pairs therefore give a degree-six separator.
 - NG239 - NO-GO: cubic rank \(7d+6\) is impossible.
-- G203 - EXPLORATORY: the next piecewise boundary is active.
+- G203 - NO-GO: B283 removes its dimension-18 standard survivor.
+- B283 - PROVED: the \(Q^{18}\) standard floor is at least 134.
+- NG240 - NO-GO: standard ranks 128 through 133 do not survive.
+- G204 - EXPLORATORY: the next piecewise boundary is active.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

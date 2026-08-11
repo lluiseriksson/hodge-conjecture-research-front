@@ -4819,3 +4819,18 @@
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
 - **Re-entry condition:** attack G203 and retain every G144 clause.
+
+## NG-240 - Retain standard ranks 128 through 133 on \(Q^{18}\)
+
+- **Label:** NO-GO
+- **Route:** realize G203 at standard rank 128 or retain the branch
+  through rank 133.
+- **Residual obstruction:** projected \(Q^{16}\) ranks 90 through 95
+  lie below the standard floor 119.
+- **Mixed obstruction:** three minimal escapes use 39 dimensions; at
+  most seven remain before a fourth escape of rank at least 11.
+- **Boundary consequence:** G203 is NO-GO and G204 is active.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack G204 and retain every G144 clause.

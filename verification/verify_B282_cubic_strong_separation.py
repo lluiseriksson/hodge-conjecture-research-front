@@ -76,7 +76,7 @@ require(
 )
 require(
     "proofs/G203-all-nonstandard-next-boundary.md",
-    ("brick_id: G203", "status: EXPLORATORY", "AB(14)=105", "active"),
+    ("brick_id: G203", "status: NO-GO", "AB(14)=105", "B283"),
 )
 
 print("PASS: B282 cubic strong separation, G200 no-go, and G203 boundary")

@@ -2422,6 +2422,12 @@ is NO-GO, and G203 is active at the common next boundary \(7d+7\)
 outside the remaining standard rows. Every detector obligation remains
 open.
 
+B283 closes G203 on \(Q^{18}\): standard ranks 128 through 133 project
+to ranks 90 through 95 on \(Q^{16}\), below its floor 119, and their
+mixed budgets cannot reach a fourth escape. G204 retains only
+nonstandard rank 133 in that row. Every detector obligation remains
+open.
+
 Two sufficient attacks feed G008:
 
 \[

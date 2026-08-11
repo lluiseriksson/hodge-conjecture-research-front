@@ -1687,6 +1687,12 @@ active at rank 105 on \(Q^{14}\), rank 119 on \(Q^{16}\), the standard
 rows 18--22, and \(7d+7\) thereafter. No detector or cycle is
 constructed.
 
+B283 then excludes standard ranks 128 through 133 on \(Q^{18}\).
+Their residual ranks 90 through 95 lie below the \(Q^{16}\) floor 119,
+and three minimal escapes leave at most seven dimensions before a
+rank-eleven fourth escape. NG240 makes G203 **NO-GO** and G204 is
+active with only nonstandard rank-133 survivors in dimension 18.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2328,6 +2334,7 @@ python verification/verify_B280_standard_d16_band.py
 python verification/verify_NG237_next_cubic_quartic.py
 python verification/verify_B281_quartic_strong_separation.py
 python verification/verify_B282_cubic_strong_separation.py
+python verification/verify_B283_standard_d18_band.py
 ```
 
 The repository verifier checks the required directory topology, result
