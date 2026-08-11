@@ -239,7 +239,9 @@ Date: 2026-08-11
   add the synchronized mixed-Hessian conormal corank \(n(N-R)\); NG122
   closes synchronization alone. B153/G097 identify the final second-order
   class \(\Omega_Q\) of dimension \((N-R)n(n+1)/2\); NG123 proves its
-  vanishing is independent of the mixed condition.
+  vanishing is independent of the mixed condition. B154/G098 identify the
+  canonical corrected cubic Kuranishi tensor after full quadratic
+  vanishing; NG124 proves second-order flatness need not integrate.
   Universal G028 remains the construction gate. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -563,6 +565,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(\Omega_Q=0\), then prove all-order integration and the specified pairing.
 - NG123 - NO-GO: zero mixed conormal data still permits an arbitrary
   nonzero pure class.
+- B154 - PROVED: implicit reduction produces a canonical cubic Kuranishi
+  tensor after quadratic vanishing, with an explicit third critical-value
+  formula.
+- G098 - EXPLORATORY: kill that cubic tensor and every higher Kuranishi
+  term, then retain the nonzero specified pairing.
+- NG124 - NO-GO: \(\tau=(x,x+y^3)\) has zero quadratic obstruction but a
+  nonreduced simultaneous-node germ.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1042,7 +1051,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B153/G089-G097/NG106-NG123 - PROVED/EXPLORATORY/NO-GO: the minimal
+- B133-B154/G089-G098/NG106-NG124 - PROVED/EXPLORATORY/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
@@ -1068,6 +1077,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   defect in the synchronized branch, and NG122 blocks stopping after the
   first factorization. B153/G097 isolate the canonical pure second-order
   class, while NG123 blocks inferring its vanishing from mixed isotropy.
+  B154/G098 begin the higher-order integration chain, and NG124 blocks
+  stopping at second order.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

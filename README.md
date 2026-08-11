@@ -203,6 +203,13 @@ the remaining quotient Hessians define a splitting-independent class
 dimension \((N-R)n(n+1)/2\). Full B146 isotropy is equivalent to the mixed
 condition plus \(\Omega_Q=0\). G097 asks for that vanishing without a
 carrier; NG123 shows it is not automatic.
+B154 starts the all-order integration audit. Implicitly solving the \(R\)
+independent smoothing equations leaves a canonical reduced Kuranishi germ
+\(\kappa:\ker E\to\operatorname{coker}E\). After the complete quadratic
+condition, its first possible term is a canonical cubic tensor. NG124 gives
+the explicit nodal model \(\tau=(x,x+y^3)\): all second-order tests vanish,
+but the node germ \((x,y^3)\) is nonreduced. G098 therefore asks first for
+cubic vanishing and ultimately for \(\kappa\equiv0\).
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -739,6 +746,7 @@ python verification/verify_B150_partial_interpolation_scope.py
 python verification/verify_B151_synchronized_blocks.py
 python verification/verify_B152_mixed_hessian_corank.py
 python verification/verify_B153_pure_hessian_obstruction.py
+python verification/verify_B154_cubic_kuranishi.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -945,6 +953,9 @@ integration can be attempted.
 B153/G097/NG123 isolate the final second-order coordinate: the canonical
 pure quotient Hessian class. Its vanishing is separate from the mixed
 condition; higher-order integration begins only after both are closed.
+B154/G098/NG124 expose the first higher obstruction explicitly: quadratic
+flatness does not imply integration, and the corrected cubic Kuranishi
+tensor must vanish before any all-order claim.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

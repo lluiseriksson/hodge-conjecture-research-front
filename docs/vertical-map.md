@@ -36,6 +36,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{synchronized mixed-Hessian second defect G096}
 \Longleftarrow
 \text{canonical pure Hessian vanishing G097}
+\Longleftarrow
+\text{cubic and all-order Kuranishi vanishing G098}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -120,6 +122,21 @@ isotropy is exactly the conjunction of the mixed condition and
 conormal map is zero, so G097 is the last synchronized second-order gate.
 Once it is solved, all-order nonlinear integration becomes the next
 obligation.
+B154 now begins that integration audit. After solving the \(R\) independent
+critical-value equations, the remaining germ is
+
+\[
+ \kappa:(\ker E,0)\longrightarrow(\operatorname{coker}E,0).
+\]
+
+Its quadratic tensor is B146/B152-B153. When that vanishes, the corrected
+cubic tensor
+\(\kappa_3\in\operatorname{coker}(E)\otimes
+\operatorname{Sym}^3(\ker E)^*\) is canonical and explicitly computable
+from spatial two- and three-jets plus the second-order implicit correction.
+NG124's nodal model \(\tau=(x,x+y^3)\) proves complete second-order
+flatness can still give a nonreduced germ. G098 requires \(\kappa_3=0\) and
+then \(\kappa\equiv0\) to all orders before any pairing can propagate.
 
 Two sufficient attacks feed G008:
 

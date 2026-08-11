@@ -2306,3 +2306,18 @@
   is \((N-R)n(n+1)/2>0\).
 - **Re-entry condition:** construct G097 with the canonical class
   \(\Omega_Q=0\), then prove all-order integration and the specified pairing.
+
+## NG-124 - Integrate from second-order flatness
+
+- **Label:** NO-GO
+- **Route:** once B152's mixed tensor and B153's pure tensor vanish, infer a
+  reduced smooth excess germ of height \(R\).
+- **Valid input:** the reduced Kuranishi map has no linear or quadratic term.
+- **Invalid inference:** every higher Kuranishi tensor vanishes.
+- **Precise obstruction:** the two-node critical-value map
+  \(\tau(x,y)=(x,x+y^3)\) comes from local families with fixed nondegenerate
+  spatial Hessians. It has rank \(R=1<N=2\), zero quadratic relation tensor,
+  and cubic reduced map \(\kappa(y)=y^3\). Its simultaneous-node ideal
+  \((x,y^3)\) is nonreduced.
+- **Re-entry condition:** compute and kill B154's canonical cubic tensor,
+  then prove all higher tensors vanish and retain the specified pairing.
