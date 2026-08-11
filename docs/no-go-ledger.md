@@ -4559,3 +4559,23 @@
 - **Re-entry condition:** test relation transport, ODP incidence,
   Kuranishi vanishing, rational type, and specified pairing on or beyond
   B268's witness.
+
+## NG-226 - Extend B268 to the required marked scheme
+
+- **Label:** NO-GO
+- **Route:** retain B268's exact rank while adjoining the remaining
+  supports required by G190.
+- **Exact obstruction:** B269 constructs for every \(x\notin P_7\) a
+  sextic vanishing on \(2P_7\) but not on \(2x\).
+- **Rank consequence:** every eighth distinct double neighborhood raises
+  the rank above \(7d+5\).
+- **Cardinality mismatch:** G190 requires \(N=2(7d+5)>7\), while tangent
+  absorption would put every marked double neighborhood in the same
+  rank-\((7d+5)\) span.
+- **Scope guard:** only the explicit B268 configuration is excluded;
+  other planar cubic configurations and the quartic branch remain open.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** classify every planar equality first-jet base
+  scheme or attack quartic equality.

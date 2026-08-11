@@ -2238,6 +2238,27 @@ branch therefore refines to
 
 The equality rank is PROVED, but every term on the right remains open.
 
+B269 adds the marked-scheme extension test. Its separator construction
+shows that no eighth double neighborhood is absorbed by B268's
+rank-\((7d+5)\) span. Since G190 needs \(N=2(7d+5)\) distinct marked
+points, the explicit witness cannot propagate upward. The live branch
+is therefore
+
+\[
+ \text{G190}
+ \Longleftarrow
+ \left\{
+ \begin{array}{l}
+ \text{classify all planar cubic equality first-jet base schemes},\\
+ \text{or classify the quartic equality branch},
+ \end{array}
+ \right.
+\]
+
+followed, in either case, by every relation, ODP, Kuranishi,
+rational-type, and specified-pairing obligation. B269 does not supply
+those clauses.
+
 Two sufficient attacks feed G008:
 
 \[

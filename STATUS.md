@@ -1364,6 +1364,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
 - NG225 - NO-GO: no further sextic interpolation can exclude that
   equality witness; G190 must now address its detector and ODP clauses.
+- B269 - PROVED: every eighth distinct double neighborhood raises
+  B268's exact rank; its seven-support witness cannot extend to the
+  \(N=2(7d+5)\) marked scheme required by G190.
+- NG226 - NO-GO: direct promotion of B268 is closed, but other planar
+  cubic configurations and the quartic branch remain unclassified.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

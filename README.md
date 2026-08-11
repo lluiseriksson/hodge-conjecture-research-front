@@ -1531,6 +1531,16 @@ NO-GO route. G190 now asks for the missing relation transport, ODP,
 Kuranishi, rational-type, and specified-pairing clauses on or beyond
 this witness; equality rank alone is not progress toward HC.
 
+B269 then tests whether that exact witness can satisfy G190's much
+larger marked-scheme requirement. For every eighth point \(x\), it
+constructs a sextic vanishing on the seven double neighborhoods but
+not on \(2x\): off the plane use a squared plane hyperplane, and on the
+plane use two generator-line factors and a matching of three
+cross-connectors. Thus every eighth double strictly raises the rank.
+NG226 records that B268 cannot be promoted directly to the required
+\(N=2(7d+5)\) marked scheme. This does not exclude other planar
+equality configurations or the quartic branch.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2158,6 +2168,7 @@ python verification/verify_B265_planar_two_edge_unit.py
 python verification/verify_B266_standard_one_beyond_third_escape.py
 python verification/verify_B267_planar_product_jet_cancellation.py
 python verification/verify_B268_planar_cubic_equality.py
+python verification/verify_B269_planar_witness_no_eighth.py
 ```
 
 The repository verifier checks the required directory topology, result
