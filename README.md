@@ -524,6 +524,19 @@ Bézout. Conormal vanishing descends faithfully from the carrier. G117 is
 the corrected active gate: construct the full-incidence carrier, audit
 \(\delta,e\), and prove its conormal jets through order \(\delta e-1\).
 
+B185 now constructs and bounds that carrier for every fixed proposed
+ordered ODP configuration. The product of the labelled algebraic critical
+loci is étale over the full parameter chart; imposing the \(R\) independent
+basis values gives a smooth algebraic carrier analytically equal to \(F_B\).
+If a Rabinowitsch presentation uses \(M\) variables and all equations and
+cleared numerators have degree at most \(E\ge2\), then
+\(\deg\overline V_B\le E^M\) and B184 gives the finite certificate order
+\(D_{\mathrm{car}}=E^{M+1}\). NG149 shows why this is not yet vanishing:
+the affine-linear charts \(z^2+x\) and \(w^2+yw+x\) have carrier \(x=0\)
+but escape ideal \((y^2)\) with nonzero conormal defect. G118 is therefore
+the active residual gate: prove those finitely many coefficients vanish
+using class-directed full-incidence geometry while retaining the detector.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1084,6 +1097,7 @@ python verification/verify_B181_resultant_collision.py
 python verification/verify_B182_etale_idempotents.py
 python verification/verify_B183_unit_invariance.py
 python verification/verify_B184_etale_carrier.py
+python verification/verify_B185_incidence_carrier.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1352,7 +1366,10 @@ numerators and their required vanishing jets. NG148 then blocks demanding a
 simple value polynomial after eliminating the label. B184/G117 retain an
 étale algebraic carrier and replace that demand by the explicit
 carrier-degree bound \(\delta e\); constructing the carrier and proving the
-required jets remain open.
+required jets remain open. B185 closes the carrier construction and replaces
+\(\delta e\) by the explicit crude bound \(E^{M+1}\). NG149 leaves exactly
+G118: prove the finitely many conormal coefficients vanish, together with
+the still-unconstructed class-directed detector geometry.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

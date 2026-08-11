@@ -120,7 +120,7 @@ of its cleared numerator representatives.
 
 ## Scope guard
 
-B184 does not construct the carrier from an arbitrary class-directed full
-linear system, bound its degree, bound the numerator representatives, or
-prove the jets in (7) vanish. It supplies only the finite implication once
-those data are audited.
+B184 does not construct the class-directed ODP configuration or prove the
+jets in (7) vanish. B185 subsequently constructs and bounds the algebraic
+carrier for any fixed proposed full-incidence configuration. The finite
+implication here supplies no detector or vanishing mechanism.

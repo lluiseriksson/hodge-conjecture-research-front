@@ -45,5 +45,14 @@ from a finite polynomial presentation, but it does not itself identify the
 correct local component, prove smooth étaleness, or establish item 5.
 
 Every uniform-matroid, adjoint-defect, primitive-image, rational-type, and
-specified-pairing clause remains attached. No arbitrary-variety carrier
-construction with the required jet vanishing is currently proved.
+specified-pairing clause remains attached. The carrier and the required
+jet vanishing are logically separate.
+
+## Closure after B185
+
+B185 constructs items 1-4 from the product of the labelled full-incidence
+critical loci and gives the crude explicit certificate order
+\(D_{\mathrm{car}}=E^{M+1}\). NG149 shows that these data do not imply the
+remaining jets vanish. G118 is the corrected residual gate: prove those
+finitely many conormal coefficients vanish while retaining every detector
+clause.

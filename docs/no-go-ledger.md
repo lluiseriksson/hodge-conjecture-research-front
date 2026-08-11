@@ -2835,4 +2835,28 @@
   points.
 - **Re-entry condition:** retain a pointed étale algebraic carrier, express
   the numerator regularly on it, and apply B184's carrier-degree bound as
-  required by G117. Carrier construction, jets, and detectors remain open.
+  required by G117. B185 now closes the carrier construction; the jets and
+  detectors remain open in G118.
+
+## NG-149 - Effective carrier bounds force jet vanishing
+
+- **Label:** NO-GO
+- **Route:** after constructing B185's smooth étale carrier and finite
+  certificate order, treat finiteness or low algebraic degree as evidence
+  that the required conormal coefficients vanish.
+- **Valid input:** the carrier and cleared numerators come from the actual
+  labelled algebraic incidence, and B184-B185 give a rigorous finite order
+  beyond which no first nonzero defect can hide.
+- **Invalid inference:** bounded detectability implies vanishing.
+- **Precise obstruction:** the affine-linear ODP charts
+  \(f_1=z^2+x\) and \(f_2=w^2+yw+x\) have critical values
+  \(x\) and \(x-y^2/4\). Their basis carrier \(x=0\) has degree one, but
+  its escape ideal is \((y^2)\) and
+  \(\beta([y^2])=2y\,dy\bmod y^2\ne0\).
+- **Full-system guard:** the family is affine-linear in the parameters and
+  has constant nondegenerate Hessians. What it lacks is the arbitrary-class
+  Hodge detector, so it refutes only the carrier-data shortcut.
+- **Re-entry condition:** G118 must prove the actual finitely many conormal
+  coefficients vanish using new class-directed full-incidence geometry.
+  Effective elimination, smoothness, and finite checkability are not that
+  proof.

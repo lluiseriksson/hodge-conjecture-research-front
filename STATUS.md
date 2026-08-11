@@ -773,6 +773,16 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G117 - EXPLORATORY: construct that carrier from the full labelled
   incidence, audit its degree \(\delta\) and numerator degree \(e\), and
   prove conormal vanishing through order \(\delta e-1\) with every detector.
+- B185 - PROVED: the product of the labelled full-incidence critical loci,
+  cut by the independent basis values, is the required smooth algebraic
+  carrier; a presentation with \(M\) variables and degree bound \(E\) has
+  certificate order \(E^{M+1}\).
+- NG149 - NO-GO: an effective finite carrier certificate does not make its
+  jets vanish; the affine-linear two-ODP model has carrier \(x=0\), escape
+  ideal \((y^2)\), and nonzero order-one conormal defect.
+- G118 - EXPLORATORY: prove every conormal coefficient through order
+  \(E^{M+1}-1\) vanishes for the actual class-directed full incidence while
+  retaining rational type and the specified nonzero detector pairing.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1341,7 +1351,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   effective gate to full-incidence numerator bounds and vanishing jets.
   NG148 blocks simple elimination over the original base. B184/G117 replace
   it by a faithfully descending étale-carrier certificate with order bound
-  \(\delta e\); the carrier construction and required jets are unresolved.
+  \(\delta e\). B185 constructs and bounds the carrier by \(E^{M+1}\);
+  NG149 shows finite checkability is not vanishing. G118 isolates the
+  remaining finite conormal coefficients, class direction, and detector.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

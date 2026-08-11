@@ -633,6 +633,38 @@ gate: construct that carrier from the full labelled incidence, audit
 S072 makes elimination bounds computable from explicit equations but does
 not prove any of those geometric or jet obligations.
 
+B185 closes the carrier and degree part without eliminating labels. For
+each tracked ODP, the relative critical locus is algebraic and étale over
+the full parameter chart because its spatial Jacobian is the invertible
+Hessian. Their labelled fiber product is again étale. Cutting it by the
+\(R\) independent basis-value equations gives a smooth algebraic carrier
+whose analytification is \(F_B\), and the remaining regular values are the
+escape numerators.
+
+After Rabinowitsch localization, let \(M\) be the number of affine
+variables and let \(E\ge2\) bound all equation and cleared-numerator
+degrees. Successive Bézout gives
+
+\[
+ \deg\overline V_B\le E^M,
+ \qquad
+ D_{\mathrm{car}}=E^{M+1}. \tag{*}
+\]
+
+Thus all-order conormal vanishing is reduced to the explicit finite
+condition
+
+\[
+ j^{D_{\mathrm{car}}-1}\beta_{K_B}=0.
+\]
+
+NG149 blocks confusing that finite certificate with its satisfaction:
+\(f_1=z^2+x\), \(f_2=w^2+yw+x\) give the degree-one carrier \(x=0\) but
+escape ideal \((y^2)\) and a nonzero order-one conormal row. G118 is the
+new residual gate: prove the actual finite coefficients vanish using
+class-directed full-incidence geometry and retain every Hodge detector
+clause.
+
 Two sufficient attacks feed G008:
 
 \[
