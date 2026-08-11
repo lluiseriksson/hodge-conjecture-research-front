@@ -3341,3 +3341,20 @@
   detector or specified pairing.
 - **Re-entry condition:** prove a special-point higher-contact theorem with
   B211's exact signature and every G140 detector clause.
+
+## NG-174 - Raise the polarization with too few nodes
+
+- **Label:** NO-GO
+- **Route:** increase \(m\) while keeping \(Z_m\) fixed, bounded, or in
+  the range \(N_m\le m+1\), and count positivity as G140.
+- **Valid input:** \(H^m\) separates every zero-dimensional scheme of
+  length at most \(m+1\).
+- **Invalid inference:** the increasingly independent evaluation creates
+  G140's nonzero no-coloop value relation.
+- **Precise obstruction:** B212 makes evaluation on \(Z_m\) surjective
+  when \(N_m\le m+1\), while lower extinction already forces
+  \(m\le N_m\).
+- **Detector guard:** separation supplies no rational type-\((0,0)\)
+  relation, specified pairing, profile, or algebraic cycle.
+- **Re-entry condition:** grow \(N_m\ge m+2\), meet B212's rank and
+  support window, and retain every G141 detector clause.

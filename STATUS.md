@@ -986,6 +986,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   osculating spaces of joins/secants, with explicit Veronese applications.
 - NG173 - NO-GO: those general-point theorems and maximal-rank
   interpolation do not construct G140's special adjacent dependence.
+- B212 - PROVED: powers of a very ample bundle separate every scheme of
+  length at most the power plus one. Hence G140 forces \(N\ge m+2\),
+  \(m\le r\le R\), \(m+1\le R\le N-1\), and relation support at least
+  \(m+2\).
+- G141 - EXPLORATORY: realize G140 inside this exact critical rank window
+  while retaining its profile, holonomy, and arbitrary-class detector.
+- S076 - primary audit: Gotzmann regularity and its zero-dimensional
+  Veronese separation corollary were checked at the theorem level.
+- NG174 - NO-GO: increasing \(m\) with \(N\le m+1\) makes value
+  evaluation surjective and erases the relation required by G140.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1603,6 +1613,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   adjacent second-osculating transition; NG172 keeps first- and
   second-order contact separate. B211/G140 give the exact fat-point rank
   signature and node floor; S075/NG173 exclude the general-point route.
+  B212/G141 impose the critical very-ample window; S076/NG174 exclude
+  high powers with too few nodes.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

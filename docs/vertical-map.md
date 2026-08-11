@@ -1276,6 +1276,32 @@ rank table with its nondegenerate profile and detector. S075/NG173 show
 that higher Terracini lemmas for general secant data do not create the
 special dependence in (*************************).
 
+B212 adds a projective-normality-independent positivity constraint. Since a degree-
+\(k\) power of a very ample bundle separates every scheme of length at
+most \(k+1\), G140 must satisfy
+
+\[
+ N\ge m+2,\qquad
+ m\le r:=h_Z(m-1)\le R:=h_Z(m),\qquad
+ m+1\le R\le N-1. \tag{**************************}
+\]
+
+The full rank table is therefore
+
+\[
+\begin{array}{c|ccc}
+&h_Z&h_{2Z}&h_{3Z}\\ \hline
+m-1&r&r&r\\
+m&R&R+d&R+d+1.
+\end{array} \tag{***************************}
+\]
+
+Every nonzero degree-\(m\) value relation has support at least \(m+2\).
+Under B211's pointwise full order-two hypothesis,
+\(N\ge\max\{m+2,\binom{d+2}{2}\}\). G141 asks for this critical window
+with the profile and detector retained. S076/NG174 show that merely
+raising the power with \(N\le m+1\) destroys the required relation.
+
 Two sufficient attacks feed G008:
 
 \[

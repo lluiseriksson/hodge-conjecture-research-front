@@ -36,6 +36,7 @@ source does **not** prove. Latest web retrieval date: 2026-08-11.
 | S073 | Chiantini-Ciliberto (2008) | Terracini lemma and tangential contact loci | Theorem 3.1, Definition 3.4, and special-vs-general point scope checked |
 | S074 | Pareschi (1995); Frediani (2023) | Gaussian maps and second fundamental forms | diagonal-ideal definition, abelian/curve hypotheses, and mismatch with finite nodal inverse-Hessian contractions checked |
 | S075 | Ballico-Fontanari (2005); Ballico-Bocci-Carlini-Fontanari (2004) | higher Terracini lemmas and osculating spaces | general-point hypotheses, secant-osculating targets, Veronese scope, and mismatch with G139 checked |
+| S076 | Gotzmann (1978); Buczynski-Ginensky-Landsberg (2013) | regularity and linear independence of finite schemes under Veronese powers | zero-dimensional regularity bound, degree-length threshold, and transfer to powers of a very ample bundle checked |
 
 “Seeded” means the citation is identified but no theorem depending decisively
 on it may be promoted until the exact statement and proof context are checked.

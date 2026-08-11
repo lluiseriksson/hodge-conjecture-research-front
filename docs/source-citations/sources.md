@@ -2324,6 +2324,35 @@ Edoardo Ballico, Cristiano Bocci, Enrico Carlini, and Claudio Fontanari,
   of future comparison maps, but the cited theorems do not construct G139
   or prove the Hodge Conjecture.
 
+## S076 - Gotzmann regularity and finite-scheme separation
+
+Gerd Gotzmann, “Eine Bedingung für die Flachheit und das Hilbertpolynom
+eines graduierten Ringes,” *Mathematische Zeitschrift* **158** (1978),
+61–70, DOI 10.1007/BF01214566.
+[EuDML record](https://eudml.org/doc/172619).
+
+Jarosław Buczyński, Adam Ginensky, and J. M. Landsberg, “Determinantal
+Equations for Secant Varieties and the Eisenbud–Koh–Stillman Conjecture,”
+*Journal of the London Mathematical Society* **88** (2013), 1–24,
+arXiv:1007.0192.
+[arXiv](https://arxiv.org/abs/1007.0192).
+
+- Audited Buczyński–Ginensky–Landsberg Proposition 2.1.2, preprint p. 6:
+  Gotzmann regularity makes the ideal of every zero-dimensional
+  projective scheme of degree \(\ell\) be \(\ell\)-regular.
+- Audited their Lemma 2.1.3 on the same page: after a degree
+  \(k\ge\ell-1\) Veronese re-embedding, such a scheme spans a projective
+  \((\ell-1)\)-plane. Equivalently, degree-\(k\) polynomials restrict
+  surjectively to it.
+- Transfer audit for B212: if \(H\) embeds \(X\) into projective space,
+  the restrictions to \(X\) of ambient degree-\(k\) polynomials are
+  global sections of \(H^k\). Ambient separation therefore proves that
+  \(H^k\) separates every subscheme of \(X\) of length at most \(k+1\);
+  projective normality is not assumed.
+- Scope guard: the cited regularity theorem controls finite-scheme Hilbert
+  functions. It constructs no special fat-point dependence, Hodge
+  detector, algebraic cycle, or general Hodge Conjecture conclusion.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

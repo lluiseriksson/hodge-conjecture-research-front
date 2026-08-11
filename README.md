@@ -790,6 +790,15 @@ signature with the distinguished profile and detector. S075 audits higher
 Terracini lemmas; NG173 records that their general-point secant/osculating
 scope is the opposite of G140's extreme special dependence.
 
+B212 applies zero-dimensional Gotzmann regularity to the embedding by
+\(H\). It proves that \(H^k\) separates every scheme of length at most
+\(k+1\), so G140 necessarily lies in the strict window \(N\ge m+2\).
+Writing \(r=h_Z(m-1)\) and \(R=h_Z(m)\), it forces
+\(m\le r\le R\), \(m+1\le R\le N-1\), and support at least \(m+2\) for
+every nonzero degree-\(m\) value relation. G141 is the refined
+construction gate. S076 records the primary regularity audit; NG174
+excludes increasing the power with at most \(m+1\) nodes.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1374,6 +1383,7 @@ python verification/verify_B207_dual_connecting.py
 python verification/verify_B208_profile_birth.py
 python verification/verify_B209_B210_osculating.py
 python verification/verify_B211_fat_point_signature.py
+python verification/verify_B212_very_ample_window.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1703,6 +1713,8 @@ B209-B210/G139 make that bypass adjacent and second-osculating; NG172
 separates tangent contact from second-order contact.
 B211/G140 isolate the exact fat-point rank signature and node floor;
 S075/NG173 exclude general-point higher Terracini as its construction.
+B212/G141 impose the universal critical window \(N\ge m+2\);
+S076/NG174 exclude asymptotic positivity with too few nodes.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
