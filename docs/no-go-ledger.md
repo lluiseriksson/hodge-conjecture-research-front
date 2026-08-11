@@ -3005,3 +3005,25 @@
 - **Re-entry condition:** compute all isotypic components and prove B191's
   equalities and tensor rank for their total, or construct G123 by a
   nonsymmetry mechanism, while retaining the rational detector.
+
+## NG-156 - Promote reduced Cayley-Bacharach to doubled-jet holonomy
+
+- **Label:** NO-GO
+- **Route:** take the minimal reduced adjoint evaluation circuit of
+  B138-B141, apply S056-S060, and count the resulting carrier as B193/G124
+  one-node determination.
+- **Valid input:** the reduced circuit has a unique full-support scalar
+  relation and the audited theorems can force small circuits onto
+  bounded-degree curves.
+- **Invalid inference:** reduced values for
+  \(F=K_X\otimes L^n\) determine first derivatives for \(L\) on \(2Z\),
+  or determine inverse-Hessian similitudes.
+- **Precise obstruction:** S056-S060 contain no map from reduced adjoint
+  postulation to
+  \(H^0(I_ZL)/H^0(I_{2Z}L)\), the one-node schemes \(\Psi_i\), or the
+  Hessian tensor. They yield carrier containment only. B029 further shows
+  that overloading the simplest line carrier puts the whole line in the
+  singular locus rather than producing isolated ODPs.
+- **Re-entry condition:** prove a new theorem for the actual doubled
+  \(L\)-jet scheme giving B191's kernel equalities, B193's conformal
+  cocycle, isolated nodes, and the rational detector.

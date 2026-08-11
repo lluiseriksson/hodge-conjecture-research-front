@@ -852,6 +852,39 @@ No synchronization result on that strict component proves G123 until every
 omitted component is shown to contribute trivially to
 \(H^0(I_ZL)/H^0(I_{2Z}L)\) or is incorporated into the same rank-one tensor.
 
+B193/G124 isolate the maximal one-node-determined branch \(q=2n\). In this
+case every \(d_i:V\to G_i\) is an isomorphism. The dual gradient-relation
+space satisfies
+
+\[
+ \mathcal R_D\xrightarrow{\sim}\bigoplus_{j\ne i}G_j^*
+ \quad\text{for every }i,
+\]
+
+so arbitrary coefficients away from one node have a unique completion.
+Rank-one Hessian synchronization then forces all multiplier coordinates
+nonzero and gives a conformal cocycle
+
+\[
+ T_{ji}=d_jd_i^{-1},\qquad
+ B_j(T_{ji}x,T_{ji}y)=\frac{\lambda_j}{\lambda_i}B_i(x,y).
+\]
+
+This is a sufficient branch
+
+\[
+ \text{G123}\Longleftarrow\text{G124 maximal Hessian holonomy},
+\]
+
+with minimal doubled-scheme defect at least \(2n(N-1)+1\).
+
+NG156 blocks importing G124 from the existing Cayley--Bacharach chain.
+B138-B141 and S056-S060 concern reduced value evaluation for the adjoint
+bundle \(K_X\otimes L^n\); G124 concerns first derivatives of \(L\) on
+\(2Z\) and inverse ODP Hessians. The source audits supply no comparison,
+and B029 shows that the simplest low-degree carrier promotion destroys
+isolated nodality.
+
 Two sufficient attacks feed G008:
 
 \[

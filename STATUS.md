@@ -836,6 +836,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG155 - NO-GO: synchronizing jets only in an invariant or one-character
   family along a transitive node orbit leaves uncontrolled isotypic
   components in the full conditional-gradient quotient.
+- B193 - PROVED: in the maximal branch \(q=2n\), every punctured dual-
+  gradient assignment has a unique completion and the node Hessians form a
+  conformal transition cocycle with nonzero multiplier coordinates.
+- G124 - EXPLORATORY: construct that maximal holonomy branch from arbitrary
+  \((X,\zeta)\), with multiplier in the no-coloop value image and every
+  rational detector clause retained.
+- NG156 - NO-GO: reduced adjoint Cayley--Bacharach and its carrier theorems
+  do not supply doubled \(L\)-jets, one-node completion, or inverse-Hessian
+  holonomy; the collinear shortcut also destroys isolated nodality.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1420,7 +1429,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   rank-one Hessian tensor. NG154 excludes the known scalable product-fiber
   detector because its full conormal-gradient block is too large.
   B192/NG155 exclude a single semi-invariant symmetry component as a
-  substitute for the complete linear system.
+  substitute for the complete linear system. B193/G124 isolate the maximal
+  conformal-holonomy branch; NG156 excludes deriving its doubled-jet data
+  from the reduced adjoint Cayley--Bacharach chain.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

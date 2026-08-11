@@ -613,6 +613,18 @@ on the projective embedding and could not permute distinct nodes. All
 omitted isotypic components must therefore be included in B191's full
 quotient and Hessian tensor; symmetry alone does not solve G123.
 
+B193/G124 focus the least-defect branch \(q=2n\). Every node gradient map
+is then an isomorphism, every dual gradient assignment away from one node
+has a unique completion, and rank-one Hessian synchronization becomes a
+conformal transition cocycle with all multiplier coordinates nonzero. The
+required doubled-scheme defect is still at least \(2n(N-1)+1\).
+
+NG156 audits the existing Cayley--Bacharach literature against this gate.
+S056-S060 control reduced value evaluation for the adjoint bundle and can
+force carrier curves; they do not control first jets of the divisor bundle
+on \(2Z\) or ODP Hessian similitudes. The collinear carrier shortcut also
+falls under B029 and produces a positive-dimensional singular locus.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1180,6 +1192,7 @@ python verification/verify_B188_augmented_hessian.py
 python verification/verify_B189_B190_augmented_filters.py
 python verification/verify_B191_intrinsic_conformal.py
 python verification/verify_B192_semi_invariant_scope.py
+python verification/verify_B193_maximal_holonomy.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1466,7 +1479,10 @@ and G123 recast the branch as one-node coherent determination plus a
 rank-one intrinsic Hessian tensor; NG154 shows that the known scalable
 product-fiber detector has too many full-system conormal gradients.
 B192/NG155 then exclude replacing the complete system by one synchronized
-semi-invariant component of a nontrivial nodal symmetry.
+semi-invariant component of a nontrivial nodal symmetry. B193/G124 isolate
+the maximal \(q=2n\) conformal-holonomy branch; NG156 blocks promoting
+reduced adjoint Cayley--Bacharach carrier results to the required doubled
+first-jet and Hessian data.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

@@ -1854,6 +1854,11 @@ and a Cayley-Bacharach theorem,” arXiv:2403.07272 (2024).
   the threshold hidden in \(d\gg e\). It does not permit \(e=e(d)\), so B141
   claims only \(\omega(d)\), not a quadratic or other explicit floor. It
   constructs no nodes, vanishing-cycle relation, Hodge pairing, or cycle.
+- NG156 uses this scope boundary explicitly: S056-S060 concern reduced
+  point-value postulation for the adjoint degree. None treats the doubled
+  node scheme, first derivatives of the hypersurface line bundle, one-node
+  relation completion, or inverse-Hessian transition forms required by
+  B191-B193/G124.
 
 ## S061 - Obstructed equianalytic hypersurface strata
 

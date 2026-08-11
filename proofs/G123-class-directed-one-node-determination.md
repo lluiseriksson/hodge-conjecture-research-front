@@ -63,4 +63,8 @@ that number is not counted as existence. The node scheme, Hessian tensor,
 and rational detector must be constructed jointly. B192/NG155 further
 exclude proving these conditions only on invariant or single-character
 sections of a nontrivial nodal symmetry: that is necessarily a strict
-subfamily of a very ample complete system.
+subfamily of a very ample complete system. B193/G124 isolate the least-
+defect sufficient branch \(q=2n\), where every punctured dual-gradient
+relation has a unique completion and the node Hessians form a conformal
+cocycle. NG156 prevents importing that doubled-jet structure from reduced
+adjoint Cayley--Bacharach alone.
