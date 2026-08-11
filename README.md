@@ -1593,6 +1593,25 @@ The survivors are standard polarization in dimensions 14--20; the
 standard/cubic/quartic tie at 22; and cubic/quartic polarization in even
 dimensions at least 24. Every detector and cycle obligation remains open.
 
+B274 excludes the first of those standard survivors. At rank 95 on
+\(Q^{14}\), B266's only unresolved branch projects to standard rank 65 on
+\(Q^{12}\). Specializing B257's standard-only classification to dimension
+12 gives residual rank \(39<47\), nonfinal budgets \(6,7<8\), and a final
+\(\mathbf P^5\) contact locus of quadratic rank \(21<65\). Thus the
+\(Q^{12}\) floor is at least 66 and the \(Q^{14}\) floor at least 96.
+NG230 makes G193 **NO-GO**. G194 is active at
+
+\[
+T(d)=
+\begin{cases}
+8d-16,&d=14,16,18,20,22,\\
+7d+6,&d\ge24\text{ even}.
+\end{cases}
+\]
+
+This is another necessary rank obstruction, not a detector or progress
+toward algebraicity of an arbitrary Hodge class.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2224,6 +2243,7 @@ python verification/verify_B269_planar_witness_no_eighth.py
 python verification/verify_B270_B271_cubic_equality.py
 python verification/verify_B272_quartic_equality.py
 python verification/verify_B273_square_equality.py
+python verification/verify_B274_standard_d14.py
 ```
 
 The repository verifier checks the required directory topology, result

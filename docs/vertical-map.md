@@ -2327,6 +2327,28 @@ Here \(R(14)=95\), \(R(d)=8d-16\) for
 The next justified attack is equality classification at one of these
 survivors; every detector and cycle clause remains mandatory.
 
+B274 resolves the first G193 survivor. The \(Q^{14}\) standard
+rank-95 argument has exactly one residual escape, of rank 65 on
+\(Q^{12}\). The dimension-12 specialization of B257 excludes that
+equality: its residual \(Q^{10}\) rank is \(39<47\), its nonfinal
+budgets are below the rank-eight escape, and its final filled span has
+only \(\mathbf P^5\) quadratic point rank. Hence the \(Q^{14}\) floor
+is at least 96 and G193 is NO-GO. The current branch is
+
+\[
+ \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
+ \Longleftarrow\text{G194 at }T(d)
+ \Longleftarrow
+ \begin{cases}
+ \text{standard equality},&d=14,16,18,20,\\
+ \text{standard/cubic/quartic equality},&d=22,\\
+ \text{cubic/quartic equality},&d\ge24\text{ even},
+ \end{cases}
+\]
+
+where \(T(d)=8d-16\) for \(d=14,16,18,20,22\) and
+\(T(d)=7d+6\) for even \(d\ge24\). Every detector clause remains open.
+
 Two sufficient attacks feed G008:
 
 \[

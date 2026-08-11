@@ -1358,9 +1358,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   B266 excludes the sole standard survivor at \(d=22\).
 - G192 - NO-GO: B273 excludes its sole square survivor on every valid
   even-quadric input in dimensions \(14,16,18,20\).
-- G193 - EXPLORATORY, active: classify standard equality in dimensions
-  14--20, the standard/cubic/quartic tie at \(d=22\), and
-  cubic/quartic equality for even \(d\ge24\), retaining every G144
+- G193 - NO-GO: B274 excludes its sole standard rank-95 survivor on
+  the valid \(Q^{14}\) input.
+- G194 - EXPLORATORY, active: classify standard equality at \(8d-16\)
+  in dimensions 14--20, the standard/cubic/quartic tie at \(d=22\),
+  and cubic/quartic equality for even \(d\ge24\), retaining every G144
   detector clause.
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
   six cubic double supports are independent and the seventh residual
@@ -1389,7 +1391,12 @@ generation from the controlled partitioned nodal locus is not proved.**
   contradicts quartic tangent absorption, while escape contributes a full
   seventh double; hence \(h_Z(1)\ge7d+7\).
 - NG229 - NO-GO: square equality \(6d+6\) cannot survive in dimensions
-  14--20; G193 is the active standard/cubic piecewise boundary.
+  14--20; G193 is reached.
+- B274 - PROVED: the rank-65 standard equality on \(Q^{12}\) fails by
+  the dimension-12 B257 branch audit, eliminating the sole residual
+  branch of rank 95 on \(Q^{14}\); its standard floor is at least 96.
+- NG230 - NO-GO: standard equality 95 cannot survive on \(Q^{14}\);
+  G194 is the active standard/cubic piecewise boundary.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

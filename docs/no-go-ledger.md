@@ -4643,3 +4643,21 @@
   is produced.
 - **Re-entry condition:** attack the G193 survivor table and retain every
   G144 clause.
+
+## NG-230 - Retain standard rank 95 on \(Q^{14}\)
+
+- **Label:** NO-GO
+- **Route:** realize G193 with \(A=O_Q(1)\) on \(Q^{14}\) at rank 95.
+- **Residual obstruction:** the sole unresolved B266 branch projects to
+  standard rank 65 on \(Q^{12}\). B274 specializes the B257 branch audit
+  to exclude that equality.
+- **Mixed obstruction:** three minimal escapes leave one dimension, while
+  a fourth needs seven; every filled alternative has quadratic point rank
+  at most 36.
+- **Rank consequence:** the \(Q^{14}\) standard floor is at least 96.
+- **Boundary consequence:** G193 is NO-GO and G194 is active at the next
+  standard/cubic piecewise floor.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack G194 and retain every G144 clause.

@@ -32,8 +32,8 @@ falsifier: a square G192 package of rank 6d+6 or a failure of B273's tangent-ten
   entire \(d+1\)-dimensional double neighborhood is independent.
 - **Rank consequence:** every square candidate has rank at least
   \(7d+7\), not \(6d+6\).
-- **Boundary consequence:** G192 is NO-GO and G193 is the next active
-  standard/cubic piecewise gate.
+- **Boundary consequence at this checkpoint:** G192 is NO-GO and G193
+  is reached. B274 later closes G193 and activates G194.
 - **Detector guard:** no ODP package, Kuranishi vanishing, rational
   detector, specified pairing, cycle, proof, or disproof of HC is
   produced.
