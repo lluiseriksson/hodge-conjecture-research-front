@@ -1054,6 +1054,17 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG180 - NO-GO: arbitrarily large Gauss fibers across specially built
   hypersurfaces do not solve G146 for the arbitrary fixed \((X,\zeta)\)
   and contain none of its detector data.
+- B220 - PROVED: if \(H=A\otimes B\) with A and B separating point pairs, products
+  of point-separating sections give an H-hyperplane containing \(T_pX\)
+  but not \(q\); the H-Gauss map is injective. Thus every \(A^k\),
+  \(k\ge2\), is excluded from G146.
+- S080 - primary audit: Bauer-Szemberg's higher-embedding definitions and
+  abelian tensor-product jet theorems are checked; B220 instead uses a
+  self-contained arbitrary-X multiplication argument.
+- G147 - EXPLORATORY: realize the complete G146 package using an
+  exceptional very ample polarization with no two point-separating factors.
+- NG181 - NO-GO: raising the polarization power separates the tangent
+  spaces and cannot create the common-tangent fiber required at equality.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

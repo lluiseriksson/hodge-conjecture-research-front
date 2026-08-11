@@ -67,7 +67,7 @@ with ODPs exactly at the marked points and smooth away from them.
 Consider degree-\(e\) hypersurfaces of \(\mathbf P^{d+1}\) of the form
 
 \[
- F=f+x_0G,qquad G\in
+ F=f+x_0G,\qquad G\in
  H^0(\mathbf P^{d+1},\mathcal O(e-1)). \tag{4}
 \]
 

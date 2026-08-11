@@ -1467,6 +1467,29 @@ explicit base loci. NG180 prevents promotion: this varies \(X\) with
 \(N\), while G146 fixes arbitrary \((X,\zeta)\) and retains the complete
 detector package.
 
+B220 removes the asymptotic-power route. If \(H=A\otimes B\) with A and
+B each separating point pairs, for every \(p\ne q\) a product section lies in
+\(H^0(H\otimes\mathfrak m_p^2)\) but is nonzero at \(q\). Hence
+\(T_pX\ne T_qX\), so the Gauss map is injective. In particular
+
+\[
+ \gamma_{A^k}\text{ is injective for every }k\ge2.
+\tag{******************************************}
+\]
+
+The equality branch now ends at
+
+\[
+\text{G146}\Longleftarrow
+\text{G147: exceptional H without two separating factors, with the full detector package}.
+\tag{*******************************************}
+\]
+
+S080 supplies the higher-jet vocabulary but its quantitative theorem is
+abelian; B220 is elementary and arbitrary-X. NG181 forbids trying to
+reach G147 by high-power positivity. The slack branch of G144 is not
+excluded.
+
 Two sufficient attacks feed G008:
 
 \[

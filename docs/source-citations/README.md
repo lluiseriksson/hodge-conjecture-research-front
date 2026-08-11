@@ -40,6 +40,7 @@ source does **not** prove. Latest web retrieval date: 2026-08-11.
 | S077 | Mezzetti-Miro-Roig-Ottaviani (2013); Michalek-Miro-Roig (2016) | WLP, Laplace equations, and Togliatti systems | main equivalence and smooth monomial cubic classification scope checked |
 | S078 | Chiantini-Ciliberto (2010); Furukawa-Ito (2019) | Zak tangency and separable Gauss contact loci | tangency dimension inequality, general-contact linearity, and special-fiber scope checked |
 | S079 | Griffiths-Harris (1979) | Bertini for a linear system with base locus | Appendix A.6 smooth-away-from-base statement and B219 affine-slice scope checked |
+| S080 | Bauer-Szemberg (1997) | higher-order embeddings and jet-ampleness | definitions and abelian tensor-product scope checked; B220 uses a separate elementary arbitrary-X argument |
 
 “Seeded” means the citation is identified but no theorem depending decisively
 on it may be promoted until the exact statement and proof context are checked.

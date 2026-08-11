@@ -3458,3 +3458,18 @@
   give no rational type, full-support relation, pairing, or cycle.
 - **Re-entry condition:** construct the required special fiber on every
   fixed \(X\) and retain all G146 profile and detector data.
+
+## NG-181 - Create the equality fiber by raising polarization powers
+
+- **Label:** NO-GO
+- **Route:** replace a very ample A by large powers \(A^k\) and search
+  asymptotically for G146's common-tangent fiber.
+- **Valid input:** higher powers improve section and jet separation.
+- **Invalid inference:** this produces coincident tangent spaces.
+- **Precise obstruction:** B220 gives an \(A^k\)-section with zero first
+  jet at \(p\) and nonzero value at \(q\) for every \(p\ne q\), so the
+  Gauss map is injective for all \(k\ge2\).
+- **Detector guard:** only G145-G147's equality branch is excluded;
+  G144's slack range and the terminal Hodge problem remain open.
+- **Re-entry condition:** use a G147 polarization with no two
+  point-separating factors, or leave equality and return to the slack branch.

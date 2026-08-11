@@ -2442,6 +2442,29 @@ Supérieure* **12** (1979), 355–452.
   variety nor supplies a Hodge detector, specified pairing, algebraic
   cycle, or the Hodge Conjecture.
 
+## S080 - Higher-order embeddings and tensor-product scope
+
+Thomas Bauer and Tomasz Szemberg, “Higher Order Embeddings of Abelian
+Varieties,” *Mathematische Zeitschrift* **224** (1997), 449–455.
+[Author-hosted published text](https://www.mathematik.uni-marburg.de/~tbauer/1997-Higher-order-embeddings.pdf).
+
+- Audited Introduction, p. 1: \(k\)-very ampleness is surjectivity onto
+  every length-\(k+1\) finite subscheme, while \(k\)-jet ampleness is the
+  displayed simultaneous fat-point restriction condition. The paper
+  records the implications jet ample => very ample => spanned in the
+  corresponding order.
+- Audited Theorem 2.1 and Corollaries 2.2–2.3, pp. 3–5: the quantitative
+  tensor-product jet-ampleness results are for line bundles on complex
+  abelian varieties, using translations and ample divisors.
+- B220 scope: its arbitrary-X Gauss injectivity does not import those
+  abelian theorems. It directly multiplies one A-section and one B-section,
+  each vanishing at \(p\) and nonzero at \(q\), to obtain an
+  \(A\otimes B\)-section in \(\mathfrak m_p^2\) but nonzero at \(q\).
+- Scope guard: neither higher-order embedding terminology nor the abelian
+  jet theorem creates G147's exceptional common-tangent fiber, rational
+  detector, specified Hodge pairing, algebraic cycle, or the Hodge
+  Conjecture.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

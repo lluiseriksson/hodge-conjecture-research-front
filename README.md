@@ -856,6 +856,15 @@ Bertini uses. NG180 enforces the decisive scope guard: varying a special
 hypersurface with \(N\) neither constructs the fiber on an arbitrary fixed
 \(X\) nor supplies the class-directed detector.
 
+B220 gives the complementary asymptotic obstruction. If
+\(H=A\otimes B\) with both factors separating every point pair, products of separating
+sections distinguish \(T_pX\) from \(T_qX\) for every \(p\ne q\); hence
+the H-Gauss map is injective. In particular every \(A^k\), \(k\ge2\),
+is excluded from G146. S080 audits the higher-jet literature without
+importing its abelian hypotheses. G147 is the residual gate for
+exceptional polarizations without two such factors, and NG181 closes the strategy of
+raising polarization powers inside the equality branch.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
