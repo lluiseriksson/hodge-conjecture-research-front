@@ -1273,11 +1273,17 @@ branch is B236 on \(Q^{d-2}\); the only other equality case leaves
 rank-one annihilators indexed by a \((d-3)\)-space and confines every
 marked point to a projective four-space of quadratic rank at most
 fifteen. Hence G173 and \(s=8d-7\) are **NO-GO** (NG208). The active
-smallest gate is G174:
+smallest gate was G174.
+
+B251 closes that rank as well. The residual branch is B237 on
+\(Q^{d-2}\); all filled mixed branches retain a projective-four-space
+contact bound, and the sole branch leaving one dimension receives at
+least \(d-4\) dimensions from the next tangent. Hence G174 and
+\(s=8d-5\) are **NO-GO** (NG209). The active smallest gate is G175:
 
 \[
- m=2,\qquad s=8d-6,\qquad \delta_1=4d-3,\qquad
- N=10d-4,\qquad h_Z(1)=5d-2=N/2.
+ m=2,\qquad s=8d-4,\qquad \delta_1=4d-2,\qquad
+ N=10d-2,\qquad h_Z(1)=5d-1=N/2.
 \]
 
 Only the standard quadric polarization survives this new rank test.
@@ -1892,6 +1898,7 @@ python verification/verify_B247_nonstandard_six_plus_six.py
 python verification/verify_B248_fixed_additive_quadric.py
 python verification/verify_B249_slope_eight_floor.py
 python verification/verify_B250_standard_slope_eight_equality.py
+python verification/verify_B251_standard_one_beyond_slope_eight.py
 ```
 
 The repository verifier checks the required directory topology, result

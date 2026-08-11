@@ -1995,18 +1995,25 @@ B236 rank \(3(d-2)+1\) on \(Q(U)\), while the only other minimal branch
 leaves rank-one annihilators \(E_z\) for a \((d-3)\)-space \(J\). Their
 contact locus lies in \(\mathbf P(J^\perp)\simeq\mathbf P^4\), of
 quadratic point rank at most fifteen. Hence G173 and \(s=8d-7\) are
-NO-GO. The next signature is
+NO-GO.
+
+B251 excludes the next rank. The residual branch becomes B237 at rank
+\(3(d-2)+2\). In the mixed branches, every span that fills the budget
+retains a \((d-3)\)-space of rank-one annihilators and hence the same
+\(\mathbf P^4\) contact bound. The sole branch leaving one quotient
+dimension receives at least \(d-4\) dimensions from the next tangent.
+Thus G174 and \(s=8d-5\) are NO-GO. The next signature is
 
 \[
- \delta_1=4d-3,\qquad N=10d-4,\qquad
- \dim E_1=5d-2=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+ \delta_1=4d-2,\qquad N=10d-2,\qquad
+ \dim E_1=5d-1=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
 \]
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G174: construct one rank beyond slope-eight equality}
+ \text{G175: construct two ranks beyond slope-eight equality}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

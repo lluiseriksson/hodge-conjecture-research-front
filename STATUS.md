@@ -1260,9 +1260,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   projective four-space of point rank at most fifteen.
 - G173 - NO-GO: the layers \(s=8d-8,8d-7\) fail.
 - NG208 - NO-GO: standard survival at slope-eight equality.
-- G174 - EXPLORATORY, active smallest branch: construct the balanced
-  package with \(s=8d-6,\delta_1=4d-3,N=10d-4\), and
-  \(h_Z(1)=5d-2=N/2\).
+- B251 - PROVED: one rank above equality, the residual branch reduces
+  to B237; every mixed branch is either confined to \(\mathbf P^4\) or
+  exceeds its last one-dimensional quotient by at least \(d-4\).
+- G174 - NO-GO: the layers \(s=8d-6,8d-5\) fail.
+- NG209 - NO-GO: standard survival one rank beyond slope eight.
+- G175 - EXPLORATORY, active smallest branch: construct the balanced
+  package with \(s=8d-4,\delta_1=4d-2,N=10d-2\), and
+  \(h_Z(1)=5d-1=N/2\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
