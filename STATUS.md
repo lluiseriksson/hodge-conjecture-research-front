@@ -975,6 +975,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   and every detector clause.
 - NG172 - NO-GO: tangent absorption and S073/Terracini do not imply
   second-osculating absorption.
+- B211 - PROVED: G139 is the adjacent restriction-rank signature
+  \((0,0)\to(d,1)\); its defects from conditional independence are
+  \(d(N-1)\) and \(\binom{d+1}{2}N-1\). Full pointwise order-two rank
+  forces \(N\ge\binom{d+2}{2}\).
+- G140 - EXPLORATORY: realize that strongly defective fat-point signature
+  with the distinguished nondegenerate central profile, G130, and every
+  detector clause.
+- S075 - primary audit: higher Terracini lemmas concern general points and
+  osculating spaces of joins/secants, with explicit Veronese applications.
+- NG173 - NO-GO: those general-point theorems and maximal-rank
+  interpolation do not construct G140's special adjacent dependence.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1590,7 +1601,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   stronger first-profile-birth bypass; NG171 prevents inferring it from
   first-jet extinction alone. B209-B210/G139 reduce the bypass to one
   adjacent second-osculating transition; NG172 keeps first- and
-  second-order contact separate.
+  second-order contact separate. B211/G140 give the exact fat-point rank
+  signature and node floor; S075/NG173 exclude the general-point route.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -3323,3 +3323,21 @@
 - **Re-entry condition:** prove a second-order contact theorem for G139's
   special adjacent configuration while retaining its degree-\(m\) birth
   and detector.
+
+## NG-173 - Use general higher Terracini theory to construct G140
+
+- **Label:** NO-GO
+- **Route:** apply S075 at general points or use maximal-rank fat-point
+  interpolation and count the result as G140.
+- **Valid input:** S075 computes osculating spaces of joins/secants from
+  spans of osculating spaces at general points.
+- **Invalid inference:** the point span absorbs all second osculators and
+  realizes the adjacent increments \((0,0)\to(d,1)\).
+- **Precise obstruction:** B211 requires conditional rank defects
+  \(d(N-1)\) and \(\binom{d+1}{2}N-1\), whereas maximal rank gives
+  increments \(dN\) and \(\binom{d+1}{2}N\). S075 also has no adjacent
+  polarization comparison.
+- **Detector guard:** the cited theorems supply no arbitrary-class rational
+  detector or specified pairing.
+- **Re-entry condition:** prove a special-point higher-contact theorem with
+  B211's exact signature and every G140 detector clause.

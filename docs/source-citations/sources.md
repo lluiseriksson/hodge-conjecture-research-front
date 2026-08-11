@@ -2291,6 +2291,39 @@ arXiv:2208.14794v2 (2023).
   Hodge class, rational detector, algebraic cycle, or general Hodge
   Conjecture conclusion is supplied.
 
+## S075 - Higher Terracini lemmas for osculating spaces
+
+Edoardo Ballico and Claudio Fontanari, “A Terracini Lemma for Osculating
+Spaces with Applications to Veronese Surfaces,” arXiv:math/0406321 (2004),
+published in *Journal of Pure and Applied Algebra* **195** (2005), 1–6.
+[arXiv PDF](https://arxiv.org/pdf/math/0406321).
+
+Edoardo Ballico, Cristiano Bocci, Enrico Carlini, and Claudio Fontanari,
+“Osculating Spaces to Secant Varieties,” arXiv:math/0406322 (2004).
+[arXiv PDF](https://arxiv.org/pdf/math/0406322).
+
+- Audited Ballico–Fontanari Lemma 2, preprint pp. 3–4: for general marked
+  points, the tangent space to a join of prescribed osculating spaces is
+  contained in the span of the next osculating spaces; equality requires
+  additional dimension hypotheses. The applications concern Veronese
+  surfaces and explicit secant-defect ranges.
+- Audited Ballico–Bocci–Carlini–Fontanari Theorem 1, preprint pp. 1–2: for
+  general points \(p_i\) and a general point of their secant span, the
+  order-\(r\) osculating space of the secant variety is the span of the
+  order-\(r\) osculating spaces of \(X\) at the \(p_i\).
+- Field and scope audit: both papers work with complex integral
+  nondegenerate projective varieties, but their decisive statements use
+  general points and secant/osculating varieties. Their explicit
+  interpolation applications are for Veronese surfaces or
+  \(\mathbf P^3\).
+- G139 scope guard: neither theorem says that the span of the point lines
+  \(S_Z^{(0)}\) contains \(S_Z^{(2)}\), produces the adjacent power
+  transition \(H^{m-1}\to H^m\), selects a one-dimensional nondegenerate
+  profile, or retains an arbitrary Hodge-class detector.
+- Thus higher Terracini theory is relevant language and a possible source
+  of future comparison maps, but the cited theorems do not construct G139
+  or prove the Hodge Conjecture.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

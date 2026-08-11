@@ -1251,6 +1251,31 @@ all G130/detector clauses remain. NG172 records that tangent absorption and
 S073's general-point Terracini theorem do not imply this second-order
 contact.
 
+B211 rewrites (**********************)--(***********************) as
+
+\[
+\begin{array}{c|cc}
+&h_{2Z}-h_Z&h_{3Z}-h_{2Z}\\ \hline
+m-1&0&0\\
+m&d&1
+\end{array}. \tag{************************}
+\]
+
+The maximal conditional increments at \(N\) nodes are
+\(dN\) and \(\binom{d+1}{2}N\). Thus (************************) requires
+defects
+
+\[
+d(N-1),\qquad \binom{d+1}{2}N-1. \tag{*************************}
+\]
+
+If a lower order-two jet fiber has full rank, second-osculating absorption
+also forces \(N\ge\binom{d+2}{2}\); the full-span branch forces
+\(N\ge h^0(H^{m-1})\). G140 is the class-directed realization of this
+rank table with its nondegenerate profile and detector. S075/NG173 show
+that higher Terracini lemmas for general secant data do not create the
+special dependence in (*************************).
+
 Two sufficient attacks feed G008:
 
 \[

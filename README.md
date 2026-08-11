@@ -780,6 +780,16 @@ exactly one central nondegenerate profile, retaining G130 and the detector.
 NG172 blocks treating tangent absorption or Terracini's lemma as a
 second-order contact theorem.
 
+B211 expresses G139 by the restriction ranks to \(Z\subset2Z\subset3Z\):
+the two conditional increments are \((0,0)\) in degree \(m-1\) and
+\((2n,1)\) in degree \(m\). Against conditional jet independence, the
+required defects are \(d(N-1)\) and
+\(\binom{d+1}{2}N-1\). If one lower order-two jet fiber has full rank,
+then \(N\ge\binom{d+2}{2}\). G140 asks for this class-directed fat-point
+signature with the distinguished profile and detector. S075 audits higher
+Terracini lemmas; NG173 records that their general-point secant/osculating
+scope is the opposite of G140's extreme special dependence.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1363,6 +1373,7 @@ python verification/verify_B206_colon_obstruction.py
 python verification/verify_B207_dual_connecting.py
 python verification/verify_B208_profile_birth.py
 python verification/verify_B209_B210_osculating.py
+python verification/verify_B211_fat_point_signature.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1690,6 +1701,8 @@ B208/G138 provide the stronger first-profile-birth bypass; NG171 separates
 first-jet extinction from second-profile extinction.
 B209-B210/G139 make that bypass adjacent and second-osculating; NG172
 separates tangent contact from second-order contact.
+B211/G140 isolate the exact fat-point rank signature and node floor;
+S075/NG173 exclude general-point higher Terracini as its construction.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

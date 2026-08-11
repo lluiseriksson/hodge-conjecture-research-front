@@ -44,3 +44,9 @@ no-coloop, rational type-\((0,0)\), and specified-pairing clause.
 B209-B210 make (1)--(2) the adjacent projective form of G138. B208 then
 closes G134 and \(\Xi\). G139 does not kill the pure cubic tensor or any
 later rung and does not construct a cycle.
+
+B211 converts (1)--(2) into the exact adjacent rank table for
+\(Z\subset2Z\subset3Z\), quantifies the two required superabundances, and
+gives the pointwise second-jet node floor. G140 is that finite signature
+gate. S075/NG173 prevent replacing its special configuration by a
+general-point higher Terracini theorem.
