@@ -1086,6 +1086,28 @@ NG164 shows why the nonzero obstruction group is necessary: if it vanishes,
 the complete system separates all two-jets, so \(R=N\) and
 \(\dim V_m=2nN\), outside the G130 branch.
 
+B203 refines the selective lift by the decomposable subspace
+\(P_m=(R_+J)_m\). With \(K_m=H^0(I_Z^2H^m)\),
+\(T_m=H^0(I_Z^3H^m)\), and quadratic profile map \(\rho\),
+
+\[
+0\longrightarrow\frac{T_m}{T_m\cap P_m}
+\longrightarrow\frac{K_m}{P_m}
+\longrightarrow\frac{\ker\partial_Z}{\rho(P_m)}
+\longrightarrow0. \tag{****************}
+\]
+
+G133 selects the minimal quadratic-new branch
+
+\[
+T_m\subset P_m,\qquad
+\ker\partial_Z/\rho(P_m)=\mathbf C[q_{t,Q}].
+\]
+
+Then \(K_m/P_m\) is exactly G129's one-dimensional new double line.
+NG165 records that \(\partial_Z(q)=0\) alone proves only lift existence,
+not survival modulo lower products.
+
 Two sufficient attacks feed G008:
 
 \[

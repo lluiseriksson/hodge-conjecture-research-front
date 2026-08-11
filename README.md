@@ -715,6 +715,16 @@ kernel while that obstruction group remains nonzero. NG164 proves why:
 vanishing the whole group makes two-jet evaluation surjective, forcing
 \(R=N\) and \(\dim V_m=2nN\).
 
+B203 then separates lift existence from minimal-generator novelty:
+\[
+0\to T_m/(T_m\cap P_m)\to K_m/P_m
+\to\ker\partial_Z/\rho(P_m)\to0.
+\]
+G133 selects the clean branch where the triple-hidden term vanishes and
+the profile quotient is exactly the nondegenerate line
+\(\mathbf C[q_{t,Q}]\). NG165 blocks counting an arbitrary lift before
+removing decomposable profiles and triple corrections.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1291,6 +1301,7 @@ python verification/verify_B199_nodal_generator.py
 python verification/verify_B200_quadratic_congruence.py
 python verification/verify_B201_cubic_filters.py
 python verification/verify_B202_selective_lift.py
+python verification/verify_B203_generator_filtration.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1603,6 +1614,8 @@ promoting a nodewise formal Morse normalization to full cubic closure.
 B202/G132 reduce construction of the central quadratic profile to a
 selective connecting-map kernel; NG164 blocks automatic Serre-vanishing
 lifting because it destroys the required jet defect.
+B203/G133 refine that kernel to the unique new double-generator line;
+NG165 separates coherent lift existence from graded minimality.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

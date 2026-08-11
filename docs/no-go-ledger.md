@@ -3180,3 +3180,19 @@
 - **Re-entry condition:** construct G132's one nondegenerate kernel element
   for a nonzero connecting map, with a new minimal ODP lift and every
   detector clause.
+
+## NG-165 - Count every coherent lift as a new minimal generator
+
+- **Label:** NO-GO
+- **Route:** prove \(\partial_Z(q)=0\), choose a lift \(F\), and count it as
+  G129's new double-generator line.
+- **Valid input:** \(F\) has the prescribed quadratic profile.
+- **Invalid inference:** \(F\notin P_m=(R_+J)_m\).
+- **Precise obstruction:** if \(q\in\rho(P_m)\), a decomposable lift
+  \(p\in P_m\) already has that profile. Every other lift is \(p+g\) with
+  \(g\in T_m\). When \(T_m\subset P_m\), every lift remains decomposable.
+- **Detector guard:** a zero class in \(K_m/P_m\) cannot supply G129's
+  central minimal generator, regardless of its local Hessian.
+- **Re-entry condition:** prove G133's one-dimensional quotient conditions
+  or construct the alternative triple-hidden branch, with ODPs and every
+  detector clause.

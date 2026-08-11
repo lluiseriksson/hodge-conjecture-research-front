@@ -53,3 +53,6 @@ Choose a lift \(F\in H^0(I_Z^2H^m)\) of \(q_{t,Q}\) such that:
 Equation (1) is narrower than G130 but is not sufficient by itself: lift
 minimality, global nodality, G131's cubic filters, every later Kuranishi
 rung, and the terminal cycle remain separate.
+B203 separates lift existence from minimal-generator novelty. G133 records
+the clean quadratic-new line, while NG165 prevents counting an arbitrary
+lift before quotienting by decomposable lower products.
