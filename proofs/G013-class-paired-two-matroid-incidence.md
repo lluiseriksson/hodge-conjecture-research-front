@@ -13,7 +13,7 @@ hodge_type: the specified class and sought Saito relation have rational type (0,
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B009-B013, B016, B022-B032, B135-B141, NG109-NG114, and S056-S060
+dependencies: B009-B013, B016, B022-B032, B135-B142, NG109-NG114, and S056-S060
 claim: Every specified primitive rational Hodge class with a nonzero global detector admits a high-degree nodal member whose node scheme satisfies the two-part smoothing-matroid inequalities, has positive adjoint evaluation defect, and contains a rational Saito relation whose ambient class retains nonzero pairing with the specified class.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class for which every nodal node scheme satisfying the two-part matroid inequalities either has zero adjoint defect or has detector image contained in the class annihilator
 ---
@@ -132,3 +132,12 @@ nonzero pairing, but obtains both from a divisor forced to contain the
 algebraic diagonal. NG-029 shows that the remaining requirement is not
 finite-rank compatibility; it is non-circular construction from the input
 class or global detector.
+
+B142 strengthens the compatibility evidence at the quantitative boundary
+left by B141. On \(\mathbf P^n\times\mathbf P^n\), a divisor containing a
+product fiber has \(m^n=\omega(m)\) isolated nodes, an optimal
+\(n!\)-block uniform smoothing matroid, defect one, ambient rank one, and a
+nonzero primitive pairing. It does not satisfy this gate's two-block
+condition for \(n\ge3\), and its pairing comes from the preselected
+algebraic fiber. Thus the dimension-scaled successor is G028; neither
+version has the required unanchored class-selection mechanism.

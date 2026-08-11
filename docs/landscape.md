@@ -65,6 +65,7 @@ boundary, not an induction mechanism.
 | quartic-linear isolated-node floor | B139 applies S058's h=4 theorem and normalization/conormal bounds for integral and reducible cubic carriers to require at least 4(mn-c)-4 nodes | NG112 closes every smaller cardinality; no incidence at the new boundary, ambient rank, or class-specific B135 value is constructed |
 | quintic-linear isolated-node floor | B140 applies S059's h=5 theorem and a uniform Hilbert-family component-separation/first-jet lemma to require at least 5(mn-c)-10 nodes | NG113 closes every smaller cardinality; no incidence at the new boundary, ambient rank, or class-specific B135 value is constructed |
 | superlinear isolated-node floor | B141 combines S060's arbitrary fixed-degree carrier theorem with B140's uniform component lemma to prove that the normalized node count tends to infinity | NG114 closes every fixed linear budget; no superlinear G013 incidence, ambient rank, or class-specific B135 value is constructed |
+| superlinear factorial-block witness | B142 constructs on P^n x P^n a fiber-containing (m,m) divisor with m^n isolated nodes, uniform smoothing matroid partitionable into n! blocks, defect one, ambient rank one, and nonzero primitive pairing | the fiber is a preselected algebraic anchor; the nonlinear Li-clean condition and arbitrary-class B135 selection remain open |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -447,3 +448,12 @@ degree, so choosing \(E\) arbitrarily proves
 \(|\Delta_m|/(mn-c)\to\infty\). NG114 closes all \(O(m)\) clean-nodal
 models. The theorem is ineffective in \(E\) and gives no stronger explicit
 growth rate.
+
+B142 shows that this necessary regime is geometrically attainable in every
+middle dimension. A general \((m,m)\) divisor in
+\(\mathbf P^n\times\mathbf P^n\) containing a product fiber has \(m^n\)
+isolated nodes, a uniform smoothing matroid with an optimal \(n!\)-block
+partition, adjoint defect one, and a rank-one primitive pairing. This closes
+node-count and block-capacity compatibility only for that anchored family.
+It neither proves the nonlinear clean-arrangement hypothesis nor supplies an
+unanchored class-directed incidence on an arbitrary variety.

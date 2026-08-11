@@ -119,6 +119,17 @@ sufficient reduction: isolated nodality at the new boundary, the two-matroid
 inequalities, the ambient-map rank, and the specified B135 pairing all remain
 unproved.
 
+B142 supplies the first positive witness beyond that quantitative boundary.
+For every \(n\ge2\), a general \((m,m)\) divisor in
+\(\mathbf P^n\times\mathbf P^n\) containing a product fiber has \(m^n\)
+isolated nodes. Its smoothing matroid is uniform and partitions into the
+asymptotically optimal \(n!\) blocks; its adjoint defect and primitive
+ambient rank are both one, and the fiber pairs nontrivially with the
+primitive Hodge line. This proves that superlinear node growth and the
+finite rank conditions are mutually compatible. It does not prove the
+nonlinear Li-clean hypothesis, a canonical nonzero B135 residue, or any
+unanchored construction from an arbitrary \((X,\zeta)\).
+
 G032 separates the extra cleanup content from terminal support nonemptiness:
 starting with any detecting singular member, deform it to the Li-clean nodal
 locus while preserving a nonzero pairing. The first attempt fails. By B025,

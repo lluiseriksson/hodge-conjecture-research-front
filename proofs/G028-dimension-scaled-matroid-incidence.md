@@ -13,7 +13,7 @@ hodge_type: the selected relation must have type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is assumed or constructed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B010, B016, B028, B034, B054-B055, G012-G015, G019, and NG037
+dependencies: B010, B016, B028, B034, B054-B055, B142, G012-G015, G019, and NG037
 claim: For every specified nonzero primitive rational Hodge class, some high-power nodal member has a clean node incidence whose smoothing matroid partitions into a dimension-scaled number q of independent blocks, has positive adjoint defect and positive extra-to-primitive rank, and contains a rational type-(0,0) relation pairing nontrivially with the class.
 falsifier: a polarized smooth projective variety and primitive rational Hodge class for which every clean q-block nodal relation at every high power either violates the q-matroid partition inequalities, has zero adjoint/ambient rank, or has zero class pairing
 ---
@@ -58,3 +58,30 @@ The next justified gate is G029: cross a topology-changing incidence
 boundary and prove that a chosen global tube or quotient-level thimble class
 specializes to one clean nodal relation while retaining rational Hodge type
 and nonzero pairing. This is not supplied by equisingular transport.
+
+## Attempt 2 - Realize the factorial scale on a product fiber
+
+B142 takes
+
+\[
+ X=\mathbf P^n\times\mathbf P^n,\qquad
+ W=\{p\}\times\mathbf P^n,\qquad
+ A_m=\mathcal O(m,m).
+\]
+
+A general member containing \(W\) has \(m^n\) isolated nodes. Their
+smoothing matroid is the uniform matroid of rank
+\(\binom{m+n}{n}-n\), so they partition into \(n!\) independent blocks,
+exactly matching B034's asymptotic lower bound. The adjoint defect is one,
+the extra-to-primitive map has rank one, and the fiber class pairs
+nontrivially with the one-dimensional primitive Hodge line. Since
+\(m^n/(mn-n-1)\to\infty\), this is the first witness that also crosses
+B141's superlinear floor in every middle dimension.
+
+This is positive compatibility evidence, not a solution of G028. The fiber
+\(W\) is an explicit algebraic anchor, the nonlinear Li-clean condition is
+not inferred from the uniform tangent matroid, and no construction starts
+from an arbitrary \((X,\zeta)\). The surviving narrow gate is therefore not
+node-count feasibility or block capacity: it is an unanchored,
+class-directed incidence theorem, together with its clean nonlinear
+discriminant and nonzero B135 residue class.

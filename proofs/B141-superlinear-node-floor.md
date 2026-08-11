@@ -126,4 +126,6 @@ In particular, no \(O(m)\) node-count model can close G013. The theorem does
 not provide any effective common threshold as \(E\) varies, exclude
 superlinear or polynomially larger node counts, construct a G013 incidence,
 prove its ambient rank, evaluate B135, or construct an algebraic cycle. It
-is a necessary asymptotic obstruction only.
+is a necessary asymptotic obstruction only. B142 subsequently realizes the
+superlinear scale in an anchored product family; it does not weaken this
+scope guard for arbitrary varieties or classes.

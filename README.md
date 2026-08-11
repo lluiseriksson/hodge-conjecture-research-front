@@ -145,7 +145,12 @@ reducible quartic carriers. It excludes the range through
 \(5(mn-c)-11\), recorded as NG113. B141 then audits Banerjee's arbitrary
 fixed-degree carrier theorem S060. Combined with B140's uniform component
 lemma, it proves \(|\Delta_m|/(mn-c)\to\infty\); NG114 closes every fixed
-linear node budget.
+linear node budget. B142 then realizes the surviving scale in every middle
+dimension on the anchored family
+\(\mathbf P^n\times\mathbf P^n\): a fiber-containing \((m,m)\) divisor has
+\(m^n\) isolated nodes, an optimal \(n!\)-block uniform smoothing matroid,
+defect one, ambient rank one, and a nonzero primitive pairing. Because the
+fiber is preselected and algebraic, this is compatibility evidence only.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -168,7 +173,10 @@ uniformly bounded-node realization in the stable high-power regime. The
 active clean-nodal construction obligation is G013: a growing multipart
 configuration meeting B138's triple-linear floor and having nonzero B135
 residue-cokernel class. B141 now requires its node count to grow genuinely
-superlinearly in \(m\).
+superlinearly in \(m\). B142 proves that superlinear isolated nodality and
+all finite rank/pairing conditions can coexist in a fixed anchored product
+family; unanchored class selection, nonlinear clean incidence, and the
+canonical B135 value remain open.
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -667,6 +675,7 @@ python verification/verify_B139_quartic_linear_floor.py
 # Resource policy: execute this verifier on Colab Pro+ CPU/high-RAM only.
 python verification/verify_B140_quintic_linear_floor.py
 python verification/verify_B141_superlinear_floor.py
+python verification/verify_B142_dimension_scaled_fiber.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -843,7 +852,9 @@ bound. B137/NG110 strengthen this to the explicit lower bound
 cardinality through \(3(mn-c)-1\). B139/NG112 extend the exclusion through
 \(4(mn-c)-5\). B140/NG113 extend the exclusion through
 \(5(mn-c)-11\). B141/NG114 close every fixed linear budget; the first open
-regime is now \(|\Delta_m|=\omega(m)\).
+regime is now \(|\Delta_m|=\omega(m)\). B142 realizes that regime with
+\(m^n\) anchored nodes and the optimal \(n!\)-block capacity, but does not
+construct an arbitrary-class detector.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

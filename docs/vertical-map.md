@@ -36,7 +36,12 @@ multipart configuration. B137/NG110 quantify “growing”: after fixing
 \(K_X\otimes H^c\) globally generated, isolated nodal defect in \(|H^m|\)
 first requires \(2(mn-c)+2\) nodes. B141/NG114 strengthen the current floor
 to \(|\Delta_m|/(mn-c)\to\infty\) by excluding every fixed-degree
-Cayley-Bacharach carrier and hence every linear node budget.
+Cayley-Bacharach carrier and hence every linear node budget. B142 proves
+that this surviving scale is attainable on an anchored product fiber:
+\(m^n\) isolated nodes support an optimal \(n!\)-block partition, defect
+one, and ambient rank one. It does not propagate upward because it starts
+from an algebraic carrier and does not prove the nonlinear clean/B135
+incidence required for an arbitrary class.
 
 Two sufficient attacks feed G008:
 
@@ -1061,8 +1066,10 @@ raising the power. B137/NG110 exclude every model with at most
 \(2(mn-c)+1\) nodes, B138/NG111 extend the exclusion through
 \(3(mn-c)-1\), B139/NG112 extend it through \(4(mn-c)-5\), and B140/NG113
 extend it through \(5(mn-c)-11\), and B141/NG114 exclude all \(O(m)\)
-counts. Any scalable G013 attack must cross that superlinear floor
-with a multipart node set and prove a nonzero B135 residue quotient.
+counts. B142 crosses that superlinear floor in an anchored product family
+with \(m^n\) nodes and an \(n!\)-block uniform matroid. Any scalable general
+G013/G028 attack must do so without an algebraic anchor, verify the nonlinear
+clean incidence, and prove a nonzero B135 residue quotient.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces
