@@ -708,6 +708,13 @@ G131 asks to kill both. NG163 excludes normalizing only the central Morse
 germ, because that does not constrain Hessians of all omitted double
 directions in \(\overline K\).
 
+B202 attacks G130's existence step. The prescribed quadratic profile
+\(q_{t,Q}\) lifts to a central \(F\) exactly when its connecting class in
+\(H^1(I_Z^3H^m)\) vanishes. G132 asks for one nondegenerate profile in the
+kernel while that obstruction group remains nonzero. NG164 proves why:
+vanishing the whole group makes two-jet evaluation surjective, forcing
+\(R=N\) and \(\dim V_m=2nN\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1283,6 +1290,7 @@ python verification/verify_B197_B198_birth_window.py
 python verification/verify_B199_nodal_generator.py
 python verification/verify_B200_quadratic_congruence.py
 python verification/verify_B201_cubic_filters.py
+python verification/verify_B202_selective_lift.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1592,6 +1600,9 @@ third-neighborhood congruence; NG162 forces its multiplier to come from
 outside the point ideal.
 B201/G131 isolate the exact pure and mixed cubic filters; NG163 blocks
 promoting a nodewise formal Morse normalization to full cubic closure.
+B202/G132 reduce construction of the central quadratic profile to a
+selective connecting-map kernel; NG164 blocks automatic Serre-vanishing
+lifting because it destroys the required jet defect.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

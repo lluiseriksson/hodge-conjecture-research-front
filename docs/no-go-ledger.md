@@ -3162,3 +3162,21 @@
 - **Re-entry condition:** prove both \(\Theta=0\) and \(\Xi=0\) in G131
   without deleting \(\overline K\), then proceed separately to the quartic
   and every later finite rung.
+
+## NG-164 - Kill the whole third-neighborhood obstruction group
+
+- **Label:** NO-GO
+- **Route:** impose \(H^1(I_Z^3H^m)=0\) so every prescribed quadratic
+  profile lifts to a degree-\(m\) section.
+- **Valid input:** B202's connecting homomorphism then vanishes and the
+  quadratic lift exists.
+- **Invalid inference:** the complete system still has the value and
+  conditional-gradient defects required by G130.
+- **Precise obstruction:** the same vanishing makes evaluation on
+  \(\mathcal O_X/I_Z^3\) surjective. Hence \(R=N\) and
+  \(\dim V_m=2nN>2n\) for \(N>1\).
+- **Detector guard:** full jet interpolation supplies no value relation,
+  class-specific rational detector, or specified nonzero pairing.
+- **Re-entry condition:** construct G132's one nondegenerate kernel element
+  for a nonzero connecting map, with a new minimal ODP lift and every
+  detector clause.

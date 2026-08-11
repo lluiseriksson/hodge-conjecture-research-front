@@ -1064,6 +1064,28 @@ G131 is the next cubic gate. NG163 records that a formal Morse normal form
 for \(F\) can at most address the pure block; it does not synchronize every
 double direction in \(\overline K\).
 
+B202 isolates the construction half of G130. For
+
+\[
+ q_{t,Q}=(t|_Z)^{-1}[\mu_2(Q)]
+ \in H^0((I_Z^2/I_Z^3)H^m),
+\]
+
+the ideal-power sequence gives
+
+\[
+ \partial_Z(q_{t,Q})=0\in H^1(I_Z^3H^m)
+ \quad\Longleftrightarrow\quad
+ \exists F:\ tF-\mu_2(Q)\in H^0(I_Z^3H^{2m}).
+ \tag{***************}
+\]
+
+G132 asks for a nondegenerate, class-directed kernel element while
+\(H^1(I_Z^3H^m)\ne0\), followed by a new minimal ODP lift and the detector.
+NG164 shows why the nonzero obstruction group is necessary: if it vanishes,
+the complete system separates all two-jets, so \(R=N\) and
+\(\dim V_m=2nN\), outside the G130 branch.
+
 Two sufficient attacks feed G008:
 
 \[

@@ -58,3 +58,6 @@ B201 decomposes the next cubic rung into a pure \(U^3\) tensor and a mixed
 \(\overline K\,U^2\) Hessian filter. G131 records their simultaneous
 vanishing as the next operational gate; NG163 prevents replacing it by
 formal normalization of the central member alone.
+B202 identifies the construction of \(F\) itself with a selective
+third-neighborhood lift. G132 isolates the required nondegenerate kernel
+element, while NG164 excludes making the connecting map vanish wholesale.

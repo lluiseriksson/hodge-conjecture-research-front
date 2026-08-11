@@ -1990,6 +1990,11 @@ Mathematics* (2) **61** (1955), 197–278.
 - NG160 combines that generator ceiling with the already audited eventual
   first-jet surjectivity. The two asymptotic conclusions exclude, rather
   than construct, G128's adjacent primitive birth.
+- NG164 applies the same FAC vanishing theorem to \(I_Z^3H^m\). Vanishing
+  makes the complete two-jet evaluation surjective, so it is incompatible
+  with G130's nontrivial value relation and one-node-dimensional
+  conditional-gradient defect. G132 therefore needs selective kernel
+  membership, not blanket Serre vanishing.
 - Scope guard: the power depends on the fixed finite point scheme. This
   theorem gives jet interpolation; it neither makes the analytic base map
   linear nor supplies a vanishing-cycle relation, Hodge type, or specified

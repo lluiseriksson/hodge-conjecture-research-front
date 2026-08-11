@@ -907,6 +907,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   projective tangent system while retaining G130 and the rational detector.
 - NG163 - NO-GO: formal Morse normalization of \(F\) on the selected
   \(U\)-slice does not control Hessians of the omitted double directions.
+- B202 - PROVED: G130's quadratic profile lifts exactly when
+  \(\partial_Z(q_{t,Q})=0\in H^1(I_Z^3H^m)\); lifts form a torsor under
+  \(H^0(I_Z^3H^m)\).
+- G132 - EXPLORATORY: construct a nondegenerate \(q_{t,Q}\) in the kernel
+  of a nonzero connecting map, with a new minimal ODP lift and detector.
+- NG164 - NO-GO: forcing \(H^1(I_Z^3H^m)=0\) makes lifting automatic but
+  also forces \(R=N\) and \(\dim V_m=2nN\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1508,6 +1515,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   congruence; NG162 forces an ambient multiplier outside the point ideal.
   B201/G131 split the cubic rung into pure and mixed filters; NG163 excludes
   central formal normalization as a proof of full cubic vanishing.
+  B202/G132 isolate the selective quadratic lift inside G130; NG164 blocks
+  blanket cohomology vanishing because it removes the first-jet defect.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
