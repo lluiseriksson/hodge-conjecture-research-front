@@ -2193,7 +2193,21 @@ the tangent-hyperplane kernel in every edge space. The next justified
 subgate is therefore a multi-edge image-sum theorem. B264 proves that
 the sum of two edge images has rank at least \(d\) unless all six
 supports lie in one \(\mathbf P^2\) through \(u\). The smallest live
-brick is now classification or exclusion of this planar residual locus.
+brick is then the planar residual locus. B265 closes it: two distinct
+selected secants have different normalized unit jets, so their
+annihilator graph planes meet in dimension one and their images again
+have combined rank \(d\). Thus the cubic/quartic floors are \(7d+6\),
+G190 is NO-GO, and the corrected branch is
+
+\[
+ \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
+ \Longleftarrow\text{G191: construct the square/standard/cubic boundary}
+ \Longleftarrow\text{piecewise equality classification plus the full G144 package}.
+\]
+
+The smallest live equality classes are now square \(k=2\) in
+dimensions \(14,16,18,20\), standard \(k=1\) in dimension \(22\), and
+cubic/quartic \(k=3,4\) in every even dimension at least \(24\).
 
 Two sufficient attacks feed G008:
 

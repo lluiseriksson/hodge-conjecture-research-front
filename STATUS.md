@@ -1333,10 +1333,6 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G189 - NO-GO: the unique rank-158 standard survivor at \(d=22\)
   fails.
 - NG221 - NO-GO: standard survival at third-escape equality.
-- G190 - EXPLORATORY, active smallest branch: classify square equality
-  for \(d=14,16,18,20\), the standard/cubic/quartic tie at \(d=22\),
-  and cubic/quartic equality for every even \(d\ge24\), retaining every
-  G144 detector clause.
 - NG222 - NO-GO: good-edge avoidance alone cannot remove B261's
   tangent-hyperplane kernel; a split totally orthogonal configuration
   has rank exactly \(d-1\) for every single edge.
@@ -1344,6 +1340,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   rank at least \(d\) unless all six independent-double supports lie
   in one \(\mathbf P^2\) through \(u\); cubic/quartic equality is
   confined to that planar locus.
+- B265 - PROVED: two distinct planar secants have different normalized
+  unit jets, so their edge images have combined rank \(d\); cubic and
+  quartic floors rise to \(7d+6\).
+- G190 - NO-GO: no rank-\(7d+5\) cubic/quartic survivor exists in even
+  dimension at least 24.
+- NG223 - NO-GO: planar cubic/quartic equality survival.
+- G191 - EXPLORATORY, active smallest branch: classify square equality
+  for \(d=14,16,18,20\), standard equality at \(d=22\), and
+  cubic/quartic equality for every even \(d\ge24\), retaining every
+  G144 detector clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

@@ -1484,6 +1484,27 @@ six supports into one \(\mathbf P^2\) through \(u\). Hence cubic or
 quartic equality at \(7d+5\) is now confined to that planar locus;
 G190 remains open there.
 
+B265 closes the planar residual case. A connected selected graph has
+two distinct secant lines in the plane; after normalizing their
+hyperplanes at \(u\), their first jets differ. The corresponding
+annihilator graph planes meet in dimension one, so the two images have
+combined rank \(d\). Thus cubic and quartic floors rise to \(7d+6\),
+G190 is **NO-GO** (NG223), and the active gate G191 has
+
+\[
+M(d)=
+\begin{cases}
+6d+6,&d=14,16,18,20,\\
+159,&d=22,\\
+7d+6,&d\ge24\text{ even}.
+\end{cases}
+\]
+
+Equality leaves only the square polarization in the four low
+dimensions, the standard polarization at \(d=22\), and the cubic or
+quartic polarization for even \(d\ge24\). This remains only a
+necessary special-input obstruction.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2107,6 +2128,7 @@ python verification/verify_B262_standard_third_parametric_band.py
 python verification/verify_B263_standard_third_escape_equality.py
 python verification/verify_NG222_single_edge_kernel.py
 python verification/verify_B264_two_edge_jet_dichotomy.py
+python verification/verify_B265_planar_two_edge_unit.py
 ```
 
 The repository verifier checks the required directory topology, result
