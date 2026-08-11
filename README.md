@@ -388,6 +388,15 @@ The canonical representation gives zero; any different adjusted row is
 exactly a syzygy already present. NG138 records the circularity. G108 is
 therefore terminal-equivalent to G100, not a smaller residue gate.
 
+B175/NG139 test a different global mechanism: freeness of the reduced
+discriminant and its logarithmic derivations. The exact ODP value model
+\(\tau=(x,x+y^2)\) has reduced total equation
+\(F=x(x+y^2)\) and a branch-preserving Saito basis whose coefficient
+determinant is \(-4F\). Nevertheless
+\(I_\tau=(x,y^2)\), \(\dim H_\tau=1\), and the central relation does not
+lift. Free-divisor theory controls the reduced union, not the
+scheme-theoretic simultaneous intersection required by G100.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -938,6 +947,7 @@ python verification/verify_B171_mixed_determinant.py
 python verification/verify_B172_residue_selector.py
 python verification/verify_B173_selector_duality.py
 python verification/verify_B174_auxiliary_torsor.py
+python verification/verify_B175_free_discriminant.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1183,7 +1193,9 @@ B173/NG137 identify the complete exact-selector space with the dual moving
 evaluation kernel, so this branch is equivalent to G107. B174/NG138 show
 that auxiliary ideal membership is automatic and every adjusted
 coefficient representation is just a pre-existing syzygy. G108 collapses
-to G100.
+to G100. B175/NG139 then show that even a branch-preserving free reduced
+discriminant does not see the hidden generator of the labelled
+simultaneous-node ideal. The logarithmic route also returns to G100.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

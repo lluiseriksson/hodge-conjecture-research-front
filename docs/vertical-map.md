@@ -410,6 +410,23 @@ alternatives: exact selectors collapse to optional G107 by B173/NG137,
 while nonzero auxiliary cancellation collapses to G100 by B174/NG138.
 The exact general gate remains G100 with the specified pairing.
 
+B175/NG139 audit free-divisor theory as a separate possible input. For
+\(\tau=(x,x+y^2)\), the reduced total discriminant
+\(F=x(x+y^2)\) is free and has a Saito basis preserving both labelled
+branches. Yet the simultaneous ideal is \((x,y^2)\), so
+\(H_\tau\) is one-dimensional and the central relation does not lift.
+Thus
+
+\[
+ \operatorname{Der}(-\log V(\textstyle\prod_i\tau_i))\text{ free}
+ \centernot\Longrightarrow H_\tau=0.
+\]
+
+The missing datum is the labelled scheme-theoretic intersection, not the
+reduced union. Any logarithmic re-entry theorem must control that ideal
+directly in the full complete-linear-system geometry; with all detector
+clauses retained, this is again G100.
+
 Two sufficient attacks feed G008:
 
 \[

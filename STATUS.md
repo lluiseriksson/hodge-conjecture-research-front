@@ -691,6 +691,13 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G108 - EXPLORATORY, terminal-equivalent audit form: independently
   constructing adjusted auxiliary rows spanning all central relations is
   exactly G100, not a smaller residue gate.
+- B175 - PROVED: the reduced divisor
+  \(x(x+y^2)=0\) has an explicit branch-preserving Saito basis and is
+  free, while its labelled simultaneous ideal is
+  \((x,y^2)\) with \(\dim H_\tau=1\).
+- NG139 - NO-GO: freeness of the reduced discriminant, even with
+  branchwise logarithmic derivations, does not lift central critical-value
+  relations; it forgets the scheme-theoretic simultaneous intersection.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1237,7 +1244,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   B173/NG137 then show that the complete exact-selector implementation is
   precisely the dual form of G107. B174/NG138 show that nonzero auxiliary
   ideal cancellation is tautological and its representation torsor is the
-  existing syzygy module. G108 collapses to G100.
+  existing syzygy module. G108 collapses to G100. B175/NG139 show that a
+  free reduced discriminant and even branch-preserving logarithmic basis
+  do not determine \(H_\tau\); the labelled scheme-theoretic intersection
+  is missing. The logarithmic route also collapses to G100.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

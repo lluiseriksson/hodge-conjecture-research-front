@@ -2155,6 +2155,45 @@ Society* 93 (1985), 593--597.
   a family, an arbitrary-variety residue theorem, Hodge type, or a detector
   pairing.
 
+## S071 - Saito's criterion for free divisors
+
+Kyoji Saito, “Theory of logarithmic differential forms and logarithmic
+vector fields,” *Journal of the Faculty of Science, University of Tokyo,
+Section IA, Mathematics* 27 (1980), no. 2, 265–291.
+[Primary repository record and scan](https://repository.dl.itc.u-tokyo.ac.jp/records/39646).
+
+Francisco J. Calderón-Moreno, “Logarithmic differential operators and
+logarithmic de Rham complexes relative to a free divisor,” *Annales
+scientifiques de l'École Normale Supérieure* 32 (1999), 701–714.
+[Primary full text at Numdam](https://www.numdam.org/item/10.1016/S0012-9593(01)80004-5/).
+
+Michele Torielli, “Deformations of free and linear free divisors,”
+*Annales de l'Institut Fourier* 63 (2013), 2097–2136.
+[Primary full text at Numdam](https://www.numdam.org/item/10.5802/aif.2824/).
+
+- Audited Calderón-Moreno Section 1.1, pp. 702–703: for a reduced local
+  equation \(f\), logarithmic derivations are those \(\delta\) satisfying
+  \(\delta(f)\in(f)\). The displayed Saito criterion says that this module
+  is free exactly when \(n\) logarithmic derivations have coefficient
+  determinant equal to a unit times \(f\); those derivations then form a
+  basis.
+- Cross-checked the exact attribution against Torielli Proposition 2.8,
+  which identifies it as Saito's Theorem 1.8 and states both the
+  determinant criterion and the basis conclusion. Torielli Proposition
+  2.11 gives the equivalent formal matrix form.
+- Audited the dimension-two guard in Calderón-Moreno pp. 702 and 713 and
+  Torielli p. 2100: logarithmic derivation modules of reduced plane-curve
+  divisors are locally free. B175 does not rely on that blanket fact; it
+  supplies its own two-column Saito matrix.
+- B175 applies the criterion only after proving directly that
+  \(F=x(x+y^2)\) is reduced, both displayed vector fields are logarithmic,
+  and their determinant is \(-4F\).
+- Scope guard: free-divisor theory controls the reduced principal ideal
+  \((F)\) and tangent vector fields along \(V(F)\). It does not identify the
+  labelled simultaneous ideal \((\tau_1,\ldots,\tau_N)\), its minimal
+  generators, the hidden-generator space \(H_\tau\), a rational Hodge
+  class, or a Saito detector pairing.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

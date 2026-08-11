@@ -2617,3 +2617,29 @@
 - **Re-entry condition:** construct the nonzero analytic syzygy by
   independent geometry and retain all detector clauses. This is G100
   itself, not a smaller residue criterion.
+
+## NG-139 - Free discriminant forces critical-value syzygy lifting
+
+- **Label:** NO-GO
+- **Route:** prove the reduced total discriminant is a free divisor, choose
+  a Saito basis of logarithmic vector fields, and infer \(H_\tau=0\).
+- **Valid input:** S071 controls the principal reduced equation
+  \(F=\prod_i\tau_i\) and the module
+  \(\operatorname{Der}(-\log V(F))\).
+- **Invalid inference:** this determines the labelled simultaneous ideal
+  \((\tau_1,\ldots,\tau_N)\) or lifts its central linear relations.
+- **Precise obstruction:** B175 takes
+  \(\tau=(x,x+y^2)\). The reduced plane curve
+  \(F=x(x+y^2)\) has a branch-preserving Saito basis with coefficient
+  determinant \(-4F\), but
+  \(I_\tau=(x,y^2)\), \(\dim H_\tau=1\), and every analytic syzygy
+  vanishes at the origin.
+- **Scope guard:** the example is an exact local ODP critical-value model
+  and has projectively realizable finite jets; it is not a claim about a
+  rank-deficient full complete-system germ and is not a Hodge
+  counterexample.
+- **Re-entry condition:** prove a genuinely labelled, scheme-theoretic
+  logarithmic theorem making syzygy evaluation surjective in the full
+  complete-linear-system geometry, then retain the uniform matroid,
+  adjoint defect, primitive ambient image, rational type \((0,0)\), and
+  specified nonzero pairing. This is G100, not a smaller free-divisor gate.
