@@ -2357,6 +2357,14 @@ Therefore G194 is NO-GO and the active branch is G195, obtained by
 replacing only \(T(14)=96\) with \(U(14)=97\). All other survivor rows
 and all detector obligations are unchanged.
 
+B276 then uses the entire dimension-12 B259 band, not only its first
+integer. It excludes residual ranks 67–71 and hence standard ranks
+97–101 on \(Q^{14}\). The last layer forces a fourth minimal escape and
+a filled \(\mathbf P^8\) contact locus of quadratic rank 45. Therefore
+G195 is NO-GO. The active branch is G196 with \(V(14)=102\); every other
+row is unchanged, and every relation, ODP, Kuranishi, rational-type,
+and specified-pairing clause remains open.
+
 Two sufficient attacks feed G008:
 
 \[

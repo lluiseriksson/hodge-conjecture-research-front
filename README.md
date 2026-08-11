@@ -1620,6 +1620,14 @@ G194 **NO-GO**, and G195 is active with \(U(14)=97\), while all other
 rows of G194's piecewise table remain unchanged. No detector clause has
 been reached.
 
+B276 extends the same residual audit to the full B259 band on
+\(Q^{12}\): standard ranks 67–71 all fail. Their lifted \(Q^{14}\)
+ranks are 97–101. Ranks through 100 leave fewer than seven dimensions
+for the fourth nested escape; rank 101 forces that escape to fill and
+then confines every marked point to \(\mathbf P^8\), of quadratic rank
+45. Thus NG232 makes G195 **NO-GO** and moves the \(d=14\) row directly
+to rank 102 in active gate G196. All Hodge-detector clauses remain open.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2253,6 +2261,7 @@ python verification/verify_B272_quartic_equality.py
 python verification/verify_B273_square_equality.py
 python verification/verify_B274_standard_d14.py
 python verification/verify_B275_standard_d14_second.py
+python verification/verify_B276_standard_d14_band.py
 ```
 
 The repository verifier checks the required directory topology, result

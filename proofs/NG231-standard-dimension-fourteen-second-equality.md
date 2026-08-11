@@ -28,7 +28,8 @@ falsifier: a standard G194 package of rank 96 on Q^14 or a failure of B275
   a fourth needs seven, while a filled span has quadratic point rank at
   most 36.
 - **Rank consequence:** the \(Q^{14}\) standard floor is at least 97.
-- **Boundary consequence:** G194 is NO-GO and G195 is active.
+- **Boundary consequence at this checkpoint:** G194 is NO-GO and G195
+  is reached. B276 later closes G195 and activates G196.
 - **Detector guard:** no relation, ODP package, Kuranishi vanishing,
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
