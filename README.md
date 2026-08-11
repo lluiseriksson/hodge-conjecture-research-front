@@ -1698,6 +1698,11 @@ B284 excludes standard ranks 144 through 147 on \(Q^{20}\): residual
 leaves at most five dimensions before a rank-13 fourth escape. NG241
 makes G204 **NO-GO** and G205 retains only nonstandard rank 147 there.
 
+B285 excludes standard ranks 160 and 161 on \(Q^{22}\). Their
+residual \(Q^{20}\) ranks 114 and 115 are below 148, while the mixed
+budget leaves at most three dimensions before a rank-15 fourth escape.
+NG242 makes G205 **NO-GO** and G206 is the uniform boundary \(7d+7\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2341,6 +2346,7 @@ python verification/verify_B281_quartic_strong_separation.py
 python verification/verify_B282_cubic_strong_separation.py
 python verification/verify_B283_standard_d18_band.py
 python verification/verify_B284_standard_d20_band.py
+python verification/verify_B285_standard_d22_band.py
 ```
 
 The repository verifier checks the required directory topology, result

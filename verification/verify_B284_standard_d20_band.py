@@ -26,6 +26,6 @@ def require(path: str, needles: tuple[str, ...]) -> None:
 require("proofs/B284-standard-dimension-twenty-four-rank-band.md", ("brick_id: B284", "status: PROVED", "102+r", "h_Z(1)\\ge148", "disproof of HC"))
 require("proofs/NG241-standard-dimension-twenty-four-rank-band.md", ("brick_id: NG241", "status: NO-GO", "G205", "144 through 147"))
 require("proofs/G204-nonstandard-three-row-boundary.md", ("brick_id: G204", "status: NO-GO", "B284", "G205"))
-require("proofs/G205-nonstandard-four-row-boundary.md", ("brick_id: G205", "status: EXPLORATORY", "AD(20)=147", "active"))
+require("proofs/G205-nonstandard-four-row-boundary.md", ("brick_id: G205", "status: NO-GO", "AD(20)=147", "B285"))
 
 print("PASS: B284 Q20 standard band, G204 no-go, and G205 boundary")

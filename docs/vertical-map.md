@@ -2434,6 +2434,12 @@ mixed budgets cannot reach a fourth escape. G205 retains only
 nonstandard rank 147 in that row. Every detector obligation remains
 open.
 
+B285 closes G205 on \(Q^{22}\): standard ranks 160 and 161 project to
+ranks 114 and 115 on \(Q^{20}\), below its floor 148, and their mixed
+budgets cannot reach a fourth escape. G206 is the uniform boundary
+\(7d+7\) for every even \(d\ge14\). Every detector obligation remains
+open.
+
 Two sufficient attacks feed G008:
 
 \[

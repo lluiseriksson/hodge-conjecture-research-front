@@ -1402,9 +1402,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B284 - PROVED: standard ranks 144 through 147 on \(Q^{20}\) are
   impossible; its standard floor is at least 148.
 - NG241 - NO-GO: the standard dimension-20 branch does not survive.
-- G205 - EXPLORATORY, active: classify nonstandard equality in
-  dimensions 14, 16, 18, and 20, standard equality in dimension 22,
-  and nonstandard equality for even \(d\ge24\).
+- G205 - NO-GO: B285 excludes its standard rank-160 survivor on
+  \(Q^{22}\).
+- B285 - PROVED: standard ranks 160 and 161 on \(Q^{22}\) are
+  impossible; its standard floor is at least 162.
+- NG242 - NO-GO: the standard dimension-22 branch does not survive.
+- G206 - EXPLORATORY, active: classify the uniform equality \(7d+7\)
+  for every even \(d\ge14\), with the standard polarization tied only
+  at \(d=16\).
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
   six cubic double supports are independent and the seventh residual
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
@@ -1485,7 +1490,10 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G204 - NO-GO: B284 removes its dimension-20 standard survivor.
 - B284 - PROVED: the \(Q^{20}\) standard floor is at least 148.
 - NG241 - NO-GO: standard ranks 144 through 147 do not survive.
-- G205 - EXPLORATORY: the next piecewise boundary is active.
+- G205 - NO-GO: B285 removes its dimension-22 standard survivor.
+- B285 - PROVED: the \(Q^{22}\) standard floor is at least 162.
+- NG242 - NO-GO: standard ranks 160 and 161 do not survive.
+- G206 - EXPLORATORY: the uniform \(7d+7\) boundary is active.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
