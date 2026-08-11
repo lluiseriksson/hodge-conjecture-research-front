@@ -2567,3 +2567,29 @@
   complete critical configuration, kill the auxiliary class in
   \(\mathcal O/I_\tau\), control the projective boundary, and retain rational
   type, primitive ambient image, and the specified nonzero pairing.
+
+## NG-137 - Exact critical-degree selectors bypass critical-rank rigidity
+
+- **Label:** NO-GO
+- **Route:** construct \(N-R\) analytic Jacobi numerators of maximal
+  admissible degree that vanish at every auxiliary critical point, and use
+  their residue rows as a direct route to G100.
+- **Valid input:** B172 makes such a frame sufficient for analytic syzygy
+  lifting.
+- **Invalid inference:** this exact-selector frame is weaker than G107.
+- **Precise obstruction:** B173 applies residual Cayley--Bacharach duality
+  at complementary degrees \(e=s-m\) and \(m\), then uses Hessian-weighted
+  Jacobi orthogonality to prove
+  \[
+  \operatorname{Sel}^{\mathrm{res}}_e(T_t)
+  =\ker(\operatorname{ev}_{T_t}^{m})^*.
+  \]
+  A local analytic frame of \(N-R\) rows therefore exists exactly when the
+  moving degree-\(m\) evaluation rank stays \(R\).
+- **Scope guard:** this equality concerns reduced no-infinity gradient
+  complete intersections and exact auxiliary vanishing. It does not treat
+  arbitrary projective varieties or nonzero auxiliary residues in
+  \(I_\tau\).
+- **Re-entry condition:** solve G108's auxiliary-residue ideal cancellation,
+  prove a genuinely different compact residue duality, or prove G107 with
+  every detector clause.

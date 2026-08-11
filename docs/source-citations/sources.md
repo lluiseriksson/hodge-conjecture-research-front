@@ -2118,6 +2118,43 @@ Varieties,” *Compositio Mathematica* 108 (1997), 35--76.
   the tracked nodes, produce Hodge type or rational structure, or prove a
   nonzero Saito pairing.
 
+## S070 - Residual complete-intersection evaluation duality
+
+Leah Gold, John Little, and Hal Schenck, “Cayley--Bacharach and
+evaluation codes on complete intersections,” *Journal of Pure and Applied
+Algebra* 196 (2005), 91--99.
+[Primary arXiv manuscript](https://arxiv.org/abs/math/0311129),
+[journal DOI](https://doi.org/10.1016/j.jpaa.2004.08.015).
+
+E. Davis, A. V. Geramita, and F. Orecchia, “Gorenstein algebras and the
+Cayley--Bacharach theorem,” *Proceedings of the American Mathematical
+Society* 93 (1985), 593--597.
+[DOI](https://doi.org/10.1090/S0002-9939-1985-0776185-6).
+
+- Audited Gold--Little--Schenck Section 1.1 and the exact sequence on
+  pp. 2--3: the cokernel of degree-\(a\) evaluation on a finite projective
+  point set is \(H^1(I_\Gamma(a))\).
+- Audited their Definition 1.1 and Theorem 1.2, which restate the
+  Davis--Geramita--Orecchia theorem. For residual subschemes
+  \(\Gamma',\Gamma''\) of a complete intersection of type
+  \((d_1,\ldots,d_r)\), with
+  \(s=\sum_i d_i-r-1\),
+  \[
+  h^0(I_{\Gamma'}(a))-h^0(I_\Gamma(a))
+  =h^1(I_{\Gamma''}(s-a)).
+  \]
+- Audited Gold--Little--Schenck Lemma 3.4: the complete-intersection
+  Artinian reduction has symmetric Hilbert function. This is the dimension
+  guard behind the complementary evaluation spaces used in B173.
+- B173 applies Theorem 1.2 with \(\Gamma'=A_t\),
+  \(\Gamma''=T_t\), and \(a=e=s-m\). The residue weights and orthogonality
+  come separately from S069; no coding-theory minimum-distance statement is
+  used.
+- Scope guard: the theorem computes residual evaluation dimensions for a
+  projective complete intersection. It does not supply analytic constancy in
+  a family, an arbitrary-variety residue theorem, Hodge type, or a detector
+  pairing.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

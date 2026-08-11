@@ -676,6 +676,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   The family `f_t=(z^2-1)^2+t` has an exact tracked syzygy, but every
   numerator `f_t A` exceeds the allowed degree and the would-be value
   residue has a nonzero infinity contribution.
+- B173 - PROVED: at complementary degrees \(e=s-m\) and \(m\), residual
+  complete-intersection duality and Jacobi orthogonality identify the
+  Hessian-weighted exact-selector space with the dual kernel of tracked
+  degree-\(m\) evaluation.
+- NG137 - NO-GO: a full analytic frame of exact selectors is not weaker
+  than G107; it exists exactly when the moving evaluation rank stays \(R\).
+- G108 - EXPLORATORY: test whether nonzero auxiliary residues can vanish
+  modulo \(I_\tau\) and yield adjusted spanning syzygies without constant
+  moving evaluation rank.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1219,6 +1228,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   conditional selector certificate, but its critical-degree bound and the
   auxiliary/infinity residue are new explicit obligations, not automatic
   syzygies. G100 remains open.
+  B173/NG137 then show that the complete exact-selector implementation is
+  precisely the dual form of G107. G108 retains only the nonzero
+  auxiliary-residue cancellation branch; G100 remains the exact gate.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

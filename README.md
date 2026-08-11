@@ -373,6 +373,16 @@ critical-value numerator exceeds the Jacobi degree bound and leaves a
 nonzero residue at infinity. Residues therefore reduce G100 to a new global
 selector/interpolation obligation; they do not close it.
 
+B173 computes the maximal-degree exact-selector space by residual
+Cayley--Bacharach duality. After the inverse-Hessian residue weights are
+included, it is exactly the dual kernel of degree-\(m\) evaluation on the
+moving tracked critical points. Hence a local analytic frame of \(N-R\)
+exact selectors exists precisely when that evaluation rank stays \(R\):
+the construction is G107 in dual form. NG137 prevents counting it as a
+weaker route. G108 retains the only residue-specific escape identified so
+far: a nonzero auxiliary residue whose class nevertheless vanishes in
+\(\mathcal O/I_\tau\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -921,6 +931,7 @@ python verification/verify_B169_microlocal_syzygy.py
 python verification/verify_B170_critical_rank.py
 python verification/verify_B171_mixed_determinant.py
 python verification/verify_B172_residue_selector.py
+python verification/verify_B173_selector_duality.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1162,6 +1173,10 @@ it is optional rather than a replacement for G100.
 B172/NG136 reduce a Jacobi-residue attack to bounded-degree selectors for
 the complete critical configuration and show that neither degree
 admissibility nor removal of auxiliary/infinity residues is automatic.
+B173/NG137 identify the complete exact-selector space with the dual moving
+evaluation kernel, so this branch is equivalent to G107. G108 isolates
+nonzero auxiliary-residue cancellation in \(\mathcal O/I_\tau\) as the
+remaining residue-specific test.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

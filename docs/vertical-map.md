@@ -366,6 +366,42 @@ explicit bounded-degree interpolation theorem for the complete critical
 configuration, followed by projective-boundary and detector audits. Until
 that theorem is proved, the exact active gate remains G100.
 
+B173 computes that interpolation space rather than estimating it. For the
+reduced no-infinity projective complete intersection of a degree-\(m\)
+polynomial gradient, let
+
+\[
+ s=d(m-1)-d-1,\qquad e=s-m.
+\]
+
+Davis--Geramita--Orecchia residual duality gives
+
+\[
+ \dim\operatorname{Sel}_e(T_t)
+ =N-\operatorname{rank}\operatorname{ev}_{T_t}^{m}.
+\]
+
+Jacobi orthogonality, including the inverse-Hessian weights, upgrades the
+dimension equality to
+
+\[
+ \operatorname{Sel}^{\mathrm{res}}_e(T_t)
+ =\ker(\operatorname{ev}_{T_t}^{m})^*.
+\]
+
+Thus a complete analytic frame of \(N-R\) exact selectors exists if and
+only if the moving degree-\(m\) evaluation rank remains \(R\). By B170 this
+is precisely G107 in the full polynomial coefficient family. NG137 records
+that exact critical-degree selectors are a dual reformulation of the
+optional stronger gate, not a bypass.
+
+The residue-specific surviving gate is G108: allow a nonzero auxiliary
+residue \(\rho_A\) but prove \([\rho_A]=0\) in
+\(\mathcal O/I_\tau\), with adjusted rows spanning all central relations.
+No such cancellation theorem is known here. Even if proved in the affine
+model, projective transfer and every detector clause remain mandatory.
+The exact general gate remains G100.
+
 Two sufficient attacks feed G008:
 
 \[
