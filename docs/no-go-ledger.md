@@ -2685,3 +2685,25 @@
   stand in for arbitrary smooth projective varieties.
 - **Re-entry condition:** compute the actual orbit tangent, then construct
   the quotient frame in G110 and retain every detector clause.
+
+## NG-142 - Gauss-Manin flatness stabilizes the escape ideal
+
+- **Label:** NO-GO
+- **Route:** use constant nodewise Milnor lattices, Picard--Lefschetz
+  operators, or Gauss--Manin flatness to assert that B178's scalar escape
+  ideal is stable under tangent differentiation.
+- **Valid input:** Gauss--Manin gives a flat connection on a cohomology
+  bundle or local system.
+- **Invalid inference:** that connection acts on the analytic ideal of
+  critical-value functions.
+- **Precise obstruction:** B157 realizes
+  \(\tau=(x,x+y^2)\) with fixed ODP Hessians and constant local
+  \(A_1\) data. On the basis germ \(F_B=\{x=0\}\), the escape ideal is
+  \(K_B=(y^2)\), but \(\partial_y(y^2)=2y\notin K_B\).
+- **Scope guard:** the realization is projective over a generally
+  nonlinear analytic pullback. It refutes a theorem based only on local
+  flat data, not every possible full-system comparison.
+- **Re-entry condition:** G111 must construct a canonical
+  connection-compatible map from the actual full-family cohomological
+  object to \(K_B\), prove differential stability, and retain every
+  detector clause.

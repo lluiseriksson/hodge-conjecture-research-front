@@ -480,6 +480,30 @@ need not span: \(w\)-translation in the smooth model
 \(r_A=0\), G110 is identical to G109. Hence automorphism symmetry is a
 verified partial input for symmetric members, not a general reduction.
 
+B178 restricts the remaining problem to B158's smooth basis-node germ.
+For the escape ideal
+
+\[
+ K_B=(\tau_i|_{F_B}:i\notin B),
+\]
+
+characteristic-zero differential rigidity gives
+
+\[
+ H_\tau=0
+ \Longleftrightarrow K_B=0
+ \Longleftrightarrow
+ \operatorname{Der}(\mathcal O_{F_B})K_B\subseteq K_B.
+\]
+
+G111 asks for a genuine connection-compatible comparison from the
+full-family Gauss--Manin or vanishing-cycle object to this scalar ideal.
+NG142 blocks the formal shortcut: B157 keeps every local \(A_1\) lattice
+and Picard--Lefschetz operator fixed while realizing
+\(\tau=(x,x+y^2)\); on \(F_B=\{x=0\}\),
+\(K_B=(y^2)\) and \(\partial_yK_B\not\subset K_B\). Thus a new global
+comparison map, not nodewise flatness, is the next justified gate.
+
 Two sufficient attacks feed G008:
 
 \[

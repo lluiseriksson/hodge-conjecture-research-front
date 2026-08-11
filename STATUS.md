@@ -714,6 +714,13 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG141 - NO-GO: positive symmetry-orbit dimension is not spanning; the
   model \(\tau=(u,(1+v)u)\) has a two-dimensional kernel but a selected
   translation orbit of dimension one.
+- B178 - PROVED: the escape ideal \(K_B\) on a smooth basis-node germ
+  vanishes exactly when it is stable under a tangent derivation frame;
+  nonzero proper differential ideals cannot occur in \(\mathbf C\{u\}\).
+- G111 - EXPLORATORY: construct a connection-compatible map from the
+  full-family Gauss--Manin/vanishing-cycle object to \(K_B\).
+- NG142 - NO-GO: constant nodewise Milnor and Gauss--Manin data do not
+  stabilize critical values; \(K_B=(y^2)\) has derivative \(2y\notin K_B\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1268,7 +1275,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   does not integrate to the required ideal-preserving orbit. B177/G110
   remove the exact automorphism-orbit tangent and expose the residual
   quotient; NG141 forbids replacing its dimension by mere symmetry
-  invariance.
+  invariance. B178/G111 recast the residual escape as differential-ideal
+  stability. NG142 proves that nodewise Gauss--Manin flatness acts on the
+  wrong object unless a new comparison map is constructed.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
