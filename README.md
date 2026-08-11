@@ -1388,8 +1388,29 @@ smallest gate is the piecewise boundary G186:
 
 At equality, only \(A=O_Q(1)\) remains for \(d=14,16\); all
 polarization types meet the numerical floor at \(d=18\); and only
-\(A=O_Q(k)\), \(k\ge2\), remain for even \(d\ge20\). This is still only
-a necessary window; every geometric and detector obligation is open.
+\(A=O_Q(k)\), \(k\ge2\), remain for even \(d\ge20\).
+
+B260 reduces this table by a seventh-point audit. A good six-cycle
+excludes cubic equality; an eight-edge cover excludes quartic equality;
+for \(k\ge5\) the residual system supplies a seventh full double. For
+the square polarization and \(d\ge22\), quartic point rank on the
+six-support \(\mathbf P^5\) is at most \(126<6d+6\), forcing another
+full double. Thus G186 is **NO-GO** (NG218). The active gate G187 has
+the reduced piecewise floor
+
+\[
+H(d)=
+\begin{cases}
+7d-12,&d=14,16,\\
+114,&d=18,\\
+126,&d=20,\\
+6d+7,&d\ge22\text{ even}.
+\end{cases}
+\]
+
+The equality survivors are respectively \(k=1\); \(k=1,2\);
+\(k=2\); and \(k=3,4\). This is still only a necessary window; every
+geometric and detector obligation is open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -2008,6 +2029,7 @@ python verification/verify_B256_cubic_six_double_floor.py
 python verification/verify_B257_standard_first_slope_ten.py
 python verification/verify_B258_standard_second_slope_ten.py
 python verification/verify_B259_standard_second_parametric_band.py
+python verification/verify_B260_seventh_point_polarization.py
 ```
 
 The repository verifier checks the required directory topology, result

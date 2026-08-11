@@ -61,11 +61,11 @@ require(
 )
 require(
     "proofs/G186-piecewise-post-standard-band-boundary.md",
-    ("brick_id: G186", "status: EXPLORATORY", "F(d)=min(7d-12,6d+6)", "N=2F(d)"),
+    ("brick_id: G186", "status: NO-GO", "B260", "N=2F(d)"),
 )
 require(
     "proofs/NG217-standard-second-parametric-band-survival.md",
     ("brick_id: NG217", "status: NO-GO", "7d-13", "G186"),
 )
 
-print("PASS: B259 second standard parametric band, G185-G186, and NG217")
+print("PASS: B259 second standard parametric band, G185-G186 transition, and NG217")

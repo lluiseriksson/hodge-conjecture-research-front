@@ -4351,3 +4351,32 @@
   and HC remain open.
 - **Re-entry condition:** G186 begins at the piecewise signature
   \(h_Z(1)=F(d)\), \(s=2(F(d)-d-1)\), \(N=2F(d)\).
+
+## NG-218 - Unrestricted seventh-point polarization survival
+
+- **Label:** NO-GO
+- **Route:** allow every nonstandard polarization to survive B259's
+  piecewise equality.
+- **Valid premise:** B254-B256 provide only six independent double
+  blocks.
+- **Invalid inference:** every seventh marked point remains in their
+  filled tangent span.
+- **Cubic obstruction:** outside one possible rank-nine hard line
+  locus, a Hamiltonian good six-cycle gives a sextic separator.
+- **Quartic obstruction:** a largest line-through-point class of four
+  has an eight-edge good cover; smaller classes admit a six-cycle.
+- **Higher-power obstruction:** the octic unit times
+  \(H^0(O_Q(2k-8))\) supplies the complete seventh double for \(k\ge5\).
+- **Square obstruction:** for even \(d\ge22\), the six-support
+  \(\mathbf P^5\) has quartic point rank at most \(126<6d+6\);
+  hyperplane-square extension supplies the seventh double.
+- **Universal-quantifier guard:** the valid even quadrics \(d\ge22\)
+  falsify G186's universal claim. No special-family success is promoted
+  upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G186 is closed as a universal gate. Its exact
+  surviving regimes pass to G187; G148 and HC remain open.
+- **Re-entry condition:** G187 uses B260's piecewise \(H(d)\), with
+  survivors \(k=1\) for \(d=14,16\), \(k=1,2\) for \(d=18\), \(k=2\)
+  for \(d=20\), and \(k=3,4\) for even \(d\ge22\).

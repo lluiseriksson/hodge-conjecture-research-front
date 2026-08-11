@@ -1313,9 +1313,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   the common floor is \(F(d)=\min(7d-12,6d+6)\).
 - G185 - NO-GO: every common layer below the piecewise floor fails.
 - NG217 - NO-GO: standard survival through the second parametric band.
-- G186 - EXPLORATORY, active smallest branch: construct the piecewise
-  boundary package with \(h_Z(1)=F(d)\),
-  \(\delta_1=F(d)-d-1\), \(s=2(F(d)-d-1)\), and \(N=2F(d)\).
+- B260 - PROVED: seventh-point separators give floors \(6d+7\) for
+  \(k=3,4\), \(7d+7\) for \(k\ge5\), and \(7d+7\) for \(k=2,d\ge22\).
+- G186 - NO-GO: the unrestricted piecewise polarization table fails.
+- NG218 - NO-GO: unrestricted seventh-point polarization survival.
+- G187 - EXPLORATORY, active smallest branch: construct the reduced
+  piecewise package; equality leaves \(k=1\) for \(d=14,16\),
+  \(k=1,2\) for \(d=18\), \(k=2\) for \(d=20\), and \(k=3,4\) for
+  even \(d\ge22\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

@@ -2108,13 +2108,32 @@ G185 and every lower common layer are NO-GO. The next signature is
 
 Equality leaves only the standard polarization for \(d=14,16\), all
 polarization types at \(d=18\), and only nonstandard polarizations for
-even \(d\ge20\).
+even \(d\ge20\). B260 reduces this table by a seventh-point audit.
+Cubic and quartic equality fail by six- and eight-edge good-graph
+separators; \(k\ge5\) supplies a seventh full double. For \(k=2\) and
+even \(d\ge22\), the six-support \(\mathbf P^5\) has quartic point rank
+at most 126, forcing a span escape and a seventh full double.
+
+The reduced common floor is
+
+\[
+H(d)=
+\begin{cases}
+7d-12,&d=14,16,\\
+114,&d=18,\\
+126,&d=20,\\
+6d+7,&d\ge22\text{ even}.
+\end{cases} \tag{***************************************************************************************}
+\]
+
+The equality survivors are \(k=1\) for \(d=14,16\), \(k=1,2\) for
+\(d=18\), \(k=2\) for \(d=20\), and \(k=3,4\) for even \(d\ge22\).
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G186: construct the piecewise post-standard-band boundary}
+ \text{G187: construct the reduced seventh-point boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

@@ -1,6 +1,6 @@
 ---
 brick_id: G186
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex d-fold X of even dimension d=2n>=14 with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,9 +13,9 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B007-B010, B134-B259, G013, G090-G148, G172, NG106-NG217, S081-S083
-claim: For every arbitrary primitive target (X,zeta) of even dimension d>=14, choose A and construct the complete G144 package at m=2, h_Z(1)=F(d)=min(7d-12,6d+6), delta_1=F(d)-d-1, slack s_*(d)=2(F(d)-d-1), and N=2F(d), retaining the full relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing clauses.
-falsifier: one primitive target for which no polarization realizes the piecewise boundary package; on even quadrics B259 leaves only A=O_Q(1) for d=14,16, all polarization types at d=18, and only k>=2 for d>=20
+dependencies: B007-B010, B134-B260, G013, G090-G148, G172, NG106-NG218, S081-S083
+claim: No universal G144 package exists at B259's piecewise boundary F(d); B260 excludes the required equality on every even quadric Q^d with d>=22 and reduces all remaining dimension/polarization regimes.
+falsifier: one complete G186 package on every valid primitive input, in particular an equality package in one of B260's excluded high-dimensional polarization regimes
 ---
 
 # G186 — The piecewise post-standard-band boundary
@@ -47,7 +47,15 @@ Equivalently,
 \end{array} \tag{3}
 \]
 
-G186 is the next falsifiable gate: classify equality in each branch of
-(3), then retain every G144 relation, ODP, Kuranishi, rational-type,
-and nonzero specified-pairing clause. Rank survival alone would not
-construct an algebraic cycle or prove or disprove HC.
+B260 closes the unrestricted polarization table. Cubic and quartic
+equality at \(6d+6\) fail by six- and eight-edge separators. Every
+\(k\ge5\) supplies a seventh full double block. For the square
+polarization in even dimension at least 22, the six supports span at
+most a \(\mathbf P^5\), whose quartic point rank is only 126; the
+forced span escape supplies a seventh full double block.
+
+Thus G186 is NO-GO as a universal gate. The surviving regimes pass to
+G187: standard \(d=14,16\); standard or square \(d=18\); square
+\(d=20\); and cubic or quartic for even \(d\ge22\). No ODP package,
+rational detector, specified pairing, algebraic cycle, proof, or
+disproof of HC is produced.
