@@ -2373,6 +2373,14 @@ on \(Q^{14}\), where the standard polarization is now excluded and only
 cubic/quartic equality remains. All detector and cycle obligations stay
 open.
 
+B278 removes that equality as well. The \(d\ge22\) labels on B269,
+B271, and B272 came from G190's survivor range, not from their proofs.
+B264 already starts at \(d=14\); all plane/conormal ranks, the
+weak-del-Pezzo classification, the eighth-point separator, and the
+quartic transverse-octic construction remain valid there. Thus G197 is
+NO-GO and G198 is active at rank 104 on \(Q^{14}\), still with
+cubic/quartic survivors and every detector clause open.
+
 Two sufficient attacks feed G008:
 
 \[

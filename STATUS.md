@@ -1366,8 +1366,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(Q^{14}\), together with the next four standard ranks.
 - G196 - NO-GO: B277 excludes its sole standard rank-102 survivor on
   \(Q^{14}\), together with the next five standard ranks.
-- G197 - EXPLORATORY, active: classify cubic/quartic equality at rank
-  103 on \(Q^{14}\), standard equality in dimensions 16--20, the
+- G197 - NO-GO: B278 extends B271-B272 to \(d\ge14\) and excludes both
+  cubic and quartic rank-103 survivors on \(Q^{14}\).
+- G198 - EXPLORATORY, active: classify cubic/quartic equality at rank
+  104 on \(Q^{14}\), standard equality in dimensions 16--20, the
   standard/cubic/quartic tie at \(d=22\), and cubic/quartic equality
   for even \(d\ge24\), retaining every G144 detector clause.
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
@@ -1417,7 +1419,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   72--77; the lifted standard ranks 102--107 on \(Q^{14}\) fail, so its
   standard floor is at least 108.
 - NG233 - NO-GO: the standard band 102--107 cannot survive on
-  \(Q^{14}\); G197 is active with only cubic/quartic survivors there.
+  \(Q^{14}\); G197 is reached with only cubic/quartic survivors there.
+- B278 - PROVED: the B271-B272 cubic/quartic equality exclusions are
+  valid for every even \(d\ge14\), so rank 103 fails on \(Q^{14}\).
+- NG234 - NO-GO: neither cubic nor quartic equality 103 survives on
+  \(Q^{14}\); G198 is active at rank 104.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

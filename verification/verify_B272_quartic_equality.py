@@ -159,8 +159,8 @@ require(
     ("brick_id: NG228", "status: NO-GO", "G192", "quartic equality"),
 )
 require(
-    "proofs/G193-standard-cubic-piecewise-boundary.md",
-    ("brick_id: G193", "status: EXPLORATORY", "B273", "active"),
+    "proofs/G198-cubic-piecewise-boundary.md",
+    ("brick_id: G198", "status: EXPLORATORY", "B278", "active"),
 )
 
 print("PASS: B272 quartic exclusion, NG228, and current downstream boundary")

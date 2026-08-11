@@ -28,8 +28,8 @@ falsifier: a standard tangent-absorbing Q^14 candidate of rank 102 through 107 o
   dimensions for a fifth escape. Rank 107 forces that minimal escape
   and a filled \(\mathbf P^9\) contact locus of quadratic rank 55.
 - **Rank consequence:** the \(Q^{14}\) standard floor is at least 108.
-- **Boundary consequence:** G196 is NO-GO and G197 is active at rank 103
-  with only cubic/quartic survivors in dimension 14.
+- **Boundary consequence at this checkpoint:** G196 is NO-GO and G197
+  is reached at rank 103. B278 later closes G197 and activates G198.
 - **Detector guard:** no relation, ODP package, Kuranishi vanishing,
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.

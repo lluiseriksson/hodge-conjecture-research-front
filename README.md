@@ -1636,6 +1636,14 @@ quadratic rank 55. The standard \(Q^{14}\) floor is therefore at least
 \(Q^{14}\), now with only cubic/quartic polarizations. No special-family
 rank theorem is counted as general Hodge progress.
 
+B278 audits the apparent \(d\ge22\) threshold in B269/B271/B272 and
+shows it came only from the old survivor table. Their plane/conormal,
+weak-del-Pezzo, eighth-point, and transverse-octic arguments work for
+every even \(d\ge14\). Consequently cubic and quartic rank
+\(7d+5=103\) both fail on \(Q^{14}\). NG234 makes G197 **NO-GO** and
+G198 is active at rank 104 there. The result remains a special-input
+rank obstruction, not a detector or cycle construction.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2271,6 +2279,7 @@ python verification/verify_B274_standard_d14.py
 python verification/verify_B275_standard_d14_second.py
 python verification/verify_B276_standard_d14_band.py
 python verification/verify_B277_standard_d14_band.py
+python verification/verify_B278_cubic_quartic_d14.py
 ```
 
 The repository verifier checks the required directory topology, result

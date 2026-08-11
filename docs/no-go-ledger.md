@@ -4712,3 +4712,19 @@
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
 - **Re-entry condition:** attack G197 and retain every G144 clause.
+
+## NG-234 - Retain cubic/quartic rank 103 on \(Q^{14}\)
+
+- **Label:** NO-GO
+- **Route:** realize G197 with \(A=O_Q(3)\) or \(O_Q(4)\) at rank 103.
+- **Dimension audit:** B264 is valid from dimension 14, and no step of
+  B269/B271/B272 uses the former threshold 22.
+- **Cubic obstruction:** planar equality forces complementary \(3+3\)
+  lines, and every eighth double raises rank.
+- **Quartic obstruction:** perfect-matching or four-point-class octics
+  supply residual rank at least \(d\).
+- **Boundary consequence:** G197 is NO-GO and G198 is active at rank 104.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack G198 and retain every G144 clause.
