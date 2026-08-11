@@ -42,6 +42,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{carrier-free rank-R factorization G099}
 \Longleftarrow
 \text{full-linear-system syzygy lifting G100}
+\Longleftarrow
+\text{basis-node persistence G101}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -172,6 +174,22 @@ realizing arbitrary \(\tau\) on nonlinear analytic bases. NG126 therefore
 closes any inference from nodewise Milnor or individual Picard--Lefschetz
 data alone. G100 must prove \(H_\tau=0\) using the global **full**
 linear-system incidence and retain the specified detector pairing.
+B158 converts that algebraic requirement into a geometric containment.
+For any \(R\)-branch basis \(B\), its common germ \(F_B\) is smooth and
+
+\[
+ H_\tau=0
+ \Longleftrightarrow
+ F_B\subseteq D_i\quad\text{for every }i\notin B.
+\]
+
+The restricted extra critical values form the node-escape germ on \(F_B\).
+B159/NG127 use Vandermonde conormals and
+\(\tau_N=\ell_N(x)+y^m\) to preserve the uniform matroid, every expected
+intersection through rank \(R\), and any chosen finite jet order while
+violating containment. G101 is therefore the smallest geometric gate:
+prove all-order persistence from global full-linear-system incidence and
+retain the nonzero specified pairing.
 
 Two sufficient attacks feed G008:
 

@@ -591,6 +591,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   germ and retain the matroid, ambient-image, type, and pairing clauses.
 - NG126 - NO-GO: local Milnor lattices and individual Picard--Lefschetz
   reflections alone cannot force analytic syzygy lifts.
+- B158 - PROVED: after choosing \(R\) independent node branches, all-order
+  factorization is equivalent to persistence of every extra node along
+  their smooth common germ.
+- B159 - PROVED: uniform Vandermonde matroids of every rank admit a last
+  branch escaping by \(y^m\), with one hidden generator and arbitrarily high
+  finite-jet agreement with a saturated model.
+- G101 - EXPLORATORY: force that basis-node persistence in the full linear
+  system while retaining every detector clause.
+- NG127 - NO-GO: uniform tangent geometry, expected small intersections,
+  and any fixed finite jet order do not force all-order persistence.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1101,7 +1111,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   factorization, while NG125 blocks every finite truncation. B156/G100 make
   the remaining obstruction the lifting of all linear relations to analytic
   syzygies; B157/NG126 block obtaining those lifts from nodewise local
-  topology alone.
+  topology alone. B158/G101 turn the lift into basis-node persistence, and
+  B159/NG127 show uniform tangent data plus finite jets cannot force it.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -236,6 +236,19 @@ Picard--Lefschetz data cannot force these lifts: arbitrary critical-value
 germs occur on nonlinear analytic pullbacks of projective linear systems.
 G100 therefore asks for syzygy lifting from the genuinely global geometry
 of the full linear-system incidence, with the specified pairing retained.
+B158 gives the geometric form of that lift. Choose any \(R\) independent
+node branches and let \(F_B\) be their smooth common germ. Then
+
+\[
+ H_\tau=0\Longleftrightarrow
+ F_B\text{ is contained in every remaining node branch}.
+\]
+
+The restrictions of the remaining critical values to \(F_B\) are the exact
+node-escape germ. B159/NG127 construct uniform Vandermonde arrangements of
+every rank whose last branch escapes by \(y^m\), invisibly to any prescribed
+finite jet order. G101 asks for global full-linear-system geometry that
+prevents this escape while retaining the class-specific detector.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -775,6 +788,7 @@ python verification/verify_B153_pure_hessian_obstruction.py
 python verification/verify_B154_cubic_kuranishi.py
 python verification/verify_B155_all_order_factorization.py
 python verification/verify_B156_syzygy_defect.py
+python verification/verify_B159_uniform_escape.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -990,6 +1004,9 @@ is required.
 B156-B157/G100/NG126 recast that factorization as exact syzygy lifting and
 exclude deriving it from nodewise Milnor or Picard--Lefschetz data alone;
 the remaining input must be global full-linear-system incidence geometry.
+B158-B159/G101/NG127 identify that input as persistence of every extra node
+along one smooth basis-node germ and show that uniform tangent geometry plus
+arbitrarily many finite jets still does not force it.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

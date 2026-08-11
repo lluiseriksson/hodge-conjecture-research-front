@@ -39,7 +39,7 @@ Write
 and let
 
 \[
- L=\left\{c\in\mathbf C^N:\sum_i c_i,d\tau_i(0)=0\right\}.
+ L=\left\{c\in\mathbf C^N:\sum_i c_i\,d\tau_i(0)=0\right\}.
 \]
 
 Evaluation at the origin maps \(K\) into \(L\). Define the hidden-generator

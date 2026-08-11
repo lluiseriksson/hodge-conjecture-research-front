@@ -507,3 +507,11 @@ critical-value germs occur after nonlinear analytic pullback even in
 projective families with fixed ODP two-jets. The unresolved input is global
 geometry of the full complete-linear-system incidence, not another local
 Milnor calculation.
+B158 sharpens the incidence obligation further. Once \(R\) independent node
+branches are chosen, their intersection \(F_B\) is smooth; all-order
+factorization is exactly the containment of \(F_B\) in every remaining
+branch. B159/NG127 show why the uniform matroid is not enough: Vandermonde
+conormals stay uniform when one branch is changed from \(\ell_N(x)\) to
+\(\ell_N(x)+y^m\), but the extra node then escapes along \(F_B\). The
+perturbation can be placed above any fixed verified jet order. A successful
+mechanism must therefore control the entire global incidence germ.

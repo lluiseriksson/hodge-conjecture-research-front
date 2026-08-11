@@ -2356,3 +2356,22 @@
   complete-linear-system germ.
 - **Re-entry condition:** prove G100 from global full-linear-system
   incidence geometry and retain the specified detector pairing.
+
+## NG-127 - Infer persistence from uniform tangent geometry
+
+- **Label:** NO-GO
+- **Route:** use a uniform \(U_{R,N}\) conormal matroid, smooth expected
+  intersections through rank \(R\), and any fixed finite jet agreement to
+  infer that all extra nodes persist on a basis-node germ.
+- **Valid input:** these data control the arrangement through rank \(R\) and
+  to the chosen finite order.
+- **Invalid inference:** they imply analytic branch containment to all
+  orders.
+- **Precise obstruction:** B159 perturbs one Vandermonde branch to
+  \(\ell_N(x)+y^m\). All stated data persist through order \(m-1\), but the
+  branch restricts to \(y^m\) on \(F_B=\{x=0\}\), giving the ideal
+  \((x_1,\ldots,x_R,y^m)\).
+- **Scope guard:** B157 realizes the germ projectively only after a
+  generally nonlinear analytic pullback.
+- **Re-entry condition:** prove G101 from an identity in the full universal
+  incidence germ and retain the specified pairing.
