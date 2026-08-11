@@ -1477,7 +1477,7 @@ B each separating point pairs, for every \(p\ne q\) a product section lies in
 \tag{******************************************}
 \]
 
-The equality branch now ends at
+Before B221, the equality branch appeared to end at
 
 \[
 \text{G146}\Longleftarrow
@@ -1487,8 +1487,32 @@ The equality branch now ends at
 
 S080 supplies the higher-jet vocabulary but its quantitative theorem is
 abelian; B220 is elementary and arbitrary-X. NG181 forbids trying to
-reach G147 by high-power positivity. The slack branch of G144 is not
-excluded.
+reach G147 by high-power positivity.
+
+B221/S081 test the remaining universal quantifier on
+\((Q^{2n},a-b)\), \(n\ge2\). Here \(a-b\) is nonzero, primitive, rational
+type \((n,n)\), and algebraic; \(\operatorname{Pic}(Q^{2n})=\mathbf Z[O(1)]\).
+The standard Gauss map is the injective projective polarity, while B220
+makes every \(O(k)\)-Gauss map injective for \(k\ge2\). Hence
+
+\[
+\text{G145}\Longleftarrow\text{G146}\Longleftarrow\text{G147}
+\quad\text{is universally false (NG182).}
+\tag{********************************************}
+\]
+
+The vertical map returns to the unsaturated face:
+
+\[
+\text{G144}\Longleftarrow
+\text{G148: realize every retained profile/detector clause with }
+N>D_{2n}(m).
+\tag{*********************************************}
+\]
+
+Equality alone forced the common tangent plane, so G148 neither assumes
+nor seeks a Gauss fiber. The strict-slack branch and the terminal Hodge
+Conjecture remain open.
 
 Two sufficient attacks feed G008:
 

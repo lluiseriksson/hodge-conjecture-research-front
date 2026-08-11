@@ -1023,9 +1023,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   osculator equals the same degree-two point span and both canonical
   relation transports are isomorphisms; for \(m=2\), the analogous
   statement holds for tangent spaces.
-- G145 - EXPLORATORY: construct the complete G144 package at equality,
-  including B216's common-osculator rigidity and every arbitrary-class
-  rational detector and specified-pairing clause.
+- G145 - NO-GO: the universal complete G144 package at equality is
+  falsified by B221's even-quadric input; B216's rigidity remains a
+  valid conditional consequence of equality.
 - S077 - primary audit: Togliatti systems identify special WLP failures
   with general-point osculating defect on projected Veronese varieties.
 - NG178 - NO-GO: that special deficient-osculator mechanism does not
@@ -1037,9 +1037,8 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B218 - PROVED: for a smooth non-linear complex projective embedding,
   Zak tangency and general-contact linearity make the ordinary Gauss map
   finite birational onto its image.
-- G146 - EXPLORATORY: construct the complete G145 detector package on a
-  single special Gauss-normalization fiber containing \(D_{2n}(m)\)
-  distinct marked points.
+- G146 - NO-GO: B221 proves that a valid even-quadric input has no
+  multi-point special Gauss-normalization fiber for any polarization.
 - S078 - primary audit: Zak's tangency inequality and separable general
   Gauss-contact linearity are checked with their generic/special scope.
 - NG179 - NO-GO: finite birationality and a singleton general Gauss fiber
@@ -1061,10 +1060,22 @@ generation from the controlled partitioned nodal locus is not proved.**
 - S080 - primary audit: Bauer-Szemberg's higher-embedding definitions and
   abelian tensor-product jet theorems are checked; B220 instead uses a
   self-contained arbitrary-X multiplication argument.
-- G147 - EXPLORATORY: realize the complete G146 package using an
-  exceptional very ample polarization with no two point-separating factors.
+- G147 - NO-GO: the even-quadric input of B221 has no nontrivial Gauss
+  fiber for any very ample polarization, so exceptional polarizations do
+  not rescue the universal equality claim.
 - NG181 - NO-GO: raising the polarization power separates the tangent
   spaces and cannot create the common-tangent fiber required at equality.
+- S081 - primary audit: Le Potier-Banica Section 2.4 and Proposition 2.5
+  give the integral middle cohomology and the two maximal-ruling classes
+  on an even quadric.
+- B221 - PROVED: for \(Q^{2n}\), \(n\ge2\), the class \(a-b\) is a valid
+  nonzero primitive rational Hodge class, while every very ample
+  polarization has injective ordinary Gauss map.
+- NG182 - NO-GO: the universal extremal equality branch G145-G147 is
+  false; this closes a sufficient mechanism, not the Hodge Conjecture.
+- G148 - EXPLORATORY, active refined branch: construct the complete G144
+  package for every arbitrary \((X,\zeta)\) with strict slack
+  \(N>D_{2n}(m)\); no common-tangent fiber may be assumed.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

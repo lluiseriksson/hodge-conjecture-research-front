@@ -1,6 +1,6 @@
 ---
 brick_id: G147
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex 2n-fold with a specified nonzero primitive rational middle Hodge class and a very ample H having no factorization into two line bundles that each separate every ordered pair of points
 smoothness: X and the marked scheme Z are smooth; all central ODP and incidence smoothness clauses remain those of G146
@@ -13,12 +13,12 @@ hodge_type: the detector must be rational type (0,0) and have nonzero specified 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of the input class is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B220, G013, G090-G146, NG106-NG180
+dependencies: B007-B010, B134-B221, G013, G090-G146, NG106-NG182, S081
 claim: For every arbitrary (X,zeta), find an exceptional very ample H with no two point-separating factors whose ordinary Gauss map has a D_(2n)(m)-point fiber and realize on that fiber every G146 central-profile, transport, holonomy, congruence, full-system, rational-detector, specified-pairing, pure-cubic-closure, and later-rung clause.
 falsifier: one pair (X,zeta) for which every very ample H without two point-separating factors has only smaller Gauss fibers or fails any retained detector clause
 ---
 
-# G147 — The equality branch is confined to exceptional polarizations
+# G147 — Exceptional polarizations do not rescue equality universally
 
 B220 removes every polarization of the form
 
@@ -29,12 +29,14 @@ B220 removes every polarization of the form
 from G146: its Gauss fibers are singletons, whereas
 \(D_{2n}(m)\ge2(2n+1)>1\).
 
-G147 is the residual equality gate. For every fixed arbitrary
+This was the residual equality gate: for every fixed arbitrary
 \((X,\zeta)\), find a very ample H outside (1), a birth degree \(m\),
 and one special Gauss fiber of cardinality \(D_{2n}(m)\), while retaining
 the complete G146 profile and detector package.
 
-In particular, replacing a chosen very ample \(A\) by \(A^k\),
-\(k\ge2\), can never approach this gate. G147 is an exceptional
-low-polarization construction problem, not an asymptotic-positivity
-problem.
+NG181 first excluded replacing a chosen very ample \(A\) by \(A^k\),
+\(k\ge2\). B221 now gives a universal-quantifier counterexample:
+for \((Q^{2n},a-b)\), every very ample line bundle is \(O(k)\), and
+every corresponding Gauss map is injective. Hence G147 is **NO-GO**,
+and with it the entire equality branch G145-G147. G148 returns to the
+strict-slack range of G144.

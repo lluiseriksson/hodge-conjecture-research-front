@@ -1,6 +1,6 @@
 ---
 brick_id: G145
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex 2n-fold with a very ample H, a specified primitive rational middle Hodge class, and a class-directed reduced marked scheme Z
 smoothness: X and Z are smooth; the central degree-m divisor must have isolated ODPs and every incidence smoothness clause remains exactly as in G143-G144
@@ -13,7 +13,7 @@ hodge_type: the detector must be rational type (0,0) and pair nontrivially with 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of the specified class is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B216, G013, G090-G144, NG106-NG177
+dependencies: B007-B010, B134-B221, G013, G090-G144, NG106-NG182, S081
 claim: For every arbitrary pair (X,zeta) in the standard rational Hodge problem, construct the complete G144 configuration with N=D_(2n)(m); equivalently, retain every G143 profile, holonomy, congruence, full-system, rational-detector, specified-pairing, pure-cubic-closure, and later-rung clause while realizing B216's common marked osculator and transport-isomorphism equalities.
 falsifier: one smooth projective complex 2n-fold and primitive rational middle Hodge class for which no choice of very ample H, m, and Z realizes every displayed clause at N=D_(2n)(m)
 ---
@@ -47,3 +47,9 @@ and not the rational Hodge Conjecture.
 No special-family osculating defect counts unless it supplies an explicit
 proved reduction from arbitrary \((X,\zeta)\) and preserves the rational
 detector with its specified nonzero pairing.
+
+B221 supplies the falsifier anticipated above. For the legitimate input
+\((Q^{2n},a-b)\), every very ample Gauss map is injective, whereas
+B217 shows that any equality configuration would put
+\(D_{2n}(m)>1\) marked points in one Gauss fiber. Thus the universal
+G145 claim is **NO-GO**. Only G148's strict-slack range survives.

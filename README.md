@@ -861,9 +861,20 @@ B220 gives the complementary asymptotic obstruction. If
 sections distinguish \(T_pX\) from \(T_qX\) for every \(p\ne q\); hence
 the H-Gauss map is injective. In particular every \(A^k\), \(k\ge2\),
 is excluded from G146. S080 audits the higher-jet literature without
-importing its abelian hypotheses. G147 is the residual gate for
-exceptional polarizations without two such factors, and NG181 closes the strategy of
-raising polarization powers inside the equality branch.
+importing its abelian hypotheses. NG181 closes the strategy of raising
+polarization powers inside the equality branch.
+
+B221/S081 then close the residual exceptional-polarization escape. On
+the smooth even quadric \(Q^{2n}\), \(n\ge2\), the two maximal-ruling
+classes give the legitimate nonzero primitive algebraic Hodge class
+\(\zeta=a-b\). Every very ample line bundle is \(O(k)\). The \(O(1)\)
+Gauss map is injective by nondegenerate polarity, and every \(O(k)\),
+\(k\ge2\), is injective by B220. Thus no polarization has the
+\(D_{2n}(m)>1\)-point fiber forced at equality. G147 and the complete
+G145-G147 equality branch are **NO-GO** by NG182. This is a counterexample
+to that sufficient mechanism only, not to the Hodge Conjecture. G148 is
+the surviving strict-slack gate: construct the complete G144 package
+with \(N>D_{2n}(m)\), where common tangency is no longer forced.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the

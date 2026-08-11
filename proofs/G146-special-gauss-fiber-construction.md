@@ -1,6 +1,6 @@
 ---
 brick_id: G146
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex 2n-fold with very ample H, a specified nonzero primitive rational middle Hodge class, and a class-directed marked scheme Z
 smoothness: X and Z are smooth; the Gauss image may be singular, while every central ODP and incidence smoothness condition remains as in G143-G145
@@ -13,7 +13,7 @@ hodge_type: the detector must be rational type (0,0) and pair nontrivially with 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of the input class is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B218, G013, G090-G145, NG106-NG178
+dependencies: B007-B010, B134-B221, G013, G090-G145, NG106-NG182, S081
 claim: For every arbitrary (X,zeta), choose H, m, and a point Lambda of the Gauss image whose normalization fiber contains a reduced subset Z of cardinality D_(2n)(m), and on that same Z realize every G145 central-profile, transport, holonomy, congruence, full-system, rational-detector, specified-pairing, pure-cubic-closure, and later-rung clause.
 falsifier: one pair (X,zeta) for which every very ample H and every special Gauss fiber either has fewer than D_(2n)(m) points for all usable m or fails any retained G145 clause
 ---
@@ -43,3 +43,9 @@ normalization fiber alone is not progress toward the Hodge Conjecture:
 the central nondegenerate nodal profile, full-support relation, holonomy,
 congruence, rational type-\((0,0)\), specified nonzero pairing, and all
 later rungs must be constructed on the same marked fiber.
+
+B221 proves that no such fiber exists for any very ample polarization
+of the valid input \((Q^{2n},a-b)\). Therefore G146 is **NO-GO** as a
+universal construction, independently of all its additional detector
+clauses. This falsifies only the equality specialization and redirects
+the attack to G148.

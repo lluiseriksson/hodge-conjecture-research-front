@@ -35,6 +35,6 @@ fiber with at least \(2(2n+1)\) points.
 - **Precise obstruction:** asymptotic tangent separation.
 - **Detector guard:** the result concerns the equality branch only and
   does not close G144's slack range \(N>D_{2n}(m)\).
-- **Re-entry condition:** work with G147's exceptional polarizations
-  having no two point-separating factors, or abandon equality and return
-  to the slack branch.
+- **Re-entry condition:** B221/NG182 subsequently close G147's
+  exceptional-polarization escape; abandon equality and use G148's
+  strict-slack branch.
