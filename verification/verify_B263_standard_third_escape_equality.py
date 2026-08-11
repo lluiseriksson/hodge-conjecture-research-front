@@ -66,11 +66,11 @@ require(
 )
 require(
     "proofs/G190-square-cubic-piecewise-boundary.md",
-    ("brick_id: G190", "status: EXPLORATORY", "K(d)", "B267"),
+    ("brick_id: G190", "status: NO-GO", "K(d)", "B272"),
 )
 require(
     "proofs/NG221-standard-third-escape-equality-survival.md",
     ("brick_id: NG221", "status: NO-GO", "P^7", "G190"),
 )
 
-print("PASS: B263 third-escape equality, G189-G190, and NG221")
+print("PASS: B263 third-escape equality, G189-G190 state, and NG221")

@@ -42,8 +42,8 @@ falsifier: a residual configuration below B259, more than one remaining dimensio
   valid input. No special-family result is promoted upward.
 - **Detector guard:** no ODP package, rational detector, specified
   pairing, cycle, proof, or disproof of HC is produced.
-- **Conclusion:** the standard tie at \(d=22\) is removed from G190,
-  but its planar cubic/quartic branch remains open. G148 and HC remain
-  open.
-- **Re-entry condition:** G190 retains only \(k=3,4\) at its
-  high-dimensional equality after B266-B267.
+- **Conclusion at this checkpoint:** the standard tie at \(d=22\) is
+  removed from G190, while its planar cubic/quartic branch remains open.
+  B271-B272 later close that branch; G148 and HC remain open.
+- **Re-entry condition at this checkpoint:** G190 retained only \(k=3,4\)
+  at its high-dimensional equality after B266-B267.

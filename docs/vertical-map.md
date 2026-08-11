@@ -2275,6 +2275,32 @@ B269 then forbids every eighth absorbed double. Therefore
 while the square equality branch remains in dimensions
 \(14,16,18,20\). Every detector and cycle obligation is still open.
 
+B272 closes the quartic alternative at the same boundary. Away from a
+four-point line-through-\(u\) class, a perfect matching gives a cubic unit
+whose square times quadrics spans all residual first jets. On the exceptional
+class, an explicit plane octic gives a second plane jet and degree-seven
+value interpolation gives all \(d-2\) conormal directions. Therefore the
+residual rank is at least \(d\), not \(d-1\), and quartic equality
+\(7d+5\) is impossible. Consequently G190 is NO-GO. The valid B271-B272
+floor reaches G191, where B266 excludes the \(d=22\) standard equality;
+G191 is NO-GO as well. The current vertical branch is
+
+\[
+ \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
+ \Longleftarrow\text{G192 at }P(d)
+ \Longleftarrow
+ \begin{cases}
+ \text{square equality},&d=14,16,18,20,\\
+ \text{standard/cubic/quartic equality},&d=22,\\
+ \text{cubic/quartic equality},&d\ge24\text{ even},
+ \end{cases}
+\]
+
+with \(P(d)=6d+6\) in the four low dimensions and \(P(d)=7d+6\)
+for every even \(d\ge22\). Every relation, ODP, Kuranishi,
+rational-type, and specified-pairing obligation remains open; no rank
+statement is counted as a detector or cycle construction.
+
 Two sufficient attacks feed G008:
 
 \[

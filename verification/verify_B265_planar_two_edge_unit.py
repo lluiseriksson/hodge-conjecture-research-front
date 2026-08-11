@@ -49,19 +49,19 @@ require(
 )
 require(
     "proofs/G190-square-cubic-piecewise-boundary.md",
-    ("brick_id: G190", "status: EXPLORATORY", "B267", "planar"),
+    ("brick_id: G190", "status: NO-GO", "B267", "B272"),
 )
 require(
     "proofs/G191-square-standard-cubic-boundary.md",
-    ("brick_id: G191", "status: CONDITIONAL", "B267", "inactive"),
+    ("brick_id: G191", "status: NO-GO", "B271-B272", "B266"),
 )
 require(
     "proofs/G192-square-cubic-boundary.md",
-    ("brick_id: G192", "status: CONDITIONAL", "B267", "inactive"),
+    ("brick_id: G192", "status: EXPLORATORY", "P(d)", "active"),
 )
 require(
     "proofs/NG223-planar-cubic-quartic-equality-survival.md",
     ("brick_id: NG223", "status: NO-GO", "Missing factor", "G190"),
 )
 
-print("PASS: B265 retraction, B267 cancellation, and G190 restoration")
+print("PASS: B265 retraction, B267 cancellation, and current G190-G192 states")

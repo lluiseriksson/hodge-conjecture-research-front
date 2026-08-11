@@ -1352,13 +1352,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   is \(8d-16\) for even \(d\ge16\), removing the standard tie at
   \(d=22\) without closing G190.
 - NG224 - NO-GO: one residual dimension after the third escape.
-- G190 - EXPLORATORY, active smallest branch: classify square equality
-  for \(d=14,16,18,20\) and quartic equality for every even
-  \(d\ge22\), while retaining every G144 detector clause.
-- G191 - CONDITIONAL: inactive boundary requiring a valid replacement
-  for B265.
-- G192 - CONDITIONAL: inactive downstream boundary requiring closure
-  of G190 first.
+- G190 - NO-GO: B271 excludes cubic equality and B272 excludes quartic
+  equality on every valid even-quadric input of dimension at least 22.
+- G191 - NO-GO: B271-B272 validly replace B265's retracted floor, but
+  B266 excludes the sole standard survivor at \(d=22\).
+- G192 - EXPLORATORY, active: classify square equality for
+  \(d=14,16,18,20\), the standard/cubic/quartic tie at \(d=22\), and
+  cubic/quartic equality for even \(d\ge24\), retaining every G144
+  detector clause.
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
   six cubic double supports are independent and the seventh residual
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
@@ -1375,7 +1376,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   classification forces the planar equality configuration to be
   \(3+3\) on two lines through the seventh point.
 - NG227 - NO-GO: B269 then prevents an eighth absorbed double, excluding
-  cubic equality for all even \(d\ge22\); quartic equality remains.
+  cubic equality for all even \(d\ge22\).
+- B272 - PROVED: a perfect-matching full-jet construction or an explicit
+  four-collinear-support transverse octic gives residual rank at least
+  \(d\), so quartic equality \(7d+5\) is impossible.
+- NG228 - NO-GO: quartic equality cannot survive at G190; G192 is now
+  active at \(P(d)=6d+6\) in dimensions 14--20 and \(P(d)=7d+6\) for
+  every even \(d\ge22\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

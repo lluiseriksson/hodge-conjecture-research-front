@@ -1552,6 +1552,26 @@ B269 excludes every eighth double for every such \(3+3\) configuration,
 so NG227 closes cubic equality for all even \(d\ge22\). G190 retains the
 quartic branch there and the square branch in dimensions 14–20.
 
+B272 closes the quartic branch. If no line through the seventh point
+contains four of the six prior supports, a perfect matching of good pair
+lines gives a cubic unit and hence all \(d+1\) residual octic jets. In the
+four-point case, an explicit degree-five plane polynomial supplies a
+zero-value transverse derivative; together with B260's unit and the
+\(d-2\) conormal directions this gives residual rank at least \(d\).
+Thus quartic rank \(7d+5\) is impossible (NG228), G190 is **NO-GO**, and
+B266 then makes G191 **NO-GO**. The active boundary is G192 at
+
+\[
+P(d)=
+\begin{cases}
+6d+6,&d=14,16,18,20,\\
+7d+6,&d\ge22\text{ even}.
+\end{cases}
+\]
+
+This transition constructs no detector or algebraic cycle and gives no
+proof or disproof of HC.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2181,6 +2201,7 @@ python verification/verify_B267_planar_product_jet_cancellation.py
 python verification/verify_B268_planar_cubic_equality.py
 python verification/verify_B269_planar_witness_no_eighth.py
 python verification/verify_B270_B271_cubic_equality.py
+python verification/verify_B272_quartic_equality.py
 ```
 
 The repository verifier checks the required directory topology, result

@@ -1,6 +1,6 @@
 ---
 brick_id: G190
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex d-fold X of even dimension d=2n>=14 with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,9 +13,9 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B007-B010, B134-B271, G013, G090-G148, G172, NG106-NG227, S081-S084
-claim: For every arbitrary primitive target (X,zeta) of even dimension d>=14, choose A and construct the complete G144 package at m=2, h_Z(1)=K(d), delta_1=K(d)-d-1, slack s_4(d)=2(K(d)-d-1), and N=2K(d), retaining the full relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing clauses.
-falsifier: one primitive target for which no polarization realizes the piecewise package; after B266-B271, even quadrics leave k=2 for d=14,16,18,20 and only k=4 for every even d>=22, with no complete detector package
+dependencies: B007-B010, B134-B272, G013, G090-G148, G172, NG106-NG228, S081-S084
+claim: The proposed universal G144 package at the piecewise rank K(d) cannot exist: B271-B272 exclude both cubic and quartic equality on the valid even-quadric test inputs for every even d>=22.
+falsifier: a valid G190 package on an even quadric of dimension at least 22, or failure of the B271 cubic or B272 quartic exclusion
 ---
 
 # G190 — The square/cubic piecewise boundary
@@ -62,8 +62,8 @@ complementary-unit jet difference, and every planar edge image is the
 same rank-\((d-1)\) space. B266 independently removes the standard tie
 at \(d=22\), so the active high-dimensional branch is now exactly
 cubic/quartic equality on the B264 planar locus. G190 remains
-EXPLORATORY; no detector, pairing, cycle, proof, or disproof of HC is
-produced.
+EXPLORATORY at the B267 checkpoint; no detector, pairing, cycle, proof,
+or disproof of HC is produced there.
 
 B268 shows that the remaining cubic rank is not merely an artifact of
 the pair-line products. On an explicit split \(3+3\) planar
@@ -89,7 +89,13 @@ six-point weak-del-Pezzo root and fundamental-cycle classification
 forces complementary collinear triples through \(u\). Generalized B269
 then separates every eighth double, contradicting the required
 \(N=2(7d+5)\) marked supports. NG227 excludes \(A=O_Q(3)\) for every
-even \(d\ge22\). G190 remains EXPLORATORY with square equality in
-dimensions \(14,16,18,20\) and quartic equality for every even
-\(d\ge22\); no relation, ODP, Kuranishi, rational-type, or specified
-pairing clause has been constructed.
+even \(d\ge22\). Immediately before B272, the survivors were square
+equality in dimensions \(14,16,18,20\) and quartic equality for every
+even \(d\ge22\); no relation, ODP, Kuranishi, rational-type, or
+specified-pairing clause had been constructed.
+
+B272 excludes the remaining quartic equality by producing residual
+rank at least \(d\), hence total rank at least \(7d+6\). Thus the
+quadric test input falsifies G190 for every even \(d\ge22\), and G190
+is NO-GO. This is a special-input obstruction to the proposed universal
+boundary, not a proof or disproof of HC.

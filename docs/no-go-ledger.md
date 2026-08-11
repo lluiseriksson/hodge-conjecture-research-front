@@ -4531,11 +4531,11 @@
   valid input. No special-family result is promoted upward.
 - **Detector guard:** no ODP package, rational detector, specified
   pairing, cycle, proof, or disproof of HC is produced.
-- **Conclusion:** the standard tie at \(d=22\) is removed from G190,
-  but its planar cubic/quartic branch remains open. G148 and HC remain
-  open.
-- **Re-entry condition:** G190 retains only \(k=3,4\) at its
-  high-dimensional equality after B266-B267.
+- **Conclusion at this checkpoint:** the standard tie at \(d=22\) is
+  removed from G190, while its planar cubic/quartic branch remains open.
+  B271-B272 later close that branch; G148 and HC remain open.
+- **Re-entry condition at this checkpoint:** G190 retained only \(k=3,4\)
+  at its high-dimensional equality after B266-B267.
 
 ## NG-225 - Escape the planar witness with another sextic jet
 
@@ -4598,3 +4598,24 @@
   \(d\ge22\).
 - **Re-entry condition:** audit quartic equality in those dimensions;
   the low-dimensional square branch remains separate.
+
+## NG-228 - Retain quartic planar equality
+
+- **Label:** NO-GO
+- **Route:** realize G190 with \(A=O_Q(4)\) at rank \(7d+5\).
+- **Generic planar obstruction:** when every line-through-\(u\) class has
+  size at most three, the good-pair graph has a perfect matching. The
+  resulting cubic unit squared times quadrics spans all \(d+1\) residual
+  first jets.
+- **Four-point obstruction:** if four supports share a line through \(u\),
+  B272 constructs an octic with zero value and nonzero transverse plane
+  derivative. Together with B260's unit and all \(d-2\) conormal directions,
+  the residual rank is at least \(d\).
+- **Rank contradiction:** six independent doubles contribute \(6d+6\), so
+  every quartic candidate has rank at least \(7d+6\), not \(7d+5\).
+- **Boundary consequence:** G190 is NO-GO; the valid floor reaches G191,
+  which B266 makes NO-GO at \(d=22\); G192 is active.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing, rational
+  detector, specified pairing, cycle, proof, or disproof of HC is produced.
+- **Re-entry condition:** attack G192 at its square/standard/cubic/quartic
+  survivor table and retain every G144 clause.
