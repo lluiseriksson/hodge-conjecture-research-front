@@ -35,6 +35,6 @@ falsifier: B137, which forces any nonzero adjoint defect in the isolated-nodal h
   derivative of the hypersurface section vanish identically along it. The
   hypersurface therefore has a positive-dimensional singular locus.
 - **Re-entry condition:** construct G013 at or above
-  \(2(mn-c)+2\) nodes, preserve isolated first jets and the multipart
-  smoothing inequalities, and prove that its B135 quotient class pairs
-  nontrivially with the prescribed Hodge class.
+  B138's improved \(3(mn-c)\) floor, preserve isolated first jets and the
+  multipart smoothing inequalities, and prove that its B135 quotient class
+  pairs nontrivially with the prescribed Hodge class.

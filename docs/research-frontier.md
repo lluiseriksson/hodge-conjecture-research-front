@@ -76,10 +76,21 @@ into the singular locus. Hence any isolated-nodal G013 detector must have
  |\Delta_m|\ge2(mn-c)+2.
 \]
 
-NG110 closes all slower growth. Equality is the first unresolved cardinality;
-it is not counted as a new sufficient reduction, because isolated nodality,
-the two-matroid inequalities, the ambient-map rank, and the specified B135
-pairing all remain unproved.
+NG110 closes all slower growth. B138 also resolves the former equality
+boundary. It extracts a minimal
+\(\mathrm{CB}(mn-c)\) circuit and applies S057, which places every such
+circuit of at most \(3(mn-c)-1\) points on a degree-at-most-two curve. The
+line/conic first-jet audit forces that carrier into the singular locus.
+Consequently
+
+\[
+ |\Delta_m|\ge3(mn-c).
+\]
+
+NG111 closes the entire smaller range. This is not counted as a new
+sufficient reduction: isolated nodality at the new boundary, the two-matroid
+inequalities, the ambient-map rank, and the specified B135 pairing all remain
+unproved.
 
 G032 separates the extra cleanup content from terminal support nonemptiness:
 starting with any detecting singular member, deform it to the Li-clean nodal

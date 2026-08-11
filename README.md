@@ -134,7 +134,9 @@ clean attack back to G013 with node count growing with the embedding power.
 B137 sharpens this to
 \(|\Delta_m|\ge2(mn-c)+2\) for \(A_m=H^m\) and
 \(K_X\otimes H^c\) globally generated. NG110 excludes every slower-growing
-isolated-nodal detector.
+isolated-nodal detector. B138 then extracts the intrinsic Cayley-Bacharach
+circuit and uses S057 to exclude every degree-at-most-two carrier below
+\(3(mn-c)\); NG111 records this stronger NO-GO.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -155,7 +157,7 @@ that nonzero individual residues may still be a coboundary. G089's exact
 restricted inequality was \(c a_1-a_2\ne0\), but B136/NG109 close every
 uniformly bounded-node realization in the stable high-power regime. The
 active clean-nodal construction obligation is G013: a growing multipart
-configuration meeting B137's linear floor and having nonzero B135
+configuration meeting B138's triple-linear floor and having nonzero B135
 residue-cokernel class.
 
 G032 isolates the latter cleanup step,
@@ -650,6 +652,7 @@ python verification/verify_B134_dual_relation_coordinate.py
 python verification/verify_B135_residue_cokernel.py
 python verification/verify_B136_bounded_nodes.py
 python verification/verify_B137_linear_node_floor.py
+python verification/verify_B138_triple_linear_floor.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -822,7 +825,8 @@ boundary-survival gate. G089 was its exact proportional-pair specialization;
 B136/NG109 close that specialization as a scalable high-power route and
 require any clean-nodal replacement to use a node count escaping every fixed
 bound. B137/NG110 strengthen this to the explicit lower bound
-\(2(mn-c)+2\); equality and the conic boundary remain open.
+\(2(mn-c)+2\). B138/NG111 close the conic boundary and every larger
+cardinality through \(3(mn-c)-1\); the first open count is \(3(mn-c)\).
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

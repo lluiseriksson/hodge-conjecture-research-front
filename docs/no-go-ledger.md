@@ -2078,3 +2078,20 @@
 - **Re-entry condition:** work at or above \(2(mn-c)+2\) nodes, preserve
   isolated nodality and the two-matroid inequalities, and compute a nonzero
   B135 quotient for the prescribed Hodge class.
+
+## NG-111 - Stop below the triple-linear floor
+
+- **Label:** NO-GO
+- **Route:** cross B137's double-linear threshold but keep
+  \(|\Delta_m|\le3(mn-c)-1\).
+- **Valid input:** S056 leaves a conic alternative at its boundary.
+- **Invalid inference:** that this alternative, or any larger set below the
+  triple-linear threshold, can remain an isolated-nodal detector.
+- **Precise obstruction:** B138 extracts a minimal
+  \(\mathrm{CB}(mn-c)\) circuit. S057 places it on a degree-at-most-two
+  curve. Componentwise CB bounds force at least \(mn-c+1\) points on a line
+  or \(2(mn-c)+2\) on an irreducible conic. Uniform conormal-degree bounds
+  then make the hypersurface singular along that carrier.
+- **Re-entry condition:** use at least \(3(mn-c)\) nodes and prove isolated
+  first jets, multipart smoothability, positive adjoint and ambient ranks,
+  and the prescribed nonzero B135 pairing.

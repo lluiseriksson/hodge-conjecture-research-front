@@ -34,7 +34,8 @@ proves the entire bounded-node target vanishes in sufficiently high powers.
 Thus G089/NG109 close the two-branch scalable route; G013 must use a growing
 multipart configuration. B137/NG110 quantify “growing”: after fixing
 \(K_X\otimes H^c\) globally generated, isolated nodal defect in \(|H^m|\)
-requires at least \(2(mn-c)+2\) nodes.
+first requires \(2(mn-c)+2\) nodes. B138/NG111 strengthen the current floor
+to \(3(mn-c)\) by excluding all line/conic Cayley-Bacharach carriers.
 
 Two sufficient attacks feed G008:
 
@@ -761,7 +762,8 @@ still does not supply the specified functional; NG108 shows that nonzero
 individual residues can be coboundaries. B136 then proves that every bounded
 node count has zero relation target in the stable high-power regime. G089 is
 therefore NO-GO there. B137 strengthens the necessary cardinality to
-\(2(mn-c)+2\), and G013 is the next clean route.
+\(2(mn-c)+2\), while B138 further strengthens it to \(3(mn-c)\). G013 is
+the next clean route.
 
 **Stronger clean program G084.** Prove
 
@@ -1055,8 +1057,9 @@ candidate must have dependent vanishing cycles and a nonzero value of the
 dual incidence functional; parameter codimension and relation rank alone do
 not supply it. B136/NG109 exclude every uniformly bounded nodal model after
 raising the power. B137/NG110 exclude every model with at most
-\(2(mn-c)+1\) nodes. Any scalable G013 attack must cross that quantitative
-floor with a multipart node set and prove a nonzero B135 residue quotient.
+\(2(mn-c)+1\) nodes, and B138/NG111 extend the exclusion through
+\(3(mn-c)-1\). Any scalable G013 attack must cross that quantitative floor
+with a multipart node set and prove a nonzero B135 residue quotient.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces

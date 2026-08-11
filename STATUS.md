@@ -209,8 +209,8 @@ Date: 2026-08-11
   \(\delta_2=c\delta_1\), the scalar coordinate is \(c a_1-a_2\); NG108
   shows nonzero individual residues may be a coboundary. B136/NG109 close
   every uniformly bounded-node version of this route in the stable
-  high-power regime. B137/NG110 further require at least
-  \(2(mn-c)+2\) nodes for \(A_m=H^m\). G013 is the next clean construction
+  high-power regime. B138/NG111 further require at least
+  \(3(mn-c)\) nodes for \(A_m=H^m\). G013 is the next clean construction
   gate, with that quantitative floor and a nonzero B135 quotient. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -436,9 +436,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(2(mn-c)+2\) nodes for \(m\gg0\).
 - NG110 - NO-GO: unbounded but sub-\(2(mn-c)+2\) node growth forces a long
   collinear subset and hence a positive-dimensional singular locus.
-- G013 - EXPLORATORY, active clean-nodal gate: construct a growing multipart
-  node scheme with the required two-matroid inequalities and a nonzero B135
-  residue-cokernel class paired with the specified Hodge class.
+- B138 - PROVED: a minimal dependent adjoint circuit is
+  \(\mathrm{CB}(mn-c)\); S057 and the carrier first-jet calculation force
+  at least \(3(mn-c)\) nodes for isolated nodality.
+- NG111 - NO-GO: every cardinality through \(3(mn-c)-1\) is carried by a
+  line or conic that becomes a positive-dimensional singular locus.
+- G013 - EXPLORATORY, active clean-nodal gate: construct at least
+  \(3(mn-c)\) multipart nodes with the required two-matroid inequalities and
+  a nonzero B135 residue-cokernel class paired with the specified Hodge
+  class.
 - NG106 - NO-GO: a generic transverse codimension-two double node does not
   force G088 survival; independent cycles give a zero target.
 - NG107 - NO-GO: a cohomological incidence class is a functional on
@@ -914,13 +920,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B137/G089/NG106-NG110 - PROVED/NO-GO: the minimal
+- B133-B138/G089/NG106-NG111 - PROVED/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
   force survival. Uniform high-power separation closes every bounded-node
-  version, and projective postulation forces G013's multipart node count to
-  be at least \(2(mn-c)+2\).
+  version, and Cayley-Bacharach carrier geometry forces G013's multipart
+  node count to be at least \(3(mn-c)\).
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

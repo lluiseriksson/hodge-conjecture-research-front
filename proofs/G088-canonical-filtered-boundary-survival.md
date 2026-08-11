@@ -13,7 +13,7 @@ hodge_type: primitive rational type (r,r), normalized to (0,0) after Q(r)
 cycle_class_map: CH^r(X)_Q -> H^(2r)(X,Q(r)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B009, B012, B026-B028, B128, B130-B137, G008, G013, G086-G087, G089, NG103-NG110, S009, S021-S024, S037, S053, S055-S056
+dependencies: B007-B009, B012, B026-B028, B128, B130-B138, G008, G013, G086-G087, G089, NG103-NG111, S009, S021-S024, S037, S053, S055-S057
 claim: For every nonzero primitive rational Hodge class zeta, for some sufficiently high power and some discriminant point p, the canonical projective filtered section h_m(zeta) survives the filtered stalk spectral sequence to the nonzero rational ordinary class e_m(s_m(zeta))_p in H^(-d+1)(IC(V_m))_p; at a clean nodal point this class is the dual relation functional beta |-> <zeta,gamma_beta>.
 falsifier: a smooth projective complex 2r-fold and nonzero primitive rational Hodge class for which the canonical section is killed in every discriminant stalk for every sufficiently high power
 ---
@@ -105,7 +105,7 @@ NO-GO as a scalable route, NG109 excludes every bounded-node replacement,
 and G013 is the next clean-nodal construction gate: its multipart node count
 must grow and its B135 residue-cokernel class must be nonzero. B137/NG110
 quantify the first condition: for \(A_m=H^m\), isolated nodal defect requires
-at least \(2(mn-c)+2\) nodes once \(K_X\otimes H^c\) is globally generated.
+at least \(3(mn-c)\) nodes once \(K_X\otimes H^c\) is globally generated.
 
 Thus G088 requires an actual codimension-two-or-higher calculation of the
 minimal-extension filtered differentials. Global nonvanishing, Nori

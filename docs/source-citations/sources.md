@@ -1755,6 +1755,28 @@ Conjectures,” *Bulletin of the American Mathematical Society* 33 (1996),
   It neither constructs nodes nor proves isolated first-jet conditions,
   nonzero vanishing-cycle relations, Hodge type, or class-specific pairing.
 
+## S057 - Cayley-Bacharach sets on curves of degree two
+
+Nicola Picoco, “Geometry of Points Satisfying Cayley-Bacharach Conditions
+and Applications,” *Journal of Algebra* 631 (2023), 332-354.
+[DOI](https://doi.org/10.1016/j.jalgebra.2023.03.042),
+[arXiv](https://arxiv.org/abs/2201.01665).
+
+- Checked Theorem A and its \(h=3\) case, Theorem 3.1: if a set
+  \(\Gamma\subset\mathbf P^N\) of distinct points is
+  \(\mathrm{CB}(k)\) and
+  \(|\Gamma|\le3(k-3+3)-1=3k-1\), then \(\Gamma\) lies on a projective
+  curve of degree two.
+- B138 first extracts an inclusion-minimal dependent evaluation circuit, so
+  every coefficient of its unique relation is nonzero and the circuit is
+  intrinsically \(\mathrm{CB}(k)\). This verifies that S057 applies in the
+  arbitrary ambient projective dimension used there.
+- Scope guard: S057 produces only a low-degree carrier. B138 separately
+  proves that, for high powers on a fixed smooth \(X\), enough singular
+  points on every possible line/conic carrier force a positive-dimensional
+  singular locus. Neither theorem constructs a detector or an algebraic
+  cycle.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

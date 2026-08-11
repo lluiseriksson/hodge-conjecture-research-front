@@ -138,4 +138,6 @@ The constant \(c\), and the threshold hidden in \(m\gg0\), depend on
 \((X,H)\). The theorem does not exclude the boundary cardinality
 \(2t_m+2\): Eisenbud-Green-Harris has a conic alternative exactly there.
 It constructs no nodal member, no residue class, and no algebraic cycle.
-It strengthens B136 only by giving a necessary linear node floor.
+It strengthens B136 only by giving a necessary linear node floor. B138
+subsequently resolves the conic boundary and strengthens the floor to
+\(3t_m\).
