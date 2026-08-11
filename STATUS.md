@@ -209,9 +209,10 @@ Date: 2026-08-11
   \(\delta_2=c\delta_1\), the scalar coordinate is \(c a_1-a_2\); NG108
   shows nonzero individual residues may be a coboundary. B136/NG109 close
   every uniformly bounded-node version of this route in the stable
-  high-power regime. G013 is the next clean construction gate, with growing
-  node count and nonzero B135 quotient. G008 remains the terminal-equivalent
-  obligation.
+  high-power regime. B137/NG110 further require at least
+  \(2(mn-c)+2\) nodes for \(A_m=H^m\). G013 is the next clean construction
+  gate, with that quantitative floor and a nonzero B135 quotient. G008
+  remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -430,6 +431,11 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G089/NG109 - NO-GO: a proportional two-node detector, or any uniformly
   bounded-node replacement, cannot provide a scalable high-power route.
   Exceptional finite low powers are not excluded.
+- B137 - PROVED: if \(K_X\otimes H^c\) is globally generated, every
+  isolated-nodal member of \(|H^m|\) with nonzero adjoint defect has at least
+  \(2(mn-c)+2\) nodes for \(m\gg0\).
+- NG110 - NO-GO: unbounded but sub-\(2(mn-c)+2\) node growth forces a long
+  collinear subset and hence a positive-dimensional singular locus.
 - G013 - EXPLORATORY, active clean-nodal gate: construct a growing multipart
   node scheme with the required two-matroid inequalities and a nonzero B135
   residue-cokernel class paired with the specified Hodge class.
@@ -908,12 +914,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B136/G089/NG106-NG109 - PROVED/NO-GO: the minimal
+- B133-B137/G089/NG106-NG110 - PROVED/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
   force survival. Uniform high-power separation closes every bounded-node
-  version, so G013's multipart node count must grow.
+  version, and projective postulation forces G013's multipart node count to
+  be at least \(2(mn-c)+2\).
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

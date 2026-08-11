@@ -65,6 +65,22 @@ failure. The next scalable clean gate is therefore G013: its multipart node
 count must grow with \(m\), satisfy the two-matroid/isolated-jet conditions,
 and carry a nonzero B135 residue-cokernel class.
 
+B137 makes the growth obligation quantitative. Fix a very ample \(H\), take
+\(c\ge0\) with \(K_X\otimes H^c\) globally generated, and write
+\(A_m=H^m\). S056 and generic projection force a degree-\(mn-c\) dependent
+set with at most \(2(mn-c)+1\) points to contain \(mn-c+2\) collinear
+points. Uniform conormal bounds for \(H\)-lines then force the whole line
+into the singular locus. Hence any isolated-nodal G013 detector must have
+
+\[
+ |\Delta_m|\ge2(mn-c)+2.
+\]
+
+NG110 closes all slower growth. Equality is the first unresolved cardinality;
+it is not counted as a new sufficient reduction, because isolated nodality,
+the two-matroid inequalities, the ambient-map rank, and the specified B135
+pairing all remain unproved.
+
 G032 separates the extra cleanup content from terminal support nonemptiness:
 starting with any detecting singular member, deform it to the Li-clean nodal
 locus while preserving a nonzero pairing. The first attempt fails. By B025,

@@ -1737,6 +1737,24 @@ and
   bounded-node vanishing, not existence of any growing node configuration or
   nonzero class-specific residue.
 
+## S056 - Small point sets failing degree-d postulation
+
+David Eisenbud, Mark Green, and Joe Harris, “Cayley-Bacharach Theorems and
+Conjectures,” *Bulletin of the American Mathematical Society* 33 (1996),
+295-324. [Official article PDF](https://www.ams.org/bull/1996-33-03/S0273-0979-96-00666-0/S0273-0979-96-00666-0.pdf).
+
+- Checked Proposition 1, pp. 301-303: for \(r\le2d+2\) distinct points of
+  \(\mathbf P^2\), failure to impose independent conditions on degree-\(d\)
+  curves occurs exactly when \(d+2\) points are collinear, or when
+  \(r=2d+2\) and all points lie on a conic.
+- B137 uses only the strict range \(r\le2d+1\), so the conic alternative is
+  absent. A generic-projection argument, written out in B137, transfers the
+  forced collinear subset from \(\mathbf P^2\) to the fixed very-ample
+  embedding \(X\subset\mathbf P^N\).
+- Scope guard: Proposition 1 is a postulation theorem for distinct points.
+  It neither constructs nodes nor proves isolated first-jet conditions,
+  nonzero vanishing-cycle relations, Hodge type, or class-specific pairing.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

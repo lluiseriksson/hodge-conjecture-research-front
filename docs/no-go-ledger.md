@@ -2059,3 +2059,22 @@
 - **Re-entry condition:** use G013's growing multipart incidence, retain
   isolated nodes and adjoint defect, and prove its B135 quotient class is
   nonzero for the specified Hodge class.
+
+## NG-110 - Grow nodes below the double-linear floor
+
+- **Label:** NO-GO
+- **Route:** escape B136 with an unbounded node count but keep
+  \(|\Delta_m|\le2(mn-c)+1\), where \(K_X\otimes H^c\) is globally
+  generated.
+- **Valid input:** an unbounded family is not covered by any one fixed
+  Hilbert scheme of points.
+- **Invalid inference:** unbounded cardinality alone permits an isolated
+  adjoint defect.
+- **Precise obstruction:** B137 converts the defect into failure of
+  degree-\(t_m=mn-c\) postulation. In this cardinality range S056 forces
+  \(t_m+2\) collinear nodes. Their line lies in \(X\) for high \(m\), while
+  the hypersurface value and every conormal first derivative vanish at more
+  points than their degrees. The entire line is singular.
+- **Re-entry condition:** work at or above \(2(mn-c)+2\) nodes, preserve
+  isolated nodality and the two-matroid inequalities, and compute a nonzero
+  B135 quotient for the prescribed Hodge class.

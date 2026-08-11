@@ -127,7 +127,9 @@ More generally, any sequence of high-power nodal detectors must have
 Thus the next scalable clean-nodal gate is not another bounded local model.
 It is G013's multipart incidence, with node count growing enough to create
 adjoint dependence while preserving isolated first jets and a nonzero B135
-residue-cokernel coordinate.
+residue-cokernel coordinate. B137 subsequently sharpens this qualitative
+growth requirement to the linear floor \(2(mn-c)+2\) for a fixed very ample
+embedding.
 
 ## Scope guard
 

@@ -60,6 +60,7 @@ boundary, not an induction mechanism.
 | Nori-Brogan incidence calculation | B130 places the primitive (r,r) component in H^(-d+1)gr_F^(-r)DR(M); B131 proves the canonical rational first-Leray transgression is nonzero; B132 realizes the specified incidence class projectively | NG104: the ordinary local Betti sheaf vanishes on P_sm; NG105 closes the smooth-open/splitting comparison; G088 must prove discriminant-stalk survival |
 | minimal filtered boundary stratum | B133-B135 identify the two-branch target with coker(Delta^*)=ker(Delta)^vee and reduce proportional cycles delta_2=c delta_1 to the residue mismatch c a_1-a_2 | NG106 excludes generic independent nodes; NG107 excludes relation-rank-only detection; NG108 excludes nonzero-coordinate-only residue arguments |
 | bounded-node high-power vanishing | B136 proves uniformly over Hilb^k(X), k at most N, that every bounded node scheme has zero high-power adjoint defect and relation channel | G089 is NO-GO in the stable high-power regime; NG109 forces the scalable clean route back to growing multipart G013 |
+| quantitative isolated-node floor | B137 combines S056 postulation with uniform H-line conormal bounds to prove that nonzero isolated-nodal defect requires at least 2(mn-c)+2 nodes | NG110 excludes every slower-growing route; equality and the conic boundary remain open and still require class-specific B135 nonvanishing |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -407,3 +408,10 @@ all sufficiently high powers. Thus G089 is closed as an asymptotic route and
 NG109 excludes every fixed-size replacement. G013 is again the active clean
 construction: its node count must grow and its B135 residue quotient must be
 nonzero.
+
+B137 sharpens “must grow” to the explicit necessary bound
+\(|\Delta_m|\ge2(mn-c)+2\) for \(A_m=H^m\), with
+\(K_X\otimes H^c\) globally generated. Below that boundary S056 forces a
+long collinear subset, and the hypersurface becomes singular along its line.
+NG110 records the failed sub-double-linear regime. The equality case is not
+closed because the plane postulation theorem has a conic alternative there.

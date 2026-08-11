@@ -41,6 +41,6 @@ falsifier: B136 uniform separation, which forces the adjoint defect and relation
   With \(N=2\), the proportional-pair target of G089 is absent, not merely
   difficult to evaluate.
 - **Re-entry condition:** allow the number of nodes to grow with \(m\) and
-  satisfy G013's independent-block and adjoint-defect conditions, then prove
-  the resulting B135 residue class is nonzero for the prescribed
-  \(\zeta\).
+  meet B137's quantitative floor together with G013's independent-block and
+  adjoint-defect conditions, then prove the resulting B135 residue class is
+  nonzero for the prescribed \(\zeta\).
