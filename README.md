@@ -562,6 +562,21 @@ Lagrangian channel. NG151 shows why this is weaker than the split carrier
 model: the diagonal in \(H\oplus H\) is maximal isotropic for
 \(B\oplus(-B)\), yet projects fully to each node.
 
+B188 turns existence of that global relation into an exact finite rank
+test. If \(H(U)\subset\mathbf C^N\) is the span of every tuple of nodewise
+Hessian pairings on \(U=\operatorname{im}D\), then
+
+\[
+ \{c\in\ker E^*:q_c|_U=0\}
+ =(\operatorname{im}E+H(U))^\perp.
+\]
+
+G121 asks for this augmented span to have rank below \(N\), with no
+coordinate identically zero on its annihilator, while retaining the
+rational detector separately. NG152 proves that
+\(\dim U\le nN\) alone is insufficient: \(U=G_1\oplus0\) can saturate the
+ceiling while the augmented span is all of \(\mathbf C^2\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1125,6 +1140,7 @@ python verification/verify_B184_etale_carrier.py
 python verification/verify_B185_incidence_carrier.py
 python verification/verify_B186_kuranishi_ladder.py
 python verification/verify_B187_full_support_ceiling.py
+python verification/verify_B188_augmented_hessian.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1401,7 +1417,9 @@ those coefficients as the finite Kuranishi ladder
 \(\kappa_2,\ldots,\kappa_{E^{M+1}}\). G119 isolates the quadratic rung, and
 NG150 proves it cannot automatically kill the cubic rung. B187/G120 sharpen
 the quadratic precursor to a global rank-\(nN\) Lagrangian ceiling; NG151
-prevents counting that global condition as a nodewise split core.
+prevents counting that global condition as a nodewise split core. B188/G121
+replace the existential relation by an augmented Hessian-value rank defect;
+NG152 blocks deriving it from dimension alone.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

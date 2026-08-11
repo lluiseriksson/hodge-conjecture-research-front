@@ -800,6 +800,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   nonzero specified pairing as a necessary precursor to G119.
 - NG151 - NO-GO: a maximal global relation Lagrangian need not split by
   node; the diagonal in \(H\oplus H\) projects fully to both blocks.
+- B188 - PROVED: the relations making \(U\) isotropic are exactly
+  \((\operatorname{im}E+H(U))^\perp\); existence and full support reduce to
+  augmented rank deficiency and a no-zero-coordinate condition.
+- G121 - EXPLORATORY: construct that augmented Hessian-value defect from
+  arbitrary class-directed full-incidence data while retaining the separate
+  rational detector and its specified nonzero pairing.
+- NG152 - NO-GO: \(\dim U\le nN\) does not imply augmented defect;
+  \(U=G_1\oplus0\) can saturate the ceiling while
+  \(\operatorname{im}E+H(U)=\mathbf C^2\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1375,6 +1384,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   first rung, while NG150 forces an independent cubic step afterward.
   B187 improves the quadratic rank ceiling to \(nN\); G120 isolates that
   global precursor, and NG151 blocks a nodewise-splitting shortcut.
+  B188/G121 express it as an augmented Hessian-value rank defect; NG152
+  rules out obtaining that defect from the dimension ceiling alone.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

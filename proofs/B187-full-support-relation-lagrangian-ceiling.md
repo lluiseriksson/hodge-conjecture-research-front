@@ -122,3 +122,7 @@ remain independent downstream obligations.
 B187 is a necessary condition for G119, not a construction. It supplies no
 class-directed node configuration, no Hodge type or pairing, and no
 quadratic or higher Kuranishi vanishing.
+
+B188 subsequently gives the exact converse data: the augmented
+Hessian-value span must have a nonzero no-coordinate-zero annihilator.
+NG152 shows that the numerical ceiling (3) alone does not ensure this.

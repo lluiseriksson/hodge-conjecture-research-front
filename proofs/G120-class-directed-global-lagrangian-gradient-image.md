@@ -50,3 +50,11 @@ coefficient-field substitution.
 NG151 prevents strengthening (1) to a nodewise split Lagrangian core
 without additional geometry. A global maximal \(q_c\)-isotropic subspace
 may mix all nodal blocks.
+
+## Rank formulation after B188
+
+B188 proves that (1) is equivalent to rank deficiency of the augmented
+Hessian-value map together with the absence of an identically zero
+coordinate in its annihilator. G121 is this concrete residual gate. NG152
+shows that \(\operatorname{rank}D\le nN\) by itself does not imply the
+augmented defect.

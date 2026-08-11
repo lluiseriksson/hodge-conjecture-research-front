@@ -727,6 +727,38 @@ the \(nN\) ceiling, but projects isomorphically to both nodal blocks. Thus
 B187 gives no nodewise split conormal core and no automatic isotropy for
 the remaining relations.
 
+B188 gives the exact converse criterion for the one-relation precursor.
+For \(U=\operatorname{im}D\), define
+
+\[
+ h_U:\operatorname{Sym}^2U\to\mathcal T,\qquad
+ u\odot v\mapsto(B_i(u_i,v_i))_i,
+\]
+
+and the augmented map
+
+\[
+ A_U:\operatorname{im}E\oplus\operatorname{Sym}^2U\to\mathcal T.
+\]
+
+Then
+
+\[
+ \ker A_U^*
+ =
+ \{c\in\ker E^*:q_c|_U=0\}. \tag{**}
+\]
+
+Thus a global isotropic relation exists exactly when
+\(\operatorname{rank}A_U<N\); a full-support one exists exactly when no
+coordinate vanishes identically on \(\ker A_U^*\). G121 is the resulting
+finite class-directed augmented-defect gate.
+
+NG152 blocks replacing (**) by B187's numerical ceiling. With
+\(\operatorname{im}E=\mathbf C(1,1)\) and \(U=G_1\oplus0\), one has
+\(\dim U=nN\) but \(H(U)=\mathbf C(1,0)\), so the augmented map is
+surjective and has no isotropic relation.
+
 Two sufficient attacks feed G008:
 
 \[

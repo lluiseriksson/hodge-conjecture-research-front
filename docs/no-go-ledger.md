@@ -2910,3 +2910,29 @@
 - **Re-entry condition:** G120 uses only the global condition proved
   necessary by B187. Any nodewise split core or full G119 vanishing needs a
   separate geometric construction with every detector clause.
+
+## NG-152 - Half-dimensional gradient rank creates isotropy
+
+- **Label:** NO-GO
+- **Route:** satisfy B187's numerical bound
+  \(\dim U\le nN\) and infer that some nonzero value relation makes \(U\)
+  isotropic.
+- **Valid input:** any \(U\) isotropic for a full-support nondegenerate
+  relation form has dimension at most \(nN\).
+- **Invalid inference:** reverse the Witt-index implication using dimension
+  alone.
+- **Precise obstruction:** for \(N=2,R=1\), let
+  \(S=\mathbf C(1,1)\) and take
+  \(U=G_1\oplus0\), with \(\dim G_1=2n\). Then
+  \(\dim U=2n=nN\), but nondegeneracy of the first Hessian gives
+  \(H(U)=\mathbf C(1,0)\).
+- **Augmented calculation:**
+  \[
+  S+H(U)=\mathbf C^2,\qquad
+  (S+H(U))^\perp=0.
+  \]
+  The unique value relation \((1,-1)\) restricts to the nonzero first
+  Hessian form.
+- **Re-entry condition:** G121 must construct a rank-deficient augmented
+  Hessian-value map and a no-zero-coordinate annihilator. Gradient rank,
+  first-jet defect, and dimension counts alone do not supply them.
