@@ -1960,24 +1960,24 @@ layer \(6d+1\) are NO-GO. The next balanced signature was
  \dim E_1=4d+2=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{*************************************************************************************}
 \]
 
-B246 proves that the standard polarization actually forces
-\(h_Z(1)\ge5d-3\): the residual-\(U\) branch needs three tangent blocks,
-while every escape from a projective-three-space contact locus costs at
-least \(d-3\). Combining this with B244's nonstandard floor
-\(h_Z(1)\ge4d+4\) gives \(s\ge6d+6\) for every polarization. Hence
-G169 and every layer through \(6d+5\) are NO-GO. The next balanced
-signature is
+B246 proves that the standard polarization forces
+\(h_Z(1)\ge5d-3\), while B244 gives the nonstandard floor
+\(h_Z(1)\ge4d+4\). B247 then excludes equality in the nonstandard
+case: four double neighborhoods fill the span for \(k=2,3\), an
+explicit good-edge four-cycle separates a fifth point, and B215 excludes
+\(k\ge4\). Hence G170 and every layer through \(6d+7\) are NO-GO. The
+next balanced signature is
 
 \[
- \delta_1=3d+3,\qquad N=8d+8,\qquad
- \dim E_1=4d+4=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**************************************************************************************}
+ \delta_1=3d+4,\qquad N=8d+10,\qquad
+ \dim E_1=4d+5=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**************************************************************************************}
 \]
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G170: construct the nonstandard }6d+6\text{ boundary}
+ \text{G171: construct one rank beyond the nonstandard boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

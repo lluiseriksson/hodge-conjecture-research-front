@@ -4003,3 +4003,27 @@
 - **Re-entry condition:** G170 begins at
   \(s=6d+6,\delta_1=3d+3,N=8d+8,h_Z(1)=4d+4\), with only nonstandard
   quadric polarizations surviving the rank test.
+
+## NG-205 - Survive the exact nonstandard six-plus-six boundary
+
+- **Label:** NO-GO
+- **Route:** attain B244's exact nonstandard floor
+  \(h_Z(1)=4d+4\) and absorb every marked tangent osculator.
+- **Valid premise:** for \(k=2,3\), four double neighborhoods can fill
+  exactly the allowed span.
+- **Invalid inference:** that full span can absorb any fifth marked
+  point.
+- **Quartic/sextic obstruction:** the good pair-line graph relative to
+  the fifth point contains a four-cycle. Its four hyperplanes give a
+  quartic vanishing twice at the first four points and nonzero at the
+  fifth; two unit factors give the sextic separator.
+- **Higher-power obstruction:** B215 separates four doubles and one
+  reduced point in exponent eight, forcing rank \(4d+5\) for \(k\ge4\).
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge8\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G170 and both layers \(6d+6,6d+7\) are closed. G148
+  and HC remain open.
+- **Re-entry condition:** G171 begins at
+  \(s=6d+8,\delta_1=3d+4,N=8d+10,h_Z(1)=4d+5\).

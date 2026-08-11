@@ -1239,9 +1239,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G169 - NO-GO: every layer \(6d+2,\ldots,6d+5\) lies below the common
   quadric floor.
 - NG204 - NO-GO: fixed-additive slope-six standard survival fails.
-- G170 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=6d+6,\delta_1=3d+3\) and construct the balanced
-  length-\(8d+8\), dimension-\(4d+4\) self-dual code with every detector
+- B247 - PROVED: for \(k=2,3\), four double neighborhoods fill the
+  G170 span and a pair-line four-cycle separates a fifth point; B215
+  excludes \(k\ge4\).
+- G170 - NO-GO: no quadric polarization survives at \(s=6d+6\), and
+  the adjacent odd layer \(6d+7\) has the same rank budget.
+- NG205 - NO-GO: exact nonstandard survival at the \(6d+6\) boundary.
+- G171 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=6d+8,\delta_1=3d+4\) and construct the balanced
+  length-\(8d+10\), dimension-\(4d+5\) self-dual code with every detector
   clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
