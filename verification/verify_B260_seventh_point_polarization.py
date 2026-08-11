@@ -112,11 +112,11 @@ require(
 )
 require(
     "proofs/G187-reduced-piecewise-seventh-point-boundary.md",
-    ("brick_id: G187", "status: EXPLORATORY", "H(d)", "A=O_Q(3),O_Q(4)"),
+    ("brick_id: G187", "status: NO-GO", "B261", "H(d)"),
 )
 require(
     "proofs/NG218-seventh-point-polarization-survival.md",
     ("brick_id: NG218", "status: NO-GO", "126<6d+6", "G187"),
 )
 
-print("PASS: B260 seventh-point polarization reduction, G186-G187, and NG218")
+print("PASS: B260 seventh-point polarization reduction, G186-G187 transition, and NG218")

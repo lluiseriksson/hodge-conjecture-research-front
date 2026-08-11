@@ -1317,10 +1317,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(k=3,4\), \(7d+7\) for \(k\ge5\), and \(7d+7\) for \(k=2,d\ge22\).
 - G186 - NO-GO: the unrestricted piecewise polarization table fails.
 - NG218 - NO-GO: unrestricted seventh-point polarization survival.
-- G187 - EXPLORATORY, active smallest branch: construct the reduced
-  piecewise package; equality leaves \(k=1\) for \(d=14,16\),
-  \(k=1,2\) for \(d=18\), \(k=2\) for \(d=20\), and \(k=3,4\) for
-  even \(d\ge22\).
+- B261 - PROVED: varying one good pair-line hyperplane supplies at
+  least \(d-1\) seventh-point jets, raising the cubic and quartic floors
+  to \(7d+5\).
+- G187 - NO-GO: the high-dimensional cubic/quartic equality fails.
+- NG219 - NO-GO: cubic/quartic survival with one residual dimension.
+- G188 - EXPLORATORY, active smallest branch: the boundary is standard
+  in every even dimension except the square exception \(d=20\);
+  at \(d=18\), standard and square tie.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

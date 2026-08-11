@@ -2128,12 +2128,27 @@ H(d)=
 
 The equality survivors are \(k=1\) for \(d=14,16\), \(k=1,2\) for
 \(d=18\), \(k=2\) for \(d=20\), and \(k=3,4\) for even \(d\ge22\).
+B261 eliminates the last high-dimensional alternatives: varying one
+pair-line hyperplane in the six- or eight-edge product supplies at
+least \(d-1\) seventh-point jets. Thus the cubic and quartic floors are
+\(7d+5\), and the updated common floor is
+
+\[
+J(d)=
+\begin{cases}
+126,&d=20,\\
+7d-12,&\text{every other even }d\ge14.
+\end{cases} \tag{***************************************************************************************}
+\]
+
+Equality is standard except for the standard-square tie at \(d=18\)
+and the square-only exception at \(d=20\).
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G187: construct the reduced seventh-point boundary}
+ \text{G188: construct the mostly-standard seventh-jet boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

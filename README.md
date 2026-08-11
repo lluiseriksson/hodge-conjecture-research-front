@@ -1412,6 +1412,22 @@ The equality survivors are respectively \(k=1\); \(k=1,2\);
 \(k=2\); and \(k=3,4\). This is still only a necessary window; every
 geometric and detector obligation is open.
 
+B261 varies one pair-line hyperplane in B260's products. Its restriction
+to the seventh first-jet target has rank at least \(d-1\), so both
+cubic and quartic floors rise to \(7d+5\). G187 is **NO-GO** (NG219).
+The active gate G188 has
+
+\[
+J(d)=
+\begin{cases}
+126,&d=20,\\
+7d-12,&\text{every other even }d\ge14.
+\end{cases}
+\]
+
+Equality leaves \(k=1\) except for \(k=1,2\) at \(d=18\) and \(k=2\)
+at \(d=20\). Every geometric and detector obligation remains open.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2030,6 +2046,7 @@ python verification/verify_B257_standard_first_slope_ten.py
 python verification/verify_B258_standard_second_slope_ten.py
 python verification/verify_B259_standard_second_parametric_band.py
 python verification/verify_B260_seventh_point_polarization.py
+python verification/verify_B261_variable_edge_seventh_jet.py
 ```
 
 The repository verifier checks the required directory topology, result

@@ -4380,3 +4380,29 @@
 - **Re-entry condition:** G187 uses B260's piecewise \(H(d)\), with
   survivors \(k=1\) for \(d=14,16\), \(k=1,2\) for \(d=18\), \(k=2\)
   for \(d=20\), and \(k=3,4\) for even \(d\ge22\).
+
+## NG-219 - Cubic/quartic survival with one residual dimension
+
+- **Label:** NO-GO
+- **Route:** attain \(h_Z(1)=6d+7\) with \(k=3\) or \(k=4\).
+- **Valid premise:** B260's fixed products separate only one reduced
+  seventh-point value.
+- **Invalid inference:** varying their factors supplies no additional
+  first jets.
+- **Variable-edge obstruction:** the hyperplanes containing one good
+  pair line form a \(d\)-dimensional space; its restriction to the
+  \((d+1)\)-dimensional first-jet target has kernel dimension at most
+  one and rank at least \(d-1\).
+- **Vanishing guard:** varying that factor retains both edge endpoints,
+  while the other fixed factors keep multiplicity at least two at all
+  six supports.
+- **Floor consequence:** cubic and quartic polarizations satisfy
+  \(h_Z(1)\ge7d+5\).
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G187 is closed as a universal gate. Its standard and
+  low-dimensional square regimes pass to G188; G148 and HC remain open.
+- **Re-entry condition:** G188 uses B261's mostly-standard \(J(d)\),
+  with a standard-square tie at \(d=18\) and square-only \(d=20\).
