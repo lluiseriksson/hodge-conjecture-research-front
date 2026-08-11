@@ -2446,6 +2446,16 @@ B286 removes the only standard tie from G206. Standard rank 119 on
 same uniform rank \(7d+7\) using only nonstandard polarizations. Every
 detector obligation remains open.
 
+B287 closes that refinement. If \(A=O_Q(k)\), \(k\ge2\), and \(r\le d\)
+double supports are independent, tangent absorption forces a marked
+point outside their representative span. A squared hyperplane through
+the old span, multiplied by \(O_Q(2k-2)\), supplies the new full first
+jet. Iteration yields \(d+1\) independent blocks and
+\(h_Z(1)\ge(d+1)^2>7d+7\). Thus G206-G207 and NG244 are **NO-GO**.
+The operational chain continues with G208 at the first currently
+unexcluded standard piecewise ranks; all detector obligations remain
+open.
+
 Two sufficient attacks feed G008:
 
 \[

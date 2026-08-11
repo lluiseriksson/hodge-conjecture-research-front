@@ -1706,8 +1706,14 @@ NG242 makes G205 **NO-GO** and G206 is the uniform boundary \(7d+7\).
 B286 removes G206's sole standard tie. On \(Q^{16}\), rank 119 leaves
 exactly the rank-nine fourth escape; equality fills and confines every
 support to \(\mathbf P^8\), of quadratic rank 45. NG243 records the
-standard route as **NO-GO**. G207 is the operational uniform
-nonstandard refinement at the unchanged rank \(7d+7\).
+standard route as **NO-GO**.
+
+B287 closes the entire nonstandard refinement. For every
+\(A=O_Q(k)\), \(k\ge2\), tangent absorption escapes the span of any
+\(r\le d\) support representatives; a hyperplane-square extension adds
+the next full double block. Iteration gives
+\(h_Z(1)\ge(d+1)^2>7d+7\). NG244 makes G206-G207 **NO-GO**. G208 is
+the active standard-polarized piecewise frontier.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -2354,6 +2360,7 @@ python verification/verify_B283_standard_d18_band.py
 python verification/verify_B284_standard_d20_band.py
 python verification/verify_B285_standard_d22_band.py
 python verification/verify_B286_standard_d16_equality.py
+python verification/verify_B287_nonstandard_iterated_floor.py
 ```
 
 The repository verifier checks the required directory topology, result

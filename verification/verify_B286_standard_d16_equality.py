@@ -25,7 +25,8 @@ def require(path: str, needles: tuple[str, ...]) -> None:
 
 require("proofs/B286-standard-dimension-sixteen-fourth-escape-equality.md", ("brick_id: B286", "status: PROVED", "45<119", "floor", "disproof of HC"))
 require("proofs/NG243-standard-tie-at-uniform-boundary.md", ("brick_id: NG243", "status: NO-GO", "G207", "rank 119"))
-require("proofs/G206-uniform-nonstandard-boundary.md", ("brick_id: G206", "status: EXPLORATORY", "B286", "nonstandard"))
-require("proofs/G207-uniform-nonstandard-refinement.md", ("brick_id: G207", "status: EXPLORATORY", "AG(d)=7d+7", "active"))
+require("proofs/G206-uniform-nonstandard-boundary.md", ("brick_id: G206", "status: NO-GO", "B286", "B287"))
+require("proofs/G207-uniform-nonstandard-refinement.md", ("brick_id: G207", "status: NO-GO", "AG(d)=7d+7", "B287"))
+require("proofs/G208-standard-piecewise-frontier.md", ("brick_id: G208", "status: EXPLORATORY", "operational"))
 
-print("PASS: B286 Q16 fourth-escape equality and G207 refinement")
+print("PASS: B286 Q16 fourth-escape equality and post-G207 frontier")

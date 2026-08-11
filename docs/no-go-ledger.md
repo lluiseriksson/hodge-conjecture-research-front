@@ -4878,3 +4878,19 @@
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
 - **Re-entry condition:** attack G207 and retain every G144 clause.
+
+## NG-244 - Retain a nonstandard polarization at G206-G207
+
+- **Label:** NO-GO
+- **Route:** realize rank \(7d+7\) with \(A=O_Q(k)\), \(k\ge2\).
+- **Iterated obstruction:** B287 escapes every span of at most \(d\)
+  support representatives and adds a full double block by a
+  hyperplane-square extension.
+- **Rank obstruction:** \(d+1\) independent blocks force
+  \(h_Z(1)\ge(d+1)^2>7d+7\).
+- **Boundary consequence:** G206 and G207 are NO-GO; G208 is active at
+  the first currently unexcluded standard piecewise ranks.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack G208 and retain every G144 clause.

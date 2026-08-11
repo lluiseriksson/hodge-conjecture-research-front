@@ -1407,13 +1407,17 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B285 - PROVED: standard ranks 160 and 161 on \(Q^{22}\) are
   impossible; its standard floor is at least 162.
 - NG242 - NO-GO: the standard dimension-22 branch does not survive.
-- G206 - EXPLORATORY, active: classify the uniform equality \(7d+7\)
-  for every even \(d\ge14\).
+- G206 - NO-GO: the uniform equality \(7d+7\) has no surviving
+  polarization on the valid quadric inputs.
 - B286 - PROVED: standard rank 119 on \(Q^{16}\) forces fourth-escape
   equality and a filled \(\mathbf P^8\) contact locus of rank 45.
 - NG243 - NO-GO: the sole standard tie in G206 does not survive.
-- G207 - EXPLORATORY, operationally active inside G206: classify the
-  uniform rank \(7d+7\) using only nonstandard polarizations.
+- B287 - PROVED: every nonstandard tangent-absorbing quadric span has
+  rank at least \((d+1)^2\) by iterated hyperplane-square extension.
+- NG244 - NO-GO: no nonstandard polarization survives rank \(7d+7\),
+  so G207 is NO-GO as well.
+- G208 - EXPLORATORY, operationally active: classify the first
+  currently unexcluded piecewise standard-polarized ranks.
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
   six cubic double supports are independent and the seventh residual
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
@@ -1497,10 +1501,12 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G205 - NO-GO: B285 removes its dimension-22 standard survivor.
 - B285 - PROVED: the \(Q^{22}\) standard floor is at least 162.
 - NG242 - NO-GO: standard ranks 160 and 161 do not survive.
-- G206 - EXPLORATORY: the uniform \(7d+7\) boundary is active.
+- G206 - NO-GO: the uniform \(7d+7\) boundary is closed.
 - B286 - PROVED: the \(Q^{16}\) standard floor is at least 120.
 - NG243 - NO-GO: standard rank 119 does not survive.
-- G207 - EXPLORATORY: the uniform nonstandard refinement is active.
+- B287 - PROVED: the nonstandard floor is at least \((d+1)^2\).
+- NG244 - NO-GO: G207 has no surviving nonstandard branch.
+- G208 - EXPLORATORY: the standard piecewise frontier is active.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
