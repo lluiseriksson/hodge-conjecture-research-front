@@ -58,7 +58,7 @@ boundary, not an induction mechanism.
 | local-to-global edge escape | B128 gives the exact two-row sequence and identifies local support with the edge section of the incidence class | G086 must exclude that class from H^1(P_m,H^(-d_m)K_m); this is operationally exact but still terminal-equivalent |
 | projective Hodge escape countermodel | B129 constructs on every P^d a full-support geometric polarizable weight-minus-one IC with a nonzero rational (0,0) IH^1 class and zero local target sheaf | NG103 closes projectivity, purity, hard Lefschetz, geometric origin, and Hodge type as a formal proof; universal-incidence origin remains essential |
 | Nori-Brogan incidence calculation | B130 places the primitive (r,r) component in H^(-d+1)gr_F^(-r)DR(M); B131 proves the canonical rational first-Leray transgression is nonzero; B132 realizes the specified incidence class projectively | NG104: the ordinary local Betti sheaf vanishes on P_sm; NG105 closes the smooth-open/splitting comparison; G088 must prove discriminant-stalk survival |
-| minimal filtered boundary stratum | B133-B134 identify the two-branch cohomological target with ker(Q^2 -> span(delta_1,delta_2))^vee and the class with its Saito pairing functional | NG106 excludes generic independent nodes; NG107 excludes relation-rank-only detection |
+| minimal filtered boundary stratum | B133-B135 identify the two-branch target with coker(Delta^*)=ker(Delta)^vee and reduce proportional cycles delta_2=c delta_1 to the residue mismatch c a_1-a_2 | NG106 excludes generic independent nodes; NG107 excludes relation-rank-only detection; NG108 excludes nonzero-coordinate-only residue arguments; G089 is the exact restricted construction |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -391,7 +391,13 @@ realization and class-preserving topology-changing transport, now G028-G030.
 B134 adds the authoritative duality convention for all local relation
 channels. For the cohomological variation, the boundary stalk is
 \(E(Y_p)=R(Y_p)^\vee\); the incidence class evaluates a relation by
-(\langle\zeta,\gamma_\beta\rangle\). The arrangement calculations still
+\(\langle\zeta,\gamma_\beta\rangle\). The arrangement calculations still
 prove the correct rank, vanishing, and Tate type through their polarized
 homological kernel models. NG107 prevents reading them as a canonical
 relation-vector construction.
+
+B135 identifies the same class with the logarithmic residue quotient
+\([a]\in\operatorname{coker}\Delta^\ast\). For two proportional branches its
+only invariant is \(c a_1-a_2\). NG108 shows that even nonzero residues on
+both branches can lie in \(\operatorname{im}\Delta^\ast\); G089 must produce
+the actual nonzero mismatch.

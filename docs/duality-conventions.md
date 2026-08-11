@@ -45,3 +45,15 @@ B134 is authoritative for class-level use. Its formula is
 
 NG107 forbids using a nonzero relation space as proof that this functional is
 nonzero.
+
+In the normal-crossing residue model of B135, write
+\(\operatorname{Res}_{D_i}\nabla\widetilde\nu=a_i\delta_i\). Then
+
+\[
+ E(Y_p)=\operatorname{coker}\Delta^\ast,\qquad
+ R(Y_p)=\ker\Delta,
+\]
+
+with pairing \(\langle[a],b\rangle=\sum_i a_i b_i\). A change of lift adds
+\(\Delta^\ast(v)\), so individual residue coordinates are not intrinsic. If
+\(\delta_2=c\delta_1\), the invariant coordinate is \(c a_1-a_2\).

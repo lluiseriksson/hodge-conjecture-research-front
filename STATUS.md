@@ -204,8 +204,11 @@ Date: 2026-08-11
   corrects the intrinsic typing: the cohomological target is
   \(E(Y_p)=R(Y_p)^\vee\), and the specified class is the functional
   \(\beta\mapsto\langle\zeta,\gamma_\beta\rangle\). NG107 quarantines the
-  selected-relation-vector shortcut. G008 remains the terminal-equivalent
-  obligation.
+  selected-relation-vector shortcut. B135 gives the exact residue quotient
+  \([a]\in\operatorname{coker}\Delta^\ast\). For
+  \(\delta_2=c\delta_1\), G089 is the scalar gate \(c a_1-a_2\ne0\);
+  NG108 shows nonzero individual residues may be a coboundary. G008 remains
+  the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -412,15 +415,20 @@ generation from the controlled partitioned nodal locus is not proved.**
   B131-B132; its residual boundary-survival half is G088.
 - G088 - EXPLORATORY: prove that the canonical B132 section survives at a
   discriminant stalk to the nonzero rational B128 edge class.
-- B133-B134 - PROVED: at a quasi-local normal-crossing nodal point the
+- B133-B135 - PROVED: at a quasi-local normal-crossing nodal point the
   homological model is the relation kernel, the intrinsic cohomological
   target is its dual, and the specified class evaluates
   \(\beta\) as \(\langle\zeta,\gamma_\beta\rangle\). For two nonzero cycles
-  the target is nonzero only when they are proportional.
+  the target is nonzero only when they are proportional; then the exact
+  residue coordinate is \(c a_1-a_2\).
+- G089 - EXPLORATORY: construct a class-directed proportional two-node point
+  and prove its residue mismatch \(c a_1-a_2\ne0\).
 - NG106 - NO-GO: a generic transverse codimension-two double node does not
   force G088 survival; independent cycles give a zero target.
 - NG107 - NO-GO: a cohomological incidence class is a functional on
   relations, not a canonically selected relation vector.
+- NG108 - NO-GO: nonzero individual branch residues do not force survival;
+  the residue vector may lie in \(\operatorname{im}\Delta^\ast\).
 - B126 - PROVED: the suspended $A_2$ miniversal slice has exactly one
   singular point on every discriminant fiber and no two-node member.
 - NG101 - NO-GO: local $A_2$ versal nodalization cannot supply a clean
@@ -890,10 +898,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B134/NG106-NG107 - PROVED/NO-GO: the minimal two-branch
-  cohomological target is the dual relation kernel and the class is its
-  evaluation functional; independent nodes and relation-rank-only arguments
-  cannot support the survivor.
+- B133-B135/G089/NG106-NG108 - PROVED/EXPLORATORY/NO-GO: the minimal
+  two-branch cohomological target is the residue cokernel dual to the relation
+  kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
+  independent nodes, relation rank, and nonzero individual residues do not
+  force survival.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

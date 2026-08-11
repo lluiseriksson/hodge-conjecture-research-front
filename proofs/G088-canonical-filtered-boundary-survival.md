@@ -13,7 +13,7 @@ hodge_type: primitive rational type (r,r), normalized to (0,0) after Q(r)
 cycle_class_map: CH^r(X)_Q -> H^(2r)(X,Q(r)); no algebraic representative may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B009, B012, B026-B027, B128, B130-B134, G008, G086-G087, NG103-NG107, S009, S021-S024, S037, S053
+dependencies: B007-B009, B012, B026-B027, B128, B130-B135, G008, G086-G087, G089, NG103-NG108, S009, S021-S024, S037, S053
 claim: For every nonzero primitive rational Hodge class zeta, for some sufficiently high power and some discriminant point p, the canonical projective filtered section h_m(zeta) survives the filtered stalk spectral sequence to the nonzero rational ordinary class e_m(s_m(zeta))_p in H^(-d+1)(IC(V_m))_p; at a clean nodal point this class is the dual relation functional beta |-> <zeta,gamma_beta>.
 falsifier: a smooth projective complex 2r-fold and nonzero primitive rational Hodge class for which the canonical section is killed in every discriminant stalk for every sufficiently high power
 ---
@@ -79,6 +79,26 @@ double-node shortcut. G088 may still use a class-directed two-cycle relation
 or a higher multipart relation, but it must prove
 \(\lambda_{\zeta,p}(\beta)\ne0\) for an actual relation. NG107 forbids
 replacing this functional by a canonically selected relation vector.
+
+B135 resolves the filtered local class into logarithmic-residue coordinates.
+If the residues of a local normal-function lift are \(a_i\delta_i\), then
+
+\[
+ e_m(s_m(\zeta))_p
+ =[a]\in\operatorname{coker}\Delta^\ast
+ \simeq(\ker\Delta)^\vee.
+\]
+
+At a proportional two-branch point \(\delta_2=c\delta_1\), the exact
+survival condition is
+
+\[
+ c a_1-a_2\ne0.
+\]
+
+NG108 shows why nonzero individual residues do not suffice: \(q(1,c)\) is a
+nonzero residue vector but a Koszul coboundary. G089 isolates construction
+of a two-branch residue mismatch as the smallest clean restricted attack.
 
 Thus G088 requires an actual codimension-two-or-higher calculation of the
 minimal-extension filtered differentials. Global nonvanishing, Nori

@@ -43,6 +43,19 @@ NG107 forbids using \(R(Y_p)\ne0\) as proof that the functional is nonzero.
 This correction sharpens G088 but does not reduce its terminal-equivalent
 existence content.
 
+B135 gives the exact normal-crossing residue coordinate. If
+\(\operatorname{Res}_{D_i}\nabla\widetilde\nu_\zeta=a_i\delta_i\), then
+
+\[
+ s_m(\zeta)_p=[a]\in\operatorname{coker}\Delta^\ast
+ \simeq(\ker\Delta)^\vee.
+\]
+
+At the smallest proportional pair \(\delta_2=c\delta_1\), survival is
+exactly \(c a_1-a_2\ne0\). G089 is the falsifiable two-branch construction
+gate. The attempted inference from nonzero individual residues fails:
+\(q(1,c)\) is a nonzero coboundary, recorded as NG108.
+
 G032 separates the extra cleanup content from terminal support nonemptiness:
 starting with any detecting singular member, deform it to the Li-clean nodal
 locus while preserving a nonzero pairing. The first attempt fails. By B025,

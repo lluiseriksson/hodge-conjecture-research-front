@@ -349,6 +349,14 @@ Society Lecture Note Series 343 (2007), 206-263.
   under this residue morphism. B038 combines this explicit primary formula
   with the standard logarithmic residue sequence on the exceptional
   \(\mathbf P^1\); it does not import a multipart theorem from the paper.
+- Rechecked the same Section 4.3.2 for B135/NG108. A local multivalued lift
+  changes by \(f+\lambda\); the flat term \(\lambda\) changes the residue
+  vector by \(((T_i-I)\lambda)_i\), explicitly a Koszul coboundary. Replacing
+  \(T_i-I\) by the commuting rational nilpotent \(N_i\) preserves the
+  rational cohomology. For a nodal rank-one image this gives
+  \([a]\in\operatorname{coker}\Delta^\ast\), not intrinsic individual
+  coefficients. The source identifies the quotient but does not force it to
+  be nonzero for an arbitrary prescribed Hodge class.
 - For B042, the same normal-crossing logarithmic complex is applied after
   blowing up a uniform rank-three arrangement. The new global calculation
   uses the self-contained SNC residue sequence on \(\mathbf P^2\): the

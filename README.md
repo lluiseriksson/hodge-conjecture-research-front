@@ -113,6 +113,22 @@ conclusions as polarized homological models. They do not select a relation
 vector. See [docs/duality-conventions.md](docs/duality-conventions.md) and
 NG107.
 
+B135 makes that functional explicit in logarithmic-residue coordinates. If
+a local lift of the canonical normal function has nodal residues
+\(a_i\delta_i\), then
+
+\[
+ s_m(\zeta)_p=[a]\in
+ \operatorname{coker}\!\left(
+ V\xrightarrow{\Delta^\ast}\mathbf Q^r\right)
+ \simeq(\ker\Delta)^\vee.
+\]
+
+For the minimal proportional pair \(\delta_2=c\delta_1\), its only
+lift-invariant coordinate is \(c a_1-a_2\). G089 asks for a class-directed
+point where this scalar is nonzero. NG108 blocks using nonzero individual
+branch residues: the entire vector \(q(1,c)\) is a coboundary.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -124,11 +140,12 @@ first-Leray transgression is nonzero. B132 starts from the canonical
 incidence class on full projective (P_m) and uses projective strictness to
 construct its nonzero filtered section. NG105 closes the smooth-open and
 chosen-splitting comparisons. G088 now asks only for noncancellation at one
-discriminant stalk. B133-B134 compute its minimal two-branch cohomological
-target as the dual relation kernel and identify the specified class as the
-Saito pairing functional. NG106 shows that a generic transverse double node
-has zero target when those cycles are independent; NG107 shows a nonzero
-kernel alone is still insufficient.
+discriminant stalk. B133-B135 compute its minimal two-branch cohomological
+target as a residue cokernel dual to the relation kernel. NG106 shows that a
+generic transverse double node has zero target when those cycles are
+independent; NG107 shows a nonzero kernel alone is insufficient; NG108 shows
+that nonzero individual residues may still be a coboundary. G089 is the
+exact restricted inequality \(c a_1-a_2\ne0\).
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -619,6 +636,7 @@ python verification/verify_B130_nori_higgs_indices.py
 python verification/verify_B131_B132_filtered_incidence.py
 python verification/verify_B133_two_branch_relation.py
 python verification/verify_B134_dual_relation_coordinate.py
+python verification/verify_B135_residue_cokernel.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -783,11 +801,11 @@ B130/NG104 close the direct Nori/Higgs inference: associated-graded
 nonvanishing is cancelled in ordinary de Rham cohomology over the smooth
 locus. B131-B132 canonically identify the rational incidence class with its
 projective filtered realization; NG105 rejects the nonproper smooth-open
-shortcut. B133-B134/NG106-NG107 further show that its smallest local model
-needs a genuine vanishing-cycle relation and a nonzero value of the dual
-incidence functional: a generic independent double node has zero ordinary
-target. G088 isolates the remaining class-specific boundary-survival
-calculation.
+shortcut. B133-B135/NG106-NG108 further show that its smallest local model
+needs a genuine vanishing-cycle relation and a nonzero residue-cokernel
+coordinate: a generic independent double node has zero ordinary target, and
+nonzero branch residues can still be a coboundary. G088 is the unrestricted
+boundary-survival gate; G089 is its exact proportional-pair specialization.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

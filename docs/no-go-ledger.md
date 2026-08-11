@@ -2016,3 +2016,23 @@
   \(R(Y_p)\ne0\). Polarization does not remove this class-specific scalar.
 - **Re-entry condition:** construct an actual relation \(\beta\) at an
   actual boundary point and prove the B134 evaluation is nonzero.
+
+## NG-108 - Nonzero individual branch residues force survival
+
+- **Label:** NO-GO
+- **Route:** at a proportional two-node point, prove one or both logarithmic
+  residues \(a_i\delta_i\) are nonzero and infer a nonzero local incidence
+  class.
+- **Valid input:** the residue vector is a concrete degree-one cochain in the
+  Green-Griffiths monodromy complex.
+- **Invalid inference:** a nonzero cochain has nonzero cohomology class.
+- **Precise obstruction:** B135 gives
+
+  \[
+  s_m(\zeta)_p=[a]\in\operatorname{coker}\Delta^\ast.
+  \]
+
+  When \(\delta_2=c\delta_1\), every \(q(1,c)\) is a coboundary. It can have
+  both entries nonzero while its relation evaluation \(c q-c q\) vanishes.
+- **Re-entry condition:** construct the boundary point and prove the
+  lift-invariant mismatch \(c a_1-a_2\ne0\), as in G089.
