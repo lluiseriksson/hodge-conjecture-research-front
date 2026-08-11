@@ -222,6 +222,20 @@ where \(f\) is a submersion to \(\mathbf C^R\) and \(A(0)\) has rank \(R\).
 NG125 proves that no fixed finite Kuranishi truncation suffices, using
 \(\tau_m=(x,x+y^m)\) at arbitrarily high \(m\). G099 asks for the rank
 factorization without a preselected algebraic carrier.
+B156 identifies its exact local-algebra obstruction:
+
+\[
+ H_\tau=\ker(I_\tau/\mathfrak m I_\tau\to
+                    \mathfrak m/\mathfrak m^2).
+\]
+
+Vanishing of \(H_\tau\), having exactly \(R\) minimal ideal generators,
+and lifting every linear value relation to an analytic syzygy are all
+equivalent to B155. B157/NG126 show that fixed local \(A_1\) and
+Picard--Lefschetz data cannot force these lifts: arbitrary critical-value
+germs occur on nonlinear analytic pullbacks of projective linear systems.
+G100 therefore asks for syzygy lifting from the genuinely global geometry
+of the full linear-system incidence, with the specified pairing retained.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -760,6 +774,7 @@ python verification/verify_B152_mixed_hessian_corank.py
 python verification/verify_B153_pure_hessian_obstruction.py
 python verification/verify_B154_cubic_kuranishi.py
 python verification/verify_B155_all_order_factorization.py
+python verification/verify_B156_syzygy_defect.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -972,6 +987,9 @@ tensor must vanish before any all-order claim.
 B155/G099/NG125 show that finite continuation cannot finish the job: a
 structural rank-\(R\) factorization of the full analytic critical-value map
 is required.
+B156-B157/G100/NG126 recast that factorization as exact syzygy lifting and
+exclude deriving it from nodewise Milnor or Picard--Lefschetz data alone;
+the remaining input must be global full-linear-system incidence geometry.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

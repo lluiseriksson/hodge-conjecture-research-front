@@ -40,6 +40,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{cubic and all-order Kuranishi vanishing G098}
 \Longleftarrow
 \text{carrier-free rank-R factorization G099}
+\Longleftarrow
+\text{full-linear-system syzygy lifting G100}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -155,6 +157,21 @@ For every finite \(k\), NG125 chooses
 factorized smooth germ but remains nonreduced. G099 is therefore the
 structural all-order gate: construct the factorization without an algebraic
 carrier and retain every class-specific detector condition.
+B156 makes the smallest obstruction canonical. For
+\(I=I_\tau\subset(\mathcal O,\mathfrak m)\), put
+
+\[
+ H_\tau=\ker(I/\mathfrak m I\to\mathfrak m/\mathfrak m^2).
+\]
+
+Then \(\dim H_\tau=\mu(I)-R\), and there is an exact sequence from evaluated
+analytic syzygies to linear differential relations and then onto
+\(H_\tau\). Thus \(H_\tau=0\) is equivalent to B155's factorization. B157
+uses projective two-jet interpolation to keep all local ODP data fixed while
+realizing arbitrary \(\tau\) on nonlinear analytic bases. NG126 therefore
+closes any inference from nodewise Milnor or individual Picard--Lefschetz
+data alone. G100 must prove \(H_\tau=0\) using the global **full**
+linear-system incidence and retain the specified detector pairing.
 
 Two sufficient attacks feed G008:
 

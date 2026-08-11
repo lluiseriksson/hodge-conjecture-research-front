@@ -581,6 +581,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   while retaining the specified detector pairing.
 - NG125 - NO-GO: no fixed finite list of Kuranishi tensors certifies
   integration; \((x,x+y^m)\) defeats any chosen order.
+- B156 - PROVED: the cokernel of evaluated analytic syzygies is the hidden
+  generator space \(H_\tau\), of dimension \(\mu(I_\tau)-R\); its vanishing
+  is equivalent to B155's factorization.
+- B157 - PROVED: sufficiently positive projective two-jet interpolation
+  realizes an arbitrary ordered critical-value germ on a nonlinear
+  analytic base while fixing every local ODP quadratic model.
+- G100 - EXPLORATORY: kill \(H_\tau\) in the full complete-linear-system
+  germ and retain the matroid, ambient-image, type, and pairing clauses.
+- NG126 - NO-GO: local Milnor lattices and individual Picard--Lefschetz
+  reflections alone cannot force analytic syzygy lifts.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1088,7 +1098,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   class, while NG123 blocks inferring its vanishing from mixed isotropy.
   B154/G098 begin the higher-order integration chain, and NG124 blocks
   stopping at second order. B155/G099 identify the equivalent all-order
-  factorization, while NG125 blocks every finite truncation.
+  factorization, while NG125 blocks every finite truncation. B156/G100 make
+  the remaining obstruction the lifting of all linear relations to analytic
+  syzygies; B157/NG126 block obtaining those lifts from nodewise local
+  topology alone.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -2337,3 +2337,22 @@
 - **Re-entry condition:** prove the structural all-order factorization
   \(\tau=A f\) of B155/G099, or an equivalent identity for the entire
   analytic Kuranishi germ, then verify the specified pairing.
+
+## NG-126 - Infer analytic syzygies from nodewise Milnor data
+
+- **Label:** NO-GO
+- **Route:** use fixed ODP Hessians, local \(A_1\) Milnor lattices, or the
+  individual Picard--Lefschetz reflections to lift every linear
+  critical-value relation analytically.
+- **Valid input:** those invariants determine the nodewise vanishing-cycle
+  model and its local monodromy generator.
+- **Invalid inference:** they constrain higher analytic relations among
+  different critical-value branches on the base.
+- **Precise obstruction:** B157 realizes every analytic \(\tau\) on a
+  nonlinear analytic pullback of a projective linear system while fixing
+  all those local data. Taking \(\tau_m=(x,x+y^m)\) leaves a one-dimensional
+  hidden-generator space and no lift of \((1,-1)\).
+- **Scope guard:** the construction is not the full universal
+  complete-linear-system germ.
+- **Re-entry condition:** prove G100 from global full-linear-system
+  incidence geometry and retain the specified detector pairing.

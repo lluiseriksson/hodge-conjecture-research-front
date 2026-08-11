@@ -494,3 +494,16 @@ integration and nonzero pairing. NG117 excludes a bare determinantal
 rank-drop argument. S032 and S061 show why this is an obstruction rather
 than a universal impossibility: smooth non-expected strata exist in special
 carrier or orbit geometry.
+
+B155-B156 identify the all-order closure condition behind that special
+degeneracy. If \(I_\tau\) is the critical-value ideal, its hidden-generator
+space
+\(H_\tau=\ker(I_\tau/\mathfrak m I_\tau\to\mathfrak m/\mathfrak m^2)\)
+is the exact cokernel of analytic-syzygy evaluation. It vanishes precisely
+when every first-order value relation lifts to all orders, equivalently when
+the simultaneous-node germ is reduced smooth of codimension \(R\).
+B157/NG126 show that nodewise local topology cannot enforce this: arbitrary
+critical-value germs occur after nonlinear analytic pullback even in
+projective families with fixed ODP two-jets. The unresolved input is global
+geometry of the full complete-linear-system incidence, not another local
+Milnor calculation.
