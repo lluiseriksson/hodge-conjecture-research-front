@@ -3391,3 +3391,20 @@
   holonomy, rational detector, specified pairing, or cycle.
 - **Re-entry condition:** work inside G143's node window and retain every
   relation, profile, and detector clause.
+
+## NG-177 - Count second osculators one point at a time
+
+- **Label:** NO-GO
+- **Route:** treat B214's pointwise floor \(C_{2n}(m)\) as the final
+  universal constraint and search below \(D_{2n}(m)\).
+- **Valid input:** one lower full second osculator contributes
+  \(\binom{2n+2}{2}\) dimensions.
+- **Invalid inference:** no universally independent family of several
+  marked second osculators can be forced.
+- **Precise obstruction:** B215 interpolates \(q\) triple neighborhoods
+  and \(t\) reduced points in degree \(3q+t-1\), giving ranks
+  \(L_{2n}(k)\); B213 then forces \(N\ge D_{2n}(m)\).
+- **Detector guard:** simultaneous interpolation supplies no central
+  profile, holonomy, rational detector, pairing, or cycle.
+- **Re-entry condition:** work inside G144's node window with every
+  relation, profile, and detector clause.

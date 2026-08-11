@@ -1361,6 +1361,40 @@ G143 asks for G142 inside this full second-jet window. NG176 blocks every
 smaller node count obtained by omitting the quadratic monomials in
 (*******************************).
 
+B215 separates several marked jets at once. For \(q\) triple
+neighborhoods and \(t\) reduced points, products of pairwise separating
+sections give
+
+\[
+ H^0(H^{3q+t-1})\twoheadrightarrow
+ H^0\!\left(\bigsqcup_{i=1}^q3p_i\sqcup
+ \bigsqcup_{j=1}^t p'_j,\ H^{3q+t-1}\right).
+ \tag{**********************************}
+\]
+
+Thus lower absorption forces
+
+\[
+ h_Z(k)\ge L_d(k):=
+ c_d\left\lfloor\frac{k+1}{3}\right\rfloor
+ +((k+1)\bmod3),\qquad k\ge2.
+ \tag{***********************************}
+\]
+
+Optimizing B213 gives \(D_d(2)=2(d+1)\) and, for \(m\ge3\),
+
+\[
+ D_d(m)=
+ \begin{cases}
+ c_dm/3+d+1,&3\mid m,\\
+ c_d\left\lfloor\dfrac{m+2}{3}\right\rfloor
+ +((m+2)\bmod3),&3\nmid m.
+ \end{cases} \tag{************************************}
+\]
+
+Every G143 configuration has \(N\ge D_d(m)\). G144 is the corresponding
+construction gate; NG177 closes the pointwise-only B214 window.
+
 Two sufficient attacks feed G008:
 
 \[

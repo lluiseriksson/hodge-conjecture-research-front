@@ -13,7 +13,7 @@ hodge_type: the detector must be rational type (0,0) with nonzero pairing agains
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of the input class is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B214, G013, G090-G142, NG106-NG176, S065-S076
+dependencies: B007-B010, B134-B215, G013, G090-G142, NG106-NG177, S065-S076
 claim: For arbitrary (X,zeta), construct every G142 clause with N>=C_(2n)(m), where C_d(2)=2(d+1), C_d(3)=binom(d+2,2)+d+1, and C_d(m)=binom(d+2,2)+max(binom(d+2,2),m-1) for m>=4, and realize the lower full second-osculating absorption, complementary relation transport, central profile, holonomy, congruence, and rational detector simultaneously.
 falsifier: a node count below C_(2n)(m), failure of full lower second-osculating absorption or relation transport, a degenerate profile, failure of G130, or loss of any detector clause
 ---
@@ -45,3 +45,9 @@ Equation (1) is necessary only. The adjacent rank birth, distinguished
 nondegenerate central profile, G130 congruence and holonomy, full system,
 rational detector, specified pairing, pure cubic closure, and later
 Kuranishi rungs remain mandatory.
+
+B215 simultaneously interpolates several triple neighborhoods and
+residual reduced points. It replaces the pointwise floor \(C_{2n}(m)\)
+by the stronger \(D_{2n}(m)\) and the lower-rank function
+\(L_{2n}(k)\). G144 is the refined gate; NG177 closes the interval left
+by counting one second osculator at a time.

@@ -1011,6 +1011,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   window while retaining the central profile and arbitrary-class detector.
 - NG176 - NO-GO: lower point spans cannot be counted as merely
   tangent-sized once \(k\ge2\).
+- B215 - PROVED: \(H^{3q+t-1}\) simultaneously interpolates \(q\) triple
+  neighborhoods and \(t\) reduced points. This forces lower ranks
+  \(L_{2n}(k)\) and the optimized node floor \(D_{2n}(m)\).
+- G144 - EXPLORATORY: realize G143 inside the simultaneous mixed-jet
+  window while retaining profile, holonomy, and arbitrary-class detector.
+- NG177 - NO-GO: the pointwise B214 floor is not the final universal
+  constraint; simultaneous triple neighborhoods force the stronger one.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1634,6 +1641,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   relation; NG175 removes the remaining undersized numerical window.
   B214/G143 add universal full second jets and the piecewise node floor;
   NG176 excludes every smaller second-jet window.
+  B215/G144 add simultaneous mixed-jet interpolation and \(D_{2n}(m)\);
+  NG177 excludes counting second osculators one at a time.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

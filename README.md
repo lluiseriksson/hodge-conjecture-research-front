@@ -815,6 +815,17 @@ then force the piecewise floor \(N\ge C_{2n}(m)\): \(2(2n+1)\) for
 G143 is the refined construction gate; NG176 closes every smaller
 second-jet window.
 
+B215 interpolates \(q\) complete triple neighborhoods and \(t\) reduced
+points simultaneously in degree \(3q+t-1\). Hence every lower point span
+has rank at least
+\[
+L_d(k)=\binom{d+2}{2}\left\lfloor\frac{k+1}{3}\right\rfloor
+      +((k+1)\bmod3).
+\]
+Combining this with B213 gives the stronger floor \(N\ge D_{2n}(m)\),
+which grows with slope \(\binom{2n+2}{2}/3\). G144 is the refined gate;
+NG177 excludes retaining only the one-point B214 estimate.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1402,6 +1413,7 @@ python verification/verify_B211_fat_point_signature.py
 python verification/verify_B212_very_ample_window.py
 python verification/verify_B213_relation_transport.py
 python verification/verify_B214_second_jet_floor.py
+python verification/verify_B215_simultaneous_jet_floor.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1737,6 +1749,8 @@ B213/G142 impose complementary-degree relation transport and the stronger
 node floor; NG175 excludes treating the B212 ranks independently.
 B214/G143 use universal full second jets to impose the piecewise floor
 \(C_{2n}(m)\); NG176 excludes every smaller node window.
+B215/G144 impose simultaneous mixed-jet interpolation and the stronger
+floor \(D_{2n}(m)\); NG177 excludes one-point-only counting.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
