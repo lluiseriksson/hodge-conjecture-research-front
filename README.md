@@ -1351,6 +1351,20 @@ at most 21, a contradiction. Hence the common floor becomes
 \]
 
 On even quadrics \(d\ge14\), only \(A=O_Q(1)\) survives at equality.
+B258 excludes the next standard equality. At \(q=d-5\), every B253
+branch leaves budget \(d-5,d-4\), or \(d-3\). The first is too small;
+the second fills into the rank-21 \(\mathbf P^5\) contact locus; and
+the third either fills there or leaves one dimension against a
+descended escape of rank at least \(d-5\). Hence the common floor is
+\(h_Z(1)\ge6d-5\), \(s\ge10d-12\). G184 and its odd layer are
+**NO-GO** (NG216). The active smallest gate is G185:
+
+\[
+ m=2,\qquad s=10d-12,\qquad \delta_1=5d-6,\qquad
+ N=12d-10,\qquad h_Z(1)=6d-5=N/2.
+\]
+
+On even quadrics \(d\ge14\), only \(A=O_Q(1)\) survives at equality.
 This remains only a necessary window; every geometric and detector
 obligation is open.
 
@@ -1969,6 +1983,7 @@ python verification/verify_B254_square_six_double_floor.py
 python verification/verify_B255_higher_power_five_double.py
 python verification/verify_B256_cubic_six_double_floor.py
 python verification/verify_B257_standard_first_slope_ten.py
+python verification/verify_B258_standard_second_slope_ten.py
 ```
 
 The repository verifier checks the required directory topology, result

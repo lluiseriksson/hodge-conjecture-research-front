@@ -1303,10 +1303,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(s\ge10d-14\).
 - G183 - NO-GO: the layers \(s=10d-16,10d-15\) fail.
 - NG215 - NO-GO: standard survival at first slope-ten equality.
-- G184 - EXPLORATORY, active smallest branch: construct the second
+- B258 - PROVED: the nested rank-one escape excludes every
+  \(q=d-5\) branch with budget \(d-5,d-4\), or \(d-3\); the common
+  floor is \(6d-5\) and \(s\ge10d-12\).
+- G184 - NO-GO: the layers \(s=10d-14,10d-13\) fail.
+- NG216 - NO-GO: standard survival at second slope-ten equality.
+- G185 - EXPLORATORY, active smallest branch: construct the third
   standard slope-ten package with
-  \(s=10d-14,\delta_1=5d-7,N=12d-12\), and
-  \(h_Z(1)=6d-6=N/2\); only \(A=O_Q(1)\) survives the quadric rank audit.
+  \(s=10d-12,\delta_1=5d-6,N=12d-10\), and
+  \(h_Z(1)=6d-5=N/2\); only \(A=O_Q(1)\) survives the quadric rank audit.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

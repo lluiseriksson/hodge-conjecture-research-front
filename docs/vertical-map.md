@@ -2075,13 +2075,26 @@ is \(6d-6\). The next signature is
 \]
 
 Only \(A=O_Q(1)\) survives this equality audit on even quadrics
+\(d\ge14\). B258 excludes the \(q=d-5\) equality. Every mixed branch
+has residual budget \(d-5,d-4\), or \(d-3\). The first is too small;
+the second fills into the rank-21 projective-five-space contact locus;
+the third fills there or leaves at most one dimension against a
+descended escape of rank \(d-5\). Thus G184 and \(s=10d-13\) are
+NO-GO, and the common floor is \(6d-5\). The next signature is
+
+\[
+ \delta_1=5d-6,\qquad N=12d-10,\qquad
+ \dim E_1=6d-5=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+\]
+
+Only \(A=O_Q(1)\) survives this equality audit on even quadrics
 \(d\ge14\).
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G184: construct the second standard slope-ten boundary}
+ \text{G185: construct the third standard slope-ten boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

@@ -4298,3 +4298,29 @@
 - **Re-entry condition:** G184 begins at
   \(s=10d-14,\delta_1=5d-7,N=12d-12,h_Z(1)=6d-6\), with only
   \(A=O_Q(1)\) surviving at equality.
+
+## NG-216 - Survive the second standard slope-ten equality
+
+- **Label:** NO-GO
+- **Route:** attain \(h_Z(1)=6d-6\) with \(A=O_Q(1)\).
+- **Valid premise:** at \(q=d-5\), some B253 branches reach budget
+  \(d-4\), while the final branch reaches \(d-3\).
+- **Invalid inference:** either budget can absorb the next marked
+  tangents.
+- **Exact-budget obstruction:** budget \(d-4\) forces the new point into
+  \(J\), fills the span, and leaves only the rank-21
+  projective-five-space contact locus.
+- **Nested obstruction:** at budget \(d-3\), a point outside \(J\)
+  fills the span; a point in \(J\) leaves at most one dimension, while
+  the descended rank-one system forces at least \(d-5>1\).
+- **Common-floor consequence:** \(h_Z(1)\ge6d-5\) and
+  \(s\ge10d-12\) for every polarization.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G184 and \(s=10d-13\) are closed. G148 and HC remain
+  open.
+- **Re-entry condition:** G185 begins at
+  \(s=10d-12,\delta_1=5d-6,N=12d-10,h_Z(1)=6d-5\), with only
+  \(A=O_Q(1)\) surviving at equality.

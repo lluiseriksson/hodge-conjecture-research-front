@@ -1,6 +1,6 @@
 ---
 brick_id: G184
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex d-fold X of even dimension d=2n with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,9 +13,9 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B007-B010, B134-B257, G013, G090-G148, G172, NG106-NG215, S081-S083
-claim: For every arbitrary primitive target (X,zeta), choose A and construct the complete G144 package at m=2, slack s=10d-14, delta_1=5d-7, N=12d-12, and h_Z(1)=6d-6=N/2, retaining the full relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing clauses.
-falsifier: one primitive target for which no polarization realizes the boundary package; on even quadrics of dimension at least fourteen, B257 reduces the rank test at equality to A=O_Q(1)
+dependencies: B007-B010, B134-B258, G013, G090-G148, G172, NG106-NG216, S081-S083
+claim: No universal G144 package exists at m=2, slack s=10d-14, delta_1=5d-7, N=12d-12, and h_Z(1)=6d-6=N/2; B258 excludes every q=d-5 standard branch on every even quadric Q^d with d>=14.
+falsifier: one complete G184 package on every valid primitive input, in particular a standard q=d-5 equality candidate on one even quadric Q^d with d>=14
 ---
 
 # G184 — The second standard slope-ten boundary
@@ -31,9 +31,18 @@ On every even quadric of dimension at least fourteen, B254-B256 exclude
 every nonstandard polarization at equality. The standard branch is one
 rank above B257's excluded equality and is the only survivor.
 
-G184 is the next falsifiable gate: extend the nested rank-one escape
-audit through every B253 branch at \(q=d-5\), including the branches
-with exact residual budget \(d-4\), while retaining every G144
-relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing
-clause. Rank survival alone would not construct an algebraic cycle or
-prove or disprove HC.
+B258 closes every \(q=d-5\) branch. The possible remaining budgets are
+\(d-5,d-4,d-3\). The first is below the original escape; the second
+forces equality and a projective-five-space contact contradiction. At
+\(d-3\), the first nested point fills the span or leaves at most one
+dimension, while the descended rank-one system forces at least \(d-5\)
+more. Hence
+
+\[
+ h_Z(1)\ge6d-5,\qquad s\ge10d-12. \tag{2}
+\]
+
+Thus G184 and its adjacent odd layer are NO-GO. The next gate is G185 at
+\(s=10d-12\), again with only \(A=O_Q(1)\) surviving the quadric rank
+audit. No ODP package, rational detector, specified pairing, algebraic
+cycle, proof, or disproof of HC is produced.
