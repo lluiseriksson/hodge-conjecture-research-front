@@ -54,4 +54,8 @@ sufficient route: even success leaves every higher Kuranishi tensor, smooth
 integration, and the terminal cycle construction open. B195/NG158 show
 that the holonomy cannot persist after raising the power with \(Z\) fixed;
 G126 therefore records the stronger requirement of closing the complete
-finite Kuranishi ladder at this same birth degree.
+finite Kuranishi ladder at this same birth degree. B196/G127 give the exact
+projective form of every lower extinction equality: in each lower
+embedding, the span of \(Z\) is full or absorbs every tangent space at its
+marked points. NG159 prevents importing this special configuration from
+generic Terracini theory.

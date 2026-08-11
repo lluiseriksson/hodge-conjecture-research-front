@@ -2229,6 +2229,16 @@ Thomas W. Dube, "The Structure of Polynomial Ideals and Groebner Bases,"
   polynomial simple, prove conormal-jet vanishing, preserve the Hodge
   detector clauses, or prove the Hodge Conjecture.
 
+## S073 - Terracini's lemma and tangential contact loci
+
+Luca Chiantini and Ciro Ciliberto, “On the Dimension of Secant Varieties,” arXiv:0812.1904 (2008).
+[arXiv](https://arxiv.org/abs/0812.1904).
+
+- Audited Section 3, Theorem 3.1, preprint pp. 5–6: for general smooth points and a general point of their span, the tangent space to the join/secant is the span of the embedded tangent spaces.
+- Audited Definition 3.4 and the surrounding discussion, preprint pp. 6–7: the tangential contact locus consists of points whose tangent spaces lie in this tangent-space span.
+- NG159 scope: the theorem concerns general points in one embedding, and containment is in the span of tangent spaces. G127 instead requires one special marked set, fixed across all lower-power embeddings, with each tangent space inside the generally smaller span of the marked points.
+- No ordinary-double-point, doubled-scheme, Hessian-holonomy, Hodge-type, or rational-detector conclusion is supplied.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

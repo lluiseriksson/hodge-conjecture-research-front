@@ -862,6 +862,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G126 - EXPLORATORY: construct G125 and kill
   \(\kappa_2,\ldots,\kappa_{D_{\mathrm{car}}}\) in the same birth-degree
   full incidence, retaining every rational detector clause.
+- B196 - PROVED: \(V_k=0\) exactly when the span of the \(H^k\)-embedded
+  point lines contains every embedded tangent space at \(Z\); a proper
+  absorbing span has vector dimension at least \(2n+1\).
+- G127 - EXPLORATORY: construct this full-span/tangent-absorption dichotomy
+  simultaneously for every \(k<m\), then realize G125 at the birth degree.
+- NG159 - NO-GO: generic Terracini theory spans tangent spaces to describe a
+  secant tangent; it does not put tangents inside the point span or construct
+  the required special multi-embedding configuration.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1452,7 +1460,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   primitive target-degree first-jet birth; NG157 excludes inheritance from
   a lower power by multiplication. B195/NG158 prove higher fixed-node powers
   lose holonomy and eventually have full gradients. G126 therefore places
-  the entire finite Kuranishi ladder at the unique birth degree.
+  the entire finite Kuranishi ladder at the unique birth degree. B196/G127
+  identify lower extinction with simultaneous tangent-span absorption;
+  NG159 blocks the generic Terracini shortcut.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

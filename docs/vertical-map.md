@@ -938,6 +938,26 @@ The finite all-order route must close at the birth degree:
 This diagram does not make higher tensors follow from \(\kappa_2\): NG150
 still forces each rung to be proved independently.
 
+B196 translates the lower extinction part of G125 into projective geometry.
+For the \(H^k\) embedding, let \(S_{k,Z}\) be the vector span of the point
+lines and \(\widehat T_{k,i}\) the affine embedded tangent spaces. Then
+
+\[
+ V_k=0
+ \quad\Longleftrightarrow\quad
+ \widehat T_{k,i}\subset S_{k,Z}\quad\text{for every }i. \tag{********}
+\]
+
+If \(S_{k,Z}\) is full, (********) is vacuous. If proper, its projective
+span is tangent to \(X\) at every marked point and has vector dimension at
+least \(2n+1\). G127 asks for this full-span/contact dichotomy
+simultaneously for every \(k<m\), followed by the primitive birth at \(m\).
+
+NG159 records the primary-source scope guard. S073/Terracini uses general
+points and proves that a secant tangent space is the **span of tangent
+spaces**. It neither reverses that containment into the **point span** nor
+constructs G127's special configuration across multiple embeddings.
+
 Two sufficient attacks feed G008:
 
 \[

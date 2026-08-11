@@ -651,6 +651,18 @@ power and, for fixed \(Z\) and sufficiently large \(a\), fills all
 polarization. G126 consequently asks for B186's entire finite Kuranishi
 ladder to vanish inside the same degree-\(m\) full incidence.
 
+B196 turns every lower extinction equality into a projective incidence:
+in the \(H^k\) embedding, the vector span of \(Z\) must contain the affine
+embedded tangent space at every marked point. If the point span is proper,
+it is a simultaneous tangent/contact plane of vector dimension at least
+\(2n+1\); if it is full, the equality is vacuous. G127 asks for this
+dichotomy for every \(k<m\), followed by the primitive birth at \(m\).
+
+NG159 audits Terracini theory: its primary theorem concerns general points
+and identifies a secant tangent with the span of tangent spaces. It does not
+construct special points whose much smaller point span contains those
+tangents, much less one scheme working across every lower embedding.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1221,6 +1233,7 @@ python verification/verify_B192_semi_invariant_scope.py
 python verification/verify_B193_maximal_holonomy.py
 python verification/verify_B194_primitive_jet_birth.py
 python verification/verify_B195_multiplicative_growth.py
+python verification/verify_B196_tangent_span.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1515,6 +1528,9 @@ the target degree, and NG157 excludes multiplication from every lower
 power. B195/NG158 show that every higher fixed-node power immediately loses
 one-node holonomy and eventually has full gradients. G126 therefore keeps
 the complete finite Kuranishi ladder at the isolated birth degree.
+B196/G127 express all lower extinctions as simultaneous tangent-span
+absorption; NG159 excludes treating generic Terracini/contact theory as an
+existence theorem for that special incidence.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

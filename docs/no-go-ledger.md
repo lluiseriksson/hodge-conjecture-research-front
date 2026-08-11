@@ -3068,3 +3068,24 @@
   a new primitive-birth and detector proof.
 - **Re-entry condition:** close B186's finite Kuranishi ladder at the
   original birth degree as in G126, without polarization transport.
+
+## NG-159 - Use generic Terracini theory to construct the absorbing spans
+
+- **Label:** NO-GO
+- **Route:** invoke Terracini's lemma or generic tangential-contact loci as
+  existence of G127's special lower point schemes.
+- **Valid input:** S073 Theorem 3.1 identifies, for general points, the
+  tangent space to their secant variety with the span of their embedded
+  tangent spaces.
+- **Invalid inference:** the span of the points themselves contains those
+  tangent spaces, or points with that property exist simultaneously in all
+  lower embeddings.
+- **Precise obstruction:** the containment direction is reversed and the
+  scopes disagree. S073 uses general points in one embedding; G127 requires
+  a highly special, class-directed \(Z\) fixed across every \(H^k\), with
+  \(T_{X,p_i}^{(k)}\subset\langle\phi_k(Z)\rangle\).
+- **Detector guard:** secant/contact theory supplies no isolated ODP member,
+  doubled-scheme birth, Hessian holonomy, rational type, or specified Hodge
+  pairing.
+- **Re-entry condition:** analyze the actual special point-span incidence,
+  then construct the degree-m primitive birth and detector separately.
