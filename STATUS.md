@@ -996,6 +996,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   Veronese separation corollary were checked at the theorem level.
 - NG174 - NO-GO: increasing \(m\) with \(N\le m+1\) makes value
   evaluation surjective and erases the relation required by G140.
+- B213 - PROVED: a full-support degree-\(m\) value relation injects
+  \(E_a\) into \(E_{m-a}^{\perp}\). Hence
+  \(h_Z(a)+h_Z(m-a)\le N\) and
+  \(N\ge2n+1+\max\{m,2n+1\}\).
+- G142 - EXPLORATORY: realize the complete G141 package together with
+  these actual complementary-degree transport maps.
+- NG175 - NO-GO: the separate B212 ranks do not establish feasibility;
+  the entire smaller node interval violates B213.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1615,6 +1623,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   signature and node floor; S075/NG173 exclude the general-point route.
   B212/G141 impose the critical very-ample window; S076/NG174 exclude
   high powers with too few nodes.
+  B213/G142 couple complementary degrees through the full-support
+  relation; NG175 removes the remaining undersized numerical window.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

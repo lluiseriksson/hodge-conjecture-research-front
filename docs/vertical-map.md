@@ -1302,6 +1302,34 @@ Under B211's pointwise full order-two hypothesis,
 with the profile and detector retained. S076/NG174 show that merely
 raising the power with \(N\le m+1\) destroys the required relation.
 
+B213 uses a full-support \(\lambda\in E_m^\perp\). Coordinatewise
+multiplication gives injections
+
+\[
+ E_a\hookrightarrow E_{m-a}^{\perp},\qquad
+ e\longmapsto[x\mapsto\lambda(ex)],
+ \quad 1\le a<m, \tag{****************************}
+\]
+
+and therefore
+
+\[
+ h_Z(a)+h_Z(m-a)\le N. \tag{*****************************}
+\]
+
+At \(a=1\), lower tangent absorption gives
+\(h_Z(1)\ge d+1\) and
+\(h_Z(m-1)\ge\max\{m,d+1\}\). Hence
+
+\[
+ N\ge d+1+\max\{m,d+1\}. \tag{******************************}
+\]
+
+For \(d=2n\), this is
+\(N\ge2n+1+\max\{m,2n+1\}\). G142 asks for the actual transport maps
+together with every G141 profile and detector clause. NG175 closes the
+intermediate range allowed by the separate B212 table.
+
 Two sufficient attacks feed G008:
 
 \[

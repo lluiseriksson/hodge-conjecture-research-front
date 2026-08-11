@@ -799,6 +799,14 @@ every nonzero degree-\(m\) value relation. G141 is the refined
 construction gate. S076 records the primary regularity audit; NG174
 excludes increasing the power with at most \(m+1\) nodes.
 
+B213 uses the no-coloop relation itself, rather than only its existence.
+For a full-support \(\lambda\in E_m^\perp\), multiplication injects
+\(E_a\) into \(E_{m-a}^\perp\), so
+\(h_Z(a)+h_Z(m-a)\le N\). Tangent absorption at \(a=1\) and \(m-1\)
+strengthens the node floor to
+\(N\ge2n+1+\max\{m,2n+1\}\). G142 is the resulting transport-aware gate;
+NG175 excludes the intermediate node range allowed by B212 alone.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1384,6 +1392,7 @@ python verification/verify_B208_profile_birth.py
 python verification/verify_B209_B210_osculating.py
 python verification/verify_B211_fat_point_signature.py
 python verification/verify_B212_very_ample_window.py
+python verification/verify_B213_relation_transport.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1715,6 +1724,8 @@ B211/G140 isolate the exact fat-point rank signature and node floor;
 S075/NG173 exclude general-point higher Terracini as its construction.
 B212/G141 impose the universal critical window \(N\ge m+2\);
 S076/NG174 exclude asymptotic positivity with too few nodes.
+B213/G142 impose complementary-degree relation transport and the stronger
+node floor; NG175 excludes treating the B212 ranks independently.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

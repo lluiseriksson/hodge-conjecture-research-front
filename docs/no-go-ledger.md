@@ -3358,3 +3358,20 @@
   relation, specified pairing, profile, or algebraic cycle.
 - **Re-entry condition:** grow \(N_m\ge m+2\), meet B212's rank and
   support window, and retain every G141 detector clause.
+
+## NG-175 - Ignore transport of the full-support relation
+
+- **Label:** NO-GO
+- **Route:** satisfy B212's separate degree-\(m-1\) and degree-\(m\)
+  bounds and count any \(N\ge m+2\) as numerically feasible for G141.
+- **Valid input:** B212 gives necessary individual Hilbert ranks.
+- **Invalid inference:** the degree-\(m\) relation is independent of
+  multiplication from complementary lower degrees.
+- **Precise obstruction:** B213 injects \(E_a\) into
+  \(E_{m-a}^{\perp}\), forcing
+  \(h_Z(a)+h_Z(m-a)\le N\) and
+  \(N\ge2n+1+\max\{m,2n+1\}\).
+- **Detector guard:** the stronger ranks still construct no rational
+  detector, profile, holonomy, or cycle.
+- **Re-entry condition:** realize the actual transport maps and every
+  G142 detector clause.
