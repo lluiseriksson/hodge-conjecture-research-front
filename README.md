@@ -179,7 +179,11 @@ carrier, followed by higher-order integration and the nonzero specified
 Saito pairing. B148 makes the jet package exact: gradients projected modulo
 the nodewise Lagrangians must factor through at most \(n\) parameters.
 NG119 shows that choosing Lagrangians after a generic surjective jet map
-leaves rank \(nN\), so the rank failure must be constructed jointly.
+leaves rank \(nN\), so the rank failure must be constructed jointly. B149
+repackages the condition as a length-\((n+1)N\) oriented half-double scheme
+imposing at most \(R+n\) conditions. G094 asks for that superabundant scheme
+with every Hessian, integration, and pairing condition; NG120 excludes a
+bounded-support high-power version.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -711,6 +715,7 @@ python verification/verify_B145_ordered_node_tangent.py
 python verification/verify_B146_hessian_isotropy.py
 python verification/verify_B147_carrier_lagrangian.py
 python verification/verify_B148_carrier_motion_rank.py
+python verification/verify_B149_oriented_half_double_defect.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -904,7 +909,9 @@ B147 identifies the conormal Lagrangian core behind anchored carrier
 examples; NG118 blocks importing that carrier universally, and G093 isolates
 the carrier-free split-Lagrangian jet construction as the next test. B148
 sets its projected-gradient rank bound to \(n\); NG119 excludes a posteriori
-Lagrangian choices on generic jet-surjective data.
+Lagrangian choices on generic jet-surjective data. B149/G094 translate the
+gate to oriented half-double interpolation, and NG120 forces its support to
+grow with the polarization.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

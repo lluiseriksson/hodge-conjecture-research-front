@@ -229,7 +229,10 @@ Date: 2026-08-11
   examples. NG118 blocks choosing such a carrier universally, while G093
   asks for its finite jet package without an algebraic carrier. B148 proves
   the exact projected-gradient rank-\(n\) factorization of carrier motion;
-  NG119 excludes a posteriori Lagrangian choices on generic jets.
+  NG119 excludes a posteriori Lagrangian choices on generic jets. B149/G094
+  translate the gate into evaluation rank at most \(R+n\) on a
+  length-\((n+1)N\) oriented half-double scheme; NG120 excludes bounded
+  support in the stable high-power regime.
   Universal G028 remains the construction gate. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -521,6 +524,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG119 - NO-GO: a generic surjective conditional-gradient map stays
   surjective after quotienting by any nodewise Lagrangians, with rank
   \(nN>n\).
+- B149 - PROVED: G093's projected-gradient rank \(\rho\) is equivalent to
+  an oriented half-double scheme of length \((n+1)N\) with coherent defect
+  \((n+1)N-R-\rho\).
+- G094 - EXPLORATORY: construct that scheme with evaluation rank at most
+  \(R+n\), Hessian compatibility, smooth integration, and nonzero specified
+  pairing.
+- NG120 - NO-GO: every bounded-length family of such schemes separates in
+  sufficiently high power by uniform relative Serre vanishing.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1000,7 +1011,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B148/G089-G093/NG106-NG119 - PROVED/EXPLORATORY/NO-GO: the minimal
+- B133-B149/G089-G094/NG106-NG120 - PROVED/EXPLORATORY/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
@@ -1018,7 +1029,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   identifies the anchored conormal Lagrangian core; NG118 blocks its
   circular universalization, and G093 isolates its carrier-free jet analogue.
   B148 gives its exact projected-gradient rank-\(n\) shadow, while NG119
-  blocks choosing Lagrangians after generic jet interpolation.
+  blocks choosing Lagrangians after generic jet interpolation. B149/G094
+  express the same gate as oriented half-double superabundance, and NG120
+  excludes bounded support at high power.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

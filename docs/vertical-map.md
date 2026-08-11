@@ -28,6 +28,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{Hessian-isotropic integrable excess G092}
 \Longleftarrow
 \text{carrier-free split Lagrangian jet core G093}
+\Longleftarrow
+\text{oriented half-double superabundance G094}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -73,7 +75,13 @@ B148 sharpens the finite test: after quotient by the nodewise Lagrangians,
 the full conditional-gradient map must have rank at most \(n\), because in
 the anchored model it factors through the \(n\) carrier-motion parameters.
 NG119 excludes obtaining this rank drop by choosing Lagrangians after a
-generic jet-surjective incidence.
+generic jet-surjective incidence. B149 packages the same condition as
+evaluation on a length-\((n+1)N\) oriented half-double scheme: rank at most
+\(R+n\), equivalently coherent defect at least
+\((n+1)N-R-n\). G094 is the resulting zero-dimensional construction gate.
+NG120 excludes every bounded-\(N\) high-power version by uniform relative
+Serre vanishing, so any scalable attempt must retain B141's superlinear
+support growth.
 
 Two sufficient attacks feed G008:
 

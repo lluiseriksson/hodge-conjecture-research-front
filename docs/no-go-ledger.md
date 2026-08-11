@@ -2243,3 +2243,20 @@
 - **Re-entry condition:** construct the node scheme, section space, and
   Lagrangian quotients jointly so that projected-gradient rank is at most
   \(n\), then integrate the germ and prove its specified pairing.
+
+## NG-120 - Keep a bounded oriented half-double scheme in high power
+
+- **Label:** NO-GO
+- **Route:** keep \(N\) bounded and increase the polarization power while
+  retaining G094's oriented half-double evaluation defect.
+- **Valid input:** individual low-power directed schemes can be
+  superabundant.
+- **Invalid inference:** their defect persists in the stable high-power
+  regime.
+- **Precise obstruction:** all length-\((n+1)N\) schemes lie in a fixed
+  projective Hilbert scheme. Uniform relative Serre vanishing makes their
+  high-power evaluation maps surjective, contradicting B149/G094's rank
+  bound \(R+n<(n+1)N\).
+- **Re-entry condition:** grow \(N\) superlinearly as required by B141 and
+  construct the Hessian-compatible oriented defect, smooth integration, and
+  nonzero specified pairing together.
