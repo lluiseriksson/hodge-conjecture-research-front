@@ -4728,3 +4728,18 @@
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
 - **Re-entry condition:** attack G198 and retain every G144 clause.
+
+## NG-235 - Retain standard rank 112 on \(Q^{16}\)
+
+- **Label:** NO-GO
+- **Route:** realize the sole standard \(d=16\) row of G198.
+- **Residual obstruction:** the projected \(Q^{14}\) rank is at most 78,
+  below B277's standard floor 108.
+- **Mixed obstruction:** three minimal escapes use 33 of 35 dimensions;
+  a fourth needs nine, while filled alternatives have point rank at most
+  36.
+- **Boundary consequence:** G198 is NO-GO and G199 is active.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack G199 and retain every G144 clause.

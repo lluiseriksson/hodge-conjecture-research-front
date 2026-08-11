@@ -29,7 +29,8 @@ falsifier: a cubic or quartic G197 package of rank 103 on Q^14 or a failure of B
 - **Dimension audit:** all constructions and rank decompositions are
   valid for every even \(d\ge14\); 22 was only the former survivor-table
   threshold.
-- **Boundary consequence:** G197 is NO-GO and G198 is active at rank 104.
+- **Boundary consequence at this checkpoint:** G197 is NO-GO and G198
+  is reached at rank 104. B279 later closes G198 and activates G199.
 - **Detector guard:** no relation, ODP package, Kuranishi vanishing,
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.

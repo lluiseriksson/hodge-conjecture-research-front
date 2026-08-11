@@ -58,7 +58,7 @@ require(
 )
 require(
     "proofs/G198-cubic-piecewise-boundary.md",
-    ("brick_id: G198", "status: EXPLORATORY", "Y(14)=104", "active"),
+    ("brick_id: G198", "status: NO-GO", "Y(14)=104", "B279"),
 )
 
-print("PASS: B278 cubic/quartic d>=14 extension, G197 no-go, and G198 boundary")
+print("PASS: B278 cubic/quartic d>=14 extension and current G197-G198 states")

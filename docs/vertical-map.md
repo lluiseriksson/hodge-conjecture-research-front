@@ -2381,6 +2381,13 @@ quartic transverse-octic construction remain valid there. Thus G197 is
 NO-GO and G198 is active at rank 104 on \(Q^{14}\), still with
 cubic/quartic survivors and every detector clause open.
 
+B279 then falsifies G198 on \(Q^{16}\). Standard rank 112 has residual
+rank at most 78 on \(Q^{14}\), below the proved floor 108, and its mixed
+branches leave two dimensions before a rank-nine fourth escape. Thus
+G198 is NO-GO. G199 raises only the \(d=16\) row to rank 113; the
+\(d=14\) cubic/quartic rank-104 branch and every detector obligation
+remain open.
+
 Two sufficient attacks feed G008:
 
 \[

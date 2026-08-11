@@ -1644,6 +1644,13 @@ every even \(d\ge14\). Consequently cubic and quartic rank
 G198 is active at rank 104 there. The result remains a special-input
 rank obstruction, not a detector or cycle construction.
 
+B279 falsifies G198 on a different row. Standard rank 112 on \(Q^{16}\)
+would project to rank at most 78 on \(Q^{14}\), below B277's standard
+floor 108. Every mixed branch leaves only two dimensions before a
+rank-nine fourth escape. Therefore NG235 makes G198 **NO-GO** and G199
+is active with the \(d=16\) row raised to standard rank 113. The
+\(d=14\) cubic/quartic rank-104 branch remains open.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2280,6 +2287,7 @@ python verification/verify_B275_standard_d14_second.py
 python verification/verify_B276_standard_d14_band.py
 python verification/verify_B277_standard_d14_band.py
 python verification/verify_B278_cubic_quartic_d14.py
+python verification/verify_B279_standard_d16.py
 ```
 
 The repository verifier checks the required directory topology, result
