@@ -34,6 +34,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{local block defect or carrier-free synchronization G095}
 \Longleftarrow
 \text{synchronized mixed-Hessian second defect G096}
+\Longleftarrow
+\text{canonical pure Hessian vanishing G097}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -104,6 +106,20 @@ anchored product-fiber family saturates this new bound. NG122 blocks treating
 first-order synchronization as sufficient. G096 asks for a carrier-free
 realization of the synchronized quotient and mixed conormal kernel together,
 then the pure B146 quadrics, smooth integration, and nonzero pairing.
+B153 makes that pure clause intrinsic. After B152's mixed condition, any
+splitting of the synchronized quotient defines the same class
+
+\[
+ \Omega_Q\in
+ \operatorname{coker}(E)\otimes\operatorname{Sym}^2Q^*,
+\]
+
+in a space of dimension \((N-R)n(n+1)/2\). Full B146 second-order
+isotropy is exactly the conjunction of the mixed condition and
+\(\Omega_Q=0\). NG123 shows the pure class is arbitrary even when the core
+conormal map is zero, so G097 is the last synchronized second-order gate.
+Once it is solved, all-order nonlinear integration becomes the next
+obligation.
 
 Two sufficient attacks feed G008:
 

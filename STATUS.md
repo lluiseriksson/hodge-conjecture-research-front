@@ -237,7 +237,9 @@ Date: 2026-08-11
   special rank-\(n\) candidate into a local block defect or a globally
   synchronized quotient; NG121 closes the general-data shortcut. B152/G096
   add the synchronized mixed-Hessian conormal corank \(n(N-R)\); NG122
-  closes synchronization alone.
+  closes synchronization alone. B153/G097 identify the final second-order
+  class \(\Omega_Q\) of dimension \((N-R)n(n+1)/2\); NG123 proves its
+  vanishing is independent of the mixed condition.
   Universal G028 remains the construction gate. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -553,6 +555,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   carrier-free, then close the pure quadrics, integration, and pairing.
 - NG122 - NO-GO: synchronization alone leaves a possible mixed Hessian
   obstruction of rank \(n(N-R)\).
+- B153 - PROVED: after the mixed condition, the pure quotient Hessians define
+  a canonical splitting-independent class
+  \(\Omega_Q\in\operatorname{coker}(E)\otimes\operatorname{Sym}^2Q^*\);
+  full B146 isotropy is equivalent to \(\Omega_Q=0\).
+- G097 - EXPLORATORY: construct carrier-free synchronized data with
+  \(\Omega_Q=0\), then prove all-order integration and the specified pairing.
+- NG123 - NO-GO: zero mixed conormal data still permits an arbitrary
+  nonzero pure class.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1032,7 +1042,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B152/G089-G096/NG106-NG122 - PROVED/EXPLORATORY/NO-GO: the minimal
+- B133-B153/G089-G097/NG106-NG123 - PROVED/EXPLORATORY/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
@@ -1056,7 +1066,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   orientations; B151/G095 isolate the remaining local-defect versus
   synchronized-quotient alternatives. B152/G096 impose the second conormal
   defect in the synchronized branch, and NG122 blocks stopping after the
-  first factorization.
+  first factorization. B153/G097 isolate the canonical pure second-order
+  class, while NG123 blocks inferring its vanishing from mixed isotropy.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

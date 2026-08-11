@@ -2290,3 +2290,19 @@
 - **Re-entry condition:** realize G096's synchronized quotient and conormal
   mixed kernel jointly, then prove pure quadratic compatibility, nonlinear
   integration, and the specified pairing.
+
+## NG-123 - Infer the pure Hessian condition from the mixed one
+
+- **Label:** NO-GO
+- **Route:** after B152's mixed conormal equations hold, infer the remaining
+  quotient-quotient Hessian equations.
+- **Valid input:** every core-core and core-quotient relation pairing is
+  zero.
+- **Invalid inference:** the pure synchronized quotient class vanishes.
+- **Precise obstruction:** with zero core conormal map, the mixed condition
+  is automatic. Arbitrary symmetric quotient blocks of the nondegenerate
+  inverse-Hessian matrices realize an arbitrary class in
+  \(\operatorname{coker}(E)\otimes\operatorname{Sym}^2Q^*\), whose dimension
+  is \((N-R)n(n+1)/2>0\).
+- **Re-entry condition:** construct G097 with the canonical class
+  \(\Omega_Q=0\), then prove all-order integration and the specified pairing.

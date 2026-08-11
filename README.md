@@ -197,6 +197,12 @@ dimension-\(nR\) subspace of their \(nN\)-dimensional target, and bound full
 first-jet evaluation by \((n+1)R+n\). The anchored fiber family saturates
 this bound. G096 asks for the same quotient/conormal package without a
 carrier; NG122 blocks synchronization alone.
+B153 completes the second-order decomposition. After the mixed condition,
+the remaining quotient Hessians define a splitting-independent class
+\(\Omega_Q\in\operatorname{coker}(E)\otimes\operatorname{Sym}^2Q^*\), of
+dimension \((N-R)n(n+1)/2\). Full B146 isotropy is equivalent to the mixed
+condition plus \(\Omega_Q=0\). G097 asks for that vanishing without a
+carrier; NG123 shows it is not automatic.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -732,6 +738,7 @@ python verification/verify_B149_oriented_half_double_defect.py
 python verification/verify_B150_partial_interpolation_scope.py
 python verification/verify_B151_synchronized_blocks.py
 python verification/verify_B152_mixed_hessian_corank.py
+python verification/verify_B153_pure_hessian_obstruction.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -935,6 +942,9 @@ quotient.
 B152/G096/NG122 add the mixed second-order constraint: synchronized
 quotients still require conormal corank \(n(N-R)\) before any nonlinear
 integration can be attempted.
+B153/G097/NG123 isolate the final second-order coordinate: the canonical
+pure quotient Hessian class. Its vanishing is separate from the mixed
+condition; higher-order integration begins only after both are closed.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
