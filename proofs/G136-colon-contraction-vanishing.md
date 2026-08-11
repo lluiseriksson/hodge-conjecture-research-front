@@ -35,9 +35,15 @@ G136 asks for a class-directed full-system construction satisfying
 \]
 
 Under G134, B206 makes (1) equivalent to G135 and hence to vanishing of
-the mixed cubic filter (Xi). One possible stronger attack is to lift every
-contracted profile to the lower value space (E_k), but the exact target is
-the generally larger colon (A_{m,k}).
+the mixed cubic filter \(\Xi\). One possible stronger attack is to lift every
+contracted profile to the lower value space \(E_k\), but the exact target is
+the generally larger colon \(A_{m,k}\).
 
 G136 retains every G134 and detector clause. It does not address the pure
-cubic tensor (Theta), any later Kuranishi rung, or the terminal cycle.
+cubic tensor \(\Theta\), any later Kuranishi rung, or the terminal cycle.
+
+B207 dualizes (1) and identifies it with coherent absorption of every
+relation-weighted Hessian functional through \(\partial_k^*\). G137 is that
+preimage gate. NG169 blocks differentiating a zero-order value relation,
+and NG170 records why standard Gaussian-map theorems do not supply the
+required finite-node comparison.

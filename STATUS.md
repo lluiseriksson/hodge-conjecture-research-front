@@ -944,6 +944,18 @@ generation from the controlled partitioned nodal locus is not proved.**
   retaining G134, the full tangent system, and the detector.
 - NG168 - NO-GO: global liftability of a quadratic profile does not make
   its inverse-Hessian nodewise contraction a global section value.
+- B207 - PROVED: the colon dual is spanned by \(e\star r\), and
+  \(\delta_{m,k}=0\) exactly when every relation-weighted Hessian
+  functional lies in \(\operatorname{im}\partial_k^*\).
+- G137 - EXPLORATORY: construct those coherent dual preimages for every
+  lower degree, value relation, multiplier, and pair of full-system
+  directions while retaining G134 and the detector.
+- NG169 - NO-GO: a zero-order relation among values cannot be
+  differentiated into a relation among independent second jets at the
+  marked nodes.
+- NG170 - NO-GO: S074's standard Gaussian maps and curve-specific
+  second-fundamental-form comparisons do not encode the finite node scheme,
+  value relations, inverse Hessians, or \(I_Z^3\) connecting map of G137.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1553,7 +1565,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   lower degrees. B205/G135 isolate the decomposable mixed-cubic residue;
   NG167 blocks confusing primitive quotient rank with full cubic closure.
   B206/G136 turn the residue into finite colon-quotient maps; NG168
-  identifies the absent global-symbol theorem.
+  identifies the absent global-symbol theorem. B207/G137 give the exact
+  coherent dual preimage obligation; NG169-NG170 exclude zero-order
+  differentiation and unproved Gaussian-map comparisons.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

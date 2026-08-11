@@ -27,7 +27,7 @@ Put
  E_k=\operatorname{im}\!\left[H^0(H^k)\to\mathcal T_k\right],
 \]
 
-so (S_m=E_m). For (0\le k<m), define the value-colon subspace
+so \(S_m=E_m\). For \(0\le k<m\), define the value-colon subspace
 
 \[
  A_{m,k}=(S_m:E_{m-k})
@@ -36,8 +36,8 @@ so (S_m=E_m). For (0\le k<m), define the value-colon subspace
 \]
 
 All products in (1) are coordinatewise products of line-bundle fibers.
-If (y\in E_k), choose a global section representing it. Multiplying it
-by a representative of any (e\in E_{m-k}) gives a global degree-(m)
+If \(y\in E_k\), choose a global section representing it. Multiplying it
+by a representative of any \(e\in E_{m-k}\) gives a global degree-\(m\)
 section. Therefore
 
 \[
@@ -60,7 +60,7 @@ Define
  (\mathcal T_k/A_{m,k})\otimes\operatorname{Sym}^2U^* \tag{3}
 \]
 
-by composing (C_{m,k}) with the quotient. Choosing a basis of
+by composing \(C_{m,k}\) with the quotient. Choosing a basis of
 \(\operatorname{Sym}^2U^*\) shows that
 
 \[
@@ -86,7 +86,7 @@ The stronger inclusion
  E_k\otimes\operatorname{Sym}^2U^* \tag{6}
 \]
 
-would imply (5) by (2), but (6) is not necessary: the colon (A_{m,k})
-can be strictly larger than (E_k). B206 constructs neither the vanishing
+would imply (5) by (2), but (6) is not necessary: the colon \(A_{m,k}\)
+can be strictly larger than \(E_k\). B206 constructs neither the vanishing
 in (5), the pure cubic filter, a later Kuranishi rung, a detector, nor a
 cycle.

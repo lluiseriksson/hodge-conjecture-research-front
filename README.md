@@ -752,6 +752,17 @@ colon-vanishing gate. NG168 blocks treating a globally liftable quadratic
 profile as though contraction by nodewise inverse-Hessian directions were
 a global section-valued differential operator.
 
+B207 dualizes the colon. If \(R_m=S_m^\perp\), every obstruction is detected
+by a functional \(\ell_{r,e,b,c}\) on the full quadratic-profile fiber.
+It vanishes on liftable profiles exactly when it lies in the image of the
+dual connecting map for
+\(0\to I_Z^3H^k\to I_Z^2H^k\to(I_Z^2/I_Z^3)H^k\to0\). G137 asks for all
+such coherent preimages. NG169 blocks differentiating a relation among
+values into a relation among second jets. The S074 audit and NG170 show
+that standard Gaussian-map surjectivity has different global sources,
+targets, supports, and deformation data, so it cannot be imported without
+an explicit comparison morphism.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1332,6 +1343,7 @@ python verification/verify_B203_generator_filtration.py
 python verification/verify_B204_profile_module.py
 python verification/verify_B205_mixed_profile.py
 python verification/verify_B206_colon_obstruction.py
+python verification/verify_B207_dual_connecting.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1652,6 +1664,9 @@ B205/G135 identify the remaining decomposable-profile contribution to the
 mixed cubic tensor; NG167 separates primitive birth from cubic closure.
 B206/G136 express that contribution by finite colon quotients; NG168
 isolates the missing global-symbol mechanism.
+B207/G137 convert those quotients into coherent dual preimage obligations;
+NG169-NG170 close the value-differentiation and off-the-shelf Gaussian-map
+shortcuts.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

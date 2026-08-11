@@ -1179,6 +1179,35 @@ way into \(E_k\) is sufficient but stronger than required. NG168 records
 that a global lift of the quadratic profile supplies no global
 section-valued symbol for the final inverse-Hessian nodewise contraction.
 
+B207 dualizes (*******************). Let \(R_m=S_m^\perp\), and for
+\(e\in E_{m-k}\), \(r\in R_m\), define
+
+\[
+\langle e\star r,y\rangle=\langle r,ey\rangle.
+\]
+
+Then
+
+\[
+A_{m,k}^\perp=\operatorname{span}\{e\star r\}.
+\]
+
+If \(\ell_{r,e,b,c}\) evaluates a full quadratic profile on the final
+transported directions and pairs it with \(e\star r\), the exact sequence
+for \(I_Z^3\subset I_Z^2\) gives
+
+\[
+\delta_{m,k}=0
+\quad\Longleftrightarrow\quad
+\ell_{r,e,b,c}\in\operatorname{im}\partial_k^*
+\quad\text{for every }r,e,b,c. \tag{********************}
+\]
+
+G137 asks for the coherent dual preimages in (********************).
+NG169 blocks differentiating a value relation to obtain them. S074/NG170
+show that standard diagonal-ideal Gaussian maps provide no comparison to
+this finite-node, inverse-Hessian, third-neighborhood target.
+
 Two sufficient attacks feed G008:
 
 \[

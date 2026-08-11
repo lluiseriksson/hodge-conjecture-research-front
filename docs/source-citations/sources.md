@@ -2256,6 +2256,41 @@ Luca Chiantini and Ciro Ciliberto, “On the Dimension of Secant Varieties,” a
 - NG159 scope: the theorem concerns general points in one embedding, and containment is in the span of tangent spaces. G127 instead requires one special marked set, fixed across all lower-power embeddings, with each tangent space inside the generally smaller span of the marked points.
 - No ordinary-double-point, doubled-scheme, Hessian-holonomy, Hodge-type, or rational-detector conclusion is supplied.
 
+## S074 - Gaussian maps from the diagonal and second-fundamental-form scope
+
+Giuseppe Pareschi, “Gaussian Maps and Multiplication Maps on Certain
+Projective Varieties,” *Compositio Mathematica* **98** (1995), 219–268.
+[Numdam PDF](https://www.numdam.org/item/CM_1995__98_3_219_0.pdf).
+
+Paola Frediani, “Second Fundamental Form and Higher Gaussian Maps,”
+arXiv:2208.14794v2 (2023).
+[arXiv](https://arxiv.org/abs/2208.14794).
+
+- Audited Pareschi Section 1(A), journal pp. 223–224 (PDF pp. 5–6): the
+  \(k\)-th Gaussian map is induced by successive powers of the ideal of the
+  diagonal in \(X\times X\); its input is a space of global relations and
+  its target is a global symmetric-cotangent section space.
+- Audited Pareschi Theorem C and surrounding scope, journal pp. 220–222
+  (PDF pp. 2–4): the displayed higher-dimensional surjectivity application
+  concerns ample line bundles on abelian varieties with explicit power
+  bounds. Section 3 then specializes to smooth projective curves.
+- Audited Frediani Introduction, pp. 1–4, especially Theorems 1.1–1.3:
+  the second-fundamental-form comparison is for the Torelli map of smooth
+  canonical curves and is evaluated on Schiffer and higher Schiffer
+  variations.
+- Field audit: Pareschi works over an algebraically closed field, with the
+  paper's curve applications in characteristic zero; Frediani works over
+  the complex numbers. This is compatible with G137's base field but does
+  not widen either theorem's geometric scope.
+- G137 scope guard: neither source contains a finite marked scheme \(Z\),
+  the relation weights \(S_m^\perp\), a central nodal inverse Hessian, or
+  the dual connecting map associated with
+  \(0\to I_Z^3H^k\to I_Z^2H^k\to(I_Z^2/I_Z^3)H^k\to0\).
+- Consequently Gaussian-map surjectivity is not a proof of G137 without a
+  new comparison morphism respecting all four structures. No arbitrary
+  Hodge class, rational detector, algebraic cycle, or general Hodge
+  Conjecture conclusion is supplied.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

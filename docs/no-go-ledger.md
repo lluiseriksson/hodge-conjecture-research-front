@@ -3249,3 +3249,38 @@
   obstruction before detector propagation.
 - **Re-entry condition:** construct a compatible global symbol or prove
   G136's weaker colon containment by another geometric mechanism.
+
+## NG-169 - Differentiate a value relation into a Hessian relation
+
+- **Label:** NO-GO
+- **Route:** differentiate \(r\in S_m^\perp\) and infer that every
+  \(\ell_{r,e,b,c}\) annihilates \(W_k\).
+- **Valid input:** \(r\) annihilates the values of all global degree-
+  \(m\) sections.
+- **Invalid inference:** it annihilates second jets at distinct marked
+  points.
+- **Precise obstruction:** for a lower double section \(s\), the global
+  product \(es\) already has zero value on \(Z\); applying \(r\) gives only
+  \(0=0\) and no Hessian identity.
+- **Detector guard:** a nonzero functional on \(W_k\) is precisely a
+  surviving mixed cubic class after the B207 dualization.
+- **Re-entry condition:** construct the coherent preimage demanded by G137
+  or a genuine global differential comparison.
+
+## NG-170 - Import standard Gaussian-map surjectivity into G137
+
+- **Label:** NO-GO
+- **Route:** identify the Hessian symbol with a standard higher Gaussian
+  map and count a surjectivity theorem as G137.
+- **Valid input:** S074 defines diagonal-ideal Gaussian maps and records
+  special deformation/second-fundamental-form applications.
+- **Invalid inference:** those maps land in B207's dual connecting-map
+  image.
+- **Precise obstruction:** their source and target omit the finite value
+  relation, marked scheme, central inverse Hessians, and the sequence for
+  \(I_Z^3\). The audited positive results also have abelian-variety or
+  canonical-curve hypotheses.
+- **Detector guard:** S074 supplies no arbitrary-class rational detector or
+  specified pairing.
+- **Re-entry condition:** construct and prove an explicit comparison
+  commuting with every G137 structure, for arbitrary \((X,\zeta)\).
