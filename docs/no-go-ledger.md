@@ -2643,3 +2643,22 @@
   complete-linear-system geometry, then retain the uniform matroid,
   adjoint defect, primitive ambient image, rational type \((0,0)\), and
   specified nonzero pairing. This is G100, not a smaller free-divisor gate.
+
+## NG-140 - Zariski tangent directions integrate logarithmically
+
+- **Label:** NO-GO
+- **Route:** identify \(\ker d\tau_0\) and integrate each of its vectors to
+  a derivation preserving the labelled ideal \(I_\tau\).
+- **Valid input:** every ideal-preserving derivation evaluates into
+  \(\ker d\tau_0\).
+- **Invalid inference:** this inclusion is automatically surjective.
+- **Precise obstruction:** for \(I_\tau=(x,y^2)\), a derivation
+  \(a\partial_x+b\partial_y\) preserves the ideal exactly when
+  \(a\in(x,y^2)\) and \(b\in(x,y)\). Hence every such derivation vanishes
+  at the origin, whereas \(\ker d\tau_0=\mathbf C\partial_y\).
+- **Scope guard:** B176 proves that surjectivity would close \(H_\tau\),
+  but it does not manufacture the vector fields. The countermodel is local
+  ODP deformation geometry, not a Hodge counterexample.
+- **Re-entry condition:** construct \(d-R\) ideal-preserving analytic
+  fields to all orders from the full complete-linear-system incidence, as
+  in G109, while retaining every detector clause.

@@ -397,6 +397,23 @@ determinant is \(-4F\). Nevertheless
 lift. Free-divisor theory controls the reduced union, not the
 scheme-theoretic simultaneous intersection required by G100.
 
+B176 repairs the object without claiming a solution. Let
+\(\Theta(-\log I_\tau)\) be the derivations preserving the labelled
+simultaneous ideal. Then
+
+\[
+ H_\tau=0
+ \Longleftrightarrow
+ \operatorname{ev}_0\Theta(-\log I_\tau)=\ker d\tau_0.
+\]
+
+The converse integrates \(d-R\) independent logarithmic fields to an
+orbit inside the simultaneous zero germ and applies the inverse-function
+theorem. G109 asks for that frame in the full complete system with every
+detector clause. NG140 shows why tangent data alone is insufficient:
+for \(I_\tau=(x,y^2)\), every ideal-preserving vector field vanishes at
+the origin although \(\ker d\tau_0\) is one-dimensional.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -948,6 +965,7 @@ python verification/verify_B172_residue_selector.py
 python verification/verify_B173_selector_duality.py
 python verification/verify_B174_auxiliary_torsor.py
 python verification/verify_B175_free_discriminant.py
+python verification/verify_B176_logarithmic_orbit.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1195,7 +1213,10 @@ that auxiliary ideal membership is automatic and every adjusted
 coefficient representation is just a pre-existing syzygy. G108 collapses
 to G100. B175/NG139 then show that even a branch-preserving free reduced
 discriminant does not see the hidden generator of the labelled
-simultaneous-node ideal. The logarithmic route also returns to G100.
+simultaneous-node ideal. B176 turns labelled logarithmic transitivity into
+an exact equivalent certificate, while NG140 blocks automatic integration
+of the Zariski tangent kernel. G109 is the resulting full-system attack
+form and remains open.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

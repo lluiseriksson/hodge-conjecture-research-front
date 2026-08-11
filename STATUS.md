@@ -698,6 +698,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG139 - NO-GO: freeness of the reduced discriminant, even with
   branchwise logarithmic derivations, does not lift central critical-value
   relations; it forgets the scheme-theoretic simultaneous intersection.
+- B176 - PROVED: \(H_\tau=0\) exactly when evaluation of the derivations
+  preserving \(I_\tau\) fills \(\ker d\tau_0\); equivalently an ideal-
+  preserving logarithmic orbit has the full tangent dimension \(d-R\).
+- G109 - EXPLORATORY: construct that logarithmic frame in the full
+  complete-linear-system germ while retaining every detector clause.
+- NG140 - NO-GO: central Zariski tangent directions do not integrate
+  automatically; for \((x,y^2)\), all ideal-preserving derivations vanish
+  at the origin while the tangent kernel is one-dimensional.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1247,7 +1255,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   existing syzygy module. G108 collapses to G100. B175/NG139 show that a
   free reduced discriminant and even branch-preserving logarithmic basis
   do not determine \(H_\tau\); the labelled scheme-theoretic intersection
-  is missing. The logarithmic route also collapses to G100.
+  is missing. B176/G109 give the correct labelled logarithmic criterion,
+  equivalent to G100. NG140 proves that the central tangent kernel alone
+  does not integrate to the required ideal-preserving orbit.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

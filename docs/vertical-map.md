@@ -427,6 +427,36 @@ reduced union. Any logarithmic re-entry theorem must control that ideal
 directly in the full complete-linear-system geometry; with all detector
 clauses retained, this is again G100.
 
+B176 identifies the exact corrected logarithmic statement. With
+
+\[
+ \Theta(-\log I_\tau)
+ =\{\delta:\delta(I_\tau)\subseteq I_\tau\},
+\]
+
+one has
+
+\[
+ H_\tau=0
+ \Longleftrightarrow
+ \operatorname{ev}_0\Theta(-\log I_\tau)=\ker d\tau_0.
+\]
+
+The reverse implication integrates \(d-R\) independent fields to an
+orbit of the full expected tangent dimension inside \(V(I_\tau)\). G109
+is the falsifiable full-system construction of that frame with all
+detector clauses attached. NG140 gives the exact obstruction to a formal
+proof: for \(I_\tau=(x,y^2)\), the tangent kernel is
+\(\mathbf C\partial_y\), but
+
+\[
+ \Theta(-\log I_\tau)
+ =(x,y^2)\partial_x+(x,y)\partial_y
+\]
+
+evaluates to zero. Thus infinitesimal tangent directions do not integrate
+automatically, and G109 remains equivalent to the unresolved G100 gate.
+
 Two sufficient attacks feed G008:
 
 \[
