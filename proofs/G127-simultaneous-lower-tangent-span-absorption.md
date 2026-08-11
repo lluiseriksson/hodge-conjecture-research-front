@@ -53,4 +53,8 @@ detector.
 
 G127 is a geometric sufficient form of G125's graded lower half; it does
 not replace G125 or make the degree-m birth follow from the lower spans.
-The simultaneous requirement across all \(k<m\) is essential.
+The same point scheme across the powers remains essential, but for
+\(m\ge2\), B197 proves that the conditions need not be constructed
+independently: absorption in degree \(m-1\) forces every earlier extinction.
+B198/G128 then isolate the
+new minimal generators required for the adjacent degree-\(m\) birth.

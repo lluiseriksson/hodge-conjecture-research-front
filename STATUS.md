@@ -870,6 +870,17 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG159 - NO-GO: generic Terracini theory spans tangent spaces to describe a
   secant tangent; it does not put tangents inside the point span or construct
   the required special multi-embedding configuration.
+- B197 - PROVED: multiplication by a section nonzero on \(Z\) injects
+  \(V_k\hookrightarrow V_{k+a}\), so for \(m\ge2\) all lower extinctions
+  reduce to \(V_{m-1}=0\); \(q_k=h_{2Z}(k)-h_Z(k)\) is nondecreasing.
+- B198 - PROVED: under lower extinction, every decomposable degree-\(m\)
+  ideal section is double on \(Z\); a \(2n\)-dimensional birth therefore
+  needs at least \(2n\) new minimal ideal generators surviving first jets.
+- G128 - EXPLORATORY: construct the adjacent absorption/birth transition
+  with Hessian holonomy, finite Kuranishi closure, and rational detector.
+- NG160 - NO-GO: fixed-\(Z\) high regularity eventually removes new ideal
+  generators and then separates all \(2nN\) gradients; it cannot create the
+  primitive \(2n\)-dimensional birth.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1462,7 +1473,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   lose holonomy and eventually have full gradients. G126 therefore places
   the entire finite Kuranishi ladder at the unique birth degree. B196/G127
   identify lower extinction with simultaneous tangent-span absorption;
-  NG159 blocks the generic Terracini shortcut.
+  NG159 blocks the generic Terracini shortcut. B197 reduces every lower
+  condition to \(V_{m-1}=0\), while B198/G128 isolate the required new
+  degree-\(m\) minimal generators. NG160 excludes the asymptotic fixed-point
+  regularity regime.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

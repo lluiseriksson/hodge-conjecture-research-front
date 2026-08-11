@@ -59,3 +59,9 @@ projective form of every lower extinction equality: in each lower
 embedding, the span of \(Z\) is full or absorbs every tangent space at its
 marked points. NG159 prevents importing this special configuration from
 generic Terracini theory.
+For the branch \(m\ge2\), B197 makes it enough to impose the single
+last-lower equality \(V_{m-1}=0\). B198 shows that the adjacent nonzero
+\(V_m\) must be the
+image of new degree-\(m\) minimal generators of the ideal module of \(Z\).
+G128 records this sharper construction gate, and NG160 excludes placing a
+fixed \(Z\) beyond its generator/jet-regularity thresholds.

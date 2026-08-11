@@ -1983,6 +1983,13 @@ Mathematics* (2) **61** (1955), 197–278.
   node-isolated gradient direction occurs in the complete linear system;
   a synchronized defect engineered inside a selected subfamily is not a
   defect of the full universal incidence.
+- B198 applies global generation and higher-cohomology vanishing to the
+  kernel of a finite presentation of \(I_ZH^r\). This proves finite
+  generation of the section ideal and therefore a largest minimal-generator
+  degree for fixed \(Z\).
+- NG160 combines that generator ceiling with the already audited eventual
+  first-jet surjectivity. The two asymptotic conclusions exclude, rather
+  than construct, G128's adjacent primitive birth.
 - Scope guard: the power depends on the fixed finite point scheme. This
   theorem gives jet interpolation; it neither makes the analytic base map
   linear nor supplies a vanishing-cycle relation, Hodge type, or specified

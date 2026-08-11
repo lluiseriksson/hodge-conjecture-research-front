@@ -663,6 +663,21 @@ and identifies a secant tangent with the span of tangent spaces. It does not
 construct special points whose much smaller point span contains those
 tangents, much less one scheme working across every lower embedding.
 
+B197 proves that the conditional first-jet dimensions \(q_k\) are
+nondecreasing: multiplication by a section nonzero on \(Z\) injects
+\(V_k\hookrightarrow V_{k+a}\). Thus, for \(m\ge2\), all of G127's lower
+extinctions are equivalent to the single adjacent condition
+\(V_{m-1}=0\). B198 then proves
+that a nonzero \(V_m\) must be supported by new degree-\(m\) minimal
+generators of the homogeneous ideal module of \(Z\); a \(2n\)-dimensional
+birth needs at least \(2n\) such generators surviving first jets.
+
+G128 is the narrowed gate: construct tangent absorption at \(m-1\), then
+an adjacent rank-\(2n\) minimal-generator birth with holonomy, finite
+Kuranishi closure, and the rational detector at \(m\). NG160 excludes using
+the fixed-\(Z\) high-regularity regime: the ideal is eventually generated
+below \(m\), while still higher powers separate all \(2nN\) gradients.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1234,6 +1249,7 @@ python verification/verify_B193_maximal_holonomy.py
 python verification/verify_B194_primitive_jet_birth.py
 python verification/verify_B195_multiplicative_growth.py
 python verification/verify_B196_tangent_span.py
+python verification/verify_B197_B198_birth_window.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1531,6 +1547,10 @@ the complete finite Kuranishi ladder at the isolated birth degree.
 B196/G127 express all lower extinctions as simultaneous tangent-span
 absorption; NG159 excludes treating generic Terracini/contact theory as an
 existence theorem for that special incidence.
+B197 collapses that simultaneous list to the adjacent equality
+\(V_{m-1}=0\). B198/G128 require new degree-\(m\) ideal generators whose
+first jets realize the synchronized birth; NG160 blocks moving the same
+point scheme into the asymptotic regularity range.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

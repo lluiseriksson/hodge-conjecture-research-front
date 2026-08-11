@@ -3089,3 +3089,21 @@
   pairing.
 - **Re-entry condition:** analyze the actual special point-span incidence,
   then construct the degree-m primitive birth and detector separately.
+
+## NG-160 - Move fixed points into high regularity to create primitive birth
+
+- **Label:** NO-GO
+- **Route:** fix \(Z\), raise \(m\) beyond its regularity threshold, and
+  expect positivity to create G125's first \(2n\)-dimensional jet space.
+- **Valid input:** S065 gives eventual generation of the ideal section
+  module and eventual full first-jet interpolation for fixed \(Z\).
+- **Invalid inference:** asymptotic generation produces new degree-\(m\)
+  ideal generators or retains one-node determination.
+- **Precise obstruction:** if lower jets vanish, B198 puts every product of
+  lower ideal sections inside \(H^0(I_{2Z}H^m)\). Beyond the generator
+  ceiling there are only such products, so \(V_m=0\). Beyond the jet-
+  separation threshold one instead has \(\dim V_m=2nN>2n\) for \(N>1\).
+- **Detector guard:** neither regime constructs ODP holonomy, a Kuranishi
+  certificate, rational type, or a nonzero specified pairing.
+- **Re-entry condition:** vary \(Z\) with \(m\), stay in its finite new-
+  generator window, and close G128's adjacent birth and detector clauses.

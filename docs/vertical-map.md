@@ -958,6 +958,40 @@ points and proves that a secant tangent space is the **span of tangent
 spaces**. It neither reverses that containment into the **point span** nor
 constructs G127's special configuration across multiple embeddings.
 
+B197 makes the lower side adjacent rather than genuinely multi-degree when
+\(m\ge2\):
+
+\[
+ V_k\hookrightarrow V_{k+a}
+ \quad\Longrightarrow\quad
+ \bigl(V_k=0\text{ for every }k<m\bigr)
+ \Longleftrightarrow V_{m-1}=0. \tag{*********}
+\]
+
+B198 identifies the algebraic source of the jump. If
+\(J=\bigoplus_kH^0(I_ZH^k)\), \(K=\bigoplus_kH^0(I_{2Z}H^k)\), and all
+lower \(J_k=K_k\), then
+
+\[
+ (R_+J)_m\subset K_m,
+ \qquad J_m/(R_+J)_m\twoheadrightarrow V_m. \tag{**********}
+\]
+
+Hence the maximal birth needs at least \(2n\) new minimal generators in
+degree \(m\) whose first jets survive. G128 is now the narrowest gate:
+
+\[
+ \text{tangent absorption at }m-1
+ \Longrightarrow
+ \text{new rank-}2n\text{ generator jets at }m
+ \Longrightarrow
+ \text{G125/G126 holonomy, integration, and detector}. \tag{***********}
+\]
+
+NG160 prevents an asymptotic shortcut with fixed \(Z\): finite generation
+eventually makes every ideal section decomposable, and S065 eventually
+separates all \(2nN\) node gradients.
+
 Two sufficient attacks feed G008:
 
 \[
