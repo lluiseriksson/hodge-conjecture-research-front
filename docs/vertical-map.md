@@ -1450,6 +1450,23 @@ NG179 is the exact scope stop: Zak excludes positive-dimensional fibers
 and general-contact linearity makes the generic fiber a point, but neither
 result bounds one special finite normalization fiber.
 
+B219 proves that special-fiber cardinality is feasible across constructed
+families. Given \(N\) points in \(\Lambda\simeq\mathbf P^d\), degree
+\(3N\) sections prescribe nondegenerate quadratic jets at all of them.
+After Bertini chooses a hypersurface \(Y\subset\Lambda\) nodal exactly
+there, a general
+
+\[
+ X=(f+x_0G=0)\subset\mathbf P^{d+1}
+\tag{*****************************************}
+\]
+
+is smooth and has \(T_pX=\Lambda\) at every marked node. Hence its Gauss
+fiber contains all \(N\) points. S079 audits smoothness away from the two
+explicit base loci. NG180 prevents promotion: this varies \(X\) with
+\(N\), while G146 fixes arbitrary \((X,\zeta)\) and retains the complete
+detector package.
+
 Two sufficient attacks feed G008:
 
 \[

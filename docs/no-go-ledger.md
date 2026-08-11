@@ -3442,3 +3442,19 @@
   profile, relation, rational type, specified pairing, or cycle.
 - **Re-entry condition:** prove the missing special-fiber bound under all
   G146 hypotheses, or construct the special fiber and test every clause.
+
+## NG-180 - Promote a special hypersurface fiber to arbitrary G146
+
+- **Label:** NO-GO
+- **Route:** count B219's arbitrarily large Gauss fibers as the required
+  construction for arbitrary \((X,\zeta)\).
+- **Valid input:** the fiber-cardinality clause is feasible on smooth
+  specially constructed hypersurfaces in every dimension at least two.
+- **Invalid inference:** one may replace the fixed input \(X\) by that
+  hypersurface or obtain a detector for the specified class \(\zeta\).
+- **Precise obstruction:** arbitrary-input/special-family quantifier
+  mismatch and absence of every class-directed detector clause.
+- **Detector guard:** nodal hyperplane sections and common tangency alone
+  give no rational type, full-support relation, pairing, or cycle.
+- **Re-entry condition:** construct the required special fiber on every
+  fixed \(X\) and retain all G146 profile and detector data.

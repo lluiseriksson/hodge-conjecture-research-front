@@ -2418,6 +2418,30 @@ arXiv:1702.06010.
   Neither supplies a marked nodal profile, relation, rational Hodge
   detector, specified pairing, algebraic cycle, or the Hodge Conjecture.
 
+## S079 - Bertini away from the base locus
+
+Phillip Griffiths and Joseph Harris, “Algebraic Geometry and Local
+Differential Geometry,” *Annales scientifiques de l'École Normale
+Supérieure* **12** (1979), 355–452.
+[NUMDAM PDF](https://www.numdam.org/article/ASENS_1979_4_12_3_355_0.pdf).
+
+- Audited Appendix (b), statement (A.6), journal p. 440: the generic
+  member of a linear system of hypersurfaces in projective space is smooth
+  outside the base locus. The following discussion derives the statement
+  from the rational map defined by the system and Sard/Bertini.
+- B219 first applies it to the projective linear system spanned by one
+  section with prescribed ODP two-jets and the kernel
+  \(H^0(I_{3Z}(e))\). The explicit cubed-separator product proves that
+  its base locus is contained in \(Z\).
+- B219 then applies it to the projective span of \(f\) and all
+  \(x_0G\). Its base locus is the fixed hyperplane section \(Y\); the
+  proof separately checks smoothness at smooth points and nodes of \(Y\),
+  so Bertini is used only off that base.
+- Scope guard: Bertini chooses smooth members in these special linear
+  systems. It neither transfers the construction to an arbitrary fixed
+  variety nor supplies a Hodge detector, specified pairing, algebraic
+  cycle, or the Hodge Conjecture.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

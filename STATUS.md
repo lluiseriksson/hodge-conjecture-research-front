@@ -1044,6 +1044,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   Gauss-contact linearity are checked with their generic/special scope.
 - NG179 - NO-GO: finite birationality and a singleton general Gauss fiber
   do not bound the cardinality of a special zero-dimensional fiber.
+- B219 - PROVED: for every \(d\ge2\) and \(N\ge1\), simultaneous ODP
+  jets in a hyperplane and a general extension \(F=f+x_0G\) produce a
+  smooth degree-\(3N\) hypersurface whose Gauss fiber over that hyperplane
+  contains the \(N\) prescribed points.
+- S079 - primary audit: Griffiths-Harris Appendix A.6 supplies generic
+  smoothness away from a linear system's base locus; B219 checks both
+  base loci separately.
+- NG180 - NO-GO: arbitrarily large Gauss fibers across specially built
+  hypersurfaces do not solve G146 for the arbitrary fixed \((X,\zeta)\)
+  and contain none of its detector data.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

@@ -847,6 +847,15 @@ one special normalization fiber containing \(D_{2n}(m)\) points. NG179
 prevents using generic Gauss birationality as a bound on this deliberately
 special finite fiber.
 
+B219 shows that the cardinality clause is not intrinsically impossible:
+for every \(d\ge2\) and \(N\), a degree-\(3N\) smooth hypersurface in
+\(\mathbf P^{d+1}\) can have one ordinary-Gauss fiber containing \(N\)
+points. The construction prescribes a nodal hyperplane section and smooths
+the ambient hypersurface in the normal direction; S079 audits the two
+Bertini uses. NG180 enforces the decisive scope guard: varying a special
+hypersurface with \(N\) neither constructs the fiber on an arbitrary fixed
+\(X\) nor supplies the class-directed detector.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
