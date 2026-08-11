@@ -2707,3 +2707,25 @@
   connection-compatible map from the actual full-family cohomological
   object to \(K_B\), prove differential stability, and retain every
   detector clause.
+
+## NG-143 - Finite conormal jets force all-order vanishing
+
+- **Label:** NO-GO
+- **Route:** verify B179's conormal escape defect through one fixed finite
+  jet order and promote that calculation to \(\beta_{K_B}=0\).
+- **Valid input:** the checked jets vanish.
+- **Invalid inference:** an analytic obstruction cannot first appear at a
+  higher order.
+- **Precise obstruction:** for any \(q\), choose \(m\ge q+2\) and
+  \(K_m=(y^m)\). Then
+  \(\beta_{K_m}([y^m])=m y^{m-1}dy\pmod {y^m}\) is nonzero, while its
+  coefficient has zero \(q\)-jet.
+- **Uniform-matroid guard:** B159 embeds this escape in a germ retaining a
+  uniform conormal matroid and smooth expected intersections for every
+  subset of at most \(R\) branches.
+- **Projective guard:** B157-B159 give projective finite-jet realization
+  over a nonlinear analytic base; this does not exclude a new theorem for
+  the full system.
+- **Re-entry condition:** prove literal analytic vanishing in G112, or
+  prove a new uniform order bound from full-system geometry, with every
+  detector clause retained.

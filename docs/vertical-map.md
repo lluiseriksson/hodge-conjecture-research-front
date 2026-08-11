@@ -504,6 +504,28 @@ and Picard--Lefschetz operator fixed while realizing
 \(K_B=(y^2)\) and \(\partial_yK_B\not\subset K_B\). Thus a new global
 comparison map, not nodewise flatness, is the next justified gate.
 
+B179 makes the target of that comparison canonical:
+
+\[
+ \beta_{K_B}:K_B/K_B^2\longrightarrow
+ \Omega^1_{F_B}\otimes\mathcal O_{F_B}/K_B,
+ \qquad [g]\longmapsto dg.
+\]
+
+One has
+
+\[
+ \beta_{K_B}=0\Longleftrightarrow K_B=0
+ \Longleftrightarrow H_\tau=0.
+\]
+
+G112 asks for all-order vanishing of this analytic module morphism in the
+full complete-system geometry. NG143 rules out every fixed finite-order
+replacement: \(K=(y^m)\) gives
+\(\beta([y^m])=m y^{m-1}dy\), nonzero modulo \(y^m\) but invisible to
+any prescribed \(q\)-jet once \(m\ge q+2\). A successful proof must kill
+the complete morphism or establish a new uniform geometric order bound.
+
 Two sufficient attacks feed G008:
 
 \[

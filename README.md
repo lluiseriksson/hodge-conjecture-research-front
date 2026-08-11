@@ -447,6 +447,19 @@ Gauss--Manin object to \(K_B\). NG142 blocks the nodewise shortcut:
 fixed ODP Milnor lattices coexist with \(K_B=(y^2)\), which is not stable
 under \(\partial_y\).
 
+B179 packages the exact remaining obstruction as the conormal morphism
+
+\[
+ \beta_{K_B}:K_B/K_B^2\longrightarrow
+ \Omega^1_{F_B}\otimes\mathcal O_{F_B}/K_B.
+\]
+
+It vanishes exactly when \(H_\tau=0\). G112 asks for literal analytic
+vanishing of this map in the full system. NG143 prevents finite-order
+promotion: for \(K=(y^m)\),
+\(\beta([y^m])=m y^{m-1}dy\) is nonzero modulo \(y^m\) but has zero
+\(q\)-jet whenever \(m\ge q+2\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1001,6 +1014,7 @@ python verification/verify_B175_free_discriminant.py
 python verification/verify_B176_logarithmic_orbit.py
 python verification/verify_B177_symmetry_ceiling.py
 python verification/verify_B178_differential_escape.py
+python verification/verify_B179_conormal_defect.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1256,6 +1270,8 @@ polarized-automorphism orbit; NG141 shows that positive symmetry dimension
 alone cannot span the logarithmic kernel. B178/G111 convert the remaining
 escape into differential-ideal stability; NG142 shows that local
 Gauss--Manin flatness does not provide the required scalar connection.
+B179/G112 name the exact conormal morphism to kill; NG143 excludes every
+fixed finite-jet promotion.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

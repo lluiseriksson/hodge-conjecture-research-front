@@ -721,6 +721,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   full-family Gauss--Manin/vanishing-cycle object to \(K_B\).
 - NG142 - NO-GO: constant nodewise Milnor and Gauss--Manin data do not
   stabilize critical values; \(K_B=(y^2)\) has derivative \(2y\notin K_B\).
+- B179 - PROVED: the canonical conormal map
+  \(\beta_{K_B}:K_B/K_B^2\to\Omega^1_{F_B}\otimes O_{F_B}/K_B\)
+  vanishes exactly when \(H_\tau=0\).
+- G112 - EXPLORATORY: prove that complete analytic morphism vanishes in
+  the full system while retaining every detector clause.
+- NG143 - NO-GO: no fixed finite conormal jet order suffices;
+  \(m y^{m-1}dy\) is invisible through any prescribed order but remains
+  nonzero modulo \(y^m\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1277,7 +1285,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   quotient; NG141 forbids replacing its dimension by mere symmetry
   invariance. B178/G111 recast the residual escape as differential-ideal
   stability. NG142 proves that nodewise Gauss--Manin flatness acts on the
-  wrong object unless a new comparison map is constructed.
+  wrong object unless a new comparison map is constructed. B179/G112
+  isolate its exact conormal target, and NG143 excludes bounded-jet
+  substitutes.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
