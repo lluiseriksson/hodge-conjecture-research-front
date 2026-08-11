@@ -2520,3 +2520,27 @@
   image lies in the global rank-\(R\) evaluation degeneracy locus, or
   solve the weaker G100 factorization directly, while retaining the
   specified pairing.
+
+## NG-135 - Infer constant critical rank from smooth excess
+
+- **Label:** NO-GO
+- **Route:** prove \(H_\tau=0\), or only B146's Hessian equations on
+  \(\ker E\times\ker E\), and infer G107.
+- **Valid input:** smooth excess gives analytic critical-value syzygies
+  and kills every pure conditional Kuranishi tensor.
+- **Invalid inference:** it also kills the determinantal mixed tensor on
+  \(W\times\ker E\).
+- **Precise obstruction:** the affine-linear ODP model has
+
+  \[
+  \tau=(x,(1+y)x),\qquad I_\tau=(x),\qquad H_\tau=0,
+  \]
+
+  with lifted relation \((1+y)\tau_1-\tau_2=0\). Nevertheless
+  \(\det(d\tau)=x\), and the central relation evaluates to \(-1\) on
+  \(d^2\tau_0(\partial_x,\partial_y)\).
+- **Projective guard:** S065 realizes the decisive finite jets on a
+  projective linear slice, not a rank-deficient full complete system.
+- **Re-entry condition:** verify B171's mixed equations and every higher
+  determinantal condition directly if pursuing optional G107. Otherwise
+  return to the exact G100 syzygy gate and its specified pairing.

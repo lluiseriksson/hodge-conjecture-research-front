@@ -350,6 +350,20 @@ affine-linear local family with critical values \((x,x-y^2)\) has central
 uniform rank one but quadratic escape. It is projectively realizable on a
 linear slice, so affine-linearity alone is insufficient.
 
+B171 computes the extra tangent cost of G107: relation-weighted critical
+Hessians must vanish on \(W\times\ker E\), not merely on
+\(\ker E\times\ker E\). Under full gradient surjectivity and a uniform
+value matroid this is impossible. NG135 further shows that
+
+\[
+ \tau=(x,(1+y)x)
+\]
+
+already has \(H_\tau=0\) and a smooth factorized node ideal while
+\(\det(d\tau)=x\). G107 is therefore retained only as an optional
+sufficient route. The exact active gate remains G100's analytic syzygy
+lifting with the nonzero specified pairing.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -896,6 +910,7 @@ python verification/verify_B165_characteristic_cycle.py
 python verification/verify_B168_normal_cone.py
 python verification/verify_B169_microlocal_syzygy.py
 python verification/verify_B170_critical_rank.py
+python verification/verify_B171_mixed_determinant.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1132,6 +1147,8 @@ critical-value syzygy lifting.
 B170/G107/NG134 then expose a falsifiable sufficient branch: constant
 rank of evaluation at the moving critical configuration, with
 affine-linearity alone excluded as its source.
+B171/NG135 prove that this branch is strictly stronger than \(H_\tau=0\);
+it is optional rather than a replacement for G100.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

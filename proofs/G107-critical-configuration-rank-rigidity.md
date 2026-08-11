@@ -13,7 +13,7 @@ hodge_type: the retained relation functional must be rational type (0,0) after Q
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative of zeta may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B134-B170, G090-G106, NG118-NG134
+dependencies: B134-B171, G090-G106, NG118-NG135
 claim: Construct carrier-free class-directed full-linear-system nodal data and fixed local Morse gauges for which the complete moving critical-point configuration remains inside the rank-at-most-R value-evaluation degeneracy locus, while retaining the superlinear uniform matroid, isolated exhaustive ODPs, positive adjoint defect, nonzero primitive ambient image, rational type, and nonzero specified Saito pairing.
 falsifier: one nearby parameter where moving critical-point evaluation has rank greater than R, an untracked singularity, failure of the uniform matroid or adjoint/ambient conditions, or zero specified pairing
 ---
@@ -59,3 +59,11 @@ to \(H_\tau=0\) is invariant even though the sufficient rank certificate
 is not.
 NG134 shows that affine-linearity of the hypersurface family does not
 establish (1); an actual full-system determinantal mechanism is required.
+
+B171 gives the first tangent equation for (1): every relation-weighted
+Hessian pairing must vanish on \(W\times\ker E\). This is strictly
+stronger than B146's \(\ker E\times\ker E\) condition. NG135 exhibits an
+affine-linear ODP germ with \(H_\tau=0\) and a smooth factorized node ideal
+but nonzero mixed obstruction and jumping Jacobian rank. Accordingly G107
+is an optional sufficient mechanism, not the active replacement for the
+exact G100 syzygy gate.

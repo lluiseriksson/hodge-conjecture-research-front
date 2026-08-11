@@ -1968,6 +1968,10 @@ Mathematics* (2) **61** (1955), 197–278.
   ODPs. Their span is an affine-linear projective slice, and the nonzero
   quadratic critical-value term is fixed by those first jets. This does
   not assert rank deficiency for the full complete system.
+- NG135 uses another pair of prescribed gradients, now forming a
+  hyperbolic cross-term, to realize the mixed Hessian obstruction while
+  the critical-value ideal itself is smooth. Again only the finite-jet
+  obstruction, not full-system rank deficiency, is imported.
 - Scope guard: the power depends on the fixed finite point scheme. This
   theorem gives jet interpolation; it neither makes the analytic base map
   linear nor supplies a vanishing-cycle relation, Hodge type, or specified

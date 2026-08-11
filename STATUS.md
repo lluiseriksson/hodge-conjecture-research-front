@@ -661,6 +661,13 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG134 - NO-GO: affine-linearity alone does not force that containment;
   \((x,x-y^2)\) is an affine-linear ODP critical-value model with central
   uniform rank one and quadratic escape.
+- B171 - PROVED: G107's first determinantal tangent equation is mixed
+  relation-Hessian vanishing on \(W\times\ker E\); full gradient
+  surjectivity and a uniform value matroid make it impossible.
+- NG135 - NO-GO: \(H_\tau=0\) and smooth excess do not imply G107;
+  \(\tau=(x,(1+y)x)\) has ideal \((x)\) but \(\det(d\tau)=x\).
+- Gate correction: G107 is optional and strictly stronger than necessary;
+  G100 direct analytic syzygy lifting remains the exact active clause.
 - B169 - PROVED: in an exhaustive tracked-ODP neighborhood, actual
   ambient microsupport absorption and full-envelope absorption are both
   equivalent to persistence of every node, \(H_\tau=0\), and analytic
@@ -1194,7 +1201,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   independent weakening.
   B170/G107 make moving critical-configuration rank rigidity a concrete
   sufficient attack; NG134 blocks deriving it from affine-linearity
-  without a full-system determinantal theorem.
+  without a full-system determinantal theorem. B171/NG135 show that this
+  attack also imposes mixed Hessian equations absent from \(H_\tau=0\), so
+  it remains optional rather than replacing G100.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -69,3 +69,7 @@ evaluation has constant rank \(R\), the constant-rank theorem gives
 \(H_\tau=0\). G107 asks for this determinantal containment with all
 detector clauses retained. It is stronger than G100 and NG134 proves that
 linearity of a projective slice does not establish it.
+B171/NG135 sharpen the guard: constant critical rank requires mixed
+\(W\times\ker E\) Hessian vanishing and can fail even when \(H_\tau=0\).
+G107 is therefore optional; the exact active obligation remains direct
+analytic syzygy lifting in G100.

@@ -544,3 +544,11 @@ degeneracy locus. NG134 tests and rejects the first automatic mechanism:
 an affine-linear projective slice already realizes the quadratic escape
 \((x,x-y^2)\). What remains must use the full complete-system evaluation
 geometry, not merely linear dependence of the family on its parameters.
+
+B171/NG135 prevent this sufficient target from silently becoming the new
+gate. Determinantal containment requires mixed Hessian vanishing on
+\(W\times\ker E\), whereas smooth excess controls only the conditional
+directions. The factorized affine-linear model
+\(\tau=(x,(1+y)x)\) has \(H_\tau=0\) but jumping Jacobian rank. G107 is
+therefore an optional strong mechanism; the exact frontier remains G100's
+direct analytic syzygy lifting with the class-specific Saito pairing.

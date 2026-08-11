@@ -55,7 +55,7 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \Longleftrightarrow
 \text{full ambient normal-cone absorption G106}
 \Longleftarrow
-\text{moving critical-configuration rank rigidity G107}
+\text{optional moving critical-configuration rank rigidity G107}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -321,6 +321,30 @@ even the affine-linear two-chart family
 The countermodel is a projective linear slice, so it blocks linearity
 alone but not a theorem using the full complete-system determinantal
 geometry.
+
+B171 computes the tangent price of this optional route. Determinantal
+tangency requires
+
+\[
+ \pi_{\operatorname{coker}E}d^2\tau_0(a,b)=0
+ \qquad(a\in W,\ b\in\ker E),
+\]
+
+which is stronger than B146's condition with both arguments in
+\(\ker E\). Under full gradient surjectivity and a uniform value matroid,
+these mixed equations are impossible. NG135 then gives the sharper
+separation
+
+\[
+ \tau=(x,(1+y)x),\qquad
+ H_\tau=0,\qquad
+ \det d\tau=x.
+\]
+
+Thus even a reduced smooth factorized excess germ need not satisfy G107.
+The vertical route retains G107 only as a sufficient optional branch; the
+smallest exact active gate remains G100's direct analytic syzygy lifting
+with the specified pairing.
 
 Two sufficient attacks feed G008:
 
