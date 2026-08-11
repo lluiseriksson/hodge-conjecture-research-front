@@ -1279,11 +1279,19 @@ B251 closes that rank as well. The residual branch is B237 on
 \(Q^{d-2}\); all filled mixed branches retain a projective-four-space
 contact bound, and the sole branch leaving one dimension receives at
 least \(d-4\) dimensions from the next tangent. Hence G174 and
-\(s=8d-5\) are **NO-GO** (NG209). The active smallest gate is G175:
+\(s=8d-5\) are **NO-GO** (NG209).
+
+B252 also closes the next rank. In even dimension \(d\ge10\), the
+all-residual quotient has rank at most \(3(d-2)+3\), strictly below
+B246's standard floor \(5(d-2)-3\). Every mixed branch either fills
+while retaining a projective-four-space contact bound or leaves at
+most two dimensions, fewer than the next tangent's \(d-4\) residual
+dimensions. Hence G175 and \(s=8d-3\) are **NO-GO** (NG210). The active
+smallest gate is G176:
 
 \[
- m=2,\qquad s=8d-4,\qquad \delta_1=4d-2,\qquad
- N=10d-2,\qquad h_Z(1)=5d-1=N/2.
+ m=2,\qquad s=8d-2,\qquad \delta_1=4d-1,\qquad
+ N=10d,\qquad h_Z(1)=5d=N/2.
 \]
 
 Only the standard quadric polarization survives this new rank test.
@@ -1899,6 +1907,7 @@ python verification/verify_B248_fixed_additive_quadric.py
 python verification/verify_B249_slope_eight_floor.py
 python verification/verify_B250_standard_slope_eight_equality.py
 python verification/verify_B251_standard_one_beyond_slope_eight.py
+python verification/verify_B252_standard_two_beyond_slope_eight.py
 ```
 
 The repository verifier checks the required directory topology, result

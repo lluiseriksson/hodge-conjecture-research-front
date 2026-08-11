@@ -1265,9 +1265,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   exceeds its last one-dimensional quotient by at least \(d-4\).
 - G174 - NO-GO: the layers \(s=8d-6,8d-5\) fail.
 - NG209 - NO-GO: standard survival one rank beyond slope eight.
-- G175 - EXPLORATORY, active smallest branch: construct the balanced
-  package with \(s=8d-4,\delta_1=4d-2,N=10d-2\), and
-  \(h_Z(1)=5d-1=N/2\).
+- B252 - PROVED: two ranks above equality, the residual branch lies
+  below B246 on \(Q^{d-2}\); every mixed branch is either confined to
+  \(\mathbf P^4\) or exceeds its last one- or two-dimensional quotient
+  by at least \(d-4\).
+- G175 - NO-GO: the layers \(s=8d-4,8d-3\) fail.
+- NG210 - NO-GO: standard survival two ranks beyond slope eight.
+- G176 - EXPLORATORY, active smallest branch: construct the balanced
+  package with \(s=8d-2,\delta_1=4d-1,N=10d\), and
+  \(h_Z(1)=5d=N/2\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

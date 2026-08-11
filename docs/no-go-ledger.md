@@ -4132,3 +4132,29 @@
   and HC remain open.
 - **Re-entry condition:** G175 begins at
   \(s=8d-4,\delta_1=4d-2,N=10d-2,h_Z(1)=5d-1\).
+
+## NG-210 - Survive two ranks beyond standard slope-eight equality
+
+- **Label:** NO-GO
+- **Route:** attain \(h_Z(1)=5d-1\) with the standard quadratic
+  embedding.
+- **Valid premise:** two extra dimensions reopen B251's minimal mixed
+  branches and put the residual quotient at \(3(d-2)+3\).
+- **Invalid inference:** those reopened branches absorb every later
+  marked tangent.
+- **Residual obstruction:** for even \(d\ge10\), the residual rank is
+  below B246's standard floor \(5(d-2)-3\) on \(Q^{d-2}\).
+- **Filled-branch obstruction:** every filled branch retains rank-one
+  annihilators indexed by a \((d-3)\)-space \(J\), so contact remains
+  in \(\mathbf P(J^\perp)\simeq\mathbf P^4\).
+- **Residual-budget obstruction:** if one or two dimensions remain, a
+  point outside \(J^\perp\) contributes at least \(d-4>2\).
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge10\), is a
+  valid input, and one such input falsifies G175's universal claim. No
+  special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G175 and both layers \(8d-4,8d-3\) are closed. G148
+  and HC remain open.
+- **Re-entry condition:** G176 begins at
+  \(s=8d-2,\delta_1=4d-1,N=10d,h_Z(1)=5d\).

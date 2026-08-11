@@ -2002,18 +2002,26 @@ B251 excludes the next rank. The residual branch becomes B237 at rank
 retains a \((d-3)\)-space of rank-one annihilators and hence the same
 \(\mathbf P^4\) contact bound. The sole branch leaving one quotient
 dimension receives at least \(d-4\) dimensions from the next tangent.
-Thus G174 and \(s=8d-5\) are NO-GO. The next signature is
+Thus G174 and \(s=8d-5\) are NO-GO.
+
+B252 excludes the next rank for every even \(d\ge10\). Its residual
+quotient has rank at most \(3(d-2)+3\), below B246's standard floor
+\(5(d-2)-3\). In the mixed branches the same \((d-3)\)-space of
+rank-one annihilators survives; a filled span has contact in
+\(\mathbf P^4\), while a span leaving one or two dimensions is exceeded
+by the next tangent's rank \(d-4\). Thus G175 and \(s=8d-3\) are
+NO-GO. The next signature is
 
 \[
- \delta_1=4d-2,\qquad N=10d-2,\qquad
- \dim E_1=5d-1=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+ \delta_1=4d-1,\qquad N=10d,\qquad
+ \dim E_1=5d=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
 \]
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G175: construct two ranks beyond slope-eight equality}
+ \text{G176: construct three ranks beyond slope-eight equality}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 
