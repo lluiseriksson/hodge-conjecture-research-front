@@ -185,8 +185,10 @@ Date: 2026-08-11
   specialization kernel, so its nearby image is zero. NG099 closes this
   filtered-lift branch. B124/NG100 then prove that G065's reversed
   relative-boundary mechanism already imposes G030's exact target because
-  primitive realization is constant on the relative-lift torsor. G031 is
-  the narrower active pairing gate.
+  primitive realization is constant on the relative-lift torsor. B125 then
+  reduces G031 exactly to G084's clean-support incidence. B126/NG101 exclude
+  a local suspended-$A_2$ versal cleanup, leaving a global class-specific
+  topology-changing incidence as the active obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -354,8 +356,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   is a strictly stronger linear-algebra obligation.
 - NG039 - NO-GO: G030's exact target equality is not a necessary or
   terminal-equivalent formulation of the local detection criterion.
-- G031 - EXPLORATORY, active gate: find a Li-clean multipart nodal relation
+- G031 - EXPLORATORY, active parent: find a Li-clean multipart nodal relation
   whose ambient class pairs nontrivially with the specified Hodge class.
+- B125 - PROVED: on the clean nodal locus, G031 is exactly nonemptiness of
+  the class-specific local-support intersection; relation existence and type
+  are automatic after the parameter is found.
+- G084 - EXPLORATORY, active smallest gate: prove that clean-support
+  intersection is nonempty for some sufficiently high embedding.
+- B126 - PROVED: the suspended $A_2$ miniversal slice has exactly one
+  singular point on every discriminant fiber and no two-node member.
+- NG101 - NO-GO: local $A_2$ versal nodalization cannot supply a clean
+  multipart relation; a global topology-changing deformation is required.
 - G032 - EXPLORATORY cleanup subgate: upgrade an arbitrary detecting singular
   member to the Li-clean nodal locus while preserving the specified pairing.
 - NG040 - NO-GO: generic morsification and Milnor-number conservation do not
@@ -805,8 +816,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   exactly when $\Phi_{Y_0}(\beta)=c$.
 - NG100 - NO-GO: neither relative-lift ambiguity nor a different marked
   presentation can tune the primitive ambient target.
-- G031 - EXPLORATORY, active minimal gate: construct one clean multipart
-  nodal relation with nonzero prescribed pairing. G065 remains a stronger
+- G031 - EXPLORATORY, active parent; B125 reduces it exactly to G084.
+- G084 - EXPLORATORY, active minimal gate: force the class-specific support
+  to meet the Li-clean multipart nodal locus. G065 remains a stronger
   exact-target collision mechanism.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient

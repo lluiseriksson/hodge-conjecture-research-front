@@ -66,4 +66,5 @@ $u_\Delta(S_0)=0$. Thus G065 has the correct relative-boundary direction.
 However B124/NG100 prove that its ambient compatibility clause already
 contains G030's exact equality $\Phi_{Y_0}(\beta)=c$; relative-lift ambiguity
 cannot tune that value. G065 remains a valid sufficient construction, but
-G031's nonzero-pairing obligation is the narrower active gate.
+G031's nonzero-pairing obligation is narrower, and B125 isolates G084 as its
+active exact subgate.

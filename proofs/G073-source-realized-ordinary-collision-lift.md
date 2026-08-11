@@ -76,6 +76,6 @@ then prove filtered liftability is impossible for a nonzero nearby class.
 G065 is the directionally valid replacement mechanism: construct the
 relation as the marked boundary of the selected relative class; B117-B119
 then control its support and type. B124/NG100 show that its exact ambient
-target is stronger than active gate G031.
+target is stronger than active gate G084.
 G073 itself constructs no
 algebraic cycle and does not resolve the terminal conjecture.

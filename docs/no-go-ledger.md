@@ -816,8 +816,8 @@
   \(D=\mathbf Q(1,1)\). The subspace \(D\) detects \(\zeta\), but
   \(c\notin D\).
 - **Re-entry condition:** retain exact equality only as the stronger G030
-  mechanism. The active G031 gate requires the geometrically necessary
-  condition \(\langle\zeta,\Phi_{Y_p}(\beta)\rangle\ne0\).
+  mechanism. B125 reduces the necessary G031 condition to active G084's
+  clean-support incidence.
 
 ## NG-040 - Generic morsification preserves local detection
 
@@ -1864,6 +1864,26 @@
   when $\Phi_{Y_0}(\beta)=c$, so G065 already contains G030's exact-target
   obligation.
 - **Re-entry condition:** prove G030's equality using genuinely new collision
-  geometry, or abandon the preselected target and attack active G031's
-  strictly weaker nonzero-pairing condition. Representative choice alone
-  cannot reopen the route.
+  geometry, or abandon the preselected target and attack G084's strictly
+  weaker clean-support incidence. Representative choice alone cannot reopen
+  the route.
+
+## NG-101 - Local A2 nodalization supplies a clean relation
+
+- **Label:** NO-GO
+- **Route:** move a detecting suspended $A_2$ support point inside its local
+  miniversal two-parameter deformation to one fiber carrying several nodes
+  and a nonzero relation.
+- **Valid input:** the $A_2$ Milnor number is two, and a morsification has two
+  distinguished Morse critical points across the family.
+- **Invalid inference:** the critical points occur simultaneously in one
+  fiber.
+- **Precise obstruction:** B126 parametrizes the discriminant critical value
+  by $x\mapsto(-3x^2,2x^3)$ and proves this map injective. Every noncentral
+  discriminant fiber has one node; the central fiber has one $A_2$ point.
+  The local base contains no multipart nodal target and hence no one-fiber
+  nodal relation channel.
+- **Re-entry condition:** construct a global topology-changing deformation
+  that adds or recollides critical points outside the single versal germ and
+  prove preservation of the class-specific restriction/pairing. This is the
+  remaining G084/G032 obligation.

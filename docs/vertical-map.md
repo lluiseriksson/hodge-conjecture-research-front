@@ -309,8 +309,8 @@ B124/NG100 then audit the endpoint of that direction. Primitive realization
 is constant on the relative-lift torsor, so G065's value-$c$ clause already
 contains G030's exact equality $\Phi_{Y_0}(\beta)=c$. The map of pairs adds
 geometric structure but does not reduce this obligation. Thus this chain is
-retained as a sufficient exact-target mechanism; G031 is the narrower active
-nonzero-pairing gate.
+retained as a sufficient exact-target mechanism; G031 is the narrower
+nonzero-pairing parent and B125 isolates active subgate G084.
 
 B110/NG086 correct the dependency order: the collision must
 first construct an actual collision-certified realization of the selected
@@ -532,7 +532,8 @@ then identify the relation step with the specialization kernel and close the
 nearby-lift branch G070-G071/G079-G083. B120-B122/NG096/NG098 remain valid
 ordinary-lift audits but no longer feed the relation construction. G065 is
 a directionally valid marked relative-boundary mechanism. B124/NG100 show
-that its ambient clause is not a reduction below G030; G031 is active.
+that its ambient clause is not a reduction below G030; G084 is active under
+G031.
 G066-G068 are stronger historical construction variants; B101 and
 B099-B100 give the propagation once G065 is proved.
 
@@ -672,19 +673,23 @@ proposal G009, now disproved by B027.
 
 ## Current active geometric gate
 
-**G031: clean-nodal intersection with class-specific support.** Construct a
-Li-clean multipart nodal member and a rational local relation \(\beta\) with
+**G084: class-specific support meets the clean nodal locus.** Prove
 
 \[
- \langle\zeta,\Phi_{Y_p}(\beta)\rangle\ne0.
+ \Sigma_{\zeta,m}\cap C_m^{\mathrm{clean}}\ne\varnothing
 \]
 
-B010 and B007 propagate this to HC. The attempt remains terminal-hard:
+for some sufficiently high embedding. B125 proves that B010, Saito's nodal
+Hodge-type theorem, and B054 automatically supply G031's relation and
+nonzero pairing after this parameter is found. B007 then propagates to HC.
+The attempt remains terminal-hard:
 B012 does not prove that \(\operatorname{Sing}(\zeta)\) is nonempty, and
 B054 computes the clean local channel without forcing its intersection with
 that support. G032 isolates the additional cleanup theorem that would
 upgrade an arbitrary detecting singular member to this controlled locus.
-NG040 eliminates generic morsification as its proof. G033 isolates the first
+NG040 eliminates generic morsification as its proof. B126/NG101 sharpen the
+local obstruction: a suspended $A_2$ miniversal slice has no fiber with two
+nodes, so local adjacency cannot supply the clean relation. G033 isolates the first
 falsifiable nearby-cycle comparison obligation; B061-B062 and NG042 show why
 neither clean boundary equations nor the graph trick discharge it formally.
 
@@ -697,7 +702,7 @@ nonzero pairing. B101 propagates such a marked map of pairs through G064;
 B099-B100 then identify the resulting primitive ambient Saito class.
 B124/NG100 prove that the last ambient clause is rigid: all relative lifts
 of the same relation have one primitive value. Hence G065 can succeed only
-after the exact G030 equality is true; it is not a smaller gate than G031.
+after the exact G030 equality is true; it is not a smaller gate than G084.
 
 G030 is a stronger proposed mechanism. B011 supplies a global
 tube detector for every nonzero primitive class, B022 identifies the two
@@ -858,8 +863,9 @@ parent. B055 proves ambient-image rigidity on each connected equisingular
 component, and NG037 closes monodromy generation as a NO-GO. B056-B057
 localize and identify the global detector chain; NG038 closes the total
 equator as a NO-GO; B058 makes its ambient target Hodge; B059/NG039 remove
-exact target recovery as a necessary condition; and G031 is now the active
-clean-nodal pairing gate. The fixed-carrier branch may use
+exact target recovery as a necessary condition; B125 reduces G031 to G084,
+the active clean-support incidence gate. B126/NG101 exclude a local $A_2$
+versal cleanup. The fixed-carrier branch may use
 the dimension-scaled inequality \(|S|\le q r_A(S)\), but no theorem yet
 connects a specified global detector to such a nodal relation.
 

@@ -13,7 +13,7 @@ hodge_type: primitive rational type (0,0) input and rational type-(0,0) local re
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B022, B025, B054, G008, G031, and NG040
+dependencies: B007-B010, B022, B025, B054, B064, B125-B126, G008, G031, G084, NG040, and NG101
 claim: Every singular hyperplane section detecting a primitive rational Hodge class can be connected through an algebraic topology-changing deformation to a Li-clean multipart nodal member carrying a Saito relation that retains nonzero pairing with that class.
 falsifier: a detecting singular hyperplane for which every accessible Li-clean multipart nodal deformation has zero relation space, loses the class through specialization, or has ambient detector image orthogonal to the specified Hodge class
 ---
@@ -56,6 +56,12 @@ zero rational degree-one local intersection-cohomology channel there.
 Consequently, generic morsification destroys the one-point higher-stratum
 configuration instead of producing a Saito relation at one nodal member.
 NG040 records this failed inference.
+
+The suspended $A_2$ chart makes the failure sharper. B126 proves its local
+miniversal discriminant has exactly one singular point on every fiber: one
+node away from the cusp and one $A_2$ point at the cusp. There is no local
+two-node target to recollide. NG101 therefore requires any cleanup theorem
+to leave the single local versal germ and use global incidence geometry.
 
 ## Attempt 2 - Recollide the Morse points
 

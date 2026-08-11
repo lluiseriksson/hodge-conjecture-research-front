@@ -88,7 +88,7 @@ B059 proves that exact recovery of \(c\) is strictly stronger than the
 terminal requirement
 \(\langle\zeta,\Phi_{Y_0}(\beta)\rangle\ne0\). Consequently G065 remains a
 valid sufficient research route, but it cannot be labeled the narrowest
-active gate.
+active gate. B125 identifies that gate as G084's clean-support incidence.
 
 ## Scope guard
 

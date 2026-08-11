@@ -106,4 +106,5 @@ only
 Exact recovery of the independently selected \(c\) is sufficient but
 strictly stronger in linear algebra. NG039 therefore closes the use of G030
 as the smallest necessary gate. G030 remains a valid exploratory geometric
-theorem, but G031 is the active pairing-preserving formulation.
+theorem, but B125 isolates G084 as the active support-incidence formulation
+under G031.

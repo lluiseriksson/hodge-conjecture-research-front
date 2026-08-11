@@ -498,6 +498,12 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   nonprimitive part, so every lift of the fixed $\beta$ has the same
   primitive value. The source supplies no freedom to tune this value to a
   preselected global tube class.
+- Rechecked Theorem 1(ii) and Theorem 3 for B125. At a nodal member, every
+  rational relation has the required Tate-normalized type, and nonzero
+  restriction of the specified primitive Hodge class is equivalent to
+  nonzero pairing with one canonical relation class. Combined with S024's
+  local-restriction criterion, this removes relation choice from G084 and
+  leaves only the clean-support incidence.
 - For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
   thimble pair. Naturality proves the boundary square only after a map of
   pairs is supplied. S022 does not construct such a map from an arbitrary
