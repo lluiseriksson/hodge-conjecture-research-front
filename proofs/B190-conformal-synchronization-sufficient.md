@@ -105,4 +105,6 @@ take \(\lambda=(1,\ldots,1)\in S\), and use identical \(B_i\) and diagonal
 B190 does not prove that the full conditional-gradient image of an
 arbitrary projective complete linear system has form (1). It constructs no
 adjoint defect, primitive image, rational detector, specified pairing,
-higher Kuranishi vanishing, smooth integration, or algebraic cycle.
+higher Kuranishi vanishing, smooth integration, or algebraic cycle. B191
+recasts every hypothesis intrinsically on the full coherent jet quotient;
+there is no freedom to replace that quotient by a smaller family.

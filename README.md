@@ -594,6 +594,17 @@ inside a small high-power subfamily is invalid: fixed-point jet separation
 restores node-isolated directions in the full system and makes the
 augmented annihilator zero.
 
+B191 makes G122 intrinsic. The quotient
+\(V=H^0(I_ZL)/H^0(I_{2Z}L)\) is the full conditional-gradient image. A
+single node determines it exactly when
+\(H^0(I_{\Psi_i}L)=H^0(I_{2Z}L)\); this must hold at every node and forces
+\(\dim V\le2n\). Conformal synchronization is then precisely nonzero
+tensor rank one of \((d_i^*B_i)_i\), with its value factor in
+\(\operatorname{im}E\). G123 is this falsifiable coherent gate. NG154
+shows that even the scalable B142-B143 product-fiber detector fails it:
+its full gradient rank is \(nR+n>2n\), because carrier motion omits an
+\(nR\)-dimensional conormal block.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1159,6 +1170,7 @@ python verification/verify_B186_kuranishi_ladder.py
 python verification/verify_B187_full_support_ceiling.py
 python verification/verify_B188_augmented_hessian.py
 python verification/verify_B189_B190_augmented_filters.py
+python verification/verify_B191_intrinsic_conformal.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1440,7 +1452,10 @@ replace the existential relation by an augmented Hessian-value rank defect;
 NG152 blocks deriving it from dimension alone. B189 exposes the necessary
 all-node isolated-jet defect. B190/G122 give a conformally synchronized
 sufficient branch that kills every quadratic relation, while NG153 blocks
-manufacturing it by restricting a fixed-node high-power full system.
+manufacturing it by restricting a fixed-node high-power full system. B191
+and G123 recast the branch as one-node coherent determination plus a
+rank-one intrinsic Hessian tensor; NG154 shows that the known scalable
+product-fiber detector has too many full-system conormal gradients.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

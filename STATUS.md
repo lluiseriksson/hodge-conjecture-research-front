@@ -821,6 +821,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG153 - NO-GO: synchronization prescribed in a selected high-power
   subfamily disappears in the full system; fixed-point first-jet
   separation gives \(S=\mathcal T\), \(U=\bigoplus_iG_i\), and \(L_U=0\).
+- B191 - PROVED: full conformal synchronization is equivalent to all
+  one-node first-jet kernel equalities plus nonzero tensor rank one of the
+  intrinsic pulled-back Hessian tuple; it forces \(q\le2n\).
+- G123 - EXPLORATORY: construct those coherent equalities and the rank-one
+  Hessian tensor from arbitrary \((X,\zeta)\), with its value factor in the
+  no-coloop value image and every rational detector clause retained.
+- NG154 - NO-GO: the B142-B143 product-fiber witness has full gradient rank
+  \(nR+n>2n\); its carrier-motion quotient omits an \(nR\)-dimensional
+  conormal block and cannot satisfy one-node determination.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1400,7 +1409,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   rules out obtaining that defect from the dimension ceiling alone. B189
   adds the all-node local interpolation filter. B190/G122 identify a
   conformally synchronized sufficient branch for the full quadratic rung;
-  NG153 excludes producing it in a restricted high-power subfamily.
+  NG153 excludes producing it in a restricted high-power subfamily. B191
+  and G123 make the branch intrinsic through one-node determination and a
+  rank-one Hessian tensor. NG154 excludes the known scalable product-fiber
+  detector because its full conormal-gradient block is too large.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

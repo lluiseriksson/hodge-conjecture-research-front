@@ -2957,3 +2957,28 @@
   bundle for which the defect belongs to the full universal incidence,
   passes B189 at every node, satisfies B190 globally, and retains the
   rational detector and specified nonzero pairing.
+
+## NG-154 - Use the product-fiber detector as conformal synchronization
+
+- **Label:** NO-GO
+- **Route:** promote the B142-B143 moving-fiber incidence, which already has
+  clean nodal geometry and a nonzero rational detector, to G122/G123.
+- **Valid input:** the full value matroid is uniform, the deep incidence is
+  smooth, and the unique relation pairs nontrivially with the primitive
+  Hodge line.
+- **Invalid inference:** the \(n\)-dimensional carrier-motion quotient is
+  the entire conditional-gradient image.
+- **Precise obstruction:** B152 proves that the full system also has an
+  \(nR\)-dimensional conormal-gradient image. Thus
+  \[
+  \dim U=nR+n=n(R+1)>2n
+  \]
+  for the B142 range \(R>1\). B191 requires every projection
+  \(U\to G_i\) to be injective into a \(2n\)-dimensional block, which is
+  impossible.
+- **Circularity guard:** the family additionally starts from a known
+  algebraic fiber, but the finite coherent gate already fails before that
+  logical issue is reached.
+- **Re-entry condition:** construct unanchored full-system data with
+  \(q\le2n\), all one-node kernel equalities, tensor rank one, value factor
+  in \(S\), and the specified rational detector.

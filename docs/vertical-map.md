@@ -798,6 +798,45 @@ sufficiently high twists separate all first jets, so the full system has
 \(S=\mathcal T\) and \(U=\bigoplus_iG_i\). A synchronized selected
 subfamily does not constrain that larger universal gradient image.
 
+B191 removes the auxiliary space and embeddings from B190. For the actual
+node scheme define
+
+\[
+ V=H^0(I_ZL)/H^0(I_{2Z}L),
+ \qquad d_i:V\to G_i.
+\]
+
+The full gradient image is canonically \(V\). It is a graph with injective
+projection to every node exactly when
+
+\[
+ H^0(I_{\Psi_i}L)=H^0(I_{2Z}L) \quad\text{for every }i, \tag{*****}
+\]
+
+where \(\Psi_i\) is double at \(p_i\) and reduced at all other nodes.
+Under (*****), \(q=\dim V\le2n\). The intrinsic Hessian tuple
+
+\[
+ \Gamma_Z=(d_i^*B_i)_i
+ \in\mathcal T\otimes\operatorname{Sym}^2V^*
+\]
+
+is conformally synchronized exactly when its flattening has nonzero rank
+one. Its value factor must lie in \(S=\operatorname{im}E\). G123 is this
+choice-free coherent form of G122. When \(H^1(X,L)=0\), it forces
+
+\[
+ h^1(I_{2Z}L)=(2n+1)N-R-q
+ \ge(2n+1)N-R-2n,
+\]
+
+but the inequality is only a necessary audit, never an existence proof.
+
+NG154 tests the scalable B142-B143 detector against (*****). B152 computes
+its full gradient rank as \(nR+n>2n\) for \(R>1\), so no projection to one
+node block can be injective. The moving fiber synchronizes a quotient, not
+the full universal gradient image.
+
 Two sufficient attacks feed G008:
 
 \[

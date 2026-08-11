@@ -53,4 +53,7 @@ the exact graph model that image is zero when \(N>1\).
 
 Even success at G122 would close only the quadratic Kuranishi rung. The
 cubic and higher obligations of B186 remain, as do smooth integration and
-the terminal cycle construction.
+the terminal cycle construction. B191/G123 give the intrinsic coherent
+form of this gate. NG154 shows that the B142-B143 moving-fiber witness does
+not satisfy it: its full conditional-gradient image is too large to be
+determined by any one node.
