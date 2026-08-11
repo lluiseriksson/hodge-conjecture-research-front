@@ -71,6 +71,8 @@ boundary, not an induction mechanism.
 | filtered-section stratum shortcut | NG115 audits B132's canonical filtered section as a proposed source of the saturated germ | the section is constant and nonzero; its ordinary survival locus is exactly G088 and supplies no nodal geometry |
 | ordered-node tangent reduction | B145 identifies the incidence tangent at N nodes with the kernel of value evaluation by inverting the nodal Hessians | G091 must construct a rank-smooth excess component with R<N and nonzero specified pairing |
 | generic ordered incidence | NG116 audits the first-jet-surjective expected-codimension component | value rank is N, so B027-B028 force zero adjoint defect and relation space |
+| second-order ordered-node obstruction | B146 computes the critical-value Hessian and proves that smooth uniform excess forces conditional-gradient corank at least n(R+1) | G092 must construct this common isotropic degeneracy and integrate it through all higher orders |
+| determinantal value-rank shortcut | NG117 audits rank(E)=R<N as a proposed smooth-excess mechanism | B145 gives only the tangent dimension; B146 supplies a generally nonzero quadratic obstruction |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -482,3 +484,13 @@ incidence point of codimension \(2nN+R\) therefore projects to B144's germ.
 G091 asks for such a component with \(R<N\) and nonzero pairing. NG116
 excludes the generic first-jet-surjective component: it has \(R=N\) and no
 adjoint relation.
+
+B146 differentiates the local critical-value map once more. Every relation
+among node values defines a Hessian quadratic form, and smooth excess forces
+the conditional gradient image to be totally isotropic for all of them. For
+a uniform \(U_{R,N}\) value matroid this costs at least \(n(R+1)\)
+dimensions. G092 asks for that special degeneracy plus higher-order
+integration and nonzero pairing. NG117 excludes a bare determinantal
+rank-drop argument. S032 and S061 show why this is an obstruction rather
+than a universal impossibility: smooth non-expected strata exist in special
+carrier or orbit geometry.

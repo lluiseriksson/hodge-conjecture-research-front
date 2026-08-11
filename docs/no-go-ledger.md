@@ -2192,3 +2192,23 @@
 - **Re-entry condition:** construct a nodal point with value rank \(R<N\)
   where the ordered incidence remains smooth of the exact smaller
   codimension \(2nN+R\), and prove a nonzero class-specific Saito pairing.
+
+## NG-117 - Infer smooth excess from value-rank drop
+
+- **Label:** NO-GO
+- **Route:** impose the determinantal condition
+  \(\operatorname{rank}E_\Delta=R<N\) and identify B145's tangent
+  codimension with the actual codimension of a reduced smooth component.
+- **Valid input:** the ordered-node incidence tangent has codimension
+  \(2nN+R\).
+- **Invalid inference:** tangent rank proves that the excess equations are
+  locally redundant.
+- **Precise obstruction:** B146 associates to every value relation a
+  Hessian quadratic form on conditional gradients. Smoothness forces the
+  entire gradient image to be simultaneously isotropic. For uniform
+  \(U_{R,N}\), its corank is at least \(n(R+1)\); if it is surjective, the
+  quadratic obstruction is explicitly nonzero.
+- **Re-entry condition:** construct the Hessian-isotropic gradient
+  degeneracy, integrate it through all higher orders to a reduced smooth
+  height-\(R\) smoothing ideal, and prove the nonzero class-specific pairing
+  in G092.

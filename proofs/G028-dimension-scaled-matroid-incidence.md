@@ -13,7 +13,7 @@ hodge_type: the selected relation must have type (0,0) after Q(n)
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic cycle is assumed or constructed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B010, B016, B028, B034, B054-B055, B142-B145, G012-G015, G019, NG037, and NG115-NG116
+dependencies: B010, B016, B028, B034, B054-B055, B142-B146, G012-G015, G019, G092, NG037, and NG115-NG117
 claim: For every specified nonzero primitive rational Hodge class, some high-power nodal member has a clean node incidence whose smoothing matroid partitions into a dimension-scaled number q of independent blocks, has positive adjoint defect and positive extra-to-primitive rank, and contains a rational type-(0,0) relation pairing nontrivially with the class.
 falsifier: a polarized smooth projective variety and primitive rational Hodge class for which every clean q-block nodal relation at every high power either violates the q-matroid partition inequalities, has zero adjoint/ambient rank, or has zero class pairing
 ---
@@ -102,3 +102,8 @@ B145/G091 sharpen the saturated germ into a smooth excess component of the
 ordered-node incidence. NG116 excludes the generic expected-codimension
 component: its first jets and node values are independent, so B027-B028
 force zero relation space.
+
+B146/G092 further require any uniform excess component to carry a common
+Hessian-isotropic conditional-gradient image of corank at least
+\(n(R+1)\). NG117 blocks using value-rank degeneracy without this second
+geometric failure and its higher-order integration.

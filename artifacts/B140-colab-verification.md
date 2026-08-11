@@ -61,3 +61,26 @@ arithmetic used as consistency guards in B140.
 - The final status line contains no changed paths. This confirms a clean
   cold clone. The later evidence-record commit changes documentation only;
   its exact SHA receives a second cold-clone run before handoff.
+
+## Latest exact published-suite reproduction
+
+- Input commit:
+  `41a49863a9cf8f487c9b0959d4aab559e37a2079`.
+- Surface: a new Colab Pro+ Python 3 CPU/high-RAM runtime with 50.99 GiB
+  visible memory.
+- The notebook cloned the repository with `--no-checkout`, checked out that
+  full SHA in detached mode, asserted the SHA, and required exactly 94
+  `verification/verify_*.py` scripts.
+- Every verifier ran in its own Python process with a 300-second individual
+  timeout. The terminal certificate was:
+
+  ```text
+  EXACT_RESULT=PASS 94/94 elapsed_seconds=17.761 cold_clone_clean=yes
+  ```
+
+- Python was 3.12.13 on x86_64. The final `git status --porcelain` was
+  empty. The runtime was disconnected and deleted after capture.
+- This is a computational consistency certificate for the published
+  parent of B146. It does not prove any analytic brick or the Hodge
+  Conjecture; the next commit adds one lightweight verifier and therefore
+  requires a new exact 95-script reproduction in the next high-RAM cycle.

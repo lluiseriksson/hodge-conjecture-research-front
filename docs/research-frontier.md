@@ -158,6 +158,21 @@ excess-incidence gate. NG116 closes the generic attempt: first-jet
 surjectivity gives \(R=N\), and B027-B028 then force zero adjoint defect and
 zero local relation.
 
+B146 computes the first obstruction beyond that tangent calculation. After
+eliminating each moving critical point, the local smoothing functions have
+Hessian
+
+\[
+d^2\tau_i(a,b)=-da_{p_i}(H_i^{-1}db_{p_i}).
+\]
+
+Every value relation must annihilate this Hessian on the tangent kernel. A
+uniform \(U_{R,N}\) relation therefore forces conditional-gradient corank
+at least \(n(R+1)\). G092 is the refined gate: construct this common
+isotropic degeneracy, integrate it to a reduced smooth height-\(R\)
+smoothing ideal, and retain the specified nonzero Saito pairing. NG117
+closes value-rank drop without that second degeneracy.
+
 G032 separates the extra cleanup content from terminal support nonemptiness:
 starting with any detecting singular member, deform it to the Li-clean nodal
 locus while preserving a nonzero pairing. The first attempt fails. By B025,

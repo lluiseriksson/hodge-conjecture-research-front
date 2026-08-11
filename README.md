@@ -165,6 +165,11 @@ identifies it with the kernel of value evaluation. Thus the required germ is
 the image of a smooth excess component of codimension \(2nN+R\). G091 asks
 for that component with nonzero pairing; NG116 excludes the generic
 jet-surjective incidence because it has \(R=N\) and zero defect.
+B146 computes the next obstruction: every value relation must annihilate a
+Hessian quadratic form on conditional gradients. For a uniform
+\(U_{R,N}\) matroid, smooth excess forces conditional-gradient corank at
+least \(n(R+1)\). G092 asks for that isotropic degeneracy and its
+higher-order integration; NG117 excludes bare determinantal value-rank drop.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -693,6 +698,7 @@ python verification/verify_B142_dimension_scaled_fiber.py
 python verification/verify_B143_fiber_clean_arrangement.py
 python verification/verify_B144_saturated_stratum.py
 python verification/verify_B145_ordered_node_tangent.py
+python verification/verify_B146_hessian_isotropy.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -879,6 +885,9 @@ that germ merely by taking a locus of the canonical filtered section.
 B145/G091 turn the replacement into a smooth excess ordered-node component;
 NG116 shows that the generic expected-codimension component is too
 transverse and has no relation.
+B146/G092 expose a second independent requirement: uniform excess needs a
+large common Hessian-isotropic failure of conditional gradient
+interpolation, and NG117 blocks inferring smoothness from value-rank drop.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

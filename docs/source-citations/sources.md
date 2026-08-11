@@ -1850,6 +1850,33 @@ and a Cayley-Bacharach theorem,” arXiv:2403.07272 (2024).
   claims only \(\omega(d)\), not a quadratic or other explicit floor. It
   constructs no nodes, vanishing-cycle relation, Hodge pairing, or cycle.
 
+## S061 - Obstructed equianalytic hypersurface strata
+
+Anna Gourevitch and Dmitry Gourevitch, “Geometry of obstructed
+equisingular families of projective hypersurfaces,” *Journal of Pure and
+Applied Algebra* 213 (2009), 1865-1889.
+[DOI](https://doi.org/10.1016/j.jpaa.2009.02.012),
+[arXiv](https://arxiv.org/abs/0803.2026),
+[PDF](https://arxiv.org/pdf/0803.2026).
+
+- Checked p. 13, Theorem 3.1: in the exceptional case \(n=4,d=3\), the
+  equianalytic germ of the displayed Fermat-type isolated hypersurface
+  singularity is smooth of codimension one less than expected. Remark 3.2
+  identifies the generalized exceptional germ as a \(\mathrm{PGL}\)-orbit.
+- Checked pp. 25-26, equation (5.2.16): after eliminating coordinate-change
+  directions, the remaining obstruction equation has an explicit quadratic
+  leading term. This supports treating tangent-rank data and reduced
+  smoothness as separate questions.
+- B146 does not import the paper's formulas. Its multi-node Hessian
+  obstruction is derived directly from analytic critical-point elimination;
+  S061 is an adversarial scope check showing that smooth non-expected
+  equisingular strata can exist in special orbit-type geometry.
+- Scope guard: S061 treats special equianalytic isolated-singularity
+  families in projective space. It does not construct a carrier-free
+  multinodal excess component on an arbitrary smooth projective variety,
+  a rational vanishing-cycle relation, a specified Hodge pairing, or an
+  algebraic cycle.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

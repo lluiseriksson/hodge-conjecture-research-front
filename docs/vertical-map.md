@@ -24,6 +24,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{unanchored saturated-stratum construction G090}
 \Longleftarrow
 \text{class-directed smooth excess incidence G091}
+\Longleftarrow
+\text{Hessian-isotropic integrable excess G092}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -52,7 +54,10 @@ branches. G090 asks for exactly that object. NG115 proves that the canonical
 filtered section does not define it. B145 identifies the object with the
 image of a smooth excess point of the ordered-node incidence; G091 is the
 resulting construction gate, and NG116 excludes its generic transverse
-component.
+component. B146 proves that any surviving uniform excess component must
+also lose at least \(n(R+1)\) conditional-gradient dimensions in a common
+Hessian-isotropic subspace. G092 is the refined construction gate; NG117
+excludes obtaining it from value-rank degeneracy alone.
 
 Two sufficient attacks feed G008:
 
@@ -1085,7 +1090,10 @@ B144/G090 reduce the nonlinear-clean part to constructing one saturated
 smooth deepest germ; NG115 excludes taking it to be a locus of B132's
 constant filtered section. B145/G091 further reduce the germ to a
 rank-smooth excess ordered-node component. NG116 proves the generic
-jet-surjective incidence has zero relation and cannot be used.
+jet-surjective incidence has zero relation and cannot be used. B146/G092
+then expose the second-order condition: the conditional gradients must be
+simultaneously isotropic for all value-relation Hessian forms, with corank
+at least \(n(R+1)\); NG117 closes the bare determinantal-rank-drop route.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces

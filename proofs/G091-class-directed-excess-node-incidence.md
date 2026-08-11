@@ -13,7 +13,7 @@ hodge_type: zeta and the selected local relation functional have rational type (
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative of zeta may be assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007, B010, B026-B028, B054, and B134-B145
+dependencies: B007, B010, B026-B028, B054, and B134-B146
 claim: For every specified nonzero primitive rational Hodge class, some high-power ordered-node incidence has a nodal point with uniform value matroid U_(R,N), R<N, smooth excess codimension 2nN+R, positive adjoint defect, and a rational relation whose Saito ambient class pairs nontrivially with the specified class.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class for which every rank-smooth excess ordered-node component has zero adjoint defect, nonuniform value matroid, or Saito image contained in zeta-perp
 ---
@@ -79,3 +79,12 @@ The smallest unanchored obligation is therefore:
 then prove its adjoint relation functional is nonzero. No audited
 determinantal or Thom-Porteous argument supplies the specified component or
 the class pairing; an expected-codimension calculation alone cannot do so.
+
+## Second-order refinement
+
+B146 shows that even the exact tangent dimension is insufficient. Every
+value relation produces a Hessian quadratic obstruction on conditional
+gradients. In the uniform case the gradient image must have corank at least
+\(n(R+1)\), and all those quadratic constraints must then integrate through
+higher order. G092 records this refined construction. NG117 closes the
+attempt to obtain G091 from a determinantal value-rank locus alone.

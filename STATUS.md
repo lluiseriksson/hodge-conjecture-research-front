@@ -221,6 +221,10 @@ Date: 2026-08-11
   it. B145 identifies it with the image of a rank-smooth excess component of
   the ordered-node incidence. G091 asks for that component; NG116 excludes
   the generic jet-surjective incidence because its adjoint defect is zero.
+  B146 proves that smooth excess also forces every value relation to vanish
+  on a Hessian quadratic form; uniform rank \(R\) costs at least
+  \(n(R+1)\) conditional-gradient dimensions. G092 is the refined gate and
+  NG117 excludes determinantal value-rank drop by itself.
   Universal G028 remains the construction gate. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -488,6 +492,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   pairing.
 - NG116 - NO-GO: the generic first-jet-surjective incidence has \(R=N\);
   B027-B028 force zero defect and zero relation channel.
+- B146 - PROVED: second-order critical-value expansion makes the conditional
+  gradient image simultaneously Hessian-isotropic; for uniform
+  \(U_{R,N}\), its corank is at least \(n(R+1)\).
+- G092 - EXPLORATORY: construct that carrier-free isotropic gradient
+  degeneracy, integrate it to a reduced smooth height-\(R\) smoothing
+  ideal, and retain a nonzero specified Saito pairing.
+- NG117 - NO-GO: a determinantal node-value rank drop has the desired
+  tangent dimension but need not be reduced or smooth; conditional-gradient
+  surjectivity gives an explicit quadratic obstruction.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -967,7 +980,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B145/G089-G091/NG106-NG116 - PROVED/EXPLORATORY/NO-GO: the minimal
+- B133-B146/G089-G092/NG106-NG117 - PROVED/EXPLORATORY/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
@@ -980,6 +993,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   stratum as the replacement, while NG115 blocks the filtered-zero-locus
   shortcut. B145/G091 identify the replacement with a smooth excess
   ordered-node component, and NG116 blocks the generic transverse locus.
+  B146/G092 add the necessary Hessian-isotropic conditional-gradient
+  degeneracy; NG117 blocks value-rank determinantal arguments alone.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
