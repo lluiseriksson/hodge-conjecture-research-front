@@ -1847,18 +1847,38 @@ while only one is available. Therefore
  m=2\Longrightarrow s\ge4d+6. \tag{***************************************************************************}
 \]
 
-The next balanced boundary is
+The next balanced boundary was
 
 \[
  \delta_1=2d+3,\qquad N=6d+8,\qquad
  \dim E_1=3d+4=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{****************************************************************************}
 \]
 
+B239 excludes this boundary and its odd neighbor. For exponent at least
+six, a product of six hyperplanes separates a fifth point from three
+doubles and one point. Under \(O_Q(2)\), the only residual quartic base
+locus is a pair line containing the fourth point, but a quartic has a
+nonzero transverse first jet at every further point on that line. Under
+\(O_Q(1)\), quotient ranks exclude \(d\ge6\); on \(Q^4\), the
+self-adjoint annihilator has no common eigenvectors outside the initial
+plane conic and one extra point. Therefore
+
+\[
+ m=2\Longrightarrow s\ge4d+8. \tag{*****************************************************************************}
+\]
+
+The active balanced boundary is
+
+\[
+ \delta_1=2d+4,\qquad N=6d+10,\qquad
+ \dim E_1=3d+5=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{******************************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G162: construct one dimension beyond three doubles}
+ \text{G163: construct two dimensions beyond three doubles}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

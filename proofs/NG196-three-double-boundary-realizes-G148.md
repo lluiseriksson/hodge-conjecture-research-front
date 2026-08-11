@@ -38,5 +38,5 @@ falsifier: B238 excludes higher powers by B215, the square by an explicit quarti
   cycle, proof, or disproof of HC is produced.
 - **Conclusion:** G161 and both layers \(4d+4,4d+5\) are **NO-GO**. G148
   and HC remain open.
-- **Re-entry condition:** G162 begins at
-  \(s=4d+6,\delta_1=2d+3\).
+- **Re-entry condition:** B239 later excludes G162 and its odd neighbor;
+  move to G163.

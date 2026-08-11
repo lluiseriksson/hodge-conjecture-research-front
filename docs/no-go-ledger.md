@@ -3807,5 +3807,30 @@
   cycle, proof, or disproof of HC is produced.
 - **Conclusion:** G161 and both layers \(4d+4,4d+5\) are closed. G148 and
   HC remain open.
-- **Re-entry condition:** G162 begins at
-  \(s=4d+6,\delta_1=2d+3\).
+- **Re-entry condition:** B239 later excludes G162 and its odd neighbor;
+  move to G163.
+
+## NG-197 - Realize one dimension beyond three doubles
+
+- **Label:** NO-GO
+- **Route:** set \(m=2,s=4d+6,\delta_1=2d+3\), adding one point-span
+  dimension after the exact three-double boundary.
+- **Valid premise:** at exponent six, three doubles plus one point fill
+  the available span.
+- **Invalid inference:** a fifth marked tangent can remain absorbed.
+- **Higher-power obstruction:** six hyperplane factors separate the fifth
+  point from three doubles and one reduced point.
+- **Square-polarization obstruction:** the only residual quartic base locus
+  is a pair line containing the fourth point; an explicit quartic has a
+  nonzero transverse first jet at every further point of that line.
+- **Standard-polarization obstruction:** quotient ranks exclude dimensions
+  at least six. The exceptional \(Q^4\) self-adjoint annihilator has common
+  isotropic eigenvectors only on the initial plane conic and at one extra
+  point, of point rank at most six.
+- **Odd-layer guard:** \(s=4d+7\) has the same integral rank budget.
+- **Detector guard:** no ODP package, rational detector, specified pairing,
+  cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G162 and both layers \(4d+6,4d+7\) are closed. G148 and
+  HC remain open.
+- **Re-entry condition:** G163 begins at
+  \(s=4d+8,\delta_1=2d+4\).

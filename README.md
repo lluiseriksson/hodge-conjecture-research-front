@@ -1111,7 +1111,7 @@ them all: B215 handles \(O_Q(k\ge3)\), explicit quartic products handle
  s\ge4d+6.
 \]
 
-The active gate is G162:
+The next gate was G162:
 
 \[
  m=2,\qquad s=4d+6,\qquad \delta_1=2d+3,\qquad
@@ -1119,8 +1119,28 @@ The active gate is G162:
 \]
 
 At this boundary, exponent-six systems make three doubles plus one point
-fill the span but do not automatically separate another point. All
-detector obligations remain open.
+fill the span. B239 nevertheless excludes every polarization. Six
+hyperplane factors separate the fifth point for \(O_Q(k\ge3)\). Under
+\(O_Q(2)\), the sole residual base line has a nonzero transverse quartic
+jet. Under \(O_Q(1)\), quotient ranks handle \(d\ge6\), while an exact
+self-adjoint calculation on \(Q^4\) confines the contact locus to one
+plane conic and one point. Thus G162 and \(4d+7\) are **NO-GO** (NG197),
+and
+
+\[
+ s\ge4d+8.
+\]
+
+The active gate is G163:
+
+\[
+ m=2,\qquad s=4d+8,\qquad \delta_1=2d+4,\qquad
+ N=6d+10,\qquad h_Z(1)=3d+5=N/2.
+\]
+
+At exponent six, three doubles plus two reduced points now fill the
+span. Absorption of a third reduced point or tangent, together with all
+detector obligations, remains open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1718,6 +1738,7 @@ python verification/verify_B235_slope_four_floor.py
 python verification/verify_B236_boundary_rigidity.py
 python verification/verify_B237_contact_dichotomy.py
 python verification/verify_B238_three_double_boundary.py
+python verification/verify_B239_one_beyond_three_double.py
 ```
 
 The repository verifier checks the required directory topology, result
