@@ -881,6 +881,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG160 - NO-GO: fixed-\(Z\) high regularity eventually removes new ideal
   generators and then separates all \(2nN\) gradients; it cannot create the
   primitive \(2n\)-dimensional birth.
+- B199 - PROVED: the degree-\(m\) minimal generators fit into
+  \(0\to K_m/P_m\to J_m/P_m\to V_m\to0\). A new central nodal section
+  therefore requires at least \(2n+1\) generators; an inherited one must
+  have Hessian in the lower-double Hessian span.
+- G129 - EXPLORATORY: construct exactly one new central double generator
+  and \(2n\) jet generators, with ODPs, holonomy, Kuranishi closure, and the
+  rational detector.
+- NG161 - NO-GO: exactly \(2n\) transverse generators with no lower ideal
+  sections give \(K_m=0\), hence no nonzero central nodal divisor.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1476,7 +1485,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   NG159 blocks the generic Terracini shortcut. B197 reduces every lower
   condition to \(V_{m-1}=0\), while B198/G128 isolate the required new
   degree-\(m\) minimal generators. NG160 excludes the asymptotic fixed-point
-  regularity regime.
+  regularity regime. B199/G129 add the central double-generator direction;
+  NG161 excludes the unaugmented transverse complete-intersection model.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -678,6 +678,18 @@ Kuranishi closure, and the rational detector at \(m\). NG160 excludes using
 the fixed-\(Z\) high-regularity regime: the ideal is eventually generated
 below \(m\), while still higher powers separate all \(2nN\) gradients.
 
+B199 restores the central nodal section omitted by the raw generator count.
+There is an exact sequence from new double generators to all minimal
+generators and then to \(V_m\). A central section not inherited from lower
+degrees therefore raises the minimum from \(2n\) to \(2n+1\) generators.
+If it is inherited, its Hessian must be a value-weighted nondegenerate sum
+of lower-double Hessians at every node.
+
+G129 selects the minimal new-double branch: one central double generator
+and \(2n\) surviving jet generators. NG161 excludes the tempting transverse
+complete-intersection shortcut with only \(2n\) generators; in that model
+the double kernel is zero, so no nonzero central nodal member exists.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1250,6 +1262,7 @@ python verification/verify_B194_primitive_jet_birth.py
 python verification/verify_B195_multiplicative_growth.py
 python verification/verify_B196_tangent_span.py
 python verification/verify_B197_B198_birth_window.py
+python verification/verify_B199_nodal_generator.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1551,6 +1564,9 @@ B197 collapses that simultaneous list to the adjacent equality
 \(V_{m-1}=0\). B198/G128 require new degree-\(m\) ideal generators whose
 first jets realize the synchronized birth; NG160 blocks moving the same
 point scheme into the asymptotic regularity range.
+B199/G129 add the indispensable central double-generator line; NG161 shows
+why a bare transverse \(2n\)-generator complete intersection cannot supply
+the nodal divisor.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

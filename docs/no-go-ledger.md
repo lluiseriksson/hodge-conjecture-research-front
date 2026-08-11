@@ -3107,3 +3107,23 @@
   certificate, rational type, or a nonzero specified pairing.
 - **Re-entry condition:** vary \(Z\) with \(m\), stay in its finite new-
   generator window, and close G128's adjacent birth and detector clauses.
+
+## NG-161 - Use only the transverse jet generators as the nodal package
+
+- **Label:** NO-GO
+- **Route:** take exactly \(2n\) new degree-\(m\) generators with independent
+  gradients at \(Z\), and choose their linear combination as the central
+  divisor singular at every node.
+- **Valid input:** their gradient classes can realize a
+  \(2n\)-dimensional one-node-determined \(V_m\).
+- **Invalid inference:** the same generator space contains a nonzero class
+  in \(K_m=H^0(I_{2Z}H^m)\).
+- **Precise obstruction:** when lower ideal sections vanish and the
+  \(2n\) generators exhaust \(J_m\), B199's exact sequence has equal
+  source and quotient dimensions, forcing \(K_m=0\).
+- **Detector guard:** transverse point cutting alone supplies no central
+  ODP member, Hessian holonomy, Kuranishi integration, rational type, or
+  specified pairing.
+- **Re-entry condition:** add G129's new double-generator line or construct
+  the inherited-double branch with simultaneously nondegenerate lower
+  Hessian combinations, then re-audit every detector clause.

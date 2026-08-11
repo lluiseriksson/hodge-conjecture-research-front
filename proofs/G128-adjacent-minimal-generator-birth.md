@@ -50,5 +50,8 @@ must acquire at least \(2n\) genuinely new minimal generators in degree
 
 The same degree-\(m\) full incidence must also close G126's finite Kuranishi
 ladder, retain isolated ODPs, and carry the specified rational type-\((0,0)\)
-detector with nonzero Saito pairing. G128 is the narrowest current geometric
-gate; equations (1)--(3) alone do not imply any detector or algebraic cycle.
+detector with nonzero Saito pairing. G128 is the adjacent geometric gate;
+equations (1)--(3) alone do not imply any detector or algebraic cycle.
+B199 adds the missing central-member dichotomy. G129 records the minimal
+new-double subgate, while NG161 excludes using only the \(2n\) transverse
+jet generators as the complete nodal package.

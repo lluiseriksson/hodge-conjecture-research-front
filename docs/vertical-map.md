@@ -978,7 +978,8 @@ lower \(J_k=K_k\), then
 \]
 
 Hence the maximal birth needs at least \(2n\) new minimal generators in
-degree \(m\) whose first jets survive. G128 is now the narrowest gate:
+degree \(m\) whose first jets survive. G128 is the adjacent gate before the
+central nodal member is inserted:
 
 \[
  \text{tangent absorption at }m-1
@@ -991,6 +992,37 @@ degree \(m\) whose first jets survive. G128 is now the narrowest gate:
 NG160 prevents an asymptotic shortcut with fixed \(Z\): finite generation
 eventually makes every ideal section decomposable, and S065 eventually
 separates all \(2nN\) node gradients.
+
+B199 inserts the central nodal member into the generator map. With
+\(P_m=(R_+J)_m\), lower extinction gives
+
+\[
+ 0\longrightarrow K_m/P_m
+ \longrightarrow J_m/P_m
+ \longrightarrow V_m
+ \longrightarrow0. \tag{************}
+\]
+
+Thus G128 has two branches. In the **new-double branch**, a nonzero central
+\(F\notin P_m\) forces
+
+\[
+ \dim J_m/P_m\ge2n+1.
+\]
+
+In the **inherited-double branch**, \(F=\sum t_\nu s_\nu\) with lower
+\(s_\nu\in K\), and
+
+\[
+ \operatorname{Hess}_{p_i}(F)
+ =\sum_\nu t_\nu(p_i)\operatorname{Hess}_{p_i}(s_\nu)
+\]
+
+must be nondegenerate at every node. G129 is the minimal new-double gate:
+one double line, \(2n\) jet directions, adjacent extinction, conformal
+holonomy, finite Kuranishi closure, and the detector. NG161 proves that the
+unaugmented \(2n\)-generator transverse complete intersection has zero
+double kernel and cannot contain the central nodal section.
 
 Two sufficient attacks feed G008:
 
