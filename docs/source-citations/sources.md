@@ -491,6 +491,13 @@ vanishing cycles,” arXiv:0806.1461v5 (2008).
   lifting a nonzero nearby cohomology class. Section 2.5 instead constructs
   the ambient class from the boundary of a relative class, matching
   G064-G065's direction.
+- Rechecked §2.5 against §2.4 for B124/NG100. After choosing any
+  $\gamma'\in H_{2n}(Y_c,Z_c)$ with boundary $\beta$, Saito defines
+  $\gamma_\beta$ by good retraction, inclusion in $X$, and primitive
+  projection. The absolute nearby-fiber ambiguity maps into the
+  nonprimitive part, so every lift of the fixed $\beta$ has the same
+  primitive value. The source supplies no freedom to tune this value to a
+  preselected global tube class.
 - For B101/NG077, compared §2.5's target pair $(Y_c,Z_c)$ with S029's marked
   thimble pair. Naturality proves the boundary square only after a map of
   pairs is supplied. S022 does not construct such a map from an arbitrary

@@ -73,8 +73,9 @@ and permits G070's restricted dual certificate. G080 is the original-object
 nearby-class-and-lift portion of G073. B121/NG097 correct the next step:
 ordinary nonzeroness does not remove the constant ambient grade. B123/NG099
 then prove filtered liftability is impossible for a nonzero nearby class.
-G065 is the active replacement: construct the relation as the marked
-boundary of the selected relative class; B117-B119 then control its support
-and type.
+G065 is the directionally valid replacement mechanism: construct the
+relation as the marked boundary of the selected relative class; B117-B119
+then control its support and type. B124/NG100 show that its exact ambient
+target is stronger than active gate G031.
 G073 itself constructs no
 algebraic cycle and does not resolve the terminal conjecture.

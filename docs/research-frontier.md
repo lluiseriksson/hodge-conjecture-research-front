@@ -319,7 +319,10 @@ equisingular monodromy cannot enlarge one fixed ambient image. B056-B057
 localize and identify the detector chain, NG038 kills the total-equator
 shortcut, and B058 chooses its ambient target in rational Hodge homology;
 G031 is the active clean-nodal pairing gate. B059/NG039 show that G030's
-exact class recovery is an optional stronger mechanism. B029/NG-026 test the
+exact class recovery is an optional stronger mechanism. B124/NG100 further
+prove that Saito relative-lift ambiguity cannot tune a fixed relation to that
+preselected target, so G065 remains inside the stronger G030 branch.
+B029/NG-026 test the
 first collinear positive-defect configuration and show that it is singular
 along its carrier line. The next construction must obtain adjoint dependence
 from distributed or genuinely zero-dimensional incidence while preserving

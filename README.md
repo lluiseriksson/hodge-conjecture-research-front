@@ -239,8 +239,8 @@ isolated singularity. NG078 blocks globalizing those local maps before the
 distributed detector has been localized into the Milnor tubes. G066 is the
 localization-and-gluing parent. B103 observes from Saito §2.5 that the good
 retraction is already global and identifies the relevant relative groups;
-NG079 removes a second collapse-gluing construction as redundant. G067 is
-the active minimal gate: realize the distributed detector in the single
+NG079 removes a second collapse-gluing construction as redundant. At that
+audit stage G067 was the minimal exact-target mechanism: realize the distributed detector in the single
 nearby-fiber pair $(Y_c,Z_c)$ with the canonical marked boundary and ambient
 value $c$. B104 then reduces that sufficient comparison to one
 lift-independent obstruction coset in a collision total-space pair, and
@@ -308,10 +308,12 @@ unnecessary. B123 then computes the missing direction: the relation step is
 the specialization kernel, $S_0=\ker u_\Delta$, hence
 $u_\Delta(S_0)=0$ and every nonzero nearby class has
 $\omega_{\mathrm{fil}}=t_\Delta\ne0$. NG099 closes G070-G083 as a NO-GO.
-The active concrete gate is G065: construct the marked map of relative pairs
-carrying the selected B057 class to a class whose boundary is the nodal
-relation, while preserving the primitive ambient realization. B101 then
-propagates it through G064 and B099-B100 to Saito's pairing class.
+G065 reverses the arrow correctly by seeking the relation as a relative
+boundary. B124/NG100 now show that its ambient clause cannot be adjusted by
+relative-lift ambiguity: every lift of a fixed relation has the same
+primitive image, so G065 already contains G030's exact-target equality.
+It remains a sufficient mechanism, while G031's nonzero-pairing construction
+is restored as the narrower active gate.
 The
 adversarial audit S040 also quarantines a 2024 claimed general
 proof: B060/NG041 identify an undefined descent from a cycle over a p-adic
@@ -562,6 +564,7 @@ python verification/verify_B119_relevant_grade_type.py
 python verification/verify_B120_one_disk.py
 python verification/verify_B121_third_grade.py
 python verification/verify_B123_specialization_kernel.py
+python verification/verify_B124_relative_lift_target_rigidity.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -711,9 +714,10 @@ Conditional B119/NG095 then control the clean-nodal relation type. B122
 makes the actual target ordinarily liftable, while NG098 removes the raw
 cyclic cocycle. B123 identifies the relation step with the specialization
 kernel, so its nearby image is zero; NG099 therefore closes the entire
-filtered-lift branch G070-G083. G065 is now the active class-specific gate,
-with the relation sought as the boundary of a selected relative class rather
-than as a filtered special-to-nearby lift.
+filtered-lift branch G070-G083. G065 has the correct boundary direction, but
+B124/NG100 prove that its primitive-value clause is exactly the stronger
+preselected-target condition; changing the relative lift cannot tune it.
+G031 is therefore the active minimal clean-nodal pairing gate.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

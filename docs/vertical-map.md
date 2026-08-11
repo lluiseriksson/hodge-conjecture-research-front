@@ -301,9 +301,16 @@ The former chain through G070-G071 attempted to lift a nonzero nearby class
 through the relation filtration step. B107-B109 correctly isolated its
 filtered obstruction, but B123/NG099 now compute it and close the route:
 $u(S_0)=0$, so the obstruction equals the nonzero nearby class. G079-G083
-are retained as NO-GO audit records. The active direction is G065's marked
+are retained as NO-GO audit records. The valid reversed direction is G065's marked
 relative-boundary map, propagating through B101 to G064 and through
 B099-B100 to Saito's primitive ambient relation class.
+
+B124/NG100 then audit the endpoint of that direction. Primitive realization
+is constant on the relative-lift torsor, so G065's value-$c$ clause already
+contains G030's exact equality $\Phi_{Y_0}(\beta)=c$. The map of pairs adds
+geometric structure but does not reduce this obligation. Thus this chain is
+retained as a sufficient exact-target mechanism; G031 is the narrower active
+nonzero-pairing gate.
 
 B110/NG086 correct the dependency order: the collision must
 first construct an actual collision-certified realization of the selected
@@ -524,9 +531,10 @@ reflection step. B121/NG097 restore the omitted ambient grade; B123/NG099
 then identify the relation step with the specialization kernel and close the
 nearby-lift branch G070-G071/G079-G083. B120-B122/NG096/NG098 remain valid
 ordinary-lift audits but no longer feed the relation construction. G065 is
-the active marked relative-boundary gate. G066-G068 are stronger historical
-construction variants; B101 and B099-B100 give the propagation once G065 is
-proved.
+a directionally valid marked relative-boundary mechanism. B124/NG100 show
+that its ambient clause is not a reduction below G030; G031 is active.
+G066-G068 are stronger historical construction variants; B101 and
+B099-B100 give the propagation once G065 is proved.
 
 An externally claimed shortcut is closed separately:
 
@@ -662,10 +670,9 @@ For all singular members, the equality is terminal-equivalent through B007
 and B010. Restricting to fully independent-node members was the stronger
 proposal G009, now disproved by B027.
 
-## Terminal sufficient geometric gate and active operational gate
+## Current active geometric gate
 
-**Terminal sufficient gate G031: clean-nodal intersection with class-specific
-support.** Construct a
+**G031: clean-nodal intersection with class-specific support.** Construct a
 Li-clean multipart nodal member and a rational local relation \(\beta\) with
 
 \[
@@ -681,13 +688,16 @@ NG040 eliminates generic morsification as its proof. G033 isolates the first
 falsifiable nearby-cycle comparison obligation; B061-B062 and NG042 show why
 neither clean boundary equations nor the graph trick discharge it formally.
 
-**Active operational gate G065: boundary-marked relative comparison.**
+**Stronger mechanism G065: boundary-marked relative comparison.**
 B123/NG099 prove that the former nonzero nearby-to-relation filtered lift is
 impossible because $S_0=\ker u_\Delta$. The valid direction is to construct
 a selected class in $H_{2n}(Y_t,Z_t;\mathbf Q(n))$ whose boundary is the
 canonical nodal relation and whose ambient realization preserves B058's
 nonzero pairing. B101 propagates such a marked map of pairs through G064;
 B099-B100 then identify the resulting primitive ambient Saito class.
+B124/NG100 prove that the last ambient clause is rigid: all relative lifts
+of the same relation have one primitive value. Hence G065 can succeed only
+after the exact G030 equality is true; it is not a smaller gate than G031.
 
 G030 is a stronger proposed mechanism. B011 supplies a global
 tube detector for every nonzero primitive class, B022 identifies the two

@@ -85,5 +85,7 @@ nilpotent-residue form. G082 insists that the final invariant vector live in
 the original disk object and survive downstairs; a class supported only on
 an alteration's exceptional locus does not pass the gate. B090-B091 prevent
 replacing this computation by the positive nodal-boundary Hurwitz word.
-The active gate is G065's boundary-marked relative comparison; this optional
-cocycle calculation does not discharge it.
+G065's boundary-marked relative comparison is a valid stronger mechanism;
+B124 shows its ambient clause already imposes G030's exact target. The active
+minimal gate is G031, and this optional cocycle calculation does not
+discharge it.

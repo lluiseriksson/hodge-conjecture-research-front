@@ -69,6 +69,8 @@ An acceptable proof may:
 Purity, decomposition, local invariant-cycle surjectivity, or strictness for
 the Hodge filtration alone do not prove the box by NG084.
 
-The active route is G065's marked relative-boundary construction. G072 may
+The directionally valid collision route is G065's marked relative-boundary
+construction, but B124 shows it is an exact-target mechanism rather than the
+minimal gate. G031 is active. G072 may
 still diagnose abstract extension data, but it cannot make this obstruction
 vanish in the clean nodal geometry.

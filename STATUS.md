@@ -183,7 +183,10 @@ Date: 2026-08-11
   B109/NG085 show why associated-grade data alone cannot decide it. B123
   computes the clean-nodal geometry exactly: the relation step is the
   specialization kernel, so its nearby image is zero. NG099 closes this
-  filtered-lift branch and makes G065's relative-boundary direction active.
+  filtered-lift branch. B124/NG100 then prove that G065's reversed
+  relative-boundary mechanism already imposes G030's exact target because
+  primitive realization is constant on the relative-lift torsor. G031 is
+  the narrower active pairing gate.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -627,7 +630,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   B058's class $c$.
 - NG077 - NO-GO: zero total boundary in the smooth reference fiber does not
   determine a vector in the marked local relation kernel.
-- G065 - EXPLORATORY, active smallest gate: construct the actual marked map
+- G065 - EXPLORATORY, sufficient exact-target mechanism: construct the actual marked map
   of pairs, send every oriented boundary sphere to the canonical Saito local
   coordinate, and prove chain-level compatibility of the two ambient
   realizations.
@@ -797,9 +800,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   $\omega_{\mathrm{fil}}(t_\Delta)=t_\Delta\ne0$.
 - NG099 - NO-GO: no nonzero nearby class can lift through the relation
   filtration step; G070-G083 are closed in that direction.
-- G065 - EXPLORATORY, active smallest gate after direction correction:
-  construct the boundary-marked map of pairs for the selected B057 relative
-  class and preserve its primitive ambient realization.
+- B124 - PROVED: Saito's primitive ambient realization is constant on the
+  affine space of relative lifts of a fixed relation; a lift has value $c$
+  exactly when $\Phi_{Y_0}(\beta)=c$.
+- NG100 - NO-GO: neither relative-lift ambiguity nor a different marked
+  presentation can tune the primitive ambient target.
+- G031 - EXPLORATORY, active minimal gate: construct one clean multipart
+  nodal relation with nonzero prescribed pairing. G065 remains a stronger
+  exact-target collision mechanism.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

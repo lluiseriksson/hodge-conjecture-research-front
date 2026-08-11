@@ -13,7 +13,7 @@ hodge_type: local relation and primitive ambient image rational type (0,0) after
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative is assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B009-B010, B057-B058, B081-B083, B093-B101, B123, G047-G063, G065, NG069-NG077, NG099
+dependencies: B009-B010, B057-B059, B081-B083, B093-B101, B123-B124, G030-G031, G047-G063, G065, NG069-NG077, NG099-NG100
 claim: Construct a relative comparison sending the B057 detector to a class gamma_t in H_(2n)(Y_c,Z_c;Q(n)), prove its boundary equals the canonical full-support local relation coordinate r_H(beta_sp), and prove its primitive ambient pushforward is B058's class c.
 falsifier: failure to define the relative comparison, a different local boundary, or incompatibility of primitive ambient pushforward with the B057 tube class
 ---
@@ -59,3 +59,8 @@ B123/NG099 make this relative-boundary formulation mandatory: the canonical
 relation step is killed by special-to-nearby specialization, so the desired
 relation cannot be obtained by lifting a nonzero nearby class through that
 step.
+
+B124/NG100 add the endpoint guard: the displayed primitive equality is not
+adjustable by choosing another relative lift. It is exactly G030's
+preselected-target condition and is strictly stronger than G031's required
+nonzero pairing.

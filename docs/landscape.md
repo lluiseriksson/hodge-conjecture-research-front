@@ -125,6 +125,7 @@ boundary, not an induction mechanism.
 | Saito good-retraction chain | B099 proves the special Saito ambient class equals c when its defining relative cycle is the same B057 chain through both quotients | NG075: a special-stalk lift does not identify that relative representative; G063 is the chain-identity gate |
 | Saito relative-lift ambiguity | B100 proves every relative lift of one local relation has the same primitive ambient image because the difference is nonprimitive | NG076 closes literal same-chain equality; G064 retains boundary identification and primitive pushforward only |
 | marked local boundary comparison | B101 proves boundary naturality for a marked map of pairs and ambient equality for chain-homotopy-compatible realization maps | NG077: global zero boundary does not identify the local relation vector; G065 must construct the marked collision map |
+| relative-lift target rigidity | B124 proves primitive realization is constant on the affine torsor of lifts of one relation | NG100: lift ambiguity cannot tune the value to B058's preselected c; G065 contains G030's exact-target equality and is stronger than active G031 |
 | isolated local collapse versus global detector | B102 imports the vanishing-polyhedron collapse at each isolated singularity; S050 gives a local boundary specialization | NG078: neither local theorem localizes the distributed detector or glues its ambient closure; G066 is the exact local-to-global gate |
 | global good retraction versus detector realization | B103 proves Saito's good retraction already globalizes the local/exterior topology and identifies the relative groups | NG079: rebuilding collapse gluing is redundant; G067 must realize the distributed chain in the single nearby-fiber pair |
 | selected-detector relative bordism | B104 identifies a lift-independent obstruction coset modulo absolute nearby-fiber ambiguity and proves its vanishing is equivalent to one relative bordism | NG080: a full complex map is unnecessary; B105/NG081 show even coset vanishing is stronger than the terminal pairing condition |
@@ -316,9 +317,10 @@ B107 filtered liftability. B120-B122/NG096 reduce to one transverse original
 disk and make its target ordinarily liftable; NG098 retires the raw cocycle.
 B123 proves that the requested filtered lift cannot exist: the relation step
 is $\ker u_\Delta$, so its nearby image is zero and a nonzero target has
-$\omega_{\mathrm{fil}}\ne0$. NG099 records G070-G083 as a NO-GO. The active
-gate is G065's boundary-marked comparison of relative pairs; here the nodal
-relation is a boundary, which has the correct exact-sequence direction.
+$\omega_{\mathrm{fil}}\ne0$. NG099 records G070-G083 as a NO-GO. G065's
+relative-boundary direction is valid, but B124/NG100 prove that its ambient
+clause already requires G030's exact target. G031's nonzero-pairing
+construction is the narrower active gate.
 B024 verifies global quotient-level detection for complete intersections,
 but NG-021 prevents treating this special topological generation as HC.
 B025/NG-022 exclude internal Milnor relations. B026 separates exact defect

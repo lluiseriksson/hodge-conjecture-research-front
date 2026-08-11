@@ -1845,4 +1845,25 @@
 - **Re-entry condition:** reverse the arrow. G065 must construct a marked map
   of pairs sending the selected B057 relative class into
   $H_{2n}(Y_t,Z_t)$ with nonzero local boundary relation and compatible
-  primitive ambient realization. B099-B101 then propagate the pairing.
+  primitive ambient realization. B099-B101 then propagate the pairing, but
+  B124/NG100 show this is an exact-target mechanism stronger than G031.
+
+## NG-100 - Relative-lift ambiguity adjusts the primitive target
+
+- **Label:** NO-GO
+- **Route:** after fixing a local relation $\beta$, vary its Saito relative
+  lift or the marked map presenting it until the primitive ambient value is
+  the preselected B058 class $c$.
+- **Valid input:** $\partial^{-1}(\beta)$ is an affine torsor under the image
+  of absolute nearby-fiber homology.
+- **Invalid inference:** this ambiguity survives primitive ambient
+  projection.
+- **Precise obstruction:** S022 §§2.4-2.5 and B100 show that the ambiguity
+  maps to the nonprimitive part. B124 therefore proves that every lift has
+  the single value $\Phi_{Y_0}(\beta)$. A lift with value $c$ exists exactly
+  when $\Phi_{Y_0}(\beta)=c$, so G065 already contains G030's exact-target
+  obligation.
+- **Re-entry condition:** prove G030's equality using genuinely new collision
+  geometry, or abandon the preselected target and attack active G031's
+  strictly weaker nonzero-pairing condition. Representative choice alone
+  cannot reopen the route.
