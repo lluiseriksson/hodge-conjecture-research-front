@@ -1773,18 +1773,55 @@ most one exterior point and rank at most six. Hence
  m=2\Longrightarrow s\ge2d+8. \tag{*******************************************************************}
 \]
 
-The next balanced boundary is
+The next boundary surviving B234 is
 
 \[
  \delta_1=d+4,\qquad N=4d+10,\qquad
  \dim E_1=2d+5=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{********************************************************************}
 \]
 
+B235 now replaces the additive ladder by a uniform slope constraint.
+For \(O_Q(1)\), a nonorthogonal pair contributes \(2d+2\) tangent
+dimensions and a third tangent contributes at least \(d-1\) more, so
+\(h_Z(1)\ge3d+1\). For \(O_Q(2)\), coordinate quartics separate three
+noncollinear double points, while an all-collinear set has rank at most
+five. For \(O_Q(k\ge3)\), B215 separates three doubles. Therefore
+
+\[
+ m=2\Longrightarrow s\ge4d,\qquad
+ k\ge2\Longrightarrow s\ge4d+4. \tag{*********************************************************************}
+\]
+
+At \(s=4d\), only the standard quadric polarization remains and
+
+\[
+ \delta_1=2d,\qquad N=6d+2,\qquad
+ \dim E_1=3d+1=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**********************************************************************}
+\]
+
+B236 excludes this equality face and its odd neighbor. Equality forces
+the third point into the orthogonal complement of the initial
+nonorthogonal pair, so the three tangent osculators fill the span. In a
+second hyperbolic decomposition, any fourth point whose square lies in
+the span lies on one of two isotropic lines; an explicit tangent vector
+has the nonzero complementary component \(rr'-vw\). Therefore
+
+\[
+ m=2\Longrightarrow s\ge4d+2. \tag{***********************************************************************}
+\]
+
+The next balanced boundary is
+
+\[
+ \delta_1=2d+1,\qquad N=6d+4,\qquad
+ \dim E_1=3d+2=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{************************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G158: construct the three-extra-dimensional balanced core}
+ \text{G160: construct the post-slope-four balanced core}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

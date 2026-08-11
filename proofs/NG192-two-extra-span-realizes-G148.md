@@ -32,5 +32,5 @@ falsifier: B234 excludes O_Q(1) by tangent quotient rank, O_Q(2) by line-plus-on
   most six. Higher powers are already excluded in this band.
 - **Conclusion:** G157 and both slack layers \(2d+6,2d+7\) are
   **NO-GO**. G148 and HC remain open.
-- **Re-entry condition:** G158 begins at
-  \(s=2d+8,\delta_1=d+4\).
+- **Re-entry condition:** B235 later replaces this additive continuation
+  by the slope-four boundary G159.

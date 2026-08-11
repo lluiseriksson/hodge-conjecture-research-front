@@ -1164,9 +1164,22 @@ generation from the controlled partitioned nodal locus is not proved.**
   even-quadric input.
 - NG192 - NO-GO: a two-dimensional quotient beyond two tangent
   osculators cannot realize G148.
-- G158 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=2d+8,\delta_1=d+4\) and construct the balanced
-  length-\(4d+10\), dimension-\(2d+5\) self-dual code with every detector
+- B235 - PROVED: three tangent spaces force \(s\ge4d\) for \(m=2\);
+  square and higher quadric polarizations satisfy the stronger
+  \(s\ge4d+4\).
+- G158 - NO-GO: its slack \(2d+8\) lies below \(4d\) in every even
+  dimension \(d\ge6\).
+- NG193 - NO-GO: no sub-\(4d\) degree-two specialization can realize
+  universal G148.
+- B236 - PROVED: equality at the slope-four floor forces three tangent
+  osculators to fill the span, which cannot absorb a fourth marked
+  tangent; hence \(s\ge4d+2\).
+- G159 - NO-GO: the layers \(s=4d\) and \(s=4d+1\) fail on every valid
+  even quadric.
+- NG194 - NO-GO: equality in B235's floor does not realize G148.
+- G160 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=4d+2,\delta_1=2d+1\) and construct the balanced
+  length-\(6d+4\), dimension-\(3d+2\) self-dual code with every detector
   clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`

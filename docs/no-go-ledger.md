@@ -3714,5 +3714,50 @@
   algebraic cycle, proof, or disproof of HC is produced.
 - **Conclusion:** G157 and both layers \(2d+6,2d+7\) are closed. G148 and
   HC remain open.
-- **Re-entry condition:** G158 begins at
-  \(s=2d+8,\delta_1=d+4\); cube polarizations must re-enter the audit.
+- **Re-entry condition:** B235 later replaces the additive ladder by the
+  slope-four floor; move to G159.
+
+## NG-193 - Realize the gate below the slope-four degree-two floor
+
+- **Label:** NO-GO
+- **Route:** continue adding a dimension-independent number of span
+  dimensions beyond two tangent osculators while keeping \(s<4d\).
+- **Valid premise:** each two slack layers add one dimension to the
+  degree-one point span.
+- **Invalid inference:** a fixed additive excess can absorb the third
+  tangent osculator uniformly as \(d\) grows.
+- **Standard-polarization obstruction:** B235 gives two independent
+  tangent osculators of total dimension \(2d+2\), plus a third quotient
+  contribution of at least \(d-1\). Thus \(h_Z(1)\ge3d+1\) and
+  \(s\ge4d\).
+- **Other-polarization obstruction:** coordinate quartics separate three
+  noncollinear double points for \(O_Q(2)\); B215 separates three doubles
+  for every \(O_Q(k)\), \(k\ge3\). These cases require \(s\ge4d+4\).
+- **G158 guard:** \(2d+8<4d\) for every even \(d\ge6\), providing a valid
+  universal-quantifier falsifier.
+- **Detector guard:** no ODP package, rational detector, specified pairing,
+  cycle, proof, or disproof of HC is obtained.
+- **Conclusion:** G158 and every sub-\(4d\) degree-two specialization are
+  closed. G148 and HC remain open.
+- **Re-entry condition:** B236 later excludes the exact boundary and its
+  odd neighbor; move to G160.
+
+## NG-194 - Realize the exact slope-four boundary
+
+- **Label:** NO-GO
+- **Route:** set \(m=2,s=4d,\delta_1=2d\), saturating B235.
+- **Valid premise:** the available quotient has exactly the minimum
+  \(d-1\) dimensions contributed by a third tangent osculator.
+- **Invalid inference:** equality can absorb a fourth marked tangent.
+- **Precise obstruction:** B236 forces the third point to be orthogonal to
+  the initial nonorthogonal pair, making the three tangent osculators fill
+  the entire span. A second hyperbolic decomposition confines every fourth
+  point candidate to one of two isotropic lines, but an explicit tangent
+  vector has the nonzero complementary component \(rr'-vw\).
+- **Odd-layer guard:** \(s=4d+1\) has the same integral rank budget.
+- **Detector guard:** no ODP package, rational detector, specified pairing,
+  algebraic cycle, proof, or disproof of HC is obtained.
+- **Conclusion:** G159 and both layers \(4d,4d+1\) are closed. G148 and
+  HC remain open.
+- **Re-entry condition:** G160 begins at
+  \(s=4d+2,\delta_1=2d+1\).

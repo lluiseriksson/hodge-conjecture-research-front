@@ -1,6 +1,6 @@
 ---
 brick_id: G158
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex d-fold X of even dimension d=2n with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,7 +13,7 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B234, G013, G090-G148, NG106-NG192, S081-S083
+dependencies: B007-B010, B134-B235, G013, G090-G148, NG106-NG193, S081-S083
 claim: For every arbitrary primitive target (X,zeta) of dimension d=2n, choose a very ample A and construct H=A^2 plus a reduced Z of N=4d+10 points satisfying the complete G144 package with slack s=2d+8, h_Z(1)=2d+5, an isomorphic full-support relation transport, a diagonally self-dual degree-one code, every ODP-profile, holonomy and finite-Kuranishi clause, rational type (0,0), and nonzero specified pairing.
 falsifier: one primitive target for which no choice of A realizes the displayed three-extra-dimensional balanced code together with every geometric, rationality, Hodge-type, and pairing obligation
 ---
@@ -48,3 +48,12 @@ quadric audit retains precisely the primitive, square, and cube cases.
 This remains only a sufficient specialization of G148. No marked scheme,
 detector, pairing, algebraic cycle, proof, or disproof of HC is currently
 constructed.
+
+B235 supplies the missing uniform-dimension audit. Every standard-quadric
+candidate needs \(s\ge4d\), and every square or higher polarization needs
+\(s\ge4d+4\). For even \(d\ge6\), G158 has
+\(s=2d+8<4d\). The valid input \((Q^d,a-b)\) therefore falsifies its
+universal quantifier.
+
+Thus G158 and every sub-\(4d\) degree-two specialization are **NO-GO**.
+The next gate is G159 at \(s=4d,\delta_1=2d\). G148 and HC remain open.

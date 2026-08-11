@@ -1046,7 +1046,7 @@ neighbor \(2d+7\) also fails, and
  s\ge2d+8.
 \]
 
-The active gate is G158:
+The next gate was G158:
 
 \[
  m=2,\qquad s=2d+8,\qquad \delta_1=d+4,\qquad
@@ -1054,9 +1054,36 @@ The active gate is G158:
 \]
 
 At this boundary B215 at exponent six only fills the span with two
-doubles plus three points; it does not exclude cube polarizations.
-G158 retains every ODP, Kuranishi, rational-type, and specified-pairing
-obligation.
+doubles plus three points. B235 replaces this additive ladder with a
+uniform slope bound. For \(O_Q(1)\), the third tangent osculator forces
+\(h_Z(1)\ge3d+1\), hence \(s\ge4d\). For \(O_Q(k\ge2)\), three
+independent double neighborhoods force the stronger \(s\ge4d+4\).
+Thus G158 is **NO-GO** (NG193) in every even dimension \(d\ge6\).
+
+The next gate was G159, at the exact standard-polarization boundary:
+
+\[
+ m=2,\qquad s=4d,\qquad \delta_1=2d,\qquad
+ N=6d+2,\qquad h_Z(1)=3d+1=N/2.
+\]
+
+It retained every detector obligation. B236 attacks equality itself.
+The third point is forced to be orthogonal to the initial nonorthogonal
+pair, and the three tangent osculators fill the span. A hyperbolic
+decomposition then shows that every fourth point candidate has a tangent
+component proportional to \(rr'-vw\) outside that span. Hence G159 and
+the odd layer \(4d+1\) are **NO-GO** (NG194).
+
+The active gate is G160:
+
+\[
+ m=2,\qquad s=4d+2,\qquad \delta_1=2d+1,\qquad
+ N=6d+4,\qquad h_Z(1)=3d+2=N/2.
+\]
+
+Only the standard quadric polarization survives this test through
+\(s=4d+3\); the full ODP, Kuranishi, rational-type, and
+specified-pairing obligations remain open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1650,6 +1677,8 @@ python verification/verify_B231_dimension_scaled_slack.py
 python verification/verify_B232_threshold_span.py
 python verification/verify_B233_one_extra_span.py
 python verification/verify_B234_two_extra_span.py
+python verification/verify_B235_slope_four_floor.py
+python verification/verify_B236_boundary_rigidity.py
 ```
 
 The repository verifier checks the required directory topology, result
