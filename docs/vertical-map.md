@@ -2033,13 +2033,27 @@ the common floor \(5d+5\). G179-G180 and every layer through
 \]
 
 On every even quadric \(d\ge14\), only \(A=O_Q(k)\), \(k\ge3\),
-survives at this boundary.
+survives at this boundary. B255 closes that equality: the five supports
+split, relative to any sixth point, into line-through-point classes of
+size at most three. Six good pair edges cover every support twice, and
+their pair-line hyperplanes give a sextic separator. Cubic equality is
+impossible, while every \(k\ge4\) supplies the complete sixth double
+block. Thus G181 and \(s=8d+9\) are NO-GO, and the common floor is
+\(5d+6\). The next signature is
+
+\[
+ \delta_1=4d+5,\qquad N=10d+12,\qquad
+ \dim E_1=5d+6=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+\]
+
+Only \(A=O_Q(3)\) survives this equality audit on even quadrics
+\(d\ge14\).
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G181: construct the higher-power five-double boundary}
+ \text{G182: construct the sextic six-point boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

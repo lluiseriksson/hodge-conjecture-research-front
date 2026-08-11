@@ -1285,9 +1285,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G179 - NO-GO: the layers \(s=8d+4,8d+5\) fail.
 - G180 - NO-GO: the layers \(s=8d+6,8d+7\) fail.
 - NG212 - NO-GO: square survival at the former five-double boundary.
-- G181 - EXPLORATORY, active smallest branch: construct the higher-power
-  boundary package with \(s=8d+8,\delta_1=4d+4,N=10d+10\), and
-  \(h_Z(1)=5d+5=N/2\).
+- B255 - PROVED: a six-edge complete-multipartite separator excludes
+  cubic equality and supplies a sixth full double block for every
+  \(A=O_Q(k)\), \(k\ge4\); the common floor is \(5d+6\) and
+  \(s\ge8d+10\).
+- G181 - NO-GO: the layers \(s=8d+8,8d+9\) fail.
+- NG213 - NO-GO: higher-power survival at five-double equality.
+- G182 - EXPLORATORY, active smallest branch: construct the sextic
+  boundary package with \(s=8d+10,\delta_1=4d+5,N=10d+12\), and
+  \(h_Z(1)=5d+6=N/2\); only \(A=O_Q(3)\) survives the quadric rank audit.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

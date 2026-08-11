@@ -4211,3 +4211,32 @@
 - **Re-entry condition:** G181 begins at
   \(s=8d+8,\delta_1=4d+4,N=10d+10,h_Z(1)=5d+5\), with only
   \(A=O_Q(k)\), \(k\ge3\), surviving.
+
+## NG-213 - Survive the higher-power five-double equality
+
+- **Label:** NO-GO
+- **Route:** attain \(h_Z(1)=5d+5\) with \(A=O_Q(k)\), \(k\ge3\).
+- **Valid premise:** B249 proves five independent double neighborhoods,
+  exactly filling the proposed equality budget.
+- **Invalid inference:** every later marked point can remain in that span.
+- **Combinatorial obstruction:** relative to a sixth point, the five
+  supports form line-through-point classes of size at most three. Six
+  good pair edges cover every support at least twice.
+- **Separator:** the product of the six pair-line hyperplanes vanishes on
+  all five doubles and is a unit at the sixth point.
+- **Cubic consequence:** equality fails for \(k=3\), so
+  \(h_Z(1)\ge5d+6\).
+- **Higher-power consequence:** for \(k\ge4\), the residual complete
+  system supplies the whole sixth double block, so
+  \(h_Z(1)\ge6d+6\).
+- **Common-floor consequence:** B253-B255 give
+  \(h_Z(1)\ge5d+6\) and \(s\ge8d+10\) for every polarization.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G181 and the layers \(s=8d+8,8d+9\) are closed. G148
+  and HC remain open.
+- **Re-entry condition:** G182 begins at
+  \(s=8d+10,\delta_1=4d+5,N=10d+12,h_Z(1)=5d+6\), with only
+  \(A=O_Q(3)\) surviving at equality.

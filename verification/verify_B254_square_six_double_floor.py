@@ -60,11 +60,11 @@ require(
 )
 require(
     "proofs/G181-higher-power-five-double-boundary.md",
-    ("brick_id: G181", "status: EXPLORATORY", "k\\ge3", "N=10d+10"),
+    ("brick_id: G181", "status: NO-GO", "B255", "N=10d+10"),
 )
 require(
     "proofs/NG212-square-boundary-survival.md",
     ("brick_id: NG212", "status: NO-GO", "h_Z(1)\\ge6d+6", "G181"),
 )
 
-print("PASS: B254 square six-double floor, G179-G181, and NG212")
+print("PASS: B254 square six-double floor, G179-G181 transition, and NG212")

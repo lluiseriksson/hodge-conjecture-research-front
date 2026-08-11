@@ -1302,15 +1302,24 @@ points outside the preceding spans; a hyperplane square times
 \(H^0(O_Q(2))\) supplies each full double neighborhood. Thus
 \(A=O_Q(2)\) requires \(h_Z(1)\ge6d+6\). With B249 and B253, the
 common floor becomes \(h_Z(1)\ge5d+5\), \(s\ge8d+8\). G179-G180 and
-their odd layers are **NO-GO** (NG212). The active smallest gate is
-G181:
+their odd layers are **NO-GO** (NG212).
+
+B255 now closes the higher-power equality. For any sixth marked point,
+the five preceding supports form line-through-point classes of size at
+most three. Six good pair edges cover each support twice, so their
+pair-line hyperplanes produce a sextic vanishing on all five doubles and
+nonzero at the sixth point. This excludes equality for \(A=O_Q(3)\);
+for \(A=O_Q(k)\), \(k\ge4\), the residual complete system supplies the
+sixth double block. Hence the common floor is
+\(h_Z(1)\ge5d+6\), \(s\ge8d+10\). G181 and its odd layer are
+**NO-GO** (NG213). The active smallest gate is G182:
 
 \[
- m=2,\qquad s=8d+8,\qquad \delta_1=4d+4,\qquad
- N=10d+10,\qquad h_Z(1)=5d+5=N/2.
+ m=2,\qquad s=8d+10,\qquad \delta_1=4d+5,\qquad
+ N=10d+12,\qquad h_Z(1)=5d+6=N/2.
 \]
 
-On even quadrics \(d\ge14\), only \(A=O_Q(k)\), \(k\ge3\), survives.
+On even quadrics \(d\ge14\), only \(A=O_Q(3)\) survives at equality.
 This remains only a necessary window; every geometric and detector
 obligation is open.
 
@@ -1926,6 +1935,7 @@ python verification/verify_B251_standard_one_beyond_slope_eight.py
 python verification/verify_B252_standard_two_beyond_slope_eight.py
 python verification/verify_B253_standard_parametric_band.py
 python verification/verify_B254_square_six_double_floor.py
+python verification/verify_B255_higher_power_five_double.py
 ```
 
 The repository verifier checks the required directory topology, result
