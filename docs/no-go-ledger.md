@@ -3510,3 +3510,23 @@
 - **Detector guard:** a one-dimensional complex rank excess is not a
   rational type-\((0,0)\) vanishing-cycle class or an algebraic cycle.
 - **Re-entry condition:** prove the complete existence statement G149.
+
+## NG-184 - Import complete-intersection residue duality as G150
+
+- **Label:** NO-GO
+- **Route:** cut \(Z\) transversely by divisors in powers of \(H\) and
+  use Cayley–Bacharach/residue duality to assert
+  \(E_{m-2}=E_2^{\perp_\lambda}\).
+- **Valid input:** S070 gives a fixed complementary-degree theorem for
+  projective complete intersections, and their Gorenstein trace is perfect.
+- **Invalid inference:** the complementary twist can be prescribed as
+  \(H^{m-2}\) independently of the canonical bundle and cutting divisors.
+- **Precise obstruction:** B224 computes the actual twist as
+  \(\omega_X\otimes H^{\sum e_i-2}\). Matching requires
+  \(\omega_X\otimes H^{\sum e_i-m}\simeq O_X\), which fails for
+  \(X=\mathbf P^n\times\mathbf P^n\), \(H=O(2,4)\).
+- **Detector guard:** twist matching alone would still supply neither
+  second-osculator absorption nor doubled/tripled jets, ODP Hessians,
+  rational Hodge type, or the specified pairing.
+- **Re-entry condition:** construct G150 by a non-complete-intersection
+  scheme or a proved twist correction preserving every detector clause.

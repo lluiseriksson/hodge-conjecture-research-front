@@ -1545,6 +1545,40 @@ signature conditional on existence. NG183 blocks the converse
 inference: neither result constructs the marked ODP incidence or
 rational specified-pairing detector.
 
+B223 makes the two surviving transport isomorphisms one exact finite
+condition:
+
+\[
+\text{G149}\Longrightarrow
+E_{m-2}=E_2^{\perp_\lambda}
+\quad\text{under the full-support diagonal pairing }B_\lambda.
+\tag{************************************************}
+\]
+
+Thus the next construction map is
+
+\[
+\text{G149}\Longleftarrow
+\text{G150: construct the weighted-Gale pair on one reduced }Z
+\text{ and retain every jet/ODP/detector clause}.
+\tag{*************************************************}
+\]
+
+The complete-intersection attempt stops before G150. B224 gives
+
+\[
+\omega_Z\otimes H^{-2}|_Z
+=
+\left(\omega_X\otimes\bigotimes_iL_i\otimes H^{-2}\right)|_Z,
+\tag{**************************************************}
+\]
+
+so H-power divisors canonically target \(H^{m-2}|_Z\) only if
+\(\omega_X\otimes H^{\sum e_i-m}\simeq O_X\). NG184 tests this on
+\((\mathbf P^n\times\mathbf P^n,O(2,4))\), where the identity is
+impossible. S070 supports the fixed complementary-degree rule but
+constructs no twist correction, doubled jets, or Hodge detector.
+
 Two sufficient attacks feed G008:
 
 \[

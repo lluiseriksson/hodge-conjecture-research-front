@@ -889,6 +889,23 @@ branch: use a squared very ample polarization \(H=A^2\), \(m\ge3\), and
 this exact rank signature. NG183 records that Gauss injectivity and the
 rank budget do not construct the marked ODP scheme or rational detector.
 
+B223 now identifies the exact finite core hidden in those two transport
+isomorphisms. The full-support relation \(\lambda\) gives a nondegenerate
+diagonal pairing and forces
+\[
+E_{m-2}=E_2^{\perp_\lambda};
+\]
+the degree-\(2\) and degree-\(m-2\) point configurations are weighted
+Gale dual. B224 audits the first construction attempt. For a transverse
+complete intersection \(Z=\cap D_i\), residue duality pairs \(H^2|_Z\)
+with
+\((\omega_X\otimes\bigotimes_iO(D_i)\otimes H^{-2})|_Z\), not
+automatically with \(H^{m-2}|_Z\). On
+\(\mathbf P^n\times\mathbf P^n\) polarized by \(H=O(2,4)\), no
+intersection of divisors in H-powers corrects that canonical twist.
+G150 is the active core-construction gate; NG184 closes only the naive
+complete-intersection residue route.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in

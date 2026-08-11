@@ -2178,6 +2178,12 @@ Society* 93 (1985), 593--597.
   dimensions, but it does not create the extra double-generator line,
   prove ODP Hessians, or extend that package to an arbitrary polarized
   variety and specified Hodge class.
+- B224/G150 scope: Theorem 1.2 fixes the complementary degree
+  \(s-a\), with \(s=\sum d_i-r-1\); it does not permit replacing that
+  degree by an arbitrary \(m-2\). On a general smooth \(X\), B224 derives
+  the corresponding adjunction twist directly. S070 constructs no
+  canonical-bundle correction, weighted-Gale first-slack scheme,
+  doubled/tripled jets, or rational detector.
 - Scope guard: the theorem computes residual evaluation dimensions for a
   projective complete intersection. It does not supply analytic constancy in
   a family, an arbitrary-variety residue theorem, Hodge type, or a detector

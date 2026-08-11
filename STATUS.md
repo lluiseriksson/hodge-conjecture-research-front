@@ -1085,6 +1085,19 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG183 - NO-GO: squaring the polarization and adding one slack node
   constrain any candidate but construct neither its ODP scheme nor its
   rational class-specific detector.
+- B223 - PROVED: G149's two complementary transport isomorphisms are
+  exactly weighted Gale duality
+  \(E_{m-2}=E_2^{\perp_\lambda}\) for the full-support relation.
+- B224 - PROVED: complete-intersection residue duality has the fixed
+  adjunction complement
+  \(\omega_X\otimes\bigotimes_iL_i\otimes H^{-2}\), which need not be
+  \(H^{m-2}\).
+- G150 - EXPLORATORY, active finite core: construct the first-slack
+  weighted Gale pair on the same reduced scheme carrying all G149
+  doubled/tripled-jet, ODP, rational-type, and pairing clauses.
+- NG184 - NO-GO: H-power complete intersections do not universally
+  realize G150; the polarized product
+  \((\mathbf P^n\times\mathbf P^n,O(2,4))\) has the wrong canonical twist.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
