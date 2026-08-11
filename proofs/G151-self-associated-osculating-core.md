@@ -1,6 +1,6 @@
 ---
 brick_id: G151
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex 2n-fold X with a rational middle Hodge class zeta primitive for a very ample A and H=A^2
 smoothness: X and the reduced marked scheme Z are smooth; the H^5 divisor must have the prescribed isolated ODPs and every retained incidence-smoothness clause
@@ -13,7 +13,7 @@ hodge_type: the degree-five full-support relation must be rational type (0,0) an
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B225, G013, G090-G150, NG106-NG185, S082
+dependencies: B007-B010, B134-B226, G013, G090-G150, NG106-NG185, S082
 claim: For every primitive input (X,A,zeta), construct H=A^2 and a reduced Z of 2binom(2n+2,2)+2 points whose H^2 evaluation columns are self-associated, whose rank-(c+1) span contains every marked full second osculator as a hyperplane, and which realizes every degree-five G150 ODP-profile, holonomy, finite-Kuranishi, rational-type, and specified-pairing clause.
 falsifier: one primitive input for which no self-associated degree-two point configuration can be embedded in X with all osculator, doubled/tripled-jet, ODP, rationality, Hodge-type, and pairing obligations
 ---
@@ -44,3 +44,9 @@ in \(\mathbf P^{c_{2n}}\). G151 asks to realize that configuration
 S082 classifies the abstract linear-algebra shape of self-associated
 sets, but it supplies no theorem placing one on an arbitrary fixed
 polarized variety with the osculator and detector data above.
+
+B226/NG186 give a direct fixed-A counterexample: powered primitive
+polarizations have empty two-triple defect locus, whereas every such
+osculator configuration would be a complete clique in that locus.
+Thus G151 is **NO-GO** with its displayed universal triple quantifier.
+G152 permits the exceptional polarization to be chosen.

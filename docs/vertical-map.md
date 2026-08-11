@@ -1561,7 +1561,7 @@ E_{m-2}=E_2^{\perp_\lambda}
 \tag{************************************************}
 \]
 
-Thus the next construction map is
+Thus the conditional fixed-polarization construction map was
 
 \[
 \text{G149}\Longleftarrow
@@ -1595,7 +1595,8 @@ D_tE_2=E_3=E_2^{\perp_\lambda}.
 \]
 
 Absorbing \(D_t\) into the weights makes \(E_2\) self-dual. S082
-identifies its columns as a self-associated set. The next vertical gate is
+identifies its columns as a self-associated set. The resulting conditional
+fixed-polarization gate was
 
 \[
 \text{G150}\Longleftarrow
@@ -1608,6 +1609,33 @@ H^2(X)
 NG185 prevents replacing this fixed-\(X\) incidence by an abstract
 self-associated configuration. S082 Theorem 7.3 also requires a separate
 one-condition quadratic defect before arithmetic Gorensteinness follows.
+
+B226 then tests the fixed polarization itself. For every marked pair,
+
+\[
+H^0(X,A^4)\longrightarrow H^0(3p\sqcup3q,A^4)
+\quad\text{is not surjective},
+\tag{*****************************************************}
+\]
+
+because surjectivity would put a \(2c_{2n}\)-dimensional direct sum of
+osculators inside a \((c_{2n}+1)\)-space. Hence \(Z\) is a complete
+clique in \(\mathfrak D_A^{(2,2)}\). But if \(A=B^\ell\),
+\(\ell\ge2\), B215 makes that correspondence empty. The fixed-A chain
+
+\[
+\text{G149}\Longleftarrow\text{G150}\Longleftarrow\text{G151}
+\]
+
+is therefore universally false (NG186). Its conditional implications
+remain valid. The corrected vertical branch is
+
+\[
+\text{G148}\Longleftarrow
+\text{G152: choose exceptional }A\text{ and construct a }
+(2c_{2n}+2)\text{-vertex defect clique with every detector clause}.
+\tag{******************************************************}
+\]
 
 Two sufficient attacks feed G008:
 

@@ -1,6 +1,6 @@
 ---
 brick_id: G149
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex 2n-fold X with a specified nonzero rational middle Hodge class zeta primitive for a very ample A, and the squared polarization H=A^2
 smoothness: X and the marked reduced scheme Z are smooth; the central degree-m divisor must have exactly the prescribed ODPs and every G144 incidence-smoothness clause
@@ -13,9 +13,9 @@ hodge_type: the detector must be rational type (0,0) and pair nontrivially with 
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B222, G013, G090-G144, G148, NG106-NG183
+dependencies: B007-B010, B134-B222, B226, G013, G090-G144, G148, NG106-NG183
 claim: For every arbitrary primitive input (X,A,zeta), construct the complete G144 package for H=A^2 at some m>=5 with N=D_(2n)(m)+1; equivalently by B220 and B222, realize h_Z(2)=c_(2n)+1, h_Z(m-2)=L_(2n)(m-2), both complementary transport isomorphisms, and every central-profile, holonomy, finite-Kuranishi, rational-detector, and specified-pairing clause.
-falsifier: one legitimate pair (X,zeta) for which no squared polarization, degree m>=3, and first-slack marked configuration realizes all displayed geometric, rank, rationality, Hodge-type, and pairing clauses
+falsifier: one legitimate primitive input (X,A,zeta) for which H=A^2 and no degree m>=5 first-slack marked configuration realizes all displayed geometric, rank, rationality, Hodge-type, and pairing clauses
 ---
 
 # G149 — The first-slack injective-Gauss branch
@@ -48,3 +48,9 @@ marked scheme with (2), the adjacent ODP profile, finite Kuranishi
 closure, rational type-\((0,0)\) relation, or nonzero pairing with the
 specified \(\zeta\). Those simultaneous construction obligations are
 the falsifiable content of G149.
+
+B226/NG186 now falsify the fixed-A universal quantifier: if \(A=B^2\),
+then \(A^4\) separates every pair of triple neighborhoods, while every
+candidate would require failure for every pair. G149 is therefore
+**NO-GO** as stated. G152 restores an existential choice of exceptional
+primitive polarization.

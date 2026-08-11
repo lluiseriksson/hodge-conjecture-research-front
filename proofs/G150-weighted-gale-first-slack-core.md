@@ -1,6 +1,6 @@
 ---
 brick_id: G150
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex 2n-fold X with a rational middle Hodge class zeta primitive for a very ample A and H=A^2
 smoothness: X and Z are smooth and reduced; the degree-m divisor must have the G149 isolated ODPs and every retained incidence-smoothness clause
@@ -13,7 +13,7 @@ hodge_type: the full-support relation must admit rational type (0,0) and pair no
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B224, G013, G090-G149, NG106-NG184
+dependencies: B007-B010, B134-B224, B226, G013, G090-G149, NG106-NG184
 claim: For every primitive input (X,A,zeta), construct H=A^2, m>=5, Z of size D_(2n)(m)+1, and a full-support rational relation lambda such that E_(m-2)=E_2^(perp_lambda), the degree-two code has rank c_(2n)+1 and contains every marked full second osculator, and every G149 ODP-profile, holonomy, Kuranishi, rational-type, and specified-pairing clause holds.
 falsifier: one primitive input for which no reduced first-slack weighted Gale core can be coupled to all doubled/tripled-jet, ODP, rationality, Hodge-type, and specified-pairing requirements
 ---
@@ -45,3 +45,8 @@ does not propagate universally: adjunction fixes the complementary
 line bundle, which need not be \(H^{m-2}\). G150 therefore requires a
 new non-complete-intersection construction or a proved comparison that
 corrects the canonical twist without assuming the desired detector.
+
+B226/NG186 subsequently show that the universal fixed-A claim itself is
+false for powered primitive polarizations. The conditional weighted-Gale
+identity remains valid, but G150 is **NO-GO** as universally quantified.
+The corrected choice-of-polarization gate is G152.

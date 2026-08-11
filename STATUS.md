@@ -1080,9 +1080,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   two lower-rank excesses and equal complementary transport cokernels;
   injective Gauss forces the degree-two excess to be positive. The
   corrected low-degree audit excludes one slack node for \(m=2,3,4\).
-- G149 - EXPLORATORY, sufficient first-slack branch: for every arbitrary input,
-  use \(H=A^2\), \(m\ge5\), and \(N=D_{2n}(m)+1\) to realize the full
-  G144 package with degree-two excess one and both transports isomorphic.
+- G149 - NO-GO: its fixed-A universal quantifier is falsified by powered
+  primitive polarizations; its conditional rank signature remains valid.
 - NG183 - NO-GO: squaring the polarization and adding one slack node
   constrain any candidate but construct neither its ODP scheme nor its
   rational class-specific detector.
@@ -1093,9 +1092,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   adjunction complement
   \(\omega_X\otimes\bigotimes_iL_i\otimes H^{-2}\), which need not be
   \(H^{m-2}\).
-- G150 - EXPLORATORY, weighted-Gale finite core: construct the first-slack
-  weighted Gale pair on the same reduced scheme carrying all G149
-  doubled/tripled-jet, ODP, rational-type, and pairing clauses.
+- G150 - NO-GO: its conditional weighted-Gale core is valid, but the
+  same fixed-A powered-polarization witness falsifies universal existence.
 - NG184 - NO-GO: H-power complete intersections do not universally
   realize G150; the polarized product
   \((\mathbf P^n\times\mathbf P^n,O(2,4))\) has the wrong canonical twist.
@@ -1105,12 +1103,21 @@ generation from the controlled partitioned nodal locus is not proved.**
 - B225 - PROVED: the first viable one-slack degree is \(m=5\); its
   degree-two evaluation code has length \(2c_{2n}+2\), dimension
   \(c_{2n}+1\), and is diagonally self-dual.
-- G151 - EXPLORATORY, active smallest gate: construct that
-  self-associated point set inside the fixed \(H^2(X)\)-image with all
-  second-osculator, ODP, rational-type, and specified-pairing clauses.
+- G151 - NO-GO: a powered primitive A has empty two-triple defect locus,
+  so no self-associated osculator configuration exists for that fixed A.
 - NG185 - NO-GO: an abstract self-associated or arithmetically
   Gorenstein set in free projective space does not solve the fixed-X
   osculator incidence or construct a Hodge detector.
+- B226 - PROVED: every first-slack marked set is a complete clique in
+  the A^4 two-triple defect correspondence; that correspondence is empty
+  when \(A=B^\ell\), \(\ell\ge2\).
+- NG186 - NO-GO: raising or fixing a powered primitive polarization
+  improves two-triple separation and destroys G149-G151 rather than
+  constructing them.
+- G152 - EXPLORATORY, active corrected gate: for each primitive target,
+  choose an exceptional very ample A and construct a
+  \(2c_{2n}+2\)-point two-triple defect clique carrying all
+  self-associated, osculator, ODP, rational-type, and pairing clauses.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

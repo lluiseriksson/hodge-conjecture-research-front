@@ -915,11 +915,25 @@ Multiplication by an H-section nonzero on \(Z\) identifies \(E_2\) and
 \(E_3\), so the weighted Gale pair becomes a self-dual code and the
 degree-two columns form a self-associated set in
 \(\mathbf P^{c_{2n}}\). S082 audits Eisenbud–Popescu's intrinsic
-classification. G151 is the new active gate: embed such a
+classification. G151 was the resulting fixed-polarization gate: embed such a
 self-associated set in the fixed \(H^2(X)\)-image with every marked
 second-osculator, ODP, rational-type, and specified-pairing clause.
 NG185 blocks importing an abstract pair of orthogonal bases or a
 Gorenstein point set as that fixed-\(X\) construction.
+
+B226 adds the decisive fixed-polarization obstruction. Because every
+marked second osculator has dimension \(c_{2n}\) inside one
+\((c_{2n}+1)\)-space, no pair \(3p\sqcup3q\) can impose independent
+conditions on \(A^4=H^2\). Thus the whole marked set must be a clique in
+the two-triple defect correspondence \(\mathfrak D_A^{(2,2)}\).
+If \(A=B^\ell\) with \(\ell\ge2\), B215 makes this correspondence empty.
+The valid product input
+\((\mathbf P^n\times\mathbf P^n,O(2,2),\zeta_{\rm prim})\) therefore
+falsifies G149-G151's fixed-A universal quantifiers. NG186 records the
+failure. G152 is the corrected active gate: choose an exceptional
+primitive polarization \(A\) and construct a \(2c_{2n}+2\)-vertex defect
+clique carrying the entire self-associated osculator and Hodge-detector
+package.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the

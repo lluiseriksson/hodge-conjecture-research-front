@@ -3550,3 +3550,24 @@
   relation, specified pairing, or algebraic cycle.
 - **Re-entry condition:** construct the full fixed-X degree-five
   self-associated osculator package stated in G151.
+
+## NG-186 - Raise the primitive polarization to reach first slack
+
+- **Label:** NO-GO
+- **Route:** replace a primitive very ample bundle by powers and search
+  for the G149-G151 first-slack configuration.
+- **Valid input:** powers preserve primitivity up to a nonzero scalar
+  Lefschetz operator and improve jet separation.
+- **Invalid inference:** improved separation creates the necessary
+  osculator collision.
+- **Precise obstruction:** B226 requires every pair to fail
+  \(A^4\)-interpolation on \(3p\sqcup3q\). If \(A=B^\ell\),
+  \(\ell\ge2\), B215 gives surjectivity for every pair.
+- **Universal witness:** on
+  \(\mathbf P^n\times\mathbf P^n\), \(B=O(1,1)\) has a nonzero rational
+  algebraic primitive middle class, and \(A=B^2\) is a valid fixed
+  primitive polarization with empty defect locus.
+- **Detector guard:** this closes only the fixed-A subbranches
+  G149-G151, not G148, G152, or HC.
+- **Re-entry condition:** choose an exceptional low polarization and
+  construct G152's full defect clique and detector package.
