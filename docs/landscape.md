@@ -523,3 +523,11 @@ divisor in one fixed projective linear system and has constant Hilbert
 polynomial, yet losing one node changes topological Euler characteristic by
 one signed contribution. G102 therefore needs topological or
 vanishing-cycle rigidity, not merely flat projective geometry.
+B162 recasts Euler rigidity in the language already used by the detector
+chain. Along an analytic arc in \(F_B\), every escaping tracked ODP gives a
+separate point-supported rank-one middle vanishing-cycle group. Vanishing
+of these arcwise specialization cones is exactly basis-node persistence.
+NG129 guards an important mismatch: a constant ambient cohomology sheaf
+can survive while the complementary node-escape cone is nonzero. G103 must
+control the whole relative cone and the nonzero relation-channel detector
+simultaneously.

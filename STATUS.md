@@ -610,6 +610,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   class-directed full-linear-system basis stratum.
 - NG128 - NO-GO: projectivity, flatness, and Hilbert-polynomial constancy do
   not force topological Euler constancy.
+- B162 - PROVED: on every analytic arc, the disappearing-node
+  specialization cone is the direct sum of one middle rank-one group per
+  escaping tracked node; vanishing on all arcs is equivalent to persistence.
+- G103 - EXPLORATORY: kill the entire arcwise specialization cone in the
+  class-directed full-linear-system germ while retaining the detector.
+- NG129 - NO-GO: a constant ambient cohomology sheaf or one flat class does not
+  force the complementary middle vanishing-cycle cone to vanish.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1124,6 +1131,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   B159/NG127 show uniform tangent data plus finite jets cannot force it.
   B160/G102 make Euler rigidity sufficient, while B161/NG128 exclude
   projective flatness and fixed Hilbert polynomial as its source.
+  B162/G103 make the gate arcwise vanishing-cycle triviality; NG129 blocks
+  substituting one constant ambient cohomological piece.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

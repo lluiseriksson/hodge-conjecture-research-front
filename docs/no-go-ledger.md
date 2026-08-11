@@ -2393,3 +2393,22 @@
 - **Re-entry condition:** prove topological local triviality, total
   Milnor-number constancy, or an equivalent conservation law on G102's
   actual class-directed stratum and retain the specified pairing.
+
+## NG-129 - Replace the total vanishing cone by one constant cohomological piece
+
+- **Label:** NO-GO
+- **Route:** preserve one ambient direct-image cohomology sheaf or one flat class and
+  infer that every disappearing-node specialization cone vanishes.
+- **Valid input:** that summand or class remains locally constant and may
+  retain its Hodge type.
+- **Invalid inference:** the complementary middle vanishing cycles are
+  zero.
+- **Precise obstruction:** realize B161 on projective space with connected
+  fibers. The unit class and proper base change give
+  \(\mathbf Q_T\simeq R^0g_*\mathbf Q\), but an escaping node contributes
+  the nonzero rank-one middle cone computed by B162.
+- **Scope guard:** B161 does not realize the specified nonzero Saito
+  pairing; the counterexample addresses only the invalid piece-to-total
+  implication.
+- **Re-entry condition:** prove the complete arcwise cone vanishes in G103
+  and separately retain the specified relation-channel pairing.

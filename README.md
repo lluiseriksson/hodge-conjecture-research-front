@@ -257,6 +257,20 @@ Hilbert polynomial do not provide this rigidity: the uniform escape family
 has all three properties while its Euler characteristic changes by one
 signed nodal contribution. G102 asks for genuine Euler or total-Milnor
 rigidity on the class-directed full-linear-system stratum.
+B162 replaces the scalar Euler test by an exact sheaf-theoretic one. Along
+an analytic arc \(\gamma\subset F_B\), the local specialization cone is
+
+\[
+ \Phi_\gamma\simeq
+ \bigoplus_{\tau_i\circ\gamma\not\equiv0}(V_i)_{p_i}[-(2n-1)],
+ \qquad \dim_{\mathbf Q}V_i=1.
+\]
+
+It vanishes for every arc exactly when no node escapes; analytic curve
+selection makes the criterion all-order. NG129 shows that a constant
+ambient cohomology sheaf or one flat class cannot kill the complementary middle
+cone. G103 asks for full arcwise vanishing-cycle triviality while the
+specified relation-channel detector remains nonzero.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -798,6 +812,7 @@ python verification/verify_B155_all_order_factorization.py
 python verification/verify_B156_syzygy_defect.py
 python verification/verify_B159_uniform_escape.py
 python verification/verify_B160_euler_rigidity.py
+python verification/verify_B162_arc_vanishing.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1019,6 +1034,9 @@ arbitrarily many finite jets still does not force it.
 B160-B161/G102/NG128 identify Euler/total-Milnor constancy as a sufficient
 global conservation law and exclude deriving it from flat projective
 fixed-Hilbert-polynomial geometry alone.
+B162/G103/NG129 express the same gate as vanishing of every arcwise
+disappearing-node specialization cone and exclude replacing the whole cone
+by one constant cohomological piece.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

@@ -46,6 +46,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{basis-node persistence G101}
 \Longleftarrow
 \text{Euler-rigid basis stratum G102}
+\Longleftarrow
+\text{arcwise vanishing-cycle triviality G103}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -206,6 +208,22 @@ B159 inside a flat projective fixed-Hilbert-polynomial family where one node
 escapes and \(\chi\) changes. Thus G102 must prove actual Euler or
 total-Milnor rigidity from stronger global geometry while retaining the
 specified pairing.
+B162 gives the sheaf-theoretic form of G102. For every analytic arc
+\(\gamma\subset F_B\), its local specialization cone is the direct sum of
+one rank-one middle group for each node whose critical value is nonzero
+along the punctured arc. Hence
+
+\[
+ \forall\gamma,\ \Phi_\gamma=0
+ \Longleftrightarrow
+ \text{every node persists on }F_B.
+\]
+
+Analytic curve selection makes this an all-order criterion. NG129 shows
+that a constant ambient cohomology sheaf or one flat class can coexist with a
+nonzero complementary \(\Phi_\gamma\). G103 must kill the complete
+disappearing-node cone while retaining the distinct nonzero specified
+relation pairing.
 
 Two sufficient attacks feed G008:
 
