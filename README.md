@@ -807,6 +807,14 @@ strengthens the node floor to
 \(N\ge2n+1+\max\{m,2n+1\}\). G142 is the resulting transport-aware gate;
 NG175 excludes the intermediate node range allowed by B212 alone.
 
+B214 proves directly from the \(H\)-embedding that every \(H^k\), \(k\ge2\),
+generates the full order-two jet at each point. Lower extinction and B213
+then force the piecewise floor \(N\ge C_{2n}(m)\): \(2(2n+1)\) for
+\(m=2\), \(\binom{2n+2}{2}+2n+1\) for \(m=3\), and
+\(\binom{2n+2}{2}+\max\{\binom{2n+2}{2},m-1\}\) for \(m\ge4\).
+G143 is the refined construction gate; NG176 closes every smaller
+second-jet window.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1393,6 +1401,7 @@ python verification/verify_B209_B210_osculating.py
 python verification/verify_B211_fat_point_signature.py
 python verification/verify_B212_very_ample_window.py
 python verification/verify_B213_relation_transport.py
+python verification/verify_B214_second_jet_floor.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1726,6 +1735,8 @@ B212/G141 impose the universal critical window \(N\ge m+2\);
 S076/NG174 exclude asymptotic positivity with too few nodes.
 B213/G142 impose complementary-degree relation transport and the stronger
 node floor; NG175 excludes treating the B212 ranks independently.
+B214/G143 use universal full second jets to impose the piecewise floor
+\(C_{2n}(m)\); NG176 excludes every smaller node window.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

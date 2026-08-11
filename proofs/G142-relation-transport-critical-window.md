@@ -13,7 +13,7 @@ hodge_type: the detector must be rational type (0,0) with nonzero pairing agains
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of the input class is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B213, G013, G090-G141, NG106-NG175, S065-S076
+dependencies: B007-B010, B134-B214, G013, G090-G141, NG106-NG176, S065-S076
 claim: For arbitrary (X,zeta), construct all G141 data with N>=2n+1+max(m,2n+1) and h_Z(a)+h_Z(m-a)<=N for every 1<=a<m, realized by one full-support degree-m relation under the exact B213 transport maps, while retaining the distinguished ODP profile, G130 holonomy and congruence, and every rational detector clause.
 falsifier: failure of a complementary-rank inequality or transport map, node count below the B213 floor, a value coloop, a degenerate profile, failure of G130, or loss of any detector clause
 ---
@@ -46,3 +46,8 @@ adjacent \(Z\subset2Z\subset3Z\) table. The distinguished nondegenerate
 central profile, full-system congruence and holonomy, no-coloop rational
 detector, specified pairing, pure cubic closure, and later rungs all
 remain mandatory.
+
+B214 observes that \(H^k\) generates every order-two jet for \(k\ge2\).
+Lower extinction and the B213 transport inequalities therefore impose the
+piecewise node floor \(N\ge C_{2n}(m)\). G143 is the resulting refined
+gate; NG176 excludes counting lower point spans as merely tangent-sized.

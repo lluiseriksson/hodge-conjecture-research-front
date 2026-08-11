@@ -1330,6 +1330,37 @@ For \(d=2n\), this is
 together with every G141 profile and detector clause. NG175 closes the
 intermediate range allowed by the separate B212 table.
 
+B214 supplies the missing universal local rank. For every \(k\ge2\), the
+sections
+
+\[
+ s_0^k,\qquad s_is_0^{k-1},\qquad s_is_js_0^{k-2}
+ \tag{*******************************}
+\]
+
+generate \(1,x_i,x_ix_j\), hence the full
+\(c_d=\binom{d+2}{2}\)-dimensional order-two jet. Lower absorption gives
+
+\[
+ h_Z(k)\ge\max\{c_d,k+1\}\qquad(2\le k<m).
+ \tag{********************************}
+\]
+
+Optimizing B213 over complementary degrees yields
+
+\[
+ N\ge C_d(m)=
+ \begin{cases}
+ 2(d+1),&m=2,\\
+ c_d+d+1,&m=3,\\
+ c_d+\max\{c_d,m-1\},&m\ge4.
+ \end{cases} \tag{*********************************}
+\]
+
+G143 asks for G142 inside this full second-jet window. NG176 blocks every
+smaller node count obtained by omitting the quadratic monomials in
+(*******************************).
+
 Two sufficient attacks feed G008:
 
 \[

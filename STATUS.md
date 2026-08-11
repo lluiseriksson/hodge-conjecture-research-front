@@ -1004,6 +1004,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   these actual complementary-degree transport maps.
 - NG175 - NO-GO: the separate B212 ranks do not establish feasibility;
   the entire smaller node interval violates B213.
+- B214 - PROVED: \(H^k\) generates full order-two jets for every
+  \(k\ge2\). With lower absorption and B213 this gives the piecewise node
+  floor \(N\ge C_{2n}(m)\).
+- G143 - EXPLORATORY: realize G142 inside that full second-jet transport
+  window while retaining the central profile and arbitrary-class detector.
+- NG176 - NO-GO: lower point spans cannot be counted as merely
+  tangent-sized once \(k\ge2\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1625,6 +1632,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   high powers with too few nodes.
   B213/G142 couple complementary degrees through the full-support
   relation; NG175 removes the remaining undersized numerical window.
+  B214/G143 add universal full second jets and the piecewise node floor;
+  NG176 excludes every smaller second-jet window.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -3375,3 +3375,19 @@
   detector, profile, holonomy, or cycle.
 - **Re-entry condition:** realize the actual transport maps and every
   G142 detector clause.
+
+## NG-176 - Count lower point spans as only tangent-sized
+
+- **Label:** NO-GO
+- **Route:** search for G142 below B214's piecewise node floor by using
+  only the \(2n+1\) tangent-rank lower bound.
+- **Valid input:** tangent absorption is necessary in every lower degree.
+- **Invalid inference:** powers \(H^k\), \(k\ge2\), do not universally
+  generate the remaining quadratic jet directions.
+- **Precise obstruction:** B214 generates \(1,x_i,x_ix_j\) by products of
+  sections of \(H\), so lower second-osculating absorption has rank at
+  least \(\binom{2n+2}{2}\). B213 then forces \(N\ge C_{2n}(m)\).
+- **Detector guard:** the stronger floor supplies no central profile,
+  holonomy, rational detector, specified pairing, or cycle.
+- **Re-entry condition:** work inside G143's node window and retain every
+  relation, profile, and detector clause.
