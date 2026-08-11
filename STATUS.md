@@ -637,6 +637,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   function can vanish while microsupport remains nonzero, even for a
   smooth-total-space projective map satisfying decomposition and relative
   hard Lefschetz.
+- B167 - PROVED: the microlocal inverse-image estimate makes zero
+  \(i^\#\)-image of the ambient sheaf microsupport sufficient for
+  persistence; higher discriminants give a stronger ambient envelope.
+- B168 - PROVED: the branch \(\ell(x)+y^m\) has pointwise absorbed ambient
+  conormals but a nonzero internal normal-cone covector.
+- G106 - EXPLORATORY: absorb the full ambient microsupport normal cone, or
+  its higher-discriminant envelope, while retaining every detector clause.
+- NG132 - NO-GO: pointwise conormal containment, central tangent data, and
+  any fixed finite jet order do not force full microlocal absorption.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1156,7 +1165,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   zero internal microsupport; B164/NG130 block decomposition-theorem
   shortcuts. B165-B166/G105 make the test componentwise positive
   node-polar vanishing; NG131 blocks alternating characteristic-cycle and
-  Euler-index shortcuts.
+  Euler-index shortcuts. B167-B168/G106 move the gate to full ambient
+  normal-cone absorption; NG132 blocks pointwise conormal and finite-jet
+  shortcuts.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

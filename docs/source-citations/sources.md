@@ -2026,6 +2026,45 @@ A. A. Beilinson, J. Bernstein, and P. Deligne, *Faisceaux pervers*,
   class-directed nodal germ, proves a specified Hodge type or pairing, or
   supplies an algebraic cycle.
 
+## S068 - Microlocal inverse image and higher discriminants
+
+Masaki Kashiwara and Pierre Schapira, *Sheaves on Manifolds*, Grundlehren
+der mathematischen Wissenschaften 292, Springer, 1990.
+[Official book record](https://link.springer.com/book/10.1007/978-3-662-02661-8);
+[open precursor, *Microlocal Study of Sheaves*, Astérisque 128](https://www.numdam.org/issues/AST_1985__128__1_0/).
+
+Luca Migliorini and Vivek Shende, “Higher discriminants and the topology
+of algebraic maps,” *Algebraic Geometry* 5 (2018), 114–130.
+[Primary open-access article](https://content.algebraicgeometry.nl/2018-1/2018-1-004.pdf),
+[arXiv:1307.4059](https://arxiv.org/abs/1307.4059).
+
+- Audited Kashiwara--Schapira Corollary 6.4.4 and Remark 6.2.8(i) for
+  B167: if \(i:M\hookrightarrow N\) is a closed embedding, then
+  \(SS(i^{-1}K)\subseteq i^\#SS(K)\). The operation \(i^\#\) uses a normal
+  cone and remains meaningful in the characteristic case; it is not the
+  pointwise quotient of covector fibers.
+- Audited Migliorini--Shende equation (2.2), Theorem 2.7, Lemma 2.12, and
+  Theorems A--C. For a proper map of smooth characteristic-zero varieties,
+  \(SS(Rf_*\mathbf Q)\subseteq f^\dagger(0)\), and the latter is the union
+  of conormals to codimension-\(a\) components of the higher discriminants.
+  Their Lemma 2.12 detects these loci by generic complete-intersection
+  slices and vanishing cycles.
+- Cancellation guard: Theorem A is stated for the characteristic cycle of
+  the pushed-forward constructible function, while Theorem B concerns
+  supports of decomposition summands. The article explicitly warns that
+  constructible-function singular support can be strictly smaller than
+  sheaf microsupport through cancellation. G106 therefore uses the full
+  sheaf microsupport or the larger Theorem C envelope, never Theorem A as
+  an equality for the sheaf.
+- Application check: the base \(P=|L|\) and the universal hypersurface
+  incidence \(\mathcal U\) are smooth for basepoint-free \(L\), and
+  \(h:\mathcal U\to P\) is projective, so the smooth-source hypotheses used
+  in B167 are satisfied.
+- Scope guard: higher discriminants constrain ambient characteristic
+  geometry. They do not prove microlocal absorption by a chosen
+  class-directed germ, a nonzero Saito pairing, or algebraicity of a Hodge
+  class.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

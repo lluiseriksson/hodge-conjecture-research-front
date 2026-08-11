@@ -2450,3 +2450,21 @@
   family; it blocks the general sheaf-theoretic implication only.
 - **Re-entry condition:** prove every nonnegative coefficient of B165's
   \(CC^+\) vanishes separately in G105, and retain the detector pairing.
+
+## NG-132 - Replace the microlocal normal cone by pointwise conormals
+
+- **Label:** NO-GO
+- **Route:** restrict ambient characteristic covector fibers to \(F_B\),
+  quotient by \(N^*_{F_B}P\), and infer G106 when the quotient is zero.
+- **Valid input:** B168's smooth branch \(\ell_N(x)+y^m=0\) has every
+  ambient conormal over its intersection with \(F_B\) contained pointwise
+  in \(N^*_{F_B}P\).
+- **Invalid inference:** \(i^\#\) of that conormal has only its zero
+  section.
+- **Precise obstruction:** the pullback equation is \(y^m=0\). The
+  rank-one ODP specialization across its reduced divisor gives
+  \(T^*_{\{y=0\}}F_B\subset i^\#\overline{T^*_{D_N}P}\).
+- **Jet guard:** \(m\) can exceed any fixed tested order.
+- **Re-entry condition:** prove the full normal-cone inclusion of G106,
+  not pointwise or finite-order conormal absorption, and separately retain
+  the specified pairing.

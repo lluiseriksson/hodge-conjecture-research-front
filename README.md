@@ -300,6 +300,20 @@ product with an elliptic curve can make the ordinary alternating
 characteristic cycle and every fiber Euler characteristic zero while
 preserving nonzero microsupport. G105 asks for componentwise positive
 node-polar vanishing together with the detector pairing.
+B167 moves the certificate back to the complete linear system using the
+full microlocal inverse-image transform:
+
+\[
+ SS(K_B)\subseteq i^\#SS(Rh_*\mathbf Q_{\mathcal U}).
+\]
+
+Hence zero \(i^\#\)-image is sufficient for persistence. The
+Migliorini--Shende higher-discriminant envelope gives a stronger ambient
+target. B168/NG132 show that pointwise conormal containment is not a
+substitute: for \(\ell(x)+y^m\), every ambient conormal over the basis germ
+is pointwise normal to it, yet the normal cone produces the internal
+conormal to \(y=0\). G106 asks for full normal-cone absorption while
+retaining the detector.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -844,6 +858,7 @@ python verification/verify_B160_euler_rigidity.py
 python verification/verify_B162_arc_vanishing.py
 python verification/verify_B163_microsupport.py
 python verification/verify_B165_characteristic_cycle.py
+python verification/verify_B168_normal_cone.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1073,6 +1088,9 @@ condition and exclude deriving it from the decomposition theorem alone.
 B165-B166/G105/NG131 replace alternating index data by finite positive
 node-polar multiplicities and exclude cancellation through cohomological
 shifts, even under projective decomposition and hard Lefschetz.
+B167-B168/G106/NG132 express the gate as full ambient microlocal
+normal-cone absorption and exclude pointwise conormal or finite-jet
+substitutes.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

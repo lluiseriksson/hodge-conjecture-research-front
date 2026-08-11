@@ -52,6 +52,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{zero internal microsupport G104}
 \Longleftarrow
 \text{positive node-polar vanishing G105}
+\Longleftarrow
+\text{full ambient normal-cone absorption G106}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -261,6 +263,19 @@ decomposition, and relative hard Lefschetz cannot replace this positive
 list: an elliptic product cancels the alternating class while preserving
 microsupport. G105 must kill every \(M_\alpha\) without cancellation and
 retain the distinct nonzero specified relation pairing.
+B167 supplies the ambient sufficient condition
+
+\[
+ SS(K_B)\subseteq i^\#SS(Rh_*\mathbf Q_{\mathcal U}),
+\]
+
+and Migliorini--Shende's Theorem C supplies the stronger envelope obtained
+from conormals to all higher-discriminant components. B168/NG132 show that
+\(i^\#\) cannot be replaced by the pointwise quotient of ambient conormal
+fibers: \(\ell(x)+y^m\) is pointwise normal to \(F_B\) along the
+intersection, while its normal cone contains the internal conormal to
+\(y=0\). G106 must prove full germwise normal-cone absorption and retain
+the nonzero relation pairing.
 
 Two sufficient attacks feed G008:
 

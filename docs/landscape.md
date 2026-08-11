@@ -548,3 +548,12 @@ proves persistence. NG131 shows that the ordinary characteristic cycle is
 too weak: multiplying B164 by an elliptic curve kills its Grothendieck
 class and Euler function while retaining the same nonzero microsupport.
 G105 therefore requires componentwise positive node-polar vanishing.
+B167 uses the Kashiwara--Schapira closed-embedding estimate to bound the
+internal microsupport by \(i^\#\) of the ambient complete-linear-system
+microsupport. Migliorini--Shende identify a computable larger envelope as
+the union of conormals to components of all higher discriminants. B168
+shows why the normal cone in \(i^\#\) cannot be discarded: the smooth
+ambient branch \(\ell(x)+y^m=0\) has conormal fibers pointwise contained in
+\(N^*F_B\), but its nonreduced pullback \(y^m=0\) produces the nonzero
+internal conormal to \(y=0\). G106 must prove full normal-cone absorption,
+not a tangent-space or fixed-jet approximation.
