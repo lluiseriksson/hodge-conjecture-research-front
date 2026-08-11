@@ -602,6 +602,12 @@ Society* 137 (2009), 3593-3600.
   local invariant vanishes exactly when its restriction to the singular
   hyperplane vanishes in intersection cohomology; it can also be tested on
   the smooth part over a contractible punctured neighborhood.
+- Rechecked p. 2, equations (2.1)-(2.2), pp. 3-5, formulas (2.7)-(2.13), and
+  Definition 3.3 for B128: the IC has ordinary cohomology only in degrees
+  \([-d,-1]\), \(IH^1=\mathbb H^{1-d}\), and restriction of the canonical
+  global perverse component gives the local component. These inputs yield
+  the two-row edge sequence and identify its section stalks with
+  \(s(\zeta)_p\).
 - Scope guard: nonzero global invariant does not in the paper imply a
   nonzero local invariant. Nonemptiness of the local singularity locus for
   every primitive Hodge class is the Thomas/Hodge-conjecture condition.

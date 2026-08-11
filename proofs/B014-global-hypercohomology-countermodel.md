@@ -63,3 +63,9 @@ vanishing-cohomology local system of G008. This is not a counterexample to the
 Hodge Conjecture or to G008. It proves only that G008 cannot follow from the
 formal definitions of hypercohomology and perverse stalks; a theorem must use
 the special geometric origin of \(s(\zeta)\).
+
+B129/NG103 later remove most of this caveat: the same separation occurs for
+full-support geometric polarizable weight-\(-1\) Hodge coefficients on every
+\(\mathbf P^d\), even with a nonzero rational type-\((0,0)\) global class.
+What remains special in G008 is the universal-hyperplane coefficient and the
+incidence origin of \(s_m(\zeta)\).

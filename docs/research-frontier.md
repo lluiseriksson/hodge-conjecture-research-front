@@ -163,6 +163,15 @@ B127/NG102 split G084 into active terminal support gate G008 plus conditional
 cleanup G085. B126/NG101 exclude performing that cleanup inside a suspended
 $A_2$ local versal slice.
 
+B128 computes G008's exact two-row edge sequence. Empty local support means
+that the nonzero global incidence class lies entirely in
+\(H^1(P_m,\mathcal H^{-d_m}K_m)\). G086 is the class-specific escape
+exclusion. B129/NG103 strengthen B014: even on every projective space, a
+full-support geometric polarizable weight-\(-1\) IC can have a nonzero
+rational type-\((0,0)\) \(IH^1\) class and zero local target sheaf. Therefore
+the next proof must use the exact universal-incidence origin of
+\(s_m(\zeta)\), not only projectivity, purity, hard Lefschetz, or Hodge type.
+
 ## Sufficient parent: G014
 
 For each smooth projective complex variety in the middle-degree reduction,
@@ -348,6 +357,7 @@ proving the full package for every \(m\ge3\), including the two-block
 partition via full symmetric monodromy. The unresolved content is now sharply
 class-specific and non-circular: produce such incidence from a global
 detector without presupposing an algebraic representative.
-G008 remains the terminal-equivalent support
-theorem; G007/NG-010 remain the concrete tube-concentration attempt and its
+G008 remains the terminal-equivalent support theorem. B128/G086 give its
+exact edge-escape form, while B129/NG103 close the formal projective-Hodge
+shortcut. G007/NG-010 remain the concrete tube-concentration attempt and its
 class-directed incidence mismatch.

@@ -13,7 +13,7 @@ hodge_type: primitive (n,n) input; local Green-Griffiths invariant and Saito rel
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B007, B010-B012, B014-B015, B127, G084-G085, NG102, and the attempted mechanisms B011 and B013
+dependencies: B007, B010-B012, B014-B015, B127-B129, G084-G086, NG102-NG103, and the attempted mechanisms B011 and B013
 claim: For every nonzero primitive rational Hodge class zeta, there is a sufficiently high embedding for which the associated local Green-Griffiths invariant is nonzero at some discriminant point, equivalently Sing(zeta) is nonempty for that embedding.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class whose local Green-Griffiths invariant vanishes at every parameter point for every sufficiently high power
 ---
@@ -80,6 +80,26 @@ B013 provides it. B015 supplies the normal-crossing and partial-smoothing
 geometry after an independent-node hyperplane is already chosen, but does not
 construct that hyperplane from \(\zeta\) or the tube.
 
+## Attempt 4 - Force localization from the formal Hodge package
+
+B128 computes the exact two-row hypercohomology edge sequence. The global
+class has empty local support precisely when it lies in
+
+\[
+ H^1(P_m,\mathcal H^{-d_m}K_m)\subset IH^1(P_m,K_m).
+\]
+
+It is tempting to exclude this escape row using the projective-space base,
+full strict support, geometric origin, polarizability, purity, hard Lefschetz,
+and the rational type-\((0,0)\) of \(s_m(\zeta)\). B129/NG103 disprove that
+formal implication on every \(\mathbf P^d\): a geometric weight-\(-1\)
+full-support IC can carry a nonzero rational \((0,0)\) class entirely in the
+escape row while its local target sheaf vanishes everywhere.
+
+The surviving input must therefore be the exact universal-incidence origin
+\(s_m(\zeta)=[q_m^*\zeta]_{00}\). G086 records the resulting edge-survival
+obligation. It is an operational form of G008, not a smaller terminal gate.
+
 ## Smallest concrete obligation
 
 Construct, directly from \((X,L,\zeta)\) and without an algebraic
@@ -94,6 +114,9 @@ After that point is obtained, a transverse curve through \(p\), B010, and
 Saito's vanishing-cycle exact sequence reduce the remaining work to a local
 type-\((0,0)\) relation. The unsupported step is precisely the production of
 the point \(p\); a generic slice or a global tube cannot substitute for it.
+
+Equivalently by B128, prove that the incidence class avoids the bottom-row
+escape space for some high power. This is G086.
 
 ## Re-entry condition
 

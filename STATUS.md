@@ -189,7 +189,11 @@ Date: 2026-08-11
   reduces G031 exactly to G084's clean-support incidence. B127/NG102 then
   split that stronger clean program into terminal support nonemptiness G008
   plus conditional cleanup G085. B126/NG101 exclude a local suspended-$A_2$
-  versal cleanup. G008 remains the active terminal-equivalent obligation.
+  versal cleanup. B128 gives G008's exact two-row edge sequence. B129/NG103
+  then close the formal projective-Hodge shortcut with a full-support
+  geometric weight-$-1$ countermodel on every projective space. G086 leaves
+  the universal-incidence origin as the active operational datum. G008
+  remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
 
@@ -370,6 +374,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   restriction support for every nonzero primitive rational Hodge class.
 - G085 - EXPLORATORY conditional cleanup: assuming nonempty support, force
   it to meet a Li-clean multipart nodal locus.
+- B128 - PROVED: the global incidence class has a canonical edge section;
+  its stalks are exactly the local invariants, and empty support is
+  equivalent to landing in (H^1(P_m,\mathcal H^{-d_m}K_m)).
+- B129 - PROVED: on every projective space, a full-support geometric
+  polarizable weight-(-1) IC can have nonzero rational type-((0,0))
+  (IH^1) and zero local target sheaf.
+- NG103 - NO-GO: projectivity, full support, geometric origin, purity, hard
+  Lefschetz, and Hodge type do not force local support.
+- G086 - EXPLORATORY: prove that the actual universal-incidence class escapes
+  the bottom row for some high power; this is G008's operational form.
 - B126 - PROVED: the suspended $A_2$ miniversal slice has exactly one
   singular point on every discriminant fiber and no two-node member.
 - NG101 - NO-GO: local $A_2$ versal nodalization cannot supply a clean
@@ -828,6 +842,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   conditional cleanup G085; it is not itself a reduction below HC.
 - G008 - EXPLORATORY, active terminal-equivalent gate. G065 remains a
   stronger exact-target collision mechanism.
+- B128/G086 - PROVED/EXPLORATORY: G008 is exactly incidence-class escape
+  from (H^1(P_m,\mathcal H^{-d_m}K_m)).
+- B129/NG103 - PROVED/NO-GO: the full formal projective Hodge package does
+  not force that escape; only universal-incidence origin remains available.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

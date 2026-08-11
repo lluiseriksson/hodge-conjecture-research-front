@@ -14,6 +14,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{class-specific nodal relation G006}
 \Longleftarrow
 \text{codimension-two support realization G008}
+\Longleftrightarrow
+\text{incidence edge escape exclusion G086}
 \]
 
 Two sufficient attacks feed G008:
@@ -687,6 +689,27 @@ terminal-equivalent to rational HC. BFNP Theorem 1.3 is an equivalence, not
 an unconditional support theorem; B012 proves only the global invariant and
 a codimension bound on any local support that exists.
 
+B128 gives the current operational form. For
+
+\[
+ K_m=IC_{P_m}(R^{2n-1}\pi_{m,*}\mathbf Q(n)),
+\]
+
+the degree-one hypercohomology edge sequence is
+
+\[
+0\to H^1(P_m,\mathcal H^{-d_m}K_m)\to IH^1(P_m,K_m)
+\xrightarrow{e_m}H^0(P_m,\mathcal H^{-d_m+1}K_m).
+\]
+
+The stalk of \(e_m(s_m(\zeta))\) at \(p\) is \(s_m(\zeta)_p\). Thus G086
+asks that the specified universal-incidence class escape the first term for
+some high power. This is exactly G008, not a smaller terminal reduction.
+B129/NG103 show that projective base, full support, geometric polarizable
+weight-\(-1\) coefficients, purity, hard Lefschetz, and rational type
+\((0,0)\) do not force escape. The next argument must use the exact incidence
+origin \([q_m^*\zeta]_{00}\).
+
 **Stronger clean program G084.** Prove
 
 \[
@@ -962,6 +985,11 @@ The parent gate G008 remains: starting from the already nonzero global class
 \[
  s(\zeta)_p\ne0.
 \]
+
+B128 restates this as G086: prove that the canonical incidence class does
+not lie in \(H^1(P_m,\mathcal H^{-d_m}K_m)\) for some high power. B129/NG103
+exclude proving that statement from the ambient formal Hodge package; the
+universal-incidence pullback is the remaining usable structure.
 
 Equivalently, construct an algebraic two-parameter degeneration that
 concentrates the global data at one higher-codimension point and produces

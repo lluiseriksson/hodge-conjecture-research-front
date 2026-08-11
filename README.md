@@ -63,6 +63,7 @@ standard rational Hodge Conjecture
   <=> primitive singular-hyperplane detection                    [B007, PROVED]
   <=> class-specific nodal vanishing-cycle relation              [B010/G006]
   <=> nonempty codimension-two local support                     [B012/G008]
+  <=> universal-incidence edge escape                            [B128/G086]
       <= class-paired multipart nodal incidence                  [B026-B058/G028-G029]
       <= clean-nodal class-specific support intersection         [G031, OPEN]
           <= exact plane-net class-preserving collision          [G030, STRONGER]
@@ -87,7 +88,17 @@ G030's demand to recover one preselected global tube
 class exactly is sufficient but strictly stronger than the terminal pairing
 criterion; NG039 prevents counting that equality as necessary. G031 remains
 terminal-hard: neither nonempty class-specific support nor its intersection
-with the clean nodal locus is known. G032 isolates the latter cleanup step,
+with the clean nodal locus is known.
+
+B128 gives G008's exact local-to-global edge sequence: empty support means
+that the nonzero incidence class lies in the bottom-row escape space
+\(H^1(P_m,\mathcal H^{-d_m}K_m)\). G086 is the operational obligation to
+exclude that landing. B129/NG103 show on every \(\mathbf P^d\) that
+projectivity, full support, geometric polarizable weight-\(-1\) coefficients,
+purity, hard Lefschetz, and rational type \((0,0)\) do not suffice. The exact
+universal-incidence origin \([q_m^*\zeta]_{00}\) is indispensable.
+
+G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
 cycles are a basis and its separate Morse values have zero required stalk
 channel. G033 is the first recollision comparison subgate. B061 audits the
@@ -571,6 +582,7 @@ python verification/verify_B123_specialization_kernel.py
 python verification/verify_B124_relative_lift_target_rigidity.py
 python verification/verify_B126_a2_no_multinode.py
 python verification/verify_B127_gate_split.py
+python verification/verify_B129_projective_escape.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -727,6 +739,10 @@ G031 remains a stronger clean-nodal parent. B125 identifies its exact G084
 incidence, and B127/NG102 split that into active terminal gate G008 plus
 conditional cleanup G085. B126/NG101 prove that a local suspended $A_2$
 versal deformation contains no multipart nodal fiber.
+B128 identifies G008 with the nonvanishing edge image of the universal
+incidence class. B129/NG103 provide a projective full-support geometric Hodge
+countermodel to every formal shortcut, leaving G086's incidence-specific
+escape exclusion as the active operational statement.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

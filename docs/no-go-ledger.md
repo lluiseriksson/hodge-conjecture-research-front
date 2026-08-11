@@ -1906,3 +1906,24 @@
 - **Re-entry condition:** prove G085 from a nonempty class-specific support,
   with all specialization, rationality, and pairing data explicit. Until
   then G084 is a stronger sufficient program, not a reduction below HC.
+
+## NG-103 - The formal projective Hodge package forces local support
+
+- **Label:** NO-GO
+- **Route:** prove G008 from projective-space base, full strict support,
+  geometric polarizable weight-\(-1\) coefficients, purity, hard Lefschetz,
+  and the rational type-\((0,0)\) of the global \(IH^1\) class.
+- **Valid input:** the universal-hyperplane coefficient object and
+  \(s_m(\zeta)\) have all these properties.
+- **Invalid inference:** the B128 edge image must therefore be nonzero.
+- **Precise obstruction:** B129 starts from the sign local system of an
+  elliptic double cover of \(\mathbf P^1\) branched at four points, tensors
+  with \(H^1(C)(1)\), external-products to dimension \(d\), and applies a
+  finite small map to \(\mathbf P^d\). A full-support IC summand has a
+  nonzero rational type-\((0,0)\) \(IH^1\) class but
+  \(\mathcal H^{-d+1}=0\) everywhere. The class lies entirely in
+  \(H^1(\mathbf P^d,\mathcal H^{-d}K)\).
+- **Re-entry condition:** exploit the exact universal-incidence origin
+  \(s_m(\zeta)=[q_m^*\zeta]_{00}\) and prove G086. Formal Hodge-module data
+  on projective space cannot distinguish the incidence class from B129's
+  escape class.
