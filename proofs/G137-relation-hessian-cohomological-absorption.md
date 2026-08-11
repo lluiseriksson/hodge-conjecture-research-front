@@ -47,3 +47,7 @@ not after selecting directions that kill the functional.
 Success proves every \(\delta_{m,k}=0\), hence G136/G135 and the mixed cubic
 filter. It does not prove G134, the pure cubic filter, higher rungs, or the
 terminal cycle.
+
+B208/G138 give a stronger alternative: make every lower profile space zero
+and let the central line be the first quadratic-profile birth. NG171 records
+that G125's first-jet extinction does not imply this second-layer vanishing.

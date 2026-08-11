@@ -1208,6 +1208,21 @@ NG169 blocks differentiating a value relation to obtain them. S074/NG170
 show that standard diagonal-ideal Gaussian maps provide no comparison to
 this finite-node, inverse-Hessian, third-neighborhood target.
 
+B208 supplies a stronger bypass. If
+
+\[
+W_k=0\ (0\le k<m),\qquad
+W_m=\mathbf Cq_F,\qquad
+H^0(I_Z^3H^m)\subset P_m, \tag{*********************}
+\]
+
+then B204 gives \(\rho(P_m)=0\), B203 gives the unique central double-
+generator line, and B205 gives \(\Xi=0\). G138 asks for
+(*********************) simultaneously with G125's first-jet birth, G130's
+holonomy/congruence package, and every detector clause. NG171 records that
+first-jet extinction controls \(I_Z/I_Z^2\), not the independent layer
+\(I_Z^2/I_Z^3\).
+
 Two sufficient attacks feed G008:
 
 \[

@@ -956,6 +956,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG170 - NO-GO: S074's standard Gaussian maps and curve-specific
   second-fundamental-form comparisons do not encode the finite node scheme,
   value relations, inverse Hessians, or \(I_Z^3\) connecting map of G137.
+- B208 - PROVED: if all lower \(W_k\) vanish, \(W_m=\mathbf Cq_F\), and
+  \(H^0(I_Z^3H^m)\subset P_m\), then G134 holds and the full mixed cubic
+  filter \(\Xi\) vanishes.
+- G138 - EXPLORATORY: construct simultaneous lower first-jet and
+  quadratic-profile extinction followed by the required degree-\(m\)
+  augmented nodal birth, holonomy, and detector.
+- NG171 - NO-GO: \(H^0(I_ZH^k)=H^0(I_Z^2H^k)\) does not imply
+  \(H^0(I_Z^2H^k)=H^0(I_Z^3H^k)\); the two conormal layers are independent.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1567,7 +1575,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   B206/G136 turn the residue into finite colon-quotient maps; NG168
   identifies the absent global-symbol theorem. B207/G137 give the exact
   coherent dual preimage obligation; NG169-NG170 exclude zero-order
-  differentiation and unproved Gaussian-map comparisons.
+  differentiation and unproved Gaussian-map comparisons. B208/G138 give a
+  stronger first-profile-birth bypass; NG171 prevents inferring it from
+  first-jet extinction alone.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -763,6 +763,14 @@ that standard Gaussian-map surjectivity has different global sources,
 targets, supports, and deformation data, so it cannot be imported without
 an explicit comparison morphism.
 
+B208 isolates a constructive bypass. If \(W_k=0\) for every \(k<m\),
+\(W_m=\mathbf Cq_F\), and the triple-hidden term is contained in \(P_m\),
+then \(\rho(P_m)=0\), G134 holds, and B205 kills the entire mixed cubic map.
+G138 asks for this simultaneous first- and second-jet birth together with
+the full G130 and detector package. NG171 blocks deriving it from G125:
+\(H^0(I_ZH^k)=H^0(I_Z^2H^k)\) says nothing about the independent quotient
+\(H^0(I_Z^2H^k)/H^0(I_Z^3H^k)\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1344,6 +1352,7 @@ python verification/verify_B204_profile_module.py
 python verification/verify_B205_mixed_profile.py
 python verification/verify_B206_colon_obstruction.py
 python verification/verify_B207_dual_connecting.py
+python verification/verify_B208_profile_birth.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1667,6 +1676,8 @@ isolates the missing global-symbol mechanism.
 B207/G137 convert those quotients into coherent dual preimage obligations;
 NG169-NG170 close the value-differentiation and off-the-shelf Gaussian-map
 shortcuts.
+B208/G138 provide the stronger first-profile-birth bypass; NG171 separates
+first-jet extinction from second-profile extinction.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

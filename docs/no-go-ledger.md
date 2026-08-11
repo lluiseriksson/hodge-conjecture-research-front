@@ -3284,3 +3284,22 @@
   specified pairing.
 - **Re-entry condition:** construct and prove an explicit comparison
   commuting with every G137 structure, for arbitrary \((X,\zeta)\).
+
+## NG-171 - Infer profile extinction from first-jet extinction
+
+- **Label:** NO-GO
+- **Route:** use the lower equalities
+  \(H^0(I_ZH^k)=H^0(I_Z^2H^k)\) from G125 and conclude \(W_k=0\).
+- **Valid input:** the quotient measuring conditional first derivatives is
+  zero.
+- **Invalid inference:** the quotient measuring quadratic profiles is also
+  zero.
+- **Precise obstruction:** for the filtration
+  \(T_k\subset K_k\subset J_k\), the equality \(J_k=K_k\) does not imply
+  \(K_k=T_k\). The exact one-dimensional model has \(J_k=K_k=\mathbf Q\)
+  and \(T_k=0\).
+- **Detector guard:** a nonzero lower profile re-enters B204's decomposable
+  denominator and can carry a nonzero B205 mixed cubic class.
+- **Re-entry condition:** prove the second-layer vanishing in G138 by a
+  global interpolation or Hilbert-function theorem while retaining the
+  special degree-\(m\) birth and detector.
