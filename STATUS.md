@@ -1291,9 +1291,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(s\ge8d+10\).
 - G181 - NO-GO: the layers \(s=8d+8,8d+9\) fail.
 - NG213 - NO-GO: higher-power survival at five-double equality.
-- G182 - EXPLORATORY, active smallest branch: construct the sextic
-  boundary package with \(s=8d+10,\delta_1=4d+5,N=10d+12\), and
-  \(h_Z(1)=5d+6=N/2\); only \(A=O_Q(3)\) survives the quadric rank audit.
+- B256 - PROVED: the at-most-two-line hard locus has sextic point rank
+  at most fourteen; outside it a good-edge five-cycle times \(O_Q(1)\)
+  supplies the sixth cubic double block. Every nonstandard floor is
+  \(6d+6\), while the common floor is \(6d-7\) and \(s\ge10d-16\).
+- G182 - NO-GO: every layer through \(s=10d-17\) fails.
+- NG214 - NO-GO: cubic survival below six double blocks.
+- G183 - EXPLORATORY, active smallest branch: construct the first
+  standard slope-ten package with
+  \(s=10d-16,\delta_1=5d-8,N=12d-14\), and
+  \(h_Z(1)=6d-7=N/2\); only \(A=O_Q(1)\) survives the quadric rank audit.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

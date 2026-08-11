@@ -75,11 +75,11 @@ require(
 )
 require(
     "proofs/G182-sextic-six-point-boundary.md",
-    ("brick_id: G182", "status: EXPLORATORY", "A=O_Q(3)", "N=10d+12"),
+    ("brick_id: G182", "status: NO-GO", "B256", "N=10d+12"),
 )
 require(
     "proofs/NG213-higher-power-five-double-survival.md",
     ("brick_id: NG213", "status: NO-GO", "h_Z(1)\\ge6d+6", "G182"),
 )
 
-print("PASS: B255 higher-power equality exclusion, G181-G182, and NG213")
+print("PASS: B255 higher-power equality exclusion, G181-G182 transition, and NG213")

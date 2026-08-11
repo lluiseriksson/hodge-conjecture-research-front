@@ -2047,13 +2047,27 @@ block. Thus G181 and \(s=8d+9\) are NO-GO, and the common floor is
 \]
 
 Only \(A=O_Q(3)\) survives this equality audit on even quadrics
+\(d\ge14\). B256 excludes that last cubic window. The hard points lie
+on at most two triple lines, of sextic point rank at most fourteen. A
+marked point outside them has a good-edge five-cycle, whose quintic
+hyperplane product times \(O_Q(1)\) supplies its full double
+neighborhood. Hence every nonstandard floor is \(6d+6\), while the
+common floor is \(6d-7\). G182 and every layer through \(s=10d-17\)
+are NO-GO. The next signature is
+
+\[
+ \delta_1=5d-8,\qquad N=12d-14,\qquad
+ \dim E_1=6d-7=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+\]
+
+Only \(A=O_Q(1)\) survives this equality audit on even quadrics
 \(d\ge14\).
 
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G182: construct the sextic six-point boundary}
+ \text{G183: construct the first standard slope-ten boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

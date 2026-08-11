@@ -1320,6 +1320,22 @@ sixth double block. Hence the common floor is
 \]
 
 On even quadrics \(d\ge14\), only \(A=O_Q(3)\) survives at equality.
+B256 excludes that cubic window. A three-element line-through-point
+class forces the sixth point onto one of at most two triple lines, whose
+sextic point rank is at most fourteen. A marked point exists outside
+that locus; its good graph has a five-cycle, and the associated quintic
+unit times \(H^0(O_Q(1))\) supplies the complete sixth double block.
+Thus every nonstandard polarization requires \(h_Z(1)\ge6d+6\).
+The common floor becomes \(h_Z(1)\ge6d-7\), \(s\ge10d-16\).
+G182 and every layer through \(s=10d-17\) are **NO-GO** (NG214).
+The active smallest gate is G183:
+
+\[
+ m=2,\qquad s=10d-16,\qquad \delta_1=5d-8,\qquad
+ N=12d-14,\qquad h_Z(1)=6d-7=N/2.
+\]
+
+On even quadrics \(d\ge14\), only \(A=O_Q(1)\) survives at equality.
 This remains only a necessary window; every geometric and detector
 obligation is open.
 
@@ -1936,6 +1952,7 @@ python verification/verify_B252_standard_two_beyond_slope_eight.py
 python verification/verify_B253_standard_parametric_band.py
 python verification/verify_B254_square_six_double_floor.py
 python verification/verify_B255_higher_power_five_double.py
+python verification/verify_B256_cubic_six_double_floor.py
 ```
 
 The repository verifier checks the required directory topology, result

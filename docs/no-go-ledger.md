@@ -4240,3 +4240,32 @@
 - **Re-entry condition:** G182 begins at
   \(s=8d+10,\delta_1=4d+5,N=10d+12,h_Z(1)=5d+6\), with only
   \(A=O_Q(3)\) surviving at equality.
+
+## NG-214 - Survive the cubic branch below six double blocks
+
+- **Label:** NO-GO
+- **Route:** retain \(A=O_Q(3)\) below \(h_Z(1)=6d+6\).
+- **Valid premise:** B255's sextic separator supplied only one reduced
+  sixth-point value at the first cubic equality.
+- **Invalid inference:** every later marked point can force a
+  three-element line-through-point class.
+- **Hard-locus obstruction:** every such point lies on a line containing
+  \(p_5\) and two of the first four supports. Those pair edges form a
+  matching, hence determine at most two lines.
+- **Point-rank obstruction:** the hard locus together with \(P_5\) has
+  sextic point rank at most fourteen, below \(5d+5\).
+- **Separator:** outside the hard locus, the good graph has a spanning
+  five-cycle. Its quintic hyperplane product times \(H^0(O_Q(1))\)
+  supplies the complete sixth double neighborhood.
+- **Cubic-floor consequence:** \(h_Z(1)\ge6d+6\).
+- **Common-floor consequence:** B253-B256 give
+  \(h_Z(1)\ge6d-7\) and \(s\ge10d-16\) for every polarization.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G182 and every layer through \(s=10d-17\) are closed.
+  G148 and HC remain open.
+- **Re-entry condition:** G183 begins at
+  \(s=10d-16,\delta_1=5d-8,N=12d-14,h_Z(1)=6d-7\), with only
+  \(A=O_Q(1)\) surviving at equality.
