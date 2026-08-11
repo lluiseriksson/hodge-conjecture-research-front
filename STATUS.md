@@ -1255,9 +1255,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(d+1\), giving the common floor \(h_Z(1)\ge5d-3\).
 - G172 - EXPLORATORY parent, narrowed to linear excess.
 - NG207 - NO-GO: every \(m=2\) layer below \(s=8d-8\) fails.
-- G173 - EXPLORATORY, active smallest branch: construct the standard
-  slope-eight package with \(s=8d-8,\delta_1=4d-4,N=10d-6\), and
-  \(h_Z(1)=5d-3=N/2\).
+- B250 - PROVED: the standard equality branch either reduces to the
+  impossible B236 boundary on \(Q^{d-2}\) or is confined to a
+  projective four-space of point rank at most fifteen.
+- G173 - NO-GO: the layers \(s=8d-8,8d-7\) fail.
+- NG208 - NO-GO: standard survival at slope-eight equality.
+- G174 - EXPLORATORY, active smallest branch: construct the balanced
+  package with \(s=8d-6,\delta_1=4d-3,N=10d-4\), and
+  \(h_Z(1)=5d-2=N/2\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

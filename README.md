@@ -1266,17 +1266,23 @@ polarization, varying one hyperplane in the B247 four-cycle contributes
 at least \(d-1\) residual jets. For every \(k\ge3\), the four-cycle
 quartic times \(O_Q(2k-4)\) supplies the full fifth double neighborhood.
 Together with B246, every polarization requires \(h_Z(1)\ge5d-3\), so
-all layers below \(s=8d-8\) are **NO-GO** (NG207). The active smallest
-gate is G173:
+all layers below \(s=8d-8\) are **NO-GO** (NG207).
+
+B250 excludes the remaining standard equality. The residual-orthogonal
+branch is B236 on \(Q^{d-2}\); the only other equality case leaves
+rank-one annihilators indexed by a \((d-3)\)-space and confines every
+marked point to a projective four-space of quadratic rank at most
+fifteen. Hence G173 and \(s=8d-7\) are **NO-GO** (NG208). The active
+smallest gate is G174:
 
 \[
- m=2,\qquad s=8d-8,\qquad \delta_1=4d-4,\qquad
- N=10d-6,\qquad h_Z(1)=5d-3=N/2.
+ m=2,\qquad s=8d-6,\qquad \delta_1=4d-3,\qquad
+ N=10d-4,\qquad h_Z(1)=5d-2=N/2.
 \]
 
-Only the standard quadric polarization survives this rank test. This
-is still only a necessary window; every geometric and detector
-obligation remains open.
+Only the standard quadric polarization survives this new rank test.
+This remains only a necessary window; every geometric and detector
+obligation is open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1885,6 +1891,7 @@ python verification/verify_B246_standard_five_block_floor.py
 python verification/verify_B247_nonstandard_six_plus_six.py
 python verification/verify_B248_fixed_additive_quadric.py
 python verification/verify_B249_slope_eight_floor.py
+python verification/verify_B250_standard_slope_eight_equality.py
 ```
 
 The repository verifier checks the required directory topology, result

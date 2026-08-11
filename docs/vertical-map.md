@@ -1982,19 +1982,31 @@ at least \(d-1\), hence \(h_Z(1)\ge5d+3\). For \(k\ge3\), the
 four-cycle quartic times \(O_Q(2k-4)\) gives the full fifth double
 neighborhood, hence \(h_Z(1)\ge5d+5\). B246's standard floor is
 \(5d-3\). Therefore every polarization has \(s\ge8d-8\), and the
-first surviving signature is
+first possible equality signature is
 
 \[
  \delta_1=4d-4,\qquad N=10d-6,\qquad
  \dim E_1=5d-3=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**************************************************************************************}
 \]
 
-Only the standard quadric polarization remains at equality. Thus the
-corrected vertical branch is
+Only the standard quadric polarization remains at equality. B250 then
+excludes that equality: the residual-\(U\) branch is the impossible
+B236 rank \(3(d-2)+1\) on \(Q(U)\), while the only other minimal branch
+leaves rank-one annihilators \(E_z\) for a \((d-3)\)-space \(J\). Their
+contact locus lies in \(\mathbf P(J^\perp)\simeq\mathbf P^4\), of
+quadratic point rank at most fifteen. Hence G173 and \(s=8d-7\) are
+NO-GO. The next signature is
+
+\[
+ \delta_1=4d-3,\qquad N=10d-4,\qquad
+ \dim E_1=5d-2=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***************************************************************************************}
+\]
+
+Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G173: construct the standard slope-eight boundary}
+ \text{G174: construct one rank beyond slope-eight equality}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

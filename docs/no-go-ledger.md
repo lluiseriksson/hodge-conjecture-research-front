@@ -4080,3 +4080,30 @@
 - **Re-entry condition:** G173 begins at
   \(s=8d-8,\delta_1=4d-4,N=10d-6,h_Z(1)=5d-3\), with only the
   standard quadric polarization surviving the rank test.
+
+## NG-208 - Survive the standard slope-eight equality
+
+- **Label:** NO-GO
+- **Route:** attain B249's equality \(h_Z(1)=5d-3\) with the standard
+  quadratic embedding.
+- **Valid premise:** B246's tangent-rank lower bound allows equality.
+- **Invalid inference:** either minimal branch can absorb all remaining
+  marked tangents.
+- **Residual obstruction:** when all residual points lie in
+  \(U=\langle v,w\rangle^\perp\), the quotient has the impossible B236
+  boundary rank \(3(d-2)+1\) on \(Q(U)\).
+- **Mixed obstruction:** all cases except \(t,u\in W\) with
+  \(u\in K\setminus K^\perp\) already force rank at least \(5d-2\).
+- **Contact obstruction:** in the last case,
+  \(J=K\cap u^\perp\) has dimension \(d-3\), and every rank-one
+  \(E_z\), \(z\in J\), remains in the annihilator. Common contact lies
+  in \(\mathbf P(J^\perp)\simeq\mathbf P^4\), whose quadratic point
+  rank is at most fifteen.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge8\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G173 and both layers \(8d-8,8d-7\) are closed. G148
+  and HC remain open.
+- **Re-entry condition:** G174 begins at
+  \(s=8d-6,\delta_1=4d-3,N=10d-4,h_Z(1)=5d-2\).
