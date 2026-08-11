@@ -44,3 +44,20 @@ Date: 2026-08-11
 Neither computation proves the geometric bounded-component lemma or the
 Hodge Conjecture. They check only finite threshold, rank, and asymptotic
 arithmetic used as consistency guards in B140.
+
+## Published cold-clone suite
+
+- Input commit: `ea8e2806d89a31b121db188a8afcd2df11937774`.
+- A fresh depth-one clone of `origin/main` was created inside the separate
+  Colab Pro+ CPU/high-RAM runtime.
+- The cloned SHA matched the input commit exactly.
+- All `verify_*.py` scripts passed:
+
+  ```text
+  COLD COLAB SUITE PASS: 89/89 in 16.131s
+  ## main...origin/main
+  ```
+
+- The final status line contains no changed paths. This confirms a clean
+  cold clone. The later evidence-record commit changes documentation only;
+  its exact SHA receives a second cold-clone run before handoff.
