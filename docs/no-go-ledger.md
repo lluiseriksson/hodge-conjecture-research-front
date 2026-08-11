@@ -2375,3 +2375,21 @@
   generally nonlinear analytic pullback.
 - **Re-entry condition:** prove G101 from an identity in the full universal
   incidence germ and retain the specified pairing.
+
+## NG-128 - Infer Euler rigidity from flat projective geometry
+
+- **Label:** NO-GO
+- **Route:** use projectivity, flatness, one fixed linear system, and
+  constant Hilbert polynomial to infer constant topological Euler
+  characteristic on the basis-node germ.
+- **Valid input:** those hypotheses fix algebraic Hilbert data and
+  arithmetic genus.
+- **Invalid inference:** they make singular fibers topologically locally
+  trivial or conserve total Milnor number.
+- **Precise obstruction:** B161 realizes B159 as a flat relative effective
+  Cartier divisor with constant Hilbert polynomial. One tracked node
+  disappears along \(F_B\), so B160 makes Euler characteristic change by
+  \(-(-1)^r\).
+- **Re-entry condition:** prove topological local triviality, total
+  Milnor-number constancy, or an equivalent conservation law on G102's
+  actual class-directed stratum and retain the specified pairing.

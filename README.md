@@ -249,6 +249,14 @@ node-escape germ. B159/NG127 construct uniform Vandermonde arrangements of
 every rank whose last branch escapes by \(y^m\), invisibly to any prescribed
 finite jet order. G101 asks for global full-linear-system geometry that
 prevents this escape while retaining the class-specific detector.
+B160 gives a global scalar certificate. If the hypersurface Euler
+characteristic is constant along \(F_B\), and all singularities are confined
+to the \(N\) tracked Morse charts, the Euler–Milnor formula forces all
+nodes to persist. B161/NG128 show that flatness, projectivity, and a fixed
+Hilbert polynomial do not provide this rigidity: the uniform escape family
+has all three properties while its Euler characteristic changes by one
+signed nodal contribution. G102 asks for genuine Euler or total-Milnor
+rigidity on the class-directed full-linear-system stratum.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -789,6 +797,7 @@ python verification/verify_B154_cubic_kuranishi.py
 python verification/verify_B155_all_order_factorization.py
 python verification/verify_B156_syzygy_defect.py
 python verification/verify_B159_uniform_escape.py
+python verification/verify_B160_euler_rigidity.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1007,6 +1016,9 @@ the remaining input must be global full-linear-system incidence geometry.
 B158-B159/G101/NG127 identify that input as persistence of every extra node
 along one smooth basis-node germ and show that uniform tangent geometry plus
 arbitrarily many finite jets still does not force it.
+B160-B161/G102/NG128 identify Euler/total-Milnor constancy as a sufficient
+global conservation law and exclude deriving it from flat projective
+fixed-Hilbert-polynomial geometry alone.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

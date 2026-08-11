@@ -601,6 +601,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   system while retaining every detector clause.
 - NG127 - NO-GO: uniform tangent geometry, expected small intersections,
   and any fixed finite jet order do not force all-order persistence.
+- B160 - PROVED: under exhaustive tracked-Morse singularity control, Euler
+  constancy on a basis-node germ is equivalent to persistence of all nodes.
+- B161 - PROVED: B159's escape occurs in a flat projective
+  fixed-Hilbert-polynomial family, whose Euler characteristic changes by one
+  signed nodal contribution.
+- G102 - EXPLORATORY: construct Euler or total-Milnor rigidity on the
+  class-directed full-linear-system basis stratum.
+- NG128 - NO-GO: projectivity, flatness, and Hilbert-polynomial constancy do
+  not force topological Euler constancy.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1113,6 +1122,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   syzygies; B157/NG126 block obtaining those lifts from nodewise local
   topology alone. B158/G101 turn the lift into basis-node persistence, and
   B159/NG127 show uniform tangent data plus finite jets cannot force it.
+  B160/G102 make Euler rigidity sufficient, while B161/NG128 exclude
+  projective flatness and fixed Hilbert polynomial as its source.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

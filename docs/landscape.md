@@ -515,3 +515,11 @@ conormals stay uniform when one branch is changed from \(\ell_N(x)\) to
 \(\ell_N(x)+y^m\), but the extra node then escapes along \(F_B\). The
 perturbation can be placed above any fixed verified jet order. A successful
 mechanism must therefore control the entire global incidence germ.
+B160 identifies a possible global control: with exhaustive tracked Morse
+charts, the Euler–Milnor formula makes Euler constancy on \(F_B\)
+equivalent to persistence of all nodes. B161/NG128 sharply separate this
+from algebraic flatness. The B159 escape family is a flat relative Cartier
+divisor in one fixed projective linear system and has constant Hilbert
+polynomial, yet losing one node changes topological Euler characteristic by
+one signed contribution. G102 therefore needs topological or
+vanishing-cycle rigidity, not merely flat projective geometry.

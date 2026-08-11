@@ -44,6 +44,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{full-linear-system syzygy lifting G100}
 \Longleftarrow
 \text{basis-node persistence G101}
+\Longleftarrow
+\text{Euler-rigid basis stratum G102}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -190,6 +192,20 @@ intersection through rank \(R\), and any chosen finite jet order while
 violating containment. G101 is therefore the smallest geometric gate:
 prove all-order persistence from global full-linear-system incidence and
 retain the nonzero specified pairing.
+B160 supplies one genuine global conservation mechanism. If all possible
+singularities stay in the \(N\) tracked Morse charts, then
+
+\[
+ \chi(Y_t)=\chi(Y_{\rm sm})-(-1)^{2n-1}\nu(t)
+           =\chi(Y_{\rm sm})+\nu(t),
+\]
+
+where \(\nu(t)\) is the node count. Euler constancy on \(F_B\) is therefore
+equivalent to persistence of every node and closes G101. B161/NG128 realize
+B159 inside a flat projective fixed-Hilbert-polynomial family where one node
+escapes and \(\chi\) changes. Thus G102 must prove actual Euler or
+total-Milnor rigidity from stronger global geometry while retaining the
+specified pairing.
 
 Two sufficient attacks feed G008:
 
