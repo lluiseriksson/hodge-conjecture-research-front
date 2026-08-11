@@ -1327,9 +1327,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(8d-18\) and the common floor is B262's piecewise \(L(d)\).
 - G188 - NO-GO: the mostly-standard seventh-jet boundary fails.
 - NG220 - NO-GO: standard survival through the third parametric band.
-- G189 - EXPLORATORY, active smallest branch: classify square equality
-  for \(d=14,16,18,20\), standard equality for \(d=22\), and
-  cubic/quartic equality for every even \(d\ge24\), retaining every
+- B263 - PROVED: equality in the third nested escape fills the span and
+  confines all marked points to a \(\mathbf P^7\) of quadratic rank at
+  most 36; hence the standard floor is \(8d-17\).
+- G189 - NO-GO: the unique rank-158 standard survivor at \(d=22\)
+  fails.
+- NG221 - NO-GO: standard survival at third-escape equality.
+- G190 - EXPLORATORY, active smallest branch: classify square equality
+  for \(d=14,16,18,20\), the standard/cubic/quartic tie at \(d=22\),
+  and cubic/quartic equality for every even \(d\ge24\), retaining every
   G144 detector clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`

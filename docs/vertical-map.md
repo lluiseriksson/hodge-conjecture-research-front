@@ -2161,11 +2161,28 @@ L(d)=
 
 The equality survivors are \(k=2\) in dimensions \(14,16,18,20\),
 \(k=1\) in dimension \(22\), and \(k=3,4\) in every even dimension
-at least \(24\). Thus G188 is NO-GO and the corrected branch is
+at least \(24\). Thus G188 is NO-GO.
+
+B263 then excludes the first standard equality \(h_Z(1)=8d-18\).
+Survival forces all three contractions to have their minimal ranks,
+fills the span, and leaves a \(\mathbf P^7\) contact locus of quadratic
+point rank at most 36. The updated common floor is
+
+\[
+K(d)=
+\begin{cases}
+6d+6,&d=14,16,18,20,\\
+7d+5,&d\ge22\text{ even}.
+\end{cases}
+\]
+
+Thus G189 is NO-GO. Equality leaves \(k=2\) in the four low
+dimensions, \(k=1,3,4\) at \(d=22\), and \(k=3,4\) for every even
+\(d\ge24\). The corrected branch is
 
 \[
  \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
- \Longleftarrow\text{G189: construct the square/standard/cubic boundary}
+ \Longleftarrow\text{G190: construct the square/cubic piecewise boundary}
  \Longleftarrow\text{piecewise equality classification plus the full G144 package}.
 \]
 

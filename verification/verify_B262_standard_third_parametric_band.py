@@ -72,7 +72,7 @@ require(
 )
 require(
     "proofs/G189-square-standard-cubic-piecewise-boundary.md",
-    ("brick_id: G189", "status: EXPLORATORY", "L(d)", "A=O_Q(3),O_Q(4)"),
+    ("brick_id: G189", "status: NO-GO", "L(d)", "B263"),
 )
 require(
     "proofs/NG220-standard-third-parametric-band-survival.md",

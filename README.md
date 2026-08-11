@@ -1449,6 +1449,25 @@ the cubic/quartic polarizations in even dimensions at least \(24\).
 This is a necessary obstruction on quadric test inputs, not a detector,
 cycle construction, proof, or disproof of HC.
 
+B263 audits equality in B262's third escape. Survival would force the
+three minimal tangent ranks \(d-4,d-5,d-6\), fill the span exactly, and
+leave a descended rank-one annihilator confining every marked point to
+\(\mathbf P^7\), of quadratic point rank at most 36. Therefore the
+standard equality \(h_Z(1)=8d-18\) is impossible, G189 is **NO-GO**
+(NG221), and the active gate G190 has
+
+\[
+K(d)=
+\begin{cases}
+6d+6,&d=14,16,18,20,\\
+7d+5,&d\ge22\text{ even}.
+\end{cases}
+\]
+
+Equality leaves \(k=2\) in the four low dimensions, \(k=1,3,4\) at
+\(d=22\), and \(k=3,4\) for even \(d\ge24\). All detector and cycle
+obligations remain open.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2069,6 +2088,7 @@ python verification/verify_B259_standard_second_parametric_band.py
 python verification/verify_B260_seventh_point_polarization.py
 python verification/verify_B261_variable_edge_seventh_jet.py
 python verification/verify_B262_standard_third_parametric_band.py
+python verification/verify_B263_standard_third_escape_equality.py
 ```
 
 The repository verifier checks the required directory topology, result

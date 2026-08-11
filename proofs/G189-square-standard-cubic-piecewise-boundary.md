@@ -1,6 +1,6 @@
 ---
 brick_id: G189
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex d-fold X of even dimension d=2n>=14 with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,9 +13,9 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B007-B010, B134-B262, G013, G090-G148, G172, NG106-NG220, S081-S083
-claim: For every arbitrary primitive target (X,zeta) of even dimension d>=14, choose A and construct the complete G144 package at m=2, h_Z(1)=L(d), delta_1=L(d)-d-1, slack s_3(d)=2(L(d)-d-1), and N=2L(d), retaining the full relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing clauses.
-falsifier: one primitive target for which no polarization realizes the piecewise package; on even quadrics B262 leaves k=2 for d=14,16,18,20, k=1 for d=22, and k=3 or 4 for even d>=24
+dependencies: B007-B010, B134-B263, G013, G090-G148, G172, NG106-NG221, S081-S083
+claim: No universal G144 package exists at B262's piecewise floor L(d); B263 excludes the only d=22 standard candidate at h_Z(1)=158, while every other polarization already has larger rank.
+falsifier: one complete G189 package on every valid primitive input, in particular a degree-two candidate of rank 158 on Q^22
 ---
 
 # G189 — The square/standard/cubic piecewise boundary
@@ -39,9 +39,10 @@ where
 \end{array} \tag{2}
 \]
 
-G189 is the next falsifiable gate: classify equality in the square
-low-dimensional cases, the single standard dimension 22 case, and the
-high-dimensional cubic/quartic cases, then retain every G144 relation,
-ODP, Kuranishi, rational-type, and nonzero specified-pairing clause.
-Rank survival alone would not construct an algebraic cycle or prove or
-disprove HC.
+B263 excludes the standard equality \(h_Z(1)=8d-18\). In particular,
+the unique polarization surviving B262 at the common value \(L(22)=158\)
+does not exist. Thus G189 is NO-GO as a universal gate. The square
+low-dimensional cases, the standard/cubic/quartic tie at \(d=22\), and
+the high-dimensional cubic/quartic cases pass to G190. No relation,
+ODP package, Kuranishi vanishing, rational detector, specified pairing,
+algebraic cycle, proof, or disproof of HC is produced.

@@ -4433,3 +4433,30 @@
   square, \(d=22\) standard, and high-dimensional cubic/quartic regimes
   pass to G189. G148 and HC remain open.
 - **Re-entry condition:** G189 uses B262's \(L(d)\) and survivor table.
+
+## NG-221 - Survival at the third-escape equality
+
+- **Label:** NO-GO
+- **Route:** retain \(A=O_Q(1)\) at \(h_Z(1)=8d-18\).
+- **Valid premise:** B262 leaves equality when the third escape has
+  budget exactly \(d-6\).
+- **Invalid inference:** equality can fill the span without shrinking
+  the contact locus.
+- **Rank obstruction:** the three contractions have minimal ranks
+  \(d-4,d-5,d-6\), whose sum is the full budget \(3d-15\); any larger
+  contraction already contradicts the budget.
+- **Contact obstruction:** equality leaves
+  \(\operatorname{Sym}^2J_3\) in the annihilator with
+  \(\dim J_3=d-6\), so every marked point lies in \(\mathbf P^7\), of
+  quadratic point rank at most 36.
+- **Floor consequence:** the standard floor is \(h_Z(1)\ge8d-17\).
+- **Common-floor consequence:** B260-B263 give
+  \(K(d)=6d+6\) for \(d=14,16,18,20\) and \(K(d)=7d+5\) for every
+  even \(d\ge22\).
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
+  valid input. No special-family result is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G189 is closed as a universal gate; the surviving
+  equality regimes pass to G190. G148 and HC remain open.
+- **Re-entry condition:** G190 uses B263's \(K(d)\) and survivor table.
