@@ -759,6 +759,45 @@ NG152 blocks replacing (**) by B187's numerical ceiling. With
 \(\dim U=nN\) but \(H(U)=\mathbf C(1,0)\), so the augmented map is
 surjective and has no isotropic relation.
 
+B189 makes the support clause local and intrinsic. If
+\(W=\operatorname{im}E+H(U)\), the \(i\)-th coordinate vanishes on
+\(W^\perp\) exactly when the value line \(\mathcal T_i\) lies in \(W\).
+Thus every candidate for G121 must satisfy
+
+\[
+ B_i|_{(U\cap G_i)\times(U\cap G_i)}=0,
+ \qquad \dim(U\cap G_i)\le n \quad\text{for every }i. \tag{***}
+\]
+
+Here \(U\cap G_i\) is exactly the image at \(p_i\) of sections vanishing
+in value at every node and to first order at all other nodes. Condition
+(***) is the all-node coherent interpolation filter; it is necessary but
+not sufficient for the global augmented defect.
+
+B190 supplies a stronger sufficient vertical branch. If the **full**
+conditional-gradient image is a synchronized graph of one space \(Q\), the
+node Hessians restrict to \(\lambda_iB_Q\), and the multiplier vector
+\(\lambda\) lies in \(\operatorname{im}E\), then
+
+\[
+ H(U)\subset\mathbf C\lambda\subset\operatorname{im}E. \tag{****}
+\]
+
+Consequently every value relation kills the quadratic Kuranishi tensor,
+not only one selected relation. G122 is the class-directed construction
+gate for (****), retaining every detector clause:
+
+\[
+ \text{G119 quadratic vanishing}
+ \Longleftarrow \text{B190 conformal synchronization}
+ \Longleftarrow \text{G122 full-system class-directed realization}.
+\]
+
+NG153 excludes the tempting high-positivity shortcut. For fixed nodes,
+sufficiently high twists separate all first jets, so the full system has
+\(S=\mathcal T\) and \(U=\bigoplus_iG_i\). A synchronized selected
+subfamily does not constrain that larger universal gradient image.
+
 Two sufficient attacks feed G008:
 
 \[

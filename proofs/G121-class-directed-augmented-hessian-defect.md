@@ -52,4 +52,8 @@ specified pairing with \(\zeta\). The complex relation in (2) and the
 rational detector are separate until a comparison is proved.
 
 G121 remains weaker than G119: it produces one isotropic relation, not
-vanishing of the full quadratic Kuranishi tensor for every relation.
+vanishing of the full quadratic Kuranishi tensor for every relation. B189
+forces an all-node isolated-jet defect in every candidate. B190/G122 give a
+stronger sufficient attack by conformally synchronizing the full gradient
+image; NG153 excludes obtaining it by restricting a high-power full system
+to a chosen small family.

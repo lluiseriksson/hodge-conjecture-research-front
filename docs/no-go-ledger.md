@@ -2936,3 +2936,24 @@
 - **Re-entry condition:** G121 must construct a rank-deficient augmented
   Hessian-value map and a no-zero-coordinate annihilator. Gradient rank,
   first-jet defect, and dimension counts alone do not supply them.
+
+## NG-153 - Restrict a high-power family to manufacture the augmented defect
+
+- **Label:** NO-GO
+- **Route:** fix prospective nodes, use high-power jet interpolation to
+  prescribe B190's synchronized pattern in a chosen small family, and count
+  that family's augmented defect for the full complete-linear-system germ.
+- **Valid input:** S065 permits arbitrary fixed finite jets in sufficiently
+  high powers, and the selected subfamily can have the desired synchronized
+  gradient image and fixed nondegenerate Hessians.
+- **Invalid inference:** restoring all global sections preserves the value
+  and conditional-gradient ranks of the restricted family.
+- **Precise obstruction:** full first-jet surjectivity gives
+  \(S=\mathcal T\) and \(U=\bigoplus_iG_i\). Hence \(L_U=0\). More locally,
+  B189's isolated-gradient image is all of \(G_i\) at every node; its
+  nondegenerate Hessian span contains the value line \(\mathcal T_i\), so
+  a full-support augmented annihilator is impossible.
+- **Re-entry condition:** construct special supports varying with the line
+  bundle for which the defect belongs to the full universal incidence,
+  passes B189 at every node, satisfies B190 globally, and retains the
+  rational detector and specified nonzero pairing.

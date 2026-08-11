@@ -114,4 +114,6 @@ the specified Saito detector.
 
 B188 is an exact finite criterion only. It does not construct a deficient
 augmented map, force isotropy for every value relation, prove
-\(\kappa_2=0\), or supply any Hodge pairing.
+\(\kappa_2=0\), or supply any Hodge pairing. B189 gives its nodewise
+axis-avoidance consequence, while B190 gives a stronger conformal-
+synchronization condition sufficient for every quadratic relation.

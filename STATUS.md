@@ -809,6 +809,18 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG152 - NO-GO: \(\dim U\le nN\) does not imply augmented defect;
   \(U=G_1\oplus0\) can saturate the ceiling while
   \(\operatorname{im}E+H(U)=\mathbf C^2\).
+- B189 - PROVED: full support is equivalent to avoiding every value line in
+  the augmented span; consequently every node-isolated gradient image is
+  inverse-Hessian isotropic of dimension at most \(n\).
+- B190 - PROVED: conformal synchronization of the full gradient image, with
+  multiplier vector in \(\operatorname{im}E\), puts \(H(U)\) inside the
+  value image and kills every quadratic relation-Hessian form.
+- G122 - EXPLORATORY: construct this sufficient synchronized pattern from
+  arbitrary \((X,\zeta)\) in the full incidence, retaining all rational
+  detector and specified-pairing clauses.
+- NG153 - NO-GO: synchronization prescribed in a selected high-power
+  subfamily disappears in the full system; fixed-point first-jet
+  separation gives \(S=\mathcal T\), \(U=\bigoplus_iG_i\), and \(L_U=0\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1385,7 +1397,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   B187 improves the quadratic rank ceiling to \(nN\); G120 isolates that
   global precursor, and NG151 blocks a nodewise-splitting shortcut.
   B188/G121 express it as an augmented Hessian-value rank defect; NG152
-  rules out obtaining that defect from the dimension ceiling alone.
+  rules out obtaining that defect from the dimension ceiling alone. B189
+  adds the all-node local interpolation filter. B190/G122 identify a
+  conformally synchronized sufficient branch for the full quadratic rung;
+  NG153 excludes producing it in a restricted high-power subfamily.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

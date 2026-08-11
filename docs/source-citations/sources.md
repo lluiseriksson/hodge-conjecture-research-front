@@ -1972,6 +1972,12 @@ Mathematics* (2) **61** (1955), 197–278.
   hyperbolic cross-term, to realize the mixed Hessian obstruction while
   the critical-value ideal itself is smooth. Again only the finite-jet
   obstruction, not full-system rank deficiency, is imported.
+- NG153 applies the same theorem in the opposite direction. For a fixed
+  finite point scheme and a sufficiently high twist, the exact sequence
+  makes full first-jet evaluation surjective. Thus every value and every
+  node-isolated gradient direction occurs in the complete linear system;
+  a synchronized defect engineered inside a selected subfamily is not a
+  defect of the full universal incidence.
 - Scope guard: the power depends on the fixed finite point scheme. This
   theorem gives jet interpolation; it neither makes the analytic base map
   linear nor supplies a vanishing-cycle relation, Hodge type, or specified

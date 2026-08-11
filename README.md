@@ -577,6 +577,23 @@ rational detector separately. NG152 proves that
 \(\dim U\le nN\) alone is insufficient: \(U=G_1\oplus0\) can saturate the
 ceiling while the augmented span is all of \(\mathbf C^2\).
 
+B189 turns the support clause into an all-node interpolation audit. The
+conditional gradients supported only at node \(i\) are the image of
+sections vanishing in value at every node and to first order at all other
+nodes. A full-support augmented relation forces this image to be inverse-
+Hessian totally isotropic and therefore of dimension at most \(n\), for
+every \(i\).
+
+B190 gives a sufficient construction target stronger than G121. If the
+entire conditional-gradient image is one conformally synchronized graph
+and its Hessian multiplier vector lies in \(\operatorname{im}E\), then
+\(H(U)\subset\operatorname{im}E\); every value relation kills the complete
+quadratic Kuranishi tensor. G122 asks for this pattern from arbitrary
+\((X,\zeta)\) with all detector clauses. NG153 proves that prescribing it
+inside a small high-power subfamily is invalid: fixed-point jet separation
+restores node-isolated directions in the full system and makes the
+augmented annihilator zero.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1141,6 +1158,7 @@ python verification/verify_B185_incidence_carrier.py
 python verification/verify_B186_kuranishi_ladder.py
 python verification/verify_B187_full_support_ceiling.py
 python verification/verify_B188_augmented_hessian.py
+python verification/verify_B189_B190_augmented_filters.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1419,7 +1437,10 @@ NG150 proves it cannot automatically kill the cubic rung. B187/G120 sharpen
 the quadratic precursor to a global rank-\(nN\) Lagrangian ceiling; NG151
 prevents counting that global condition as a nodewise split core. B188/G121
 replace the existential relation by an augmented Hessian-value rank defect;
-NG152 blocks deriving it from dimension alone.
+NG152 blocks deriving it from dimension alone. B189 exposes the necessary
+all-node isolated-jet defect. B190/G122 give a conformally synchronized
+sufficient branch that kills every quadratic relation, while NG153 blocks
+manufacturing it by restricting a fixed-node high-power full system.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
