@@ -349,16 +349,10 @@ with the specified pairing.
 B172 tests a different sufficient mechanism directly at G100. For a
 Jacobi-proper affine polynomial Morse family, a bounded-degree numerator
 \(f_tA\) gives a residue identity among **all** critical values. After
-partitioning tracked and auxiliary critical points, its exact obstruction
-to becoming a tracked-value syzygy is the auxiliary residue class
-
-\[
- [\rho_A]\in\mathcal O/I_\tau.
-\]
-
-If \(N-R\) admissible selectors kill this class and their central rows span
+partitioning tracked and auxiliary critical points, an exact selector
+annihilates the complete auxiliary residue. If \(N-R\) such rows span
 \(\ker(d\tau_0)^*\), B156 gives \(H_\tau=0\). NG136 shows that Jacobi's
-theorem does not supply those selectors automatically: even
+theorem does not supply exact selectors automatically: even
 \(f_t=(z^2-1)^2+t\), whose two tracked values already have an exact syzygy,
 places every numerator \(f_tA\) above the allowed degree and leaves a
 nonzero residue at infinity. Thus the next residue-specific gate is an
@@ -395,12 +389,26 @@ is precisely G107 in the full polynomial coefficient family. NG137 records
 that exact critical-degree selectors are a dual reformulation of the
 optional stronger gate, not a bypass.
 
-The residue-specific surviving gate is G108: allow a nonzero auxiliary
-residue \(\rho_A\) but prove \([\rho_A]=0\) in
-\(\mathcal O/I_\tau\), with adjusted rows spanning all central relations.
-No such cancellation theorem is known here. Even if proved in the affine
-model, projective transfer and every detector clause remain mandatory.
-The exact general gate remains G100.
+B174 now closes the proposed auxiliary-residue escape. Any residue identity
+has the form
+
+\[
+ c_A\cdot\tau+\rho_A=0,
+\]
+
+so \(\rho_A\in I_\tau\) is automatic. Moreover the fiber of coefficient
+representations \(b\cdot\tau=\rho_A\) is an affine torsor under
+\(\operatorname{Syz}(\tau)\), and translation \(b\mapsto b+c_A\) is an
+affine bijection onto that syzygy module. The canonical representation
+gives zero; every nonzero adjusted row is exactly a pre-existing syzygy.
+NG138 therefore forbids counting auxiliary ideal membership or an
+unspecified representation as progress. G108 is terminal-equivalent to
+G100, not a smaller residue gate.
+
+The classical Jacobi-residue branch has now produced two exact
+alternatives: exact selectors collapse to optional G107 by B173/NG137,
+while nonzero auxiliary cancellation collapses to G100 by B174/NG138.
+The exact general gate remains G100 with the specified pairing.
 
 Two sufficient attacks feed G008:
 

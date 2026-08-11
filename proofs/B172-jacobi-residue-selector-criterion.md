@@ -14,7 +14,7 @@ cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)) only downstream; no algebraic cycle
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
 dependencies: B156, G100, S069
-claim: In a Jacobi-proper polynomial Morse family, admissible residue numerators f_t A give analytic syzygies among tracked critical values only after the complete auxiliary critical-point residue is killed modulo the tracked value ideal. If N-R such selector rows span the central relation space, then H_tau=0.
+claim: In a Jacobi-proper polynomial Morse family, admissible residue numerators f_t A give analytic syzygies among tracked critical values when the complete auxiliary critical-point residue vanishes. If N-R such exact-selector rows span the central relation space, then H_tau=0. Mere membership of the auxiliary residue in the tracked ideal is automatic and supplies no syzygy.
 falsifier: an admissible selector family satisfying the stated auxiliary vanishing and spanning hypotheses but whose residue rows fail to be analytic syzygies or fail to kill H_tau
 ---
 
@@ -61,21 +61,25 @@ Jacobi's residue formula applied pointwise to \(Q_t=f_tA_t\) gives
 
 All coefficients are analytic because the Hessian determinants are units.
 Equation (2) is a homogeneous syzygy of the tracked value tuple when the
-auxiliary term vanishes. More generally it can be converted to such a
-syzygy exactly when
+auxiliary term vanishes.
+
+There is an important correction to the more general interpretation.
+Equation (2) itself already writes
 
 \[
- [\rho_A]=0\quad\text{in}\quad
- \mathcal O_{T,0}/I_\tau,\qquad
- I_\tau=(\tau_1,\ldots,\tau_N). \tag{3}
+ \rho_A=-\sum_i
+ \frac{A(t,p_i(t))}{J_{p_i}(t)}\tau_i,
 \]
 
-Indeed, (3) writes \(\rho_A=\sum_i b_i\tau_i\), and substitution in (2)
-is the desired syzygy. Conversely, any conversion of (2) by tracked
-coefficients puts \(\rho_A\) in \(I_\tau\). Thus the residue route has an
-explicit obstruction class in \(\mathcal O/I_\tau\).
+so \([\rho_A]=0\) in
+\(\mathcal O_{T,0}/I_\tau\) is automatic for every admissible \(A\).
+The canonical coefficient representation cancels the tracked row and gives
+the zero syzygy. B174 proves that every other coefficient representation
+differs from this one by a pre-existing analytic syzygy. Ideal membership
+is therefore neither an obstruction nor a construction certificate.
 
-There is a clean sufficient form. Suppose \(A_1,\ldots,A_{N-R}\) satisfy
+The non-circular clean sufficient form is exact auxiliary vanishing.
+Suppose \(A_1,\ldots,A_{N-R}\) satisfy
 (1), vanish at every auxiliary critical point, and the rows
 
 \[
@@ -89,7 +93,7 @@ syzygies lifting all central linear value relations. B156 implies
 
 ## What remains open
 
-The residue theorem does not construct the selectors \(A_\ell\). Its degree
+The residue theorem does not construct the exact selectors \(A_\ell\). Its degree
 bound and the demand that they annihilate every auxiliary critical point
 are separate global interpolation constraints. For a projective section,
 one must additionally choose a meromorphic trivialization, account for its

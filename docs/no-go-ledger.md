@@ -2590,6 +2590,30 @@
   complete intersections and exact auxiliary vanishing. It does not treat
   arbitrary projective varieties or nonzero auxiliary residues in
   \(I_\tau\).
-- **Re-entry condition:** solve G108's auxiliary-residue ideal cancellation,
-  prove a genuinely different compact residue duality, or prove G107 with
-  every detector clause.
+- **Re-entry condition:** prove a genuinely different compact residue
+  duality or prove G107 with every detector clause. B174/NG138 show that
+  G108's bare auxiliary ideal-membership version is terminal-equivalent to
+  G100.
+
+## NG-138 - Auxiliary residue ideal membership is progress
+
+- **Label:** NO-GO
+- **Route:** allow a nonzero auxiliary residue \(\rho_A\), prove or observe
+  \(\rho_A\in I_\tau\), choose coefficients
+  \(\rho_A=\sum b_i\tau_i\), and count the adjusted row as a new syzygy.
+- **Valid input:** an adjusted row \(b+c_A\) is a syzygy whenever
+  \(c_A\cdot\tau+\rho_A=0\).
+- **Invalid inference:** auxiliary ideal membership or existence of some
+  coefficient representation supplies that syzygy independently.
+- **Precise obstruction:** the residue identity already gives
+  \(\rho_A=-c_A\cdot\tau\). B174 proves that
+  \(b\mapsto b+c_A\) is an affine bijection from all coefficient
+  representations of \(\rho_A\) to \(\operatorname{Syz}(\tau)\). The
+  canonical representation gives zero; every other choice is exactly a
+  pre-existing syzygy.
+- **Hidden-generator guard:** for \(\tau=(x,x+y^2)\), every syzygy is a
+  multiple of \((x+y^2,-x)\) and vanishes at the origin, so no auxiliary
+  identity lifts the central relation \((1,-1)\).
+- **Re-entry condition:** construct the nonzero analytic syzygy by
+  independent geometry and retain all detector clauses. This is G100
+  itself, not a smaller residue criterion.

@@ -13,7 +13,7 @@ hodge_type: none produced
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)) is not used; no algebraic cycle or Hodge detector is constructed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B170-B173, G100, G107, S070
+dependencies: B170-B174, G100, G107, NG138, S070
 claim: A full analytic frame of maximal-degree Jacobi selectors vanishing on every auxiliary critical point supplies a route to G100 that is weaker than moving critical-evaluation rank rigidity.
 falsifier: B173 identifies the weighted selector space with the dual kernel of degree-m tracked evaluation at every fiber, making an analytic N-R selector frame equivalent to constant rank R
 ---
@@ -50,12 +50,8 @@ of constant-rank configurations and does not close G100.
 ## Re-entry
 
 A residue route can still differ from G107 only by using input outside
-B173's equality, most directly:
-
-1. allow a nonzero auxiliary residue \(\rho_A\) whose class vanishes in
-   \(\mathcal O/I_\tau\);
-2. use a compact/projective residue duality whose complementary space is
-   not the full moving value-evaluation space; or
-3. prove G107 itself, with all detector clauses.
-
-The first option is isolated as G108.
+B173's equality, for example a compact/projective residue duality whose
+complementary space is not the full moving value-evaluation space.
+B174/NG138 show that bare auxiliary ideal membership adds no input:
+constructing an adjusted nonzero row is already G100. Otherwise one must
+prove G107 itself, with all detector clauses.

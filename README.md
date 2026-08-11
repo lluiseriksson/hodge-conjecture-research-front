@@ -379,9 +379,14 @@ included, it is exactly the dual kernel of degree-\(m\) evaluation on the
 moving tracked critical points. Hence a local analytic frame of \(N-R\)
 exact selectors exists precisely when that evaluation rank stays \(R\):
 the construction is G107 in dual form. NG137 prevents counting it as a
-weaker route. G108 retains the only residue-specific escape identified so
-far: a nonzero auxiliary residue whose class nevertheless vanishes in
-\(\mathcal O/I_\tau\).
+weaker route.
+
+B174 then corrects the proposed G108 escape. The residue identity itself
+already proves \(\rho_A\in I_\tau\), and all coefficient representations
+of \(\rho_A\) form an affine torsor under the pre-existing syzygy module.
+The canonical representation gives zero; any different adjusted row is
+exactly a syzygy already present. NG138 records the circularity. G108 is
+therefore terminal-equivalent to G100, not a smaller residue gate.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -932,6 +937,7 @@ python verification/verify_B170_critical_rank.py
 python verification/verify_B171_mixed_determinant.py
 python verification/verify_B172_residue_selector.py
 python verification/verify_B173_selector_duality.py
+python verification/verify_B174_auxiliary_torsor.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1174,9 +1180,10 @@ B172/NG136 reduce a Jacobi-residue attack to bounded-degree selectors for
 the complete critical configuration and show that neither degree
 admissibility nor removal of auxiliary/infinity residues is automatic.
 B173/NG137 identify the complete exact-selector space with the dual moving
-evaluation kernel, so this branch is equivalent to G107. G108 isolates
-nonzero auxiliary-residue cancellation in \(\mathcal O/I_\tau\) as the
-remaining residue-specific test.
+evaluation kernel, so this branch is equivalent to G107. B174/NG138 show
+that auxiliary ideal membership is automatic and every adjusted
+coefficient representation is just a pre-existing syzygy. G108 collapses
+to G100.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

@@ -133,7 +133,8 @@ weaker route to G100.
 
 The equality uses a reduced projective complete intersection with no
 critical point at infinity and selectors that vanish exactly on all
-auxiliary points. It neither treats arbitrary smooth projective \(X\) nor
-excludes B172's more general possibility
-\([\rho_A]=0\) in \(\mathcal O/I_\tau\) with \(\rho_A\ne0\). It supplies
-no rational Hodge type, primitive ambient image, or specified pairing.
+auxiliary points. It does not treat arbitrary smooth projective \(X\).
+B174 shows that replacing exact vanishing by the bare condition
+\([\rho_A]=0\) in \(\mathcal O/I_\tau\) is tautological, not a broader
+residue mechanism. B173 supplies no rational Hodge type, primitive ambient
+image, or specified pairing.

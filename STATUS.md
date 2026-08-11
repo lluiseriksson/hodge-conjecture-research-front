@@ -669,9 +669,8 @@ generation from the controlled partitioned nodal locus is not proved.**
 - Gate correction: G107 is optional and strictly stronger than necessary;
   G100 direct analytic syzygy lifting remains the exact active clause.
 - B172 - PROVED: in a Jacobi-proper affine polynomial Morse family,
-  bounded-degree selectors killing the auxiliary residue class modulo
-  `I_tau` give analytic tracked-value syzygies; `N-R` spanning rows force
-  `H_tau=0`.
+  bounded-degree exact selectors annihilating every auxiliary residue give
+  analytic tracked-value syzygies; `N-R` spanning rows force `H_tau=0`.
 - NG136 - NO-GO: Jacobi's theorem does not construct those selectors.
   The family `f_t=(z^2-1)^2+t` has an exact tracked syzygy, but every
   numerator `f_t A` exceeds the allowed degree and the would-be value
@@ -682,9 +681,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   degree-\(m\) evaluation.
 - NG137 - NO-GO: a full analytic frame of exact selectors is not weaker
   than G107; it exists exactly when the moving evaluation rank stays \(R\).
-- G108 - EXPLORATORY: test whether nonzero auxiliary residues can vanish
-  modulo \(I_\tau\) and yield adjusted spanning syzygies without constant
-  moving evaluation rank.
+- B174 - PROVED: the auxiliary residue already belongs to \(I_\tau\), and
+  its coefficient-representation fiber is an affine torsor under the
+  pre-existing analytic syzygy module.
+- NG138 - NO-GO: bare auxiliary ideal membership or an unspecified
+  coefficient representation supplies no new syzygy; the canonical choice
+  gives zero and every other adjusted row is already in
+  \(\operatorname{Syz}(\tau)\).
+- G108 - EXPLORATORY, terminal-equivalent audit form: independently
+  constructing adjusted auxiliary rows spanning all central relations is
+  exactly G100, not a smaller residue gate.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1229,8 +1235,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   auxiliary/infinity residue are new explicit obligations, not automatic
   syzygies. G100 remains open.
   B173/NG137 then show that the complete exact-selector implementation is
-  precisely the dual form of G107. G108 retains only the nonzero
-  auxiliary-residue cancellation branch; G100 remains the exact gate.
+  precisely the dual form of G107. B174/NG138 show that nonzero auxiliary
+  ideal cancellation is tautological and its representation torsor is the
+  existing syzygy module. G108 collapses to G100.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
