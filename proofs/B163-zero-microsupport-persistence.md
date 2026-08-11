@@ -14,7 +14,7 @@ cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)) only downstream; no algebraic cycle
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
 dependencies: B158-B162, S030, S052, S066, and parameterized Morse/Ehresmann triviality
-claim: Let K_B=Rg_*Q_(Y_B). Under exhaustive tracked-Morse control, the following are equivalent: every tracked node persists on F_B; K_B has locally constant cohomology sheaves; and SS(K_B) is contained in the zero section of T^*F_B. If a node escapes, an arc detecting it has a nonzero B162 microlocal Morse group and hence produces nonzero microsupport.
+claim: Let K_B=Rg_*Q_(Y_B). Under exhaustive tracked-Morse control, the following are equivalent: every tracked node persists on F_B; K_B has locally constant cohomology sheaves; and SS(K_B) is contained in the zero section of T^*F_B. If a node escapes, B162 detects nonlocal constancy on an arc, and the zero-section criterion then forces nonzero microsupport.
 falsifier: a persistent tracked-Morse family with nonlocal proper direct image, a locally constant K_B with changing Euler characteristic, a zero-microsupport constructible complex that is not locally constant, or an escaping node invisible to microsupport
 ---
 

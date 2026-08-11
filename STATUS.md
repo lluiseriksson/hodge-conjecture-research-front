@@ -626,6 +626,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   basis germ and retain every detector clause.
 - NG130 - NO-GO: projective decomposition and semisimplicity do not force
   zero-section microsupport.
+- B165 - PROVED: the sum of the characteristic cycles of all perverse
+  cohomology objects is an effective finite certificate whose support is
+  exactly the microsupport.
+- B166 - PROVED: at a generic escape-divisor component, its positive
+  conormal coefficient is exactly the number of tracked escaping ODPs.
+- G105 - EXPLORATORY: kill every positive node-polar multiplicity on the
+  class-directed basis germ while retaining every detector clause.
+- NG131 - NO-GO: the ordinary alternating characteristic cycle and Euler
+  function can vanish while microsupport remains nonzero, even for a
+  smooth-total-space projective map satisfying decomposition and relative
+  hard Lefschetz.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1143,7 +1154,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   B162/G103 make the gate arcwise vanishing-cycle triviality; NG129 blocks
   substituting one constant ambient cohomological piece. B163/G104 make it
   zero internal microsupport; B164/NG130 block decomposition-theorem
-  shortcuts.
+  shortcuts. B165-B166/G105 make the test componentwise positive
+  node-polar vanishing; NG131 blocks alternating characteristic-cycle and
+  Euler-index shortcuts.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

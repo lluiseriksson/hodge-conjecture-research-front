@@ -50,6 +50,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{arcwise vanishing-cycle triviality G103}
 \Longleftarrow
 \text{zero internal microsupport G104}
+\Longleftarrow
+\text{positive node-polar vanishing G105}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -242,6 +244,23 @@ semisimplicity still permit positive-codimension IC supports and node
 escape. G104 must prove the zero-section condition for the complete
 base-changed direct image while preserving the nonzero specified relation
 pairing.
+B165 refines this to the effective cycle
+
+\[
+ CC^+(K_B)=\sum_jCC({}^pH^jK_B)
+          =\sum_\alpha M_\alpha[\Lambda_\alpha],
+ \qquad M_\alpha\ge0.
+\]
+
+Its support is \(SS(K_B)\), so zero internal microsupport is equivalent to
+the finite list \(M_\alpha=0\) for all off-zero components. B166 computes
+the generic escape-divisor coefficient as
+\(M_\alpha=k_\alpha\), the number of tracked escaping nodes there. NG131
+shows that the alternating cycle \(CC(K_B)\), Euler functions,
+decomposition, and relative hard Lefschetz cannot replace this positive
+list: an elliptic product cancels the alternating class while preserving
+microsupport. G105 must kill every \(M_\alpha\) without cancellation and
+retain the distinct nonzero specified relation pairing.
 
 Two sufficient attacks feed G008:
 

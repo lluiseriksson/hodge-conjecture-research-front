@@ -2429,3 +2429,24 @@
 - **Re-entry condition:** prove directly that G104's complete base-changed
   direct image has no nonzero characteristic covector and separately retain
   the specified relation-channel pairing.
+
+## NG-131 - Infer zero microsupport from an alternating cycle
+
+- **Label:** NO-GO
+- **Route:** prove the ordinary Grothendieck-group characteristic cycle or
+  all fiber Euler characteristics vanish, then infer G105.
+- **Valid input:** characteristic cycles are additive with signs under
+  shifts; projective decomposition and relative hard Lefschetz hold.
+- **Invalid inference:** a zero alternating sum has no microsupport in the
+  union of its summands.
+- **Precise obstruction:** for B164's smooth-total-space projective escape
+  map \(g\), the product map \(g':\mathcal Y\times E\to T\) with an elliptic
+  curve satisfies
+  \(Rg'_*\mathbf Q\simeq Rg_*\mathbf Q\otimes R\Gamma(E,\mathbf Q)\).
+  The Betti numbers \(1,2,1\) give alternating class zero, but the direct
+  sum of shifts retains exactly the nonzero microsupport of \(Rg_*\mathbf
+  Q\).
+- **Scope guard:** this projective counterexample is not a hypersurface
+  family; it blocks the general sheaf-theoretic implication only.
+- **Re-entry condition:** prove every nonnegative coefficient of B165's
+  \(CC^+\) vanishes separately in G105, and retain the detector pairing.

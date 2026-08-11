@@ -286,6 +286,20 @@ B164/NG130 show that projective decomposition and semisimplicity do not
 force the last condition, even with smooth total space. G104 asks for zero
 **internal** microsupport on the class-directed basis germ while retaining
 the nonzero detector pairing.
+B165 replaces the alternating characteristic cycle by the positive package
+
+\[
+ CC^+(K_B)=\sum_jCC({}^pH^jK_B).
+\]
+
+Its off-zero coefficients are nonnegative generic normal-Morse ranks and
+vanish exactly when the internal microsupport is zero. B166 computes the
+coefficient along a generic escape-divisor component as the number of
+tracked nodes escaping there. NG131 shows why the positivity is essential:
+product with an elliptic curve can make the ordinary alternating
+characteristic cycle and every fiber Euler characteristic zero while
+preserving nonzero microsupport. G105 asks for componentwise positive
+node-polar vanishing together with the detector pairing.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -829,6 +843,7 @@ python verification/verify_B159_uniform_escape.py
 python verification/verify_B160_euler_rigidity.py
 python verification/verify_B162_arc_vanishing.py
 python verification/verify_B163_microsupport.py
+python verification/verify_B165_characteristic_cycle.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1055,6 +1070,9 @@ disappearing-node specialization cone and exclude replacing the whole cone
 by one constant cohomological piece.
 B163-B164/G104/NG130 identify the equivalent zero-internal-microsupport
 condition and exclude deriving it from the decomposition theorem alone.
+B165-B166/G105/NG131 replace alternating index data by finite positive
+node-polar multiplicities and exclude cancellation through cohomological
+shifts, even under projective decomposition and hard Lefschetz.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

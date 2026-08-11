@@ -539,3 +539,12 @@ positive-codimension supports. The B161 total space is smooth and its
 direct image decomposes, yet one node escapes and the restricted object has
 nonzero microsupport. G104 must remove those internal characteristic
 directions by a stronger class-directed mechanism.
+B165 makes those directions auditable without alternating cancellation:
+the sum of the effective characteristic cycles of the perverse cohomology
+objects has support exactly equal to the microsupport. B166 identifies its
+generic coefficient on an escape divisor with the number of tracked ODPs
+escaping there. This is finite and positive, but it restates rather than
+proves persistence. NG131 shows that the ordinary characteristic cycle is
+too weak: multiplying B164 by an elliptic curve kills its Grothendieck
+class and Euler function while retaining the same nonzero microsupport.
+G105 therefore requires componentwise positive node-polar vanishing.

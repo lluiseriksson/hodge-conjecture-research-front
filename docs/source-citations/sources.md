@@ -1991,6 +1991,41 @@ der mathematischen Wissenschaften 292, Springer, 1990.
   system has discriminant microsupport. Proposition 5.4.5 supplies no
   class-specific Hodge type, Saito pairing, or algebraic cycle.
 
+## S067 - Characteristic cycles, microlocal index, and positivity
+
+Masaki Kashiwara, “Index theorem for constructible sheaves,”
+*Astérisque* 130 (1985), 193–209.
+[Primary full text at Numdam](https://www.numdam.org/item/AST_1985__130__193_0/).
+
+Victor Ginsburg, “Characteristic varieties and vanishing cycles,”
+*Inventiones Mathematicae* 84 (1986), 327–402.
+[Official article record](https://link.springer.com/article/10.1007/BF01388811).
+
+A. A. Beilinson, J. Bernstein, and P. Deligne, *Faisceaux pervers*,
+*Astérisque* 100 (1982), 5–171.
+[Primary full text at Numdam](https://archive.numdam.org/item/AST_1982__100__1_0.pdf).
+
+- Audited Kashiwara Definition 3.4 and Theorem 4.1: generic microlocal
+  Morse Euler multiplicities assemble into a Lagrangian characteristic
+  cycle. Theorems 4.2–4.3 give the index/intersection formula, and
+  Proposition 5.1 is the local transverse Morse calculation used in B165.
+- Audited BBD Sections 2 and 4.4 for perverse truncation and the
+  vanishing-cycle bounds. At a generic complex conormal, the normalized
+  normal Morse group of a perverse sheaf is concentrated in degree zero;
+  its characteristic-cycle coefficient is therefore a nonnegative
+  dimension. This is the effectivity input in B165.
+- Ginsburg is the primary regular-holonomic comparison around
+  characteristic varieties and vanishing cycles. B165 uses it only as a
+  Riemann–Hilbert cross-check; the proof is stated on the rational
+  constructible-sheaf side.
+- Shift guard: the characteristic cycle of a general derived complex is a
+  Grothendieck-group invariant and changes sign under a shift. B165 instead
+  defines the non-alternating sum over canonical perverse cohomology
+  objects. NG131 shows why these must not be confused.
+- Scope guard: none of these microlocal theorems constructs a
+  class-directed nodal germ, proves a specified Hodge type or pairing, or
+  supplies an algebraic cycle.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded
