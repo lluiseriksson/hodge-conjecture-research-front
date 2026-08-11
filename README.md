@@ -1659,6 +1659,14 @@ dimensions remain before a rank-nine fourth escape. NG236 makes G199
 cubic/quartic rank-118 survivors. This is still a special-input rank
 obstruction, not a detector or cycle construction.
 
+NG237 audits the tempting extension of B271-B272 to the next
+cubic/quartic rank (7d+6) and rejects it. B264's nonplanar branch has
+residual lower bound exactly (d), equal to the new residual budget,
+so planar classification cannot be invoked. G201 is the operational
+gate: classify those exact-rank nonplanar configurations and construct
+an (x)-dependent sextic/octic separator for every eighth support.
+G200 remains open, with no detector or cycle constructed.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2297,6 +2305,7 @@ python verification/verify_B277_standard_d14_band.py
 python verification/verify_B278_cubic_quartic_d14.py
 python verification/verify_B279_standard_d16.py
 python verification/verify_B280_standard_d16_band.py
+python verification/verify_NG237_next_cubic_quartic.py
 ```
 
 The repository verifier checks the required directory topology, result

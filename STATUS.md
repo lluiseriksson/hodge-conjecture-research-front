@@ -1378,6 +1378,12 @@ generation from the controlled partitioned nodal locus is not proved.**
   standard equality in dimensions 18--20, the
   standard/cubic/quartic tie at \(d=22\), and cubic/quartic equality
   for even \(d\ge24\), retaining every G144 detector clause.
+- NG237 - NO-GO: B271-B272 cannot simply be extended from rank
+  \(7d+5\) to \(7d+6\), because B264 permits a nonplanar residual
+  branch of exact rank \(d\).
+- G201 - EXPLORATORY, operational inside G200: classify every
+  nonplanar exact-rank-\(d\) seven-support branch and separate every
+  eighth tangent osculator by a sextic or octic.
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
   six cubic double supports are independent and the seventh residual
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
@@ -1440,6 +1446,11 @@ generation from the controlled partitioned nodal locus is not proved.**
   budgets; the standard floor is at least 119.
 - NG236 - NO-GO: no standard rank from 113 through 118 survives on
   \(Q^{16}\); G200 is the active piecewise boundary.
+- NG237 - NO-GO: planar weak-del-Pezzo or four-point arguments do not
+  address B264's exact-rank nonplanar branch at the active
+  cubic/quartic boundary.
+- G201 - EXPLORATORY: the smallest current obligation is the
+  nonplanar exact-rank separator theorem; G200 remains active.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

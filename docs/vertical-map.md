@@ -2395,6 +2395,15 @@ before a rank-nine fourth escape. Thus G200 has only cubic/quartic
 rank-118 survivors in dimension 16. The dimension-14 branch and every
 detector obligation remain open.
 
+NG237 blocks a direct reuse of the planar B271-B272 arguments at
+G200's next rank (7d+6). B264's nonplanar alternative supplies at
+least (d) residual jets, and the new equality budget is exactly
+(d); hence nonplanar equality is not excluded. G201 is the smallest
+current brick: classify that exact-rank branch and prove that its
+seven-support tangent span absorbs no eighth distinct osculator. Until
+that separator theorem is proved, G200 and every detector obligation
+remain open.
+
 Two sufficient attacks feed G008:
 
 \[

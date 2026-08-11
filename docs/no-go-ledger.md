@@ -4762,3 +4762,23 @@
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
 - **Re-entry condition:** attack G200 and retain every G144 clause.
+
+## NG-237 - Extend the planar argument to rank \(7d+6\)
+
+- **Label:** NO-GO
+- **Route:** reuse B271-B272 unchanged at the next cubic/quartic
+  boundary.
+- **Arithmetic obstruction:** after six independent doubles, the new
+  residual budget is exactly \(d\), not \(d-1\).
+- **Geometric obstruction:** B264's nonplanar selected-edge branch has
+  lower bound \(d\), so equality survives its dichotomy. For tangent
+  edges it corresponds to a one-dimensional intersection of the two
+  multiplier-dependent orthogonal graph planes; a nontangent edge can
+  also have exact image rank \(d\).
+- **Boundary consequence:** planar weak-del-Pezzo and four-point
+  classifications are insufficient; G200 remains EXPLORATORY.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** prove G201's nonplanar exact-rank separator or
+  find a different exclusion of every such branch.
