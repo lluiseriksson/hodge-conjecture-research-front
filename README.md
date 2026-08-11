@@ -876,6 +876,19 @@ to that sufficient mechanism only, not to the Hodge Conjecture. G148 is
 the surviving strict-slack gate: construct the complete G144 package
 with \(N>D_{2n}(m)\), where common tangency is no longer forced.
 
+B222 quantifies the first strict layer. For
+\(N=D_d(m)+s\), \(m\ge3\), the degree-two and complementary-rank
+excesses \(\delta_2,\delta_c\) satisfy
+\(\delta_2+\delta_c\le s\), and both transport cokernels have dimension
+\(s-\delta_2-\delta_c\). If the H-Gauss map is injective, then
+\(\delta_2\ge1\). Consequently \(s=1\) forces
+\((\delta_2,\delta_c)=(1,0)\) and both transports remain isomorphisms;
+for \(m=2\), one slack node is impossible. G149 is the sharpened active
+branch: use a squared very ample polarization \(H=A^2\), \(m\ge3\), and
+\(N=D_{2n}(m)+1\) to construct the entire G144 detector package with
+this exact rank signature. NG183 records that Gauss injectivity and the
+rank budget do not construct the marked ODP scheme or rational detector.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in

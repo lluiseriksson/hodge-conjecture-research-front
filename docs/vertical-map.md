@@ -1514,6 +1514,37 @@ Equality alone forced the common tangent plane, so G148 neither assumes
 nor seeks a Gauss fiber. The strict-slack branch and the terminal Hodge
 Conjecture remain open.
 
+B222 resolves the rank geometry of the first slack layer. For \(m\ge3\),
+
+\[
+\begin{aligned}
+N&=D_d(m)+s,\\
+\delta_2&=h_Z(2)-c_d,\qquad
+\delta_c=h_Z(m-2)-L_d(m-2),\\
+\delta_2+\delta_c&\le s,\qquad
+\dim\operatorname{coker}M_{\lambda,2}
+=\dim\operatorname{coker}M_{\lambda,m-2}
+=s-\delta_2-\delta_c.
+\end{aligned}
+\tag{**********************************************}
+\]
+
+Injective Gauss forces \(\delta_2\ge1\). Hence the smallest surviving
+vertical branch is
+
+\[
+\text{G148}\Longleftarrow
+\text{G149: }H=A^2,\ m\ge3,\ N=D_{2n}(m)+1,
+(\delta_2,\delta_c)=(1,0),
+\text{ with the full G144 detector package}.
+\tag{***********************************************}
+\]
+
+B220 supplies the injective Gauss map and B222 forces the displayed
+signature conditional on existence. NG183 blocks the converse
+inference: neither result constructs the marked ODP incidence or
+rational specified-pairing detector.
+
 Two sufficient attacks feed G008:
 
 \[

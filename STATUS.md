@@ -1076,6 +1076,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G148 - EXPLORATORY, active refined branch: construct the complete G144
   package for every arbitrary \((X,\zeta)\) with strict slack
   \(N>D_{2n}(m)\); no common-tangent fiber may be assumed.
+- B222 - PROVED: for \(N=D_d(m)+s\), the slack splits exactly between
+  two lower-rank excesses and equal complementary transport cokernels;
+  injective Gauss forces the degree-two excess to be positive.
+- G149 - EXPLORATORY, active smallest branch: for every arbitrary input,
+  use \(H=A^2\), \(m\ge3\), and \(N=D_{2n}(m)+1\) to realize the full
+  G144 package with degree-two excess one and both transports isomorphic.
+- NG183 - NO-GO: squaring the polarization and adding one slack node
+  constrain any candidate but construct neither its ODP scheme nor its
+  rational class-specific detector.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

@@ -3493,3 +3493,20 @@
   unknown Hodge class or the Hodge Conjecture follows.
 - **Re-entry condition:** use G148 and construct the full G144 package in
   the strict-slack range \(N>D_{2n}(m)\).
+
+## NG-183 - Treat injective Gauss plus one slack node as construction
+
+- **Label:** NO-GO
+- **Route:** choose \(H=A^2\), use B220's injective Gauss map, set
+  \(N=D_{2n}(m)+1\), and declare G149 realized.
+- **Valid input:** B222 forces degree-two excess one, complementary
+  excess zero, and two transport isomorphisms for any existing candidate.
+- **Invalid inference:** those necessary ranks produce the point scheme,
+  central ODP system, or detector.
+- **Precise obstruction:** the simultaneous \(Z,2Z,3Z\) restriction
+  signature, nondegenerate quadratic profile, holonomy, finite Kuranishi
+  closure, rational full-support relation, and nonzero specified pairing
+  all remain unconstructed.
+- **Detector guard:** a one-dimensional complex rank excess is not a
+  rational type-\((0,0)\) vanishing-cycle class or an algebraic cycle.
+- **Re-entry condition:** prove the complete existence statement G149.
