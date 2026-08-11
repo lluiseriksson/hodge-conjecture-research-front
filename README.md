@@ -1236,16 +1236,32 @@ possible rank-one continuation leaves annihilator
 \(\operatorname{Sym}^2K\), with contact locus in a projective
 three-space of quadratic point rank at most ten.
 
-Hence G168 and the odd layer \(6d+1\) are **NO-GO** (NG203). The active
-gate is G169:
+Hence G168 and the odd layer \(6d+1\) are **NO-GO** (NG203). The next
+gate was G169:
 
 \[
  m=2,\qquad s=6d+2,\qquad \delta_1=3d+1,\qquad
  N=8d+4,\qquad h_Z(1)=4d+2=N/2.
 \]
 
-The standard polarization remains the first necessary quadric test;
-every geometric and detector obligation is open.
+B246 closes the entire fixed-additive standard continuation. In the
+residual-\(U\) branch, three tangent images force rank \(5d-3\). In the
+other branch, every escape from the projective-three-space contact locus
+contributes at least \(d-3\). Thus standard candidates require
+\(h_Z(1)\ge5d-3\).
+
+Combining this with the nonstandard rank floor \(4d+4\) gives
+\(s\ge6d+6\) for every polarization. Hence G169 and all layers through
+\(6d+5\) are **NO-GO** (NG204). The active gate is G170:
+
+\[
+ m=2,\qquad s=6d+6,\qquad \delta_1=3d+3,\qquad
+ N=8d+8,\qquad h_Z(1)=4d+4=N/2.
+\]
+
+The standard polarization is excluded; all nonstandard polarizations
+re-enter at their exact necessary floor. Every geometric and detector
+obligation remains open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1850,6 +1866,7 @@ python verification/verify_B242_square_G164_exclusion.py
 python verification/verify_B243_quadric_G166_exclusion.py
 python verification/verify_B244_slope_six_floor.py
 python verification/verify_B245_standard_slope_six_boundary.py
+python verification/verify_B246_standard_five_block_floor.py
 ```
 
 The repository verifier checks the required directory topology, result

@@ -3977,3 +3977,29 @@
   HC remain open.
 - **Re-entry condition:** G169 begins at
   \(s=6d+2,\delta_1=3d+1,N=8d+4,h_Z(1)=4d+2\).
+
+## NG-204 - Continue the fixed-additive standard slope-six branch
+
+- **Label:** NO-GO
+- **Route:** retain \(A=O_Q(1)\) through G169 and later fixed additive
+  slope-six layers.
+- **Valid premise:** each balanced layer supplies another point-span
+  dimension.
+- **Invalid inference:** finitely many such dimensions absorb the third
+  residual tangent or the next escape from \(K^\perp\).
+- **Residual obstruction:** three residual tangent blocks force total
+  point rank at least \(5d-3\).
+- **Contact obstruction:** each required escape from the
+  projective-three-space contact locus costs at least \(d-3\).
+- **Common-floor guard:** B244 separately gives
+  \(h_Z(1)\ge4d+4\) for every nonstandard polarization, so all
+  polarizations require \(s\ge6d+6\).
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge8\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G169 and every layer \(6d+2,\ldots,6d+5\) are closed.
+  G148 and HC remain open.
+- **Re-entry condition:** G170 begins at
+  \(s=6d+6,\delta_1=3d+3,N=8d+8,h_Z(1)=4d+4\), with only nonstandard
+  quadric polarizations surviving the rank test.

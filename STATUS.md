@@ -1233,9 +1233,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G168 - NO-GO: the layers \(s=6d\) and \(s=6d+1\) fail on every valid
   even quadric of dimension at least eight.
 - NG203 - NO-GO: the standard polarization cannot rescue G168.
-- G169 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=6d+2,\delta_1=3d+1\) and construct the balanced
-  length-\(8d+4\), dimension-\(4d+2\) self-dual code with every detector
+- B246 - PROVED: every standard quadric candidate has
+  \(h_Z(1)\ge5d-3\); combined with the nonstandard floor, every
+  polarization has \(s\ge6d+6\).
+- G169 - NO-GO: every layer \(6d+2,\ldots,6d+5\) lies below the common
+  quadric floor.
+- NG204 - NO-GO: fixed-additive slope-six standard survival fails.
+- G170 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=6d+6,\delta_1=3d+3\) and construct the balanced
+  length-\(8d+8\), dimension-\(4d+4\) self-dual code with every detector
   clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`

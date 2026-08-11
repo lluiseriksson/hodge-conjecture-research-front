@@ -1953,18 +1953,31 @@ residual-\(U\) branch a third tangent contributes at least \(d-3>1\).
 In the other branch every possible rank-one continuation leaves
 annihilator \(\operatorname{Sym}^2K\), with contact locus in a
 projective three-space of point rank at most ten. Hence G168 and the odd
-layer \(6d+1\) are NO-GO. The next balanced signature is
+layer \(6d+1\) are NO-GO. The next balanced signature was
 
 \[
  \delta_1=3d+1,\qquad N=8d+4,\qquad
  \dim E_1=4d+2=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{*************************************************************************************}
 \]
 
+B246 proves that the standard polarization actually forces
+\(h_Z(1)\ge5d-3\): the residual-\(U\) branch needs three tangent blocks,
+while every escape from a projective-three-space contact locus costs at
+least \(d-3\). Combining this with B244's nonstandard floor
+\(h_Z(1)\ge4d+4\) gives \(s\ge6d+6\) for every polarization. Hence
+G169 and every layer through \(6d+5\) are NO-GO. The next balanced
+signature is
+
+\[
+ \delta_1=3d+3,\qquad N=8d+8,\qquad
+ \dim E_1=4d+4=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**************************************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G169: construct one dimension beyond slope six}
+ \text{G170: construct the nonstandard }6d+6\text{ boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 
