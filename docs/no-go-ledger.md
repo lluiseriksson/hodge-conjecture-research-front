@@ -4613,9 +4613,33 @@
   the residual rank is at least \(d\).
 - **Rank contradiction:** six independent doubles contribute \(6d+6\), so
   every quartic candidate has rank at least \(7d+6\), not \(7d+5\).
-- **Boundary consequence:** G190 is NO-GO; the valid floor reaches G191,
-  which B266 makes NO-GO at \(d=22\); G192 is active.
+- **Boundary consequence at this checkpoint:** G190 is NO-GO; the valid
+  floor reaches G191, which B266 makes NO-GO at \(d=22\); G192 is
+  reached and B273 later closes it.
 - **Detector guard:** no relation, ODP package, Kuranishi vanishing, rational
   detector, specified pairing, cycle, proof, or disproof of HC is produced.
-- **Re-entry condition:** attack G192 at its square/standard/cubic/quartic
-  survivor table and retain every G144 clause.
+- **Re-entry condition at this checkpoint:** attack G192 at its
+  square/standard/cubic/quartic survivor table and retain every G144
+  clause.
+
+## NG-229 - Retain low-dimensional square equality
+
+- **Label:** NO-GO
+- **Route:** realize G192 with \(A=O_Q(2)\) at rank \(6d+6\) for
+  \(d=14,16,18,20\).
+- **Confinement obstruction:** the span \(W\) of six independent supports
+  has dimension at most six. If every marked point lies in
+  \(\mathbf P(W)\), its quartic point span lies in
+  \(\operatorname{Sym}^4W\), while an absorbed tangent contains
+  \(v^3u\) with \(u\in v^\perp\setminus W\).
+- **Escape obstruction:** any marked point outside \(\mathbf P(W)\)
+  contributes its full \(d+1\)-dimensional double neighborhood by the
+  B254 hyperplane-square lemma.
+- **Rank contradiction:** square rank is at least \(7d+7\), not \(6d+6\).
+- **Boundary consequence:** G192 is NO-GO and G193 is active at the
+  standard/cubic piecewise floor.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack the G193 survivor table and retain every
+  G144 clause.

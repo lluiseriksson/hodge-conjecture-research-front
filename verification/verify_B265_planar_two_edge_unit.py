@@ -57,7 +57,7 @@ require(
 )
 require(
     "proofs/G192-square-cubic-boundary.md",
-    ("brick_id: G192", "status: EXPLORATORY", "P(d)", "active"),
+    ("brick_id: G192", "status: NO-GO", "P(d)", "B273"),
 )
 require(
     "proofs/NG223-planar-cubic-quartic-equality-survival.md",

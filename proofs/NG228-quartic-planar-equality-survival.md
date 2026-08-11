@@ -33,8 +33,9 @@ falsifier: a quartic G190 package of rank 7d+5 or a failure of B272's residual-r
   is at least \(7d+6\).
 - **Conclusion:** quartic equality is impossible for every even
   \(d\ge22\).
-- **Boundary consequence:** together with NG227, G190 is NO-GO; B266
-  then makes G191 NO-GO, and G192 is the next active piecewise gate.
+- **Boundary consequence at this checkpoint:** together with NG227, G190
+  is NO-GO; B266 then makes G191 NO-GO, and G192 is reached. B273 later
+  closes G192 and activates G193.
 - **Detector guard:** no ODP package, Kuranishi vanishing, rational
   detector, specified pairing, cycle, proof, or disproof of HC is
   produced.

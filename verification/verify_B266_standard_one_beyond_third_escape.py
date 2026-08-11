@@ -67,7 +67,7 @@ require(
 )
 require(
     "proofs/G192-square-cubic-boundary.md",
-    ("brick_id: G192", "status: EXPLORATORY", "P(d)", "active"),
+    ("brick_id: G192", "status: NO-GO", "P(d)", "B273"),
 )
 require(
     "proofs/NG224-standard-one-beyond-third-escape-survival.md",

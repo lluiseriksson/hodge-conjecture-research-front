@@ -2301,6 +2301,32 @@ for every even \(d\ge22\). Every relation, ODP, Kuranishi,
 rational-type, and specified-pairing obligation remains open; no rank
 statement is counted as a detector or cycle construction.
 
+B273 closes the remaining G192 branch. Let \(W\) be the standard vector
+span of the six independent square-polarized supports, so \(\dim W\le6\).
+If all marked points lie in \(\mathbf P(W)\), their quartic point span is
+contained in \(\operatorname{Sym}^4W\). But lower extinction absorbs the
+quartic tangent osculator \(v^3v^\perp\), and for \(d\ge14\) it contains
+\(v^3u\notin\operatorname{Sym}^4W\). Hence one marked point escapes
+\(\mathbf P(W)\); B254 then makes its entire double neighborhood
+independent and raises the square rank from \(6d+6\) to at least \(7d+7\).
+Thus G192 is NO-GO. The current branch is
+
+\[
+ \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
+ \Longleftarrow\text{G193 at }R(d)
+ \Longleftarrow
+ \begin{cases}
+ \text{standard equality},&d=14,16,18,20,\\
+ \text{standard/cubic/quartic equality},&d=22,\\
+ \text{cubic/quartic equality},&d\ge24\text{ even}.
+ \end{cases}
+\]
+
+Here \(R(14)=95\), \(R(d)=8d-16\) for
+\(d=16,18,20,22\), and \(R(d)=7d+6\) for even \(d\ge24\).
+The next justified attack is equality classification at one of these
+survivors; every detector and cycle clause remains mandatory.
+
 Two sufficient attacks feed G008:
 
 \[

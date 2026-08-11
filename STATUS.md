@@ -1356,8 +1356,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   equality on every valid even-quadric input of dimension at least 22.
 - G191 - NO-GO: B271-B272 validly replace B265's retracted floor, but
   B266 excludes the sole standard survivor at \(d=22\).
-- G192 - EXPLORATORY, active: classify square equality for
-  \(d=14,16,18,20\), the standard/cubic/quartic tie at \(d=22\), and
+- G192 - NO-GO: B273 excludes its sole square survivor on every valid
+  even-quadric input in dimensions \(14,16,18,20\).
+- G193 - EXPLORATORY, active: classify standard equality in dimensions
+  14--20, the standard/cubic/quartic tie at \(d=22\), and
   cubic/quartic equality for even \(d\ge24\), retaining every G144
   detector clause.
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
@@ -1381,8 +1383,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   four-collinear-support transverse octic gives residual rank at least
   \(d\), so quartic equality \(7d+5\) is impossible.
 - NG228 - NO-GO: quartic equality cannot survive at G190; G192 is now
-  active at \(P(d)=6d+6\) in dimensions 14--20 and \(P(d)=7d+6\) for
+  reached at \(P(d)=6d+6\) in dimensions 14--20 and \(P(d)=7d+6\) for
   every even \(d\ge22\).
+- B273 - PROVED: confinement to the span of six square-polarized supports
+  contradicts quartic tangent absorption, while escape contributes a full
+  seventh double; hence \(h_Z(1)\ge7d+7\).
+- NG229 - NO-GO: square equality \(6d+6\) cannot survive in dimensions
+  14--20; G193 is the active standard/cubic piecewise boundary.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

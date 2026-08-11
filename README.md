@@ -1572,6 +1572,27 @@ P(d)=
 This transition constructs no detector or algebraic cycle and gives no
 proof or disproof of HC.
 
+B273 then closes G192's low-dimensional square branch without a point-rank
+estimate. Six independent square-polarized doubles span a standard vector
+space \(W\) of dimension at most six. Confining every marked point to
+\(\mathbf P(W)\) would put its quartic point span in
+\(\operatorname{Sym}^4W\), but tangent absorption contains
+\(v^3u\) for some \(u\in v^\perp\setminus W\). A marked point must
+therefore escape \(\mathbf P(W)\), and B254's hyperplane-square lemma
+makes its full double neighborhood independent. Hence the square rank is
+at least \(7d+7\), NG229 makes G192 **NO-GO**, and the active gate is
+G193 at
+
+\[
+R(14)=95,\qquad
+R(d)=8d-16\ (d=16,18,20,22),\qquad
+R(d)=7d+6\ (d\ge24\text{ even}).
+\]
+
+The survivors are standard polarization in dimensions 14--20; the
+standard/cubic/quartic tie at 22; and cubic/quartic polarization in even
+dimensions at least 24. Every detector and cycle obligation remains open.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2202,6 +2223,7 @@ python verification/verify_B268_planar_cubic_equality.py
 python verification/verify_B269_planar_witness_no_eighth.py
 python verification/verify_B270_B271_cubic_equality.py
 python verification/verify_B272_quartic_equality.py
+python verification/verify_B273_square_equality.py
 ```
 
 The repository verifier checks the required directory topology, result
