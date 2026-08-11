@@ -2860,3 +2860,29 @@
   coefficients vanish using new class-directed full-incidence geometry.
   Effective elimination, smoothness, and finite checkability are not that
   proof.
+
+## NG-150 - Quadratic Kuranishi vanishing promotes to every order
+
+- **Label:** NO-GO
+- **Route:** prove B146's full quadratic relation-Hessian tensor vanishes
+  and infer the cubic and all remaining rungs of B186's finite ladder.
+- **Valid input:** after the quadratic tensor vanishes, B154 makes the
+  corrected cubic tensor canonical.
+- **Invalid inference:** canonical means zero, or quadratic flatness
+  supplies a formal recurrence killing the higher tensors.
+- **Precise obstruction:** for fixed \(a\ne b\), the affine-linear ODP
+  charts
+  \[
+  f_a=x+yw+w^2/2+a w^3,\qquad
+  f_b=x+yw+w^2/2+b w^3
+  \]
+  have critical values
+  \(x-y^2/2-a y^3+O(y^4)\) and
+  \(x-y^2/2-b y^3+O(y^4)\). On the first basis branch, the escape is
+  \((a-b)y^3+O(y^4)\).
+- **Jet conclusion:** \(K_B\subset\mathfrak m^3\) but
+  \(K_B\not\subset\mathfrak m^4\); equivalently
+  \(j^1\beta_{K_B}=0\) and \(j^2\beta_{K_B}\ne0\).
+- **Re-entry condition:** after G119 kills the quadratic tensor, construct
+  a separate cubic-vanishing mechanism and then continue through every
+  finite rung required by G118. Hodge detector clauses remain attached.

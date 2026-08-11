@@ -537,6 +537,21 @@ but escape ideal \((y^2)\) with nonzero conormal defect. G118 is therefore
 the active residual gate: prove those finitely many coefficients vanish
 using class-directed full-incidence geometry while retaining the detector.
 
+B186 decomposes that certificate exactly:
+
+\[
+ j^{D-1}\beta_{K_B}=0
+ \Longleftrightarrow K_B\subset\mathfrak m^{D+1}
+ \Longleftrightarrow \kappa_2=\cdots=\kappa_D=0.
+\]
+
+Thus the first nonautomatic coefficient is the B146 quadratic
+relation-Hessian tensor. G119 asks for its class-directed vanishing; in the
+synchronized branch this includes B153's \(\Omega_Q=0\). NG150 blocks
+promoting that result: the affine-linear ODP charts
+\(x+yw+w^2/2+a w^3\) and \(x+yw+w^2/2+b w^3\) have equal quadratic
+critical-value terms but cubic escape \((a-b)y^3+O(y^4)\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1098,6 +1113,7 @@ python verification/verify_B182_etale_idempotents.py
 python verification/verify_B183_unit_invariance.py
 python verification/verify_B184_etale_carrier.py
 python verification/verify_B185_incidence_carrier.py
+python verification/verify_B186_kuranishi_ladder.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1369,7 +1385,10 @@ carrier-degree bound \(\delta e\); constructing the carrier and proving the
 required jets remain open. B185 closes the carrier construction and replaces
 \(\delta e\) by the explicit crude bound \(E^{M+1}\). NG149 leaves exactly
 G118: prove the finitely many conormal coefficients vanish, together with
-the still-unconstructed class-directed detector geometry.
+the still-unconstructed class-directed detector geometry. B186 rewrites
+those coefficients as the finite Kuranishi ladder
+\(\kappa_2,\ldots,\kappa_{E^{M+1}}\). G119 isolates the quadratic rung, and
+NG150 proves it cannot automatically kill the cubic rung.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

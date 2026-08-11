@@ -783,6 +783,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G118 - EXPLORATORY: prove every conormal coefficient through order
   \(E^{M+1}-1\) vanishes for the actual class-directed full incidence while
   retaining rational type and the specified nonzero detector pairing.
+- B186 - PROVED: \(j^{D-1}\beta_K=0\) is equivalent to
+  \(K\subset\mathfrak m^{D+1}\), hence to vanishing of the Kuranishi
+  tensors \(\kappa_2,\ldots,\kappa_D\).
+- G119 - EXPLORATORY: kill the first nonautomatic rung
+  \(\kappa_2\), equivalently B146's complete relation-Hessian obstruction,
+  for arbitrary class-directed full-incidence data with every detector.
+- NG150 - NO-GO: quadratic Kuranishi vanishing does not promote to cubic
+  vanishing; two affine-linear ODP charts can agree through degree two and
+  have escape \((a-b)y^3+O(y^4)\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1354,6 +1363,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   \(\delta e\). B185 constructs and bounds the carrier by \(E^{M+1}\);
   NG149 shows finite checkability is not vanishing. G118 isolates the
   remaining finite conormal coefficients, class direction, and detector.
+  B186 decomposes them as a finite Kuranishi ladder. G119 is its quadratic
+  first rung, while NG150 forces an independent cubic step afterward.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -665,6 +665,34 @@ new residual gate: prove the actual finite coefficients vanish using
 class-directed full-incidence geometry and retain every Hodge detector
 clause.
 
+B186 resolves the internal structure of that finite condition. For every
+\(D\ge1\),
+
+\[
+ j^{D-1}\beta_{K_B}=0
+ \quad\Longleftrightarrow\quad
+ K_B\subset\mathfrak m^{D+1}
+ \quad\Longleftrightarrow\quad
+ \kappa_2=\cdots=\kappa_D=0.
+\]
+
+The first equivalence follows because a minimum-order nonzero
+\(g\in K_B\) has \(dg\) one order lower, which cannot be absorbed by
+\(K_B\Omega^1\). The second uses B154's reduced Kuranishi map. Thus G118 is
+the finite ladder
+
+\[
+ \kappa_2,\kappa_3,\ldots,\kappa_{E^{M+1}}.
+\]
+
+G119 is the smallest unresolved rung: kill \(\kappa_2\), the B146 complete
+relation-Hessian obstruction, with all class and detector clauses. In the
+synchronized branch this is B153/G097's mixed condition plus
+\(\Omega_Q=0\). NG150 prevents promotion to the next rung: two
+affine-linear ODP charts with equal quadratic critical values and unequal
+cubic spatial coefficients have \(\kappa_2=0\) but
+\(\kappa_3\ne0\).
+
 Two sufficient attacks feed G008:
 
 \[

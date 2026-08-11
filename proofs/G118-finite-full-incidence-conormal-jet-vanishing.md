@@ -49,3 +49,15 @@ The uniform-matroid, adjoint-defect, primitive-image, rational-type
 \((0,0)\), and specified nonzero Saito-pairing clauses remain attached.
 B185 supplies no vanishing mechanism for (1), and no such mechanism is
 currently known.
+
+## Decomposition after B186
+
+B186 proves that (1) is exactly the finite tensor ladder
+
+\[
+ \kappa_2=\kappa_3=\cdots=\kappa_{D_{\mathrm{car}}}=0.
+\]
+
+The first nonautomatic rung is the B146 quadratic relation-Hessian tensor,
+isolated as G119. NG150 shows that its vanishing does not force the cubic
+rung.
