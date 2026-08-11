@@ -1777,6 +1777,27 @@ and Applications,” *Journal of Algebra* 631 (2023), 332-354.
   singular locus. Neither theorem constructs a detector or an algebraic
   cycle.
 
+## S058 - Cayley-Bacharach sets on curves of degree three
+
+Nicola Picoco, “Geometry of Points Satisfying Cayley-Bacharach Conditions
+and Applications,” *Journal of Algebra* 631 (2023), 332-354.
+[DOI](https://doi.org/10.1016/j.jalgebra.2023.03.042),
+[arXiv](https://arxiv.org/abs/2201.01665).
+
+- Checked Theorem A and its \(h=4\) case, Theorem 3.2: if a set
+  \(\Gamma\subset\mathbf P^N\) of distinct points is
+  \(\mathrm{CB}(k)\) and
+  \(|\Gamma|\le4(k-4+3)-1=4k-5\), then \(\Gamma\) lies on a projective
+  curve of degree three.
+- B139 applies this only after B138's minimal-circuit argument has produced
+  an intrinsic \(\mathrm{CB}(k)\) set. It separately classifies reduced
+  degree-at-most-three carriers and proves a uniform normalization/conormal
+  first-jet bound for their bounded Hilbert families.
+- Scope guard: Theorem 3.2 supplies a carrier, not a nodal hypersurface,
+  vanishing-cycle relation, class-specific residue, or algebraic cycle.
+  B139 is only a necessary cardinality obstruction in a fixed high-power
+  family.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

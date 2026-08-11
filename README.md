@@ -136,7 +136,10 @@ B137 sharpens this to
 \(K_X\otimes H^c\) globally generated. NG110 excludes every slower-growing
 isolated-nodal detector. B138 then extracts the intrinsic Cayley-Bacharach
 circuit and uses S057 to exclude every degree-at-most-two carrier below
-\(3(mn-c)\); NG111 records this stronger NO-GO.
+\(3(mn-c)\); NG111 records that NO-GO. B139 then audits S058's \(h=4\)
+case and all integral or reducible cubic carriers. The same bounded
+normalization/conormal argument excludes the entire range through
+\(4(mn-c)-5\); NG112 records the resulting quartic-linear NO-GO.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -158,7 +161,8 @@ restricted inequality was \(c a_1-a_2\ne0\), but B136/NG109 close every
 uniformly bounded-node realization in the stable high-power regime. The
 active clean-nodal construction obligation is G013: a growing multipart
 configuration meeting B138's triple-linear floor and having nonzero B135
-residue-cokernel class.
+residue-cokernel class. It must now meet B139's stronger floor
+\(4(mn-c)-4\).
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -653,6 +657,7 @@ python verification/verify_B135_residue_cokernel.py
 python verification/verify_B136_bounded_nodes.py
 python verification/verify_B137_linear_node_floor.py
 python verification/verify_B138_triple_linear_floor.py
+python verification/verify_B139_quartic_linear_floor.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -826,7 +831,9 @@ B136/NG109 close that specialization as a scalable high-power route and
 require any clean-nodal replacement to use a node count escaping every fixed
 bound. B137/NG110 strengthen this to the explicit lower bound
 \(2(mn-c)+2\). B138/NG111 close the conic boundary and every larger
-cardinality through \(3(mn-c)-1\); the first open count is \(3(mn-c)\).
+cardinality through \(3(mn-c)-1\). B139/NG112 extend the exclusion through
+\(4(mn-c)-5\); the first open
+count is now \(4(mn-c)-4\).
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

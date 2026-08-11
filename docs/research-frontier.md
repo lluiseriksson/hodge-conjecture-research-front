@@ -87,7 +87,16 @@ Consequently
  |\Delta_m|\ge3(mn-c).
 \]
 
-NG111 closes the entire smaller range. This is not counted as a new
+NG111 closes that smaller range. B139 then applies S058's \(h=4\) theorem
+and audits all integral and reducible cubic carriers. Uniform first-jet
+bounds on their normalizations force a positive-dimensional singular locus
+whenever \(|\Delta_m|\le4(mn-c)-5\). Consequently
+
+\[
+ |\Delta_m|\ge4(mn-c)-4.
+\]
+
+NG112 closes the entire smaller range. This is not counted as a new
 sufficient reduction: isolated nodality at the new boundary, the two-matroid
 inequalities, the ambient-map rank, and the specified B135 pairing all remain
 unproved.

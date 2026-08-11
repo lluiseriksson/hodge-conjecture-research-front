@@ -2092,6 +2092,25 @@
   curve. Componentwise CB bounds force at least \(mn-c+1\) points on a line
   or \(2(mn-c)+2\) on an irreducible conic. Uniform conormal-degree bounds
   then make the hypersurface singular along that carrier.
-- **Re-entry condition:** use at least \(3(mn-c)\) nodes and prove isolated
+- **Re-entry condition:** B139 subsequently raises the necessary count to
+  \(4(mn-c)-4\); at or above that floor prove isolated
   first jets, multipart smoothability, positive adjoint and ambient ranks,
   and the prescribed nonzero B135 pairing.
+
+## NG-112 - Stop below the quartic-linear floor
+
+- **Label:** NO-GO
+- **Route:** cross B138's triple-linear threshold but keep
+  \(|\Delta_m|\le4(mn-c)-5\).
+- **Valid input:** S057 controls only carriers of degree at most two, so this
+  larger range required a new primary theorem and a cubic-carrier audit.
+- **Invalid inference:** a cubic Cayley-Bacharach carrier can support an
+  isolated-nodal adjoint defect merely because it is not a line or conic.
+- **Precise obstruction:** B139 applies S058 to the minimal
+  \(\mathrm{CB}(mn-c)\) circuit and obtains a degree-at-most-three carrier.
+  Cubic componentwise Cayley-Bacharach bounds give linearly many points on
+  an integral or reducible component. Uniform normalization/conormal bounds
+  then force that component into the hypersurface singular locus.
+- **Re-entry condition:** use at least \(4(mn-c)-4\) nodes and prove isolated
+  first jets, multipart smoothability, both G013 matroid/rank conditions,
+  and the prescribed nonzero B135 residue-cokernel pairing.

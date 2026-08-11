@@ -13,7 +13,7 @@ hodge_type: the specified class and sought Saito relation have rational type (0,
 cycle_class_map: CH^n(X)_Q -> H^{2n}(X,Q(n))
 cycle_equivalence: rational equivalence
 scope: absolute
-dependencies: B009-B013, B016, B022-B032, B135-B138, NG109-NG111, and S056-S057
+dependencies: B009-B013, B016, B022-B032, B135-B139, NG109-NG112, and S056-S058
 claim: Every specified primitive rational Hodge class with a nonzero global detector admits a high-degree nodal member whose node scheme satisfies the two-part smoothing-matroid inequalities, has positive adjoint evaluation defect, and contains a rational Saito relation whose ambient class retains nonzero pairing with the specified class.
 falsifier: a polarized smooth projective 2n-fold and nonzero primitive rational Hodge class for which every nodal node scheme satisfying the two-part matroid inequalities either has zero adjoint defect or has detector image contained in the class annihilator
 ---
@@ -55,11 +55,11 @@ equivalently \(\sum_i b_i a_i\ne0\) for some
 \(b\in\ker\Delta\). B136 first shows that the number of nodes cannot remain
 bounded. B137 makes the requirement quantitative. After fixing a very ample
 \(H\), choosing \(c\ge0\) with \(K_X\otimes H^c\) globally generated, and
-putting \(A_m=H^m\), B138 now requires every viable isolated-nodal member to
+putting \(A_m=H^m\), B139 now requires every viable isolated-nodal member to
 satisfy
 
 \[
- |\Delta_m|\ge 3(mn-c).
+ |\Delta_m|\ge 4(mn-c)-4.
 \]
 
 This is an exact rank-function version of G012. B028 removes the ambiguity
@@ -113,8 +113,8 @@ repeat NG-013.
 
 Construct an algebraic incidence component on which the Edmonds inequalities
 hold fiberwise, the adjoint corank is positive, and the first-jet conditions
-still have isolated nodal solutions. Its node count must meet B138's floor
-\(3(mn-c)\), not merely escape every fixed bound. The support must be
+still have isolated nodal solutions. Its node count must meet B139's floor
+\(4(mn-c)-4\), not merely escape every fixed bound. The support must be
 distributed or use
 a genuinely zero-dimensional Cayley-Bacharach mechanism rather than
 overloading one low-degree carrier. Then build a rational comparison from its

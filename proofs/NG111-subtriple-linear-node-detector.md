@@ -34,6 +34,7 @@ falsifier: B138, which places a minimal degree-(mn-c) evaluation circuit on a de
   most two. Componentwise Cayley-Bacharach bounds provide enough nodes on a
   line or conic to annihilate both the hypersurface restriction and all
   conormal first derivatives. The carrier lies in the singular locus.
-- **Re-entry condition:** construct G013 with at least \(3(mn-c)\) nodes,
+- **Re-entry condition:** B139 subsequently raises the necessary count to
+  \(4(mn-c)-4\); construct G013 at or above that floor,
   isolated first jets, the multipart smoothing inequalities, positive
   adjoint and ambient ranks, and a class-specific nonzero B135 quotient.

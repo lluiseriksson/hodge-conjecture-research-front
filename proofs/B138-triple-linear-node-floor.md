@@ -174,4 +174,5 @@ The constants and the high-power threshold depend on \((X,H)\). B138 does
 not treat the boundary \(3t_m\), construct any such node scheme, prove the
 two-matroid inequalities, evaluate the B135 quotient, or construct an
 algebraic cycle. It is a necessary cardinality theorem, not progress toward
-algebraicity by itself.
+algebraicity by itself. B139 subsequently strengthens this necessary floor
+to \(4t_m-4\).

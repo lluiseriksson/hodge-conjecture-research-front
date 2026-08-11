@@ -62,6 +62,7 @@ boundary, not an induction mechanism.
 | bounded-node high-power vanishing | B136 proves uniformly over Hilb^k(X), k at most N, that every bounded node scheme has zero high-power adjoint defect and relation channel | G089 is NO-GO in the stable high-power regime; NG109 forces the scalable clean route back to growing multipart G013 |
 | quantitative isolated-node floor | B137 combines S056 postulation with uniform H-line conormal bounds to prove that nonzero isolated-nodal defect requires at least 2(mn-c)+2 nodes | NG110 excludes every slower-growing route; B138 subsequently closes its equality/conic boundary and strengthens the floor |
 | triple-linear isolated-node floor | B138 extracts a minimal CB(mn-c) circuit and uses S057 plus line/conic conormal bounds to require at least 3(mn-c) nodes | NG111 closes the entire line/conic-carrier range; no incidence at the new boundary or class-specific B135 value is constructed |
+| quartic-linear isolated-node floor | B139 applies S058's h=4 theorem and normalization/conormal bounds for integral and reducible cubic carriers to require at least 4(mn-c)-4 nodes | NG112 closes every smaller cardinality; no incidence at the new boundary, ambient rank, or class-specific B135 value is constructed |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -421,3 +422,11 @@ evaluation circuit is \(\mathrm{CB}(mn-c)\), so S057 places every circuit
 with at most \(3(mn-c)-1\) points on a line or conic. Componentwise
 postulation and uniform conormal bounds force the carrier into the singular
 locus. Thus NG111 raises the necessary G013 floor to \(3(mn-c)\).
+
+B139 continues exactly one justified Cayley-Bacharach step. S058 places a
+minimal circuit of at most \(4(mn-c)-5\) points on a degree-at-most-three
+curve. A uniform first-jet bound on normalizations, together with the
+componentwise cubic separation thresholds, forces an integral or reducible
+cubic component into the singular locus. NG112 therefore raises the
+necessary G013 floor to \(4(mn-c)-4\). This remains an obstruction, not a
+construction.
