@@ -27,7 +27,7 @@ def boundary(dimension: int) -> tuple[int, set[int]]:
         standard = 8 * dimension - 16
     square = 7 * dimension + 7
     cubic = 7 * dimension + 6
-    values = {1: standard, 2: square, 3: cubic, 4: cubic, 5: 7 * dimension + 7}
+    values = {1: standard, 2: square, 3: cubic, 4: 7 * dimension + 7, 5: 7 * dimension + 7}
     floor = min(values.values())
     return floor, {key for key, value in values.items() if value == floor}
 
@@ -35,15 +35,15 @@ def boundary(dimension: int) -> tuple[int, set[int]]:
 for dimension in range(14, 102, 2):
     floor, survivors = boundary(dimension)
     if dimension == 14:
-        assert floor == 104 and survivors == {3, 4}
+        assert floor == 104 and survivors == {3}
     elif dimension == 16:
-        assert floor == 118 and survivors == {3, 4}
+        assert floor == 118 and survivors == {3}
     elif dimension <= 20:
         assert floor == 8 * dimension - 16 and survivors == {1}
     elif dimension == 22:
-        assert floor == 160 and survivors == {1, 3, 4}
+        assert floor == 160 and survivors == {1, 3}
     else:
-        assert floor == 7 * dimension + 6 and survivors == {3, 4}
+        assert floor == 7 * dimension + 6 and survivors == {3}
 
 
 def require(path: str, needles: tuple[str, ...]) -> None:

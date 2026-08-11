@@ -4756,8 +4756,9 @@
 - **Mixed obstruction:** three minimal escapes use 33 dimensions; at
   most eight remain before a fourth escape of rank at least nine, while
   filled alternatives have point rank at most 36.
-- **Boundary consequence:** G199 is NO-GO and G200 is active with only
-  cubic/quartic survivors in the dimension-16 row.
+- **Boundary consequence:** G199 is NO-GO and G200 is reached with
+  cubic/quartic survivors in the dimension-16 row; B281 later removes
+  the quartic branch.
 - **Detector guard:** no relation, ODP package, Kuranishi vanishing,
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
@@ -4782,3 +4783,21 @@
   is produced.
 - **Re-entry condition:** prove G201's nonplanar exact-rank separator or
   find a different exclusion of every such branch.
+
+## NG-238 - Use ambient Veronese emptiness for the cubic gate
+
+- **Label:** NO-GO
+- **Route:** infer cubic seven-support separation solely from S085.
+- **Threshold obstruction:** S085's degree-\(m\) Veronese strong base
+  locus is nonempty when \(r\ge m\); the cubic gate has \(r=7\) and
+  \(m=6\).
+- **Scope obstruction:** the ambient theorem does not classify the
+  quadric subclass with six independent doubles, exact residual rank
+  \(d\), and B260's selected-edge graph.
+- **Boundary consequence:** B281 removes quartic rank \(7d+6\), but
+  G200 remains EXPLORATORY through the cubic branch.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** prove G202 using the exact-rank cubic
+  geometry rather than ambient cardinality alone.

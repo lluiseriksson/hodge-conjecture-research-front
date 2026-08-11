@@ -2391,18 +2391,26 @@ remain open.
 B280 closes G199 and the following five standard ranks on \(Q^{16}\).
 For ranks 113 through 118 the residual \(Q^{14}\) ranks lie in
 \([79,84]\), while three nested escapes leave at most eight dimensions
-before a rank-nine fourth escape. Thus G200 has only cubic/quartic
-rank-118 survivors in dimension 16. The dimension-14 branch and every
-detector obligation remain open.
+before a rank-nine fourth escape. At that checkpoint G200 had
+cubic/quartic rank-118 survivors in dimension 16. The dimension-14
+branch and every detector obligation remained open.
 
 NG237 blocks a direct reuse of the planar B271-B272 arguments at
-G200's next rank (7d+6). B264's nonplanar alternative supplies at
-least (d) residual jets, and the new equality budget is exactly
-(d); hence nonplanar equality is not excluded. G201 is the smallest
+G200's next rank \(7d+6\). B264's nonplanar alternative supplies at
+least \(d\) residual jets, and the new equality budget is exactly
+\(d\); hence nonplanar equality is not excluded. G201 is the smallest
 current brick: classify that exact-rank branch and prove that its
 seven-support tangent span absorbs no eighth distinct osculator. Until
 that separator theorem is proved, G200 and every detector obligation
 remain open.
+
+B281 proves G201's quartic clause by a uniform octic hyperplane
+product: one hyperplane through the seven-point span and one through
+each support separate any prescribed eighth \(Q\)-tangent osculator.
+Thus quartic rank \(7d+6\) is impossible. S085 confirms the analogous
+ambient Veronese threshold, but NG238 blocks using it for cubic degree
+six at seven supports. G202 is the remaining exact-rank cubic
+separator; G200 and every detector obligation remain open.
 
 Two sufficient attacks feed G008:
 

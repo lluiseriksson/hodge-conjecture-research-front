@@ -2596,6 +2596,35 @@ Pezzo Surfaces over Finite Fields,” arXiv:2301.13582 (2023).
   incidence, Kuranishi vanishing, rational Hodge detector, specified
   pairing, algebraic cycle, or a proof or disproof of HC.
 
+## S085 - Strong base loci for arbitrary Veronese point configurations
+
+Edoardo Ballico, Maria Chiara Brambilla, and Pierpaola Santarsiero,
+“On the Strong Base Locus of a Projective Variety,” arXiv:2603.15103v1
+(2026). [Primary preprint](https://arxiv.org/abs/2603.15103),
+[PDF](https://arxiv.org/pdf/2603.15103).
+
+- Audited Definitions 1.1–1.2 and Remark 2.5: the strong base locus is
+  exactly the locus where the span of tangent spaces at an arbitrary
+  reduced configuration contains the full tangent space at an
+  additional point, equivalently equality of the two double-point
+  restriction systems.
+- Audited Theorem 3.5 and its proof: for \(r\le d\), an extra base point
+  for the degree-\(d\) Veronese forces at least
+  \(\lceil(d+1)/2\rceil\) supports on a line; the statement concerns
+  arbitrary, not merely general, configurations.
+- Audited Theorem 3.8 and proof on pp. 9–10: for \(n\ge2,d\ge2\), the
+  degree-\(d\) Veronese strong base locus is nonempty exactly when
+  \(r\ge d\). Thus seven ambient supports lie below the octic threshold
+  but above the sextic threshold.
+- B281 does not invoke an ambient-to-quadric transfer. It proves the
+  octic \(Q^d\) separator directly with one common hyperplane and seven
+  individual hyperplanes, including the tangent case when the eighth
+  point lies in the seven-point span.
+- NG238 scope guard: Theorem 3.8 supplies no degree-six emptiness at
+  \(r=7\), and it does not classify the B260/B264 exact-rank subclass
+  on a quadric. The paper constructs no G144 detector package, rational
+  Hodge pairing, algebraic cycle, or proof/disproof of HC.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

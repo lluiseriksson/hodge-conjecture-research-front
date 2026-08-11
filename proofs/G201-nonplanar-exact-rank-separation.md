@@ -47,3 +47,6 @@ G201 is falsifiable by one explicit exact-rank configuration and one
 eighth absorbed support. No such classification or separator is yet
 proved. It constructs no ODP package, rational detector, specified
 pairing, cycle, proof, or disproof of HC.
+
+B281 subsequently proves (2) for \(k=4\) without a planar assumption.
+The unresolved cubic clause is isolated as G202.

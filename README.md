@@ -1660,12 +1660,22 @@ cubic/quartic rank-118 survivors. This is still a special-input rank
 obstruction, not a detector or cycle construction.
 
 NG237 audits the tempting extension of B271-B272 to the next
-cubic/quartic rank (7d+6) and rejects it. B264's nonplanar branch has
-residual lower bound exactly (d), equal to the new residual budget,
+cubic/quartic rank \(7d+6\) and rejects it. B264's nonplanar branch has
+residual lower bound exactly \(d\), equal to the new residual budget,
 so planar classification cannot be invoked. G201 is the operational
 gate: classify those exact-rank nonplanar configurations and construct
-an (x)-dependent sextic/octic separator for every eighth support.
+an \(x\)-dependent sextic/octic separator for every eighth support.
 G200 remains open, with no detector or cycle constructed.
+
+B281 proves the octic half of that separator problem directly. For any
+seven supports on \(Q^d\), one hyperplane through their span and seven
+individual hyperplanes give an octic double at all seven but not double
+at any prescribed eighth point. Thus quartic rank \(7d+6\) is
+impossible and its floor is at least \(7d+7\). S085 independently
+audits the ambient Veronese strong-base-locus threshold, while NG238
+records why it cannot close the degree-six case: seven supports are
+already beyond the sextic emptiness range. G202 is active for the cubic
+exact-rank separator. No detector or cycle is constructed.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -2306,6 +2316,7 @@ python verification/verify_B278_cubic_quartic_d14.py
 python verification/verify_B279_standard_d16.py
 python verification/verify_B280_standard_d16_band.py
 python verification/verify_NG237_next_cubic_quartic.py
+python verification/verify_B281_quartic_strong_separation.py
 ```
 
 The repository verifier checks the required directory topology, result

@@ -41,6 +41,10 @@ require(
     ),
 )
 require(
+    "proofs/G202-cubic-exact-rank-separation.md",
+    ("brick_id: G202", "status: EXPLORATORY", "B281", "sextic"),
+)
+require(
     "proofs/G200-cubic-two-row-boundary.md",
     ("brick_id: G200", "status: EXPLORATORY", "7d+6", "active"),
 )
