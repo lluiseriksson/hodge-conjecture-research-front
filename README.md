@@ -151,6 +151,9 @@ dimension on the anchored family
 \(m^n\) isolated nodes, an optimal \(n!\)-block uniform smoothing matroid,
 defect one, ambient rank one, and a nonzero primitive pairing. Because the
 fiber is preselected and algebraic, this is compatibility evidence only.
+B143 proves that its nonlinear labeled discriminant is Li clean: every
+intersection beyond the uniform rank equals the smooth moving-fiber
+incidence. B054 and B134-B135 then give a nonzero local residue functional.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -175,8 +178,8 @@ configuration meeting B138's triple-linear floor and having nonzero B135
 residue-cokernel class. B141 now requires its node count to grow genuinely
 superlinearly in \(m\). B142 proves that superlinear isolated nodality and
 all finite rank/pairing conditions can coexist in a fixed anchored product
-family; unanchored class selection, nonlinear clean incidence, and the
-canonical B135 value remain open.
+family. B143 closes nonlinear clean incidence and B135 nonvanishing in that
+model. Unanchored class selection on an arbitrary variety remains open.
 
 G032 isolates the latter cleanup step,
 and NG040 proves that generic morsification does not supply it: its local
@@ -676,6 +679,7 @@ python verification/verify_B139_quartic_linear_floor.py
 python verification/verify_B140_quintic_linear_floor.py
 python verification/verify_B141_superlinear_floor.py
 python verification/verify_B142_dimension_scaled_fiber.py
+python verification/verify_B143_fiber_clean_arrangement.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -854,7 +858,9 @@ cardinality through \(3(mn-c)-1\). B139/NG112 extend the exclusion through
 \(5(mn-c)-11\). B141/NG114 close every fixed linear budget; the first open
 regime is now \(|\Delta_m|=\omega(m)\). B142 realizes that regime with
 \(m^n\) anchored nodes and the optimal \(n!\)-block capacity, but does not
-construct an arbitrary-class detector.
+construct an arbitrary-class detector. B143 proves its nonlinear
+discriminant is clean and its local primitive functional is nonzero; the
+algebraic anchor is the remaining obstruction.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

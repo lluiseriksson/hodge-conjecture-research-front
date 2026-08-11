@@ -213,9 +213,11 @@ Date: 2026-08-11
   \(|\Delta_m|/(mn-c)\to\infty\) for \(A_m=H^m\). B142 realizes this scale
   in every middle dimension on an anchored product fiber, with \(m^n\)
   isolated nodes, an optimal \(n!\)-block uniform matroid, defect one, and
-  ambient rank one. It does not prove a nonlinear clean incidence or
-  unanchored class selection. G013/G028 are the next clean construction
-  gates, with that quantitative floor and a nonzero B135 quotient. G008
+  ambient rank one. B143 proves the nonlinear discriminant is Li clean and
+  its unique primitive local functional is nonzero. The result remains
+  anchored to a known algebraic fiber. Universal G028 is the next clean
+  construction gate: produce the same package from an arbitrary
+  \((X,\zeta)\) without an algebraic representative. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
   algebraicity theorem and no counterexample have been obtained.
@@ -461,6 +463,10 @@ generation from the controlled partitioned nodal locus is not proved.**
   uniform smoothing matroid partitionable into \(n!\) independent blocks,
   adjoint defect one, and a rank-one primitive pairing. The witness is
   algebraically anchored and supplies no arbitrary-class construction.
+- B143 - PROVED: the B142 labeled discriminant branches form a Li clean
+  uniform arrangement; intersections beyond the smoothing rank equal the
+  smooth moving-fiber incidence. B054/B134-B135 give a nonzero local
+  primitive functional. Only the anchored special family is covered.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -940,15 +946,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B142/G089/NG106-NG114 - PROVED/NO-GO: the minimal
+- B133-B143/G089/NG106-NG114 - PROVED/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
   force survival. Uniform high-power separation closes every bounded-node
   version, and Cayley-Bacharach carrier geometry forces G013's multipart
   node count to be superlinear in \(m\). B142 shows that this scale and the
-  finite matroid/ambient conditions coexist on a product fiber, but only
-  with an algebraic anchor and without the clean/B135 construction.
+  finite matroid/ambient conditions coexist on a product fiber; B143 closes
+  the clean/B135 construction there. The algebraic anchor prevents any
+  arbitrary-class propagation.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

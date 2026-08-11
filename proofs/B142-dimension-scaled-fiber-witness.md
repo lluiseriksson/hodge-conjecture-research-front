@@ -145,9 +145,9 @@ blocks, each of size at most \(R_m\), and every block is independently
 smoothable. This attains the asymptotic lower bound of B034.
 
 The tangent smoothing arrangement is the representable uniform arrangement.
-This does not by itself prove that a chosen nonlinear discriminant germ and
-all its intersections form a Li clean arrangement. B054 applies only after
-that separate geometric hypothesis is verified.
+This statement alone does not promote the nonlinear discriminant germ to a
+Li clean arrangement. B143 subsequently proves that promotion using the
+smooth moving-fiber incidence.
 
 ## Adjoint defect one
 
@@ -224,9 +224,10 @@ geometrically empty: isolated nodes, the optimal \(n!\)-block partition,
 defect one, ambient rank one, and a nonzero primitive pairing coexist in
 every middle dimension.
 
-It does not prove the nonlinear Li-clean hypothesis, compute the canonical
-B135 residue vector, or select a divisor from an arbitrary pair
-\((X,\zeta)\). Most importantly, \(Y_m\) was forced to contain the already
+This brick alone does not prove the nonlinear Li-clean hypothesis or compute
+the canonical B135 residue vector; B143 subsequently closes both
+nonvanishing issues for this family. It still does not select a divisor from
+an arbitrary pair \((X,\zeta)\). Most importantly, \(Y_m\) was forced to contain the already
 algebraic fiber \(W\). Importing this step for an arbitrary Hodge class would
 assume the cycle whose existence is at issue. Thus B142 is special-family
 compatibility evidence and contributes zero progress toward the general

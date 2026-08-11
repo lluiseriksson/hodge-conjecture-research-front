@@ -130,6 +130,15 @@ finite rank conditions are mutually compatible. It does not prove the
 nonlinear Li-clean hypothesis, a canonical nonzero B135 residue, or any
 unanchored construction from an arbitrary \((X,\zeta)\).
 
+B143 closes the first two caveats in this special family. The moving-fiber
+incidence is smooth of codimension \(R_m\) and lies in every labeled node
+branch. Uniformity makes every \(R_m\)-fold intersection smooth of the same
+codimension, hence equal to that incidence germ; all deeper intersections
+coincide with it. The discriminant is therefore Li clean, B054 applies, and
+B142's unique nonzero primitive pairing gives a nonzero B135 functional.
+The sole surviving general obstruction is the algebraic anchor: no theorem
+constructs this incidence from an arbitrary \((X,\zeta)\).
+
 G032 separates the extra cleanup content from terminal support nonemptiness:
 starting with any detecting singular member, deform it to the Li-clean nodal
 locus while preserving a nonzero pairing. The first attempt fails. By B025,
