@@ -2353,6 +2353,39 @@ arXiv:1007.0192.
   functions. It constructs no special fat-point dependence, Hodge
   detector, algebraic cycle, or general Hodge Conjecture conclusion.
 
+## S077 - Togliatti systems, WLP, and osculating defect
+
+Emilia Mezzetti, Rosa M. Miro-Roig, and Giorgio Ottaviani, “Laplace
+Equations and the Weak Lefschetz Property,” *Canadian Journal of
+Mathematics* **65** (2013), 634–654, arXiv:1110.5239.
+[arXiv](https://arxiv.org/abs/1110.5239).
+
+Mateusz Michalek and Rosa-Maria Miro-Roig, “Smooth Monomial Togliatti
+Systems of Cubics,” *Journal of Combinatorial Theory, Series A* **143**
+(2016), 66–87, arXiv:1310.2529.
+[arXiv](https://arxiv.org/abs/1310.2529).
+
+- Audited Mezzetti-Miro-Roig-Ottaviani Introduction and Theorem 3.2:
+  under its generator bound and artinian hypotheses, failure of WLP in
+  degree \(d-1\), dependence after restriction to a general hyperplane,
+  and a Laplace equation of order \(d-1\) for the apolar projected
+  Veronese variety are equivalent.
+- Audited their Section 4 scope: explicit classifications concern monomial
+  cubic linear systems in dimensions at most three, with additional
+  special projected-Veronese examples. The osculating condition is a
+  dimension defect at a general point.
+- Audited Michalek-Miro-Roig Introduction and Theorem 3.4 scope: the paper
+  classifies smooth minimal *monomial* Togliatti systems of cubics; the
+  associated varieties are smooth toric projected Veronese varieties.
+- Field audit: the decisive WLP discussion is over an algebraically closed
+  field of characteristic zero. This covers complex examples but does not
+  enlarge them to arbitrary smooth projective complex varieties.
+- G145/NG178 scope guard: neither paper proves equality of the full affine
+  second osculating spaces at all points of one prescribed marked scheme,
+  nor constructs a central ODP profile, full-support nodal relation,
+  holonomy/congruence package, rational type-\((0,0)\) detector, specified
+  Hodge-class pairing, algebraic cycle, or the general Hodge Conjecture.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

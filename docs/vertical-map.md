@@ -1396,6 +1396,33 @@ for \(m\ge3\),
 Every G143 configuration has \(N\ge D_d(m)\). G144 is the corresponding
 construction gate; NG177 closes the pointwise-only B214 window.
 
+On the extremal face \(N=D_d(m)\), B216 proves more. For \(m\ge3\),
+the complementary split \((2,m-2)\) saturates:
+
+\[
+h_Z(2)=c_d,\qquad h_Z(m-2)=L_d(m-2).
+\tag{*************************************}
+\]
+
+The degree-two point span is the full affine second osculator at every
+marked node, and both B213 transports between degrees \(2\) and \(m-2\)
+are isomorphisms. For \(m=2\), the degree-one point span instead equals
+every marked affine tangent space and its self-transport is an
+isomorphism.
+
+Thus the current extremal vertical branch is
+
+\[
+\text{G144}\Longleftarrow\text{G145: complete package at }N=D_{2n}(m)
+\Longleftarrow\text{common marked osculator plus every profile/detector clause}.
+\tag{**************************************}
+\]
+
+S077/NG178 block replacing the last obligation by a Togliatti system:
+the audited WLP theorem concerns deficient osculators at a general point
+of special projected Veronese varieties, not one common full osculator at
+all marked nodes of arbitrary \((X,\zeta)\), and supplies no detector.
+
 Two sufficient attacks feed G008:
 
 \[

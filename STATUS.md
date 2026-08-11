@@ -1018,6 +1018,18 @@ generation from the controlled partitioned nodal locus is not proved.**
   window while retaining profile, holonomy, and arbitrary-class detector.
 - NG177 - NO-GO: the pointwise B214 floor is not the final universal
   constraint; simultaneous triple neighborhoods force the stronger one.
+- B216 - PROVED: at the extremal count \(N=D_d(m)\), all complementary
+  inequalities saturate. For \(m\ge3\), every marked full second
+  osculator equals the same degree-two point span and both canonical
+  relation transports are isomorphisms; for \(m=2\), the analogous
+  statement holds for tangent spaces.
+- G145 - EXPLORATORY: construct the complete G144 package at equality,
+  including B216's common-osculator rigidity and every arbitrary-class
+  rational detector and specified-pairing clause.
+- S077 - primary audit: Togliatti systems identify special WLP failures
+  with general-point osculating defect on projected Veronese varieties.
+- NG178 - NO-GO: that special deficient-osculator mechanism does not
+  construct G145's common full marked osculator or any Hodge detector.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

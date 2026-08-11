@@ -828,6 +828,15 @@ Combining this with B213 gives the stronger floor \(N\ge D_{2n}(m)\),
 which grows with slope \(\binom{2n+2}{2}/3\). G144 is the refined gate;
 NG177 excludes retaining only the one-point B214 estimate.
 
+B216 audits the equality face \(N=D_d(m)\). For \(m\ge3\), equality
+forces \(h_Z(2)=\binom{d+2}{2}\), makes the degree-two point span equal
+to every marked full second osculator, and turns the complementary
+degree \(2\) and \(m-2\) transport injections into isomorphisms. G145 is
+the falsifiable extremal construction branch retaining every G144 profile
+and arbitrary-class detector clause. S077/NG178 show that classical
+Togliatti/WLP osculating defects on special projected Veronese varieties
+do not construct this common-full-osculator branch.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in

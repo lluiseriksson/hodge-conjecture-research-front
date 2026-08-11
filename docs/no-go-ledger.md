@@ -3409,3 +3409,20 @@
   profile, holonomy, rational detector, pairing, or cycle.
 - **Re-entry condition:** work inside G144's node window with every
   relation, profile, and detector clause.
+
+## NG-178 - Import a Togliatti system as the equality construction
+
+- **Label:** NO-GO
+- **Route:** identify B216's common-full-osculator equality with a
+  Laplace equation and use a classical or monomial Togliatti example.
+- **Valid input:** S077 equates specified WLP failures with a deficient
+  general-point osculator on an apolar projected Veronese variety.
+- **Invalid inference:** deficient dimension at one general point gives
+  equality of all full second osculators at the marked nodes of arbitrary
+  \((X,\zeta)\).
+- **Precise obstruction:** the audited theorems concern special artinian
+  ideals, projected Veronese or toric varieties, and no Hodge detector.
+- **Detector guard:** no central ODP profile, rational type-\((0,0)\)
+  relation, specified nonzero pairing, cycle, or general reduction occurs.
+- **Re-entry condition:** prove a comparison valid for arbitrary
+  \((X,\zeta)\) that yields G145 and preserves every G143-G144 clause.
