@@ -1245,10 +1245,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G170 - NO-GO: no quadric polarization survives at \(s=6d+6\), and
   the adjacent odd layer \(6d+7\) has the same rank budget.
 - NG205 - NO-GO: exact nonstandard survival at the \(6d+6\) boundary.
-- G171 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=6d+8,\delta_1=3d+4\) and construct the balanced
-  length-\(8d+10\), dimension-\(4d+5\) self-dual code with every detector
-  clause.
+- B248 - PROVED: every fixed additive excess fails on a sufficiently
+  large even quadric; high powers are excluded by B215 and bounded
+  powers by successive hyperplane-square separators.
+- G171 - NO-GO: the \(j=1\) layer fails, explicitly on \(Q^{124}\).
+- NG206 - NO-GO: no branch \(s=6d+C\) with fixed \(C\) is universal.
+- G172 - EXPLORATORY, active smallest branch: construct the complete
+  \(m=2\) package with \(s=6d+6+2j\), where \(j=j(X,\zeta)\) grows
+  without bound along the even-quadric inputs.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

@@ -1252,16 +1252,24 @@ B247 now closes the equality layer too. For \(k=2,3\), four double
 neighborhoods fill the allowed \(4d+4\)-dimensional span and a
 pair-line four-cycle separates a fifth point. For \(k\ge4\), B215
 separates four doubles and one point. Hence G170 and \(s=6d+7\) are
-**NO-GO** (NG205). The active gate is G171:
+**NO-GO** (NG205).
+
+B248 closes every fixed-additive continuation. With
+\(h_Z(1)=4d+4+j\), high powers interpolate four doubles and \(j+1\)
+points. The remaining bounded powers are defeated in sufficiently
+large even dimension by successive hyperplane-square separators.
+Standard candidates require \(j\ge d-7\). Thus G171 and every
+\(s=6d+C\) branch with fixed \(C\) are **NO-GO** (NG206). The active
+gate is G172:
 
 \[
- m=2,\qquad s=6d+8,\qquad \delta_1=3d+4,\qquad
- N=8d+10,\qquad h_Z(1)=4d+5=N/2.
+ m=2,\qquad s=6d+6+2j,\qquad \delta_1=3d+3+j,\qquad
+ N=8d+8+2j,\qquad h_Z(1)=4d+4+j=N/2,
 \]
 
-Every polarization must be re-audited at this rank. On even quadrics
-with \(d\ge10\), the standard polarization remains excluded by B246.
-Every geometric and detector obligation remains open.
+where \(j=j(X,\zeta)\) must grow without bound along the even-quadric
+inputs. This is only a necessary rank window. Every geometric and
+detector obligation remains open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1868,6 +1876,7 @@ python verification/verify_B244_slope_six_floor.py
 python verification/verify_B245_standard_slope_six_boundary.py
 python verification/verify_B246_standard_five_block_floor.py
 python verification/verify_B247_nonstandard_six_plus_six.py
+python verification/verify_B248_fixed_additive_quadric.py
 ```
 
 The repository verifier checks the required directory topology, result

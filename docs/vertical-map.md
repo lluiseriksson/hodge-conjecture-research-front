@@ -1965,19 +1965,28 @@ B246 proves that the standard polarization forces
 \(h_Z(1)\ge4d+4\). B247 then excludes equality in the nonstandard
 case: four double neighborhoods fill the span for \(k=2,3\), an
 explicit good-edge four-cycle separates a fifth point, and B215 excludes
-\(k\ge4\). Hence G170 and every layer through \(6d+7\) are NO-GO. The
-next balanced signature is
+\(k\ge4\).
+
+B248 closes every fixed additive continuation. Put
+\(h_Z(1)=4d+4+j\). B215 excludes \(2k\ge8+j\). For the remaining
+bounded powers, the span of four double supports and at most \(j\)
+simple supports has point rank at most
+\(\binom{2j+10}{j+3}\); in sufficiently large even dimension, a new
+marked point lies outside and a squared hyperplane separates it.
+Standard candidates require \(j\ge d-7\). Thus G171 and every
+\(s=6d+C\) layer with fixed \(C\) are NO-GO. The surviving signature is
 
 \[
- \delta_1=3d+4,\qquad N=8d+10,\qquad
- \dim E_1=4d+5=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**************************************************************************************}
+ \delta_1=3d+3+j,\qquad N=8d+8+2j,\qquad
+ \dim E_1=4d+4+j=N/2,\qquad E_1=E_1^{\perp_\lambda}, \tag{**************************************************************************************}
 \]
 
-Thus the corrected vertical branch is
+where \(j\) must grow along the quadric dimensions. Thus the corrected
+vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G171: construct one rank beyond the nonstandard boundary}
+ \text{G172: construct the dimension-growing degree-two branch}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

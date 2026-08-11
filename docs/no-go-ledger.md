@@ -4027,3 +4027,30 @@
   and HC remain open.
 - **Re-entry condition:** G171 begins at
   \(s=6d+8,\delta_1=3d+4,N=8d+10,h_Z(1)=4d+5\).
+
+## NG-206 - Continue with any fixed additive degree-two excess
+
+- **Label:** NO-GO
+- **Route:** use \(h_Z(1)=4d+4+j\) with one fixed \(j\) while the
+  quadric dimension grows.
+- **Valid premise:** every two additional slack units allow one more
+  balanced code dimension.
+- **Invalid inference:** a fixed number of extra dimensions absorbs
+  arbitrarily many marked evaluations uniformly in \(d\).
+- **High-power obstruction:** \(2k\ge8+j\) lets B215 separate four
+  doubles and \(j+1\) simple points, one condition beyond the budget.
+- **Bounded-power obstruction:** \(2k\le j+7\) bounds the point rank of
+  every intermediate support span by
+  \(\binom{2j+10}{j+3}\). In sufficiently large even dimension a new
+  marked point escapes that span, and the square of a containing
+  hyperplane separates it.
+- **Standard obstruction:** B246 requires \(j\ge d-7\).
+- **Universal-quantifier guard:** for every fixed \(j\), an explicitly
+  bounded sufficiently large even quadric is a valid falsifying input.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G171 and every fixed-additive \(m=2\) continuation
+  are closed. G148 and HC remain open.
+- **Re-entry condition:** G172 permits \(j=j(X,\zeta)\) to grow with
+  dimension and retains every ODP, Kuranishi, rationality, and pairing
+  clause.
