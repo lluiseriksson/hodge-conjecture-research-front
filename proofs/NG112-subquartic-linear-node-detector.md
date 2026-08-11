@@ -33,6 +33,7 @@ falsifier: B139, which places a minimal CB(mn-c) circuit on a curve of degree at
   component degree and a uniform normalized-conormal zero bound. An occupied
   line, conic, twisted cubic, or integral plane cubic is forced into the
   hypersurface singular locus.
-- **Re-entry condition:** use at least \(4(mn-c)-4\) nodes and prove all
+- **Re-entry condition:** B140 subsequently raises the necessary count to
+  \(5(mn-c)-10\); at or above that floor prove all
   remaining G013 conditions: isolated first jets, multipart smoothability,
   positive adjoint and ambient ranks, and a prescribed nonzero B135 pairing.

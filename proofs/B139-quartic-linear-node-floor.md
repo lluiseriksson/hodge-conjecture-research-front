@@ -196,4 +196,5 @@ isolated-nodal member. Therefore
 The theorem does not treat the boundary \(4t_m-4\), construct its node
 scheme, prove the G013 matroid inequalities or ambient rank, evaluate B135,
 or construct an algebraic cycle. It is a necessary high-power incidence
-bound only.
+bound only. B140 subsequently strengthens the necessary floor to
+\(5t_m-10\).

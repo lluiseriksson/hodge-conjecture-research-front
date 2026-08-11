@@ -1798,6 +1798,29 @@ and Applications,” *Journal of Algebra* 631 (2023), 332-354.
   B139 is only a necessary cardinality obstruction in a fixed high-power
   family.
 
+## S059 - Cayley-Bacharach sets on curves of degree four
+
+Nicola Picoco, “Geometry of Points Satisfying Cayley-Bacharach Conditions
+and Applications,” *Journal of Algebra* 631 (2023), 332-354.
+[DOI](https://doi.org/10.1016/j.jalgebra.2023.03.042),
+[arXiv](https://arxiv.org/abs/2201.01665).
+
+- Checked Theorem A at \(h=5\): for distinct
+  \(\Gamma\subset\mathbf P^N\) satisfying \(\mathrm{CB}(k)\),
+
+  \[
+   |\Gamma|\le5(k-5+3)-1=5k-11
+  \]
+
+  implies that \(\Gamma\) lies on a projective curve of degree four.
+- B140 uses the theorem only after extracting the intrinsic minimal
+  evaluation circuit. Its separate bounded-component lemma uses S055-style
+  Hilbert-family boundedness, uniform regularity, curve duality, and uniform
+  conormal slopes to handle singular and reducible quartic carriers.
+- Scope guard: S059 neither constructs nodes nor asserts that any carrier
+  lies in \(X\). It supplies no vanishing-cycle relation, Hodge pairing, or
+  algebraic cycle. Those implications are not attributed to the source.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

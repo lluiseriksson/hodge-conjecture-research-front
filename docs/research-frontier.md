@@ -96,7 +96,17 @@ whenever \(|\Delta_m|\le4(mn-c)-5\). Consequently
  |\Delta_m|\ge4(mn-c)-4.
 \]
 
-NG112 closes the entire smaller range. This is not counted as a new
+NG112 closes that smaller range. B140 next uses S059 and a uniform
+component-separation lemma for every reduced curve of degree at most four.
+An occupied integral component of degree \(e\) carries
+\(e(mn-c)-O(1)\) circuit points, so uniform first-jet bounds force it into
+the singular locus. Thus
+
+\[
+ |\Delta_m|\ge5(mn-c)-10.
+\]
+
+NG113 closes the entire smaller range. This is not counted as a new
 sufficient reduction: isolated nodality at the new boundary, the two-matroid
 inequalities, the ambient-map rank, and the specified B135 pairing all remain
 unproved.

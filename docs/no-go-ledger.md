@@ -2111,6 +2111,25 @@
   Cubic componentwise Cayley-Bacharach bounds give linearly many points on
   an integral or reducible component. Uniform normalization/conormal bounds
   then force that component into the hypersurface singular locus.
-- **Re-entry condition:** use at least \(4(mn-c)-4\) nodes and prove isolated
+- **Re-entry condition:** B140 subsequently raises the necessary count to
+  \(5(mn-c)-10\); at or above that floor prove isolated
   first jets, multipart smoothability, both G013 matroid/rank conditions,
   and the prescribed nonzero B135 residue-cokernel pairing.
+
+## NG-113 - Stop below the quintic-linear floor
+
+- **Label:** NO-GO
+- **Route:** cross B139's quartic-linear threshold but keep
+  \(|\Delta_m|\le5(mn-c)-11\).
+- **Valid input:** S058 controls carriers only through degree three; singular
+  and reducible quartics require componentwise rather than classification-only
+  control.
+- **Invalid inference:** a degree-four carrier can retain isolated nodality
+  because its components or singularities defeat the cubic case analysis.
+- **Precise obstruction:** B140 combines S059 with uniform Hilbert-family
+  regularity. A bounded-degree multiplier isolates an integral component,
+  and curve duality forces \(e(mn-c)-O(1)\) circuit points on it. Uniform
+  conormal slopes then put that component in the singular locus.
+- **Re-entry condition:** use at least \(5(mn-c)-10\) nodes and prove isolated
+  first jets, multipart smoothability, both G013 rank systems, and a nonzero
+  B135 residue-cokernel value for the specified rational Hodge class.

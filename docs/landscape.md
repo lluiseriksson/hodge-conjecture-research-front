@@ -63,6 +63,7 @@ boundary, not an induction mechanism.
 | quantitative isolated-node floor | B137 combines S056 postulation with uniform H-line conormal bounds to prove that nonzero isolated-nodal defect requires at least 2(mn-c)+2 nodes | NG110 excludes every slower-growing route; B138 subsequently closes its equality/conic boundary and strengthens the floor |
 | triple-linear isolated-node floor | B138 extracts a minimal CB(mn-c) circuit and uses S057 plus line/conic conormal bounds to require at least 3(mn-c) nodes | NG111 closes the entire line/conic-carrier range; no incidence at the new boundary or class-specific B135 value is constructed |
 | quartic-linear isolated-node floor | B139 applies S058's h=4 theorem and normalization/conormal bounds for integral and reducible cubic carriers to require at least 4(mn-c)-4 nodes | NG112 closes every smaller cardinality; no incidence at the new boundary, ambient rank, or class-specific B135 value is constructed |
+| quintic-linear isolated-node floor | B140 applies S059's h=5 theorem and a uniform Hilbert-family component-separation/first-jet lemma to require at least 5(mn-c)-10 nodes | NG113 closes every smaller cardinality; no incidence at the new boundary, ambient rank, or class-specific B135 value is constructed |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
 | minimal multipart arrangement | B035 identifies U_(2,5), resolves it to an exceptional P^1 with five marked crossings, and proves all crossingwise degree-two Picard-Lefschetz products vanish | the unresolved datum is global exceptional-curve IC gluing and separation of the downstairs IC summand, not a local product at one crossing |
 | exceptional gluing rank | B036 proves that the five crossing cokernels form Q^5 and that recovering the relation kernel requires the canonical quotient e_i -> delta_i of rank dim span(delta_i) | B037-B038 derive this differential; its required Hodge type remains open |
@@ -430,3 +431,10 @@ componentwise cubic separation thresholds, forces an integral or reducible
 cubic component into the singular locus. NG112 therefore raises the
 necessary G013 floor to \(4(mn-c)-4\). This remains an obstruction, not a
 construction.
+
+B140 avoids a brittle classification of quartic curves. Uniform regularity
+separates any integral component from the others with bounded degree; curve
+duality then forces \(e(mn-c)-O(1)\) circuit points on an occupied component,
+and uniform conormal slopes make it singular. S059 therefore raises the
+necessary G013 floor to \(5(mn-c)-10\), with NG113 closing the smaller
+range. No class-specific boundary point is produced.
