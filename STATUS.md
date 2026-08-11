@@ -1197,9 +1197,16 @@ generation from the controlled partitioned nodal locus is not proved.**
   even quadric.
 - NG197 - NO-GO: one dimension beyond three tangent osculators does not
   realize G148.
-- G163 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=4d+8,\delta_1=2d+4\) and construct the balanced
-  length-\(6d+10\), dimension-\(3d+5\) self-dual code with every detector
+- B240 - PROVED: sextic and quartic first-jet separation plus standard
+  contact rigidity exclude two dimensions beyond three doubles; hence
+  \(m=2\) requires \(s\ge4d+10\).
+- G163 - NO-GO: the layers \(s=4d+8\) and \(s=4d+9\) fail on every valid
+  even quadric.
+- NG198 - NO-GO: two dimensions beyond three tangent osculators do not
+  realize G148.
+- G164 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=4d+10,\delta_1=2d+5\) and construct the balanced
+  length-\(6d+12\), dimension-\(3d+6\) self-dual code with every detector
   clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`

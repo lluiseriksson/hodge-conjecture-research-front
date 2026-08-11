@@ -1867,18 +1867,38 @@ plane conic and one extra point. Therefore
  m=2\Longrightarrow s\ge4d+8. \tag{*****************************************************************************}
 \]
 
-The active balanced boundary is
+The next balanced boundary was
 
 \[
  \delta_1=2d+4,\qquad N=6d+10,\qquad
  \dim E_1=3d+5=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{******************************************************************************}
 \]
 
+B240 excludes this boundary and its odd neighbor. At exponent at least
+six, two triangle-edge factors and four single-support factors separate
+the sixth point. Under \(O_Q(2)\), four hyperplanes give either a value
+separator or one nonzero transverse first jet in every incidence case.
+Under \(O_Q(1)\), quotient ranks exclude \(d\ge6\); on \(Q^4\), every
+surviving annihilator is \(\operatorname{Sym}^2K\), whose contact locus
+lies on a quadric \(\mathbf P^3\)-section of point rank at most nine.
+Therefore
+
+\[
+ m=2\Longrightarrow s\ge4d+10. \tag{*******************************************************************************}
+\]
+
+The active balanced boundary is
+
+\[
+ \delta_1=2d+5,\qquad N=6d+12,\qquad
+ \dim E_1=3d+6=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{********************************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G163: construct two dimensions beyond three doubles}
+ \text{G164: construct three dimensions beyond three doubles}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

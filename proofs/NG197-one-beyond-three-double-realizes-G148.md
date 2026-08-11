@@ -40,5 +40,5 @@ falsifier: B239 excludes higher powers by a sextic separator, the square polariz
   cycle, proof, or disproof of HC is produced.
 - **Conclusion:** G162 and both layers \(4d+6,4d+7\) are **NO-GO**. G148
   and HC remain open.
-- **Re-entry condition:** G163 begins at
-  \(s=4d+8,\delta_1=2d+4\).
+- **Re-entry condition:** B240 later excludes G163 and its odd neighbor;
+  move to G164.

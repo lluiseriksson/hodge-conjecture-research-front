@@ -3832,5 +3832,30 @@
   cycle, proof, or disproof of HC is produced.
 - **Conclusion:** G162 and both layers \(4d+6,4d+7\) are closed. G148 and
   HC remain open.
-- **Re-entry condition:** G163 begins at
-  \(s=4d+8,\delta_1=2d+4\).
+- **Re-entry condition:** B240 later excludes G163 and its odd neighbor;
+  move to G164.
+
+## NG-198 - Realize two dimensions beyond three doubles
+
+- **Label:** NO-GO
+- **Route:** set \(m=2,s=4d+8,\delta_1=2d+4\), allowing two point-span
+  dimensions beyond three tangent osculators.
+- **Valid premise:** at exponent six, three doubles plus two points fill
+  the available span.
+- **Invalid inference:** a sixth marked tangent can remain absorbed.
+- **Higher-power obstruction:** two triangle-edge factors and four
+  single-support factors give a sextic sixth-point separator.
+- **Square-polarization obstruction:** after choosing the fourth point off
+  the triangle, every sixth point admits either a quartic value separator
+  or a quartic with one nonzero transverse first jet.
+- **Standard-polarization obstruction:** quotient ranks exclude dimensions
+  at least six. On \(Q^4\), every surviving annihilator is
+  \(\operatorname{Sym}^2K\), and the contact locus lies in a quadric
+  \(\mathbf P^3\)-section of point rank at most nine.
+- **Odd-layer guard:** \(s=4d+9\) has the same integral rank budget.
+- **Detector guard:** no ODP package, rational detector, specified pairing,
+  cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G163 and both layers \(4d+8,4d+9\) are closed. G148 and
+  HC remain open.
+- **Re-entry condition:** G164 begins at
+  \(s=4d+10,\delta_1=2d+5\).
