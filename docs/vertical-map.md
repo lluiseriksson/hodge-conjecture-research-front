@@ -1423,6 +1423,33 @@ the audited WLP theorem concerns deficient osculators at a general point
 of special projected Veronese varieties, not one common full osculator at
 all marked nodes of arbitrary \((X,\zeta)\), and supplies no detector.
 
+B217 descends the common H^2 osculator through
+\(\operatorname{Sym}^2H^0(H)\to H^0(H^2)\). If
+\(U_p=\widehat T_pX\), the image of the second osculator lies in
+\(U_p\cdot H^0(H)^*\). Since every other marked evaluation contributes
+a square \(v_q^2\), equality forces \(v_q\in U_p\). Lower tangent
+absorption gives the reverse inclusion, hence
+
+\[
+ S_{1,Z}^{(0)}=\widehat T_pX\quad\text{for every }p\in Z.
+\tag{***************************************}
+\]
+
+For nonzero primitive input the embedding is not a linear projective
+space. B218/S078 then make the ordinary Gauss map finite birational.
+The extremal branch becomes
+
+\[
+\text{G145}\Longleftarrow
+\text{G146: }Z\subset\gamma_H^{-1}(\Lambda),\ |Z|=D_{2n}(m),
+\text{ with every profile/detector clause}.
+\tag{****************************************}
+\]
+
+NG179 is the exact scope stop: Zak excludes positive-dimensional fibers
+and general-contact linearity makes the generic fiber a point, but neither
+result bounds one special finite normalization fiber.
+
 Two sufficient attacks feed G008:
 
 \[

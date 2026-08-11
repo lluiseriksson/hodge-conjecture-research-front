@@ -837,6 +837,16 @@ and arbitrary-class detector clause. S077/NG178 show that classical
 Togliatti/WLP osculating defects on special projected Veronese varieties
 do not construct this common-full-osculator branch.
 
+B217 pushes the equality through the quadratic multiplication subsystem:
+all marked H-tangent spaces also coincide with the degree-one point span.
+Thus the marked set lies in one projective \(2n\)-plane \(\Lambda\) with
+\(\Lambda=T_pX\) at every marked point. B218 and S078 identify the
+ordinary Gauss map of a smooth non-linear complex embedding as finite
+birational. G146 is therefore the sharpened gate: realize all of G145 on
+one special normalization fiber containing \(D_{2n}(m)\) points. NG179
+prevents using generic Gauss birationality as a bound on this deliberately
+special finite fiber.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in

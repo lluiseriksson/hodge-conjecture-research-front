@@ -1030,6 +1030,20 @@ generation from the controlled partitioned nodal locus is not proved.**
   with general-point osculating defect on projected Veronese varieties.
 - NG178 - NO-GO: that special deficient-osculator mechanism does not
   construct G145's common full marked osculator or any Hodge detector.
+- B217 - PROVED: quadratic multiplication sends the common full H^2
+  osculator into \(\widehat T_pX\cdot H^0(H)^*\); rank-one squares force
+  every marked point into every marked tangent space, and lower absorption
+  makes all those tangent spaces equal to the degree-one point span.
+- B218 - PROVED: for a smooth non-linear complex projective embedding,
+  Zak tangency and general-contact linearity make the ordinary Gauss map
+  finite birational onto its image.
+- G146 - EXPLORATORY: construct the complete G145 detector package on a
+  single special Gauss-normalization fiber containing \(D_{2n}(m)\)
+  distinct marked points.
+- S078 - primary audit: Zak's tangency inequality and separable general
+  Gauss-contact linearity are checked with their generic/special scope.
+- NG179 - NO-GO: finite birationality and a singleton general Gauss fiber
+  do not bound the cardinality of a special zero-dimensional fiber.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

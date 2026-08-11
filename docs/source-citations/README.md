@@ -38,6 +38,7 @@ source does **not** prove. Latest web retrieval date: 2026-08-11.
 | S075 | Ballico-Fontanari (2005); Ballico-Bocci-Carlini-Fontanari (2004) | higher Terracini lemmas and osculating spaces | general-point hypotheses, secant-osculating targets, Veronese scope, and mismatch with G139 checked |
 | S076 | Gotzmann (1978); Buczynski-Ginensky-Landsberg (2013) | regularity and linear independence of finite schemes under Veronese powers | zero-dimensional regularity bound, degree-length threshold, and transfer to powers of a very ample bundle checked |
 | S077 | Mezzetti-Miro-Roig-Ottaviani (2013); Michalek-Miro-Roig (2016) | WLP, Laplace equations, and Togliatti systems | main equivalence and smooth monomial cubic classification scope checked |
+| S078 | Chiantini-Ciliberto (2010); Furukawa-Ito (2019) | Zak tangency and separable Gauss contact loci | tangency dimension inequality, general-contact linearity, and special-fiber scope checked |
 
 “Seeded” means the citation is identified but no theorem depending decisively
 on it may be promoted until the exact statement and proof context are checked.

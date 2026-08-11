@@ -2386,6 +2386,38 @@ Systems of Cubics,” *Journal of Combinatorial Theory, Series A* **143**
   holonomy/congruence package, rational type-\((0,0)\) detector, specified
   Hodge-class pairing, algebraic cycle, or the general Hodge Conjecture.
 
+## S078 - Zak tangency and ordinary Gauss fibers
+
+Luca Chiantini and Ciro Ciliberto, “On the Dimension of Secant
+Varieties,” *Journal of the European Mathematical Society* **12** (2010),
+1267–1291.
+[EMS article](https://ems.press/journals/jems/articles/1932).
+
+Katsuhisa Furukawa and Atsushi Ito, “On Separable Higher Gauss Maps,”
+*Michigan Mathematical Journal* **68** (2019), 483–503,
+arXiv:1702.06010.
+[arXiv](https://arxiv.org/abs/1702.06010).
+
+- Audited Chiantini-Ciliberto Section 4, especially Definition 4.1,
+  Remark 4.2, and Theorem 4.4, journal pp. 1276–1277: if a linear space
+  \(L\) is J-tangent to \(X\) along \(Y\), then
+  \(\dim L\ge\dim X+\dim Y\); for \(X\) smooth along \(Y\), containment
+  of the embedded tangent space at a general point is the relevant
+  tangency condition.
+- Audited Furukawa-Ito Introduction and Theorem 1.1: for a separable
+  \(m\)-th Gauss map, the contact locus of a *general* tangent
+  \(m\)-plane is a linear variety. Their discussion immediately after
+  Theorem 1.1 records the ordinary \(m=n\) birational conclusion in the
+  smooth characteristic-zero setting.
+- B218 transfer: a positive-dimensional ordinary Gauss fiber would make
+  its common \(d\)-plane tangent along a positive-dimensional subvariety,
+  contradicting the Zak inequality. Projectivity then makes the map
+  finite; general-contact linearity makes its general fiber one point.
+- G146/NG179 scope guard: neither theorem bounds the cardinality or
+  scheme length of a deliberately special zero-dimensional Gauss fiber.
+  Neither supplies a marked nodal profile, relation, rational Hodge
+  detector, specified pairing, algebraic cycle, or the Hodge Conjecture.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

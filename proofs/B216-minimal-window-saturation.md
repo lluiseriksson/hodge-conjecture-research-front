@@ -74,7 +74,7 @@ B213 and B215 therefore give
 Every inequality in (3) is an equality:
 
 \[
- h_Z(2)=c_d,qquad h_Z(m-2)=L_d(m-2). \tag{4}
+ h_Z(2)=c_d,\qquad h_Z(m-2)=L_d(m-2). \tag{4}
 \]
 
 B214 and lower two-layer extinction place the full affine second

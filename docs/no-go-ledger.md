@@ -3426,3 +3426,19 @@
   relation, specified nonzero pairing, cycle, or general reduction occurs.
 - **Re-entry condition:** prove a comparison valid for arbitrary
   \((X,\zeta)\) that yields G145 and preserves every G143-G144 clause.
+
+## NG-179 - Use generic Gauss rigidity to kill the special fiber
+
+- **Label:** NO-GO
+- **Route:** infer from B218 that every fiber of the finite birational
+  ordinary Gauss map is a singleton.
+- **Valid input:** Zak tangency excludes positive-dimensional fibers;
+  separable general-contact linearity makes the general fiber one point.
+- **Invalid inference:** a finite birational normalization morphism is
+  injective over all singular or nonnormal points of its image.
+- **Precise obstruction:** S078 gives no cardinality or length bound for
+  one special zero-dimensional Gauss fiber.
+- **Detector guard:** generic Gauss geometry supplies no central nodal
+  profile, relation, rational type, specified pairing, or cycle.
+- **Re-entry condition:** prove the missing special-fiber bound under all
+  G146 hypotheses, or construct the special fiber and test every clause.
