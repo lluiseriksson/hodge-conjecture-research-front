@@ -69,6 +69,11 @@ implies the middle rational HC (and smooth embedded carriers may be a
 stronger requirement). G093 is the smallest finite-jet construction
 gate: reproduce and integrate the split Lagrangian package without a
 preselected algebraic carrier, then retain the nonzero specified pairing.
+B148 sharpens the finite test: after quotient by the nodewise Lagrangians,
+the full conditional-gradient map must have rank at most \(n\), because in
+the anchored model it factors through the \(n\) carrier-motion parameters.
+NG119 excludes obtaining this rank drop by choosing Lagrangians after a
+generic jet-surjective incidence.
 
 Two sufficient attacks feed G008:
 

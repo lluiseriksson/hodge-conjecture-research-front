@@ -20,25 +20,26 @@ falsifier: the Hodge-Riemann nondegenerate pairing and B016 annihilator argument
 
 # NG118 — The carrier Lagrangian mechanism cannot be universalized circularly
 
-- **Route:** for a given nonzero primitive rational Hodge class (zeta),
-  choose a smooth algebraic middle-dimensional carrier (W\subset X) with
-  (langle\zeta,[W]_{\mathrm{prim}}\rangle\ne0), put (W) inside a
+- **Route:** for a given nonzero primitive rational Hodge class \(\zeta\),
+  choose a smooth algebraic middle-dimensional carrier \(W\subset X\) with
+  \(\langle\zeta,[W]_{\mathrm{prim}}\rangle\ne0\), put \(W\) inside a
   high-degree nodal hypersurface, and use B147's conormal Lagrangian core to
   obtain G092.
-- **Valid input:** once such a (W) is supplied, S019 and B142-B147 give a
+- **Valid input:** once such a \(W\) is supplied, S019 and B142-B147 give a
   genuine and often smooth rank-deficient nodal mechanism. Its detector
   pairing can be nonzero.
-- **Invalid inference:** the carrier may be chosen for every (zeta)
+- **Invalid inference:** the carrier may be chosen for every \(\zeta\)
   before the rational Hodge Conjecture is known.
 - **Precise obstruction:** on primitive rational middle Hodge classes, the
   Hodge-Riemann form is nondegenerate. If algebraic primitive classes detect
-  every nonzero (zeta), their span has zero Hodge-class annihilator and
+  every nonzero \(\zeta\), their span has zero Hodge-class annihilator and
   therefore equals the whole rational Hodge space. This is the same
   finite-dimensional annihilator mechanism as B016 and already implies the
   middle rational Hodge Conjecture. Requiring every detector to be a smooth
-  embedded carrier may be strictly stronger. A formal, analytic, or transcendental
-  (W) avoids the circular assumption but supplies neither an algebraic
-  ideal (I_W) in the projective linear system nor an algebraic cycle class.
+  embedded carrier may be strictly stronger. A formal, analytic, or
+  transcendental \(W\) avoids the circular assumption but supplies neither
+  an algebraic ideal \(I_W\) in the projective linear system nor an algebraic
+  cycle class.
 - **Re-entry condition:** construct G093's split Lagrangian jet constraints
-  directly from ((X,zeta)), integrate them algebraically, and prove the
+  directly from \((X,\zeta)\), integrate them algebraically, and prove the
   specified Saito pairing without first selecting an algebraic carrier.

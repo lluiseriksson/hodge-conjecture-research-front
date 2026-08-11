@@ -23,7 +23,7 @@ falsifier: undefined lift or grade, zero relevant-grade class, a nonzero divisor
 **Status:** EXPLORATORY  
 **Parent gate:** G076
 
-After constructing the selected ordinary lift (eta), take its canonical
+After constructing the selected ordinary lift \(\beta\), take its canonical
 class in
 
 \[
@@ -49,7 +49,7 @@ and prove
  \beta_D=0\quad\text{for every discriminant divisor }D.
 \]
 
-Then (eta_{\mathrm{fs}}\ne0), closing G076's landing condition. The proof
+Then \(\beta_{\mathrm{fs}}\ne0\), closing G076's landing condition. The proof
 must compute the class coordinates or supply a theorem whose hypotheses hold
 for this hyperplane family. B115/NG091 exclude importing Ngô's weak-abelian
 support theorem. B116/NG092 also exclude using B008's vanishing at a smooth

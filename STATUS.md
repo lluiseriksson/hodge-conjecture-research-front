@@ -227,7 +227,9 @@ Date: 2026-08-11
   NG117 excludes determinantal value-rank drop by itself. B147 identifies
   carrier conormals as the exact nodewise Lagrangian core in the anchored
   examples. NG118 blocks choosing such a carrier universally, while G093
-  asks for its finite jet package without an algebraic carrier.
+  asks for its finite jet package without an algebraic carrier. B148 proves
+  the exact projected-gradient rank-\(n\) factorization of carrier motion;
+  NG119 excludes a posteriori Lagrangian choices on generic jets.
   Universal G028 remains the construction gate. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -513,6 +515,12 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G093 - EXPLORATORY: construct the split Lagrangian jet core without an
   algebraic carrier, integrate it to G092's smooth height-\(R\) germ, and
   retain the nonzero specified pairing.
+- B148 - PROVED: modulo carrier conormals, all node gradients factor through
+  the carrier-motion tangent space; the anchored product-fiber rank is at
+  most \(n\).
+- NG119 - NO-GO: a generic surjective conditional-gradient map stays
+  surjective after quotienting by any nodewise Lagrangians, with rank
+  \(nN>n\).
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -992,7 +1000,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B147/G089-G093/NG106-NG118 - PROVED/EXPLORATORY/NO-GO: the minimal
+- B133-B148/G089-G093/NG106-NG119 - PROVED/EXPLORATORY/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
@@ -1009,6 +1017,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   degeneracy; NG117 blocks value-rank determinantal arguments alone. B147
   identifies the anchored conormal Lagrangian core; NG118 blocks its
   circular universalization, and G093 isolates its carrier-free jet analogue.
+  B148 gives its exact projected-gradient rank-\(n\) shadow, while NG119
+  blocks choosing Lagrangians after generic jet interpolation.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

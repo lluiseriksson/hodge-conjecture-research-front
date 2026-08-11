@@ -45,7 +45,7 @@ Permuting the three roots gives the Weyl group \(W(A_2)=S_3\). Away from the dis
 The cusp equation pulls back as
 \[
 4s^3+27t^2
-=-igl((u-v)(2u+v)(u+2v)\bigr)^2.
+=-\bigl((u-v)(2u+v)(u+2v)\bigr)^2.
 \]
 Thus the reduced inverse image is the reflection arrangement
 \[
@@ -74,4 +74,3 @@ Indeed, if exactly one of the three linear factors vanishes, differentiation wit
 ## Consequence
 
 The cover converts the cuspidal discriminant into a labeled reflection arrangement and exposes the correct finite group, but it is not itself a simultaneous resolution. A total-space resolution and its \(S_3\)-descent remain necessary.
-

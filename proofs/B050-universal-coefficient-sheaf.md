@@ -97,8 +97,8 @@ factor (overline M_a:W\to\operatorname{Im}M_a). The map
 \]
 
 is a canonical isomorphism from the degree-one cokernel to
-(igoplus_a\operatorname{Im}M_a). Its kernel is exactly the graph of the
-map from (V/K\simeq W), and it is visibly surjective. When one generizes
+\(\bigoplus_a\operatorname{Im}M_a\). Its kernel is exactly the graph of the
+map from \(V/K\simeq W\), and it is visibly surjective. When one generizes
 to a larger stratum, this isomorphism merely forgets the coefficient spaces
 of the components no longer incident. Hence the identifications glue.
 

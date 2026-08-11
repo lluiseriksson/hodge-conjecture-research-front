@@ -2229,3 +2229,17 @@
   algebraic ideal or cycle class for the required projective incidence.
 - **Re-entry condition:** construct G093's split Lagrangian jet core and its
   nonzero specified Saito pairing without selecting an algebraic carrier.
+
+## NG-119 - Choose Lagrangians after generic jet interpolation
+
+- **Label:** NO-GO
+- **Route:** start from a conditionally first-jet-surjective nodal point and
+  choose one maximal inverse-Hessian-isotropic \(n\)-plane at each node.
+- **Valid input:** such Lagrangian planes exist over \(\mathbf C\).
+- **Invalid inference:** the choices lower the quotient-gradient rank to the
+  B148/G093 bound \(n\).
+- **Precise obstruction:** surjectivity survives every quotient. The stacked
+  quotient has dimension and rank \(nN>n\) for \(N>1\).
+- **Re-entry condition:** construct the node scheme, section space, and
+  Lagrangian quotients jointly so that projected-gradient rank is at most
+  \(n\), then integrate the germ and prove its specified pairing.

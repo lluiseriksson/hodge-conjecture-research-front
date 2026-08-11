@@ -23,8 +23,8 @@ falsifier: undefined original specialization, nonzero vanishing-cycle obstructio
 **Status:** EXPLORATORY  
 **Parent gates:** G075 / G074
 
-Construct the selected nearby class (t_\psi) and ordinary special lift
-(eta) on the original collision object, not first on the root cover.
+Construct the selected nearby class \(t_\psi\) and ordinary special lift
+\(\beta\) on the original collision object, not first on the root cover.
 Using B081's canonical perverse filtration and the strict-support
 decomposition inside the relevant perverse cohomology object, prove
 
@@ -33,7 +33,7 @@ decomposition inside the relevant perverse cohomology object, prove
  [\beta]_{E_\infty^{-1,0}}\ne0.
 \]
 
-The proof must include the collision certificate linking (eta) to the
+The proof must include the collision certificate linking \(\beta\) to the
 selected B057 chain. An ambient primitive class alone is inadmissible by
 B110, and a chosen total decomposition splitting is inadmissible by NG058.
 

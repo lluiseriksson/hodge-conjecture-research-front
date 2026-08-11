@@ -20,7 +20,7 @@ falsifier: a transverse normal-derivative node whose Hessian has a nonzero tange
 
 # B147 — An algebraic carrier creates a conormal Lagrangian core
 
-Let (z\in W) be a zero of the first normal derivative of (s). Choose
+Let \(z\in W\) be a zero of the first normal derivative of \(s\). Choose
 local coordinates
 
 \[
@@ -28,16 +28,16 @@ local coordinates
  \qquad W=\{u=0\},
 \]
 
-and a local frame of (L). Since (s|_W=0), its quadratic expansion at
-(z=(0,0)) has the form
+and a local frame of \(L\). Since \(s|_W=0\), its quadratic expansion at
+\(z=(0,0)\) has the form
 
 \[
  s(u,v)=u^{\mathsf T}Jv+\tfrac12u^{\mathsf T}Au+O(3),
 \]
 
-where (A=A^{\mathsf T}). The zero of the normal derivative is transverse
-exactly when (J) is invertible. In the ordered splitting
-(T_zX=N_zW\oplus T_zW), the nodal Hessian and its inverse are
+where \(A=A^{\mathsf T}\). The zero of the normal derivative is transverse
+exactly when \(J\) is invertible. In the ordered splitting
+\(T_zX=N_zW\oplus T_zW\), the nodal Hessian and its inverse are
 
 \[
  H_z=
@@ -50,14 +50,14 @@ exactly when (J) is invertible. In the ordered splitting
  \end{pmatrix}.
 \]
 
-The zero lower-right block of (H_z) is forced by the identity
-(s|_W=0); the invertibility of (J) proves that (z) is an ordinary
+The zero lower-right block of \(H_z\) is forced by the identity
+\(s|_W=0\); the invertibility of \(J\) proves that \(z\) is an ordinary
 double point. This is the local normal-derivative mechanism used in S019.
 
 ## Fixed-carrier deformation directions
 
-Let (a) be a first-order deformation of (s) that still contains the
-fixed (W). Then (a|_W=0), so
+Let \(a\) be a first-order deformation of \(s\) that still contains the
+fixed \(W\). Then \(a|_W=0\), so
 
 \[
  da_z=(\alpha,0)\in
@@ -84,9 +84,9 @@ Thus
 \]
 
 is isotropic for the nondegenerate inverse-Hessian form. It has dimension
-(n), half the ambient dimension (2n), so it is maximal isotropic. For a
-finite node set (Z), fixed-carrier gradients land in the split
-Lagrangian space (igoplus_{z\in Z}\Lambda_z).
+\(n\), half the ambient dimension \(2n\), so it is maximal isotropic. For a
+finite node set \(Z\), fixed-carrier gradients land in the split
+Lagrangian space \(\bigoplus_{z\in Z}\Lambda_z\).
 
 ## What this explains—and what it does not
 
@@ -96,8 +96,8 @@ directions above; carrier motion adds only the finite-dimensional normal
 velocities of the fiber family. Its full Hessian-isotropy follows from the
 actual smooth incidence as in B146.
 
-The construction is not carrier-free. The subspaces (Lambda_z) are
-conormals of a pre-existing algebraic middle-dimensional (W), and the
-nonzero class-specific pairing in B142 is precisely supplied by ([W]).
+The construction is not carrier-free. The subspaces \(\Lambda_z\) are
+conormals of a pre-existing algebraic middle-dimensional \(W\), and the
+nonzero class-specific pairing in B142 is precisely supplied by \([W]\).
 Hence B147 is a mechanism audit for G092, not progress toward the general
 Hodge Conjecture.

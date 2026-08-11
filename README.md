@@ -176,7 +176,10 @@ and fixed-carrier deformation gradients land in their split sum. NG118
 records why choosing such a carrier for an arbitrary specified class is
 circular. G093 asks for the same finite jet package without an algebraic
 carrier, followed by higher-order integration and the nonzero specified
-Saito pairing.
+Saito pairing. B148 makes the jet package exact: gradients projected modulo
+the nodewise Lagrangians must factor through at most \(n\) parameters.
+NG119 shows that choosing Lagrangians after a generic surjective jet map
+leaves rank \(nN\), so the rank failure must be constructed jointly.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -707,6 +710,7 @@ python verification/verify_B144_saturated_stratum.py
 python verification/verify_B145_ordered_node_tangent.py
 python verification/verify_B146_hessian_isotropy.py
 python verification/verify_B147_carrier_lagrangian.py
+python verification/verify_B148_carrier_motion_rank.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -898,7 +902,9 @@ large common Hessian-isotropic failure of conditional gradient
 interpolation, and NG117 blocks inferring smoothness from value-rank drop.
 B147 identifies the conormal Lagrangian core behind anchored carrier
 examples; NG118 blocks importing that carrier universally, and G093 isolates
-the carrier-free split-Lagrangian jet construction as the next test.
+the carrier-free split-Lagrangian jet construction as the next test. B148
+sets its projected-gradient rank bound to \(n\); NG119 excludes a posteriori
+Lagrangian choices on generic jet-surjective data.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

@@ -83,7 +83,7 @@ we obtain
 
 \[
  \operatorname{im}N_E=W,
- \qquad \ker N_E=\ker A=igcap_{i=1}^5\ker N_i.
+ \qquad \ker N_E=\ker A=\bigcap_{i=1}^5\ker N_i.
 \]
 
 This uses the uniform Picard-Lefschetz sign. Allowing arbitrary independent

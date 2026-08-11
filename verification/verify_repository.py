@@ -65,7 +65,20 @@ if "does not prove or disprove" not in readme:
     fail("README lacks explicit non-claim")
 
 for markdown in ROOT.rglob("*.md"):
+    relative_parts = markdown.relative_to(ROOT).parts
+    if relative_parts and relative_parts[0] == "work":
+        continue
     text = markdown.read_text(encoding="utf-8")
+    control_codes = sorted({
+        ord(character)
+        for character in text
+        if ord(character) < 32 and character not in "\n\r\t"
+    })
+    if control_codes:
+        fail(
+            f"{markdown.relative_to(ROOT)}: forbidden control characters "
+            f"{control_codes}"
+        )
     for target in re.findall(r"\[[^\]]+\]\(([^)]+)\)", text):
         if target.startswith(("http://", "https://", "#", "mailto:")):
             continue
