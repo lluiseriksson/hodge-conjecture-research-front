@@ -2388,6 +2388,13 @@ G198 is NO-GO. G199 raises only the \(d=16\) row to rank 113; the
 \(d=14\) cubic/quartic rank-104 branch and every detector obligation
 remain open.
 
+B280 closes G199 and the following five standard ranks on \(Q^{16}\).
+For ranks 113 through 118 the residual \(Q^{14}\) ranks lie in
+\([79,84]\), while three nested escapes leave at most eight dimensions
+before a rank-nine fourth escape. Thus G200 has only cubic/quartic
+rank-118 survivors in dimension 16. The dimension-14 branch and every
+detector obligation remain open.
+
 Two sufficient attacks feed G008:
 
 \[

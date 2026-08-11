@@ -1651,6 +1651,14 @@ rank-nine fourth escape. Therefore NG235 makes G198 **NO-GO** and G199
 is active with the \(d=16\) row raised to standard rank 113. The
 \(d=14\) cubic/quartic rank-104 branch remains open.
 
+B280 applies the same audited escape tree uniformly to standard ranks
+113 through 118 on \(Q^{16}\). Their residual ranks 79 through 84 remain
+below the \(Q^{14}\) floor, and after three minimal escapes at most eight
+dimensions remain before a rank-nine fourth escape. NG236 makes G199
+**NO-GO** and G200 is active; the \(d=16\) row now has only
+cubic/quartic rank-118 survivors. This is still a special-input rank
+obstruction, not a detector or cycle construction.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2288,6 +2296,7 @@ python verification/verify_B276_standard_d14_band.py
 python verification/verify_B277_standard_d14_band.py
 python verification/verify_B278_cubic_quartic_d14.py
 python verification/verify_B279_standard_d16.py
+python verification/verify_B280_standard_d16_band.py
 ```
 
 The repository verifier checks the required directory topology, result

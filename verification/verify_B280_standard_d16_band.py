@@ -4,24 +4,25 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 d = 16
-target = 112
-q = target - (5 * d - 1)
-budget = q + 2
-residual = 3 * d - 3 + q
-first_three = (d - 4) + (d - 5) + (d - 6)
-assert q == 33
-assert residual == 78 < 108
-assert budget == 35
-assert first_three == 33
-assert budget - first_three == 2 < d - 7 == 9
-assert 36 < target
+for r in range(6):
+    target = 113 + r
+    q = target - (5 * d - 1)
+    budget = q + 2
+    residual = 3 * d - 3 + q
+    first_three = (d - 4) + (d - 5) + (d - 6)
+    assert q == 34 + r
+    assert residual == 79 + r < 108
+    assert budget == 36 + r
+    assert first_three == 33
+    assert budget - first_three == 3 + r < d - 7 == 9
+    assert 36 < target
 
 
 def boundary(dimension: int) -> tuple[int, set[int]]:
     if dimension == 14:
         standard = 108
     elif dimension == 16:
-        standard = 113
+        standard = 119
     else:
         standard = 8 * dimension - 16
     square = 7 * dimension + 7
@@ -36,7 +37,7 @@ for dimension in range(14, 102, 2):
     if dimension == 14:
         assert floor == 104 and survivors == {3, 4}
     elif dimension == 16:
-        assert floor == 113 and survivors == {1}
+        assert floor == 118 and survivors == {3, 4}
     elif dimension <= 20:
         assert floor == 8 * dimension - 16 and survivors == {1}
     elif dimension == 22:
@@ -52,20 +53,20 @@ def require(path: str, needles: tuple[str, ...]) -> None:
 
 
 require(
-    "proofs/B279-standard-dimension-sixteen-equality.md",
-    ("brick_id: B279", "status: PROVED", "rank at most", "h_Z(1)\\ge113", "disproof of HC"),
+    "proofs/B280-standard-dimension-sixteen-six-rank-band.md",
+    ("brick_id: B280", "status: PROVED", "79+r", "h_Z(1)\\ge119", "disproof of HC"),
 )
 require(
-    "proofs/NG235-standard-dimension-sixteen-equality.md",
-    ("brick_id: NG235", "status: NO-GO", "G199", "rank 112"),
-)
-require(
-    "proofs/G198-cubic-piecewise-boundary.md",
-    ("brick_id: G198", "status: NO-GO", "B279", "G199"),
+    "proofs/NG236-standard-dimension-sixteen-six-rank-band.md",
+    ("brick_id: NG236", "status: NO-GO", "G200", "113 through 118"),
 )
 require(
     "proofs/G199-cubic-piecewise-boundary.md",
-    ("brick_id: G199", "status: NO-GO", "Z(16)=113", "B280"),
+    ("brick_id: G199", "status: NO-GO", "B280", "G200"),
+)
+require(
+    "proofs/G200-cubic-two-row-boundary.md",
+    ("brick_id: G200", "status: EXPLORATORY", "AA(16)=118", "active"),
 )
 
-print("PASS: B279 standard Q16 equality and current G198-G199 states")
+print("PASS: B280 standard Q16 six-rank band, G199 no-go, and G200 boundary")

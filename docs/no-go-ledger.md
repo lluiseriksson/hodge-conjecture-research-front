@@ -4738,8 +4738,27 @@
 - **Mixed obstruction:** three minimal escapes use 33 of 35 dimensions;
   a fourth needs nine, while filled alternatives have point rank at most
   36.
-- **Boundary consequence:** G198 is NO-GO and G199 is active.
+- **Boundary consequence:** G198 is NO-GO and G199 is reached, later
+  closed by B280.
 - **Detector guard:** no relation, ODP package, Kuranishi vanishing,
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
-- **Re-entry condition:** attack G199 and retain every G144 clause.
+- **Re-entry condition:** historical transition to G199; the current
+  attack is G200 with every G144 clause retained.
+
+## NG-236 - Retain standard ranks 113 through 118 on \(Q^{16}\)
+
+- **Label:** NO-GO
+- **Route:** realize G199 at standard rank 113, or preserve the standard
+  branch through the cubic boundary at rank 118.
+- **Residual obstruction:** the projected \(Q^{14}\) ranks are at most
+  79 through 84, below B277's standard floor 108.
+- **Mixed obstruction:** three minimal escapes use 33 dimensions; at
+  most eight remain before a fourth escape of rank at least nine, while
+  filled alternatives have point rank at most 36.
+- **Boundary consequence:** G199 is NO-GO and G200 is active with only
+  cubic/quartic survivors in the dimension-16 row.
+- **Detector guard:** no relation, ODP package, Kuranishi vanishing,
+  rational detector, specified pairing, cycle, proof, or disproof of HC
+  is produced.
+- **Re-entry condition:** attack G200 and retain every G144 clause.

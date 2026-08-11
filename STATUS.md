@@ -1370,11 +1370,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   cubic and quartic rank-103 survivors on \(Q^{14}\).
 - G198 - NO-GO: B279 excludes its sole standard rank-112 survivor on
   the valid \(Q^{16}\) input.
-- G199 - EXPLORATORY, active: classify cubic/quartic equality at rank
-  104 on \(Q^{14}\), standard rank 113 on \(Q^{16}\), standard
-  equality in dimensions 18--20, the standard/cubic/quartic tie at
-  \(d=22\), and cubic/quartic equality for even \(d\ge24\), retaining
-  every G144 detector clause.
+- G199 - NO-GO: B280 excludes its sole standard rank-113 survivor on
+  the valid \(Q^{16}\) input, together with the next five standard
+  ranks.
+- G200 - EXPLORATORY, active: classify cubic/quartic equality at rank
+  104 on \(Q^{14}\), cubic/quartic equality at rank 118 on \(Q^{16}\),
+  standard equality in dimensions 18--20, the
+  standard/cubic/quartic tie at \(d=22\), and cubic/quartic equality
+  for even \(d\ge24\), retaining every G144 detector clause.
 - B268 - PROVED: on an explicit split \(3+3\) planar configuration,
   six cubic double supports are independent and the seventh residual
   rank is exactly \(d-1\), giving exact total rank \(7d+5\).
@@ -1431,7 +1434,12 @@ generation from the controlled partitioned nodal locus is not proved.**
   at most 78 on \(Q^{14}\) and impossible mixed budgets; its floor is
   at least 113.
 - NG235 - NO-GO: standard rank 112 cannot survive on \(Q^{16}\); G199
-  is the active piecewise boundary.
+  is reached, later closed by B280.
+- B280 - PROVED: standard ranks 113 through 118 on \(Q^{16}\) have
+  residual ranks 79 through 84 on \(Q^{14}\) and impossible mixed
+  budgets; the standard floor is at least 119.
+- NG236 - NO-GO: no standard rank from 113 through 118 survives on
+  \(Q^{16}\); G200 is the active piecewise boundary.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

@@ -27,7 +27,8 @@ falsifier: a standard rank-112 G198 package on Q^16 or a failure of B279
 - **Mixed obstruction:** three minimal escapes use 33 of 35 dimensions;
   a fourth needs nine, while filled alternatives have quadratic rank at
   most 36.
-- **Boundary consequence:** G198 is NO-GO and G199 is active.
+- **Boundary consequence:** G198 is NO-GO and G199 is reached, later
+  closed by B280.
 - **Detector guard:** no relation, ODP package, Kuranishi vanishing,
   rational detector, specified pairing, cycle, proof, or disproof of HC
   is produced.
