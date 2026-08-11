@@ -1157,6 +1157,28 @@ G135 is the full lower-profile contraction gate. NG167 records that the
 one-dimensional primitive quotient controls only \(q_F\), not the
 decomposable denominator on which (******************) can fail.
 
+B206 turns (******************) into finite quotient maps. Put
+
+\[
+A_{m,k}=(S_m:E_{m-k})
+=\{y\in\mathcal T_k:E_{m-k}y\subset S_m\}.
+\]
+
+Then \(E_k\subset A_{m,k}\), and under G134,
+
+\[
+\Xi=0
+\quad\Longleftrightarrow\quad
+\delta_{m,k}:W_k\to
+(\mathcal T_k/A_{m,k})\otimes\operatorname{Sym}^2U^*=0
+\quad(0\le k<m). \tag{*******************}
+\]
+
+G136 is the exact colon-contraction gate. Lifting the contraction all the
+way into \(E_k\) is sufficient but stronger than required. NG168 records
+that a global lift of the quadratic profile supplies no global
+section-valued symbol for the final inverse-Hessian nodewise contraction.
+
 Two sufficient attacks feed G008:
 
 \[

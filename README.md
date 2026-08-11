@@ -742,6 +742,16 @@ degree-\(m\) value image \(S_m\). G135 asks for all those containments.
 NG167 blocks the inference that a one-dimensional primitive quotient
 already kills the decomposable mixed obstruction.
 
+B206 makes the residual condition finite and exact. For
+\(0\le k<m\), the colon
+\(A_{m,k}=(S_m:E_{m-k})\) consists of lower-degree node values absorbed by
+\(S_m\) after every complementary multiplication. G135 is equivalent to
+vanishing of the contraction maps into
+\((\mathcal T_k/A_{m,k})\otimes\operatorname{Sym}^2U^*\). G136 is this
+colon-vanishing gate. NG168 blocks treating a globally liftable quadratic
+profile as though contraction by nodewise inverse-Hessian directions were
+a global section-valued differential operator.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1321,6 +1331,7 @@ python verification/verify_B202_selective_lift.py
 python verification/verify_B203_generator_filtration.py
 python verification/verify_B204_profile_module.py
 python verification/verify_B205_mixed_profile.py
+python verification/verify_B206_colon_obstruction.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1639,6 +1650,8 @@ B204/G134 express the same line as a primitive graded quadratic-profile
 birth; NG166 excludes inheritance by value multiplication.
 B205/G135 identify the remaining decomposable-profile contribution to the
 mixed cubic tensor; NG167 separates primitive birth from cubic closure.
+B206/G136 express that contribution by finite colon quotients; NG168
+isolates the missing global-symbol mechanism.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

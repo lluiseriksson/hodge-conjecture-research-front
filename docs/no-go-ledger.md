@@ -3230,3 +3230,22 @@
   full-incidence integration before any detector can propagate.
 - **Re-entry condition:** prove every containment in G135, then kill the
   pure cubic tensor and all later rungs separately.
+
+## NG-168 - Treat a global profile contraction as a global value
+
+- **Label:** NO-GO
+- **Route:** lift \(w\in W_k\) to a global section double on \(Z\), contract
+  its Hessian by the final inverse-Hessian transported directions, and
+  count the result as an element of \(E_k\).
+- **Valid input:** the uncontracted quadratic profile is a global second
+  jet.
+- **Invalid inference:** its contraction is the value of a global
+  \(H^k\)-section or automatically lies in \(A_{m,k}\).
+- **Precise obstruction:** the transported directions are nodewise data;
+  no global section-valued differential operator with that symbol is
+  provided. The exact two-node model in NG168 has a contraction outside the
+  colon.
+- **Detector guard:** a surviving colon class gives a nonzero mixed cubic
+  obstruction before detector propagation.
+- **Re-entry condition:** construct a compatible global symbol or prove
+  G136's weaker colon containment by another geometric mechanism.

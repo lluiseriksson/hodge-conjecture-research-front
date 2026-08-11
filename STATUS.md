@@ -936,6 +936,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   the full system while retaining G134 and the detector.
 - NG167 - NO-GO: a one-dimensional primitive profile quotient does not
   force \(\Xi\) to vanish on its decomposable denominator.
+- B206 - PROVED: G135 is equivalent to vanishing of the finite maps
+  \(\delta_{m,k}:W_k\to(\mathcal T_k/A_{m,k})\otimes
+  \operatorname{Sym}^2U^*\), where \(A_{m,k}=(S_m:E_{m-k})\), and
+  \(E_k\subset A_{m,k}\).
+- G136 - EXPLORATORY: kill every colon-quotient contraction while
+  retaining G134, the full tangent system, and the detector.
+- NG168 - NO-GO: global liftability of a quadratic profile does not make
+  its inverse-Hessian nodewise contraction a global section value.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1544,6 +1552,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   as a primitive graded profile birth; NG166 excludes multiplication from
   lower degrees. B205/G135 isolate the decomposable mixed-cubic residue;
   NG167 blocks confusing primitive quotient rank with full cubic closure.
+  B206/G136 turn the residue into finite colon-quotient maps; NG168
+  identifies the absent global-symbol theorem.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

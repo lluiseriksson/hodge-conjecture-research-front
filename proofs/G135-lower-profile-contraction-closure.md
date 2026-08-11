@@ -41,3 +41,7 @@ The primitive line \(\mathbf Cq_F\) contributes no mixed obstruction by
 B200. Nevertheless, the entire decomposable profile submodule must satisfy
 (1). Success kills \(\Xi\) only; G131's pure tensor \(\Theta\), all later
 Kuranishi rungs, and the terminal cycle remain open.
+
+B206 packages (1) as vanishing of the finite colon-quotient maps
+\(\delta_{m,k}\); G136 is that exact construction gate. NG168 blocks
+deriving their vanishing merely from global liftability of the profiles.
