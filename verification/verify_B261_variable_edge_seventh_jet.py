@@ -61,7 +61,7 @@ require(
 )
 require(
     "proofs/G188-mostly-standard-seventh-jet-boundary.md",
-    ("brick_id: G188", "status: EXPLORATORY", "J(d)", "A=O_Q(2)"),
+    ("brick_id: G188", "status: NO-GO", "J(d)", "B262"),
 )
 require(
     "proofs/NG219-cubic-quartic-one-residual-rank-survival.md",

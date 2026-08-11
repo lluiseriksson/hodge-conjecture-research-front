@@ -1,6 +1,6 @@
 ---
 brick_id: G188
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex d-fold X of even dimension d=2n>=14 with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,9 +13,9 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B007-B010, B134-B261, G013, G090-G148, G172, NG106-NG219, S081-S083
-claim: For every arbitrary primitive target (X,zeta) of even dimension d>=14, choose A and construct the complete G144 package at m=2, h_Z(1)=J(d), delta_1=J(d)-d-1, slack s_2(d)=2(J(d)-d-1), and N=2J(d), retaining the full relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing clauses.
-falsifier: one primitive target for which no polarization realizes the mostly-standard piecewise package; on even quadrics B261 leaves k=1 for d=14,16 and every even d>=22, k=1 or 2 for d=18, and k=2 for d=20
+dependencies: B007-B010, B134-B262, G013, G090-G148, G172, NG106-NG220, S081-S083
+claim: No universal G144 package exists at B261's mostly-standard floor J(d); B262 excludes the standard equality and the full band through 8d-19 on every even quadric Q^d with d>=14.
+falsifier: one complete G188 package on every valid primitive input, in particular a standard candidate in B262's excluded band
 ---
 
 # G188 — The mostly-standard seventh-jet boundary
@@ -40,9 +40,13 @@ where
 \end{array} \tag{2}
 \]
 
-G188 is the next falsifiable gate: classify the first equality beyond
-B259's second standard band, while separately retaining the square
-exceptions in dimensions 18 and 20, and then retain every G144
-relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing
-clause. Rank survival alone would not construct an algebraic cycle or
-prove or disprove HC.
+B262 closes the standard equality and the entire band through
+\(8d-19\). The residual branch recurses to B253 or B259 on
+\(Q^{d-2}\); every mixed branch fails a uniform three-step rank-one
+escape.
+
+Thus G188 is NO-GO as a universal gate. The square low-dimensional
+cases, the single standard dimension 22 case, and high-dimensional
+cubic/quartic cases pass to G189. No ODP package, rational detector,
+specified pairing, algebraic cycle, proof, or disproof of HC is
+produced.

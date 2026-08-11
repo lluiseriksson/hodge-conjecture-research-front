@@ -4406,3 +4406,30 @@
   low-dimensional square regimes pass to G188; G148 and HC remain open.
 - **Re-entry condition:** G188 uses B261's mostly-standard \(J(d)\),
   with a standard-square tie at \(d=18\) and square-only \(d=20\).
+
+## NG-220 - Standard survival through the third parametric band
+
+- **Label:** NO-GO
+- **Route:** retain \(A=O_Q(1)\) with
+  \(7d-12\le h_Z(1)\le8d-19\).
+- **Valid premise:** the second nested escape reaches equality at the
+  first rank of this band.
+- **Invalid inference:** the remaining budget reaches the third nested
+  tangent.
+- **Residual obstruction:** B253 handles the residual \(Q^{12}\) when
+  \(d=14\); B259 handles every residual \(Q^{d-2}\) for \(d\ge16\).
+- **First escape:** at most \(d-5+r\) dimensions remain.
+- **Second escape:** at most \(r\le d-7\) dimensions remain.
+- **Third escape:** the descended rank-one system contributes at least
+  \(d-6\), which is strictly larger.
+- **Standard-floor consequence:** \(h_Z(1)\ge8d-18\).
+- **Common-floor consequence:** B260-B262 give the piecewise \(L(d)\)
+  recorded in G189.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
+  valid input. No special-family result is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G188 is closed as a universal gate; the remaining
+  square, \(d=22\) standard, and high-dimensional cubic/quartic regimes
+  pass to G189. G148 and HC remain open.
+- **Re-entry condition:** G189 uses B262's \(L(d)\) and survivor table.

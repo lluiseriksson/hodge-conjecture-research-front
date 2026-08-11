@@ -2144,12 +2144,29 @@ J(d)=
 Equality is standard except for the standard-square tie at \(d=18\)
 and the square-only exception at \(d=20\).
 
-Thus the corrected vertical branch is
+B262 excludes the entire next standard band
+\(7d-12\le h_Z(1)\le8d-19\). Its residual branch contradicts the
+standard floor already proved on \(Q^{d-2}\), while its mixed branches
+run a third nested rank-one escape of ranks \(d-4,d-5,d-6\). The new
+common floor is
 
 \[
- \text{G148}\Longleftarrow
- \text{G188: construct the mostly-standard seventh-jet boundary}
- \text{ with every detector clause}. \tag{*************************************************************}
+L(d)=
+\begin{cases}
+6d+6,&d=14,16,18,20,\\
+158,&d=22,\\
+7d+5,&d\ge24\text{ even}.
+\end{cases}
+\]
+
+The equality survivors are \(k=2\) in dimensions \(14,16,18,20\),
+\(k=1\) in dimension \(22\), and \(k=3,4\) in every even dimension
+at least \(24\). Thus G188 is NO-GO and the corrected branch is
+
+\[
+ \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
+ \Longleftarrow\text{G189: construct the square/standard/cubic boundary}
+ \Longleftarrow\text{piecewise equality classification plus the full G144 package}.
 \]
 
 Two sufficient attacks feed G008:

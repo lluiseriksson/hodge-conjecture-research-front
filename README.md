@@ -1428,6 +1428,27 @@ J(d)=
 Equality leaves \(k=1\) except for \(k=1,2\) at \(d=18\) and \(k=2\)
 at \(d=20\). Every geometric and detector obligation remains open.
 
+B262 iterates B259's nested rank-one escape once more. The residual
+standard branch contradicts the B253 floor on \(Q^{12}\) when \(d=14\)
+and the B259 floor on \(Q^{d-2}\) when \(d\ge16\); every mixed branch
+uses three successive ranks \(d-4,d-5,d-6\). Hence the standard floor is
+\(8d-18\), G188 is **NO-GO** (NG220), and the active gate G189 has
+
+\[
+L(d)=
+\begin{cases}
+6d+6,&d=14,16,18,20,\\
+158,&d=22,\\
+7d+5,&d\ge24\text{ even}.
+\end{cases}
+\]
+
+Equality now leaves only the square polarization in dimensions
+\(14,16,18,20\), the standard polarization in dimension \(22\), and
+the cubic/quartic polarizations in even dimensions at least \(24\).
+This is a necessary obstruction on quadric test inputs, not a detector,
+cycle construction, proof, or disproof of HC.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2047,6 +2068,7 @@ python verification/verify_B258_standard_second_slope_ten.py
 python verification/verify_B259_standard_second_parametric_band.py
 python verification/verify_B260_seventh_point_polarization.py
 python verification/verify_B261_variable_edge_seventh_jet.py
+python verification/verify_B262_standard_third_parametric_band.py
 ```
 
 The repository verifier checks the required directory topology, result
