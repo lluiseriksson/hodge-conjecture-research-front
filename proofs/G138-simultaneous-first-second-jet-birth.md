@@ -44,3 +44,8 @@ B208 makes (1)--(2) sufficient for G134 and for the full mixed cubic
 condition \(\Xi=0\). Thus G138 is a stronger constructive branch that avoids
 G137's colon preimages. The pure tensor \(\Theta\), every later rung, and the
 terminal cycle remain open.
+
+B209 reduces the whole lower ladder to \(V_{m-1}=W_{m-1}=0\). B210 turns
+that pair into second-osculating absorption by the point span, and G139 is
+the adjacent projective construction gate. NG172 blocks upgrading tangent
+absorption to second-osculating absorption without new input.

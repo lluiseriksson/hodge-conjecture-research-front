@@ -771,6 +771,15 @@ the full G130 and detector package. NG171 blocks deriving it from G125:
 \(H^0(I_ZH^k)=H^0(I_Z^2H^k)\) says nothing about the independent quotient
 \(H^0(I_Z^2H^k)/H^0(I_Z^3H^k)\).
 
+B209 compresses G138's lower ladder to the adjacent pair
+\(V_{m-1}=W_{m-1}=0\). B210 gives its exact projective meaning: in the
+\(H^{m-1}\) embedding, the span of the marked points is full or contains
+every marked second osculating space. At degree \(m\), G139 asks for the
+first-osculating span to grow by \(2n\) and the second-osculating span by
+exactly one central nondegenerate profile, retaining G130 and the detector.
+NG172 blocks treating tangent absorption or Terracini's lemma as a
+second-order contact theorem.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1353,6 +1362,7 @@ python verification/verify_B205_mixed_profile.py
 python verification/verify_B206_colon_obstruction.py
 python verification/verify_B207_dual_connecting.py
 python verification/verify_B208_profile_birth.py
+python verification/verify_B209_B210_osculating.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1678,6 +1688,8 @@ NG169-NG170 close the value-differentiation and off-the-shelf Gaussian-map
 shortcuts.
 B208/G138 provide the stronger first-profile-birth bypass; NG171 separates
 first-jet extinction from second-profile extinction.
+B209-B210/G139 make that bypass adjacent and second-osculating; NG172
+separates tangent contact from second-order contact.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

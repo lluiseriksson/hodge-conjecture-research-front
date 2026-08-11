@@ -1223,6 +1223,34 @@ holonomy/congruence package, and every detector clause. NG171 records that
 first-jet extinction controls \(I_Z/I_Z^2\), not the independent layer
 \(I_Z^2/I_Z^3\).
 
+B209 reduces the lower half of (*********************) to
+
+\[
+V_{m-1}=W_{m-1}=0. \tag{**********************}
+\]
+
+B210 gives the projective dual form. If \(S_{k,Z}^{(r)}\) is the span of
+all order-\(r\) osculating spaces in the \(H^k\) embedding, then
+
+\[
+V_k^*\cong S_{k,Z}^{(1)}/S_{k,Z}^{(0)},\qquad
+W_k^*\cong S_{k,Z}^{(2)}/S_{k,Z}^{(1)}.
+\]
+
+Thus (**********************) says that the degree-\(m-1\) point span is
+full or contains every marked second osculating space. G139 asks for the
+adjacent degree-\(m\) increments
+
+\[
+\dim S_{m,Z}^{(1)}/S_{m,Z}^{(0)}=2n,\qquad
+\dim S_{m,Z}^{(2)}/S_{m,Z}^{(1)}=1. \tag{***********************}
+\]
+
+The second quotient must be dual to the central nondegenerate profile and
+all G130/detector clauses remain. NG172 records that tangent absorption and
+S073's general-point Terracini theorem do not imply this second-order
+contact.
+
 Two sufficient attacks feed G008:
 
 \[

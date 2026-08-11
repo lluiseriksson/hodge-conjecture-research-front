@@ -964,6 +964,17 @@ generation from the controlled partitioned nodal locus is not proved.**
   augmented nodal birth, holonomy, and detector.
 - NG171 - NO-GO: \(H^0(I_ZH^k)=H^0(I_Z^2H^k)\) does not imply
   \(H^0(I_Z^2H^k)=H^0(I_Z^3H^k)\); the two conormal layers are independent.
+- B209 - PROVED: for \(m\ge2\), simultaneous lower first-jet and profile
+  extinction is equivalent to the adjacent pair
+  \(V_{m-1}=W_{m-1}=0\).
+- B210 - PROVED: \(V_A^*\cong S_Z^{(1)}/S_Z^{(0)}\) and
+  \(W_A^*\cong S_Z^{(2)}/S_Z^{(1)}\); the adjacent pair is exactly
+  second-osculating absorption by the point span.
+- G139 - EXPLORATORY: construct this absorption in degree \(m-1\), then a
+  degree-\(m\) osculating jump of dimensions \(2n\) and \(1\), with G130
+  and every detector clause.
+- NG172 - NO-GO: tangent absorption and S073/Terracini do not imply
+  second-osculating absorption.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1577,7 +1588,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   coherent dual preimage obligation; NG169-NG170 exclude zero-order
   differentiation and unproved Gaussian-map comparisons. B208/G138 give a
   stronger first-profile-birth bypass; NG171 prevents inferring it from
-  first-jet extinction alone.
+  first-jet extinction alone. B209-B210/G139 reduce the bypass to one
+  adjacent second-osculating transition; NG172 keeps first- and
+  second-order contact separate.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

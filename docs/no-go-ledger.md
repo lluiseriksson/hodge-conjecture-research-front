@@ -3303,3 +3303,23 @@
 - **Re-entry condition:** prove the second-layer vanishing in G138 by a
   global interpolation or Hilbert-function theorem while retaining the
   special degree-\(m\) birth and detector.
+
+## NG-172 - Upgrade tangent absorption to second-osculating absorption
+
+- **Label:** NO-GO
+- **Route:** use B196/G127 or S073/Terracini to infer G139's order-two
+  absorption.
+- **Valid input:** the point span contains every marked tangent space, so
+  \(S_Z^{(0)}=S_Z^{(1)}\).
+- **Invalid inference:** it contains every marked second osculating space,
+  so \(S_Z^{(2)}=S_Z^{(1)}\).
+- **Precise obstruction:** the exact flag
+  \(S_Z^{(0)}=S_Z^{(1)}=\mathbf Qe_0\subsetneq
+  S_Z^{(2)}=\mathbf Qe_0\oplus\mathbf Qe_1\) has zero first-jet defect and
+  nonzero profile defect. S073 controls tangent spans at general points,
+  not second osculators at this special configuration.
+- **Detector guard:** the extra order-two direction can contribute a
+  decomposable mixed cubic obstruction before detector propagation.
+- **Re-entry condition:** prove a second-order contact theorem for G139's
+  special adjacent configuration while retaining its degree-\(m\) birth
+  and detector.
