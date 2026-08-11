@@ -1735,18 +1735,56 @@ osculators filling the span. In the decomposition
  m=2\Longrightarrow s\ge2d+4. \tag{***************************************************************}
 \]
 
-At equality, the first unexcluded rank is
+At equality, the first rank surviving B232 is
 
 \[
  \delta_1=d+2,\qquad N=4d+6,\qquad
  \dim E_1=2d+3=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{****************************************************************}
 \]
 
+B233 excludes this rank and its adjacent odd layer. For \(O_Q(1)\), the
+image of a third tangent osculator modulo two independent ones has
+dimension at least \(d-1\), while the point span permits only one. For
+\(O_Q(2)\), B215 first makes two doubles plus one point fill the span;
+products of four ambient hyperplanes then separate any fourth point
+unless all four are collinear. Applying this to all marked points gives
+rank at most \(h^0(\mathbf P^1,O(4))=5\). Higher powers are excluded by
+mixed interpolation. Therefore
+
+\[
+ m=2\Longrightarrow s\ge2d+6. \tag{*****************************************************************}
+\]
+
+At the new boundary the first rank surviving B233 is
+
+\[
+ \delta_1=d+3,\qquad N=4d+8,\qquad
+ \dim E_1=2d+4=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{******************************************************************}
+\]
+
+B234 excludes this rank and its odd neighbor. The standard polarization
+still has third-tangent quotient rank at least \(d-1>2\). For the square
+polarization, four noncollinear base points fill the proposed span; a
+fifth dependent point must lie on a line containing three of them.
+Every remaining point lies on that unique line, leaving a line plus at
+most one exterior point and rank at most six. Hence
+
+\[
+ m=2\Longrightarrow s\ge2d+8. \tag{*******************************************************************}
+\]
+
+The next balanced boundary is
+
+\[
+ \delta_1=d+4,\qquad N=4d+10,\qquad
+ \dim E_1=2d+5=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{********************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G156: construct the next balanced degree-two core}
+ \text{G158: construct the three-extra-dimensional balanced core}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

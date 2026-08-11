@@ -1148,9 +1148,25 @@ generation from the controlled partitioned nodal locus is not proved.**
   also the adjacent odd layer \(s=2d+3\), fail on the even quadric.
 - NG190 - NO-GO: merely fitting two tangent jet spaces at the B231
   boundary does not leave room for the remaining marked points.
-- G156 - EXPLORATORY, active smallest branch: in dimension \(d=2n\), use
-  \(m=2,s=2d+4,\delta_1=d+2\) and construct the balanced
-  length-\(4d+6\), dimension-\(2d+3\) self-dual code with every detector
+- B233 - PROVED: one extra tangent-span dimension is still insufficient;
+  \(O_Q(1)\) fails by tangent quotient rank, \(O_Q(2)\) by quartic
+  separation and line confinement, and \(O_Q(k\ge3)\) by B215. Thus
+  \(m=2\) requires \(s\ge2d+6\).
+- G156 - NO-GO: the layers \(s=2d+4\) and \(s=2d+5\) fail on every valid
+  even-quadric input.
+- NG191 - NO-GO: enlarging the two-tangent boundary by one dimension does
+  not leave enough room for the remaining points and tangent osculators.
+- B234 - PROVED: two extra tangent-span dimensions are still
+  insufficient; the standard polarization fails by quotient rank and
+  the square polarization is confined to a line plus one point. Thus
+  \(m=2\) requires \(s\ge2d+8\).
+- G157 - NO-GO: the layers \(s=2d+6\) and \(s=2d+7\) fail on the valid
+  even-quadric input.
+- NG192 - NO-GO: a two-dimensional quotient beyond two tangent
+  osculators cannot realize G148.
+- G158 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=2d+8,\delta_1=d+4\) and construct the balanced
+  length-\(4d+10\), dimension-\(2d+5\) self-dual code with every detector
   clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`

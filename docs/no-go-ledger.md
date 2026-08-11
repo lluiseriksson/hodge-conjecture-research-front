@@ -3663,5 +3663,56 @@
   algebraic cycle, proof, or disproof of HC is produced.
 - **Conclusion:** G155 and both slack layers \(2d+2,2d+3\) are closed.
   G148 and HC remain open.
-- **Re-entry condition:** G156 begins at the next balanced signature
-  \(s=2d+4,\delta_1=d+2\).
+- **Re-entry condition:** G156 begins at the next balanced signature, but
+  B233 later excludes it and its adjacent odd layer. Move to G157.
+
+## NG-191 - Realize the gate with one extra tangent-span dimension
+
+- **Label:** NO-GO
+- **Route:** set \(m=2,s=2d+4,\delta_1=d+2\), giving a point span one
+  dimension larger than two independent tangent osculators.
+- **Valid premise:** the exact boundary obstruction of B232 no longer
+  applies verbatim.
+- **Invalid inference:** the single quotient dimension can absorb all
+  remaining tangent spaces or quartic points.
+- **Standard-polarization obstruction:** after choosing a nonorthogonal
+  pair, a third tangent osculator maps to a subspace of dimension at least
+  \(d-1\) modulo the first two, contradicting the one-dimensional quotient.
+- **Square-polarization obstruction:** two doubles plus a point fill the
+  proposed \(O_Q(4)\) span. Products of four ambient hyperplanes separate
+  every fourth point unless all four are collinear. Hence all marked points
+  would lie on a quadric line and have rank at most five.
+- **Higher-power obstruction:** B215 separates two doubles plus two points
+  for every \(O_Q(k)\), \(k\ge3\), exceeding the proposed span.
+- **Odd-layer guard:** \(s=2d+5\) has the same integral rank budget and is
+  excluded identically.
+- **Detector guard:** no ODP package, rational relation, specified pairing,
+  algebraic cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G156 and both layers \(2d+4,2d+5\) are closed. G148 and
+  HC remain open.
+- **Re-entry condition:** B234 later excludes G157 and its odd neighbor;
+  move to G158.
+
+## NG-192 - Realize the gate with two extra tangent-span dimensions
+
+- **Label:** NO-GO
+- **Route:** set \(m=2,s=2d+6,\delta_1=d+3\), leaving a
+  two-dimensional quotient beyond two tangent osculators.
+- **Valid premise:** this escapes B233's one-dimensional quotient bound.
+- **Invalid inference:** two quotient dimensions suffice for the third
+  tangent osculator or for the square-polarization point set.
+- **Standard-polarization obstruction:** the third tangent quotient has
+  rank at least \(d-1\ge3\).
+- **Square-polarization obstruction:** four noncollinear base points fill
+  the span. Every fifth dependent point must lie on a line containing
+  three base points; all remaining points lie on the unique such line.
+  The resulting line-plus-one-point set has quartic rank at most six.
+- **Higher-power obstruction:** B233's mixed interpolation excludes these
+  polarizations throughout the displayed rank band.
+- **Odd-layer guard:** the integral budget is unchanged at \(s=2d+7\).
+- **Detector guard:** no ODP package, rational detector, specified pairing,
+  algebraic cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G157 and both layers \(2d+6,2d+7\) are closed. G148 and
+  HC remain open.
+- **Re-entry condition:** G158 begins at
+  \(s=2d+8,\delta_1=d+4\); cube polarizations must re-enter the audit.

@@ -33,5 +33,5 @@ falsifier: B232 proves that a span of this dimension cannot contain a third mark
   the symmetric-square decomposition then permits no third point.
 - **Conclusion:** G155 and also the adjacent slack \(2d+3\) are
   **NO-GO**. G148 and HC remain open.
-- **Re-entry condition:** use the next balanced rank at
-  \(s=2d+4,\delta_1=d+2\), isolated as G156.
+- **Re-entry condition:** B233 later excludes G156 and the adjacent odd
+  layer; move to G157 at \(s=2d+6,\delta_1=d+3\).

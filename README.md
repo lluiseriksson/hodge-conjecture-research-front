@@ -1008,16 +1008,55 @@ The same rank persists at odd slack \(2d+3\). Hence G155 is **NO-GO**
  s\ge2d+4.
 \]
 
-The active gate is G156, the next balanced signature:
+The next gate was G156, the balanced signature:
 
 \[
  m=2,\qquad s=2d+4,\qquad \delta_1=d+2,\qquad
  N=4d+6,\qquad h_Z(1)=2d+3=N/2.
 \]
 
-It must realize the complete ODP, Kuranishi, rational-type, and
-specified-pairing package; B232 also excludes polarizations
-\(A=B^\ell\) with \(\ell\ge3\) at this threshold.
+It had to realize the complete detector package. B233 exhausts the
+remaining quadric polarizations at this rank. For \(O_Q(1)\), a third
+tangent osculator has quotient rank at least \(d-1\), not one. For
+\(O_Q(2)\), explicit quartic products force every fourth dependent point
+onto the line through the first three, collapsing the point rank to at
+most five. B215 excludes \(O_Q(k)\), \(k\ge3\). Hence G156 is
+**NO-GO** (NG191), the odd layer \(2d+5\) fails as well, and
+
+\[
+ s\ge2d+6.
+\]
+
+The next gate was G157:
+
+\[
+ m=2,\qquad s=2d+6,\qquad \delta_1=d+3,\qquad
+ N=4d+8,\qquad h_Z(1)=2d+4=N/2.
+\]
+
+It retained the complete detector obligations. B234 excludes this rank
+too. Under \(O_Q(1)\), the third tangent quotient has dimension at least
+\(d-1>2\). Under \(O_Q(2)\), every fifth dependent point must lie on a
+line containing three of four base points; consequently \(Z\) lies in a
+line plus at most one point and has rank at most six. Higher powers are
+already excluded in this band. Thus G157 is **NO-GO** (NG192), its odd
+neighbor \(2d+7\) also fails, and
+
+\[
+ s\ge2d+8.
+\]
+
+The active gate is G158:
+
+\[
+ m=2,\qquad s=2d+8,\qquad \delta_1=d+4,\qquad
+ N=4d+10,\qquad h_Z(1)=2d+5=N/2.
+\]
+
+At this boundary B215 at exponent six only fills the span with two
+doubles plus three points; it does not exclude cube polarizations.
+G158 retains every ODP, Kuranishi, rational-type, and specified-pairing
+obligation.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1609,6 +1648,8 @@ python verification/verify_B214_second_jet_floor.py
 python verification/verify_B215_simultaneous_jet_floor.py
 python verification/verify_B231_dimension_scaled_slack.py
 python verification/verify_B232_threshold_span.py
+python verification/verify_B233_one_extra_span.py
+python verification/verify_B234_two_extra_span.py
 ```
 
 The repository verifier checks the required directory topology, result
