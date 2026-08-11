@@ -1259,17 +1259,24 @@ B248 closes every fixed-additive continuation. With
 points. The remaining bounded powers are defeated in sufficiently
 large even dimension by successive hyperplane-square separators.
 Standard candidates require \(j\ge d-7\). Thus G171 and every
-\(s=6d+C\) branch with fixed \(C\) are **NO-GO** (NG206). The active
-gate is G172:
+\(s=6d+C\) branch with fixed \(C\) are **NO-GO** (NG206).
+
+B249 upgrades the growing floor to a linear one. In the square
+polarization, varying one hyperplane in the B247 four-cycle contributes
+at least \(d-1\) residual jets. For every \(k\ge3\), the four-cycle
+quartic times \(O_Q(2k-4)\) supplies the full fifth double neighborhood.
+Together with B246, every polarization requires \(h_Z(1)\ge5d-3\), so
+all layers below \(s=8d-8\) are **NO-GO** (NG207). The active smallest
+gate is G173:
 
 \[
- m=2,\qquad s=6d+6+2j,\qquad \delta_1=3d+3+j,\qquad
- N=8d+8+2j,\qquad h_Z(1)=4d+4+j=N/2,
+ m=2,\qquad s=8d-8,\qquad \delta_1=4d-4,\qquad
+ N=10d-6,\qquad h_Z(1)=5d-3=N/2.
 \]
 
-where \(j=j(X,\zeta)\) must grow without bound along the even-quadric
-inputs. This is only a necessary rank window. Every geometric and
-detector obligation remains open.
+Only the standard quadric polarization survives this rank test. This
+is still only a necessary window; every geometric and detector
+obligation remains open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1877,6 +1884,7 @@ python verification/verify_B245_standard_slope_six_boundary.py
 python verification/verify_B246_standard_five_block_floor.py
 python verification/verify_B247_nonstandard_six_plus_six.py
 python verification/verify_B248_fixed_additive_quadric.py
+python verification/verify_B249_slope_eight_floor.py
 ```
 
 The repository verifier checks the required directory topology, result

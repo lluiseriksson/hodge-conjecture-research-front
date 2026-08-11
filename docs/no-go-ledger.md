@@ -4054,3 +4054,29 @@
 - **Re-entry condition:** G172 permits \(j=j(X,\zeta)\) to grow with
   dimension and retains every ODP, Kuranishi, rationality, and pairing
   clause.
+
+## NG-207 - Survive below the slope-eight degree-two floor
+
+- **Label:** NO-GO
+- **Route:** let G172's excess grow, but keep the balanced slack below
+  \(8d-8\).
+- **Valid premise:** B248 forced only unbounded excess and did not
+  quantify its optimal growth.
+- **Invalid inference:** sublinear growth can absorb the next marked
+  tangent osculator.
+- **Square obstruction:** varying one hyperplane of B247's good
+  four-cycle gives at least \(d-1\) residual jets at the fifth point,
+  forcing \(h_Z(1)\ge5d+3\).
+- **Higher-power obstruction:** the fixed four-cycle quartic is a unit
+  at the fifth point, so multiplication by \(O_Q(2k-4)\) supplies all
+  \(d+1\) jets and forces \(h_Z(1)\ge5d+5\).
+- **Standard obstruction:** B246 forces \(h_Z(1)\ge5d-3\).
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge8\), is a
+  valid input. No special-family success is promoted upward.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** every \(m=2\) layer below \(s=8d-8\) is closed. G148
+  and HC remain open.
+- **Re-entry condition:** G173 begins at
+  \(s=8d-8,\delta_1=4d-4,N=10d-6,h_Z(1)=5d-3\), with only the
+  standard quadric polarization surviving the rank test.

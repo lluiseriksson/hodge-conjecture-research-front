@@ -13,7 +13,7 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B007-B010, B134-B248, G013, G090-G148, NG106-NG206, S081-S083
+dependencies: B007-B010, B134-B249, G013, G090-G148, NG106-NG207, S081-S083
 claim: For every arbitrary primitive target (X,zeta) of dimension d=2n, choose a very ample A and an integer j>=0, then construct H=A^2 and a reduced Z with the complete G144 package at slack s=6d+6+2j, rank h_Z(1)=4d+4+j=N/2, an isomorphic full-support relation transport, every ODP-profile, holonomy and finite-Kuranishi clause, rational type (0,0), and nonzero specified pairing; on the quadric test family the chosen excess must satisfy B248's dichotomy and hence grow without bound with d.
 falsifier: one primitive target for which no choice of A and excess j realizes the complete package, or a proposed bounded-excess construction contradicted by B248 on even quadrics
 ---
@@ -41,8 +41,13 @@ More precisely, a quadric candidate must satisfy
  4d+4+j\le\binom{2j+10}{j+3}. \tag{2}
 \]
 
-G172 asks for the complete G144 construction inside this
-dimension-growing window. Equation (2) is only a necessary rank
-constraint. It supplies no point scheme, ODP package, Kuranishi
-closure, rational detector, specified pairing, algebraic cycle, proof,
-or disproof of HC.
+B249 sharpens this window from unbounded to linear growth. On every
+even quadric, the square polarization requires \(j\ge d-1\), every
+\(k\ge3\) requires \(j\ge d+1\), and the standard polarization requires
+\(j\ge d-7\). Thus the smallest surviving subgate is G173 at
+\(j=d-7\), equivalently \(s=8d-8\), with only the standard quadric
+polarization left.
+
+G172 remains an exploratory parent. These necessary ranks supply no
+point scheme, ODP package, Kuranishi closure, rational detector,
+specified pairing, algebraic cycle, proof, or disproof of HC.

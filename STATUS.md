@@ -1250,9 +1250,14 @@ generation from the controlled partitioned nodal locus is not proved.**
   powers by successive hyperplane-square separators.
 - G171 - NO-GO: the \(j=1\) layer fails, explicitly on \(Q^{124}\).
 - NG206 - NO-GO: no branch \(s=6d+C\) with fixed \(C\) is universal.
-- G172 - EXPLORATORY, active smallest branch: construct the complete
-  \(m=2\) package with \(s=6d+6+2j\), where \(j=j(X,\zeta)\) grows
-  without bound along the even-quadric inputs.
+- B249 - PROVED: the square fifth tangent contributes at least \(d-1\)
+  residual dimensions and every \(k\ge3\) fifth double contributes
+  \(d+1\), giving the common floor \(h_Z(1)\ge5d-3\).
+- G172 - EXPLORATORY parent, narrowed to linear excess.
+- NG207 - NO-GO: every \(m=2\) layer below \(s=8d-8\) fails.
+- G173 - EXPLORATORY, active smallest branch: construct the standard
+  slope-eight package with \(s=8d-8,\delta_1=4d-4,N=10d-6\), and
+  \(h_Z(1)=5d-3=N/2\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

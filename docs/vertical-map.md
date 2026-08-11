@@ -1974,19 +1974,27 @@ simple supports has point rank at most
 \(\binom{2j+10}{j+3}\); in sufficiently large even dimension, a new
 marked point lies outside and a squared hyperplane separates it.
 Standard candidates require \(j\ge d-7\). Thus G171 and every
-\(s=6d+C\) layer with fixed \(C\) are NO-GO. The surviving signature is
+\(s=6d+C\) layer with fixed \(C\) are NO-GO.
+
+B249 sharpens the excess to a linear floor. For \(k=2\), varying one
+hyperplane in B247's good four-cycle gives residual fifth-tangent rank
+at least \(d-1\), hence \(h_Z(1)\ge5d+3\). For \(k\ge3\), the
+four-cycle quartic times \(O_Q(2k-4)\) gives the full fifth double
+neighborhood, hence \(h_Z(1)\ge5d+5\). B246's standard floor is
+\(5d-3\). Therefore every polarization has \(s\ge8d-8\), and the
+first surviving signature is
 
 \[
- \delta_1=3d+3+j,\qquad N=8d+8+2j,\qquad
- \dim E_1=4d+4+j=N/2,\qquad E_1=E_1^{\perp_\lambda}, \tag{**************************************************************************************}
+ \delta_1=4d-4,\qquad N=10d-6,\qquad
+ \dim E_1=5d-3=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**************************************************************************************}
 \]
 
-where \(j\) must grow along the quadric dimensions. Thus the corrected
-vertical branch is
+Only the standard quadric polarization remains at equality. Thus the
+corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G172: construct the dimension-growing degree-two branch}
+ \text{G173: construct the standard slope-eight boundary}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 
