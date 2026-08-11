@@ -1612,6 +1612,14 @@ T(d)=
 This is another necessary rank obstruction, not a detector or progress
 toward algebraicity of an arbitrary Hodge class.
 
+B275 repeats the audited residual step at the next integer rank. The
+dimension-12 B258 classification excludes standard rank 66, and then the
+\(Q^{14}\) rank-96 residual has nowhere to land; its mixed budget leaves
+only two dimensions before a rank-seven fourth escape. Hence NG231 makes
+G194 **NO-GO**, and G195 is active with \(U(14)=97\), while all other
+rows of G194's piecewise table remain unchanged. No detector clause has
+been reached.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2244,6 +2252,7 @@ python verification/verify_B270_B271_cubic_equality.py
 python verification/verify_B272_quartic_equality.py
 python verification/verify_B273_square_equality.py
 python verification/verify_B274_standard_d14.py
+python verification/verify_B275_standard_d14_second.py
 ```
 
 The repository verifier checks the required directory topology, result

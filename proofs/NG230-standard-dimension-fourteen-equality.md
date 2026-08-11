@@ -29,8 +29,8 @@ falsifier: a standard G193 package of rank 95 on Q^14 or a failure of B274
   a fourth needs at least seven, while every filled alternative has
   quadratic point rank at most 36.
 - **Rank consequence:** the \(Q^{14}\) standard floor is at least 96.
-- **Boundary consequence:** G193 is NO-GO and G194 is the next active
-  standard/cubic piecewise gate.
+- **Boundary consequence at this checkpoint:** G193 is NO-GO and G194
+  is reached. B275 later closes G194 and activates G195.
 - **Detector guard:** no ODP package, Kuranishi vanishing, rational
   detector, specified pairing, cycle, proof, or disproof of HC is
   produced.

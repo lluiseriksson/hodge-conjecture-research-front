@@ -2349,6 +2349,14 @@ is at least 96 and G193 is NO-GO. The current branch is
 where \(T(d)=8d-16\) for \(d=14,16,18,20,22\) and
 \(T(d)=7d+6\) for even \(d\ge24\). Every detector clause remains open.
 
+B275 closes the next \(d=14\) integer layer. Standard rank 66 on
+\(Q^{12}\) fails by the dimension-12 B258 nested-escape audit, so
+standard rank 96 on \(Q^{14}\) has no residual branch; its mixed
+branches leave at most two dimensions before a rank-seven escape.
+Therefore G194 is NO-GO and the active branch is G195, obtained by
+replacing only \(T(14)=96\) with \(U(14)=97\). All other survivor rows
+and all detector obligations are unchanged.
+
 Two sufficient attacks feed G008:
 
 \[

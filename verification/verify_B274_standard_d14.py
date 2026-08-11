@@ -74,7 +74,7 @@ require(
 )
 require(
     "proofs/G194-standard-cubic-piecewise-boundary.md",
-    ("brick_id: G194", "status: EXPLORATORY", "T(d)=8d-16", "active"),
+    ("brick_id: G194", "status: NO-GO", "T(d)=8d-16", "B275"),
 )
 
-print("PASS: B274 Q12/Q14 standard exclusion, G193 no-go, and G194 boundary")
+print("PASS: B274 Q12/Q14 standard exclusion and current G193-G194 states")
