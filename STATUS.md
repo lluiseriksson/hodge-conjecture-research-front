@@ -854,6 +854,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG157 - NO-GO: multiplying any nonzero lower jet defect yields a target
   section with gradient zero at one node and nonzero at another, violating
   one-node determination.
+- B195 - PROVED: multiplication injects \(E_a\otimes V_m\) into
+  \(V_{m+a}\); after a maximal birth, every higher fixed-node quotient has
+  dimension at least \(4n\) and eventually equals the full \(2nN\) target.
+- NG158 - NO-GO: raising the polarization with \(Z\) fixed destroys
+  one-node holonomy rather than stabilizing it; no detector transfer follows.
+- G126 - EXPLORATORY: construct G125 and kill
+  \(\kappa_2,\ldots,\kappa_{D_{\mathrm{car}}}\) in the same birth-degree
+  full incidence, retaining every rational detector clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1442,7 +1450,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   conformal-holonomy branch; NG156 excludes deriving its doubled-jet data
   from the reduced adjoint Cayley--Bacharach chain. B194/G125 require a
   primitive target-degree first-jet birth; NG157 excludes inheritance from
-  a lower power by multiplication.
+  a lower power by multiplication. B195/NG158 prove higher fixed-node powers
+  lose holonomy and eventually have full gradients. G126 therefore places
+  the entire finite Kuranishi ladder at the unique birth degree.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

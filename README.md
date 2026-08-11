@@ -638,6 +638,19 @@ nonzero at another. G125 therefore asks for a genuinely primitive birth
 \(V_m\) of dimension \(2n\), together with G124 holonomy and the detector.
 NG157 excludes obtaining it by multiplying a lower-power defect.
 
+B195 quantifies the post-birth behavior. Multiplication gives
+
+\[
+ E_a\otimes V_m\hookrightarrow V_{m+a},
+ \qquad q_{m+a}\ge r_aq_m.
+\]
+
+Thus a maximal birth \(q_m=2n\) grows to at least \(4n\) in every higher
+power and, for fixed \(Z\) and sufficiently large \(a\), fills all
+\(2nN\) node gradients. NG158 rules out stabilizing G125 by raising the
+polarization. G126 consequently asks for B186's entire finite Kuranishi
+ladder to vanish inside the same degree-\(m\) full incidence.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1207,6 +1220,7 @@ python verification/verify_B191_intrinsic_conformal.py
 python verification/verify_B192_semi_invariant_scope.py
 python verification/verify_B193_maximal_holonomy.py
 python verification/verify_B194_primitive_jet_birth.py
+python verification/verify_B195_multiplicative_growth.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1498,7 +1512,9 @@ the maximal \(q=2n\) conformal-holonomy branch; NG156 blocks promoting
 reduced adjoint Cayley--Bacharach carrier results to the required doubled
 first-jet and Hessian data. B194/G125 force a primitive first-jet birth at
 the target degree, and NG157 excludes multiplication from every lower
-power.
+power. B195/NG158 show that every higher fixed-node power immediately loses
+one-node holonomy and eventually has full gradients. G126 therefore keeps
+the complete finite Kuranishi ladder at the isolated birth degree.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

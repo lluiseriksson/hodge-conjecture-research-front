@@ -912,6 +912,32 @@ NG157 rules out inheriting this structure multiplicatively from a lower
 power. The nonzero target quotient must appear for the first time at degree
 \(m\) in the full graded section ring.
 
+B195 describes what happens after that birth. If \(E_a\) is the degree-
+\(a\) value image on \(Z\), multiplication gives the intrinsic injection
+
+\[
+ E_a\otimes V_m\hookrightarrow V_{m+a},
+ \qquad q_{m+a}\ge r_aq_m. \tag{*******}
+\]
+
+For G125, \(q_m=2n\) and \(r_a\ge2\), so every higher fixed-node quotient
+has dimension at least \(4n\) and fails one-node determination. For
+\(a\gg0\), \(r_a=N\) and (*******) fills the entire \(2nN\)-dimensional
+gradient target. NG158 therefore blocks upward polarization transport.
+
+The finite all-order route must close at the birth degree:
+
+\[
+ \text{G118 finite conormal vanishing}
+ \Longleftarrow
+ \text{G126 same-degree }\kappa_2=\cdots=\kappa_{D_{\mathrm{car}}}=0
+ \Longleftarrow
+ \text{G125 primitive birth and quadratic holonomy}.
+\]
+
+This diagram does not make higher tensors follow from \(\kappa_2\): NG150
+still forces each rung to be proved independently.
+
 Two sufficient attacks feed G008:
 
 \[

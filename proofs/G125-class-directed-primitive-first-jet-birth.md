@@ -51,4 +51,7 @@ finite degree by degree.
 
 G125 implies G124 and therefore the quadratic G119 rung. It remains only a
 sufficient route: even success leaves every higher Kuranishi tensor, smooth
-integration, and the terminal cycle construction open.
+integration, and the terminal cycle construction open. B195/NG158 show
+that the holonomy cannot persist after raising the power with \(Z\) fixed;
+G126 therefore records the stronger requirement of closing the complete
+finite Kuranishi ladder at this same birth degree.

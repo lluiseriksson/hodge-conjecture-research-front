@@ -3045,3 +3045,26 @@
 - **Re-entry condition:** G125 must realize a primitive first-jet birth at
   degree \(m\), with no lower conditional gradients, and separately supply
   Hessian holonomy and the rational detector.
+
+## NG-158 - Raise the power while preserving fixed-node holonomy
+
+- **Label:** NO-GO
+- **Route:** after constructing G125 at \(H^m\), pass to \(H^{m+a}\) with
+  the same node scheme and use positivity to stabilize one-node
+  determination, holonomy, and the detector.
+- **Valid input:** multiplication embeds the old value-zero sections in the
+  higher complete system.
+- **Invalid inference:** added multiplier values preserve the
+  \(2n\)-dimensional graph.
+- **Precise obstruction:** B195 gives an injection
+  \[
+  E_a\otimes V_m\hookrightarrow V_{m+a}.
+  \]
+  Since \(H^a\) separates two points, \(r_a\ge2\), so
+  \(q_{m+a}\ge4n>2n\). For \(a\gg0\), evaluation on fixed \(Z\) is
+  surjective and \(V_{m+a}\) equals the full \(2nN\)-dimensional gradient
+  target.
+- **Scope guard:** choosing a new node scheme is not excluded, but requires
+  a new primitive-birth and detector proof.
+- **Re-entry condition:** close B186's finite Kuranishi ladder at the
+  original birth degree as in G126, without polarization transport.
