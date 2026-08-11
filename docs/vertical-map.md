@@ -526,6 +526,29 @@ replacement: \(K=(y^m)\) gives
 any prescribed \(q\)-jet once \(m\ge q+2\). A successful proof must kill
 the complete morphism or establish a new uniform geometric order bound.
 
+B180 supplies an effective conditional bound. If each escape generator is
+the simple branch of
+
+\[
+ P_i(u,z)=0,
+ \qquad \partial_zP_i(0,0)\ne0,
+ \qquad \deg P_i\le D,
+\]
+
+then either it is zero or its vanishing order is at most \(D\). Hence
+
+\[
+ j^{D-1}\beta_{K_B}=0\Longrightarrow H_\tau=0.
+\]
+
+G113 asks for a common étale algebraic chart, the actual simple
+polynomials, and a completely tracked degree bound coming from the full
+critical incidence, followed by the required jet vanishing and detector
+checks. NG144 shows why every quantitative clause is necessary:
+\(P_m=z-y^m\) is simple and algebraic but has degree \(m\) and first
+visible conormal term in degree \(m-1\). Mere algebraicity or Noetherianity
+does not produce an embedding-independent finite certificate.
+
 Two sufficient attacks feed G008:
 
 \[

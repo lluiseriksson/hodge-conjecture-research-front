@@ -729,6 +729,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG143 - NO-GO: no fixed finite conormal jet order suffices;
   \(m y^{m-1}dy\) is invisible through any prescribed order but remains
   nonzero modulo \(y^m\).
+- B180 - PROVED: a simple algebraic escape branch defined by a polynomial
+  of degree at most \(D\) is zero or has order at most \(D\); nonzero
+  conormal defect is visible by jet order \(D-1\).
+- G113 - EXPLORATORY: derive an explicit common degree bound from the full
+  algebraic critical incidence and prove the corresponding finite jets
+  vanish with every detector clause retained.
+- NG144 - NO-GO: algebraicity alone gives no uniform order;
+  \(P_m=z-y^m\) has growing degree and first conormal term in degree
+  \(m-1\).
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1287,7 +1296,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   stability. NG142 proves that nodewise Gauss--Manin flatness acts on the
   wrong object unless a new comparison map is constructed. B179/G112
   isolate its exact conormal target, and NG143 excludes bounded-jet
-  substitutes.
+  substitutes. B180/G113 give a conditional effective escape through a
+  tracked elimination degree; NG144 forbids omitting that quantitative
+  datum.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

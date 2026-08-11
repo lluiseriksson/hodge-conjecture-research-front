@@ -460,6 +460,14 @@ promotion: for \(K=(y^m)\),
 \(\beta([y^m])=m y^{m-1}dy\) is nonzero modulo \(y^m\) but has zero
 \(q\)-jet whenever \(m\ge q+2\).
 
+B180 gives the precise effective exception. If every escape function is a
+simple branch of \(P_i(u,z)=0\) with \(\deg P_i\le D\), then a nonzero
+escape has order at most \(D\), so nonzero \(\beta_{K_B}\) is visible by
+jet order \(D-1\). G113 asks for those equations and a fully tracked
+degree bound from the full algebraic critical incidence. NG144 blocks
+dropping the bound: \(P_m=z-y^m\) has degree \(m\), and the first visible
+conormal term occurs in degree \(m-1\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1015,6 +1023,7 @@ python verification/verify_B176_logarithmic_orbit.py
 python verification/verify_B177_symmetry_ceiling.py
 python verification/verify_B178_differential_escape.py
 python verification/verify_B179_conormal_defect.py
+python verification/verify_B180_effective_algebraic_bound.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1271,7 +1280,9 @@ alone cannot span the logarithmic kernel. B178/G111 convert the remaining
 escape into differential-ideal stability; NG142 shows that local
 Gauss--Manin flatness does not provide the required scalar connection.
 B179/G112 name the exact conormal morphism to kill; NG143 excludes every
-fixed finite-jet promotion.
+fixed finite-jet promotion. B180/G113 recover a finite certificate only
+from an explicit full-incidence degree bound; NG144 shows that algebraicity
+without this complexity audit supplies no uniform order.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

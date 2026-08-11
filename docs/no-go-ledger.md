@@ -2729,3 +2729,24 @@
 - **Re-entry condition:** prove literal analytic vanishing in G112, or
   prove a new uniform order bound from full-system geometry, with every
   detector clause retained.
+
+## NG-144 - Algebraicity gives a uniform jet bound
+
+- **Label:** NO-GO
+- **Route:** observe that critical-value branches are algebraic/Nash and
+  choose one finite jet order independent of their defining complexity.
+- **Valid input:** a fixed simple polynomial presentation of degree \(D\)
+  gives B180's order bound \(D\).
+- **Invalid inference:** algebraicity supplies one bound independent of
+  \(D\), the polarization power, and elimination complexity.
+- **Precise obstruction:** \(\epsilon_m=y^m\) is the simple branch of
+  \(P_m(y,z)=z-y^m\), with \(\partial_zP_m=1\). Its degree and vanishing
+  order are both \(m\), and its conormal defect first occurs in degree
+  \(m-1\).
+- **Projective guard:** B157 realizes each polynomial escape after
+  sufficient twisting, but does not give a fixed full-system presentation
+  of bounded degree across all powers.
+- **Re-entry condition:** G113 must compute and audit an explicit common
+  degree bound after every full-incidence restriction, étale coordinate,
+  and elimination step; then the required jets and detector clauses must
+  still be proved.
