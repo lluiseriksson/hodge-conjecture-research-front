@@ -3127,3 +3127,19 @@
 - **Re-entry condition:** add G129's new double-generator line or construct
   the inherited-double branch with simultaneously nondegenerate lower
   Hessian combinations, then re-audit every detector clause.
+
+## NG-162 - Recycle a point-ideal generator as the conformal multiplier
+
+- **Label:** NO-GO
+- **Route:** use \(F\) or one of G129's transverse degree-\(m\) generators
+  as \(t\) in B200's quadratic congruence.
+- **Valid input:** the proposed sections have the correct degree \(m\).
+- **Invalid inference:** degree agreement gives the required value vector.
+- **Precise obstruction:** every element of \(J_m=H^0(I_ZH^m)\) restricts
+  to zero on \(Z\), while maximal holonomy forces every multiplier
+  coordinate to be nonzero.
+- **Detector guard:** a zero multiplier cannot encode B191's rank-one
+  inverse-Hessian tensor and supplies no detector or pairing.
+- **Re-entry condition:** construct an ambient
+  \(t\in H^0(H^m)\setminus J_m\) with nowhere-zero values and prove
+  \(tF-\mu_2(Q)\in H^0(I_Z^3H^{2m})\), retaining every higher obligation.

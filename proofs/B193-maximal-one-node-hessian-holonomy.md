@@ -58,7 +58,7 @@ Then \((\alpha_j)_j\in\mathcal R_D\). Projection away from node \(i\)
 therefore sits in an exact sequence
 
 \[
- 0\longrightarrow\ker d_i^*longrightarrow\mathcal R_D
+ 0\longrightarrow\ker d_i^*\longrightarrow\mathcal R_D
  \longrightarrow\bigoplus_{j\ne i}G_j^*\longrightarrow0. \tag{4}
 \]
 

@@ -1024,6 +1024,22 @@ holonomy, finite Kuranishi closure, and the detector. NG161 proves that the
 unaugmented \(2n\)-generator transverse complete intersection has zero
 double kernel and cannot contain the central nodal section.
 
+B200 turns G129's inverse-Hessian and multiplier requirements into the
+single degree-\(2m\) equation
+
+\[
+ tF-\mu_2(Q)\in H^0(I_Z^3H^{2m}),\qquad
+ t|_Z\ne0,\quad Q\in\operatorname{Sym}^2U\text{ nondegenerate}.
+ \tag{*************}
+\]
+
+In local derivative matrices \(A_i\), this is
+\(t(p_i)H_i=A_iQA_i^{\mathsf T}\). Inversion gives
+\(A_i^{\mathsf T}H_i^{-1}A_i=t(p_i)Q^{-1}\), exactly B191's rank-one
+tensor with value multiplier. G130 is therefore the current smallest
+algebraic gate inside the new-double branch. NG162 records that \(t\) must
+lie outside \(J_m\), since every ideal generator has zero value vector.
+
 Two sufficient attacks feed G008:
 
 \[

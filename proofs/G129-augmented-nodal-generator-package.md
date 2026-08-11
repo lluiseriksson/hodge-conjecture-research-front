@@ -51,3 +51,7 @@ type-\((0,0)\) detector, and nonzero pairing with the specified class.
 G129 is a sufficient subgate of G128, not a claim that every possible
 solution has a new central generator. The inherited-double branch of B199
 remains open and requires a separate lower-Hessian construction.
+B200 turns the remaining quadratic holonomy and value-multiplier clauses
+into one global congruence modulo \(I_Z^3\). G130 records that sharper
+algebraic gate; NG162 prevents using any point-ideal generator as its
+multiplier.

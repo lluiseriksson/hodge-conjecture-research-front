@@ -690,6 +690,16 @@ and \(2n\) surviving jet generators. NG161 excludes the tempting transverse
 complete-intersection shortcut with only \(2n\) generators; in that model
 the double kernel is zero, so no nonzero central nodal member exists.
 
+B200 then packages conformal inverse-Hessian holonomy and the value-image
+multiplier into one equation:
+\[
+ tF-\mu_2(Q)\in H^0(I_Z^3H^{2m}),
+\]
+where \(t|_Z\) is nowhere zero and \(Q\) is nondegenerate. G130 asks for
+this congruence inside the class-directed augmented generator package.
+NG162 records that neither \(F\) nor any other ideal generator can serve
+as \(t\), because every such section has zero values on \(Z\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1263,6 +1273,7 @@ python verification/verify_B195_multiplicative_growth.py
 python verification/verify_B196_tangent_span.py
 python verification/verify_B197_B198_birth_window.py
 python verification/verify_B199_nodal_generator.py
+python verification/verify_B200_quadratic_congruence.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1567,6 +1578,9 @@ point scheme into the asymptotic regularity range.
 B199/G129 add the indispensable central double-generator line; NG161 shows
 why a bare transverse \(2n\)-generator complete intersection cannot supply
 the nodal divisor.
+B200/G130 replace the remaining quadratic holonomy/multiplier package by a
+third-neighborhood congruence; NG162 forces its multiplier to come from
+outside the point ideal.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
