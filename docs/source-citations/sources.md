@@ -1968,6 +1968,29 @@ Mathematics* (2) **61** (1955), 197–278.
   linear nor supplies a vanishing-cycle relation, Hodge type, or specified
   pairing.
 
+## S066 - Zero microsupport and local constancy
+
+Masaki Kashiwara and Pierre Schapira, *Sheaves on Manifolds*, Grundlehren
+der mathematischen Wissenschaften 292, Springer, 1990.
+[Official book record](https://link.springer.com/book/10.1007/978-3-662-02661-8);
+[official micro-support chapter, pp. 217–248](https://link.springer.com/chapter/10.1007/978-3-662-02661-8_7).
+
+- Audited Proposition 5.4.5 for the exact criterion used in B163: a
+  constructible derived sheaf has microsupport contained in the zero section
+  if and only if its cohomology sheaves are locally constant. The official
+  chapter summary describes microsupport as the failure-of-propagation
+  codirections and records the functorial/non-characteristic framework.
+- Cross-checked the proposition number and formulation against later
+  microlocal-sheaf literature explicitly citing KS Proposition 5.4.5 for
+  the same zero-section/local-system equivalence.
+- B163 applies the theorem only to
+  \(K_B=Rg_*\mathbf Q_{\mathcal Y_B}\) on the smooth analytic germ \(F_B\).
+  Constructibility follows from the proper algebraic/analytic family.
+- Scope guard: zero microsupport is required **after** base change to the
+  proposed basis-node germ. The ambient direct image over the full linear
+  system has discriminant microsupport. Proposition 5.4.5 supplies no
+  class-specific Hodge type, Saito pairing, or algebraic cycle.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

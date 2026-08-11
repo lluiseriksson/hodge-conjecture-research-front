@@ -617,6 +617,15 @@ generation from the controlled partitioned nodal locus is not proved.**
   class-directed full-linear-system germ while retaining the detector.
 - NG129 - NO-GO: a constant ambient cohomology sheaf or one flat class does not
   force the complementary middle vanishing-cycle cone to vanish.
+- B163 - PROVED: persistence, local constancy of the proper direct image on
+  \(F_B\), and microsupport contained in its zero section are equivalent.
+- B164 - PROVED: B161 has smooth total space and a decomposed semisimple
+  projective direct image while its basis restriction has nonzero
+  microsupport; the universal hypersurface gives the same warning.
+- G104 - EXPLORATORY: prove zero internal microsupport on the class-directed
+  basis germ and retain every detector clause.
+- NG130 - NO-GO: projective decomposition and semisimplicity do not force
+  zero-section microsupport.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1132,7 +1141,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   B160/G102 make Euler rigidity sufficient, while B161/NG128 exclude
   projective flatness and fixed Hilbert polynomial as its source.
   B162/G103 make the gate arcwise vanishing-cycle triviality; NG129 blocks
-  substituting one constant ambient cohomological piece.
+  substituting one constant ambient cohomological piece. B163/G104 make it
+  zero internal microsupport; B164/NG130 block decomposition-theorem
+  shortcuts.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

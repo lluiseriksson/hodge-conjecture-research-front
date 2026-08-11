@@ -2412,3 +2412,20 @@
   implication.
 - **Re-entry condition:** prove the complete arcwise cone vanishes in G103
   and separately retain the specified relation-channel pairing.
+
+## NG-130 - Infer zero microsupport from decomposition
+
+- **Label:** NO-GO
+- **Route:** use smooth total space, projectivity, decomposition, and
+  semisimplicity to infer zero internal microsupport on \(F_B\).
+- **Valid input:** the direct image decomposes into shifted semisimple
+  intersection complexes with pure Hodge-module refinements.
+- **Invalid inference:** every strict support is the whole basis germ and
+  every coefficient object is locally constant there.
+- **Precise obstruction:** B164 makes the B161 total space smooth, so S037
+  applies. One node still escapes on \(F_B\), and B163 forces nonzero
+  internal microsupport. The smooth universal hypersurface family likewise
+  retains nodal discriminant microsupport.
+- **Re-entry condition:** prove directly that G104's complete base-changed
+  direct image has no nonzero characteristic covector and separately retain
+  the specified relation-channel pairing.

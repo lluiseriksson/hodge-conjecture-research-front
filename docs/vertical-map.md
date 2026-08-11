@@ -48,6 +48,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{Euler-rigid basis stratum G102}
 \Longleftarrow
 \text{arcwise vanishing-cycle triviality G103}
+\Longleftarrow
+\text{zero internal microsupport G104}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -224,6 +226,22 @@ that a constant ambient cohomology sheaf or one flat class can coexist with a
 nonzero complementary \(\Phi_\gamma\). G103 must kill the complete
 disappearing-node cone while retaining the distinct nonzero specified
 relation pairing.
+B163 and S066 give the microlocal equivalence
+
+\[
+ \forall\gamma,\ \Phi_\gamma=0
+ \Longleftrightarrow
+ K_B\text{ locally constant}
+ \Longleftrightarrow
+ SS(K_B)\subseteq T^*_{F_B}F_B.
+\]
+
+The microsupport here is internal to \(F_B\) after proper base change.
+B164/NG130 show that a smooth total space, projectivity, decomposition, and
+semisimplicity still permit positive-codimension IC supports and node
+escape. G104 must prove the zero-section condition for the complete
+base-changed direct image while preserving the nonzero specified relation
+pairing.
 
 Two sufficient attacks feed G008:
 

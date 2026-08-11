@@ -531,3 +531,11 @@ NG129 guards an important mismatch: a constant ambient cohomology sheaf
 can survive while the complementary node-escape cone is nonzero. G103 must
 control the whole relative cone and the nonzero relation-channel detector
 simultaneously.
+B163 packages the arc condition as zero internal microsupport of the proper
+direct image on \(F_B\). Kashiwara--Schapira's zero-section criterion makes
+this exactly local constancy. B164/NG130 prevent a common overreach:
+projective decomposition into semisimple intersection complexes permits
+positive-codimension supports. The B161 total space is smooth and its
+direct image decomposes, yet one node escapes and the restricted object has
+nonzero microsupport. G104 must remove those internal characteristic
+directions by a stronger class-directed mechanism.

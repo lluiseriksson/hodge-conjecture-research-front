@@ -271,6 +271,21 @@ selection makes the criterion all-order. NG129 shows that a constant
 ambient cohomology sheaf or one flat class cannot kill the complementary middle
 cone. G103 asks for full arcwise vanishing-cycle triviality while the
 specified relation-channel detector remains nonzero.
+B163 turns this into a microlocal certificate. For the proper direct image
+\(K_B\) on the basis germ,
+
+\[
+ \text{all nodes persist}
+ \Longleftrightarrow
+ K_B\text{ is locally constant}
+ \Longleftrightarrow
+ SS(K_B)\subseteq T^*_{F_B}F_B.
+\]
+
+B164/NG130 show that projective decomposition and semisimplicity do not
+force the last condition, even with smooth total space. G104 asks for zero
+**internal** microsupport on the class-directed basis germ while retaining
+the nonzero detector pairing.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -813,6 +828,7 @@ python verification/verify_B156_syzygy_defect.py
 python verification/verify_B159_uniform_escape.py
 python verification/verify_B160_euler_rigidity.py
 python verification/verify_B162_arc_vanishing.py
+python verification/verify_B163_microsupport.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1037,6 +1053,8 @@ fixed-Hilbert-polynomial geometry alone.
 B162/G103/NG129 express the same gate as vanishing of every arcwise
 disappearing-node specialization cone and exclude replacing the whole cone
 by one constant cohomological piece.
+B163-B164/G104/NG130 identify the equivalent zero-internal-microsupport
+condition and exclude deriving it from the decomposition theorem alone.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
