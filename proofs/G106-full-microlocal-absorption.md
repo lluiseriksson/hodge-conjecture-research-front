@@ -61,3 +61,8 @@ B158's persistence clause and B156's hidden-generator equation
 independent shortcut. The smallest unresolved geometric clause therefore
 returns to G100/G101: construct those analytic syzygies in the full linear
 system while retaining the specified nonzero pairing.
+
+B170/G107 isolate a sufficient nonmicrolocal attack on that returned
+gate: keep the value-evaluation rank of the entire moving critical-point
+configuration constantly \(R\). NG134 prevents deriving this from
+affine-linearity alone.

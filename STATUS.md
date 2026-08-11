@@ -653,6 +653,14 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG133 - NO-GO: ambient microlocal language does not bypass the
   all-order syzygy obstruction; G106 collapses back to G100/G101 while the
   specified pairing remains separate.
+- B170 - PROVED: the critical-value Jacobian is exactly value evaluation
+  at the moving critical points; constant rank \(R\) forces \(H_\tau=0\).
+- G107 - EXPLORATORY: keep the full critical-configuration image inside
+  the rank-\(R\) evaluation degeneracy locus while retaining every
+  detector clause.
+- NG134 - NO-GO: affine-linearity alone does not force that containment;
+  \((x,x-y^2)\) is an affine-linear ODP critical-value model with central
+  uniform rank one and quadratic escape.
 - B169 - PROVED: in an exhaustive tracked-ODP neighborhood, actual
   ambient microsupport absorption and full-envelope absorption are both
   equivalent to persistence of every node, \(H_\tau=0\), and analytic
@@ -1184,6 +1192,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   shortcuts. B169/NG133 then prove that exact ambient absorption is
   equivalent to G100/G101's all-order syzygy lifting, so it supplies no
   independent weakening.
+  B170/G107 make moving critical-configuration rank rigidity a concrete
+  sufficient attack; NG134 blocks deriving it from affine-linearity
+  without a full-system determinantal theorem.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

@@ -62,3 +62,10 @@ lifts: those data remain fixed while an arbitrary \(H_\tau\) is inserted
 by nonlinear projective pullback. A successful proof must use a genuinely
 global constraint of the full linear-system incidence together with the
 class-specific detector.
+
+B170 supplies one concrete sufficient global constraint. The Jacobian
+\(d\tau_t\) equals evaluation at the moving critical points. If that
+evaluation has constant rank \(R\), the constant-rank theorem gives
+\(H_\tau=0\). G107 asks for this determinantal containment with all
+detector clauses retained. It is stronger than G100 and NG134 proves that
+linearity of a projective slice does not establish it.

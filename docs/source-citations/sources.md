@@ -1963,6 +1963,11 @@ Mathematics* (2) **61** (1955), 197–278.
   resulting exact sequence makes the prescribed two-jet evaluation map
   surjective. Global generation of the same twisted ideal supplies the
   basepoint-free variation away from those points used by Bertini.
+- NG134 uses the same fixed finite-jet surjectivity only to choose two
+  global deformation sections with specified values and gradients at two
+  ODPs. Their span is an affine-linear projective slice, and the nonzero
+  quadratic critical-value term is fixed by those first jets. This does
+  not assert rank deficiency for the full complete system.
 - Scope guard: the power depends on the fixed finite point scheme. This
   theorem gives jet interpolation; it neither makes the analytic base map
   linear nor supplies a vanishing-cycle relation, Hodge type, or specified

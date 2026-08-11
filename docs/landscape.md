@@ -72,6 +72,7 @@ boundary, not an induction mechanism.
 | ordered-node tangent reduction | B145 identifies the incidence tangent at N nodes with the kernel of value evaluation by inverting the nodal Hessians | G091 must construct a rank-smooth excess component with R<N and nonzero specified pairing |
 | generic ordered incidence | NG116 audits the first-jet-surjective expected-codimension component | value rank is N, so B027-B028 force zero adjoint defect and relation space |
 | nodal microlocal absorption | B169 proves that actual ambient microsupport absorption and the full higher-discriminant-envelope condition are equivalent to persistence and H_tau=0 in an exhaustive tracked-ODP neighborhood | NG133 closes the proposed microlocal shortcut; the unresolved input is still a carrier-free full-linear-system syzygy construction with specified pairing |
+| moving critical-evaluation rank | B170 identifies d tau with value evaluation at moving critical points in fixed Morse gauges and makes constant rank R sufficient for H_tau=0 | the rank certificate is gauge dependent; G107 asks for one full-system determinantal containment, while NG134 excludes affine-linearity alone |
 | second-order ordered-node obstruction | B146 computes the critical-value Hessian and proves that smooth uniform excess forces conditional-gradient corank at least n(R+1) | G092 must construct this common isotropic degeneracy and integrate it through all higher orders |
 | determinantal value-rank shortcut | NG117 audits rank(E)=R<N as a proposed smooth-excess mechanism | B145 gives only the tangent dimension; B146 supplies a generally nonzero quadratic obstruction |
 | local A2 cleanup | B126 proves the suspended A2 miniversal discriminant has one critical point on every fiber and no multinode parameter | NG101 closes local versal nodalization; any cleanup must use global topology-changing incidence |
@@ -568,3 +569,13 @@ then vanishes exactly when the corresponding nodal divisor contains
 \(F_B\). Thus G106 is equivalent to \(H_\tau=0\) and the syzygy gate
 G100/G101 in this neighborhood; NG133 rules out treating it as a weaker
 route.
+
+B170 gives the next sufficient target without returning to microlocal
+language. The derivative of each critical value is evaluation of the
+parameter section at its moving critical point. Hence a full
+critical-configuration germ contained in the rank-\(R\) evaluation
+degeneracy locus makes \(d\tau\) constantly rank \(R\) and forces
+\(H_\tau=0\). G107 records that target. NG134 proves that a linear
+projective slice can still have \(\tau=(x,x-y^2)\), so neither linearity
+nor central uniform rank supplies the needed global determinantal
+containment.

@@ -46,6 +46,12 @@ the individual branch equations by analytic units. A choice of defining
 functions for which \(\tau\) has constant rank \(R\) is one sufficient
 certificate. In either formulation, \(\tau^{-1}(0)\) is a reduced smooth
 codimension-\(R\) germ.
+B170 makes this branch global and falsifiable: \(d\tau_t\) is exactly
+value evaluation at the moving critical configuration. Thus constant rank
+is equivalent to requiring that configuration germ to remain inside the
+rank-\(R\) evaluation degeneracy locus. G107 records this sufficient
+subgate. NG134 shows that affine-linearity of the hypersurface family
+alone does not force it.
 B145 then gives G090, B144 gives the clean arrangement, and B054/B134-B135
 identify the rational local functional. Thus G092 is sufficient for G091
 and hence for rational HC through B007.

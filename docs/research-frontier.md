@@ -536,3 +536,11 @@ syzygy condition. NG133 therefore closes the ambient-microlocal-shortcut
 idea. The narrow unresolved geometric gate is again carrier-free
 full-linear-system construction of \(H_\tau=0\), with the rational
 type-\((0,0)\) specified Saito pairing retained independently.
+
+B170 turns one sufficient branch into a global determinantal question:
+\(d\tau\) is evaluation at the moving critical configuration. G107 asks
+that the full configuration image remain in the rank-\(R\) evaluation
+degeneracy locus. NG134 tests and rejects the first automatic mechanism:
+an affine-linear projective slice already realizes the quadratic escape
+\((x,x-y^2)\). What remains must use the full complete-system evaluation
+geometry, not merely linear dependence of the family on its parameters.

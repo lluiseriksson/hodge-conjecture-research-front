@@ -2492,3 +2492,31 @@
 - **Re-entry condition:** solve G100/G101 in the full linear system with
   all detector clauses retained; no separate microlocal shortcut remains
   under the tracked-ODP hypotheses.
+
+## NG-134 - Infer critical-rank rigidity from linearity
+
+- **Label:** NO-GO
+- **Route:** use the fact that a projective linear-system family depends
+  affinely on its parameters, combine it with central value rank \(R<N\),
+  and infer G107's constant moving evaluation rank.
+- **Valid input:** B170 proves that the critical-value Jacobian is
+  evaluation at the moving critical points.
+- **Invalid inference:** affine-linearity of the spatial equations makes
+  that evaluation matrix constant in rank.
+- **Precise obstruction:** the two disjoint affine-linear ODP charts
+
+  \[
+  q(z)+x,\qquad q(w)+x+2yw_1
+  \]
+
+  have critical values \((x,x-y^2)\). Their central row matroid is
+  \(U_{1,2}\), but the Jacobian has determinant \(-2y\), the smoothing
+  ideal is \((x,y^2)\), and \(\dim H_\tau=1\).
+- **Projective guard:** S065 finite-jet interpolation and Bertini realize
+  the nonzero quadratic obstruction on a projective linear slice. In that
+  realization the full complete-system evaluation may have larger rank,
+  so the example does not refute G107.
+- **Re-entry condition:** prove that the **full** critical-configuration
+  image lies in the global rank-\(R\) evaluation degeneracy locus, or
+  solve the weaker G100 factorization directly, while retaining the
+  specified pairing.

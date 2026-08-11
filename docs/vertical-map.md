@@ -54,6 +54,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{positive node-polar vanishing G105}
 \Longleftrightarrow
 \text{full ambient normal-cone absorption G106}
+\Longleftarrow
+\text{moving critical-configuration rank rigidity G107}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -298,6 +300,27 @@ that ambient microlocal language bypasses G100/G101. The smallest
 unresolved clause is again the carrier-free construction of \(H_\tau=0\)
 in the full linear system together with the specified nonzero Saito
 pairing.
+
+B170 supplies the first concrete sufficient attack after this collapse.
+After fixing local Morse gauges, for the resulting ordered
+critical-point map \(p(t)\),
+
+\[
+ d\tau_t(v)=\bigl(v(p_i(t))\bigr)_i.
+\]
+
+Thus \(d\tau\) is the global value-evaluation map at the moving critical
+configuration. If its rank stays \(R\), the analytic constant-rank theorem
+forces \(H_\tau=0\). G107 asks that \(p(W)\) lie germwise in the
+rank-at-most-\(R\) evaluation degeneracy locus while retaining every
+detector clause. The off-discriminant rank condition depends on those
+gauges, although its consequence \(H_\tau=0\) does not. NG134 tests the
+first proposed source and rejects it:
+even the affine-linear two-chart family
+\(\tau=(x,x-y^2)\) has central uniform rank one and quadratic escape.
+The countermodel is a projective linear slice, so it blocks linearity
+alone but not a theorem using the full complete-system determinantal
+geometry.
 
 Two sufficient attacks feed G008:
 

@@ -332,6 +332,24 @@ microlocal formulation does not bypass G100/G101. The active geometric
 obligation is again to construct those full-linear-system syzygies without
 a carrier and retain the distinct nonzero specified Saito pairing.
 
+B170 isolates a concrete sufficient branch after fixing local Morse
+gauges. If \(p_i(t)\) are the resulting moving critical points, then
+
+\[
+ d\tau_i(t)(v)=v(p_i(t)).
+\]
+
+Thus the critical-value Jacobian is exactly the moving value-evaluation
+map. Constant rank \(R\) forces \(H_\tau=0\) by the analytic constant-rank
+theorem. G107 asks for the full critical-configuration germ to remain in
+the rank-\(R\) evaluation degeneracy locus with every detector clause
+retained. This off-discriminant rank certificate is gauge dependent but
+its implication \(H_\tau=0\) is valid. NG134 shows why full-system
+geometry is essential: the
+affine-linear local family with critical values \((x,x-y^2)\) has central
+uniform rank one but quadratic escape. It is projectively realizable on a
+linear slice, so affine-linearity alone is insufficient.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -877,6 +895,7 @@ python verification/verify_B163_microsupport.py
 python verification/verify_B165_characteristic_cycle.py
 python verification/verify_B168_normal_cone.py
 python verification/verify_B169_microlocal_syzygy.py
+python verification/verify_B170_critical_rank.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1110,6 +1129,9 @@ B167-B169/G106/NG132-NG133 express the gate as full ambient microlocal
 normal-cone absorption, exclude pointwise conormal or finite-jet
 substitutes, and prove that exact absorption collapses back to all-order
 critical-value syzygy lifting.
+B170/G107/NG134 then expose a falsifiable sufficient branch: constant
+rank of evaluation at the moving critical configuration, with
+affine-linearity alone excluded as its source.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
