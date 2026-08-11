@@ -60,4 +60,7 @@ The coherent identity
 
 shows the scale of the required superabundance when \(H^1(X,L)=0\), but
 that number is not counted as existence. The node scheme, Hessian tensor,
-and rational detector must be constructed jointly.
+and rational detector must be constructed jointly. B192/NG155 further
+exclude proving these conditions only on invariant or single-character
+sections of a nontrivial nodal symmetry: that is necessarily a strict
+subfamily of a very ample complete system.

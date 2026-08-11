@@ -837,6 +837,21 @@ its full gradient rank as \(nR+n>2n\) for \(R>1\), so no projection to one
 node block can be injective. The moving fiber synchronizes a quotient, not
 the full universal gradient image.
 
+B192/NG155 audit the symmetry alternative. A finite group may transport
+jets conformally inside one character-semi-invariant family along a node
+orbit. But if a very ample complete section space were entirely one
+character, the induced projective action would be scalar and the equivariant
+embedding would force the group to fix every point. Hence a nontrivial
+node orbit always leaves omitted isotypic components:
+
+\[
+ H^0(X,L)_\chi\subsetneq H^0(X,L).
+\]
+
+No synchronization result on that strict component proves G123 until every
+omitted component is shown to contribute trivially to
+\(H^0(I_ZL)/H^0(I_{2Z}L)\) or is incorporated into the same rank-one tensor.
+
 Two sufficient attacks feed G008:
 
 \[

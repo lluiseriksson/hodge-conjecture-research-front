@@ -2982,3 +2982,26 @@
 - **Re-entry condition:** construct unanchored full-system data with
   \(q\le2n\), all one-node kernel equalities, tensor rank one, value factor
   in \(S\), and the specified rational detector.
+
+## NG-155 - Synchronize a nodal orbit in one semi-invariant component
+
+- **Label:** NO-GO
+- **Route:** make a finite group act transitively on the nodes and impose
+  invariant, alternating, or one-character semi-invariant deformations so
+  their jets are transported diagonally around the orbit.
+- **Valid input:** equivariance genuinely relates values, gradients, and
+  Hessians inside the selected character component.
+- **Invalid inference:** that component equals the complete section space,
+  or every omitted component contributes zero to the conditional-gradient
+  quotient.
+- **Precise obstruction:** B192 proves that for a very ample linearized
+  bundle and a node orbit of size greater than one, every character space is
+  strict. If all sections transformed by one character, the induced action
+  on the very ample projective embedding would be trivial and the group
+  could not move the nodes.
+- **Full-system guard:** omitted isotypic components can enlarge
+  \(H^0(I_ZL)/H^0(I_{2Z}L)\) and the Hessian flattening. There is no
+  automatic inclusion of their value-zero sections in \(H^0(I_{2Z}L)\).
+- **Re-entry condition:** compute all isotypic components and prove B191's
+  equalities and tensor rank for their total, or construct G123 by a
+  nonsymmetry mechanism, while retaining the rational detector.

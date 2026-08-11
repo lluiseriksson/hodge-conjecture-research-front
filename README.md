@@ -605,6 +605,14 @@ shows that even the scalable B142-B143 product-fiber detector fails it:
 its full gradient rank is \(nR+n>2n\), because carrier motion omits an
 \(nR\)-dimensional conormal block.
 
+B192/NG155 close the simplest symmetry shortcut. Jets in an invariant or
+single-character family can synchronize along a finite node orbit, but that
+family is necessarily strict for a very ample polarization: if every global
+section transformed by the same character, the group would act trivially
+on the projective embedding and could not permute distinct nodes. All
+omitted isotypic components must therefore be included in B191's full
+quotient and Hessian tensor; symmetry alone does not solve G123.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1171,6 +1179,7 @@ python verification/verify_B187_full_support_ceiling.py
 python verification/verify_B188_augmented_hessian.py
 python verification/verify_B189_B190_augmented_filters.py
 python verification/verify_B191_intrinsic_conformal.py
+python verification/verify_B192_semi_invariant_scope.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1456,6 +1465,8 @@ manufacturing it by restricting a fixed-node high-power full system. B191
 and G123 recast the branch as one-node coherent determination plus a
 rank-one intrinsic Hessian tensor; NG154 shows that the known scalable
 product-fiber detector has too many full-system conormal gradients.
+B192/NG155 then exclude replacing the complete system by one synchronized
+semi-invariant component of a nontrivial nodal symmetry.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

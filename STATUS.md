@@ -830,6 +830,12 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG154 - NO-GO: the B142-B143 product-fiber witness has full gradient rank
   \(nR+n>2n\); its carrier-motion quotient omits an \(nR\)-dimensional
   conormal block and cannot satisfy one-node determination.
+- B192 - PROVED: if a finite group moves a point of a very ample polarized
+  variety, no single character-semi-invariant subspace equals the complete
+  section space; scalar projective action would fix the embedded variety.
+- NG155 - NO-GO: synchronizing jets only in an invariant or one-character
+  family along a transitive node orbit leaves uncontrolled isotypic
+  components in the full conditional-gradient quotient.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1413,6 +1419,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   and G123 make the branch intrinsic through one-node determination and a
   rank-one Hessian tensor. NG154 excludes the known scalable product-fiber
   detector because its full conormal-gradient block is too large.
+  B192/NG155 exclude a single semi-invariant symmetry component as a
+  substitute for the complete linear system.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
