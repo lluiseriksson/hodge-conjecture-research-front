@@ -1519,6 +1519,18 @@ B264 planar \(k=3,4\) branch for every even \(d\ge22\). G191 and G192
 are retained only as CONDITIONAL downstream boundaries. Every detector
 and cycle obligation remains open.
 
+B268 proves that the cubic planar branch is an exact coherent-rank
+witness, not merely a failure of the chosen products. On a split
+quadric, take three points on each of two generator lines through
+\(u\) in an isotropic plane. Exact rational matrices give plane sextic
+double-jet rank 18 and degree-five value ranks 6 and 7. Including the
+\(d-2\) normal directions, the six doubles have rank \(6d+6\), the
+residual rank at \(2u\) is exactly \(d-1\), and the seven-double rank is
+exactly \(7d+5\). NG225 therefore makes further sextic interpolation a
+NO-GO route. G190 now asks for the missing relation transport, ODP,
+Kuranishi, rational-type, and specified-pairing clauses on or beyond
+this witness; equality rank alone is not progress toward HC.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -2145,6 +2157,7 @@ python verification/verify_B264_two_edge_jet_dichotomy.py
 python verification/verify_B265_planar_two_edge_unit.py
 python verification/verify_B266_standard_one_beyond_third_escape.py
 python verification/verify_B267_planar_product_jet_cancellation.py
+python verification/verify_B268_planar_cubic_equality.py
 ```
 
 The repository verifier checks the required directory topology, result

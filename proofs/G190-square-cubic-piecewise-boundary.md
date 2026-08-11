@@ -13,9 +13,9 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B007-B010, B134-B267, G013, G090-G148, G172, NG106-NG224, S081-S083
+dependencies: B007-B010, B134-B268, G013, G090-G148, G172, NG106-NG225, S081-S083
 claim: For every arbitrary primitive target (X,zeta) of even dimension d>=14, choose A and construct the complete G144 package at m=2, h_Z(1)=K(d), delta_1=K(d)-d-1, slack s_4(d)=2(K(d)-d-1), and N=2K(d), retaining the full relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing clauses.
-falsifier: one primitive target for which no polarization realizes the piecewise package; after B266-B267, even quadrics leave k=2 for d=14,16,18,20 and only the planar k=3,4 branch for every even d>=22
+falsifier: one primitive target for which no polarization realizes the piecewise package; after B266-B268, even quadrics leave k=2 for d=14,16,18,20 and an exact coherent-rank k=3 witness for every even d>=22, but no complete detector package
 ---
 
 # G190 — The square/cubic piecewise boundary
@@ -65,3 +65,12 @@ at \(d=22\), so the active high-dimensional branch is now exactly
 cubic/quartic equality on the B264 planar locus. G190 remains
 EXPLORATORY; no detector, pairing, cycle, proof, or disproof of HC is
 produced.
+
+B268 shows that the remaining cubic rank is not merely an artifact of
+the pair-line products. On an explicit split \(3+3\) planar
+configuration, the six doubles are independent and the full sextic
+system contributes exactly \(d-1\) further jets, giving rank
+\(7d+5\). NG225 therefore closes further sextic interpolation as an
+exclusion route. The smallest live obligation is to test or construct
+the missing G144 relation transport, ODP, Kuranishi, rational-type, and
+specified-pairing clauses on this exact rank witness.

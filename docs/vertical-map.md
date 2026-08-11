@@ -2222,6 +2222,22 @@ The audited survivors are \(k=2\) in dimensions \(14,16,18,20\) and
 the B264 planar \(k=3,4\) branch in every even dimension at least 22.
 G191 and G192 are conditional downstream boundaries only.
 
+B268 makes the cubic planar branch exact at the coherent-rank level.
+For an explicit split \(3+3\) configuration, six double neighborhoods
+have rank \(6d+6\), the full residual sextic restriction at \(u\) has
+rank \(d-1\), and the seven-double rank is \(7d+5\). NG225 proves that
+no additional sextic section can raise this residual rank. The vertical
+branch therefore refines to
+
+\[
+ \text{G190 full detector package on the B268 witness}
+ \Longleftarrow
+ \bigl(\text{relation transport}+\text{ODP incidence}
+ +\text{Kuranishi}+\text{rational type}+\text{specified pairing}\bigr).
+\]
+
+The equality rank is PROVED, but every term on the right remains open.
+
 Two sufficient attacks feed G008:
 
 \[

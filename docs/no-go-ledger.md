@@ -4536,3 +4536,26 @@
   open.
 - **Re-entry condition:** G190 retains only \(k=3,4\) at its
   high-dimensional equality after B266-B267.
+
+## NG-225 - Escape the planar witness with another sextic jet
+
+- **Label:** NO-GO
+- **Route:** close G190 by finding one additional first jet in the full
+  sextic system vanishing on B268's six double supports.
+- **Plane obstruction:** on each generator line, degree six is exhausted
+  by the three prescribed double zeros, so both derivatives at \(u\)
+  are fixed by the common value.
+- **Normal obstruction:** only the \(d-2\) directions normal to the
+  isotropic plane remain free.
+- **Exact rank:** the plane residual image has rank one and the normal
+  image rank \(d-2\), giving total residual rank \(d-1\).
+- **Sharpness:** the six doubles have rank \(6d+6\), so the seven-double
+  rank is exactly \(7d+5\).
+- **Universal-quantifier guard:** the split quadrics are valid test
+  inputs, but the coherent rank witness is not a complete G190 package.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** coherent sextic interpolation cannot close G190.
+- **Re-entry condition:** test relation transport, ODP incidence,
+  Kuranishi vanishing, rational type, and specified pairing on or beyond
+  B268's witness.
