@@ -3027,3 +3027,21 @@
 - **Re-entry condition:** prove a new theorem for the actual doubled
   \(L\)-jet scheme giving B191's kernel equalities, B193's conformal
   cocycle, isolated nodes, and the rational detector.
+
+## NG-157 - Multiply a lower-degree jet defect into the target power
+
+- **Label:** NO-GO
+- **Route:** construct nonzero conditional node gradients in \(H^k\), then
+  multiply by sections of \(H^{m-k}\) to obtain G123/G124 in degree \(m\).
+- **Valid input:** products remain value-zero on \(Z\), and their node
+  gradients equal the multiplier values times the lower gradients.
+- **Invalid inference:** multiplication preserves determination by any one
+  node.
+- **Precise obstruction:** if a lower section has nonzero gradient at
+  \(p_i\), choose a multiplier vanishing at another node \(p_j\) but not at
+  \(p_i\). The product has gradient zero at \(p_j\) and nonzero at \(p_i\),
+  directly violating B191. B194 proves equivalently that target one-node
+  determination forces every lower quotient to be zero.
+- **Re-entry condition:** G125 must realize a primitive first-jet birth at
+  degree \(m\), with no lower conditional gradients, and separately supply
+  Hessian holonomy and the rational detector.

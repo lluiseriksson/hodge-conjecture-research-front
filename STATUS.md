@@ -845,6 +845,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG156 - NO-GO: reduced adjoint Cayley--Bacharach and its carrier theorems
   do not supply doubled \(L\)-jets, one-node completion, or inverse-Hessian
   holonomy; the collinear shortcut also destroys isolated nodality.
+- B194 - PROVED: degree-\(m\) one-node determination forces
+  \(H^0(I_ZH^k)=H^0(I_{2Z}H^k)\) for every \(k<m\); all lower conditional
+  first-jet quotients vanish.
+- G125 - EXPLORATORY: construct the first nonzero quotient primitively at
+  degree \(m\), with dimension \(2n\), conformal holonomy, and every
+  rational detector clause.
+- NG157 - NO-GO: multiplying any nonzero lower jet defect yields a target
+  section with gradient zero at one node and nonzero at another, violating
+  one-node determination.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1431,7 +1440,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   B192/NG155 exclude a single semi-invariant symmetry component as a
   substitute for the complete linear system. B193/G124 isolate the maximal
   conformal-holonomy branch; NG156 excludes deriving its doubled-jet data
-  from the reduced adjoint Cayley--Bacharach chain.
+  from the reduced adjoint Cayley--Bacharach chain. B194/G125 require a
+  primitive target-degree first-jet birth; NG157 excludes inheritance from
+  a lower power by multiplication.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

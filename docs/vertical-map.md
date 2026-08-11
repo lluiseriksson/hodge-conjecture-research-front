@@ -885,6 +885,33 @@ bundle \(K_X\otimes L^n\); G124 concerns first derivatives of \(L\) on
 and B029 shows that the simplest low-degree carrier promotion destroys
 isolated nodality.
 
+B194 adds a graded obstruction before G124 can be constructed. Write
+
+\[
+ V_k=H^0(I_ZH^k)/H^0(I_{2Z}H^k).
+\]
+
+If degree \(m\) is determined by any one node, then
+
+\[
+ V_k=0\qquad(0\le k<m). \tag{******}
+\]
+
+Indeed, multiply a lower value-zero section by a section of
+\(H^{m-k}\) vanishing at one node and nonzero at another. The product has
+zero gradient at the first node; one-node determination kills every product
+gradient and hence the original lower gradient. G125 is the resulting
+primitive-birth branch:
+
+\[
+ \text{G124}\Longleftarrow
+ \text{G125 primitive first-jet birth with }\dim V_m=2n.
+\]
+
+NG157 rules out inheriting this structure multiplicatively from a lower
+power. The nonzero target quotient must appear for the first time at degree
+\(m\) in the full graded section ring.
+
 Two sufficient attacks feed G008:
 
 \[

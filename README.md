@@ -625,6 +625,19 @@ force carrier curves; they do not control first jets of the divisor bundle
 on \(2Z\) or ODP Hessian similitudes. The collinear carrier shortcut also
 falls under B029 and produces a positive-dimensional singular locus.
 
+B194 exposes a further graded rigidity. For \(L=H^m\), determination by
+any one node forces
+
+\[
+ H^0(I_ZH^k)=H^0(I_{2Z}H^k)\qquad(0\le k<m).
+\]
+
+A point-separating multiplier would otherwise turn any lower nonzero
+gradient into a degree-\(m\) section with gradient zero at one node and
+nonzero at another. G125 therefore asks for a genuinely primitive birth
+\(V_m\) of dimension \(2n\), together with G124 holonomy and the detector.
+NG157 excludes obtaining it by multiplying a lower-power defect.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1193,6 +1206,7 @@ python verification/verify_B189_B190_augmented_filters.py
 python verification/verify_B191_intrinsic_conformal.py
 python verification/verify_B192_semi_invariant_scope.py
 python verification/verify_B193_maximal_holonomy.py
+python verification/verify_B194_primitive_jet_birth.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1482,7 +1496,9 @@ B192/NG155 then exclude replacing the complete system by one synchronized
 semi-invariant component of a nontrivial nodal symmetry. B193/G124 isolate
 the maximal \(q=2n\) conformal-holonomy branch; NG156 blocks promoting
 reduced adjoint Cayley--Bacharach carrier results to the required doubled
-first-jet and Hessian data.
+first-jet and Hessian data. B194/G125 force a primitive first-jet birth at
+the target degree, and NG157 excludes multiplication from every lower
+power.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

@@ -55,3 +55,7 @@ When \(H^1(X,L)=0\), this branch has the exact defect
 Equation (2) measures the required superabundance but does not construct
 it. Even success at G124 would leave cubic and higher Kuranishi rungs,
 smooth integration, and the terminal algebraic-cycle construction open.
+B194 shows that its first jets must be born primitively at degree \(m\):
+all lower conditional-gradient quotients vanish. G125 makes this forced
+graded condition explicit, while NG157 excludes multiplication from a
+lower-degree defect.
