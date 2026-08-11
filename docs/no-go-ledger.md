@@ -3759,5 +3759,53 @@
   algebraic cycle, proof, or disproof of HC is obtained.
 - **Conclusion:** G159 and both layers \(4d,4d+1\) are closed. G148 and
   HC remain open.
-- **Re-entry condition:** G160 begins at
-  \(s=4d+2,\delta_1=2d+1\).
+- **Re-entry condition:** B237 later excludes G160 and its odd neighbor;
+  move to G161.
+
+## NG-195 - Realize the post-slope-four rank
+
+- **Label:** NO-GO
+- **Route:** set \(m=2,s=4d+2,\delta_1=2d+1\), adding one dimension
+  after B236.
+- **Valid premise:** a third point meeting the initial hyperbolic plane now
+  fills exactly the available quotient.
+- **Invalid inference:** the associated contact locus has enough point rank.
+- **Nonorthogonal-third obstruction:** self-adjoint annihilator duality
+  identifies the complete tangential contact locus with one plane conic,
+  whose \(O(2)\) point rank is at most five.
+- **Orthogonal-residual obstruction:** if every other point lies in the
+  orthogonal complement, its \(d\)-dimensional quotient cannot contain two
+  nonorthogonal \((d-1)\)-dimensional tangents. Pairwise orthogonality then
+  contradicts full tangent absorption.
+- **Odd-layer guard:** \(s=4d+3\) has the same integral rank budget.
+- **Detector guard:** no ODP package, rational detector, specified pairing,
+  cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G160 and both layers \(4d+2,4d+3\) are closed. G148 and
+  HC remain open.
+- **Re-entry condition:** B238 later excludes the exact three-double
+  boundary; move to G162.
+
+## NG-196 - Realize the exact three-double boundary
+
+- **Label:** NO-GO
+- **Route:** set \(m=2,s=4d+4,\delta_1=2d+2\), so three independent
+  tangent osculators exactly fill the point span.
+- **Valid premise:** standard, square, and higher quadric polarizations all
+  satisfy the preceding necessary floors.
+- **Invalid inference:** the filled span can contain a fourth marked point
+  or tangent.
+- **Higher-power obstruction:** B215 separates three doubles plus one
+  reduced point at exponent six.
+- **Square-polarization obstruction:** products of four hyperplanes
+  separate a fourth point from three noncollinear doubles; the collinear
+  alternative has point rank at most five.
+- **Standard-polarization obstruction:** outside the plane contact conic,
+  a fourth tangent contributes at least \(d-2\ge2\) quotient dimensions,
+  while only one is available.
+- **Odd-layer guard:** \(s=4d+5\) has the same integral rank budget.
+- **Detector guard:** no ODP package, rational detector, specified pairing,
+  cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G161 and both layers \(4d+4,4d+5\) are closed. G148 and
+  HC remain open.
+- **Re-entry condition:** G162 begins at
+  \(s=4d+6,\delta_1=2d+3\).

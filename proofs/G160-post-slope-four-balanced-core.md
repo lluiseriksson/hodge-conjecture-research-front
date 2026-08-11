@@ -1,6 +1,6 @@
 ---
 brick_id: G160
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex d-fold X of even dimension d=2n with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,7 +13,7 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B236, G013, G090-G148, NG106-NG194, S081-S083
+dependencies: B007-B010, B134-B237, G013, G090-G148, NG106-NG195, S081-S083
 claim: For every arbitrary primitive target (X,zeta) of dimension d=2n, choose a very ample A and construct H=A^2 plus a reduced Z of N=6d+4 points satisfying the complete G144 package with slack s=4d+2, h_Z(1)=3d+2, an isomorphic full-support relation transport, a diagonally self-dual degree-one code, every ODP-profile, holonomy and finite-Kuranishi clause, rational type (0,0), and nonzero specified pairing.
 falsifier: one primitive target for which no choice of A realizes the post-slope-four balanced code together with every geometric, rationality, Hodge-type, and pairing obligation
 ---
@@ -46,3 +46,13 @@ B235 still excludes every nonstandard polarization until slack
 This remains a sufficient specialization of G148. No marked scheme,
 detector, pairing, algebraic cycle, proof, or disproof of HC is currently
 constructed.
+
+B237 exhausts the standard-quadric geometry. If a third point meets the
+initial hyperbolic plane, the tangential contact locus is one plane conic
+of point rank at most five. If every residual point is orthogonal to that
+plane, their quotient tangents force pairwise orthogonality and then fail
+full tangent absorption.
+
+Thus G160 and the adjacent odd layer \(4d+3\) are **NO-GO**. The next
+gate is G161 at \(s=4d+4,\delta_1=2d+2\), where all quadric
+polarizations re-enter. G148 and HC remain open.

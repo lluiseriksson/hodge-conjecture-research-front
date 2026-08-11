@@ -1074,16 +1074,53 @@ decomposition then shows that every fourth point candidate has a tangent
 component proportional to \(rr'-vw\) outside that span. Hence G159 and
 the odd layer \(4d+1\) are **NO-GO** (NG194).
 
-The active gate is G160:
+The next gate was G160:
 
 \[
  m=2,\qquad s=4d+2,\qquad \delta_1=2d+1,\qquad
  N=6d+4,\qquad h_Z(1)=3d+2=N/2.
 \]
 
-Only the standard quadric polarization survives this test through
-\(s=4d+3\); the full ODP, Kuranishi, rational-type, and
-specified-pairing obligations remain open.
+Only the standard quadric polarization survived that test. B237 gives an
+exhaustive contact dichotomy. A third point meeting the initial
+hyperbolic plane makes the entire contact locus one plane conic, of point
+rank at most five. If every residual point is orthogonal to the initial
+pair, the quotient tangents force total orthogonality and then fail full
+tangent absorption. Thus G160 and the odd layer \(4d+3\) are **NO-GO**
+(NG195), and
+
+\[
+ s\ge4d+4.
+\]
+
+The next gate was G161:
+
+\[
+ m=2,\qquad s=4d+4,\qquad \delta_1=2d+2,\qquad
+ N=6d+6,\qquad h_Z(1)=3d+3=N/2.
+\]
+
+This was the first threshold where three independent tangent osculators
+fit exactly and every quadric polarization re-entered. B238 excludes
+them all: B215 handles \(O_Q(k\ge3)\), explicit quartic products handle
+\(O_Q(2)\), and the standard contact-locus quotient contributes at least
+\(d-2\ge2\) dimensions where only one is available. Thus G161 and
+\(4d+5\) are **NO-GO** (NG196), and
+
+\[
+ s\ge4d+6.
+\]
+
+The active gate is G162:
+
+\[
+ m=2,\qquad s=4d+6,\qquad \delta_1=2d+3,\qquad
+ N=6d+8,\qquad h_Z(1)=3d+4=N/2.
+\]
+
+At this boundary, exponent-six systems make three doubles plus one point
+fill the span but do not automatically separate another point. All
+detector obligations remain open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1679,6 +1716,8 @@ python verification/verify_B233_one_extra_span.py
 python verification/verify_B234_two_extra_span.py
 python verification/verify_B235_slope_four_floor.py
 python verification/verify_B236_boundary_rigidity.py
+python verification/verify_B237_contact_dichotomy.py
+python verification/verify_B238_three_double_boundary.py
 ```
 
 The repository verifier checks the required directory topology, result

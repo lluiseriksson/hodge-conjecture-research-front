@@ -1177,9 +1177,22 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G159 - NO-GO: the layers \(s=4d\) and \(s=4d+1\) fail on every valid
   even quadric.
 - NG194 - NO-GO: equality in B235's floor does not realize G148.
-- G160 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=4d+2,\delta_1=2d+1\) and construct the balanced
-  length-\(6d+4\), dimension-\(3d+2\) self-dual code with every detector
+- B237 - PROVED: the post-boundary contact dichotomy gives either a plane
+  conic of rank at most five or an impossible orthogonal residual
+  configuration; hence \(s\ge4d+4\).
+- G160 - NO-GO: the layers \(s=4d+2\) and \(s=4d+3\) fail on every valid
+  even quadric.
+- NG195 - NO-GO: one extra dimension after the slope-four boundary does
+  not realize G148.
+- B238 - PROVED: the exact three-double boundary fails for every quadric
+  polarization; hence \(m=2\) requires \(s\ge4d+6\).
+- G161 - NO-GO: the layers \(s=4d+4\) and \(s=4d+5\) fail on every valid
+  even quadric.
+- NG196 - NO-GO: exact accommodation of three tangent osculators does not
+  realize G148.
+- G162 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=4d+6,\delta_1=2d+3\) and construct the balanced
+  length-\(6d+8\), dimension-\(3d+4\) self-dual code with every detector
   clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`

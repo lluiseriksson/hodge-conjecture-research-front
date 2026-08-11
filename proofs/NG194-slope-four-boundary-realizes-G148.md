@@ -35,5 +35,5 @@ falsifier: B236 proves that equality forces three tangent osculators to fill the
   algebraic cycle, proof, or disproof of HC is produced.
 - **Conclusion:** G159 and both layers \(4d,4d+1\) are **NO-GO**. G148
   and HC remain open.
-- **Re-entry condition:** G160 begins at
-  \(s=4d+2,\delta_1=2d+1\).
+- **Re-entry condition:** B237 later excludes G160 and its odd neighbor;
+  move to G161.

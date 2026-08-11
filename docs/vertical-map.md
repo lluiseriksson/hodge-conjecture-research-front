@@ -1810,18 +1810,55 @@ has the nonzero complementary component \(rr'-vw\). Therefore
  m=2\Longrightarrow s\ge4d+2. \tag{***********************************************************************}
 \]
 
-The next balanced boundary is
+The next boundary surviving B236 is
 
 \[
  \delta_1=2d+1,\qquad N=6d+4,\qquad
  \dim E_1=3d+2=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{************************************************************************}
 \]
 
+B237 excludes this boundary and its odd neighbor through an exhaustive
+dichotomy. If a third point is not orthogonal to the initial hyperbolic
+plane, self-adjoint annihilator duality identifies the full tangential
+contact locus with one plane conic, whose \(O(2)\) rank is at most five.
+If every residual point is orthogonal to the pair, the quotient cannot
+contain two nonorthogonal residual tangents; total orthogonality then
+contradicts full tangent absorption. Therefore
+
+\[
+ m=2\Longrightarrow s\ge4d+4. \tag{*************************************************************************}
+\]
+
+At equality, B237 leaves
+
+\[
+ \delta_1=2d+2,\qquad N=6d+6,\qquad
+ \dim E_1=3d+3=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{**************************************************************************}
+\]
+
+B238 excludes this equality and its odd neighbor. B215 separates three
+doubles plus one point for \(O_Q(k\ge3)\). Under \(O_Q(2)\), products
+of at most four hyperplanes separate a fourth point from any three
+noncollinear doubles. Under \(O_Q(1)\), a point outside the plane contact
+conic contributes at least \(d-2\ge2\) tangent quotient dimensions,
+while only one is available. Therefore
+
+\[
+ m=2\Longrightarrow s\ge4d+6. \tag{***************************************************************************}
+\]
+
+The next balanced boundary is
+
+\[
+ \delta_1=2d+3,\qquad N=6d+8,\qquad
+ \dim E_1=3d+4=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{****************************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G160: construct the post-slope-four balanced core}
+ \text{G162: construct one dimension beyond three doubles}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 
