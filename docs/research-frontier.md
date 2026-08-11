@@ -524,3 +524,15 @@ discharge canonical map identification and leave G088's discriminant-stalk
 survival. B133/NG106 require a genuine vanishing-cycle relation even in the
 minimal codimension-two model. G007/NG-010 remain the concrete
 tube-concentration attempt and its class-directed incidence mismatch.
+
+The current local construction chain has reached an exact all-order form.
+B155--B158 identify smooth rank-\(R\) excess with \(H_\tau=0\), analytic
+syzygy lifting, and persistence of every node on a basis germ. B167--B168
+move this to the full microlocal normal cone and exclude pointwise or
+finite-jet substitutes. B169 then computes the exhaustive tracked-ODP
+case: both actual ambient microsupport absorption and absorption of the
+Migliorini--Shende envelope are equivalent to that same persistence and
+syzygy condition. NG133 therefore closes the ambient-microlocal-shortcut
+idea. The narrow unresolved geometric gate is again carrier-free
+full-linear-system construction of \(H_\tau=0\), with the rational
+type-\((0,0)\) specified Saito pairing retained independently.

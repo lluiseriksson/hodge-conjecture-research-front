@@ -40,19 +40,19 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{cubic and all-order Kuranishi vanishing G098}
 \Longleftarrow
 \text{carrier-free rank-R factorization G099}
-\Longleftarrow
+\Longleftrightarrow
 \text{full-linear-system syzygy lifting G100}
-\Longleftarrow
+\Longleftrightarrow
 \text{basis-node persistence G101}
-\Longleftarrow
+\Longleftrightarrow
 \text{Euler-rigid basis stratum G102}
-\Longleftarrow
+\Longleftrightarrow
 \text{arcwise vanishing-cycle triviality G103}
-\Longleftarrow
+\Longleftrightarrow
 \text{zero internal microsupport G104}
-\Longleftarrow
+\Longleftrightarrow
 \text{positive node-polar vanishing G105}
-\Longleftarrow
+\Longleftrightarrow
 \text{full ambient normal-cone absorption G106}
 \]
 
@@ -276,6 +276,28 @@ fibers: \(\ell(x)+y^m\) is pointwise normal to \(F_B\) along the
 intersection, while its normal cone contains the internal conormal to
 \(y=0\). G106 must prove full germwise normal-cone absorption and retain
 the nonzero relation pairing.
+
+B169 now proves that this last microlocal clause is exact, not a new
+weakening. In the exhaustive tracked-ODP neighborhood,
+
+\[
+ i^\#SS(Rh_*\mathbf Q)\subseteq0
+ \Longleftrightarrow
+ i^\#h^\dagger(0)\subseteq0
+ \Longleftrightarrow
+ F_B\subseteq D_j\ (1\le j\le N)
+ \Longleftrightarrow
+ H_\tau=0.
+\]
+
+The first equivalence uses the fact that every nodal conormal occurs in
+the actual sheaf microsupport while the latter is bounded by the full
+envelope. The branchwise \(i^\#\)-criterion then gives persistence, and
+B155--B158 give analytic syzygy lifting. NG133 therefore closes the idea
+that ambient microlocal language bypasses G100/G101. The smallest
+unresolved clause is again the carrier-free construction of \(H_\tau=0\)
+in the full linear system together with the specified nonzero Saito
+pairing.
 
 Two sufficient attacks feed G008:
 

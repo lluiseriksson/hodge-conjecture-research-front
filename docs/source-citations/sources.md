@@ -2060,6 +2060,19 @@ of algebraic maps,” *Algebraic Geometry* 5 (2018), 114–130.
   incidence \(\mathcal U\) are smooth for basepoint-free \(L\), and
   \(h:\mathcal U\to P\) is projective, so the smooth-source hypotheses used
   in B167 are satisfied.
+- B169 audit: equation (2.2) identifies the envelope fiber with covectors
+  annihilating one actual differential image; it does not take the linear
+  span of annihilators coming from distinct critical points. In an
+  exhaustive ODP neighborhood this gives exactly the zero section plus
+  the individual nodal conormals. Equation (2.6) places the singular
+  support of the pushed-forward Euler function inside the full sheaf
+  microsupport; the nonzero generic one-ODP Euler jump therefore proves
+  that every nodal conormal really occurs.
+- Inverse-image audit for B169: the coordinate description in
+  Kashiwara--Schapira Remark 6.2.8(i) gives zero \(i^\#\)-image when a
+  smooth divisor contains the smooth pullback germ. For the converse,
+  Corollary 6.4.4 applied to \(\mathbf Q_D\) detects the nonzero conormal of
+  the reduced pullback divisor, including high-order contact \(y^m=0\).
 - Scope guard: higher discriminants constrain ambient characteristic
   geometry. They do not prove microlocal absorption by a chosen
   class-directed germ, a nonzero Saito pairing, or algebraicity of a Hodge

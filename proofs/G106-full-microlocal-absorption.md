@@ -13,7 +13,7 @@ hodge_type: the retained relation functional must be rational type (0,0) after Q
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); no algebraic representative of zeta may be assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B134-B168, G090-G105, NG118-NG131
+dependencies: B134-B169, G090-G105, NG118-NG133
 claim: Construct the carrier-free class-directed full-linear-system data and prove that i-sharp SS(Rh_*Q_U) is contained in the zero section of T^*F_B, or prove the stronger sufficient inclusion for the full higher-discriminant envelope h-dagger(0_U), while retaining the superlinear uniform matroid, positive adjoint defect, nonzero primitive ambient image, rational type, and nonzero specified Saito pairing.
 falsifier: one nonzero covector in the microlocal normal-cone transform, one escaping tracked node, an untracked singularity, or loss of any detector clause
 ---
@@ -50,3 +50,14 @@ value matroid, isolated exhaustive ODPs, positive adjoint defect, nonzero
 primitive ambient image, rational type \((0,0)\), and the specified nonzero
 Saito pairing with \(\zeta\). Neither higher-discriminant support nor
 microlocal absorption supplies that pairing automatically.
+
+B169 closes the apparent weakening in (1)--(2). In the exhaustive
+tracked-ODP neighborhood required here, the envelope is exactly the union
+of the nodal conormals, each nodal conormal occurs in the actual sheaf
+microsupport, and its \(i^\#\)-image is zero exactly when that node divisor
+contains \(F_B\). Hence either absorption condition is equivalent to
+B158's persistence clause and B156's hidden-generator equation
+\(H_\tau=0\). NG133 records that the microlocal reformulation is not an
+independent shortcut. The smallest unresolved geometric clause therefore
+returns to G100/G101: construct those analytic syzygies in the full linear
+system while retaining the specified nonzero pairing.

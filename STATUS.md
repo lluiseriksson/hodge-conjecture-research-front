@@ -646,6 +646,20 @@ generation from the controlled partitioned nodal locus is not proved.**
   its higher-discriminant envelope, while retaining every detector clause.
 - NG132 - NO-GO: pointwise conormal containment, central tangent data, and
   any fixed finite jet order do not force full microlocal absorption.
+- B169 - PROVED: in an exhaustive tracked-ODP neighborhood, actual
+  ambient microsupport absorption and full-envelope absorption are both
+  equivalent to persistence of every node, \(H_\tau=0\), and analytic
+  critical-value syzygy lifting.
+- NG133 - NO-GO: ambient microlocal language does not bypass the
+  all-order syzygy obstruction; G106 collapses back to G100/G101 while the
+  specified pairing remains separate.
+- B169 - PROVED: in an exhaustive tracked-ODP neighborhood, actual
+  ambient microsupport absorption and full-envelope absorption are both
+  equivalent to persistence of every node, \(H_\tau=0\), and analytic
+  critical-value syzygy lifting.
+- NG133 - NO-GO: ambient microlocal language does not bypass the
+  all-order syzygy obstruction; G106 collapses back to G100/G101 while the
+  specified pairing remains separate.
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1167,7 +1181,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   node-polar vanishing; NG131 blocks alternating characteristic-cycle and
   Euler-index shortcuts. B167-B168/G106 move the gate to full ambient
   normal-cone absorption; NG132 blocks pointwise conormal and finite-jet
-  shortcuts.
+  shortcuts. B169/NG133 then prove that exact ambient absorption is
+  equivalent to G100/G101's all-order syzygy lifting, so it supplies no
+  independent weakening.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

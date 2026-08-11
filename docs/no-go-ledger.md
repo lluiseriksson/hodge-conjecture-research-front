@@ -2468,3 +2468,27 @@
 - **Re-entry condition:** prove the full normal-cone inclusion of G106,
   not pointwise or finite-order conormal absorption, and separately retain
   the specified pairing.
+
+## NG-133 - Treat ambient microlocal absorption as a syzygy shortcut
+
+- **Label:** NO-GO
+- **Route:** use ambient sheaf microsupport or the higher-discriminant
+  envelope to prove G106 without establishing the all-order critical-value
+  identities of G100/G101.
+- **Valid input:** B167 makes zero \(i^\#\)-image sufficient, and the
+  Migliorini--Shende envelope is geometric and computable from critical
+  tangent images.
+- **Invalid inference:** microlocal absorption is strictly weaker than
+  persistence of every tracked node.
+- **Precise obstruction:** B169 computes the exhaustive ODP envelope as
+  the union of the nodal conormals and proves branchwise that
+  \(i^\#T^*_{D_j}P\) is zero exactly when \(F_B\subseteq D_j\). Every such
+  conormal also occurs in \(SS(Rh_*\mathbf Q)\) by the nonzero one-ODP Euler
+  jump. Hence both ambient absorption conditions are equivalent to
+  \(H_\tau=0\) and analytic syzygy lifting.
+- **Scope guard:** the equivalence neither disproves the existence of the
+  syzygies nor supplies the rational type, primitive image, or specified
+  pairing.
+- **Re-entry condition:** solve G100/G101 in the full linear system with
+  all detector clauses retained; no separate microlocal shortcut remains
+  under the tracked-ODP hypotheses.
