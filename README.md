@@ -1204,15 +1204,33 @@ quotients fail for \(d\ge8\).
 Thus \(Q^8\) excludes every very ample polarization. It falsifies G166's
 universal claim and the equal-rank odd layer \(4d+13\) (NG201).
 
-The active gate is G167:
+The next gate was G167:
 
 \[
  m=2,\qquad s=4d+14,\qquad \delta_1=2d+7,\qquad
  N=6d+16,\qquad h_Z(1)=3d+8=N/2.
 \]
 
-All polarizations re-enter at this new rank. Every geometric and
-detector obligation remains open.
+B244 shows that continuing through fixed additive slope-four layers
+cannot work. On every even \(Q^d\), \(d\ge8\), the standard polarization
+forces \(h_Z(1)\ge4d\), and equality has contact locus only two residual
+points or one plane conic plus one point. Every nonstandard polarization
+forces \(h_Z(1)\ge4d+4\). Therefore every degree-two candidate satisfies
+
+\[
+ s\ge6d.
+\]
+
+This closes G167 and every layer \(s\le6d-1\) (NG202). The active gate
+is G168:
+
+\[
+ m=2,\qquad s=6d,\qquad \delta_1=3d,\qquad
+ N=8d+2,\qquad h_Z(1)=4d+1=N/2.
+\]
+
+Only the standard quadric polarization survives the necessary test at
+this exact rank; every geometric and detector obligation remains open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -1815,6 +1833,7 @@ python verification/verify_B240_two_beyond_three_double.py
 python verification/verify_B241_G164_polarization_reduction.py
 python verification/verify_B242_square_G164_exclusion.py
 python verification/verify_B243_quadric_G166_exclusion.py
+python verification/verify_B244_slope_six_floor.py
 ```
 
 The repository verifier checks the required directory topology, result

@@ -3930,3 +3930,27 @@
   and HC remain open.
 - **Re-entry condition:** G167 begins at
   \(s=4d+14,\delta_1=2d+7,N=6d+16,h_Z(1)=3d+8\).
+
+## NG-202 - Survive below the slope-six quadric floor
+
+- **Label:** NO-GO
+- **Route:** continue through G167 or any fixed additive extension of the
+  slope-four degree-two branch.
+- **Valid premise:** each two slack units add one balanced point-span
+  dimension.
+- **Invalid inference:** finitely many such dimensions absorb a fourth
+  tangent block as the quadric dimension grows.
+- **Nonstandard obstruction:** every \(O_Q(k\ge2)\) candidate has point
+  rank at least \(4d+4\), hence slack at least \(6d+6\).
+- **Standard obstruction:** point rank is at least \(4d\); at equality,
+  the residual quotient contains only two points or the contact locus is
+  one plane conic plus one point.
+- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge8\), forces
+  \(s\ge6d\). Success in another special family would not reduce the
+  general problem.
+- **Detector guard:** no ODP package, rational detector, specified
+  pairing, cycle, proof, or disproof of HC is produced.
+- **Conclusion:** G167 and every layer \(s\le6d-1\) are closed. G148 and
+  HC remain open.
+- **Re-entry condition:** G168 begins at
+  \(s=6d,\delta_1=3d,N=8d+2,h_Z(1)=4d+1\).

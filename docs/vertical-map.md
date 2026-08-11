@@ -1929,18 +1929,30 @@ B243 closes this rank on \(Q^8\). Four-double interpolation excludes
 has rank at least \(d-2\ge2\), while only one dimension remains; and the
 standard tangent quotient inequalities exclude \(k=1\) for \(d\ge8\).
 Hence G166 and the odd layer \(4d+13\) are NO-GO. The next balanced
-signature is
+signature was
 
 \[
  \delta_1=2d+7,\qquad N=6d+16,\qquad
  \dim E_1=3d+8=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{***********************************************************************************}
 \]
 
+B244 replaces the fixed-additive continuation by a slope-six floor. For
+every even \(d\ge8\), standard quadrics force point rank at least \(4d\)
+and exclude equality, while all nonstandard polarizations force point
+rank at least \(4d+4\). Consequently every degree-two candidate has
+\(s\ge6d\), closing G167 and every layer \(s\le6d-1\). The next
+balanced signature is
+
+\[
+ \delta_1=3d,\qquad N=8d+2,\qquad
+ \dim E_1=4d+1=N/2,\qquad E_1=E_1^{\perp_\lambda}. \tag{************************************************************************************}
+\]
+
 Thus the corrected vertical branch is
 
 \[
  \text{G148}\Longleftarrow
- \text{G167: construct five dimensions beyond three doubles}
+ \text{G168: construct the slope-six balanced core}
  \text{ with every detector clause}. \tag{*************************************************************}
 \]
 

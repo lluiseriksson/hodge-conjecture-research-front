@@ -1222,9 +1222,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G166 - NO-GO: the layers \(s=4d+12\) and \(s=4d+13\) fail on the valid
   \(Q^8\) universal-quantifier test.
 - NG201 - NO-GO: no quadric polarization can rescue G166.
-- G167 - EXPLORATORY, active smallest branch: use
-  \(m=2,s=4d+14,\delta_1=2d+7\) and construct the balanced
-  length-\(6d+16\), dimension-\(3d+8\) self-dual code with every detector
+- B244 - PROVED: standard quadrics force point rank at least \(4d\) and
+  exclude equality; nonstandard polarizations force rank at least
+  \(4d+4\). Hence every degree-two quadric candidate has \(s\ge6d\).
+- G167 - NO-GO: its fixed-additive slope-four layer lies below the
+  slope-six floor on every valid even quadric of dimension at least eight.
+- NG202 - NO-GO: no m=2 quadric candidate survives with \(s\le6d-1\).
+- G168 - EXPLORATORY, active smallest branch: use
+  \(m=2,s=6d,\delta_1=3d\) and construct the balanced
+  length-\(8d+2\), dimension-\(4d+1\) self-dual code with every detector
   clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
