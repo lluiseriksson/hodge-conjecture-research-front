@@ -5,8 +5,8 @@ base_field: C
 variety: the smooth even-dimensional quadric X=Q^d with d=2n>=16, primitive ruling difference zeta=a-b, standard A=O_Q(1), and H=O_Q(2)
 smoothness: Q^d and the reduced marked scheme are smooth; central ODP and incidence clauses remain inherited hypotheses
 projectivity: the standard quadratic embedding, residual orthogonal quadrics, five nested tangent quotient spaces, rank-one self-adjoint maps, and contact loci are projective
-dimension: dim X=d=2n>=16; no standard candidate has h_Z(1)=8d-17; the standard floor is at least 8d-16 and the common floor is B266's P(d)
-codimension: the primitive codimension-n ruling difference supplies a valid universal input; the failed route is survival with one residual dimension after B263's third escape
+dimension: dim X=d=2n>=16; no standard candidate has h_Z(1)=8d-17; the standard floor is at least 8d-16, while the audited common floor after B267 remains G190's K(d)
+codimension: the primitive codimension-n ruling difference supplies a valid universal input; the failed route is standard survival with one residual dimension after B263's third escape
 coefficient_field: Q for zeta and C for tangent jets, symmetric tensors, self-adjoint endomorphisms, and ranks
 cohomology_theory: rational singular cohomology and coherent restriction to the reduced and double marked schemes
 hodge_type: zeta is nonzero primitive rational type (n,n); no rational type-(0,0) detector is constructed
@@ -35,12 +35,15 @@ falsifier: a residual configuration below B259, more than one remaining dimensio
   \(\operatorname{Sym}^2J_3\) survives with \(\dim J_3=d-6\), so the
   next tangent contributes at least \(d-7>1\).
 - **Floor consequence:** the standard floor is \(h_Z(1)\ge8d-16\).
-- **Common-floor consequence:** B260-B266 give \(P(d)=6d+6\) for
-  \(d=14,16,18,20\) and \(P(d)=7d+6\) for every even \(d\ge22\).
+- **Common-floor guard:** B267 retracts B265, so the audited common
+  floor remains \(K(d)=6d+6\) for \(d=14,16,18,20\) and \(K(d)=7d+5\)
+  for every even \(d\ge22\).
 - **Universal-quantifier guard:** every even \(Q^d\), \(d\ge16\), is a
   valid input. No special-family result is promoted upward.
 - **Detector guard:** no ODP package, rational detector, specified
   pairing, cycle, proof, or disproof of HC is produced.
-- **Conclusion:** G191 is closed as a universal gate; the surviving
-  regimes pass to G192. G148 and HC remain open.
-- **Re-entry condition:** G192 uses B266's \(P(d)\) and survivor table.
+- **Conclusion:** the standard tie at \(d=22\) is removed from G190,
+  but its planar cubic/quartic branch remains open. G148 and HC remain
+  open.
+- **Re-entry condition:** G190 retains only \(k=3,4\) at its
+  high-dimensional equality after B266-B267.

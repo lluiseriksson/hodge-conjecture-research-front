@@ -1484,44 +1484,40 @@ six supports into one \(\mathbf P^2\) through \(u\). Hence cubic or
 quartic equality at \(7d+5\) is now confined to that planar locus;
 G190 remains open there.
 
-B265 closes the planar residual case. A connected selected graph has
-two distinct secant lines in the plane; after normalizing their
-hyperplanes at \(u\), their first jets differ. The corresponding
-annihilator graph planes meet in dimension one, so the two images have
-combined rank \(d\). Thus cubic and quartic floors rise to \(7d+6\),
-G190 is **NO-GO** (NG223), and the active gate G191 has
+B265's claimed planar separation is **RETRACTED / NO-GO** (NG223).
+B267 performs the missing square-zero jet multiplication. If
+\(P=\prod_g\ell_g\) and edge \(e\) varies, then
 
 \[
-M(d)=
+(1,\lambda_e)(1,\Lambda-\lambda_e)=(1,\Lambda)=j(P).
+\]
+
+Thus every planar variable-edge image is the same space
+\(\langle j(P)\rangle\oplus\operatorname{Ann}(U)\), of rank \(d-1\).
+The complementary-unit differences used in B265 cancel exactly with
+the restored variable factor. Consequently the claimed floor
+\(7d+6\) and the transitions to G191/G192 do not follow.
+
+B266 remains independently valid for the standard polarization: it
+excludes \(h_Z(1)=8d-17\) for every even \(d\ge16\), because three
+minimal escapes leave one dimension while the fourth contributes at
+least \(d-7\). It removes the standard tie at \(d=22\), but it does not
+close the planar cubic/quartic branch.
+
+The active gate is restored to G190 with audited common floor
+
+\[
+K(d)=
 \begin{cases}
 6d+6,&d=14,16,18,20,\\
-159,&d=22,\\
-7d+6,&d\ge24\text{ even}.
+7d+5,&d\ge22\text{ even}.
 \end{cases}
 \]
 
-Equality leaves only the square polarization in the four low
-dimensions, the standard polarization at \(d=22\), and the cubic or
-quartic polarization for even \(d\ge24\). This remains only a
-necessary special-input obstruction.
-
-B266 excludes the next standard value \(8d-17\) for every even
-\(d\ge16\). Three minimal escapes leave only one dimension, while the
-fourth contributes at least \(d-7\); any earlier fill has quadratic
-point rank at most 36. Thus G191 is **NO-GO** (NG224), and the active
-gate G192 has
-
-\[
-P(d)=
-\begin{cases}
-6d+6,&d=14,16,18,20,\\
-7d+6,&d\ge22\text{ even}.
-\end{cases}
-\]
-
-Equality leaves \(k=2\) in the four low dimensions, \(k=1,3,4\) at
-\(d=22\), and \(k=3,4\) for even \(d\ge24\). Every detector and cycle
-obligation remains open.
+Equality leaves \(k=2\) in the four low dimensions and only the
+B264 planar \(k=3,4\) branch for every even \(d\ge22\). G191 and G192
+are retained only as CONDITIONAL downstream boundaries. Every detector
+and cycle obligation remains open.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -2148,6 +2144,7 @@ python verification/verify_NG222_single_edge_kernel.py
 python verification/verify_B264_two_edge_jet_dichotomy.py
 python verification/verify_B265_planar_two_edge_unit.py
 python verification/verify_B266_standard_one_beyond_third_escape.py
+python verification/verify_B267_planar_product_jet_cancellation.py
 ```
 
 The repository verifier checks the required directory topology, result

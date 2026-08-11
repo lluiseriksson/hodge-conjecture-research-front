@@ -5,8 +5,8 @@ base_field: C
 variety: the smooth even-dimensional quadric X=Q^d with d=2n>=16, primitive ruling difference zeta=a-b, arbitrary very ample A=O_Q(k), and H=A^2
 smoothness: Q^d and the reduced marked scheme are smooth; central ODP and incidence clauses remain inherited hypotheses
 projectivity: complete quadric embeddings, residual orthogonal quadrics, five nested tangent quotient spaces, self-adjoint annihilators, rank-one maps, and projective-seven-space contact bounds are projective
-dimension: dim X=d=2n>=16; the standard polarization has h_Z(1)>=8d-16; the common floor is P(d)=6d+6 for d=14,16,18,20 and P(d)=7d+6 for every even d>=22
-codimension: the primitive codimension-n ruling difference supplies a valid universal input; excluding the d=22 rank-159 standard equality closes G191 as a universal gate and leaves low square, a d=22 standard/cubic/quartic tie, and high cubic/quartic regimes
+dimension: dim X=d=2n>=16; the standard polarization has h_Z(1)>=8d-16; after the B265 retraction the audited common floor remains K(d)=6d+6 for d=14,16,18,20 and K(d)=7d+5 for every even d>=22
+codimension: the primitive codimension-n ruling difference supplies a valid universal input; excluding the d=22 rank-159 standard equality removes the standard branch from G190 but does not exclude its planar cubic/quartic equality branch
 coefficient_field: Q for zeta and C for tangent jets, symmetric tensors, self-adjoint endomorphisms, and ranks
 cohomology_theory: rational singular cohomology and coherent restriction to reduced and double finite schemes
 hodge_type: zeta is nonzero primitive rational type (n,n); no rational type-(0,0) detector is constructed
@@ -14,8 +14,8 @@ cycle_class_map: CH^n(Q^(2n))_Q -> H^(2n)(Q^(2n),Q(n)); the ruling difference on
 cycle_equivalence: rational equivalence
 scope: absolute
 dependencies: B231, B237, B245-B265, S081
-claim: On (Q^d,a-b), d even and at least sixteen, the standard polarization cannot realize h_Z(1)=8d-17 with every marked tangent osculator absorbed. Hence its floor is h_Z(1)>=8d-16. Together with B260-B265, the common floor is P(d)=6d+6 for d=14,16,18,20 and P(d)=7d+6 for every even d>=22. G191 is NO-GO as a universal gate.
-falsifier: a residual Q^(d-2) configuration below B259's floor, a mixed branch exceeding the q+2 budget classification, failure of the fourth descended Sym^2(J) escape, quadratic point rank above 36 on P^7, a standard rank-(8d-17) candidate, or a different common floor
+claim: On (Q^d,a-b), d even and at least sixteen, the standard polarization cannot realize h_Z(1)=8d-17 with every marked tangent osculator absorbed. Hence its floor is h_Z(1)>=8d-16. After B267 retracts B265, this valid standard exclusion sharpens G190 at d=22 but does not change its audited common floor K(d) or close the planar cubic/quartic branch.
+falsifier: a residual Q^(d-2) configuration below B259's floor, a mixed branch exceeding the q+2 budget classification, failure of the fourth descended Sym^2(J) escape, quadratic point rank above 36 on P^7, or a standard rank-(8d-17) candidate
 ---
 
 # B266 — One dimension beyond the third escape is impossible
@@ -99,20 +99,22 @@ contradicting (7). Therefore
  \quad(d\ge16\text{ even}). \tag{9}
 \]
 
-## The updated common boundary
+## Effect after the B265 retraction
 
-Together with B260-B265, (9) gives
+B267 shows that B265 did not raise the cubic/quartic floor. The audited
+common boundary therefore remains
 
 \[
- P(d)=
+ K(d)=
  \begin{cases}
  6d+6,&d=14,16,18,20,\\
- 7d+6,&d\ge22\text{ even}.
+ 7d+5,&d\ge22\text{ even}.
  \end{cases} \tag{10}
 \]
 
-Only \(k=2\) survives at equality in dimensions \(14,16,18,20\). At
-\(d=22\), \(k=1,3,4\) survive, while only \(k=3,4\) survive for every
-even \(d\ge24\). B266 is a necessary special-input obstruction. It
+Only \(k=2\) survives at equality in dimensions \(14,16,18,20\), and
+only \(k=3,4\) survive for every even \(d\ge22\). Equation (9) removes
+the former standard tie at \(d=22\), but the planar cubic/quartic branch
+keeps G190 open. B266 is a necessary special-input obstruction. It
 constructs no ODP package, rational detector, specified pairing,
 algebraic cycle, proof, or disproof of HC.

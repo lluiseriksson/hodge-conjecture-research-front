@@ -2192,37 +2192,35 @@ by itself improve B261: a totally orthogonal split configuration keeps
 the tangent-hyperplane kernel in every edge space. The next justified
 subgate is therefore a multi-edge image-sum theorem. B264 proves that
 the sum of two edge images has rank at least \(d\) unless all six
-supports lie in one \(\mathbf P^2\) through \(u\). The smallest live
-brick is then the planar residual locus. B265 closes it: two distinct
-selected secants have different normalized unit jets, so their
-annihilator graph planes meet in dimension one and their images again
-have combined rank \(d\). Thus the cubic/quartic floors are \(7d+6\),
-G190 is NO-GO, and the corrected branch is
+supports lie in one \(\mathbf P^2\) through \(u\).
+
+B265 formerly claimed to close that planar residual locus. B267
+retracts it by restoring the omitted variable-factor jet. With
+\(j(\ell_e)=(1,\lambda_e)\) and complementary product jet
+\((1,\Lambda-\lambda_e)\), their product is the common jet
+\((1,\Lambda)=j(P)\). Hence every planar edge image is
+
+\[
+ \langle j(P)\rangle\oplus\operatorname{Ann}(U),
+ \qquad\text{of rank }d-1,
+\]
+
+and all such images coincide. The claimed cubic/quartic floor
+\(7d+6\) and the G190-to-G191 transition are invalid.
+
+B266 independently excludes the standard value \(8d-17\) for even
+\(d\ge16\): after three minimal escapes only one dimension remains,
+below the fourth rank \(d-7\). It removes the standard tie at \(d=22\)
+without changing the common floor. The corrected active branch is
 
 \[
  \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
- \Longleftarrow\text{G191: construct the square/standard/cubic boundary}
- \Longleftarrow\text{piecewise equality classification plus the full G144 package}.
+ \Longleftarrow\text{G190: planar cubic/quartic equality plus the full G144 package}.
 \]
 
-The smallest live equality classes are now square \(k=2\) in
-dimensions \(14,16,18,20\), standard \(k=1\) in dimension \(22\), and
-cubic/quartic \(k=3,4\) in every even dimension at least \(24\).
-
-B266 excludes the standard value \(8d-17\) for even \(d\ge16\): after
-three minimal escapes only one dimension remains, below the fourth
-rank \(d-7\), while every filled alternative has point rank at most
-36. Thus G191 is NO-GO and the corrected branch is
-
-\[
- \text{HC}\Longleftarrow\text{G008}\Longleftarrow\text{G148}
- \Longleftarrow\text{G192: construct the square/cubic boundary}
- \Longleftarrow\text{piecewise equality classification plus the full G144 package}.
-\]
-
-At G192 the survivors are \(k=2\) in dimensions \(14,16,18,20\),
-\(k=1,3,4\) at \(d=22\), and \(k=3,4\) in every even dimension at
-least \(24\).
+The audited survivors are \(k=2\) in dimensions \(14,16,18,20\) and
+the B264 planar \(k=3,4\) branch in every even dimension at least 22.
+G191 and G192 are conditional downstream boundaries only.
 
 Two sufficient attacks feed G008:
 

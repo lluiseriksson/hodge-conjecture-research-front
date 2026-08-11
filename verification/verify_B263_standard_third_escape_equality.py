@@ -66,7 +66,7 @@ require(
 )
 require(
     "proofs/G190-square-cubic-piecewise-boundary.md",
-    ("brick_id: G190", "status: NO-GO", "K(d)", "B265"),
+    ("brick_id: G190", "status: EXPLORATORY", "K(d)", "B267"),
 )
 require(
     "proofs/NG221-standard-third-escape-equality-survival.md",

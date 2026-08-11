@@ -4486,30 +4486,26 @@
 - **Re-entry condition:** combine at least two variable-edge images or
   exclude the totally orthogonal configuration using stronger geometry.
 
-## NG-223 - Planar cubic/quartic equality survival
+## NG-223 - Distinct complementary units separate planar jets
 
 - **Label:** NO-GO
-- **Route:** retain cubic or quartic equality \(h_Z(1)=7d+5\) by placing
-  the six independent-double supports in B264's \(\mathbf P^2\) through
-  the seventh point.
-- **Valid premise:** all endpoint tangent planes then coincide, so B264's
-  projected-plane comparison alone is inconclusive.
-- **Invalid inference:** the fixed unit jets for different variable
-  edges define the same annihilator graph.
-- **Secant obstruction:** connectivity and the no-collinear-triple
-  condition provide two distinct selected pair lines in the plane.
-- **Unit obstruction:** their normalized equations have different first
-  jets; the two fixed products differ by exactly those factor jets.
-- **Rank consequence:** the annihilator graph planes intersect in
-  dimension one, so the two variable-edge images have combined rank
-  \(d\) and force \(h_Z(1)\ge7d+6\).
-- **Universal-quantifier guard:** every even \(Q^d\), \(d\ge14\), is a
-  valid input. No special-family result is promoted upward.
+- **Attempted route:** compare complementary products for two distinct
+  planar secants and infer different annihilator graph planes.
+- **Valid premise:** their complementary unit jets are
+  \((1,\Lambda-\lambda_e)\) and vary with \(e\).
+- **Invalid inference:** these complementary jets are the unit
+  generators of the complete variable-edge product images.
+- **Missing factor:** restoring the variable edge gives
+  \((1,\lambda_e)(1,\Lambda-\lambda_e)=(1,\Lambda)\).
+- **Exact obstruction:** every planar image is
+  \(\langle(1,\Lambda)\rangle\oplus\operatorname{Ann}(U)\), of rank
+  \(d-1\), independently of the edge.
+- **Consequence:** B265's former rank \(d\), floor \(7d+6\), and G190
+  closure are retracted. G191 and G192 are conditional only.
 - **Detector guard:** no ODP package, rational detector, specified
   pairing, cycle, proof, or disproof of HC is produced.
-- **Conclusion:** G190 is closed as a universal gate; the surviving
-  regimes pass to G191. G148 and HC remain open.
-- **Re-entry condition:** G191 uses B265's \(M(d)\) and survivor table.
+- **Re-entry condition:** attack G190 with sections outside the
+  single-factor variable-edge product span.
 
 ## NG-224 - One residual dimension after the third escape
 
@@ -4528,12 +4524,15 @@
   \(\operatorname{Sym}^2J_3\) survives with \(\dim J_3=d-6\), so the
   next tangent contributes at least \(d-7>1\).
 - **Floor consequence:** the standard floor is \(h_Z(1)\ge8d-16\).
-- **Common-floor consequence:** B260-B266 give \(P(d)=6d+6\) for
-  \(d=14,16,18,20\) and \(P(d)=7d+6\) for every even \(d\ge22\).
+- **Common-floor guard:** B267 retracts B265, so the audited common floor
+  remains \(K(d)=6d+6\) for \(d=14,16,18,20\) and \(K(d)=7d+5\) for
+  every even \(d\ge22\).
 - **Universal-quantifier guard:** every even \(Q^d\), \(d\ge16\), is a
   valid input. No special-family result is promoted upward.
 - **Detector guard:** no ODP package, rational detector, specified
   pairing, cycle, proof, or disproof of HC is produced.
-- **Conclusion:** G191 is closed as a universal gate; the surviving
-  regimes pass to G192. G148 and HC remain open.
-- **Re-entry condition:** G192 uses B266's \(P(d)\) and survivor table.
+- **Conclusion:** the standard tie at \(d=22\) is removed from G190,
+  but its planar cubic/quartic branch remains open. G148 and HC remain
+  open.
+- **Re-entry condition:** G190 retains only \(k=3,4\) at its
+  high-dimensional equality after B266-B267.

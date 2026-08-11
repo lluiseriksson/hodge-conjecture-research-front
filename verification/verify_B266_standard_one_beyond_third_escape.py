@@ -23,8 +23,8 @@ for d in range(16, 102, 2):
 for d in range(14, 102, 2):
     standard = 8 * d - 16 if d >= 16 else 8 * d - 17
     square = 7 * d + 7 if d >= 22 else 6 * d + 6
-    cubic = 7 * d + 6
-    quartic = 7 * d + 6
+    cubic = 7 * d + 5
+    quartic = 7 * d + 5
     higher = 7 * d + 7
     values = {1: standard, 2: square, 3: cubic, 4: quartic, 5: higher}
     floor = min(values.values())
@@ -32,11 +32,8 @@ for d in range(14, 102, 2):
     if d in (14, 16, 18, 20):
         expected = 6 * d + 6
         survivors = {2}
-    elif d == 22:
-        expected = 7 * d + 6
-        survivors = {1, 3, 4}
     else:
-        expected = 7 * d + 6
+        expected = 7 * d + 5
         survivors = {3, 4}
 
     assert floor == expected
@@ -57,20 +54,21 @@ require(
         "(3d-14)-(3d-15)=1",
         "d-7>1",
         "h_Z(1)\\ge8d-16",
+        "keeps G190 open",
         "proof, or disproof of HC",
     ),
 )
 require(
     "proofs/G191-square-standard-cubic-boundary.md",
-    ("brick_id: G191", "status: NO-GO", "B266", "G192"),
+    ("brick_id: G191", "status: CONDITIONAL", "B267", "inactive"),
 )
 require(
     "proofs/G192-square-cubic-boundary.md",
-    ("brick_id: G192", "status: EXPLORATORY", "P(d)", "A=O_Q(3),O_Q(4)"),
+    ("brick_id: G192", "status: CONDITIONAL", "P(d)", "inactive"),
 )
 require(
     "proofs/NG224-standard-one-beyond-third-escape-survival.md",
-    ("brick_id: NG224", "status: NO-GO", "d-7>1", "G192"),
+    ("brick_id: NG224", "status: NO-GO", "d-7>1", "G190"),
 )
 
-print("PASS: B266 one beyond third escape, G191-G192, and NG224")
+print("PASS: B266 standard exclusion after B265 retraction and NG224")

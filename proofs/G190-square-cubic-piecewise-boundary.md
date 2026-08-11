@@ -1,6 +1,6 @@
 ---
 brick_id: G190
-status: NO-GO
+status: EXPLORATORY
 base_field: C
 variety: an arbitrary smooth projective complex d-fold X of even dimension d=2n>=14 with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A, with H=A^2
 smoothness: X and Z are smooth and reduced; the central H^2 divisor must have prescribed isolated ODPs and every retained G144 incidence-smoothness clause
@@ -13,9 +13,9 @@ hodge_type: the full-support degree-two relation must be rational type (0,0) and
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative
-dependencies: B007-B010, B134-B265, G013, G090-G148, G172, NG106-NG223, S081-S083
-claim: No universal G144 package exists at B263's piecewise floor K(d); B265 excludes cubic and quartic equality h_Z(1)=7d+5 on every even quadric and therefore leaves no polarization at K(d) in even dimension d>=24.
-falsifier: one complete G190 package on every valid primitive input, in particular a rank-(7d+5) candidate on every even Q^d with d>=24
+dependencies: B007-B010, B134-B267, G013, G090-G148, G172, NG106-NG224, S081-S083
+claim: For every arbitrary primitive target (X,zeta) of even dimension d>=14, choose A and construct the complete G144 package at m=2, h_Z(1)=K(d), delta_1=K(d)-d-1, slack s_4(d)=2(K(d)-d-1), and N=2K(d), retaining the full relation, ODP, Kuranishi, rational-type, and nonzero specified-pairing clauses.
+falsifier: one primitive target for which no polarization realizes the piecewise package; after B266-B267, even quadrics leave k=2 for d=14,16,18,20 and only the planar k=3,4 branch for every even d>=22
 ---
 
 # G190 — The square/cubic piecewise boundary
@@ -57,9 +57,11 @@ six independent-double supports lie in a projective plane through the
 seventh point. Classifying or excluding that planar locus is now the
 narrowest branch of G190.
 
-B265 excludes the planar locus as well: two distinct selected secants
-have different normalized unit jets, so their annihilator graph planes
-intersect in dimension one and their images have combined rank \(d\).
-Thus cubic/quartic equality \(7d+5\) is impossible. G190 is NO-GO as a
-universal gate, and the surviving piecewise regimes pass to G191. No
-detector, pairing, cycle, proof, or disproof of HC is produced.
+B265 formerly claimed to exclude the planar locus, but B267 retracts
+that argument. Restoring the removed variable factor cancels the
+complementary-unit jet difference, and every planar edge image is the
+same rank-\((d-1)\) space. B266 independently removes the standard tie
+at \(d=22\), so the active high-dimensional branch is now exactly
+cubic/quartic equality on the B264 planar locus. G190 remains
+EXPLORATORY; no detector, pairing, cycle, proof, or disproof of HC is
+produced.

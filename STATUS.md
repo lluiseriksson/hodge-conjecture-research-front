@@ -1340,22 +1340,25 @@ generation from the controlled partitioned nodal locus is not proved.**
   rank at least \(d\) unless all six independent-double supports lie
   in one \(\mathbf P^2\) through \(u\); cubic/quartic equality is
   confined to that planar locus.
-- B265 - PROVED: two distinct planar secants have different normalized
-  unit jets, so their edge images have combined rank \(d\); cubic and
-  quartic floors rise to \(7d+6\).
-- G190 - NO-GO: no rank-\(7d+5\) cubic/quartic survivor exists in even
-  dimension at least 24.
-- NG223 - NO-GO: planar cubic/quartic equality survival.
+- B265 - NO-GO, retracted: the proposed planar unit separation omitted
+  the restored variable factor and its first jet.
+- NG223 - NO-GO: distinct complementary units do not separate the
+  planar product images.
+- B267 - PROVED correction: every planar edge image equals
+  \(\langle j(P)\rangle\oplus\operatorname{Ann}(U)\) and has rank
+  exactly \(d-1\); B265's floor \(7d+6\) is invalid.
 - B266 - PROVED: after three minimal standard escapes only one
   dimension remains, below the fourth rank \(d-7\); the standard floor
-  is \(8d-16\) for even \(d\ge16\).
-- G191 - NO-GO: the unique rank-159 standard survivor at \(d=22\)
-  fails.
+  is \(8d-16\) for even \(d\ge16\), removing the standard tie at
+  \(d=22\) without closing G190.
 - NG224 - NO-GO: one residual dimension after the third escape.
-- G192 - EXPLORATORY, active smallest branch: classify square equality
-  for \(d=14,16,18,20\), the standard/cubic/quartic tie at \(d=22\),
-  and cubic/quartic equality for every even \(d\ge24\), retaining every
-  G144 detector clause.
+- G190 - EXPLORATORY, restored active smallest branch: exclude or
+  classify cubic/quartic equality \(7d+5\) on B264's planar locus for
+  every even \(d\ge22\), while retaining every G144 detector clause.
+- G191 - CONDITIONAL: inactive boundary requiring a valid replacement
+  for B265.
+- G192 - CONDITIONAL: inactive downstream boundary requiring closure
+  of G190 first.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
