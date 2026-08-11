@@ -929,6 +929,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   generators.
 - NG166 - NO-GO: multiplying a lower profile always lands in the
   decomposable denominator of G134's quotient.
+- B205 - PROVED: \(\Xi\) factors through \(W_m\), kills
+  \(\mathbf Cq_F\), and under G134 vanishes exactly when every contracted
+  lower product lies in \(S_m\).
+- G135 - EXPLORATORY: prove all lower-profile contraction containments in
+  the full system while retaining G134 and the detector.
+- NG167 - NO-GO: a one-dimensional primitive profile quotient does not
+  force \(\Xi\) to vanish on its decomposable denominator.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1535,7 +1542,8 @@ generation from the controlled partitioned nodal locus is not proved.**
   B203/G133 isolate the quadratic-new minimal line; NG165 blocks counting
   any coherent lift as a minimal generator. B204/G134 identify that line
   as a primitive graded profile birth; NG166 excludes multiplication from
-  lower degrees.
+  lower degrees. B205/G135 isolate the decomposable mixed-cubic residue;
+  NG167 blocks confusing primitive quotient rank with full cubic closure.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

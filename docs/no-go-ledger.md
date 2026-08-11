@@ -3213,3 +3213,20 @@
 - **Re-entry condition:** construct a genuinely primitive nondegenerate
   profile line in G134 and retain the triple-hidden, ODP, rank, and detector
   conditions.
+
+## NG-167 - Infer mixed cubic closure from a primitive profile line
+
+- **Label:** NO-GO
+- **Route:** prove G134's one-dimensional primitive quotient and infer
+  \(\Xi=0\).
+- **Valid input:** B205 shows that the central profile line lies in
+  \(\ker\widehat\Xi_m\).
+- **Invalid inference:** the decomposable profile denominator also lies in
+  that kernel.
+- **Precise obstruction:** a product \(ew\) from a lower profile has mixed
+  contraction \(eC_{m,k}(w)\), which need not lie in the degree-\(m\) value
+  image \(S_m\).
+- **Detector guard:** a nonzero mixed cubic class obstructs reduced
+  full-incidence integration before any detector can propagate.
+- **Re-entry condition:** prove every containment in G135, then kill the
+  pure cubic tensor and all later rungs separately.

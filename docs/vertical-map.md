@@ -1131,6 +1131,32 @@ the quotient in (*****************) must be the nondegenerate line
 NG166 records that multiplication from any lower \(W_k\) is zero in this
 quotient.
 
+B205 returns from the graded birth to G131's mixed cubic block. The map
+
+\[
+\widehat\Xi_m:W_m\to
+(\mathcal T_m/S_m)\otimes\operatorname{Sym}^2U^*
+\]
+
+kills \(\mathbf Cq_F\). For \(w\in W_{m-a}\) and \(e\in E_a\),
+
+\[
+\widehat\Xi_m(ew)(b,c)
+=\left[e\,C_{m,m-a}(w)(b,c)\right].
+\]
+
+Under G134, \(\Xi=0\) is therefore equivalent to
+
+\[
+e\,C_{m,m-a}(w)\in
+S_m\otimes\operatorname{Sym}^2U^*
+\quad\text{for every }a,e,w. \tag{******************}
+\]
+
+G135 is the full lower-profile contraction gate. NG167 records that the
+one-dimensional primitive quotient controls only \(q_F\), not the
+decomposable denominator on which (******************) can fail.
+
 Two sufficient attacks feed G008:
 
 \[

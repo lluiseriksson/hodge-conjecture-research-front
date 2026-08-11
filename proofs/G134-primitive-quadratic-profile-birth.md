@@ -43,3 +43,7 @@ value relation, rational type-\((0,0)\), and the nonzero specified pairing.
 
 G134 is the smallest current graded construction obligation inside G130.
 It does not construct its profile line or imply G131's cubic filters.
+B205 shows that the mixed cubic filter is then supported entirely on the
+decomposable profile submodule. G135 records the required lower-profile
+contraction closure; NG167 prevents inferring it from primitive
+one-dimensionality alone.

@@ -735,6 +735,13 @@ G134 asks for a genuinely primitive nondegenerate line in the resulting
 degree-\(m\) quotient. NG166 excludes obtaining that line by multiplying a
 lower profile: every such product is decomposable by construction.
 
+B205 connects this graded birth to the cubic rung. The mixed map \(\Xi\)
+factors through \(W_m\), kills the central line \(\mathbf Cq_F\), and under
+G134 is zero exactly when every contracted lower product lands in the
+degree-\(m\) value image \(S_m\). G135 asks for all those containments.
+NG167 blocks the inference that a one-dimensional primitive quotient
+already kills the decomposable mixed obstruction.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1313,6 +1320,7 @@ python verification/verify_B201_cubic_filters.py
 python verification/verify_B202_selective_lift.py
 python verification/verify_B203_generator_filtration.py
 python verification/verify_B204_profile_module.py
+python verification/verify_B205_mixed_profile.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1629,6 +1637,8 @@ B203/G133 refine that kernel to the unique new double-generator line;
 NG165 separates coherent lift existence from graded minimality.
 B204/G134 express the same line as a primitive graded quadratic-profile
 birth; NG166 excludes inheritance by value multiplication.
+B205/G135 identify the remaining decomposable-profile contribution to the
+mixed cubic tensor; NG167 separates primitive birth from cubic closure.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.
