@@ -764,6 +764,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - G116 - EXPLORATORY: certify and clear the unit denominators, bound only
   the full-incidence labelled numerators, and prove their degree-controlled
   conormal jets vanish while retaining every detector clause.
+- NG148 - NO-GO: an algebraic analytic labelled value need not have a
+  simple polynomial over the original base; \(u\sqrt{1+u}\) has collided
+  conjugates and every polynomial relation has zero value derivative.
+- B184 - PROVED: on a smooth algebraic étale carrier, local numerator order
+  is at most carrier degree times numerator degree, and conormal vanishing
+  descends faithfully to the basis germ.
+- G117 - EXPLORATORY: construct that carrier from the full labelled
+  incidence, audit its degree \(\delta\) and numerator degree \(e\), and
+  prove conormal vanishing through order \(\delta e-1\) with every detector.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1330,6 +1339,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   unresolved complete idempotent complexity. B183/NG147 prove that unit
   denominators do not control conormal order, and G116 narrows the active
   effective gate to full-incidence numerator bounds and vanishing jets.
+  NG148 blocks simple elimination over the original base. B184/G117 replace
+  it by a faithfully descending étale-carrier certificate with order bound
+  \(\delta e\); the carrier construction and required jets are unresolved.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).

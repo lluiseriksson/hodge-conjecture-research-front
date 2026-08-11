@@ -32,6 +32,7 @@ source does **not** prove. Latest web retrieval date: 2026-08-11.
 | S063 | Alexander-Hirschowitz (1997) | curvilinear jet interpolation | Definition 1.1 and Theorem 1.2 checked with collision scope guard |
 | S064 | Evain (1997) | differential degeneration of zero-dimensional schemes | Theorems 13-14 and semicontinuity direction checked |
 | S071 | K. Saito (1980); Calderón-Moreno (1999); Torielli (2013) | free divisors and logarithmic derivations | Saito criterion, basis conclusion, and dimension-two scope checked |
+| S072 | Dube (1990) | effective Groebner and elimination degree bounds | official abstract, exact degree bound, and scope checked |
 
 “Seeded” means the citation is identified but no theorem depending decisively
 on it may be promoted until the exact statement and proof context are checked.

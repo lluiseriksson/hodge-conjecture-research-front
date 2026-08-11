@@ -44,3 +44,12 @@ still require effective control.
 Every uniform-matroid, adjoint-defect, primitive-image, rational-type, and
 specified-pairing clause remains attached. No numerator bound or required
 jet vanishing is currently proved.
+
+## Correction after B184/NG148
+
+The demand in item 3 for simple equations over the original basis
+coordinates is not automatic. NG148 gives an étale labelled algebra whose
+numerator conjugates collide at zero, making every eliminated value
+polynomial nonsimple. G117 replaces item 3 by an explicit algebraic étale
+carrier with bounded carrier and numerator degrees; B184 then supplies the
+finite order bound directly on that carrier.

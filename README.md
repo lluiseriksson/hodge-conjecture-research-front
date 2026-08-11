@@ -512,6 +512,18 @@ them, bound only the full-incidence numerator equations, and prove their
 required finite conormal jets vanish. No such numerator bound or vanishing
 theorem is known.
 
+NG148 exposes a second overreach: algebraic analytic does not imply a
+simple value polynomial over the original basis. On the étale algebra
+\(\lambda^2=1+u\), the numerator \(u\lambda=u\sqrt{1+u}\) has minimal
+polynomial \(z^2-u^2(1+u)\), whose two conjugate values collide at zero;
+every polynomial relation therefore has zero \(z\)-derivative there.
+B184 avoids eliminating the label. On a smooth algebraic étale carrier of
+projective degree \(\delta\), a cleared polynomial numerator of degree
+\(e\) has order at most \(\delta e\) by a generic curve section and
+Bézout. Conormal vanishing descends faithfully from the carrier. G117 is
+the corrected active gate: construct the full-incidence carrier, audit
+\(\delta,e\), and prove its conormal jets through order \(\delta e-1\).
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1071,6 +1083,7 @@ python verification/verify_B180_effective_algebraic_bound.py
 python verification/verify_B181_resultant_collision.py
 python verification/verify_B182_etale_idempotents.py
 python verification/verify_B183_unit_invariance.py
+python verification/verify_B184_etale_carrier.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1335,7 +1348,11 @@ collides the nodal labels. B182 closes analytic splitting, while G115/NG146
 isolate the still-open complete complexity of its idempotents. B183/NG147
 show that unit-denominator complexity is irrelevant to conormal detection;
 G116 narrows the active effective obstruction to bounded full-incidence
-numerators and their required vanishing jets.
+numerators and their required vanishing jets. NG148 then blocks demanding a
+simple value polynomial after eliminating the label. B184/G117 retain an
+étale algebraic carrier and replace that demand by the explicit
+carrier-degree bound \(\delta e\); constructing the carrier and proving the
+required jets remain open.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

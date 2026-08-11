@@ -103,3 +103,6 @@ B180 does not construct the polynomials \(P_i\) for the full critical
 incidence and does not bound their degrees after restriction to \(F_B\).
 Those elimination and coordinate bounds are the new geometric obligation.
 Without an explicit \(D\), (6) is not a finite proof certificate.
+NG148 further shows that an algebraic analytic labelled branch need not
+admit any such simple polynomial over the original basis coordinates.
+B184 supplies a separate carrier-degree certificate for that case.

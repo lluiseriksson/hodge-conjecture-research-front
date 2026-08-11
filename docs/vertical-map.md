@@ -608,6 +608,31 @@ numerators through the full incidence, and prove their conormal rows vanish
 through B180's degree-controlled order. No such numerator bound, jet
 vanishing theorem, or detector is presently known.
 
+NG148 shows that G116 still asks for too much if "presentation" means a
+simple polynomial over the original basis coordinates. On the étale cover
+\(\lambda^2=1+u\), the labelled numerator
+\(u\lambda=u\sqrt{1+u}\) has minimal polynomial
+\(z^2-u^2(1+u)\). Both conjugates specialize to zero, so every polynomial
+relation has zero \(z\)-derivative at the origin even though the cover is
+étale and the selected branch is analytic.
+
+B184 replaces simple elimination by an étale-carrier certificate. If a
+smooth algebraic carrier has projective degree \(\delta\) and its cleared
+numerators have ambient degree at most \(e\), a generic curve section and
+Bézout give
+
+\[
+ \operatorname{ord}_p N_i\le\delta e.
+\]
+
+The conormal map commutes with pointed étale faithfully flat base change,
+so vanishing through order \(\delta e-1\) on the carrier implies total
+vanishing and descends to \(F_B\). G117 is now the narrowest effective
+gate: construct that carrier from the full labelled incidence, audit
+\(\delta,e\), and prove the indicated jets while retaining every detector.
+S072 makes elimination bounds computable from explicit equations but does
+not prove any of those geometric or jet obligations.
+
 Two sufficient attacks feed G008:
 
 \[

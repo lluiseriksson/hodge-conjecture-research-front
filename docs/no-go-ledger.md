@@ -2814,3 +2814,25 @@
   clear them, and bound the resulting numerator functions through the
   full labelled incidence. The required conormal jets and every detector
   clause remain separate.
+
+## NG-148 - Algebraicity gives a simple polynomial over the base
+
+- **Label:** NO-GO
+- **Route:** eliminate every labelled étale coordinate and apply B180 to a
+  polynomial in the original basis coordinates and one value variable.
+- **Valid input:** each labelled value is an algebraic analytic branch, and
+  effective elimination supplies polynomial relations of bounded degree.
+- **Invalid inference:** one of those relations must have nonzero derivative
+  in the value variable at the collided central value.
+- **Precise obstruction:** on the étale cover
+  \(\lambda^2=1+u\), the numerator
+  \(\epsilon=u\lambda=u\sqrt{1+u}\) has order one, but its irreducible
+  polynomial is \(z^2-u^2(1+u)\). Both conjugate values specialize to zero,
+  so this polynomial and every multiple have zero \(z\)-derivative at the
+  origin.
+- **Scope guard:** this is collision of the value conjugates, not
+  ramification of the separator cover; \(2\lambda\ne0\) at both central
+  points.
+- **Re-entry condition:** retain a pointed étale algebraic carrier, express
+  the numerator regularly on it, and apply B184's carrier-degree bound as
+  required by G117. Carrier construction, jets, and detectors remain open.
