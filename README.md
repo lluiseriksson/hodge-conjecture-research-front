@@ -191,6 +191,12 @@ case into an exact dichotomy. Either one node already has local projected-jet
 defect, or every node block is surjective and all blocks factor through one
 common \(n\)-dimensional quotient. G095 asks for a carrier-free geometric
 realization of one branch; NG121 blocks the general-data shortcut.
+B152 exposes a second defect inside the synchronized branch. Polarized
+Hessian relations force the common-kernel conormal gradients into a
+dimension-\(nR\) subspace of their \(nN\)-dimensional target, and bound full
+first-jet evaluation by \((n+1)R+n\). The anchored fiber family saturates
+this bound. G096 asks for the same quotient/conormal package without a
+carrier; NG122 blocks synchronization alone.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
@@ -725,6 +731,7 @@ python verification/verify_B148_carrier_motion_rank.py
 python verification/verify_B149_oriented_half_double_defect.py
 python verification/verify_B150_partial_interpolation_scope.py
 python verification/verify_B151_synchronized_blocks.py
+python verification/verify_B152_mixed_hessian_corank.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -925,6 +932,9 @@ B150-B151/G095/NG121 then show that the needed scheme is necessarily
 special: general partial jets have maximal rank, while every rank-\(n\)
 candidate has either a local block defect or a globally synchronized
 quotient.
+B152/G096/NG122 add the mixed second-order constraint: synchronized
+quotients still require conormal corank \(n(N-R)\) before any nonlinear
+integration can be attempted.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

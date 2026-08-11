@@ -32,6 +32,8 @@ Date: 2026-08-11. Overall status: **EXPLORATORY**.
 \text{oriented half-double superabundance G094}
 \Longleftarrow
 \text{local block defect or carrier-free synchronization G095}
+\Longleftarrow
+\text{synchronized mixed-Hessian second defect G096}
 \]
 
 G088 has the proved prerequisites B131-B132; those prerequisites do not by
@@ -94,6 +96,14 @@ blocks have the same kernel and are identified through one common
 realization of either branch, followed by B146 isotropy, smooth integration,
 and the nonzero specified pairing. S063 does not allow the coalesced jets to
 be split, while S064 supplies only one-sided degeneration bounds.
+B152 then polarizes B146 in G095's synchronized branch. The mixed Hessian
+map onto \(K^*\otimes Q^*\) is surjective of rank \(n(N-R)\); hence
+common-kernel conormal gradients have rank at most \(nR\), and the full
+double-point first-jet evaluation has rank at most \((n+1)R+n\). The
+anchored product-fiber family saturates this new bound. NG122 blocks treating
+first-order synchronization as sufficient. G096 asks for a carrier-free
+realization of the synchronized quotient and mixed conormal kernel together,
+then the pure B146 quadrics, smooth integration, and nonzero pairing.
 
 Two sufficient attacks feed G008:
 

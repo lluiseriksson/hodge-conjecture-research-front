@@ -2275,3 +2275,18 @@
   \((n+1)N>R+n\).
 - **Re-entry condition:** construct a special configuration in B151's local
   defect or synchronized branch and verify all G095 conditions.
+
+## NG-122 - Treat synchronization as the full Hessian condition
+
+- **Label:** NO-GO
+- **Route:** after synchronizing all projected-gradient blocks through one
+  \(n\)-dimensional quotient, infer B146 isotropy and smooth excess.
+- **Valid input:** quotient gradients have the anchored rank pattern.
+- **Invalid inference:** common-kernel conormal gradients are unrestricted.
+- **Precise obstruction:** B152's mixed Hessian map is surjective of rank
+  \(n(N-R)\). Its kernel has dimension \(nR\), whereas an unrestricted
+  conormal target has dimension \(nN\). Synchronization can therefore coexist
+  with a nonzero B146 mixed obstruction.
+- **Re-entry condition:** realize G096's synchronized quotient and conormal
+  mixed kernel jointly, then prove pure quadratic compatibility, nonlinear
+  integration, and the specified pairing.

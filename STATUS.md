@@ -235,7 +235,9 @@ Date: 2026-08-11
   support in the stable high-power regime. B150/S062 exclude general
   projective-space orientations by maximal rank. B151/G095 split every
   special rank-\(n\) candidate into a local block defect or a globally
-  synchronized quotient; NG121 closes the general-data shortcut.
+  synchronized quotient; NG121 closes the general-data shortcut. B152/G096
+  add the synchronized mixed-Hessian conormal corank \(n(N-R)\); NG122
+  closes synchronization alone.
   Universal G028 remains the construction gate. G008
   remains the terminal-equivalent obligation.
 - **Actual progress toward the general Hodge Conjecture:** 0% - no new general
@@ -544,6 +546,13 @@ generation from the controlled partitioned nodal locus is not proved.**
   then prove B146 isotropy, smooth integration, and the specified pairing.
 - NG121 - NO-GO: general supports and orientations have maximal rank by
   S062/B150.
+- B152 - PROVED: in the synchronized branch, mixed B146 equations force
+  common-kernel conormal-gradient rank at most \(nR\), and full first-jet
+  rank at most \((n+1)R+n\).
+- G096 - EXPLORATORY: realize that synchronized quotient/conormal package
+  carrier-free, then close the pure quadrics, integration, and pairing.
+- NG122 - NO-GO: synchronization alone leaves a possible mixed Hessian
+  obstruction of rank \(n(N-R)\).
 - G013 - EXPLORATORY, active clean-nodal gate: construct at least
   a superlinear number of multipart nodes with the required two-matroid inequalities and
   a nonzero B135 residue-cokernel class paired with the specified Hodge
@@ -1023,7 +1032,7 @@ generation from the controlled partitioned nodal locus is not proved.**
   smooth-open and arbitrary-splitting comparisons are closed.
 - G088 - EXPLORATORY incidence-specific mechanism: prove discriminant-stalk
   survival of that canonical section.
-- B133-B151/G089-G095/NG106-NG121 - PROVED/EXPLORATORY/NO-GO: the minimal
+- B133-B152/G089-G096/NG106-NG122 - PROVED/EXPLORATORY/NO-GO: the minimal
   two-branch cohomological target is the residue cokernel dual to the relation
   kernel. For proportional cycles its exact coordinate is \(c a_1-a_2\);
   independent nodes, relation rank, and nonzero individual residues do not
@@ -1045,7 +1054,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   express the same gate as oriented half-double superabundance, and NG120
   excludes bounded support at high power. B150/NG121 exclude general
   orientations; B151/G095 isolate the remaining local-defect versus
-  synchronized-quotient alternatives.
+  synchronized-quotient alternatives. B152/G096 impose the second conormal
+  defect in the synchronized branch, and NG122 blocks stopping after the
+  first factorization.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
