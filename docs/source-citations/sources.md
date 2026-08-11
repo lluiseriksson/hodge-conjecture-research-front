@@ -2531,6 +2531,34 @@ doi:10.1006/jabr.1999.7940.
   no common second-osculator incidence, ODP jet package, rational Hodge
   detector, specified pairing, or cycle.
 
+## S083 - Fixed-order line contact with hypersurfaces
+
+Atsushi Ikeda, “The Varieties of Tangent Lines to Hypersurfaces in
+Projective Spaces,” *Communications in Algebra* **40** (2012), no. 10,
+3716–3725, doi:10.1080/00927872.2011.594134.
+[Published article](https://doi.org/10.1080/00927872.2011.594134),
+[arXiv:1012.2186](https://arxiv.org/abs/1012.2186).
+
+- Audited Section 2, especially the definition of \(Y_{F,m}\) and equation
+  (2.1): \(Y_{F,m}\) parameterizes pairs \((p,L)\) for which the line has
+  intersection multiplicity at least \(m\) with the hypersurface at \(p\),
+  expressed by vanishing of the first \(m\) coefficients of the restricted
+  binary form.
+- Audited the discussion following that definition: for a smooth
+  hypersurface, order at least two is exactly containment of the line
+  direction in the projective tangent space.
+- Audited Theorem 3.2: its smoothness and dimension statements concern
+  \(Y_{F,m}\) for a **general hypersurface**, with explicit degree,
+  dimension, and characteristic bounds. They are not arbitrary-variety or
+  prescribed-multipoint clique theorems.
+- B227 uses only the line-contact terminology. Its two-triple quartic
+  cokernel and second-fundamental-form criterion are proved directly in
+  secant coordinates for an arbitrary smooth complex projective variety.
+- G153 scope guard: the source constructs no complete bitangent clique on
+  an arbitrary \(X\), no self-associated evaluation code, ODP/Kuranishi
+  package, rational type-\((0,0)\) detector, specified Hodge pairing,
+  algebraic cycle, or Hodge-Conjecture reduction.
+
 ## Citation policy for incompletely audited mechanisms
 
 Spreading out, products/fibrations, and cycle-class rigidity remain recorded

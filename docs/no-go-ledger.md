@@ -3569,5 +3569,26 @@
   primitive polarization with empty defect locus.
 - **Detector guard:** this closes only the fixed-A subbranches
   G149-G151, not G148, G152, or HC.
-- **Re-entry condition:** choose an exceptional low polarization and
-  construct G152's full defect clique and detector package.
+- **Re-entry condition:** the exceptional alternative was tested by
+  G152 and closed by B228/NG187; move to G153 at slack two.
+
+## NG-187 - Use an exceptional polarization to rescue first slack
+
+- **Label:** NO-GO
+- **Route:** after powers erase the two-triple defect locus, choose a
+  low exceptional polarization separately on every primitive target.
+- **Valid correction:** B226 proves that any first-slack candidate must
+  use such an exceptional embedding.
+- **Invalid inference:** every primitive target possesses one whose
+  defect clique has the required point rank.
+- **Precise obstruction:** B228 exhausts the valid input
+  \((Q^4,a-b)\). Every \(O_Q(k)\), \(k\ge2\), has empty defect locus.
+  For \(O_Q(1)\), B227 makes every defect chord a line on \(Q\), so a
+  clique lies in an isotropic \(\mathbf P^2\); its quartic rank is at
+  most 15 rather than 16.
+- **Detector guard:** the known algebraic class \(a-b\) only certifies
+  the universal test input. The argument proves neither algebraicity
+  nor nonalgebraicity of any unknown Hodge class.
+- **Conclusion:** G149-G152's first-slack specialization is closed,
+  while G148 and HC remain open.
+- **Re-entry condition:** none at first slack; move to G153 at slack two.

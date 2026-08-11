@@ -49,4 +49,5 @@ B226/NG186 give a direct fixed-A counterexample: powered primitive
 polarizations have empty two-triple defect locus, whereas every such
 osculator configuration would be a complete clique in that locus.
 Thus G151 is **NO-GO** with its displayed universal triple quantifier.
-G152 permits the exceptional polarization to be chosen.
+G152 permitted the exceptional polarization to be chosen; B228 later
+closed that universal first-slack repair.

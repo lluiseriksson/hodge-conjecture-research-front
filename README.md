@@ -930,9 +930,29 @@ If \(A=B^\ell\) with \(\ell\ge2\), B215 makes this correspondence empty.
 The valid product input
 \((\mathbf P^n\times\mathbf P^n,O(2,2),\zeta_{\rm prim})\) therefore
 falsifies G149-G151's fixed-A universal quantifiers. NG186 records the
-failure. G152 is the corrected active gate: choose an exceptional
+failure. G152 was the corrected choice-of-polarization gate: choose an exceptional
 primitive polarization \(A\) and construct a \(2c_{2n}+2\)-vertex defect
 clique carrying the entire self-associated osculator and Hodge-detector
+package.
+
+B227 identifies the missing geometry of that defect. Ambient quartics
+on two triple points have exactly one relation, supported on the two
+quadratic chord-direction jets. On a smooth embedded \(X\), the relation
+can survive only when the secant has contact order at least three at
+both endpoints; under 4-normality this condition is exact. B228 applies
+the necessary direction to the legitimate primitive input
+\((Q^4,a-b)\). For \(A=O_Q(1)\), every defect clique lies in a maximal
+isotropic \(\mathbf P^2\), whose quartic rank is 15 rather than the
+required 16. Every \(O_Q(k)\), \(k\ge2\), was already excluded by B226.
+Thus G152 and universal first slack are **NO-GO** (NG187), not HC.
+
+B229 opens the next justified layer. At \(m=2\) and slack \(s=2\),
+\(N=4n+4\), the \(H=A^2\) point code has dimension \(2n+2\) and is
+diagonally self-dual. Every marked tangent space is a hyperplane in its
+span, every pair fails \(A^2\)-interpolation on two double neighborhoods,
+and every A-secant is bitangent. G153 is now the smallest branch:
+construct this self-associated bitangent core on every primitive target
+together with the full ODP, Kuranishi, rational-type, and specified-pairing
 package.
 
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module

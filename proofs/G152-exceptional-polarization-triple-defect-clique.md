@@ -1,6 +1,6 @@
 ---
 brick_id: G152
-status: EXPLORATORY
+status: NO-GO
 base_field: C
 variety: an arbitrary smooth projective complex 2n-fold X with a specified nonzero primitive rational middle Hodge target zeta and a to-be-chosen very ample A preserving that primitive target
 smoothness: X and Z are smooth and reduced; the H^5 divisor for H=A^2 must have isolated ODPs and every retained incidence-smoothness clause
@@ -13,7 +13,7 @@ hodge_type: the full-support degree-five relation must be rational type (0,0) an
 cycle_class_map: CH^n(X)_Q -> H^(2n)(X,Q(n)); algebraicity of zeta is not assumed
 cycle_equivalence: rational equivalence
 scope: relative and fiberwise
-dependencies: B007-B010, B134-B226, G013, G090-G148, NG106-NG186, S082
+dependencies: B007-B010, B134-B228, G013, G090-G148, NG106-NG186, S082
 claim: For every arbitrary primitive target (X,zeta), choose a very ample A for which zeta is the retained primitive target and construct H=A^2 plus a reduced Z of 2binom(2n+2,2)+2 points forming a complete clique in the A^4 two-triple defect locus, whose H^2 columns are self-associated and whose second-osculator, degree-five ODP, Kuranishi, rational-type, and specified-pairing clauses are exactly those of G151.
 falsifier: one primitive target for which no choice of very ample A admits a sufficiently large two-triple defect clique carrying all self-associated, osculator, ODP, rationality, Hodge-type, and pairing obligations
 ---
@@ -40,3 +40,10 @@ rational type-\((0,0)\), and specified-pairing clauses must hold.
 
 This is not a high-positivity problem: B226 proves that raising a very
 ample polarization power empties the required defect correspondence.
+
+B228 tests every remaining polarization on the valid primitive input
+\((Q^4,a-b)\). All powers \(O_Q(k)\), \(k\ge2\), have empty defect
+locus. For \(O_Q(1)\), B227 forces every defect chord to be a line on
+the quadric, so a complete clique lies in one isotropic \(\mathbf P^2\).
+Its quartic point rank is at most 15, below the required 16. Thus G152
+is **NO-GO** as universally quantified. G153 moves to second slack.

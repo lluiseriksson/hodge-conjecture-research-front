@@ -49,4 +49,5 @@ corrects the canonical twist without assuming the desired detector.
 B226/NG186 subsequently show that the universal fixed-A claim itself is
 false for powered primitive polarizations. The conditional weighted-Gale
 identity remains valid, but G150 is **NO-GO** as universally quantified.
-The corrected choice-of-polarization gate is G152.
+G152 tested the corrected choice-of-polarization gate; B228 later
+closed it, so the surviving branch is G153 at slack two.

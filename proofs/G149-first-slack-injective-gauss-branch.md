@@ -52,5 +52,5 @@ the falsifiable content of G149.
 B226/NG186 now falsify the fixed-A universal quantifier: if \(A=B^2\),
 then \(A^4\) separates every pair of triple neighborhoods, while every
 candidate would require failure for every pair. G149 is therefore
-**NO-GO** as stated. G152 restores an existential choice of exceptional
-primitive polarization.
+**NO-GO** as stated. G152 tested an existential choice of exceptional
+primitive polarization; B228 subsequently closed that repair as well.

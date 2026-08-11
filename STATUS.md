@@ -1114,10 +1114,22 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG186 - NO-GO: raising or fixing a powered primitive polarization
   improves two-triple separation and destroys G149-G151 rather than
   constructing them.
-- G152 - EXPLORATORY, active corrected gate: for each primitive target,
-  choose an exceptional very ample A and construct a
-  \(2c_{2n}+2\)-point two-triple defect clique carrying all
-  self-associated, osculator, ODP, rational-type, and pairing clauses.
+- G152 - NO-GO: the four-quadric input defeats every choice of A;
+  powers have empty defect locus and \(O(1)\) confines the clique to a
+  plane of quartic rank 15 below the required 16.
+- B227 - PROVED: the ambient quartic two-triple cokernel is one;
+  intrinsic defect forces the secant to have contact order at least
+  three at both endpoints, with a converse under 4-normality.
+- B228 - PROVED: \((Q^4,a-b)\) admits no first-slack configuration for
+  any very ample polarization.
+- NG187 - NO-GO: exceptional polarization does not universally rescue
+  the first-slack G149-G152 chain.
+- B229 - PROVED: at second slack, \(m=2\) is viable with a self-dual
+  length-\(4n+4\), dimension-\(2n+2\) point code and a complete
+  bitangent-secant clique obligation.
+- G153 - EXPLORATORY, active smallest branch: construct that
+  self-associated bitangent core with every degree-two ODP, Kuranishi,
+  rational-type, and specified-pairing clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.

@@ -1637,6 +1637,45 @@ remain valid. The corrected vertical branch is
 \tag{******************************************************}
 \]
 
+B227 makes the pairwise defect geometric. In secant coordinates,
+quartics on \(3p\sqcup3q\subset\mathbf P^r\) have one cokernel generated
+by the difference of the two quadratic chord jets. Its restriction to
+\(X\) can remain nonzero only when
+
+\[
+ \overline{pq}\cdot X\ge3p+3q. \tag{*******************************************************}
+\]
+
+Equivalently, the chord directions are tangent and killed by both
+projective second fundamental forms. On \(Q^4\), such a chord is a line
+on the quadric. A complete clique is therefore contained in a maximal
+isotropic \(\mathbf P^2\), so its \(O(4)\) point rank is at most 15,
+while first slack requires \(c_4+1=16\). Together with B226 for
+\(O_Q(k)\), \(k\ge2\), B228/NG187 prove
+
+\[
+ \text{G149}\Longleftarrow\text{G150}\Longleftarrow
+ \text{G151}\Longleftarrow\text{G152}\qquad\text{NO-GO}. \tag{********************************************************}
+\]
+
+The next slack value is \(s=2\). B222 shows that its smallest viable
+degree is already \(m=2\), where B229 gives
+
+\[
+ N=4n+4,\qquad \dim E_1=2n+2,\qquad
+ E_1=E_1^{\perp_\lambda}. \tag{*********************************************************}
+\]
+
+Every marked tangent osculator is a hyperplane in this span and every
+pair fails \(A^2\)-interpolation on \(2p\sqcup2q\), forcing a bitangent
+A-secant. The corrected sufficient branch is
+
+\[
+ \text{G148}\Longleftarrow
+ \text{G153: construct the second-slack self-associated bitangent core}
+ \text{ with every degree-two detector clause}. \tag{**********************************************************}
+\]
+
 Two sufficient attacks feed G008:
 
 \[
