@@ -500,6 +500,18 @@ equations. NG146 shows why rank and central separation are insufficient:
 the rank-two algebra with roots \(y^m,1\) has idempotents involving
 \((1-y^m)^{-1}\), first varying in order \(m\).
 
+B183 corrects the conormal part of that effective gate. If a labelled
+escape function is \(\epsilon_i=n_i/h_i\) with \(h_i\) a certified unit,
+then clearing \(h_i\) leaves the escape ideal unchanged and gives
+\(dn_i\equiv h_i d\epsilon_i\pmod {K_B\Omega^1}\). Hence the conormal
+defect and its first nonzero order are unit-invariant. NG147 gives the
+sharp test: \(y/(1-y^m)\) has a denominator first varying in order \(m\),
+but generates \((y)\) and has defect \(dy\bmod y\) in order zero. G116 is
+therefore the corrected active gate: certify the unit denominators, clear
+them, bound only the full-incidence numerator equations, and prove their
+required finite conormal jets vanish. No such numerator bound or vanishing
+theorem is known.
+
 B130 then applies Nori connectivity and Brogan's filtered \(D\)-module
 calculation with the exact universal-hyperplane indices. It finds the
 primitive \((r,r)\) component in
@@ -1058,6 +1070,7 @@ python verification/verify_B179_conormal_defect.py
 python verification/verify_B180_effective_algebraic_bound.py
 python verification/verify_B181_resultant_collision.py
 python verification/verify_B182_etale_idempotents.py
+python verification/verify_B183_unit_invariance.py
 ```
 
 The repository verifier checks the required directory topology, result
@@ -1319,7 +1332,10 @@ from an explicit full-incidence degree bound; NG144 shows that algebraicity
 without this complexity audit supplies no uniform order. B181/G114 add the
 prior labelled-splitting obligation; NG145 proves the value resultant
 collides the nodal labels. B182 closes analytic splitting, while G115/NG146
-isolate the still-open effective complexity of its idempotents.
+isolate the still-open complete complexity of its idempotents. B183/NG147
+show that unit-denominator complexity is irrelevant to conormal detection;
+G116 narrows the active effective obstruction to bounded full-incidence
+numerators and their required vanishing jets.
 Green checks certify consistency and those
 finite arithmetic subcalculations only; they are not evidence for the
 conjecture.

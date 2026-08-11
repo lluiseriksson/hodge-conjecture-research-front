@@ -45,3 +45,12 @@ also retain the uniform node matroid, adjoint defect, primitive ambient
 image, rational type \((0,0)\), and specified nonzero pairing.
 
 No effective bound satisfying these conditions is currently known.
+
+## Correction after B183
+
+For the conormal-order application, item 4 is stronger than necessary.
+Once the separator differences are certified to be units, B183 permits
+clearing them without expanding their inverses. G116 replaces the
+conormal part of this gate by a numerator-only degree bound. Full
+idempotent complexity remains relevant only if another comparison needs
+the idempotents themselves.

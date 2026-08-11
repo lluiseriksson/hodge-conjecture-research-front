@@ -588,6 +588,26 @@ separation alone do not do this: the rank-two algebra with roots
 \(y^m,1\) has the same central split for all \(m\), while its idempotents
 contain \((1-y^m)^{-1}\) and first vary in order \(m\).
 
+B183 removes an overstrong part of that gate for the conormal application.
+If a labelled escape generator is \(\epsilon_i=n_i/h_i\) with \(h_i\) a
+unit, then \((\epsilon_i)=(n_i)\) and
+
+\[
+ d n_i\equiv h_i\,d\epsilon_i\pmod {K_B\Omega^1}.
+\]
+
+Thus neither vanishing nor the first nonzero order of the conormal defect
+depends on expanding \(h_i^{-1}\). NG147 records the exact counterexample
+\(y/(1-y^m)\): its inverse unit first varies in order \(m\), but its
+conormal defect is visible in order zero. NG146 remains valid for complete
+idempotent complexity, but not as a conormal-order obstruction.
+
+The corrected active effective gate is G116: certify every cleared
+denominator is a unit, construct and bound the resulting labelled
+numerators through the full incidence, and prove their conormal rows vanish
+through B180's degree-controlled order. No such numerator bound, jet
+vanishing theorem, or detector is presently known.
+
 Two sufficient attacks feed G008:
 
 \[

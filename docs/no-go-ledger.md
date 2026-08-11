@@ -2791,3 +2791,26 @@
   track the characteristic polynomial, discriminant inverse, Hensel roots,
   and idempotents quantitatively. Conormal jets and detector clauses remain
   separate.
+
+## NG-147 - Unit-denominator complexity delays conormal detection
+
+- **Label:** NO-GO
+- **Route:** use arbitrarily late Taylor variation of a separator unit or
+  its inverse as an obstruction to a finite conormal-escape certificate.
+- **Valid input:** NG146 proves that fixed étale rank and fixed nonzero
+  central separator gaps do not bound the complete Taylor complexity of
+  labelled idempotents.
+- **Invalid inference:** the first nonzero conormal coefficient of an
+  escape ideal must occur as late as the first nonconstant coefficient of
+  a unit denominator.
+- **Precise obstruction:**
+  \(\epsilon_m=y/(1-y^m)\) has a unit denominator first varying in order
+  \(m\), but \((\epsilon_m)=(y)\) and its conormal defect is the nonzero
+  class \(dy\bmod y\), visible in order zero for every \(m\).
+- **Correction to NG146:** NG146 remains a valid obstruction to bounding
+  complete idempotent complexity from rank and central separation alone.
+  B183 shows it is not a conormal-order obstruction after unit clearing.
+- **Re-entry condition:** G116 must certify the denominators are units,
+  clear them, and bound the resulting numerator functions through the
+  full labelled incidence. The required conormal jets and every detector
+  clause remain separate.

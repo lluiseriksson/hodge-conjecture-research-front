@@ -755,6 +755,15 @@ generation from the controlled partitioned nodal locus is not proved.**
 - NG146 - NO-GO: rank and central separator gaps do not bound complexity;
   roots \(y^m,1\) give idempotents with \((1-y^m)^{-1}\) and arbitrarily
   late variation.
+- B183 - PROVED: multiplying labelled escape generators by arbitrary
+  analytic units preserves the escape ideal, conormal-defect vanishing,
+  and the first nonzero conormal order.
+- NG147 - NO-GO: late Taylor variation of a unit denominator does not
+  delay conormal detection; \(y/(1-y^m)\) still has defect \(dy\bmod y\)
+  in order zero.
+- G116 - EXPLORATORY: certify and clear the unit denominators, bound only
+  the full-incidence labelled numerators, and prove their degree-controlled
+  conormal jets vanish while retaining every detector clause.
 - Resource policy: B140 and every heavy or unbounded verification are
   excluded from the local Windows host; `verification/COLAB_PRO_PLUS.md`
   contains a pinned, time-bounded Colab Pro+ CPU/high-RAM cold-clone command.
@@ -1318,7 +1327,9 @@ generation from the controlled partitioned nodal locus is not proved.**
   datum. B181/G114 expose the preceding labelled étale splitting step;
   NG145 rules out the unlabelled resultant shortcut.
   B182 closes qualitative analytic splitting; G115/NG146 isolate its
-  unresolved effective degree and denominator audit.
+  unresolved complete idempotent complexity. B183/NG147 prove that unit
+  denominators do not control conormal order, and G116 narrows the active
+  effective gate to full-incidence numerator bounds and vanishing jets.
 - G030 - EXPLORATORY, stronger mechanism: collide the actual non-equator
   plane-net detector chain while preserving its exact primitive ambient
   class and rational type \((0,0)\).
